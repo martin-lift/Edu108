@@ -1,0 +1,51 @@
+{
+  "schema_version": 4,
+  "mission_id": "hardware-software-b",
+  "revision": "1",
+  "mission_content": {
+    "title": "Хардуер и софтуер",
+    "description": "Разпознаване на хардуер и софтуер чрез два въпроса.",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Компютърни системи",
+    "lesson": "Хардуер и софтуер",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content_id": 102,
+        "step_content": {
+          "type": "open_answer",
+          "title": "Входни устройства",
+          "instruction": "Посочи две входни устройства и обясни за какво служат.",
+          "instruction_format": "text"
+        },
+        "step_rules": {
+          "time_limit_seconds": 60,
+          "allow_ai_hint": false,
+          "send_progress": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content_id": 202,
+        "step_content": {
+          "type": "open_answer",
+          "title": "Операционна система",
+          "instruction": "Каква е ролята на операционната система? Дай пример.",
+          "instruction_format": "text"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "allow_ai_hint": false,
+          "send_progress": false,
+          "do_not_shuffle_answers": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": false,
+    "show_progress_panel": true
+  }
+}

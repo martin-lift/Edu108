@@ -1,0 +1,86 @@
+{
+  "schema_version": 4,
+  "mission_id": "lifelines-practice",
+  "revision": "1",
+  "mission_content": {
+    "title": "Мисия с помощ · Файлове",
+    "mission_type": "practice",
+    "content_format": "text",
+    "steps": [
+      {
+        "id": "choose",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Избери изображението",
+          "instruction": "Кое разширение е за изображение?",
+          "options": [
+            {
+              "id": "a",
+              "text": ".png"
+            },
+            {
+              "id": "b",
+              "text": ".txt"
+            },
+            {
+              "id": "c",
+              "text": ".mp3"
+            },
+            {
+              "id": "d",
+              "text": ".csv"
+            }
+          ],
+          "lifeline_data": {
+            "hint": {
+              "text": "Името на формата включва думата Graphics."
+            }
+          },
+          "correct_option_ids": [
+            "a"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "explain",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "Защо имената на файловете трябва да са ясни?",
+          "lifeline_data": {
+            "hint": {
+              "text": "Помисли как ще откриеш документа след месец."
+            }
+          }
+        },
+        "step_rules": {
+          "allowed_lifelines": [
+            "hint"
+          ]
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "lifelines": [
+      {
+        "id": "hint",
+        "label": "Подсказка",
+        "kind": "hint",
+        "scope": "step",
+        "uses": 1
+      },
+      {
+        "id": "fifty",
+        "label": "Премахни два варианта",
+        "kind": "eliminate_options",
+        "scope": "mission",
+        "uses": 1,
+        "params": {
+          "remove_count": 2
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schema_version": 4,
+  "mission_id": "timed-hardware-software",
+  "revision": "1",
+  "mission_content": {
+    "title": "Хардуер и софтуер — работа с време",
+    "description": "Две стъпки с по 30 секунди за отговор.",
+    "steps": [
+      {
+        "id": "hardware",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Хардуер",
+          "instruction": "Кое от изброените е хардуер?",
+          "options": [
+            {
+              "id": "keyboard",
+              "text": "Клавиатура"
+            },
+            {
+              "id": "browser",
+              "text": "Уеб браузър"
+            },
+            {
+              "id": "os",
+              "text": "Операционна система"
+            }
+          ],
+          "correct_option_ids": [
+            "keyboard"
+          ]
+        },
+        "step_rules": {
+          "time_limit_seconds": 30,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "software",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Софтуер",
+          "instruction": "Какво е софтуер? Дай един пример."
+        },
+        "step_rules": {
+          "time_limit_seconds": 30
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "show_progress_panel": true,
+    "allow_back_navigation": true
+  }
+}

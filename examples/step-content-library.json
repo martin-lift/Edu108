@@ -1,0 +1,172 @@
+[
+  {
+    "id": 101,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Определение за хардуер",
+      "instruction": "Какво е хардуер? Дай един пример.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 102,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Входни устройства",
+      "instruction": "Посочи две входни устройства и обясни за какво служат.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 103,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Изходни устройства",
+      "instruction": "Посочи две изходни устройства и обясни за какво служат.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 104,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Процесор",
+      "instruction": "Каква е основната роля на процесора в компютъра?",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 105,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Памет и съхранение",
+      "instruction": "Обясни една разлика между оперативна памет и устройство за съхранение.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 201,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Определение за софтуер",
+      "instruction": "Какво е софтуер? Дай един пример.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 202,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Операционна система",
+      "instruction": "Каква е ролята на операционната система? Дай пример.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 203,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Приложна програма",
+      "instruction": "Дай пример за приложна програма и обясни какво правиш с нея.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 204,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Уеб браузър",
+      "instruction": "За какво служи уеб браузърът?",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 205,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Обновяване на софтуера",
+      "instruction": "Защо е полезно програмите да се обновяват?",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 206,
+    "step_content": {
+      "type": "open_answer",
+      "title": "Системен и приложен софтуер",
+      "instruction": "Обясни разликата между системен и приложен софтуер с примери.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 301,
+    "step_content": {
+      "type": "information",
+      "title": "Въведение",
+      "instruction": "Хардуерът са физическите части на компютъра, а софтуерът — програмите.",
+      "instruction_format": "text"
+    }
+  },
+  {
+    "id": 302,
+    "step_content": {
+      "type": "single_choice",
+      "title": "Разпознай хардуера",
+      "instruction": "Кое от изброените е хардуер?",
+      "instruction_format": "text",
+      "options": [
+        {
+          "id": "keyboard",
+          "text": "Клавиатура"
+        },
+        {
+          "id": "browser",
+          "text": "Уеб браузър"
+        },
+        {
+          "id": "os",
+          "text": "Операционна система"
+        }
+      ],
+      "correct_option_ids": [
+        "keyboard"
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "step_content": {
+      "type": "multiple_choice",
+      "title": "Входни устройства",
+      "instruction": "Отбележи входните устройства.",
+      "instruction_format": "text",
+      "options": [
+        {
+          "id": "keyboard",
+          "text": "Клавиатура"
+        },
+        {
+          "id": "mouse",
+          "text": "Мишка"
+        },
+        {
+          "id": "monitor",
+          "text": "Монитор"
+        }
+      ],
+      "correct_option_ids": [
+        "keyboard",
+        "mouse"
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "step_content": {
+      "type": "file",
+      "title": "Кратък документ",
+      "instruction": "Създай документ с два примера за хардуер и два за софтуер. Приложи файла.",
+      "instruction_format": "text"
+    }
+  }
+]

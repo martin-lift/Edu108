@@ -1,0 +1,47 @@
+{
+  "title": "Хардуер и софтуер",
+  "description": "Разпознаване на хардуер и софтуер чрез два въпроса.",
+  "class_name": "8. клас",
+  "subject": "Информационни технологии",
+  "category": "Компютърни системи",
+  "lesson": "Хардуер и софтуер",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "steps": [
+    {
+      "title": "Хардуер",
+      "step_rules": {
+        "time_limit_seconds": 30,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        101,
+        102,
+        103,
+        104,
+        105
+      ]
+    },
+    {
+      "title": "Софтуер",
+      "step_rules": {
+        "time_limit_seconds": 30,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ]
+    }
+  ]
+}

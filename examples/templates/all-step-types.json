@@ -1,0 +1,74 @@
+{
+  "title": "Хардуер и софтуер — всички типове стъпки",
+  "description": "Запознаване с петте типа стъпки в Student108.",
+  "class_name": "",
+  "subject": "",
+  "category": "",
+  "lesson": "",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "steps": [
+    {
+      "title": "Въведение",
+      "step_rules": {
+        "time_limit_seconds": 0,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        301
+      ]
+    },
+    {
+      "title": "Определение за хардуер",
+      "step_rules": {
+        "time_limit_seconds": 0,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        101
+      ]
+    },
+    {
+      "title": "Разпознай хардуера",
+      "step_rules": {
+        "time_limit_seconds": 0,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": true
+      },
+      "variants": [
+        302
+      ]
+    },
+    {
+      "title": "Входни устройства",
+      "step_rules": {
+        "time_limit_seconds": 0,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        303
+      ]
+    },
+    {
+      "title": "Кратък документ",
+      "step_rules": {
+        "time_limit_seconds": 0,
+        "allow_ai_hint": false,
+        "send_progress": false,
+        "do_not_shuffle_answers": false
+      },
+      "variants": [
+        304
+      ]
+    }
+  ]
+}

@@ -1,0 +1,716 @@
+{
+  "schema_version": 4,
+  "mission_id": "stani-bogat-digital-01",
+  "revision": "1",
+  "mission_content": {
+    "title": "Стани богат · Дигитален свят",
+    "mission_type": "millionaire",
+    "content_format": "text",
+    "persistent_text": "15 въпроса · 3 жокера · Сигурни нива 5 и 10 · Учебни точки, без парични награди",
+    "steps": [
+      {
+        "id": "q01",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 1",
+          "instruction": "Кое е входно устройство?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Монитор"
+            },
+            {
+              "id": "b",
+              "text": "Клавиатура"
+            },
+            {
+              "id": "c",
+              "text": "Принтер"
+            },
+            {
+              "id": "d",
+              "text": "Тонколона"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Помисли с кое устройство въвеждаш букви в компютъра."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 70,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "b"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q02",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 2",
+          "instruction": "За какво служи папката?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Да организира файлове"
+            },
+            {
+              "id": "b",
+              "text": "Да увеличава скоростта на интернет"
+            },
+            {
+              "id": "c",
+              "text": "Да изключва монитора"
+            },
+            {
+              "id": "d",
+              "text": "Да зарежда батерията"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Папката прилича на място, в което подреждаш документи."
+            },
+            "audience": {
+              "weights": {
+                "a": 70,
+                "b": 10,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "a"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q03",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 3",
+          "instruction": "Коя клавишна комбинация обикновено копира избрания текст в Windows?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ctrl + V"
+            },
+            {
+              "id": "b",
+              "text": "Ctrl + X"
+            },
+            {
+              "id": "c",
+              "text": "Ctrl + Z"
+            },
+            {
+              "id": "d",
+              "text": "Ctrl + C"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Английската дума за копиране е Copy."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 10,
+                "d": 70
+              }
+            }
+          },
+          "correct_option_ids": [
+            "d"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q04",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 4",
+          "instruction": "Кое разширение обикновено обозначава изображение?",
+          "options": [
+            {
+              "id": "a",
+              "text": ".txt"
+            },
+            {
+              "id": "b",
+              "text": ".csv"
+            },
+            {
+              "id": "c",
+              "text": ".png"
+            },
+            {
+              "id": "d",
+              "text": ".mp3"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "PNG е съкращение от Portable Network Graphics."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 70,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "c"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q05",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 5",
+          "instruction": "Кое от изброените е уеббраузър?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Excel"
+            },
+            {
+              "id": "b",
+              "text": "Firefox"
+            },
+            {
+              "id": "c",
+              "text": "Paint"
+            },
+            {
+              "id": "d",
+              "text": "Notepad"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Търсиш програма за отваряне на уебстраници."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 70,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "b"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q06",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 6",
+          "instruction": "Коя практика най-добре ограничава последствията от изтичане на една парола?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Една парола навсякъде"
+            },
+            {
+              "id": "b",
+              "text": "Паролата е рождената дата"
+            },
+            {
+              "id": "c",
+              "text": "Различна парола за всяка услуга"
+            },
+            {
+              "id": "d",
+              "text": "Паролата е записана публично"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Ако един ключ бъде откраднат, не бива да отключва всички врати."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 70,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "c"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q07",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 7",
+          "instruction": "Писмо настоява спешно да въведеш паролата си в непознат сайт. Какъв риск подсказва това?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Фишинг"
+            },
+            {
+              "id": "b",
+              "text": "Компресиране"
+            },
+            {
+              "id": "c",
+              "text": "Форматиране"
+            },
+            {
+              "id": "d",
+              "text": "Архивиране"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Измамникът може да се представя за позната организация, за да получи данни."
+            },
+            "audience": {
+              "weights": {
+                "a": 70,
+                "b": 10,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "a"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q08",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 8",
+          "instruction": "С кой знак обикновено започва формула в Excel?",
+          "options": [
+            {
+              "id": "a",
+              "text": "#"
+            },
+            {
+              "id": "b",
+              "text": "@"
+            },
+            {
+              "id": "c",
+              "text": "&"
+            },
+            {
+              "id": "d",
+              "text": "="
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Формулата казва на клетката да изчисли стойност."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 10,
+                "d": 70
+              }
+            }
+          },
+          "correct_option_ids": [
+            "d"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q09",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 9",
+          "instruction": "Колко различни стойности може да има един бит?",
+          "options": [
+            {
+              "id": "a",
+              "text": "1"
+            },
+            {
+              "id": "b",
+              "text": "2"
+            },
+            {
+              "id": "c",
+              "text": "8"
+            },
+            {
+              "id": "d",
+              "text": "10"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Един бит е или 0, или 1."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 70,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "b"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q10",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 10",
+          "instruction": "На кое десетично число е равно двоичното 1010?",
+          "options": [
+            {
+              "id": "a",
+              "text": "8"
+            },
+            {
+              "id": "b",
+              "text": "9"
+            },
+            {
+              "id": "c",
+              "text": "10"
+            },
+            {
+              "id": "d",
+              "text": "12"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Използвай разрядите 8, 4, 2 и 1: събери само тези с единица."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 70,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "c"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q11",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 11",
+          "instruction": "Какво означава компресия със загуба, използвана обичайно при JPEG?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Част от информацията се премахва необратимо"
+            },
+            {
+              "id": "b",
+              "text": "Файлът винаги се поврежда"
+            },
+            {
+              "id": "c",
+              "text": "Размерът винаги нараства"
+            },
+            {
+              "id": "d",
+              "text": "Запазва се всяка първоначална стойност"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "По-малкият размер се постига с отказ от част от детайлите."
+            },
+            "audience": {
+              "weights": {
+                "a": 70,
+                "b": 10,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "a"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q12",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 12",
+          "instruction": "Какво гарантира HTTPS при правилно установена връзка?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Че съдържанието е вярно"
+            },
+            {
+              "id": "b",
+              "text": "Че сайтът никога не е измамен"
+            },
+            {
+              "id": "c",
+              "text": "Че изтеглените файлове са безопасни"
+            },
+            {
+              "id": "d",
+              "text": "Криптиране на данните при преноса"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Защитеният канал не е оценка на достоверността на съдържанието."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 10,
+                "d": 70
+              }
+            }
+          },
+          "correct_option_ids": [
+            "d"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q13",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 13",
+          "instruction": "Кое е необходимо условие за стандартно двоично търсене в масив?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Всички стойности да са еднакви"
+            },
+            {
+              "id": "b",
+              "text": "Елементите да са подредени"
+            },
+            {
+              "id": "c",
+              "text": "Масивът да е с четна дължина"
+            },
+            {
+              "id": "d",
+              "text": "Да съдържа само букви"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Методът изхвърля половината кандидати според сравнението със средния елемент."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 70,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "b"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q14",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 14",
+          "instruction": "Какво прави WHERE в SQL заявка SELECT?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Подрежда колоните"
+            },
+            {
+              "id": "b",
+              "text": "Изтрива таблицата"
+            },
+            {
+              "id": "c",
+              "text": "Филтрира редовете по условие"
+            },
+            {
+              "id": "d",
+              "text": "Създава нова база данни"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "Избираш кои редове отговарят на зададено условие."
+            },
+            "audience": {
+              "weights": {
+                "a": 10,
+                "b": 10,
+                "c": 70,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "c"
+          ]
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "q15",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Въпрос 15",
+          "instruction": "В Python: a = [[1]]; b = a.copy(); b[0].append(2). Каква е стойността на a?",
+          "options": [
+            {
+              "id": "a",
+              "text": "[[1, 2]]"
+            },
+            {
+              "id": "b",
+              "text": "[[1]]"
+            },
+            {
+              "id": "c",
+              "text": "[1, 2]"
+            },
+            {
+              "id": "d",
+              "text": "Възниква грешка"
+            }
+          ],
+          "lifeline_data": {
+            "friend": {
+              "text": "copy() прави плитко копие: вътрешният списък остава споделен."
+            },
+            "audience": {
+              "weights": {
+                "a": 70,
+                "b": 10,
+                "c": 10,
+                "d": 10
+              }
+            }
+          },
+          "correct_option_ids": [
+            "a"
+          ]
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "show_progress_panel": false,
+    "allow_back_navigation": false,
+    "game": {
+      "ladder": [
+        100,
+        150,
+        200,
+        250,
+        300,
+        500,
+        750,
+        1000,
+        1500,
+        2500,
+        5000,
+        10000,
+        20000,
+        50000,
+        100000
+      ],
+      "safe_levels": [
+        5,
+        10
+      ],
+      "unit": "точки",
+      "allow_walk_away": true
+    },
+    "lifelines": [
+      {
+        "id": "fifty",
+        "kind": "eliminate_options",
+        "label": "50:50",
+        "scope": "mission",
+        "uses": 1,
+        "params": {
+          "remove_count": 2
+        }
+      },
+      {
+        "id": "audience",
+        "kind": "audience_poll",
+        "label": "Помощ от публиката",
+        "scope": "mission",
+        "uses": 1
+      },
+      {
+        "id": "friend",
+        "kind": "hint",
+        "label": "Обади се на приятел",
+        "scope": "mission",
+        "uses": 1,
+        "params": {
+          "simulated": true
+        }
+      }
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 {
-  "schema_version": 4,
+  "mission_version": 4,
   "mission_id": "stani-bogat-digital-01",
-  "revision": "1",
   "mission_content": {
     "title": "Стани богат · Дигитален свят",
     "mission_type": "millionaire",

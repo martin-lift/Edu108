@@ -1,7 +1,6 @@
 {
-  "schema_version": 4,
+  "mission_version": 4,
   "mission_id": "timed-hardware-software",
-  "revision": "1",
   "mission_content": {
     "title": "Хардуер и софтуер — работа с време",
     "description": "Две стъпки с по 30 секунди за отговор.",

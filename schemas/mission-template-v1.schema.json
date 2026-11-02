@@ -1,0 +1,287 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/martin-lift/Learn108/main/schemas/mission-template-v1.schema.json",
+  "title": "Learn108 Mission Template, template_version 1",
+  "$comment": "Additional semantic checks: unique step_contents IDs, every variant resolves inside this document, no unused content, unique normalized option IDs, correct IDs belong to options. Reject duplicate JSON keys, non-finite numbers and files larger than 5 MB.",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "template_version": {
+      "type": "integer",
+      "const": 1
+    },
+    "record_type": {
+      "const": "mission_template"
+    },
+    "title": {
+      "type": "string",
+      "maxLength": 300,
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 20000,
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "class_name": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "subject": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "category": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "lesson": {
+      "type": "string",
+      "maxLength": 300
+    },
+    "mission_rules": {
+      "$ref": "#/$defs/mission_rules"
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 1000,
+      "items": {
+        "$ref": "#/$defs/step"
+      }
+    },
+    "step_contents": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 10000,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "step_content": {
+            "$ref": "#/$defs/step_content"
+          }
+        },
+        "required": [
+          "id",
+          "step_content"
+        ]
+      }
+    }
+  },
+  "required": [
+    "template_version",
+    "record_type",
+    "title",
+    "description",
+    "mission_rules",
+    "steps",
+    "step_contents"
+  ],
+  "$defs": {
+    "mission_rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "allow_back_navigation": {
+          "type": "boolean",
+          "default": true
+        },
+        "show_progress_panel": {
+          "type": "boolean",
+          "default": true
+        }
+      },
+      "required": []
+    },
+    "step_rules": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "time_limit_seconds": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 86400,
+          "default": 0
+        },
+        "allow_ai_hint": {
+          "type": "boolean",
+          "default": false
+        },
+        "send_progress": {
+          "type": "boolean",
+          "default": false
+        },
+        "do_not_shuffle_answers": {
+          "type": "boolean",
+          "default": false
+        }
+      },
+      "required": []
+    },
+    "step": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "title": {
+          "type": "string",
+          "maxLength": 300,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "step_rules": {
+          "$ref": "#/$defs/step_rules"
+        },
+        "variants": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10000,
+          "uniqueItems": true,
+          "items": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      },
+      "required": [
+        "title",
+        "step_rules",
+        "variants"
+      ]
+    },
+    "step_content": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "enum": [
+            "information",
+            "open_answer",
+            "single_choice",
+            "multiple_choice",
+            "file"
+          ]
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 300,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "instruction": {
+          "type": "string",
+          "maxLength": 20000,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "instruction_format": {
+          "enum": [
+            "text",
+            "html"
+          ],
+          "default": "text"
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 30,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "string",
+                "maxLength": 100,
+                "minLength": 1,
+                "pattern": "\\S"
+              },
+              "text": {
+                "type": "string",
+                "maxLength": 2000,
+                "minLength": 1,
+                "pattern": "\\S"
+              }
+            },
+            "required": [
+              "id",
+              "text"
+            ]
+          }
+        },
+        "correct_option_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "\\S"
+          }
+        }
+      },
+      "required": [
+        "type",
+        "title",
+        "instruction"
+      ],
+      "oneOf": [
+        {
+          "properties": {
+            "type": {
+              "enum": [
+                "information",
+                "open_answer",
+                "file"
+              ]
+            }
+          },
+          "not": {
+            "anyOf": [
+              {
+                "required": [
+                  "options"
+                ]
+              },
+              {
+                "required": [
+                  "correct_option_ids"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "single_choice"
+            },
+            "correct_option_ids": {
+              "maxItems": 1
+            }
+          },
+          "required": [
+            "options",
+            "correct_option_ids"
+          ]
+        },
+        {
+          "properties": {
+            "type": {
+              "const": "multiple_choice"
+            }
+          },
+          "required": [
+            "options",
+            "correct_option_ids"
+          ]
+        }
+      ]
+    }
+  }
+}

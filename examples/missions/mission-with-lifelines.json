@@ -1,7 +1,6 @@
 {
-  "schema_version": 4,
+  "mission_version": 4,
   "mission_id": "lifelines-practice",
-  "revision": "1",
   "mission_content": {
     "title": "Мисия с помощ · Файлове",
     "mission_type": "practice",

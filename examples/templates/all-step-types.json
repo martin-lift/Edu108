@@ -1,4 +1,6 @@
 {
+  "template_version": 1,
+  "record_type": "mission_template",
   "title": "Хардуер и софтуер — всички типове стъпки",
   "description": "Запознаване с петте типа стъпки в Student108.",
   "class_name": "",
@@ -69,6 +71,88 @@
       "variants": [
         304
       ]
+    }
+  ],
+  "step_contents": [
+    {
+      "id": 101,
+      "step_content": {
+        "type": "open_answer",
+        "title": "Определение за хардуер",
+        "instruction": "Какво е хардуер? Дай един пример.",
+        "instruction_format": "text"
+      }
+    },
+    {
+      "id": 301,
+      "step_content": {
+        "type": "information",
+        "title": "Въведение",
+        "instruction": "Хардуерът са физическите части на компютъра, а софтуерът — програмите.",
+        "instruction_format": "text"
+      }
+    },
+    {
+      "id": 302,
+      "step_content": {
+        "type": "single_choice",
+        "title": "Разпознай хардуера",
+        "instruction": "Кое от изброените е хардуер?",
+        "instruction_format": "text",
+        "options": [
+          {
+            "id": "keyboard",
+            "text": "Клавиатура"
+          },
+          {
+            "id": "browser",
+            "text": "Уеб браузър"
+          },
+          {
+            "id": "os",
+            "text": "Операционна система"
+          }
+        ],
+        "correct_option_ids": [
+          "keyboard"
+        ]
+      }
+    },
+    {
+      "id": 303,
+      "step_content": {
+        "type": "multiple_choice",
+        "title": "Входни устройства",
+        "instruction": "Отбележи входните устройства.",
+        "instruction_format": "text",
+        "options": [
+          {
+            "id": "keyboard",
+            "text": "Клавиатура"
+          },
+          {
+            "id": "mouse",
+            "text": "Мишка"
+          },
+          {
+            "id": "monitor",
+            "text": "Монитор"
+          }
+        ],
+        "correct_option_ids": [
+          "keyboard",
+          "mouse"
+        ]
+      }
+    },
+    {
+      "id": 304,
+      "step_content": {
+        "type": "file",
+        "title": "Кратък документ",
+        "instruction": "Създай документ с два примера за хардуер и два за софтуер. Приложи файла.",
+        "instruction_format": "text"
+      }
     }
   ]
 }

@@ -1,7 +1,6 @@
 {
-  "schema_version": 4,
+  "mission_version": 4,
   "mission_id": "hardware-software-b",
-  "revision": "1",
   "mission_content": {
     "title": "Хардуер и софтуер",
     "description": "Разпознаване на хардуер и софтуер чрез два въпроса.",

@@ -49,9 +49,13 @@ def main():
             if schema_validator:
                 schema_validator.validate(read(path))
             template = parse_template_json(path.read_text(encoding='utf-8'))
-            identifier = store.import_template(template)
+            source_text = path.read_text(encoding='utf-8')
+            identifier = store.import_template(template, source=source_text)
+            if template['template_type'] == 'millionaire':
+                assert store.load_document(identifier)['document'] == source_text, path
+                continue
             restored = store.load(identifier)
-            for key in ('title', 'description', 'class_name', 'subject', 'category', 'lesson', 'mission_rules'):
+            for key in ('template_type', 'title', 'description', 'class_name', 'subject', 'category', 'lesson', 'mission_rules'):
                 assert restored[key] == template[key], (path, key)
             source = {row['id']: row['step_content'] for row in template['step_contents']}
             for old, new in zip(template['steps'], restored['steps']):

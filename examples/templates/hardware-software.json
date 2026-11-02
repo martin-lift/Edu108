@@ -1,5 +1,6 @@
 {
   "template_version": 1,
+  "template_type": "standard",
   "record_type": "mission_template",
   "title": "Хардуер и софтуер",
   "description": "Разпознаване на хардуер и софтуер чрез два въпроса.",

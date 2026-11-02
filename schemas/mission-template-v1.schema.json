@@ -2,88 +2,6 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://raw.githubusercontent.com/martin-lift/Learn108/main/schemas/mission-template-v1.schema.json",
   "title": "Learn108 Mission Template, template_version 1",
-  "$comment": "Additional semantic checks: unique step_contents IDs, every variant resolves inside this document, no unused content, unique normalized option IDs, correct IDs belong to options. Reject duplicate JSON keys, non-finite numbers and files larger than 5 MB.",
-  "type": "object",
-  "additionalProperties": false,
-  "properties": {
-    "template_version": {
-      "type": "integer",
-      "const": 1
-    },
-    "record_type": {
-      "const": "mission_template"
-    },
-    "title": {
-      "type": "string",
-      "maxLength": 300,
-      "minLength": 1,
-      "pattern": "\\S"
-    },
-    "description": {
-      "type": "string",
-      "maxLength": 20000,
-      "minLength": 1,
-      "pattern": "\\S"
-    },
-    "class_name": {
-      "type": "string",
-      "maxLength": 300
-    },
-    "subject": {
-      "type": "string",
-      "maxLength": 300
-    },
-    "category": {
-      "type": "string",
-      "maxLength": 300
-    },
-    "lesson": {
-      "type": "string",
-      "maxLength": 300
-    },
-    "mission_rules": {
-      "$ref": "#/$defs/mission_rules"
-    },
-    "steps": {
-      "type": "array",
-      "minItems": 1,
-      "maxItems": 1000,
-      "items": {
-        "$ref": "#/$defs/step"
-      }
-    },
-    "step_contents": {
-      "type": "array",
-      "minItems": 1,
-      "maxItems": 10000,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "id": {
-            "type": "integer",
-            "minimum": 1
-          },
-          "step_content": {
-            "$ref": "#/$defs/step_content"
-          }
-        },
-        "required": [
-          "id",
-          "step_content"
-        ]
-      }
-    }
-  },
-  "required": [
-    "template_version",
-    "record_type",
-    "title",
-    "description",
-    "mission_rules",
-    "steps",
-    "step_contents"
-  ],
   "$defs": {
     "mission_rules": {
       "type": "object",
@@ -283,5 +201,216 @@
         }
       ]
     }
-  }
+  },
+  "$comment": "template_type is required. Standard: validate relations, unique IDs and options in addition to this schema. Millionaire: only the common envelope is validated; preserve the full document, including additional game fields; gameplay readiness is not validated. Both: reject duplicate JSON keys, invalid Unicode, non-finite numbers, and documents over 5 MB.",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "template_version": {
+          "type": "integer",
+          "const": 1
+        },
+        "record_type": {
+          "const": "mission_template"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 300,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 20000,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "class_name": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "subject": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "category": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "lesson": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "mission_rules": {
+          "$ref": "#/$defs/mission_rules"
+        },
+        "steps": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 1000,
+          "items": {
+            "$ref": "#/$defs/step"
+          }
+        },
+        "step_contents": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 10000,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "id": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "step_content": {
+                "$ref": "#/$defs/step_content"
+              }
+            },
+            "required": [
+              "id",
+              "step_content"
+            ]
+          }
+        },
+        "template_type": {
+          "const": "standard"
+        }
+      },
+      "required": [
+        "template_version",
+        "record_type",
+        "title",
+        "description",
+        "mission_rules",
+        "steps",
+        "step_contents",
+        "template_type"
+      ],
+      "title": "Standard template: Wizard 1 and structured storage"
+    },
+    {
+      "title": "Millionaire template: envelope validation and whole JSON storage",
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "template_version": {
+          "type": "integer",
+          "const": 1
+        },
+        "record_type": {
+          "const": "mission_template"
+        },
+        "title": {
+          "type": "string",
+          "maxLength": 300,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "description": {
+          "type": "string",
+          "maxLength": 20000,
+          "minLength": 1,
+          "pattern": "\\S"
+        },
+        "class_name": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "subject": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "category": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "lesson": {
+          "type": "string",
+          "maxLength": 300
+        },
+        "template_type": {
+          "const": "millionaire"
+        },
+        "mission_rules": {
+          "type": "object"
+        },
+        "steps": {
+          "type": "array"
+        },
+        "step_contents": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "template_version",
+        "template_type",
+        "record_type",
+        "title",
+        "description"
+      ],
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "id"
+            ]
+          },
+          {
+            "required": [
+              "teacher_id"
+            ]
+          },
+          {
+            "required": [
+              "created_at"
+            ]
+          },
+          {
+            "required": [
+              "updated_at"
+            ]
+          },
+          {
+            "required": [
+              "schema_version"
+            ]
+          },
+          {
+            "required": [
+              "revision"
+            ]
+          },
+          {
+            "required": [
+              "mission_version"
+            ]
+          },
+          {
+            "required": [
+              "mission_id"
+            ]
+          },
+          {
+            "required": [
+              "mission_content"
+            ]
+          },
+          {
+            "required": [
+              "mission_snapshot"
+            ]
+          },
+          {
+            "required": [
+              "student"
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

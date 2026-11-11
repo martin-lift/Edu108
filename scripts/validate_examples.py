@@ -43,7 +43,7 @@ def main():
         assert validate_content(value) == value
 
     templates = sorted((ROOT / 'examples/templates').glob('*.json'))
-    with tempfile.TemporaryDirectory(prefix='learn108-examples-') as directory:
+    with tempfile.TemporaryDirectory(prefix='edu108-examples-') as directory:
         store = TemplateStore(Path(directory) / 'templates.sqlite3', teacher_id=1)
         for path in templates:
             if schema_validator:

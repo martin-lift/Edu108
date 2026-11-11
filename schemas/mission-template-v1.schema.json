@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/martin-lift/Learn108/main/schemas/mission-template-v1.schema.json",
+  "$id": "https://raw.githubusercontent.com/martin-lift/Edu108/main/schemas/mission-template-v1.schema.json",
   "title": "Edu108 Mission Template, template_version 1",
   "$defs": {
     "mission_rules": {

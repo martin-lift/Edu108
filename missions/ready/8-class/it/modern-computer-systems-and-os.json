@@ -1302,7 +1302,7 @@
         "step_content": {
           "type": "information",
           "title": "24. Карти и функции",
-          "instruction": "<h2>Карти и функции</h2><p>Видеокартата обработва графиката, звуковият адаптер обслужва звука, а мрежовият адаптер — връзката към мрежа. Някои функции са вградени, други се осигуряват от отделни карти.</p>",
+          "instruction": "<h2>Карти и функции</h2><p>Видеокартата обработва графиката, звуковият адаптер обслужва звука, а мрежовият адаптер — връзката към мрежа. Някои функции са вградени, други се осигуряват от отделни карти.</p><p><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sound%20card.jpg?width=640\" width=\"480\" alt=\"Звукова карта PCI\"></p><p>Звукова карта PCI. Usamasaad; <a href=\"https://commons.wikimedia.org/wiki/File:Sound_card.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Без изменения.</p><p><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Network%20card.jpg?width=640\" width=\"480\" alt=\"По-стара мрежова карта с два вида конектори\"></p><p>По-стара мрежова карта с два вида конектори. Nixdorf; <a href=\"https://commons.wikimedia.org/wiki/File:Network_card.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Без изменения.</p>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -1358,7 +1358,7 @@
         "step_content": {
           "type": "information",
           "title": "25. Постоянно съхранение",
-          "instruction": "<h2>Постоянно съхранение</h2><p>HDD и SSD пазят файловете и след изключване. HDD използва магнитни дискове, а SSD — електронна памет. Те имат различна роля от оперативната RAM.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"На схемата №8 е твърд диск, а №7 — оптично устройство.\"></a></p><p>На схемата №8 е твърд диск, а №7 — оптично устройство. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction": "<h2>Постоянно съхранение</h2><p>HDD и SSD пазят файловете и след изключване. HDD използва магнитни дискове, а SSD — електронна памет. Те имат различна роля от оперативната RAM.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"На схемата №8 е твърд диск, а №7 — оптично устройство.\"></a></p><p>На схемата №8 е твърд диск, а №7 — оптично устройство. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p><p><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Sf-ssd.jpg?width=640\" width=\"480\" alt=\"SSD с интерфейс SATA\"></p><p>SSD с интерфейс SATA. Hans Haase; <a href=\"https://commons.wikimedia.org/wiki/File:Sf-ssd.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>. Без изменения.</p>",
           "instruction_format": "html"
         },
         "step_rules": {

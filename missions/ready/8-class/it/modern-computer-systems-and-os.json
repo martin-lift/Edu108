@@ -1,0 +1,3042 @@
+{
+  "mission_version": 4,
+  "mission_id": "modern-computer-systems-and-os-8-20261113",
+  "mission_content": {
+    "title": "Съвременни компютърни системи и операционни системи",
+    "description": "Обучителна мисия по двата урока, стр. 21–25 от учебника на Домино: кратки обяснения, последвани от въпрос с шест отговора и обратна връзка. Изображенията изискват интернет. Текстът е самостоятелно преразказан по предоставените страници.",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Компютърни системи",
+    "lesson": "Съвременни компютърни системи; Съвременни операционни системи",
+    "steps": [
+      {
+        "id": "learn-1",
+        "step_content": {
+          "type": "information",
+          "title": "1. Компютърната система",
+          "instruction": "<h2>Компютърната система</h2><p>Компютърната система обединява хардуер, софтуер и хората, които работят с нея. Хардуерът са физическите устройства, а софтуерът са програмите.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"Компютър: 1 монитор; 2 дънна платка; 3 процесор; 4 RAM; 5 слотове и карти; 6 захранване; 7 оптично устройство; 8 твърд диск; 9 мишка; 10 клавиатура.\"></a></p><p>Компютър: 1 монитор; 2 дънна платка; 3 процесор; 4 RAM; 5 слотове и карти; 6 захранване; 7 оптично устройство; 8 твърд диск; 9 мишка; 10 клавиатура. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-1",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Компютърната система",
+          "instruction": "Кое описание включва трите части?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Устройства, програми и хора"
+            },
+            {
+              "id": "a1",
+              "text": "Само процесор и памет"
+            },
+            {
+              "id": "a2",
+              "text": "Само програми"
+            },
+            {
+              "id": "a3",
+              "text": "Само хора"
+            },
+            {
+              "id": "a4",
+              "text": "Само интернет"
+            },
+            {
+              "id": "a5",
+              "text": "Само монитор"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Устройства, програми и хора. Компютърната система обединява хардуер, софтуер и хората, които работят с нея. Хардуерът са физическите устройства, а софтуерът са програмите."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-2",
+        "step_content": {
+          "type": "information",
+          "title": "2. Фон Нойман",
+          "instruction": "<h2>Фон Нойман</h2><p>Джон фон Нойман систематизира принципи за устройство на електронния компютър през 1946 г. Основните части са процесор, оперативна памет, входни и изходни устройства.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-2",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Фон Нойман",
+          "instruction": "Кое е част от тази архитектура?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Потребителски профил"
+            },
+            {
+              "id": "a2",
+              "text": "Социална мрежа"
+            },
+            {
+              "id": "a3",
+              "text": "Документ"
+            },
+            {
+              "id": "a4",
+              "text": "Лиценз"
+            },
+            {
+              "id": "a5",
+              "text": "Уеб адрес"
+            },
+            {
+              "id": "a0",
+              "text": "Оперативна памет"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Оперативна памет. Джон фон Нойман систематизира принципи за устройство на електронния компютър през 1946 г. Основните части са процесор, оперативна памет, входни и изходни устройства."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-3",
+        "step_content": {
+          "type": "information",
+          "title": "3. Програма в паметта",
+          "instruction": "<h2>Програма в паметта</h2><p>Програмата е последователност от инструкции. При архитектурата на Фон Нойман програмите и данните се съхраняват в паметта, а процесорът изпълнява инструкциите.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-3",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Програма в паметта",
+          "instruction": "Къде се съхраняват програмите и данните?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Само в монитора"
+            },
+            {
+              "id": "a3",
+              "text": "В клавишите"
+            },
+            {
+              "id": "a4",
+              "text": "В говорителя"
+            },
+            {
+              "id": "a5",
+              "text": "В кабела на принтера"
+            },
+            {
+              "id": "a0",
+              "text": "В паметта"
+            },
+            {
+              "id": "a1",
+              "text": "Само в мишката"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: В паметта. Програмата е последователност от инструкции. При архитектурата на Фон Нойман програмите и данните се съхраняват в паметта, а процесорът изпълнява инструкциите."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-4",
+        "step_content": {
+          "type": "information",
+          "title": "4. Двоично представяне",
+          "instruction": "<h2>Двоично представяне</h2><p>В електронния компютър информацията се представя двоично — чрез 0 и 1. Електронни схеми реализират обработката на тези стойности.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-4",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Двоично представяне",
+          "instruction": "Кои стойности се използват в двоичното представяне?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "А и Б"
+            },
+            {
+              "id": "a4",
+              "text": "Само 0"
+            },
+            {
+              "id": "a5",
+              "text": "Само 1"
+            },
+            {
+              "id": "a0",
+              "text": "0 и 1"
+            },
+            {
+              "id": "a1",
+              "text": "1 и 2"
+            },
+            {
+              "id": "a2",
+              "text": "0 и 9"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: 0 и 1. В електронния компютър информацията се представя двоично — чрез 0 и 1. Електронни схеми реализират обработката на тези стойности."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-5",
+        "step_content": {
+          "type": "information",
+          "title": "5. Процесор",
+          "instruction": "<h2>Процесор</h2><p>Централният процесор (CPU) изпълнява програмните инструкции и координира работата на компютъра. Той съдържа аритметично-логическо и управляващо устройство.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"Процесорът е означен с №3.\"></a></p><p>Процесорът е означен с №3. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-5",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Процесор",
+          "instruction": "Каква е основната задача на CPU?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Записва звук от въздуха"
+            },
+            {
+              "id": "a5",
+              "text": "Захранва контакта"
+            },
+            {
+              "id": "a0",
+              "text": "Изпълнява програмни инструкции"
+            },
+            {
+              "id": "a1",
+              "text": "Печата документи"
+            },
+            {
+              "id": "a2",
+              "text": "Показва изображение"
+            },
+            {
+              "id": "a3",
+              "text": "Въвежда текст"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Изпълнява програмни инструкции. Централният процесор (CPU) изпълнява програмните инструкции и координира работата на компютъра. Той съдържа аритметично-логическо и управляващо устройство."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-6",
+        "step_content": {
+          "type": "information",
+          "title": "6. Аритметично-логическо устройство",
+          "instruction": "<h2>Аритметично-логическо устройство</h2><p>АЛУ изпълнява аритметични операции като събиране и умножение и логически операции като сравняване на стойности.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-6",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Аритметично-логическо устройство",
+          "instruction": "Кой блок сравнява две числа?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Принтерът"
+            },
+            {
+              "id": "a0",
+              "text": "Аритметично-логическото устройство"
+            },
+            {
+              "id": "a1",
+              "text": "Мониторът"
+            },
+            {
+              "id": "a2",
+              "text": "Клавиатурата"
+            },
+            {
+              "id": "a3",
+              "text": "Захранването"
+            },
+            {
+              "id": "a4",
+              "text": "Мрежовият кабел"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Аритметично-логическото устройство. АЛУ изпълнява аритметични операции като събиране и умножение и логически операции като сравняване на стойности."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-7",
+        "step_content": {
+          "type": "information",
+          "title": "7. Управляващо устройство",
+          "instruction": "<h2>Управляващо устройство</h2><p>Управляващото устройство прочита инструкциите и подава сигнали към останалите части. То организира изпълнението, включително обмена между паметта и АЛУ.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-7",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Управляващо устройство",
+          "instruction": "Кой блок организира изпълнението на инструкциите?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Управляващото устройство"
+            },
+            {
+              "id": "a1",
+              "text": "Мишката"
+            },
+            {
+              "id": "a2",
+              "text": "Тонколоната"
+            },
+            {
+              "id": "a3",
+              "text": "Корпусът"
+            },
+            {
+              "id": "a4",
+              "text": "Вентилаторът"
+            },
+            {
+              "id": "a5",
+              "text": "Екранът"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Управляващото устройство. Управляващото устройство прочита инструкциите и подава сигнали към останалите части. То организира изпълнението, включително обмена между паметта и АЛУ."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-8",
+        "step_content": {
+          "type": "information",
+          "title": "8. Шини",
+          "instruction": "<h2>Шини</h2><p>Шините са електронни връзки, по които се предават данни и сигнали между компонентите. Ширината на шина показва колко бита могат да се пренасят паралелно.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-8",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Шини",
+          "instruction": "Какво означава ширина 32 бита?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Има 32 монитора"
+            },
+            {
+              "id": "a2",
+              "text": "Компютърът тежи 32 kg"
+            },
+            {
+              "id": "a3",
+              "text": "Има 32 програми"
+            },
+            {
+              "id": "a4",
+              "text": "Дискът е 32 инча"
+            },
+            {
+              "id": "a5",
+              "text": "Системата работи 32 минути"
+            },
+            {
+              "id": "a0",
+              "text": "Паралелно се пренасят 32 бита"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Паралелно се пренасят 32 бита. Шините са електронни връзки, по които се предават данни и сигнали между компонентите. Ширината на шина показва колко бита могат да се пренасят паралелно."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-9",
+        "step_content": {
+          "type": "information",
+          "title": "9. Регистри и кеш",
+          "instruction": "<h2>Регистри и кеш</h2><p>Регистрите са много малки и бързи места за данни в процесора. Кешът също е бърза памет: пази често нужни данни и инструкции и намалява чакането на оперативната памет.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-9",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Регистри и кеш",
+          "instruction": "Къде се пазят непосредствени междинни резултати в процесора?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "В говорителите"
+            },
+            {
+              "id": "a3",
+              "text": "В екрана"
+            },
+            {
+              "id": "a4",
+              "text": "В клавишите"
+            },
+            {
+              "id": "a5",
+              "text": "В интернет адреса"
+            },
+            {
+              "id": "a0",
+              "text": "В регистрите"
+            },
+            {
+              "id": "a1",
+              "text": "На хартия"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: В регистрите. Регистрите са много малки и бързи места за данни в процесора. Кешът също е бърза памет: пази често нужни данни и инструкции и намалява чакането на оперативната памет."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-10",
+        "step_content": {
+          "type": "information",
+          "title": "10. Цикъл на процесора",
+          "instruction": "<h2>Цикъл на процесора</h2><p>Опростеният цикъл е: прочитане на инструкция от паметта, извличане на нужните данни, изпълнение, записване на резултата и преминаване към следващата инструкция.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-10",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Цикъл на процесора",
+          "instruction": "Какво следва след изпълнението в този опростен цикъл?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Печат на всяка инструкция"
+            },
+            {
+              "id": "a4",
+              "text": "Смяна на монитора"
+            },
+            {
+              "id": "a5",
+              "text": "Изтриване на операционната система"
+            },
+            {
+              "id": "a0",
+              "text": "Записване на резултата"
+            },
+            {
+              "id": "a1",
+              "text": "Изхвърляне на паметта"
+            },
+            {
+              "id": "a2",
+              "text": "Изключване на захранването"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Записване на резултата. Опростеният цикъл е: прочитане на инструкция от паметта, извличане на нужните данни, изпълнение, записване на резултата и преминаване към следващата инструкция."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-11",
+        "step_content": {
+          "type": "information",
+          "title": "11. Характеристики на процесора",
+          "instruction": "<h2>Характеристики на процесора</h2><p>Процесорите се описват с модел, тактова честота, кеш, разрядност и поддържани инструкции. Честотата се измерва в MHz или GHz. Само честотата не е достатъчна за сравнение на различни процесори.</p><p> Разрядността показва размера на обработваните думи или на определени регистри и пътища за данни; 64-битов процесор не означава автоматично 64 пъти по-бърз компютър.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-11",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Характеристики на процесора",
+          "instruction": "В какви единици се измерва тактовата честота?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Пиксели и точки"
+            },
+            {
+              "id": "a5",
+              "text": "Минути и часове"
+            },
+            {
+              "id": "a0",
+              "text": "MHz и GHz"
+            },
+            {
+              "id": "a1",
+              "text": "KB и MB"
+            },
+            {
+              "id": "a2",
+              "text": "Метри и километри"
+            },
+            {
+              "id": "a3",
+              "text": "Волтове и ампери"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: MHz и GHz. Процесорите се описват с модел, тактова честота, кеш, разрядност и поддържани инструкции. Честотата се измерва в MHz или GHz. Само честотата не е достатъчна за сравнение на различни процесори."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-12",
+        "step_content": {
+          "type": "information",
+          "title": "12. Оперативна памет",
+          "instruction": "<h2>Оперативна памет</h2><p>RAM пази програмите и данните, с които компютърът работи в момента. Обичайната RAM е енергозависима: съдържанието ѝ се губи при изключване на захранването.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"Модулите RAM са означени с №4.\"></a></p><p>Модулите RAM са означени с №4. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-12",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Оперативна памет",
+          "instruction": "Какво пази RAM по време на работа?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Само паролата за Wi-Fi"
+            },
+            {
+              "id": "a0",
+              "text": "Изпълняваните програми и използваните данни"
+            },
+            {
+              "id": "a1",
+              "text": "Само напечатани листове"
+            },
+            {
+              "id": "a2",
+              "text": "Само звуци извън компютъра"
+            },
+            {
+              "id": "a3",
+              "text": "Само изключени устройства"
+            },
+            {
+              "id": "a4",
+              "text": "Само електроенергия"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Изпълняваните програми и използваните данни. RAM пази програмите и данните, с които компютърът работи в момента. Обичайната RAM е енергозависима: съдържанието ѝ се губи при изключване на захранването."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-13",
+        "step_content": {
+          "type": "information",
+          "title": "13. Бит и байт",
+          "instruction": "<h2>Бит и байт</h2><p>Битът е най-малката единица информация и приема 0 или 1. Един байт съдържа 8 бита; комбинациите от битове позволяват кодиране на числа, текст и други данни.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-13",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Бит и байт",
+          "instruction": "Колко бита има в един байт?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "8"
+            },
+            {
+              "id": "a1",
+              "text": "2"
+            },
+            {
+              "id": "a2",
+              "text": "4"
+            },
+            {
+              "id": "a3",
+              "text": "10"
+            },
+            {
+              "id": "a4",
+              "text": "16"
+            },
+            {
+              "id": "a5",
+              "text": "64"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: 8. Битът е най-малката единица информация и приема 0 или 1. Един байт съдържа 8 бита; комбинациите от битове позволяват кодиране на числа, текст и други данни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-14",
+        "step_content": {
+          "type": "information",
+          "title": "14. Модули RAM",
+          "instruction": "<h2>Модули RAM</h2><p>Оперативната памет се поставя в модули с чипове. Важни характеристики са капацитетът, скоростта на обмен и времето за достъп. Капацитетът показва колко данни се побират.</p><p> Скоростта на обмен описва пренасянето на данни, а времето за достъп — колко се чака до получаването им. По-голям капацитет и по-ниско време за достъп са различни характеристики.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-14",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Модули RAM",
+          "instruction": "Коя характеристика показва количеството съхранявани данни?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Цветът на платката"
+            },
+            {
+              "id": "a2",
+              "text": "Броят на прозорците"
+            },
+            {
+              "id": "a3",
+              "text": "Размерът на екрана"
+            },
+            {
+              "id": "a4",
+              "text": "Силата на звука"
+            },
+            {
+              "id": "a5",
+              "text": "Името на файла"
+            },
+            {
+              "id": "a0",
+              "text": "Капацитетът"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Капацитетът. Оперативната памет се поставя в модули с чипове. Важни характеристики са капацитетът, скоростта на обмен и времето за достъп. Капацитетът показва колко данни се побират."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-15",
+        "step_content": {
+          "type": "information",
+          "title": "15. Единици за памет",
+          "instruction": "<h2>Единици за памет</h2><p>B означава байт. Десетичните KB, MB и GB означават съответно хиляда, милион и милиард байта. За двоични кратни се използват KiB, MiB и GiB; 1 KiB = 1024 B.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-15",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Единици за памет",
+          "instruction": "Колко байта е 1 KiB?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "100"
+            },
+            {
+              "id": "a3",
+              "text": "1000"
+            },
+            {
+              "id": "a4",
+              "text": "512"
+            },
+            {
+              "id": "a5",
+              "text": "2048"
+            },
+            {
+              "id": "a0",
+              "text": "1024"
+            },
+            {
+              "id": "a1",
+              "text": "8"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: 1024. B означава байт. Десетичните KB, MB и GB означават съответно хиляда, милион и милиард байта. За двоични кратни се използват KiB, MiB и GiB; 1 KiB = 1024 B."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-16",
+        "step_content": {
+          "type": "information",
+          "title": "16. Поколения компютри",
+          "instruction": "<h2>Поколения компютри</h2><p>Компютрите се разделят условно на поколения според електронните елементи, използвани при изграждането им. По-ранните машини с релета се отнасят към нулево поколение.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-16",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Поколения компютри",
+          "instruction": "По какво е направено това разделение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "По размера на бюрото"
+            },
+            {
+              "id": "a4",
+              "text": "По името на файла"
+            },
+            {
+              "id": "a5",
+              "text": "По вида на тапета"
+            },
+            {
+              "id": "a0",
+              "text": "По използваните електронни елементи"
+            },
+            {
+              "id": "a1",
+              "text": "По цвета на корпуса"
+            },
+            {
+              "id": "a2",
+              "text": "По езика на потребителя"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: По използваните електронни елементи. Компютрите се разделят условно на поколения според електронните елементи, използвани при изграждането им. По-ранните машини с релета се отнасят към нулево поколение."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-17",
+        "step_content": {
+          "type": "information",
+          "title": "17. Първо поколение",
+          "instruction": "<h2>Първо поколение</h2><p>В периодизацията на учебника първото поколение е 1949–1958 г. Основни елементи са електронните лампи. Машините са големи, отделят много топлина и консумират много енергия; въвеждането често използва перфокарти и перфоленти.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:IBMVacuumTubeModule.jpg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/IBMVacuumTubeModule.jpg?width=640\" width=\"480\" alt=\"Модул с електронни лампи от ранен IBM компютър.\"></a></p><p>Модул с електронни лампи от ранен IBM компютър. Изображение: Marcin Wichary; изрязване: Arnold Reinhold — <a href=\"https://commons.wikimedia.org/wiki/File:IBMVacuumTubeModule.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY/2.0</a>. Без изменения.</p><p> Учебникът посочва приблизително 2500 машини за периода и 5000–20000 операции в секунда. Те обикновено изпълняват една програма, заемат много място и имат ограничена памет.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-17",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Първо поколение",
+          "instruction": "Кой е характерният елемент на първото поколение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Оптичната мишка"
+            },
+            {
+              "id": "a5",
+              "text": "USB паметта"
+            },
+            {
+              "id": "a0",
+              "text": "Електронната лампа"
+            },
+            {
+              "id": "a1",
+              "text": "Микропроцесорът"
+            },
+            {
+              "id": "a2",
+              "text": "Сензорният екран"
+            },
+            {
+              "id": "a3",
+              "text": "SSD"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Електронната лампа. В периодизацията на учебника първото поколение е 1949–1958 г. Основни елементи са електронните лампи. Машините са големи, отделят много топлина и консумират много енергия; въвеждането често използва перфокарти и перфоленти."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-18",
+        "step_content": {
+          "type": "information",
+          "title": "18. Второ поколение",
+          "instruction": "<h2>Второ поколение</h2><p>Според учебника второто поколение е 1959–1963 г. Транзисторите заменят лампите: машините стават по-малки и по-икономични. Използват се магнитни дискове и езици за програмиране от по-високо ниво.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Transistor-photo.JPG\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Transistor-photo.JPG?width=640\" width=\"480\" alt=\"Различни транзистори.\"></a></p><p>Различни транзистори. Изображение: Honina — <a href=\"https://commons.wikimedia.org/wiki/File:Transistor-photo.JPG\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA/3.0</a>. Без изменения.</p><p> Посочената в учебника скорост е приблизително 200000–1000000 операции в секунда. Появяват се екрани с електроннолъчева тръба; размерите намаляват, но машините още са големи.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-18",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Второ поколение",
+          "instruction": "Какво заменя електронните лампи?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Тонколоните"
+            },
+            {
+              "id": "a0",
+              "text": "Транзисторите"
+            },
+            {
+              "id": "a1",
+              "text": "Мониторите"
+            },
+            {
+              "id": "a2",
+              "text": "Принтерите"
+            },
+            {
+              "id": "a3",
+              "text": "Клавишите"
+            },
+            {
+              "id": "a4",
+              "text": "Дискетите"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Транзисторите. Според учебника второто поколение е 1959–1963 г. Транзисторите заменят лампите: машините стават по-малки и по-икономични. Използват се магнитни дискове и езици за програмиране от по-високо ниво."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-19",
+        "step_content": {
+          "type": "information",
+          "title": "19. Трето поколение",
+          "instruction": "<h2>Трето поколение</h2><p>Учебникът отнася третото поколение към 1963–1970 г. Използват се интегрални схеми, обединяващи много електронни елементи. Развиват се операционните системи и работата с няколко програми.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Integrated_circuit_on_microchip.jpg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Integrated%20circuit%20on%20microchip.jpg?width=640\" width=\"480\" alt=\"Интегрална схема.\"></a></p><p>Интегрална схема. Изображение: Jon Sullivan — <a href=\"https://commons.wikimedia.org/wiki/File:Integrated_circuit_on_microchip.jpg\">източник</a>; обществено достояние. Без изменения.</p><p>Допълнителни материали: <a href=\"https://invention.si.edu/invention-stories/mother-all-demos\">Демонстрацията от 1968 г. — Smithsonian (английски)</a>. Външният материал е по желание; отговорът на следващия въпрос е в обяснението тук.</p><p> Учебникът дава ориентир около 10000000 операции в секунда и свързва периода с нови средства за общуване с компютъра. Границите между поколенията са условни.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-19",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Трето поколение",
+          "instruction": "Какво отличава третото поколение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Използването на интегрални схеми"
+            },
+            {
+              "id": "a1",
+              "text": "Връщането към релета"
+            },
+            {
+              "id": "a2",
+              "text": "Само ръчни изчисления"
+            },
+            {
+              "id": "a3",
+              "text": "Липсата на програми"
+            },
+            {
+              "id": "a4",
+              "text": "Премахването на паметта"
+            },
+            {
+              "id": "a5",
+              "text": "Използването само на лампи"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Използването на интегрални схеми. Учебникът отнася третото поколение към 1963–1970 г. Използват се интегрални схеми, обединяващи много електронни елементи. Развиват се операционните системи и работата с няколко програми."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-20",
+        "step_content": {
+          "type": "information",
+          "title": "20. Мишката",
+          "instruction": "<h2>Мишката</h2><p>През 60-те години е разработена ранната компютърна мишка. Движението ѝ служи за управление на показалец; това улеснява взаимодействието с екранните обекти.</p><p>Допълнителни материали: <a href=\"https://dougengelbart.org/content/view/162/6\">История на мишката — Doug Engelbart Institute (английски)</a>. Външният материал е по желание; отговорът на следващия въпрос е в обяснението тук.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-20",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Мишката",
+          "instruction": "Каква е ролята на мишката?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Изпълнява всички инструкции на CPU"
+            },
+            {
+              "id": "a2",
+              "text": "Пази операционната система"
+            },
+            {
+              "id": "a3",
+              "text": "Захранва монитора"
+            },
+            {
+              "id": "a4",
+              "text": "Печата изображения"
+            },
+            {
+              "id": "a5",
+              "text": "Охлажда паметта"
+            },
+            {
+              "id": "a0",
+              "text": "Въвежда действия за управление на показалеца"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Въвежда действия за управление на показалеца. През 60-те години е разработена ранната компютърна мишка. Движението ѝ служи за управление на показалец; това улеснява взаимодействието с екранните обекти."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-21",
+        "step_content": {
+          "type": "information",
+          "title": "21. Четвърто поколение",
+          "instruction": "<h2>Четвърто поколение</h2><p>От 1971 г. започва етапът на висока степен на интеграция и микропроцесорите. Много елементи се побират в малък чип; размерите намаляват, а изчислителните възможности нарастват.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Integrated_circuit_on_microchip.jpg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Integrated%20circuit%20on%20microchip.jpg?width=640\" width=\"480\" alt=\"Пример за интегрална схема; не е снимка на първия микропроцесор.\"></a></p><p>Пример за интегрална схема; не е снимка на първия микропроцесор. Изображение: Jon Sullivan — <a href=\"https://commons.wikimedia.org/wiki/File:Integrated_circuit_on_microchip.jpg\">източник</a>; обществено достояние. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-21",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Четвърто поколение",
+          "instruction": "Каква промяна позволява микропроцесорът?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Премахване на всички програми"
+            },
+            {
+              "id": "a3",
+              "text": "Само механични операции"
+            },
+            {
+              "id": "a4",
+              "text": "Работа без инструкции"
+            },
+            {
+              "id": "a5",
+              "text": "Замяна на данните с хартия"
+            },
+            {
+              "id": "a0",
+              "text": "Много процесорни елементи в малък чип"
+            },
+            {
+              "id": "a1",
+              "text": "Задължително по-голям корпус"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Много процесорни елементи в малък чип. От 1971 г. започва етапът на висока степен на интеграция и микропроцесорите. Много елементи се побират в малък чип; размерите намаляват, а изчислителните възможности нарастват."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-22",
+        "step_content": {
+          "type": "information",
+          "title": "22. Конфигурация",
+          "instruction": "<h2>Конфигурация</h2><p>Компютърната конфигурация е съвкупността от хардуер и софтуер. Тя определя възможностите на компютъра и подходящите му приложения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-22",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Конфигурация",
+          "instruction": "Какво включва конфигурацията?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Само процесора"
+            },
+            {
+              "id": "a4",
+              "text": "Само тапета"
+            },
+            {
+              "id": "a5",
+              "text": "Само мишката"
+            },
+            {
+              "id": "a0",
+              "text": "Хардуер и софтуер"
+            },
+            {
+              "id": "a1",
+              "text": "Само цвета"
+            },
+            {
+              "id": "a2",
+              "text": "Само монитора"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Хардуер и софтуер. Компютърната конфигурация е съвкупността от хардуер и софтуер. Тя определя възможностите на компютъра и подходящите му приложения."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-23",
+        "step_content": {
+          "type": "information",
+          "title": "23. Дънна платка",
+          "instruction": "<h2>Дънна платка</h2><p>Дънната платка свързва основните компоненти: процесор, памет, разширителни карти и устройства за съхранение. Тя осигурява връзките, по които те обменят данни.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"Дънната платка е №2, а слотовете за разширение — №5.\"></a></p><p>Дънната платка е №2, а слотовете за разширение — №5. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-23",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Дънна платка",
+          "instruction": "Кой компонент свързва основните части на компютъра?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Мишката"
+            },
+            {
+              "id": "a5",
+              "text": "Уебкамерата"
+            },
+            {
+              "id": "a0",
+              "text": "Дънната платка"
+            },
+            {
+              "id": "a1",
+              "text": "Клавиатурата"
+            },
+            {
+              "id": "a2",
+              "text": "Тонколоната"
+            },
+            {
+              "id": "a3",
+              "text": "Принтерът"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Дънната платка. Дънната платка свързва основните компоненти: процесор, памет, разширителни карти и устройства за съхранение. Тя осигурява връзките, по които те обменят данни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-24",
+        "step_content": {
+          "type": "information",
+          "title": "24. Карти и функции",
+          "instruction": "<h2>Карти и функции</h2><p>Видеокартата обработва графиката, звуковият адаптер обслужва звука, а мрежовият адаптер — връзката към мрежа. Някои функции са вградени, други се осигуряват от отделни карти.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-24",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Карти и функции",
+          "instruction": "Кой адаптер осигурява мрежова връзка?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Вентилаторът"
+            },
+            {
+              "id": "a0",
+              "text": "Мрежовият адаптер"
+            },
+            {
+              "id": "a1",
+              "text": "Звуковият адаптер"
+            },
+            {
+              "id": "a2",
+              "text": "Видеокартата"
+            },
+            {
+              "id": "a3",
+              "text": "RAM модулът"
+            },
+            {
+              "id": "a4",
+              "text": "Захранването"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Мрежовият адаптер. Видеокартата обработва графиката, звуковият адаптер обслужва звука, а мрежовият адаптер — връзката към мрежа. Някои функции са вградени, други се осигуряват от отделни карти."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-25",
+        "step_content": {
+          "type": "information",
+          "title": "25. Постоянно съхранение",
+          "instruction": "<h2>Постоянно съхранение</h2><p>HDD и SSD пазят файловете и след изключване. HDD използва магнитни дискове, а SSD — електронна памет. Те имат различна роля от оперативната RAM.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"На схемата №8 е твърд диск, а №7 — оптично устройство.\"></a></p><p>На схемата №8 е твърд диск, а №7 — оптично устройство. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-25",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Постоянно съхранение",
+          "instruction": "Кое устройство използва магнитни дискове?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "HDD"
+            },
+            {
+              "id": "a1",
+              "text": "SSD"
+            },
+            {
+              "id": "a2",
+              "text": "RAM"
+            },
+            {
+              "id": "a3",
+              "text": "Процесор"
+            },
+            {
+              "id": "a4",
+              "text": "Монитор"
+            },
+            {
+              "id": "a5",
+              "text": "Клавиатура"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: HDD. HDD и SSD пазят файловете и след изключване. HDD използва магнитни дискове, а SSD — електронна памет. Те имат различна роля от оперативната RAM."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-26",
+        "step_content": {
+          "type": "information",
+          "title": "26. Периферни устройства",
+          "instruction": "<h2>Периферни устройства</h2><p>Клавиатурата и мишката въвеждат данни; мониторът и принтерът извеждат резултати. Периферните устройства разширяват възможностите за взаимодействие с компютъра.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Personal%20computer%2C%20exploded.svg?width=640\" width=\"480\" alt=\"Монитор №1, мишка №9 и клавиатура №10.\"></a></p><p>Монитор №1, мишка №9 и клавиатура №10. Изображение: Gustavb — <a href=\"https://commons.wikimedia.org/wiki/File:Personal_computer%2C_exploded.svg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by/2.5/\">CC BY/2.5</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-26",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Периферни устройства",
+          "instruction": "Кое е изходно устройство?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Клавиатура"
+            },
+            {
+              "id": "a2",
+              "text": "Мишка"
+            },
+            {
+              "id": "a3",
+              "text": "Микрофон"
+            },
+            {
+              "id": "a4",
+              "text": "Скенер"
+            },
+            {
+              "id": "a5",
+              "text": "Джойстик"
+            },
+            {
+              "id": "a0",
+              "text": "Монитор"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Монитор. Клавиатурата и мишката въвеждат данни; мониторът и принтерът извеждат резултати. Периферните устройства разширяват възможностите за взаимодействие с компютъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-27",
+        "step_content": {
+          "type": "information",
+          "title": "27. Начало в България",
+          "instruction": "<h2>Начало в България</h2><p>През 1961 г. е създаден изчислителен център под ръководството на акад. Любомир Илиев. Започва разработката на ЕИМ „Витоша“, завършена през 1963 г.</p><p> Разработката на „Витоша“ започва през същата 1961 година.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-27",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Начало в България",
+          "instruction": "Как се нарича първият български компютър в урока?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "ИМКО-2"
+            },
+            {
+              "id": "a3",
+              "text": "ЕЛКА"
+            },
+            {
+              "id": "a4",
+              "text": "Apple II"
+            },
+            {
+              "id": "a5",
+              "text": "ENIAC"
+            },
+            {
+              "id": "a0",
+              "text": "Витоша"
+            },
+            {
+              "id": "a1",
+              "text": "Правец 82"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Витоша. През 1961 г. е създаден изчислителен център под ръководството на акад. Любомир Илиев. Започва разработката на ЕИМ „Витоша“, завършена през 1963 г."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-28",
+        "step_content": {
+          "type": "information",
+          "title": "28. ЕЛКА и производството",
+          "instruction": "<h2>ЕЛКА и производството</h2><p>През 1964–1965 г. е разработен българският електронен калкулатор ЕЛКА. През 1966 г. се създава Централен институт по изчислителна техника; развива се и промишлено производство на компютри.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Elka_22M.jpg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Elka%2022M.jpg?width=640\" width=\"480\" alt=\"По-късен представител на семейството: ЕЛКА 22М (1967), не първият модел от 1965 г.\"></a></p><p>По-късен представител на семейството: ЕЛКА 22М (1967), не първият модел от 1965 г. Изображение: Mister rf — <a href=\"https://commons.wikimedia.org/wiki/File:Elka_22M.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA/4.0</a>. Без изменения.</p><p> Заводът за изчислителна техника в София използва лиценз за френската машина МТ-151.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-28",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: ЕЛКА и производството",
+          "instruction": "Какъв вид устройство е ЕЛКА?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Мрежова карта"
+            },
+            {
+              "id": "a4",
+              "text": "Операционна система"
+            },
+            {
+              "id": "a5",
+              "text": "Текстов редактор"
+            },
+            {
+              "id": "a0",
+              "text": "Електронен калкулатор"
+            },
+            {
+              "id": "a1",
+              "text": "Принтер"
+            },
+            {
+              "id": "a2",
+              "text": "Монитор"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Електронен калкулатор. През 1964–1965 г. е разработен българският електронен калкулатор ЕЛКА. През 1966 г. се създава Централен институт по изчислителна техника; развива се и промишлено производство на компютри."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-29",
+        "step_content": {
+          "type": "information",
+          "title": "29. Български устройства през 70-те",
+          "instruction": "<h2>Български устройства през 70-те</h2><p>През 70-те години в България се произвеждат устройства с магнитни ленти и дискове, процесори и миникомпютри, сред които ИЗОТ 310. Това разширява местното производство на изчислителна техника.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-29",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Български устройства през 70-те",
+          "instruction": "Кое устройство служи за съхранение на данни?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Говорител"
+            },
+            {
+              "id": "a5",
+              "text": "Вентилатор"
+            },
+            {
+              "id": "a0",
+              "text": "Устройство с магнитна лента"
+            },
+            {
+              "id": "a1",
+              "text": "Монитор"
+            },
+            {
+              "id": "a2",
+              "text": "Клавиатура"
+            },
+            {
+              "id": "a3",
+              "text": "Мишка"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Устройство с магнитна лента. През 70-те години в България се произвеждат устройства с магнитни ленти и дискове, процесори и миникомпютри, сред които ИЗОТ 310. Това разширява местното производство на изчислителна техника."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-30",
+        "step_content": {
+          "type": "information",
+          "title": "30. ИМКО и Правец",
+          "instruction": "<h2>ИМКО и Правец</h2><p>Разработката на български персонален компютър започва през 1979 г. ИМКО е произведен през 1980 г., а ИМКО-2 от 1982 г. е преименуван на „Правец 82“.</p><p><a href=\"https://commons.wikimedia.org/wiki/File:Pravetz-8-82.jpg\"><img src=\"https://commons.wikimedia.org/wiki/Special:FilePath/Pravetz-8-82.jpg?width=640\" width=\"480\" alt=\"Компютър Правец 82.\"></a></p><p>Компютър Правец 82. Изображение: Scroch — <a href=\"https://commons.wikimedia.org/wiki/File:Pravetz-8-82.jpg\">източник</a>; <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA/4.0</a>. Без изменения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-30",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: ИМКО и Правец",
+          "instruction": "Кое име получава ИМКО-2?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Linux"
+            },
+            {
+              "id": "a0",
+              "text": "Правец 82"
+            },
+            {
+              "id": "a1",
+              "text": "Витоша"
+            },
+            {
+              "id": "a2",
+              "text": "ЕЛКА"
+            },
+            {
+              "id": "a3",
+              "text": "ИЗОТ 310"
+            },
+            {
+              "id": "a4",
+              "text": "ENIAC"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Правец 82. Разработката на български персонален компютър започва през 1979 г. ИМКО е произведен през 1980 г., а ИМКО-2 от 1982 г. е преименуван на „Правец 82“."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-31",
+        "step_content": {
+          "type": "information",
+          "title": "31. Сравняване на поколения",
+          "instruction": "<h2>Сравняване на поколения</h2><p>При сравнение на стар и нов компютър разглеждаме отделно процесор, RAM и съхранение. В таблицата на учебника старият пример е с 64 KB RAM, а новият — с 64 GB. Това е огромна разлика в капацитета, но не е самостоятелна мярка за общата скорост.</p><p> Таблицата сравнява още процесор Motorola 6502 с Intel i5-11600K и дискета 5,25 инча с SSD 2 TB. Числата са пример от конкретно издание, не актуална препоръка за покупка. Надписът „Apple I (Правец 82)“ в таблицата е неточен: Правец 82 е съвместим с Apple II.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-31",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Сравняване на поколения",
+          "instruction": "Кои стойности сравняват един и същ вид характеристика?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "64 KB RAM и 64 GB RAM"
+            },
+            {
+              "id": "a1",
+              "text": "GHz и инчове"
+            },
+            {
+              "id": "a2",
+              "text": "Брой клавиши и GB"
+            },
+            {
+              "id": "a3",
+              "text": "Волтове и пиксели"
+            },
+            {
+              "id": "a4",
+              "text": "Име на ОС и тегло"
+            },
+            {
+              "id": "a5",
+              "text": "Цвят и честота"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: 64 KB RAM и 64 GB RAM. При сравнение на стар и нов компютър разглеждаме отделно процесор, RAM и съхранение. В таблицата на учебника старият пример е с 64 KB RAM, а новият — с 64 GB. Това е огромна разлика в капацитета, но не е самостоятелна мярка за общата скорост."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-32",
+        "step_content": {
+          "type": "information",
+          "title": "32. Системен софтуер",
+          "instruction": "<h2>Системен софтуер</h2><p>Системният софтуер управлява хардуера и осигурява среда за приложенията. Към него се отнасят операционната система и ниско ниво софтуер, свързан с работата на устройствата.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-32",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Системен софтуер",
+          "instruction": "Коя е задача на системния софтуер?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Само рисуване"
+            },
+            {
+              "id": "a2",
+              "text": "Само писане на писма"
+            },
+            {
+              "id": "a3",
+              "text": "Само гледане на филми"
+            },
+            {
+              "id": "a4",
+              "text": "Само редактиране на снимки"
+            },
+            {
+              "id": "a5",
+              "text": "Само играене"
+            },
+            {
+              "id": "a0",
+              "text": "Управление на хардуера и среда за приложенията"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Управление на хардуера и среда за приложенията. Системният софтуер управлява хардуера и осигурява среда за приложенията. Към него се отнасят операционната система и ниско ниво софтуер, свързан с работата на устройствата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-33",
+        "step_content": {
+          "type": "information",
+          "title": "33. BIOS и стартиране",
+          "instruction": "<h2>BIOS и стартиране</h2><p>BIOS е фърмуер, който участва в началното инициализиране на хардуера и стартирането на компютъра. При много съвременни компютри тази роля се изпълнява от UEFI. След началния етап се зарежда операционната система.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-33",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: BIOS и стартиране",
+          "instruction": "Кога участва BIOS/UEFI?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Само при редактиране на снимка"
+            },
+            {
+              "id": "a3",
+              "text": "Само при чат"
+            },
+            {
+              "id": "a4",
+              "text": "Само при изтриване на текст"
+            },
+            {
+              "id": "a5",
+              "text": "Само при гледане на видео"
+            },
+            {
+              "id": "a0",
+              "text": "При началното стартиране на компютъра"
+            },
+            {
+              "id": "a1",
+              "text": "Само при печат"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: При началното стартиране на компютъра. BIOS е фърмуер, който участва в началното инициализиране на хардуера и стартирането на компютъра. При много съвременни компютри тази роля се изпълнява от UEFI. След началния етап се зарежда операционната система."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-34",
+        "step_content": {
+          "type": "information",
+          "title": "34. Приложен софтуер",
+          "instruction": "<h2>Приложен софтуер</h2><p>Приложните програми решават конкретни потребителски задачи: писане, изчисления, рисуване, общуване и други. Един програмен продукт може да съдържа няколко свързани програми.</p><p> В някои източници ще срещнеш „приложен софтуер“ и „приложни програми“ като близки названия за тази група.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-34",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Приложен софтуер",
+          "instruction": "Кое е пример за приложен софтуер?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Дънна платка"
+            },
+            {
+              "id": "a4",
+              "text": "Мрежов кабел"
+            },
+            {
+              "id": "a5",
+              "text": "Монитор"
+            },
+            {
+              "id": "a0",
+              "text": "Текстов редактор"
+            },
+            {
+              "id": "a1",
+              "text": "Процесор"
+            },
+            {
+              "id": "a2",
+              "text": "RAM модул"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Текстов редактор. Приложните програми решават конкретни потребителски задачи: писане, изчисления, рисуване, общуване и други. Един програмен продукт може да съдържа няколко свързани програми."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-35",
+        "step_content": {
+          "type": "information",
+          "title": "35. Програмен пакет",
+          "instruction": "<h2>Програмен пакет</h2><p>Програмният пакет обединява няколко приложения. Офис пакет може да включва Word за текст, Excel за таблици, PowerPoint за презентации, Outlook за поща и Access за бази данни.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-35",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Програмен пакет",
+          "instruction": "Кое приложение в този пример е за електронни таблици?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Access"
+            },
+            {
+              "id": "a5",
+              "text": "BIOS"
+            },
+            {
+              "id": "a0",
+              "text": "Excel"
+            },
+            {
+              "id": "a1",
+              "text": "Word"
+            },
+            {
+              "id": "a2",
+              "text": "PowerPoint"
+            },
+            {
+              "id": "a3",
+              "text": "Outlook"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Excel. Програмният пакет обединява няколко приложения. Офис пакет може да включва Word за текст, Excel за таблици, PowerPoint за презентации, Outlook за поща и Access за бази данни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-36",
+        "step_content": {
+          "type": "information",
+          "title": "36. Общо предназначение",
+          "instruction": "<h2>Общо предназначение</h2><p>Програмите с общо предназначение се използват за често срещани задачи: обработка на текст, таблици, презентации, графика и уеб браузване.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-36",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Общо предназначение",
+          "instruction": "Кой пример е програма с общо предназначение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Магнитна лента"
+            },
+            {
+              "id": "a0",
+              "text": "Уеб браузър"
+            },
+            {
+              "id": "a1",
+              "text": "Процесор"
+            },
+            {
+              "id": "a2",
+              "text": "Електронна лампа"
+            },
+            {
+              "id": "a3",
+              "text": "Транзистор"
+            },
+            {
+              "id": "a4",
+              "text": "Платка RAM"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Уеб браузър. Програмите с общо предназначение се използват за често срещани задачи: обработка на текст, таблици, презентации, графика и уеб браузване."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-37",
+        "step_content": {
+          "type": "information",
+          "title": "37. Развлекателни и познавателни програми",
+          "instruction": "<h2>Развлекателни и познавателни програми</h2><p>Развлекателният софтуер включва игри и медийни плейъри. Познавателният включва енциклопедии, речници, справочници, преводачи и системи, подпомагащи усвояването или използването на знания.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-37",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Развлекателни и познавателни програми",
+          "instruction": "Кое приложение е познавателно?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Електронна енциклопедия"
+            },
+            {
+              "id": "a1",
+              "text": "Състезателна игра"
+            },
+            {
+              "id": "a2",
+              "text": "Музикален плейър"
+            },
+            {
+              "id": "a3",
+              "text": "Видео плейър"
+            },
+            {
+              "id": "a4",
+              "text": "Аркадна игра"
+            },
+            {
+              "id": "a5",
+              "text": "Шахматна игра"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Електронна енциклопедия. Развлекателният софтуер включва игри и медийни плейъри. Познавателният включва енциклопедии, речници, справочници, преводачи и системи, подпомагащи усвояването или използването на знания."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-38",
+        "step_content": {
+          "type": "information",
+          "title": "38. Професионални програми",
+          "instruction": "<h2>Професионални програми</h2><p>Професионалният софтуер решава задачи в определена област — например география, изкуство или инженерно проектиране. Изборът му зависи от работата, която трябва да бъде извършена.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-38",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Професионални програми",
+          "instruction": "Кое е професионално приложение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "RAM"
+            },
+            {
+              "id": "a2",
+              "text": "Процесор"
+            },
+            {
+              "id": "a3",
+              "text": "Клавиатура"
+            },
+            {
+              "id": "a4",
+              "text": "Захранване"
+            },
+            {
+              "id": "a5",
+              "text": "Тонколона"
+            },
+            {
+              "id": "a0",
+              "text": "Програма за инженерно проектиране"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Програма за инженерно проектиране. Професионалният софтуер решава задачи в определена област — например география, изкуство или инженерно проектиране. Изборът му зависи от работата, която трябва да бъде извършена."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-39",
+        "step_content": {
+          "type": "information",
+          "title": "39. Потребителски интерфейс",
+          "instruction": "<h2>Потребителски интерфейс</h2><p>Потребителският интерфейс е начинът за общуване с компютърната система. Той може да е текстов, с команди, или графичен — с прозорци, менюта, бутони и икони.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-39",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Потребителски интерфейс",
+          "instruction": "Кое е елемент на графичен интерфейс?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Магнитна плоча"
+            },
+            {
+              "id": "a3",
+              "text": "Процесорен регистър"
+            },
+            {
+              "id": "a4",
+              "text": "Захранващ кабел"
+            },
+            {
+              "id": "a5",
+              "text": "RAM чип"
+            },
+            {
+              "id": "a0",
+              "text": "Бутон на екрана"
+            },
+            {
+              "id": "a1",
+              "text": "Транзистор"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Бутон на екрана. Потребителският интерфейс е начинът за общуване с компютърната система. Той може да е текстов, с команди, или графичен — с прозорци, менюта, бутони и икони."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-40",
+        "step_content": {
+          "type": "information",
+          "title": "40. Взаимодействие със системата",
+          "instruction": "<h2>Взаимодействие със системата</h2><p>Обикновено потребителят работи с приложение; то използва услугите на системния софтуер, за да взаимодейства с хардуера. Например текстов редактор използва системни услуги за запис на файл.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-40",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Взаимодействие със системата",
+          "instruction": "Как текстовият редактор обичайно записва файл?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Чрез хартията"
+            },
+            {
+              "id": "a4",
+              "text": "Само чрез високоговорителя"
+            },
+            {
+              "id": "a5",
+              "text": "Чрез цвета на иконата"
+            },
+            {
+              "id": "a0",
+              "text": "Чрез услуги на системния софтуер"
+            },
+            {
+              "id": "a1",
+              "text": "Чрез директно движение на мишката по диска"
+            },
+            {
+              "id": "a2",
+              "text": "Чрез монитора като памет"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Чрез услуги на системния софтуер. Обикновено потребителят работи с приложение; то използва услугите на системния софтуер, за да взаимодейства с хардуера. Например текстов редактор използва системни услуги за запис на файл."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-41",
+        "step_content": {
+          "type": "information",
+          "title": "41. Роля на операционната система",
+          "instruction": "<h2>Роля на операционната система</h2><p>Операционната система е съвкупност от управляващи и обслужващи програми. Тя управлява ресурсите, осигурява интерфейс и среда за изпълнение на приложения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-41",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Роля на операционната система",
+          "instruction": "Коя е роля на ОС?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Само отпечатване на символи"
+            },
+            {
+              "id": "a5",
+              "text": "Само измерване на тегло"
+            },
+            {
+              "id": "a0",
+              "text": "Управление на ресурсите и изпълнението на програми"
+            },
+            {
+              "id": "a1",
+              "text": "Само охлаждане"
+            },
+            {
+              "id": "a2",
+              "text": "Само захранване"
+            },
+            {
+              "id": "a3",
+              "text": "Само механично закрепване"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Управление на ресурсите и изпълнението на програми. Операционната система е съвкупност от управляващи и обслужващи програми. Тя управлява ресурсите, осигурява интерфейс и среда за изпълнение на приложения."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-42",
+        "step_content": {
+          "type": "information",
+          "title": "42. Избор на ОС",
+          "instruction": "<h2>Избор на ОС</h2><p>Изборът на ОС зависи от нуждите и хардуера. Трябва да се проверят изискванията за процесор, RAM и други компоненти, както и необходимите приложения.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-42",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Избор на ОС",
+          "instruction": "Какво трябва да проверим преди избор на ОС?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Само фона на екрана"
+            },
+            {
+              "id": "a0",
+              "text": "Хардуерните изисквания и нужните приложения"
+            },
+            {
+              "id": "a1",
+              "text": "Само цвета на корпуса"
+            },
+            {
+              "id": "a2",
+              "text": "Само марката на бюрото"
+            },
+            {
+              "id": "a3",
+              "text": "Само броя на стикерите"
+            },
+            {
+              "id": "a4",
+              "text": "Само дължината на кабела"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Хардуерните изисквания и нужните приложения. Изборът на ОС зависи от нуждите и хардуера. Трябва да се проверят изискванията за процесор, RAM и други компоненти, както и необходимите приложения."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-43",
+        "step_content": {
+          "type": "information",
+          "title": "43. Съвместимост",
+          "instruction": "<h2>Съвместимост</h2><p>Не всяка програма работи с всяка ОС. Преди инсталация проверяваме поддържаните операционни системи, версии и архитектури.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-43",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Съвместимост",
+          "instruction": "Защо проверяваме съвместимостта на приложение?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Може да не работи с нашата ОС"
+            },
+            {
+              "id": "a1",
+              "text": "За да сменим цвета на RAM"
+            },
+            {
+              "id": "a2",
+              "text": "За да удължим кабела"
+            },
+            {
+              "id": "a3",
+              "text": "За да премахнем процесора"
+            },
+            {
+              "id": "a4",
+              "text": "За да увеличим бюрото"
+            },
+            {
+              "id": "a5",
+              "text": "За да изтрием BIOS"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Може да не работи с нашата ОС. Не всяка програма работи с всяка ОС. Преди инсталация проверяваме поддържаните операционни системи, версии и архитектури."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-44",
+        "step_content": {
+          "type": "information",
+          "title": "44. Програми и процеси",
+          "instruction": "<h2>Програми и процеси</h2><p>ОС стартира и управлява програмите и техните процеси. Процесът е изпълняващ се екземпляр на програма; системата разпределя процесорно време и други ресурси.</p><p> Управлението на процеси осигурява взаимодействието на изпълняваните програми с хардуера.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-44",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Програми и процеси",
+          "instruction": "Какво е процес в този контекст?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Изключен монитор"
+            },
+            {
+              "id": "a2",
+              "text": "Празна кутия"
+            },
+            {
+              "id": "a3",
+              "text": "Клавиш"
+            },
+            {
+              "id": "a4",
+              "text": "Хартиен лист"
+            },
+            {
+              "id": "a5",
+              "text": "Мрежов кабел"
+            },
+            {
+              "id": "a0",
+              "text": "Изпълняващ се екземпляр на програма"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Изпълняващ се екземпляр на програма. ОС стартира и управлява програмите и техните процеси. Процесът е изпълняващ се екземпляр на програма; системата разпределя процесорно време и други ресурси."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-45",
+        "step_content": {
+          "type": "information",
+          "title": "45. Файлова система",
+          "instruction": "<h2>Файлова система</h2><p>Файловата система организира съхранението на файлове и папки. ОС осигурява операции за създаване, четене, записване и управление на достъпа до тях.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-45",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Файлова система",
+          "instruction": "Коя част организира файловете и папките?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Клавиатурата"
+            },
+            {
+              "id": "a3",
+              "text": "Тонколоната"
+            },
+            {
+              "id": "a4",
+              "text": "Захранването"
+            },
+            {
+              "id": "a5",
+              "text": "Корпусът"
+            },
+            {
+              "id": "a0",
+              "text": "Файловата система"
+            },
+            {
+              "id": "a1",
+              "text": "Вентилаторът"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Файловата система. Файловата система организира съхранението на файлове и папки. ОС осигурява операции за създаване, четене, записване и управление на достъпа до тях."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-46",
+        "step_content": {
+          "type": "information",
+          "title": "46. Многопрограмна работа",
+          "instruction": "<h2>Многопрограмна работа</h2><p>ОС позволява да се работи с няколко програми — например браузър, редактор и плейър. Тя разпределя ресурсите между тях и управлява изпълнението им.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-46",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Многопрограмна работа",
+          "instruction": "Кое е пример за многопрограмна работа?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "Три клавиша"
+            },
+            {
+              "id": "a4",
+              "text": "Три листа хартия"
+            },
+            {
+              "id": "a5",
+              "text": "Три празни кутии"
+            },
+            {
+              "id": "a0",
+              "text": "Отворени редактор, браузър и плейър"
+            },
+            {
+              "id": "a1",
+              "text": "Три изключени монитора"
+            },
+            {
+              "id": "a2",
+              "text": "Три кабела"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Отворени редактор, браузър и плейър. ОС позволява да се работи с няколко програми — например браузър, редактор и плейър. Тя разпределя ресурсите между тях и управлява изпълнението им."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-47",
+        "step_content": {
+          "type": "information",
+          "title": "47. Мрежа и устройства",
+          "instruction": "<h2>Мрежа и устройства</h2><p>Сред системните функции са работата в мрежа и управлението на обмена между периферните устройства и оперативната памет. Така приложенията могат да използват общи системни услуги.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-47",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Мрежа и устройства",
+          "instruction": "Кое е системна функция на ОС?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Механично почистване"
+            },
+            {
+              "id": "a5",
+              "text": "Производство на хартия"
+            },
+            {
+              "id": "a0",
+              "text": "Управление на обмена с периферни устройства"
+            },
+            {
+              "id": "a1",
+              "text": "Промяна на материала на корпуса"
+            },
+            {
+              "id": "a2",
+              "text": "Промяна на теглото на монитора"
+            },
+            {
+              "id": "a3",
+              "text": "Удължаване на кабела"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Управление на обмена с периферни устройства. Сред системните функции са работата в мрежа и управлението на обмена между периферните устройства и оперативната памет. Така приложенията могат да използват общи системни услуги."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-48",
+        "step_content": {
+          "type": "information",
+          "title": "48. Подсистеми на ОС",
+          "instruction": "<h2>Подсистеми на ОС</h2><p>В урока са разграничени система за управление на процесите, система за управление на файловете и интерпретатор на команди. Всяка обслужва различна част от работата.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-48",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Подсистеми на ОС",
+          "instruction": "Кой компонент обработва команди на потребителя?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Мишката"
+            },
+            {
+              "id": "a0",
+              "text": "Интерпретаторът на команди"
+            },
+            {
+              "id": "a1",
+              "text": "Магнитната плоча"
+            },
+            {
+              "id": "a2",
+              "text": "Вентилаторът"
+            },
+            {
+              "id": "a3",
+              "text": "Екранният кабел"
+            },
+            {
+              "id": "a4",
+              "text": "Захранването"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Интерпретаторът на команди. В урока са разграничени система за управление на процесите, система за управление на файловете и интерпретатор на команди. Всяка обслужва различна част от работата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-49",
+        "step_content": {
+          "type": "information",
+          "title": "49. Ядро",
+          "instruction": "<h2>Ядро</h2><p>Ядрото е централна част на ОС. То управлява процеси и ресурси и осигурява основни услуги за взаимодействие с хардуера. Зарежда се при стартирането на ОС.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-49",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Ядро",
+          "instruction": "Коя част изпълнява централните управляващи функции?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a0",
+              "text": "Ядрото"
+            },
+            {
+              "id": "a1",
+              "text": "Тапетът"
+            },
+            {
+              "id": "a2",
+              "text": "Иконата на кошчето"
+            },
+            {
+              "id": "a3",
+              "text": "Офис документът"
+            },
+            {
+              "id": "a4",
+              "text": "Снимката"
+            },
+            {
+              "id": "a5",
+              "text": "Плейлистът"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Ядрото. Ядрото е централна част на ОС. То управлява процеси и ресурси и осигурява основни услуги за взаимодействие с хардуера. Зарежда се при стартирането на ОС."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-50",
+        "step_content": {
+          "type": "information",
+          "title": "50. Обвивка",
+          "instruction": "<h2>Обвивка</h2><p>Обвивката осигурява взаимодействие между потребителя и ОС. Тя може да е командна или графична и използва услугите на ядрото.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-50",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Обвивка",
+          "instruction": "Каква е ролята на обвивката?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Съхранява електроенергия"
+            },
+            {
+              "id": "a2",
+              "text": "Охлажда процесора"
+            },
+            {
+              "id": "a3",
+              "text": "Печата без програма"
+            },
+            {
+              "id": "a4",
+              "text": "Замества RAM физически"
+            },
+            {
+              "id": "a5",
+              "text": "Произвежда транзистори"
+            },
+            {
+              "id": "a0",
+              "text": "Свързва потребителя с услугите на ОС"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Свързва потребителя с услугите на ОС. Обвивката осигурява взаимодействие между потребителя и ОС. Тя може да е командна или графична и използва услугите на ядрото."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-51",
+        "step_content": {
+          "type": "information",
+          "title": "51. Windows",
+          "instruction": "<h2>Windows</h2><p>Microsoft Windows е семейство операционни системи, широко използвано на персонални компютри. Графичната среда позволява работа с приложения, прозорци, файлове и настройки.</p><p>Допълнителни материали: <a href=\"https://www.microsoft.com/windows\">Windows — Microsoft</a>. Външният материал е по желание; отговорът на следващия въпрос е в обяснението тук.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-51",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Windows",
+          "instruction": "Какво е Windows?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a2",
+              "text": "Процесор"
+            },
+            {
+              "id": "a3",
+              "text": "Текстов файл"
+            },
+            {
+              "id": "a4",
+              "text": "Мрежов кабел"
+            },
+            {
+              "id": "a5",
+              "text": "Принтер"
+            },
+            {
+              "id": "a0",
+              "text": "Семейство операционни системи"
+            },
+            {
+              "id": "a1",
+              "text": "Вид RAM"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Семейство операционни системи. Microsoft Windows е семейство операционни системи, широко използвано на персонални компютри. Графичната среда позволява работа с приложения, прозорци, файлове и настройки."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-52",
+        "step_content": {
+          "type": "information",
+          "title": "52. Linux",
+          "instruction": "<h2>Linux</h2><p>Linux е ядро с отворен код, използвано в операционни системи като Ubuntu. Различните дистрибуции включват ядро, системни инструменти и приложения; много са свободно достъпни.</p><p>Допълнителни материали: <a href=\"https://ubuntu.com/desktop\">Ubuntu Desktop (английски)</a>. Външният материал е по желание; отговорът на следващия въпрос е в обяснението тук.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-52",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Linux",
+          "instruction": "Кое е пример за Linux дистрибуция?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a3",
+              "text": "PowerPoint"
+            },
+            {
+              "id": "a4",
+              "text": "BIOS"
+            },
+            {
+              "id": "a5",
+              "text": "HDD"
+            },
+            {
+              "id": "a0",
+              "text": "Ubuntu"
+            },
+            {
+              "id": "a1",
+              "text": "Word"
+            },
+            {
+              "id": "a2",
+              "text": "Excel"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Ubuntu. Linux е ядро с отворен код, използвано в операционни системи като Ubuntu. Различните дистрибуции включват ядро, системни инструменти и приложения; много са свободно достъпни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-53",
+        "step_content": {
+          "type": "information",
+          "title": "53. macOS",
+          "instruction": "<h2>macOS</h2><p>macOS е операционната система за компютрите Mac на Apple. Както при други ОС, изборът на приложения зависи от съвместимостта им със системата.</p><p>Допълнителни материали: <a href=\"https://www.apple.com/macos/\">macOS — Apple (английски)</a>. Външният материал е по желание; отговорът на следващия въпрос е в обяснението тук.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-53",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: macOS",
+          "instruction": "За кои компютри е предназначена macOS?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a4",
+              "text": "Само мрежови карти"
+            },
+            {
+              "id": "a5",
+              "text": "Само клавиатури"
+            },
+            {
+              "id": "a0",
+              "text": "Mac на Apple"
+            },
+            {
+              "id": "a1",
+              "text": "Само калкулатори ЕЛКА"
+            },
+            {
+              "id": "a2",
+              "text": "Само принтери"
+            },
+            {
+              "id": "a3",
+              "text": "Само RAM модули"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Mac на Apple. macOS е операционната система за компютрите Mac на Apple. Както при други ОС, изборът на приложения зависи от съвместимостта им със системата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "learn-54",
+        "step_content": {
+          "type": "information",
+          "title": "54. Практически избор",
+          "instruction": "<h2>Практически избор</h2><p>За учебен компютър първо определяме задачите, после проверяваме хардуера, ОС и съвместимите приложения. За текст избираме текстов редактор; за таблица — табличен процесор.</p>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "question-54",
+        "step_content": {
+          "type": "single_choice",
+          "title": "Провери: Практически избор",
+          "instruction": "Кой е разумният първи ход при избор на конфигурация?",
+          "instruction_format": "text",
+          "options": [
+            {
+              "id": "a5",
+              "text": "Избор само по тапет"
+            },
+            {
+              "id": "a0",
+              "text": "Определяне на задачите, които ще изпълняваме"
+            },
+            {
+              "id": "a1",
+              "text": "Избор само по цвят"
+            },
+            {
+              "id": "a2",
+              "text": "Изтриване на ОС"
+            },
+            {
+              "id": "a3",
+              "text": "Премахване на RAM"
+            },
+            {
+              "id": "a4",
+              "text": "Купуване само на мишка"
+            }
+          ],
+          "correct_option_ids": [
+            "a0"
+          ],
+          "feedback": "Верният отговор е: Определяне на задачите, които ще изпълняваме. За учебен компютър първо определяме задачите, после проверяваме хардуера, ОС и съвместимите приложения. За текст избираме текстов редактор; за таблица — табличен процесор."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0,
+          "do_not_shuffle_answers": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

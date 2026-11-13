@@ -1,9 +1,9 @@
 {
   "mission_version": 4,
-  "mission_id": "modern-computer-systems-8-20261113-01",
+  "mission_id": "modern-computer-systems-8-20261113-02",
   "mission_content": {
     "title": "Съвременни компютърни системи",
-    "description": "Обучителна мисия по урок 6 за 8. клас: въведение, архитектура на Фон Нойман и разпознаване на компютърни устройства. Три информационни стъпки и въпрос с няколко верни отговора и автоматична обратна връзка. Всяка стъпка включва илюстрации, зареждани от интернет.",
+    "description": "Обучителна мисия по урок „Съвременни компютърни системи“, стр. 21–23. Запазва първите четири стъпки; продължава с процесор, памет, поколения, конфигурация и компютърна техника в България. След всяка нова информационна стъпка има въпрос с няколко верни отговора и обяснение. Всяка стъпка има илюстрация.",
     "class_name": "8. клас",
     "subject": "Информационни технологии",
     "category": "Компютърни системи",
@@ -88,6 +88,690 @@
         "step_rules": {
           "time_limit_seconds": 0,
           "automatic_feedback": true
+        }
+      },
+      {
+        "id": "cpu-inside",
+        "step_content": {
+          "type": "information",
+          "title": "5. Какво има вътре в процесора?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Какво има вътре в процесора?</h2><p style=\"font-size:18px;margin:0\">Една програма задава инструкциите, а различните части на процесора участват в изпълнението им.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B8%D0%BC%D0%B0%20%D0%B2%D1%8A%D1%82%D1%80%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%D1%89%D0%BE%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B8%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%90%D0%9B%D0%A3%20%E2%80%94%20%D0%BF%D1%80%D0%B5%D1%81%D0%BC%D1%8F%D1%82%D0%B0%20%D0%B8%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D1%8F%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%20%E2%80%94%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%20%D0%BF%D0%B0%D0%B7%D1%8F%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%B2%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A8%D0%B8%D0%BD%D0%B8%20%E2%80%94%20%D0%BF%D1%80%D0%B5%D0%BD%D0%B0%D1%81%D1%8F%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%B8%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%D1%89%D0%B8%20%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Какво има вътре в процесора?: Управляващо устройство — управлява и координира; АЛУ — пресмята и сравнява; Регистри — временно пазят данни в процесора; Шини — пренасят данни и управляващи сигнали\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Какво има вътре в процесора?.</figcaption></figure><p>Централният процесор (<strong>CPU — Central Processing Unit</strong>) изпълнява инструкциите на програмите и координира работата на системата.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Елемент</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Роля</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Аритметично-логическо устройство (АЛУ, ALU)</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Извършва събиране, изваждане, умножение, деление, сравнения и логически операции.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Управляващо устройство (УУ, Control Unit)</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Организира действията, определя реда им и подава управляващи сигнали към необходимите части.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Регистри</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Много малки и бързи места за временно съхранение на данни, инструкции и междинни резултати вътре в процесора.</td></tr></tbody></table></div><p>Обменът се осъществява чрез <strong>шини (BUS)</strong> — групи връзки за предаване на данни и сигнали. Ширината на шината показва колко бита могат да се пренасят едновременно по съответния път. В учебника е даден пример с 32-битова шина при Pentium II и с 64-битови шини при много по-нови процесори. Различните шини в една система могат да имат различни ширини.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Пример:</strong> при 7 + 5 управляващото устройство организира изпълнението, АЛУ пресмята 12, а регистър може временно да пази резултата.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "cpu-inside-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "6. Провери: Какво има вътре в процесора?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B8%D0%BC%D0%B0%20%D0%B2%D1%8A%D1%82%D1%80%D0%B5%20%D0%B2%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A3%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%D1%89%D0%BE%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B8%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%90%D0%9B%D0%A3%20%E2%80%94%20%D0%BF%D1%80%D0%B5%D1%81%D0%BC%D1%8F%D1%82%D0%B0%20%D0%B8%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D1%8F%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A0%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%80%D0%B8%20%E2%80%94%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD%D0%BD%D0%BE%20%D0%BF%D0%B0%D0%B7%D1%8F%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%B2%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A8%D0%B8%D0%BD%D0%B8%20%E2%80%94%20%D0%BF%D1%80%D0%B5%D0%BD%D0%B0%D1%81%D1%8F%D1%82%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%B8%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%D1%89%D0%B8%20%D1%81%D0%B8%D0%B3%D0%BD%D0%B0%D0%BB%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Какво има вътре в процесора?: Управляващо устройство — управлява и координира; АЛУ — пресмята и сравнява; Регистри — временно пазят данни в процесора; Шини — пренасят данни и управляващи сигнали\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Какво има вътре в процесора?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "АЛУ извършва аритметични и логически операции."
+            },
+            {
+              "id": "o2",
+              "text": "Регистрите са места за временно съхранение вътре в процесора."
+            },
+            {
+              "id": "o3",
+              "text": "Управляващото устройство организира действията на останалите части."
+            },
+            {
+              "id": "o4",
+              "text": "Шината служи единствено за охлаждане на процесора."
+            },
+            {
+              "id": "o5",
+              "text": "АЛУ представлява външният монитор."
+            },
+            {
+              "id": "o6",
+              "text": "Регистърът е устройство за дълготрайно архивиране на всички файлове."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "АЛУ пресмята и сравнява; управляващото устройство координира; регистрите съхраняват малки количества информация временно в процесора. Шините пренасят информация и сигнали. Мониторът е изходно устройство, а архивирането се прави върху подходящ носител."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "cpu-cycle",
+        "step_content": {
+          "type": "information",
+          "title": "7. Как процесорът изпълнява инструкция?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Как процесорът изпълнява инструкция?</h2><p style=\"font-size:18px;margin:0\">Програмата работи чрез много последователни действия, извършвани изключително бързо.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22424%22%20viewBox%3D%220%200%20800%20424%22%3E%3Crect%20width%3D%22800%22%20height%3D%22424%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D1%8A%D1%82%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1.%20%D0%9F%D1%80%D0%BE%D1%87%D0%B8%D1%82%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E2.%20%D0%98%D0%B7%D0%B2%D0%BB%D0%B8%D1%87%D0%B0%20%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%82%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E3.%20%D0%98%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%82%D0%B0%20%D1%81%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E4.%20%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B2%D0%B0%20%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%82%D0%B0%D1%82%D0%B0%20%D0%B2%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%8A%D1%80%20%D0%B8%D0%BB%D0%B8%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22344%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22379%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E5.%20%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D0%B2%D0%B0%20%D0%BA%D1%8A%D0%BC%20%D1%81%D0%BB%D0%B5%D0%B4%D0%B2%D0%B0%D1%89%D0%B0%D1%82%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Как процесорът изпълнява инструкция?: 1. Прочита инструкцията от оперативната памет; 2. Извлича необходимите данни; 3. Изпълнява операцията с нужните блокове; 4. Записва резултата в регистър или памет; 5. Преминава към следващата инструкция\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Как процесорът изпълнява инструкция?.</figcaption></figure><p>Една <strong>инструкция</strong> е команда за определено действие. Инструкциите образуват програмата. Следвайки последователността от учебника, процесорът прочита командата, извлича данните, изпълнява я чрез необходимите блокове, записва резултата и продължава.</p><p>В опростения пример АЛУ изпълнява аритметична или логическа операция. Не всяка инструкция обаче е пресмятане: има и прехвърляне на данни и промяна на реда на изпълнение.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Калкулаторът:</strong> инструкциите и числата 7 и 5 са в паметта; процесорът ги използва, пресмята 12 и записва резултата. Друга част от програмата организира показването му на екрана.</aside><p>Съвременните процесори могат да припокриват етапи и да работят с няколко ядра. Схемата е учебен модел за разбиране на основния принцип.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "cpu-cycle-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "8. Провери: Как процесорът изпълнява инструкция?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22424%22%20viewBox%3D%220%200%20800%20424%22%3E%3Crect%20width%3D%22800%22%20height%3D%22424%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D1%8A%D1%82%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1.%20%D0%9F%D1%80%D0%BE%D1%87%D0%B8%D1%82%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0%20%D0%BE%D1%82%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E2.%20%D0%98%D0%B7%D0%B2%D0%BB%D0%B8%D1%87%D0%B0%20%D0%BD%D0%B5%D0%BE%D0%B1%D1%85%D0%BE%D0%B4%D0%B8%D0%BC%D0%B8%D1%82%D0%B5%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E3.%20%D0%98%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D1%8F%D1%82%D0%B0%20%D1%81%20%D0%BD%D1%83%D0%B6%D0%BD%D0%B8%D1%82%D0%B5%20%D0%B1%D0%BB%D0%BE%D0%BA%D0%BE%D0%B2%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E4.%20%D0%97%D0%B0%D0%BF%D0%B8%D1%81%D0%B2%D0%B0%20%D1%80%D0%B5%D0%B7%D1%83%D0%BB%D1%82%D0%B0%D1%82%D0%B0%20%D0%B2%20%D1%80%D0%B5%D0%B3%D0%B8%D1%81%D1%82%D1%8A%D1%80%20%D0%B8%D0%BB%D0%B8%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22344%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22379%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E5.%20%D0%9F%D1%80%D0%B5%D0%BC%D0%B8%D0%BD%D0%B0%D0%B2%D0%B0%20%D0%BA%D1%8A%D0%BC%20%D1%81%D0%BB%D0%B5%D0%B4%D0%B2%D0%B0%D1%89%D0%B0%D1%82%D0%B0%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Как процесорът изпълнява инструкция?: 1. Прочита инструкцията от оперативната памет; 2. Извлича необходимите данни; 3. Изпълнява операцията с нужните блокове; 4. Записва резултата в регистър или памет; 5. Преминава към следващата инструкция\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Как процесорът изпълнява инструкция?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Процесорът прочита програмни инструкции от паметта."
+            },
+            {
+              "id": "o2",
+              "text": "При изпълнение могат да се извличат данни от оперативната памет."
+            },
+            {
+              "id": "o3",
+              "text": "След операция резултатът може да се запише в регистър или памет."
+            },
+            {
+              "id": "o4",
+              "text": "Програмата се изпълнява единствено от принтера."
+            },
+            {
+              "id": "o5",
+              "text": "Всяка инструкция задължително означава събиране на две числа."
+            },
+            {
+              "id": "o6",
+              "text": "След всяка инструкция компютърът трябва да се изключи."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Основният цикъл е прочитане на инструкция, извличане на нужните данни, изпълнение, записване на резултата и продължаване. Програмата съдържа различни видове инструкции; изпълнението не изисква изключване на компютъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "cpu-characteristics",
+        "step_content": {
+          "type": "information",
+          "title": "9. По какво сравняваме процесорите?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">По какво сравняваме процесорите?</h2><p style=\"font-size:18px;margin:0\">Едно число не описва всички възможности на процесора.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D0%BE%20%D0%BA%D0%B0%D0%BA%D0%B2%D0%BE%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D1%8F%D0%B2%D0%B0%D0%BC%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B8%D1%82%D0%B5%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%20%D0%B8%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B0%20%D1%87%D0%B5%D1%81%D1%82%D0%BE%D1%82%D0%B0%20%E2%80%94%20MHz%20%D0%B8%D0%BB%D0%B8%20GHz%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9A%D0%B5%D1%88%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D0%B4%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D1%80%D0%B5%D0%B0%D0%BB%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"По какво сравняваме процесорите?: Модел и архитектура; Тактова честота — MHz или GHz; Кеш памет и разрядност; Поддържани инструкции и реална производителност\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: По какво сравняваме процесорите?.</figcaption></figure><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Характеристика от урока</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Какво означава</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Тип / модел</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Към кое семейство и архитектура принадлежи процесорът.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Тактова честота</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Брой тактове за секунда; измерва се в MHz и GHz. 1 GHz е един милиард такта в секунда.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Кеш памет</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Бърза памет за често използвани инструкции и данни; размерът ѝ влияе на работата.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Разрядност / ширина на обработваните данни</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Например 32 или 64 бита за определени регистри и операции; свързана е с архитектурата.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Допълнителни инструкции</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Възможности за определени видове обработка.</td></tr></tbody></table></div><p>Към тези показатели днес добавяме броя ядра и резултати от подходящи практически измервания. Един такт не е непременно една завършена инструкция.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Не избирай само по GHz:</strong> два различни процесора с еднаква честота може да извършат различно количество работа. По-широката шина също не е единственият фактор за скоростта.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "cpu-characteristics-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "10. Провери: По какво сравняваме процесорите?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D0%BE%20%D0%BA%D0%B0%D0%BA%D0%B2%D0%BE%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D1%8F%D0%B2%D0%B0%D0%BC%D0%B5%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B8%D1%82%D0%B5%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%BE%D0%B4%D0%B5%D0%BB%20%D0%B8%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D0%B0%D0%BA%D1%82%D0%BE%D0%B2%D0%B0%20%D1%87%D0%B5%D1%81%D1%82%D0%BE%D1%82%D0%B0%20%E2%80%94%20MHz%20%D0%B8%D0%BB%D0%B8%20GHz%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9A%D0%B5%D1%88%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%80%D1%8F%D0%B4%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D0%B4%D0%B4%D1%8A%D1%80%D0%B6%D0%B0%D0%BD%D0%B8%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D1%80%D0%B5%D0%B0%D0%BB%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"По какво сравняваме процесорите?: Модел и архитектура; Тактова честота — MHz или GHz; Кеш памет и разрядност; Поддържани инструкции и реална производителност\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: По какво сравняваме процесорите?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Тактова честота се измерва в MHz или GHz."
+            },
+            {
+              "id": "o2",
+              "text": "Моделът и поддържаните инструкции са характеристики на процесора."
+            },
+            {
+              "id": "o3",
+              "text": "При сравнение има значение и кеш паметта."
+            },
+            {
+              "id": "o4",
+              "text": "Два произволни процесора с еднакви GHz винаги имат еднаква производителност."
+            },
+            {
+              "id": "o5",
+              "text": "64-битов процесор задължително е 64 пъти по-бърз от 32-битов."
+            },
+            {
+              "id": "o6",
+              "text": "Цветът на корпуса определя тактовата честота."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Честотата, моделът, кешът, разрядността и инструкциите описват различни възможности. Само GHz или само разрядността не определят общата производителност; значение имат архитектурата, ядрата и конкретната задача."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "ram-and-binary",
+        "step_content": {
+          "type": "information",
+          "title": "11. Оперативна памет, бит и байт",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Оперативна памет, бит и байт</h2><p style=\"font-size:18px;margin:0\">Процесорът има нужда от място за програмите и данните, с които работи сега.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%2C%20%D0%B1%D0%B8%D1%82%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%91%D0%B8%D1%82%3A%20%D0%B5%D0%B4%D0%BD%D0%B0%20%D1%81%D1%82%D0%BE%D0%B9%D0%BD%D0%BE%D1%81%D1%82%20%E2%80%94%200%20%D0%B8%D0%BB%D0%B8%201%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%91%D0%B0%D0%B9%D1%82%3A%20%D0%B3%D1%80%D1%83%D0%BF%D0%B0%20%D0%BE%D1%82%208%20%D0%B1%D0%B8%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ERAM%3A%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%BF%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9A%D0%B5%D1%88%3A%20%D0%BF%D0%BE-%D0%B1%D1%8A%D1%80%D0%B7%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B1%D0%BB%D0%B8%D0%B7%D0%BE%20%D0%B4%D0%BE%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Оперативна памет, бит и байт: Бит: една стойност — 0 или 1; Байт: група от 8 бита; RAM: инструкции и данни по време на работа; Кеш: по-бърза памет близо до процесора\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Оперативна памет, бит и байт.</figcaption></figure><p><strong>Оперативната памет (ОП)</strong> съхранява изпълняваните програми и обработваните данни. Обикновено е реализирана чрез RAM — памет с произволен достъп. Обичайната RAM е енергозависима: след прекъсване на захранването съдържанието ѝ се губи.</p><p>В съвременните системи се използва и <strong>кеш памет</strong>, обикновено в процесора. Тя е по-бърза от основната RAM и намалява чакането за често използвана информация.</p><p><strong>Бит (bit)</strong> е най-малката единица и има стойност 0 или 1. <strong>Байт (byte)</strong> е последователност от 8 бита. Комбинациите от битове позволяват представяне на числа, текст и изображения.</p><p>Паметта е организирана в адресируеми области; учебникът използва понятието <strong>банки / машинни думи</strong>. При съвременния компютър байтовете имат адреси, машинната дума е група битове, обработвана като единица, а банката е организация на паметта — понятията са свързани, но не са напълно еднакви.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Показател</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Какво показва</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Капацитет</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Колко информация може да се съхрани.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Скорост на обмен / честота</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Колко бързо се пренасят данни; показателят зависи от технологията.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Производителност / пропускателна способност</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Количество прехвърлени данни за секунда, например GB/s.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Време за достъп</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Колко се чака до достъп до данните.</td></tr></tbody></table></div><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\">За запазване на документ използваш <strong>SSD или HDD</strong>, а не разчиташ само на RAM. B означава байт; b — бит. 1 kB = 1000 B, а 1 KiB = 1024 B.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "ram-and-binary-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "12. Провери: Оперативна памет, бит и байт",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%2C%20%D0%B1%D0%B8%D1%82%20%D0%B8%20%D0%B1%D0%B0%D0%B9%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%91%D0%B8%D1%82%3A%20%D0%B5%D0%B4%D0%BD%D0%B0%20%D1%81%D1%82%D0%BE%D0%B9%D0%BD%D0%BE%D1%81%D1%82%20%E2%80%94%200%20%D0%B8%D0%BB%D0%B8%201%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%91%D0%B0%D0%B9%D1%82%3A%20%D0%B3%D1%80%D1%83%D0%BF%D0%B0%20%D0%BE%D1%82%208%20%D0%B1%D0%B8%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ERAM%3A%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%20%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%20%D0%BF%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%20%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9A%D0%B5%D1%88%3A%20%D0%BF%D0%BE-%D0%B1%D1%8A%D1%80%D0%B7%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B1%D0%BB%D0%B8%D0%B7%D0%BE%20%D0%B4%D0%BE%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Оперативна памет, бит и байт: Бит: една стойност — 0 или 1; Байт: група от 8 бита; RAM: инструкции и данни по време на работа; Кеш: по-бърза памет близо до процесора\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Оперативна памет, бит и байт.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Един байт съдържа осем бита."
+            },
+            {
+              "id": "o2",
+              "text": "Обичайната RAM пази временно използваните програми и данни."
+            },
+            {
+              "id": "o3",
+              "text": "Кешът намалява чакането за често нужни данни и инструкции."
+            },
+            {
+              "id": "o4",
+              "text": "Битът може да има всяка стойност от 0 до 9."
+            },
+            {
+              "id": "o5",
+              "text": "Записването само в RAM гарантира запазване на файла след изключване."
+            },
+            {
+              "id": "o6",
+              "text": "Капацитетът и времето за достъп означават едно и също."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Битът има две стойности — 0 и 1; осем бита образуват байт. RAM е работна памет, а кешът е по-бърза памет за често използвана информация. Капацитетът измерва количество, времето за достъп — закъснение. SSD/HDD пазят файловете и след изключване."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-first",
+        "step_content": {
+          "type": "information",
+          "title": "13. От релета до първо поколение",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">От релета до първо поколение</h2><p style=\"font-size:18px;margin:0\">Поколенията се различават според електронните елементи, от които са изградени.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D1%82%20%D1%80%D0%B5%D0%BB%D0%B5%D1%82%D0%B0%20%D0%B4%D0%BE%20%D0%BF%D1%8A%D1%80%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9D%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D1%80%D0%B5%D0%BB%D0%B5%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%8A%D1%80%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%20%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%93%D0%BE%D0%BB%D0%B5%D0%BC%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%2C%20%D1%81%D0%B8%D0%BB%D0%BD%D0%BE%20%D0%BD%D0%B0%D0%B3%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%85%D0%BE%D0%B4%20%D0%BD%D0%B0%20%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"От релета до първо поколение: Нулево поколение — релета; Първо поколение — електронни лампи; Големи размери, силно нагряване и разход на енергия\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: От релета до първо поколение.</figcaption></figure><p>Разделянето на поколения е условно. В урока машините, конструирани с <strong>релета</strong>, са отнесени към <strong>нулево поколение</strong>.</p><p>Първото поколение в периодизацията на учебника е <strong>1949–1958 г.</strong> Основните елементи са <strong>електронни лампи</strong>. Посочени са около 2500 машини и ориентировъчна скорост 50 000–200 000 действия в секунда.</p><p>За вход се използват перфокарти и перфоленти, а за съхранение — и магнитни ленти. Паметта е ограничена, работата е предимно с една програма, а поддържането изисква много усилия. Компютрите могат да заемат няколко стаи, консумират много електроенергия и отделят много топлина.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\">Точните граници и скоростите варират между различни исторически източници и машини. Тук следваме периодизацията на учебника; важна е връзката <strong>електронни елементи → размери, надеждност и възможности</strong>.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-first-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "14. Провери: От релета до първо поколение",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D1%82%20%D1%80%D0%B5%D0%BB%D0%B5%D1%82%D0%B0%20%D0%B4%D0%BE%20%D0%BF%D1%8A%D1%80%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9D%D1%83%D0%BB%D0%B5%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D1%80%D0%B5%D0%BB%D0%B5%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%8A%D1%80%D0%B2%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%20%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%93%D0%BE%D0%BB%D0%B5%D0%BC%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%2C%20%D1%81%D0%B8%D0%BB%D0%BD%D0%BE%20%D0%BD%D0%B0%D0%B3%D1%80%D1%8F%D0%B2%D0%B0%D0%BD%D0%B5%20%D0%B8%20%D1%80%D0%B0%D0%B7%D1%85%D0%BE%D0%B4%20%D0%BD%D0%B0%20%D0%B5%D0%BD%D0%B5%D1%80%D0%B3%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"От релета до първо поколение: Нулево поколение — релета; Първо поколение — електронни лампи; Големи размери, силно нагряване и разход на енергия\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: От релета до първо поколение.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Разделянето на поколения е свързано с използваните елементи."
+            },
+            {
+              "id": "o2",
+              "text": "При първото поколение основни елементи са електронните лампи."
+            },
+            {
+              "id": "o3",
+              "text": "Компютрите с лампи обикновено са големи и отделят много топлина."
+            },
+            {
+              "id": "o4",
+              "text": "Нулевото поколение се определя от наличието на сензорен екран."
+            },
+            {
+              "id": "o5",
+              "text": "Първите лампови машини са смартфони с ниска консумация."
+            },
+            {
+              "id": "o6",
+              "text": "Перфокартата е съвременна оперативна памет DDR5."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Поколенията са условна историческа класификация по елементната база. Релетата са свързани с нулевото поколение, а лампите — с първото. Ламповите машини имат големи размери, висока консумация и силно нагряване; перфокартите служат за въвеждане на информация."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-second",
+        "step_content": {
+          "type": "information",
+          "title": "15. Второ поколение: транзистори",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Второ поколение: транзистори</h2><p style=\"font-size:18px;margin:0\">По-малкият електронен елемент променя възможностите на машините.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%92%D1%82%D0%BE%D1%80%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1959%E2%80%931963%20%D0%B3.%20%E2%80%94%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%20%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%20%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE-%D0%BC%D0%B0%D0%BB%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%20%D0%B8%20%D0%BF%D0%BE-%D0%BD%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Второ поколение: транзистори: 1959–1963 г. — периодизация на учебника; Транзистори вместо електронни лампи; По-малки размери и по-ниска консумация\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Второ поколение: транзистори.</figcaption></figure><p>Второто поколение в урока обхваща <strong>1959–1963 г.</strong> Електронните лампи са заменени с <strong>транзистори</strong>. Машините са по-малки и по-икономични, макар че още могат да заемат голяма стая.</p><p>Учебникът посочва приблизително <strong>200 000–1 000 000 действия в секунда</strong> и около 6000 компютъра. Появяват се екрани с електроннолъчева тръба, за външна памет се използват магнитни дискове. Развиват се езици за програмиране — в текста са споменати повече от 200.</p><p>През този период се появява и интегралната схема — тя ще стане характерна за следващото поколение. Едно изобретение може да възникне по-рано, отколкото да стане масово използвано.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-second-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "16. Провери: Второ поколение: транзистори",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%92%D1%82%D0%BE%D1%80%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1959%E2%80%931963%20%D0%B3.%20%E2%80%94%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D1%80%D0%B0%D0%BD%D0%B7%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%20%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%BE%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%20%D0%BB%D0%B0%D0%BC%D0%BF%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE-%D0%BC%D0%B0%D0%BB%D0%BA%D0%B8%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%80%D0%B8%20%D0%B8%20%D0%BF%D0%BE-%D0%BD%D0%B8%D1%81%D0%BA%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%81%D1%83%D0%BC%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Второ поколение: транзистори: 1959–1963 г. — периодизация на учебника; Транзистори вместо електронни лампи; По-малки размери и по-ниска консумация\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Второ поколение: транзистори.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Транзисторите са характерни за второто поколение."
+            },
+            {
+              "id": "o2",
+              "text": "Замяната на лампите с транзистори позволява по-малки и по-икономични машини."
+            },
+            {
+              "id": "o3",
+              "text": "През периода се използват магнитни дискове за външна памет."
+            },
+            {
+              "id": "o4",
+              "text": "Второто поколение се определя от използването само на механични зъбни колела."
+            },
+            {
+              "id": "o5",
+              "text": "Всички компютри през този период вече се побират в джоб."
+            },
+            {
+              "id": "o6",
+              "text": "Появата на нов елемент означава, че той веднага се използва във всички машини."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Второто поколение използва транзистори. Машините намаляват размерите и консумацията си, но още са големи. Развиват се магнитните дискове, екраните и езиците за програмиране. Новите изобретения се разпространяват постепенно."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-third",
+        "step_content": {
+          "type": "information",
+          "title": "17. Трето поколение: интегрални схеми",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Трето поколение: интегрални схеми</h2><p style=\"font-size:18px;margin:0\">Много електронни елементи могат да бъдат обединени в един малък корпус.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A2%D1%80%D0%B5%D1%82%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%20%D1%81%D1%85%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1963%E2%80%931970%20%D0%B3.%20%E2%80%94%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%20%D1%81%D1%85%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Трето поколение: интегрални схеми: 1963–1970 г. — периодизация на учебника; Интегрални схеми; Многопрограмна работа и развитие на софтуера\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Трето поколение: интегрални схеми.</figcaption></figure><p>Третото поколение в учебника е <strong>1963–1970 г.</strong> Основната памет и процесорите се изграждат с <strong>интегрални схеми</strong> — множество елементи, създадени върху обща полупроводникова основа.</p><p>Посоченият ориентир е около <strong>10 000 000 действия в секунда</strong>. Машините позволяват многопрограмна работа — няколко програми се обслужват чрез разпределяне на ресурсите. За външна памет се използват магнитни дискове.</p><p>Урокът свързва развитието през този етап с Unix, приложния софтуер, мишката, лазерния принтер, масовия калкулатор и прехода към първия микропроцесор. Това са процеси, които преминават през условните граници между поколенията; първият търговски микропроцесор Intel 4004 е представен през 1971 г.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Защо интеграцията е важна?</strong> Ако много отделни елементи се съберат в чип, връзките стават по-къси, размерите намаляват, а производството може да се разшири.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-third-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "18. Провери: Трето поколение: интегрални схеми",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A2%D1%80%D0%B5%D1%82%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%20%D1%81%D1%85%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1963%E2%80%931970%20%D0%B3.%20%E2%80%94%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%83%D1%87%D0%B5%D0%B1%D0%BD%D0%B8%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D0%BB%D0%BD%D0%B8%20%D1%81%D1%85%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D0%B8%20%D1%80%D0%B0%D0%B7%D0%B2%D0%B8%D1%82%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Трето поколение: интегрални схеми: 1963–1970 г. — периодизация на учебника; Интегрални схеми; Многопрограмна работа и развитие на софтуера\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Трето поколение: интегрални схеми.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Интегралната схема обединява много електронни елементи."
+            },
+            {
+              "id": "o2",
+              "text": "Многопрограмната работа е свързана с обслужване на няколко програми."
+            },
+            {
+              "id": "o3",
+              "text": "През този етап се развиват операционни системи и приложен софтуер."
+            },
+            {
+              "id": "o4",
+              "text": "Интегралната схема е лист хартия с пробити отвори."
+            },
+            {
+              "id": "o5",
+              "text": "Многопрограмната работа означава компютърът никога да не изпълнява програми."
+            },
+            {
+              "id": "o6",
+              "text": "Границите между поколенията са еднакво точни за всяко изобретение."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Интегралните схеми събират много елементи и са характерни за третото поколение. Развиват се многопрограмната работа, операционните системи и приложенията. Историческите граници са условни; например Intel 4004 е представен през 1971 г."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-fourth",
+        "step_content": {
+          "type": "information",
+          "title": "19. Четвърто поколение: микропроцесорът",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Четвърто поколение: микропроцесорът</h2><p style=\"font-size:18px;margin:0\">Централният процесор се побира в чип и персоналните компютри стават възможни в голям мащаб.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A7%D0%B5%D1%82%D0%B2%D1%8A%D1%80%D1%82%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D1%8A%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D1%82%201971%20%D0%B3.%20%E2%80%94%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B0%20%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%E2%80%94%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20CPU%20%D0%B2%20%D1%87%D0%B8%D0%BF%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE-%D0%BC%D0%B0%D0%BB%D0%BA%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%87%D0%B5%20%D0%B8%D0%B7%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%D0%B2%D1%8A%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Четвърто поколение: микропроцесорът: От 1971 г. — висока степен на интеграция; Микропроцесор — функции на CPU в чип; По-малки устройства и повече изчислителни възможности\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Четвърто поколение: микропроцесорът.</figcaption></figure><p>Четвъртото поколение започва <strong>след 1971 г.</strong> според урока. Основната памет и процесорът използват интегрални схеми с висока степен на интеграция върху силициева подложка.</p><p><strong>Микропроцесорът</strong> обединява основните функции на централния процесор в интегрална схема. Многото елементи върху малка площ позволяват по-малки размери и по-голяма изчислителна мощ.</p><p>Компютрите се разпространяват широко. Учебникът описва огромно нарастване на параметрите спрямо най-ранните машини, при отделни показатели — над милион пъти. Това е исторически ориентир, а не правило, че всеки нов компютър е точно толкова пъти по-бърз във всяка задача.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\">Компютърът ти има същите основни роли — вход, памет, обработка и изход — но ги реализира с несравнимо по-малки и сложни електронни устройства.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "generations-fourth-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "20. Провери: Четвърто поколение: микропроцесорът",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A7%D0%B5%D1%82%D0%B2%D1%8A%D1%80%D1%82%D0%BE%20%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%3A%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D1%8A%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D1%82%201971%20%D0%B3.%20%E2%80%94%20%D0%B2%D0%B8%D1%81%D0%BE%D0%BA%D0%B0%20%D1%81%D1%82%D0%B5%D0%BF%D0%B5%D0%BD%20%D0%BD%D0%B0%20%D0%B8%D0%BD%D1%82%D0%B5%D0%B3%D1%80%D0%B0%D1%86%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%E2%80%94%20%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8%20%D0%BD%D0%B0%20CPU%20%D0%B2%20%D1%87%D0%B8%D0%BF%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE-%D0%BC%D0%B0%D0%BB%D0%BA%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B8%20%D0%BF%D0%BE%D0%B2%D0%B5%D1%87%D0%B5%20%D0%B8%D0%B7%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%D0%B2%D1%8A%D0%B7%D0%BC%D0%BE%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Четвърто поколение: микропроцесорът: От 1971 г. — висока степен на интеграция; Микропроцесор — функции на CPU в чип; По-малки устройства и повече изчислителни възможности\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Четвърто поколение: микропроцесорът.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Микропроцесорът реализира основни функции на CPU в интегрална схема."
+            },
+            {
+              "id": "o2",
+              "text": "Високата интеграция позволява повече елементи върху малка площ."
+            },
+            {
+              "id": "o3",
+              "text": "Развитието на микропроцесорите подпомага разпространението на персоналните компютри."
+            },
+            {
+              "id": "o4",
+              "text": "Микропроцесор означава устройство, което може само да записва звук."
+            },
+            {
+              "id": "o5",
+              "text": "Новият чип премахва необходимостта от всякаква памет."
+            },
+            {
+              "id": "o6",
+              "text": "Всеки нов модел е точно милион пъти по-бърз от предходния във всяка задача."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Микропроцесорът обединява функции на CPU в чип. Високата интеграция води до по-малки устройства и по-големи възможности, но компютърът продължава да има нужда от памет и вход/изход. Историческите сравнения не са универсална формула за скорост."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "computer-configuration",
+        "step_content": {
+          "type": "information",
+          "title": "21. Какво включва компютърната конфигурация?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Какво включва компютърната конфигурация?</h2><p style=\"font-size:18px;margin:0\">Избираме хардуера и програмите според работата, която искаме да вършим.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B2%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%2B%20%D0%B4%D1%8A%D0%BD%D0%BD%D0%B0%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BA%D0%B0%20%2B%20RAM%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%2C%20%D0%B7%D0%B2%D1%83%D0%BA%2C%20%D0%BC%D1%80%D0%B5%D0%B6%D0%B0%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D1%85%D1%80%D0%B0%D0%BD%D0%B2%D0%B0%D0%BD%D0%B5%2C%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%2B%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Какво включва компютърната конфигурация?: Процесор + дънна платка + RAM; Видео, звук, мрежа и устройства за съхранение; Захранване, корпус и периферия; Операционна система + подходящи приложения\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Какво включва компютърната конфигурация?.</figcaption></figure><p><strong>Компютърната конфигурация</strong> е подборът на хардуер и програмно осигуряване. Тя определя какви задачи може да изпълнява системата и с какви възможности.</p><p>Урокът изброява <strong>процесор, дънна платка, оперативна памет, видео-, звукова и мрежова карта, твърд диск, захранване и външни периферни устройства</strong>. Днес за съхранение често се използва SSD. Някои функции на отделните карти може да са вградени.</p><p>Компонентите трябва да са съвместими: подходящ процесор за дънната платка, правилен тип RAM, достатъчно захранване, поддържана ОС и приложения.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Сценарий:</strong> за училищни документи и интернет са нужни съвместими офис програми и браузър. За обработка на голямо видео може да трябват повече RAM, по-мощен процесор и подходяща графика. Първо уточняваме задачите, после избираме конфигурацията.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "computer-configuration-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "22. Провери: Какво включва компютърната конфигурация?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B2%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0%D1%82%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%84%D0%B8%D0%B3%D1%83%D1%80%D0%B0%D1%86%D0%B8%D1%8F%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%2B%20%D0%B4%D1%8A%D0%BD%D0%BD%D0%B0%20%D0%BF%D0%BB%D0%B0%D1%82%D0%BA%D0%B0%20%2B%20RAM%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%92%D0%B8%D0%B4%D0%B5%D0%BE%2C%20%D0%B7%D0%B2%D1%83%D0%BA%2C%20%D0%BC%D1%80%D0%B5%D0%B6%D0%B0%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D1%85%D1%80%D0%B0%D0%BD%D0%B2%D0%B0%D0%BD%D0%B5%2C%20%D0%BA%D0%BE%D1%80%D0%BF%D1%83%D1%81%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%2B%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8F%D1%89%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Какво включва компютърната конфигурация?: Процесор + дънна платка + RAM; Видео, звук, мрежа и устройства за съхранение; Захранване, корпус и периферия; Операционна система + подходящи приложения\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Какво включва компютърната конфигурация?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Конфигурацията включва хардуер и програмно осигуряване."
+            },
+            {
+              "id": "o2",
+              "text": "При подбора се проверява съвместимостта между компонентите."
+            },
+            {
+              "id": "o3",
+              "text": "Предназначението на компютъра влияе на избора на конфигурация."
+            },
+            {
+              "id": "o4",
+              "text": "Конфигурацията е само цветът на корпуса."
+            },
+            {
+              "id": "o5",
+              "text": "Всеки тип оперативна памет работи с всяка дънна платка."
+            },
+            {
+              "id": "o6",
+              "text": "За всяка задача е достатъчно да сравним единствено размера на монитора."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Конфигурацията обединява устройства и софтуер според задачите. Компонентите и приложенията трябва да са съвместими. Цветът или размерът на екрана сами по себе си не определят възможностите."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "bulgarian-computing-beginnings",
+        "step_content": {
+          "type": "information",
+          "title": "23. Началото на компютърната техника в България",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Началото на компютърната техника в България</h2><p style=\"font-size:18px;margin:0\">България участва в развитието на изчислителната техника с научни разработки и производство.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0%D1%82%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%B2%20%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1961%20%E2%86%92%20%D0%B8%D0%B7%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BD%20%D1%86%D0%B5%D0%BD%D1%82%D1%8A%D1%80%20%D0%B8%20%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE%20%D0%BD%D0%B0%20%E2%80%9E%D0%92%D0%B8%D1%82%D0%BE%D1%88%D0%B0%E2%80%9C%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1963%20%E2%86%92%20%D0%95%D0%98%D0%9C%20%E2%80%9E%D0%92%D0%B8%D1%82%D0%BE%D1%88%D0%B0%E2%80%9C%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1964%E2%80%931965%20%E2%86%92%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%8F%D1%82%20%D0%BA%D0%B0%D0%BB%D0%BA%D1%83%D0%BB%D0%B0%D1%82%D0%BE%D1%80%20%D0%95%D0%9B%D0%9A%D0%90%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1966%20%D0%B8%2070-%D1%82%D0%B5%20%E2%86%92%20%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%B8%2C%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D0%B8%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Началото на компютърната техника в България: 1961 → изчислителен център и начало на „Витоша“; 1963 → ЕИМ „Витоша“; 1964–1965 → електронният калкулатор ЕЛКА; 1966 и 70-те → институти, заводи и устройства\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Началото на компютърната техника в България.</figcaption></figure><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Период</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Събитие от урока</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">1961 г.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Създаден е изчислителен център под ръководството на акад. Любомир Илиев. Започва разработката на първия български компютър — ЕИМ „Витоша“.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">1963 г.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">„Витоша“ е окончателно изработена и е в експлоатация.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">1964–1965 г.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Разработен е българският електронен калкулатор ЕЛКА.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">1966 г.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Създаден е Централният институт по изчислителна техника.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Развитие на производството</td><td style=\"padding:12px;border:1px solid #cbd8e6\">В Завода за изчислителна техника — София започва производство на лицензна изчислителна машина ЗИТ-151.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">70-те години</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Произвеждат се запаметяващи устройства с магнитни ленти и дискове, микропроцесори и миникомпютърът ИЗОТ 310.</td></tr></tbody></table></div><p>Тези разработки показват различни направления: научни изчисления, електронни калкулатори, носители за съхранение и производство на компютърни системи.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "bulgarian-computing-beginnings-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "24. Провери: Началото на компютърната техника в България",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9D%D0%B0%D1%87%D0%B0%D0%BB%D0%BE%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%BD%D0%B0%D1%82%D0%B0%20%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0%20%D0%B2%20%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1961%20%E2%86%92%20%D0%B8%D0%B7%D1%87%D0%B8%D1%81%D0%BB%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BD%20%D1%86%D0%B5%D0%BD%D1%82%D1%8A%D1%80%20%D0%B8%20%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%BE%20%D0%BD%D0%B0%20%E2%80%9E%D0%92%D0%B8%D1%82%D0%BE%D1%88%D0%B0%E2%80%9C%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1963%20%E2%86%92%20%D0%95%D0%98%D0%9C%20%E2%80%9E%D0%92%D0%B8%D1%82%D0%BE%D1%88%D0%B0%E2%80%9C%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1964%E2%80%931965%20%E2%86%92%20%D0%B5%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D1%8F%D1%82%20%D0%BA%D0%B0%D0%BB%D0%BA%D1%83%D0%BB%D0%B0%D1%82%D0%BE%D1%80%20%D0%95%D0%9B%D0%9A%D0%90%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E1966%20%D0%B8%2070-%D1%82%D0%B5%20%E2%86%92%20%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82%D0%B8%2C%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D0%B8%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Началото на компютърната техника в България: 1961 → изчислителен център и начало на „Витоша“; 1963 → ЕИМ „Витоша“; 1964–1965 → електронният калкулатор ЕЛКА; 1966 и 70-те → институти, заводи и устройства\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Началото на компютърната техника в България.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "ЕИМ „Витоша“ е част от ранното развитие на компютърната техника в България."
+            },
+            {
+              "id": "o2",
+              "text": "ЕЛКА е български електронен калкулатор."
+            },
+            {
+              "id": "o3",
+              "text": "През 70-те години в България се произвеждат и запаметяващи устройства."
+            },
+            {
+              "id": "o4",
+              "text": "„Витоша“ е операционна система за смартфони."
+            },
+            {
+              "id": "o5",
+              "text": "ЕЛКА е стандарт за безжична мрежа."
+            },
+            {
+              "id": "o6",
+              "text": "Българското производство включва единствено клавиатури."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Урокът представя „Витоша“, ЕЛКА, създаването на специализиран институт, ЗИТ-151 и производството на носители и друга изчислителна техника. Това са различни направления на българската компютърна индустрия."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "imko-pravetz",
+        "step_content": {
+          "type": "information",
+          "title": "25. От ИМКО до „Правец 82“",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">От ИМКО до „Правец 82“</h2><p style=\"font-size:18px;margin:0\">Историята на персоналните компютри в България започва преди те да станат ежедневие.</p></header><figure style=\"margin:20px 0;text-align:center;background:#f5f8fc;padding:18px;border-radius:14px\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pravetz-8-82.jpg/500px-Pravetz-8-82.jpg\" alt=\"Компютър Правец 82 в Ретро музей Варна\" style=\"max-width:100%;width:350px;max-height:430px;object-fit:contain\"><figcaption style=\"font-size:12px;color:#596b80\">Scroch · <a href=\"https://commons.wikimedia.org/wiki/File:Pravetz-8-82.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> · без изменения.</figcaption></figure><p>Разработването на български персонален компютър започва през <strong>1979 г.</strong> През <strong>1980 г.</strong> е произведен <strong>ИМКО — Индивидуален микро компютър</strong>.</p><p>През <strong>1982 г.</strong> е произведен ИМКО-2, преименуван на <strong>„Правец 82“</strong>. С него започва серията „Правец“, позната на поколения български ученици.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Пояснение към таблицата в учебника:</strong> „Правец 82“ е съвместим с <strong>Apple II</strong>, а не с Apple I. Процесорът 6502 е разработен от <strong>MOS Technology</strong>; посочването му като „Motorola 6502“ е неточност.</aside><p>Съвместимост означава възможност да се използват сходни програми и принципи на работа — не че двата компютъра са един и същ физически модел.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "imko-pravetz-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "26. Провери: От ИМКО до „Правец 82“",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0;text-align:center;background:#f5f8fc;padding:18px;border-radius:14px\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Pravetz-8-82.jpg/500px-Pravetz-8-82.jpg\" alt=\"Компютър Правец 82 в Ретро музей Варна\" style=\"max-width:100%;width:350px;max-height:430px;object-fit:contain\"><figcaption style=\"font-size:12px;color:#596b80\">Scroch · <a href=\"https://commons.wikimedia.org/wiki/File:Pravetz-8-82.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> · без изменения.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "ИМКО е свързан с началото на българските персонални компютри."
+            },
+            {
+              "id": "o2",
+              "text": "ИМКО-2 е преименуван на „Правец 82“."
+            },
+            {
+              "id": "o3",
+              "text": "„Правец 82“ е съвместим с Apple II."
+            },
+            {
+              "id": "o4",
+              "text": "ИМКО е създаден като приложение за Android."
+            },
+            {
+              "id": "o5",
+              "text": "„Правец 82“ е вид оперативна памет."
+            },
+            {
+              "id": "o6",
+              "text": "Съвместими компютри задължително са един и същ физически модел."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Разработката започва през 1979 г.; ИМКО е произведен през 1980 г., а ИМКО-2 / „Правец 82“ — през 1982 г. „Правец 82“ е компютър, съвместим с Apple II. Името ИМКО не е мобилно приложение или памет."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "old-new-comparison",
+        "step_content": {
+          "type": "information",
+          "title": "27. Стар и нов компютър: как да ги сравним?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Стар и нов компютър: как да ги сравним?</h2><p style=\"font-size:18px;margin:0\">Сравняваме отделни характеристики и различаваме капацитет от скорост.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A1%D1%82%D0%B0%D1%80%20%D0%B8%20%D0%BD%D0%BE%D0%B2%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%3A%20%D0%BA%D0%B0%D0%BA%20%D0%B4%D0%B0%20%D0%B3%D0%B8%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%BC%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%E2%80%94%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%2C%20%D1%87%D0%B5%D1%81%D1%82%D0%BE%D1%82%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ERAM%20%E2%80%94%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%D0%BD%20%D0%BA%D0%B0%D0%BF%D0%B0%D1%86%D0%B8%D1%82%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%94%D0%B8%D1%81%D0%BA%D0%B5%D1%82%D0%B0%20%D0%B8%D0%BB%D0%B8%20SSD%20%E2%80%94%20%D0%B4%D1%8A%D0%BB%D0%B3%D0%BE%D1%82%D1%80%D0%B0%D0%B9%D0%BD%D0%BE%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B5%D1%81%D1%8A%D1%82%20%D1%81%D0%B5%20%D0%B2%D0%B8%D0%B6%D0%B4%D0%B0%20%D0%B2%20%D0%BD%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%20%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Стар и нов компютър: как да ги сравним?: Процесор — архитектура, честота и производителност; RAM — работен капацитет; Дискета или SSD — дълготрайно съхранение; Прогресът се вижда в няколко различни показателя\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Стар и нов компютър: как да ги сравним?.</figcaption></figure><p>В края на урока има таблица със стар персонален компютър и примерна по-нова конфигурация. Тя е исторически пример от изданието, а не препоръка за покупка.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Показател</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Старият пример в учебника</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">По-новият пример в учебника</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Процесор</td><td style=\"padding:12px;border:1px solid #cbd8e6\">6502; около 1–2 MHz; около 0,43 MIPS</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Intel i5-11600K; посочени 3,92 GHz и 346 350 MIPS</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Оперативна памет</td><td style=\"padding:12px;border:1px solid #cbd8e6\">64 KB</td><td style=\"padding:12px;border:1px solid #cbd8e6\">64 GB DDR3</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Външна памет</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Дискета 5,25 инча; 475 KB</td><td style=\"padding:12px;border:1px solid #cbd8e6\">SSD 2 TB</td></tr></tbody></table></div><p>Учебникът илюстрира разлики от над 800 000 пъти по посочените MIPS, над 1 000 000 пъти по капацитет на RAM и над 4 000 000 пъти по капацитет на носителя. <strong>Това не означава еднакво ускорение на всяка програма.</strong> MIPS означава милиони инструкции в секунда, но не е универсална мярка за сравняване на различни архитектури.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Поправка на примерната конфигурация:</strong> i5-11600K работи с DDR4, а не с посочената в таблицата DDR3. Таблицата има и неточности за стария модел и производителя на 6502, пояснени в предишната стъпка. Използваме я за сравнение на порядъци, като проверяваме съвместимостта отделно.</aside><p>RAM показва колко работни данни се побират едновременно. SSD показва колко файлове могат да се запазят. За реалната бързина влияят процесорът, паметта, носителят и задачата.</p></div><p style=\"max-width:900px;margin:12px auto;font:12px Segoe UI,Arial;color:#596b80\">Проверка на уточненията: <a href=\"https://www.intel.com/content/www/us/en/products/sku/212275/intel-core-i511600k-processor-12m-cache-up-to-4-90-ghz/specifications.html\">Intel — i5-11600K, DDR4-3200, базова честота 3,90 GHz</a>; <a href=\"https://computerhistory.org/blog/apple-ii-dos-source-code/\">Computer History Museum — Apple II и MOS Technology 6502</a>.</p>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "old-new-comparison-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "28. Провери: Стар и нов компютър: как да ги сравним?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A1%D1%82%D0%B0%D1%80%20%D0%B8%20%D0%BD%D0%BE%D0%B2%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%3A%20%D0%BA%D0%B0%D0%BA%20%D0%B4%D0%B0%20%D0%B3%D0%B8%20%D1%81%D1%80%D0%B0%D0%B2%D0%BD%D0%B8%D0%BC%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%20%E2%80%94%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%2C%20%D1%87%D0%B5%D1%81%D1%82%D0%BE%D1%82%D0%B0%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D0%BD%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ERAM%20%E2%80%94%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%D0%BD%20%D0%BA%D0%B0%D0%BF%D0%B0%D1%86%D0%B8%D1%82%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%94%D0%B8%D1%81%D0%BA%D0%B5%D1%82%D0%B0%20%D0%B8%D0%BB%D0%B8%20SSD%20%E2%80%94%20%D0%B4%D1%8A%D0%BB%D0%B3%D0%BE%D1%82%D1%80%D0%B0%D0%B9%D0%BD%D0%BE%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B5%D1%81%D1%8A%D1%82%20%D1%81%D0%B5%20%D0%B2%D0%B8%D0%B6%D0%B4%D0%B0%20%D0%B2%20%D0%BD%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D1%80%D0%B0%D0%B7%D0%BB%D0%B8%D1%87%D0%BD%D0%B8%20%D0%BF%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Стар и нов компютър: как да ги сравним?: Процесор — архитектура, честота и производителност; RAM — работен капацитет; Дискета или SSD — дълготрайно съхранение; Прогресът се вижда в няколко различни показателя\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Стар и нов компютър: как да ги сравним?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Капацитетът на RAM и капацитетът на SSD описват различни роли."
+            },
+            {
+              "id": "o2",
+              "text": "Историческата таблица показва голямо развитие на компютърните възможности."
+            },
+            {
+              "id": "o3",
+              "text": "Примерната конфигурация трябва да се проверява и за съвместимост."
+            },
+            {
+              "id": "o4",
+              "text": "Два пъти повече RAM винаги означава два пъти по-бърза всяка програма."
+            },
+            {
+              "id": "o5",
+              "text": "Всички резултати в MIPS са пряко сравними между всички архитектури."
+            },
+            {
+              "id": "o6",
+              "text": "Дискета и RAM са едно и също устройство."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "RAM е работна памет, а SSD/дискетата служат за запазване на файлове. Увеличеният капацитет не дава автоматично пропорционална скорост. MIPS зависи от архитектурата и измерването. В примерната таблица има неточности; i5-11600K използва DDR4, не DDR3."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
         }
       }
     ]

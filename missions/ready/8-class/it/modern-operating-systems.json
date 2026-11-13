@@ -1,0 +1,759 @@
+{
+  "mission_version": 4,
+  "mission_id": "modern-operating-systems-8-20261113-01",
+  "mission_content": {
+    "title": "Съвременни операционни системи",
+    "description": "Обучителна мисия по урок 7, стр. 24–25 от предоставения учебник. Системен и приложен софтуер, BIOS, интерфейс, функции и части на ОС, Windows, Linux, macOS и практически избор. Всяко обяснение е последвано от въпрос с няколко верни отговора и автоматична обратна връзка. Схемите са вградени в HTML.",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Операционни системи",
+    "lesson": "Съвременни операционни системи",
+    "steps": [
+      {
+        "id": "os-introduction",
+        "step_content": {
+          "type": "information",
+          "title": "1. За какво е този урок?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">За какво е този урок?</h2><p style=\"font-size:18px;margin:0\">Как устройствата и програмите работят заедно, когато отваряш, променяш и записваш файл?</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%97%D0%B0%20%D0%BA%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B5%20%D1%82%D0%BE%D0%B7%D0%B8%20%D1%83%D1%80%D0%BE%D0%BA%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%20%E2%80%94%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8F%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B2%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%D1%82%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A5%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%20%E2%80%94%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%82%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"За какво е този урок?: Потребител — поставя задачата; Приложение — обработва документа; Операционна система — управлява ресурсите; Хардуер — изпълнява физическата работа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: За какво е този урок?.</figcaption></figure><p><strong>Компютърната система</strong> обединява хардуер, софтуер и човешки ресурс — хората, които я използват. Устройствата сами по себе си не знаят коя задача искаш да изпълнят. Програмите определят действията, а операционната система организира изпълнението.</p><p>В този урок ще различаваш <strong>системен и приложен софтуер</strong>, ще обясняваш ролята на BIOS и ОС и ще разпознаваш основните функции и части на операционната система. Ще сравняваш примери за ОС и ще избираш програми според задачата и съвместимостта.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Пример:</strong> пишеш доклад в редактор. Приложението оформя текста; ОС управлява прозореца, паметта и записа на файла; устройството за съхранение пази документа.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "os-introduction-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "2. Провери: За какво е този урок?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%97%D0%B0%20%D0%BA%D0%B0%D0%BA%D0%B2%D0%BE%20%D0%B5%20%D1%82%D0%BE%D0%B7%D0%B8%20%D1%83%D1%80%D0%BE%D0%BA%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%20%E2%80%94%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D1%8F%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%BE%D0%B1%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B2%D0%B0%20%D0%B4%D0%BE%D0%BA%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%D1%82%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A5%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%20%E2%80%94%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%20%D1%84%D0%B8%D0%B7%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%82%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"За какво е този урок?: Потребител — поставя задачата; Приложение — обработва документа; Операционна система — управлява ресурсите; Хардуер — изпълнява физическата работа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: За какво е този урок?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Компютърната система включва устройства, програми и хора."
+            },
+            {
+              "id": "o2",
+              "text": "ОС организира използването на хардуерните ресурси."
+            },
+            {
+              "id": "o3",
+              "text": "Текстовият редактор е приложение за потребителска задача."
+            },
+            {
+              "id": "o4",
+              "text": "Само мониторът управлява всички програми."
+            },
+            {
+              "id": "o5",
+              "text": "Операционната система е физическият корпус на компютъра."
+            },
+            {
+              "id": "o6",
+              "text": "Записването на файл не изисква взаимодействие между програми и устройства."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Устройствата, програмите и хората образуват компютърната система. Приложението решава конкретна задача, а ОС предоставя услуги и управлява ресурси като процесорно време, памет и достъп до устройствата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "system-application-software",
+        "step_content": {
+          "type": "information",
+          "title": "3. Системен и приложен софтуер",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Системен и приложен софтуер</h2><p style=\"font-size:18px;margin:0\">Разликата е в задачата на програмата, а не в това дали има красив прозорец.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22208%22%20viewBox%3D%220%200%20800%20208%22%3E%3Crect%20width%3D%22800%22%20height%3D%22208%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%B8%20%D0%BE%D0%B1%D1%81%D0%BB%D1%83%D0%B6%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%80%D0%B5%D1%88%D0%B0%D0%B2%D0%B0%20%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%81%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Системен и приложен софтуер: Системен софтуер → управлява и обслужва системата; Приложен софтуер → решава потребителска задача\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Системен и приложен софтуер.</figcaption></figure><p><strong>Компютърният софтуер</strong> е съвкупност от програми за обработване, съхраняване и показване на данни. Според предназначението си той се разделя на <strong>системен</strong> и <strong>приложен</strong>.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Вид</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Роля</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Примери</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Системен софтуер</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Управлява хардуера и създава среда за работа на приложенията.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Операционна система; BIOS и микропрограми на устройствата.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Приложен софтуер</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Изпълнява конкретни потребителски задачи.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Текстов редактор, електронна таблица, браузър, графичен редактор.</td></tr></tbody></table></div><p>BIOS и микропрограмите се наричат и <strong>фърмуер</strong>. Те са софтуер, въпреки че са тясно свързани с устройствата. Драйверите също подпомагат ОС при работа с хардуера.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Ситуация:</strong> Windows осигурява средата; Word обработва текста. Инсталирането на нов текстов редактор не означава смяна на операционната система.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "system-application-software-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "4. Провери: Системен и приложен софтуер",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22208%22%20viewBox%3D%220%200%20800%20208%22%3E%3Crect%20width%3D%22800%22%20height%3D%22208%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%B8%20%D0%BE%D0%B1%D1%81%D0%BB%D1%83%D0%B6%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%80%D0%B5%D1%88%D0%B0%D0%B2%D0%B0%20%D0%BF%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D1%81%D0%BA%D0%B0%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Системен и приложен софтуер: Системен софтуер → управлява и обслужва системата; Приложен софтуер → решава потребителска задача\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Системен и приложен софтуер.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Операционната система е системен софтуер."
+            },
+            {
+              "id": "o2",
+              "text": "Браузърът е пример за приложен софтуер."
+            },
+            {
+              "id": "o3",
+              "text": "BIOS е програмен компонент, свързан с работата на хардуера."
+            },
+            {
+              "id": "o4",
+              "text": "Всеки софтуер с прозорци е операционна система."
+            },
+            {
+              "id": "o5",
+              "text": "Word и Windows са два модела процесори."
+            },
+            {
+              "id": "o6",
+              "text": "Приложният софтуер е физическата дънна платка."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Системният софтуер обслужва системата, а приложният решава потребителски задачи. ОС и BIOS са системни компоненти; Word и браузърът са приложения. Наличието на прозорец не превръща програмата в ОС."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "bios-startup",
+        "step_content": {
+          "type": "information",
+          "title": "5. BIOS и стартирането на компютъра",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">BIOS и стартирането на компютъра</h2><p style=\"font-size:18px;margin:0\">Преди да видиш работния плот, системата преминава през начална подготовка.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3EBIOS%20%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B2%D0%B0%D0%BD%D0%B5%20%E2%86%92%20BIOS%20%2F%20UEFI%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%20%D0%BD%D0%B0%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%B7%D0%B0%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%BD%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D1%89%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%E2%86%92%20%D1%8F%D0%B4%D1%80%D0%BE%20%D0%BD%D0%B0%20%D0%9E%D0%A1%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%86%92%20%D0%B2%D1%85%D0%BE%D0%B4%20%D0%B2%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B0%20%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"BIOS и стартирането на компютъра: Включване → BIOS / UEFI; Подготовка на хардуера и избор на устройство за зареждане; Зареждаща програма → ядро на ОС; ОС → вход в системата и стартиране на приложения\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: BIOS и стартирането на компютъра.</figcaption></figure><p>Учебникът поставя <strong>BIOS и микропрограмите на устройствата</strong> в системния софтуер. BIOS започва работа при включване, инициализира основни устройства и подготвя зареждането на операционната система.</p><p>В по-старите компютри BIOS предоставя и основни услуги за работа с устройства като монитор и дискове. При много съвременни компютри началната роля се изпълнява от <strong>UEFI</strong>. След зареждането ОС използва собствени драйвери и системни механизми за устройствата.</p><p>Опростената последователност е: фърмуерът подготвя машината; зареждаща програма намира и зарежда ОС; ядрото поема управлението и се стартира потребителската среда.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Запомни:</strong> BIOS/UEFI и ОС са различни компоненти. Фърмуерът подготвя старта, а ОС управлява текущата работа с програми и ресурси.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "bios-startup-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "6. Провери: BIOS и стартирането на компютъра",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3EBIOS%20%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%D1%82%D0%BE%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%92%D0%BA%D0%BB%D1%8E%D1%87%D0%B2%D0%B0%D0%BD%D0%B5%20%E2%86%92%20BIOS%20%2F%20UEFI%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D0%B4%D0%B3%D0%BE%D1%82%D0%BE%D0%B2%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%D0%B0%20%D0%B8%20%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%20%D0%BD%D0%B0%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%B7%D0%B0%20%D0%B7%D0%B0%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D0%BD%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D1%80%D0%B5%D0%B6%D0%B4%D0%B0%D1%89%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%E2%86%92%20%D1%8F%D0%B4%D1%80%D0%BE%20%D0%BD%D0%B0%20%D0%9E%D0%A1%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%86%92%20%D0%B2%D1%85%D0%BE%D0%B4%20%D0%B2%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B0%20%D0%B8%20%D1%81%D1%82%D0%B0%D1%80%D1%82%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"BIOS и стартирането на компютъра: Включване → BIOS / UEFI; Подготовка на хардуера и избор на устройство за зареждане; Зареждаща програма → ядро на ОС; ОС → вход в системата и стартиране на приложения\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: BIOS и стартирането на компютъра.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "BIOS/UEFI участва в началната подготовка при включване."
+            },
+            {
+              "id": "o2",
+              "text": "Ядрото на ОС се зарежда след началния етап на стартиране."
+            },
+            {
+              "id": "o3",
+              "text": "BIOS/UEFI и операционната система са различни компоненти."
+            },
+            {
+              "id": "o4",
+              "text": "BIOS е текстов редактор за съчинения."
+            },
+            {
+              "id": "o5",
+              "text": "Работният плот винаги се показва преди каквато и да е подготовка на хардуера."
+            },
+            {
+              "id": "o6",
+              "text": "UEFI е вид хартиен носител."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "BIOS/UEFI е фърмуер за начална подготовка и започване на зареждането. След него се зареждат ОС и потребителската среда. BIOS/UEFI не е приложение за документи и не е самата ОС."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "application-categories",
+        "step_content": {
+          "type": "information",
+          "title": "7. Видове приложни програми",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Видове приложни програми</h2><p style=\"font-size:18px;margin:0\">За различните задачи избираме различни приложения.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%92%D0%B8%D0%B4%D0%BE%D0%B2%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D1%89%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%2C%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B8%2C%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A0%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%E2%80%94%20%D0%B8%D0%B3%D1%80%D0%B8%20%D0%B8%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B9%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%B5%D0%B9%D1%8A%D1%80%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BD%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8%20%E2%80%94%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%B2%20%D0%BA%D0%BE%D0%BD%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Видове приложни програми: Общо предназначение — текст, таблици, презентации; Развлекателни — игри и медийни плейъри; Специално предназначение — експертни и познавателни системи; Професионални — задачи в конкретна област\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Видове приложни програми.</figcaption></figure><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Група от учебника</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Примери и предназначение</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Общо предназначение</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Текстови редактори, електронни таблици, презентационни програми, графични редактори и уеб браузъри.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Развлекателно предназначение</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Медийни плейъри и компютърни игри.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Специално предназначение</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Експертни и познавателни системи: електронни речници, енциклопедии, справочници и системи за използване на знания.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Професионални</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Програми за работа в определена област — геоинформационни, издателски, инженерни, медицински и други.</td></tr></tbody></table></div><p>Групите са учебна класификация; една програма може да се използва в повече от един контекст. Например графичен редактор може да служи и за обща учебна задача, и за професионален дизайн.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Избери според нуждата:</strong> бюджет → електронна таблица; чертеж → програма за проектиране; значение на дума → електронен речник.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "application-categories-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "8. Провери: Видове приложни програми",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%92%D0%B8%D0%B4%D0%BE%D0%B2%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D1%89%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%2C%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B8%2C%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A0%D0%B0%D0%B7%D0%B2%D0%BB%D0%B5%D0%BA%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%E2%80%94%20%D0%B8%D0%B3%D1%80%D0%B8%20%D0%B8%20%D0%BC%D0%B5%D0%B4%D0%B8%D0%B9%D0%BD%D0%B8%20%D0%BF%D0%BB%D0%B5%D0%B9%D1%8A%D1%80%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A1%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D0%BD%D0%BE%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BD%D0%B0%D0%B7%D0%BD%D0%B0%D1%87%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%80%94%20%D0%B5%D0%BA%D1%81%D0%BF%D0%B5%D1%80%D1%82%D0%BD%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%B7%D0%BD%D0%B0%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%BD%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%84%D0%B5%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B8%20%E2%80%94%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%20%D0%B2%20%D0%BA%D0%BE%D0%BD%D0%BA%D1%80%D0%B5%D1%82%D0%BD%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Видове приложни програми: Общо предназначение — текст, таблици, презентации; Развлекателни — игри и медийни плейъри; Специално предназначение — експертни и познавателни системи; Професионални — задачи в конкретна област\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Видове приложни програми.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Електронната таблица е приложна програма за работа с таблични данни."
+            },
+            {
+              "id": "o2",
+              "text": "Медийният плейър е пример за развлекателно приложение."
+            },
+            {
+              "id": "o3",
+              "text": "Геоинформационна система може да е професионален софтуер."
+            },
+            {
+              "id": "o4",
+              "text": "Компютърната игра е физически вид памет."
+            },
+            {
+              "id": "o5",
+              "text": "За всяка задача задължително се използва само текстов редактор."
+            },
+            {
+              "id": "o6",
+              "text": "Електронният речник е електронен компонент на дънната платка."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Таблиците, плейърите, речниците и професионалните системи са приложения с различно предназначение. Подборът зависи от задачата; например бюджетът изисква таблични изчисления, а чертежът — подходящо средство за проектиране."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "software-packages",
+        "step_content": {
+          "type": "information",
+          "title": "9. Програмен продукт и програмен пакет",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Програмен продукт и програмен пакет</h2><p style=\"font-size:18px;margin:0\">Една група свързани задачи може да се обслужва от няколко приложения.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%E2%86%92%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%E2%86%92%20%D0%BD%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D1%84%D0%B8%D1%81%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%E2%86%92%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%2C%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B8%2C%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%2C%20%D0%BF%D0%BE%D1%89%D0%B0%2C%20%D0%B1%D0%B0%D0%B7%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Програмен продукт и програмен пакет: Програмен продукт → отделна програма или система; Програмен пакет → няколко обединени продукта; Офис пакет → текст, таблици, презентации, поща, бази данни\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Програмен продукт и програмен пакет.</figcaption></figure><p>Приложният софтуер се разпространява като отделни <strong>програмни продукти</strong> и като <strong>програмни пакети</strong>. Пакетът обединява няколко продукта, предназначени за свързани задачи.</p><p>Примерът в учебника е <strong>Microsoft Office</strong>:</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Програма</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Основна задача</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Word</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Текстови документи.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Excel</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Електронни таблици, формули и диаграми.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">PowerPoint</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Презентации.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Outlook</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Електронна поща и организация на дейности.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Access</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Работа с бази данни.</td></tr></tbody></table></div><p>Това са приложения, а не пет операционни системи. Наличието на конкретна програма зависи от избрания пакет, издание и платформа.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Сценарий:</strong> за доклад с бюджет подготвяш текста в редактор, сметките в таблица и представянето в презентационна програма.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "software-packages-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "10. Провери: Програмен продукт и програмен пакет",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%20%E2%86%92%20%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BD%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%D0%B8%D0%BB%D0%B8%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B5%D0%BD%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%E2%86%92%20%D0%BD%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D0%BE%D0%B1%D0%B5%D0%B4%D0%B8%D0%BD%D0%B5%D0%BD%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D1%84%D0%B8%D1%81%20%D0%BF%D0%B0%D0%BA%D0%B5%D1%82%20%E2%86%92%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%2C%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B8%D1%86%D0%B8%2C%20%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D0%B8%2C%20%D0%BF%D0%BE%D1%89%D0%B0%2C%20%D0%B1%D0%B0%D0%B7%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Програмен продукт и програмен пакет: Програмен продукт → отделна програма или система; Програмен пакет → няколко обединени продукта; Офис пакет → текст, таблици, презентации, поща, бази данни\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Програмен продукт и програмен пакет.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Програмният пакет може да включва няколко приложения."
+            },
+            {
+              "id": "o2",
+              "text": "Word е предназначен за текстови документи."
+            },
+            {
+              "id": "o3",
+              "text": "Excel се използва за таблици и изчисления."
+            },
+            {
+              "id": "o4",
+              "text": "PowerPoint е фърмуерът, който стартира дънната платка."
+            },
+            {
+              "id": "o5",
+              "text": "Всеки програмен пакет е нова операционна система."
+            },
+            {
+              "id": "o6",
+              "text": "Access представлява компютърна мишка."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Пакетът обединява програми. В примера Word обработва текст, Excel — таблици, PowerPoint — презентации, Outlook — поща, Access — бази данни. Те използват средата на ОС, но не са самите ОС."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "user-interface",
+        "step_content": {
+          "type": "information",
+          "title": "11. Как общуваме с компютъра?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Как общуваме с компютъра?</h2><p style=\"font-size:18px;margin:0\">Потребителският интерфейс е средството за задаване на команди и получаване на резултати.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%20%D0%BE%D0%B1%D1%89%D1%83%D0%B2%D0%B0%D0%BC%D0%B5%20%D1%81%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%E2%80%94%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%20%D0%BE%D1%82%20%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%E2%80%94%20%D0%BF%D1%80%D0%BE%D0%B7%D0%BE%D1%80%D1%86%D0%B8%2C%20%D0%B8%D0%BA%D0%BE%D0%BD%D0%B8%2C%20%D0%BC%D0%B5%D0%BD%D1%8E%D1%82%D0%B0%2C%20%D0%B1%D1%83%D1%82%D0%BE%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%20%E2%86%92%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%2F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Как общуваме с компютъра?: Текстов интерфейс — команди от клавиатурата; Графичен интерфейс — прозорци, икони, менюта, бутони; Потребител → приложение / системен софтуер → хардуер\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Как общуваме с компютъра?.</figcaption></figure><p><strong>Потребителски интерфейс</strong> наричаме средствата и правилата за общуване с компютърната система. Той може да бъде <strong>текстов</strong>, с команди, или <strong>графичен</strong>, с екранни обекти.</p><p>Потребителят взаимодейства както с приложния, така и със системния софтуер. Приложението използва услугите на системния софтуер за работа с хардуера. Например при натискане на „Запиши“ редакторът изпраща заявка за запис чрез услугите на ОС.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Действие</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Вид интерфейс</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Избираш папка с двойно щракване върху икона.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Графичен.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Пишеш команда dir в команден прозорец на Windows.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Текстов / команден.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Избираш Wi-Fi мрежа от системните настройки.</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Графичен интерфейс на системния софтуер.</td></tr></tbody></table></div><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\">Графичният и командният интерфейс могат да съществуват в една и съща ОС. Терминалът е средство за работа, а не задължително отделна операционна система.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "user-interface-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "12. Провери: Как общуваме с компютъра?",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9A%D0%B0%D0%BA%20%D0%BE%D0%B1%D1%89%D1%83%D0%B2%D0%B0%D0%BC%D0%B5%20%D1%81%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3F%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A2%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%E2%80%94%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%20%D0%BE%D1%82%20%D0%BA%D0%BB%D0%B0%D0%B2%D0%B8%D0%B0%D1%82%D1%83%D1%80%D0%B0%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%93%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D0%BD%20%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%84%D0%B5%D0%B9%D1%81%20%E2%80%94%20%D0%BF%D1%80%D0%BE%D0%B7%D0%BE%D1%80%D1%86%D0%B8%2C%20%D0%B8%D0%BA%D0%BE%D0%BD%D0%B8%2C%20%D0%BC%D0%B5%D0%BD%D1%8E%D1%82%D0%B0%2C%20%D0%B1%D1%83%D1%82%D0%BE%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%BE%D1%82%D1%80%D0%B5%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%20%E2%86%92%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%2F%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B5%D0%BD%20%D1%81%D0%BE%D1%84%D1%82%D1%83%D0%B5%D1%80%20%E2%86%92%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Как общуваме с компютъра?: Текстов интерфейс — команди от клавиатурата; Графичен интерфейс — прозорци, икони, менюта, бутони; Потребител → приложение / системен софтуер → хардуер\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Как общуваме с компютъра?.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Икони, менюта и прозорци са елементи на графичен интерфейс."
+            },
+            {
+              "id": "o2",
+              "text": "Текстовият интерфейс позволява работа чрез команди."
+            },
+            {
+              "id": "o3",
+              "text": "Потребителят може да работи и със системни настройки, и с приложения."
+            },
+            {
+              "id": "o4",
+              "text": "Командният и графичният интерфейс никога не могат да са в една и съща ОС."
+            },
+            {
+              "id": "o5",
+              "text": "Двойното щракване върху икона е пример само за механична обработка на данни."
+            },
+            {
+              "id": "o6",
+              "text": "Интерфейсът е задължително физическият кабел на монитора."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Интерфейсът определя начина на взаимодействие. Командите са текстов интерфейс, а прозорците и иконите — графичен. Една ОС може да предоставя и двата; потребителят работи с приложения и системни функции."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "os-role-compatibility",
+        "step_content": {
+          "type": "information",
+          "title": "13. ОС, ресурси и съвместимост",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">ОС, ресурси и съвместимост</h2><p style=\"font-size:18px;margin:0\">Операционната система е общата среда, върху която работят приложенията.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D0%A1%2C%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%20%D0%B8%20%D1%81%D1%8A%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%2C%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%82%D0%B0%20%D0%B8%D0%B7%D0%BF%D0%BE%D0%BB%D0%B7%D0%B2%D0%B0%D1%82%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%B7%D0%B1%D0%BE%D1%80%D1%8A%D1%82%20%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%20%D0%BE%D1%82%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D1%82%D0%B5%20%D0%B8%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%3A%20%D0%9E%D0%A1%2C%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%2C%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"ОС, ресурси и съвместимост: ОС управлява процесор, памет и устройства; Приложенията използват системни услуги; Изборът зависи от задачите и хардуера; Проверка: ОС, версия, архитектура и ресурси\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: ОС, ресурси и съвместимост.</figcaption></figure><p><strong>Операционната система</strong> е съвкупност от управляващи, обслужващи и обработващи програми. Тя управлява компютърната система и осигурява взаимодействието с потребителя и приложенията.</p><p>Чрез ОС приложенията получават достъп до хардуера и общи услуги. Тя управлява процесорно време, оперативна памет, файлове и устройства и предоставя потребителски интерфейс.</p><p>Изборът на ОС зависи от нуждите ни, но и от <strong>техническите параметри</strong>: процесор, RAM, дисково пространство и поддържани устройства. Приложенията също имат изисквания и не всяка програма работи под всяка ОС.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Преди инсталиране:</strong> провери поддържаната ОС и версия, архитектурата, минималните ресурси и необходимите драйвери. Еднаквата икона или разширение не гарантира съвместимост.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "os-role-compatibility-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "14. Провери: ОС, ресурси и съвместимост",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9E%D0%A1%2C%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%20%D0%B8%20%D1%81%D1%8A%D0%B2%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D0%BC%D0%BE%D1%81%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%2C%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%D1%82%D0%B0%20%D0%B8%D0%B7%D0%BF%D0%BE%D0%BB%D0%B7%D0%B2%D0%B0%D1%82%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%B7%D0%B1%D0%BE%D1%80%D1%8A%D1%82%20%D0%B7%D0%B0%D0%B2%D0%B8%D1%81%D0%B8%20%D0%BE%D1%82%20%D0%B7%D0%B0%D0%B4%D0%B0%D1%87%D0%B8%D1%82%D0%B5%20%D0%B8%20%D1%85%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0%3A%20%D0%9E%D0%A1%2C%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%8F%2C%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"ОС, ресурси и съвместимост: ОС управлява процесор, памет и устройства; Приложенията използват системни услуги; Изборът зависи от задачите и хардуера; Проверка: ОС, версия, архитектура и ресурси\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: ОС, ресурси и съвместимост.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "ОС управлява ресурси като процесорно време и памет."
+            },
+            {
+              "id": "o2",
+              "text": "Изборът на ОС трябва да се съобрази с наличния хардуер."
+            },
+            {
+              "id": "o3",
+              "text": "При приложение се проверяват поддържаните ОС и системните изисквания."
+            },
+            {
+              "id": "o4",
+              "text": "Всяка програма работи под всяка операционна система без изключение."
+            },
+            {
+              "id": "o5",
+              "text": "ОС се избира само по цвета на работния плот."
+            },
+            {
+              "id": "o6",
+              "text": "Нужната RAM никога няма значение за стартиране на програма."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "ОС управлява ресурсите и предоставя среда за приложения. Нужни са съвместими хардуер, ОС, драйвери и програми. Съвместимостта не следва от външния вид на иконата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "processes-multitasking",
+        "step_content": {
+          "type": "information",
+          "title": "15. Програми, процеси и многопрограмна работа",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Програми, процеси и многопрограмна работа</h2><p style=\"font-size:18px;margin:0\">Как можеш едновременно да слушаш музика, да пишеш текст и да използваш браузър?</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%2C%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%B8%20%D0%B8%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%E2%80%94%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%20%E2%80%94%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%D1%89%D0%B0%20%D1%81%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%80%94%20%D1%80%D0%B0%D0%B7%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%BD%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%20%D0%B8%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9D%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%E2%80%94%20%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B8%D1%80%D0%B0%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Програми, процеси и многопрограмна работа: Програма — записани инструкции; Процес — изпълняваща се програма; ОС — разпределя процесорно време и памет; Няколко приложения — координирана работа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Програми, процеси и многопрограмна работа.</figcaption></figure><p>Сред основните функции на ОС е <strong>управлението на програми и процеси</strong>. Тя координира работата им и взаимодействието с хардуера.</p><p><strong>Програмата</strong> е набор инструкции; <strong>процесът</strong> е изпълняващ се екземпляр на програма. При стартиране ОС предоставя ресурси и проследява изпълнението.</p><p>ОС осигурява <strong>многопрограмна работа</strong>: обслужва няколко програми, разпределя време на процесора и памет. На един процесорен ядро задачите могат да се редуват бързо; при няколко ядра част от работата може да върви паралелно.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Сценарий:</strong> плейърът възпроизвежда звук, редакторът приема текста ти, браузърът зарежда страница. ОС разпределя ресурсите, за да могат приложенията да работят заедно.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "processes-multitasking-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "16. Провери: Програми, процеси и многопрограмна работа",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B8%2C%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%B8%20%D0%B8%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%20%E2%80%94%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%20%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%86%D0%B8%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%20%E2%80%94%20%D0%B8%D0%B7%D0%BF%D1%8A%D0%BB%D0%BD%D1%8F%D0%B2%D0%B0%D1%89%D0%B0%20%D1%81%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%80%94%20%D1%80%D0%B0%D0%B7%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D1%8F%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%BE%D1%80%D0%BD%D0%BE%20%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%20%D0%B8%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9D%D1%8F%D0%BA%D0%BE%D0%BB%D0%BA%D0%BE%20%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F%20%E2%80%94%20%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B8%D1%80%D0%B0%D0%BD%D0%B0%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Програми, процеси и многопрограмна работа: Програма — записани инструкции; Процес — изпълняваща се програма; ОС — разпределя процесорно време и памет; Няколко приложения — координирана работа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Програми, процеси и многопрограмна работа.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Процес е изпълняващ се екземпляр на програма."
+            },
+            {
+              "id": "o2",
+              "text": "ОС разпределя ресурси между работещите програми."
+            },
+            {
+              "id": "o3",
+              "text": "Многопрограмната работа позволява да използваме няколко приложения."
+            },
+            {
+              "id": "o4",
+              "text": "При отваряне на браузър всички други програми задължително се изтриват."
+            },
+            {
+              "id": "o5",
+              "text": "Наличието на няколко отворени прозореца означава, че не е нужна ОС."
+            },
+            {
+              "id": "o6",
+              "text": "ОС създава неограничена физическа RAM при всяко стартиране."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Процесът е работеща програма. ОС управлява ресурсите и позволява обслужване на няколко програми чрез редуване и, когато хардуерът позволява, паралелно изпълнение. Физическите ресурси остават ограничени."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "file-system",
+        "step_content": {
+          "type": "information",
+          "title": "17. Файлова система и достъп до данните",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Файлова система и достъп до данните</h2><p style=\"font-size:18px;margin:0\">За да намериш документа утре, той трябва да бъде записан и организиран.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%20%D0%B4%D0%BE%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%D1%82%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%20%E2%80%94%20%D0%B8%D0%BC%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0%20%E2%80%94%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B5%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%E2%80%94%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%80%94%20%D1%81%D1%8A%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%2C%20%D1%87%D0%B5%D1%82%D0%B5%D0%BD%D0%B5%2C%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%20%D0%B8%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Файлова система и достъп до данните: Файл — именувани данни; Папка — организация на файлове и подпапки; Файлова система — правила за съхранение и достъп; ОС — създаване, четене, запис и управление на достъпа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Файлова система и достъп до данните.</figcaption></figure><p>ОС изгражда и използва <strong>файлова система</strong> за организация, съхраняване и обработване на файлове. Тя управлява достъпа до дисковете и другите запомнящи устройства.</p><p>Файловете имат имена и местоположение, а папките ги организират. Чрез ОС приложенията могат да създават, четат, записват, преименуват и изтриват файлове според предоставените права.</p><p>Учебникът отделя <strong>система за управление на файловете</strong> като една от основните системи на ОС, заедно с управлението на процесите и интерпретатора на команди.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Сценарий:</strong> създаваш папка „Доклад“, записваш „Компютърни системи.docx“ и после го отваряш от същата папка. Приложението обработва текста, а ОС организира достъпа до файла.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "file-system-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "18. Провери: Файлова система и достъп до данните",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%20%D0%B4%D0%BE%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%D1%82%D0%B5%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%20%E2%80%94%20%D0%B8%D0%BC%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B8%20%D0%B4%D0%B0%D0%BD%D0%BD%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D0%B0%D0%BF%D0%BA%D0%B0%20%E2%80%94%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F%20%D0%BD%D0%B0%20%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B5%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%BF%D0%B0%D0%BF%D0%BA%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A4%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%E2%80%94%20%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D0%BB%D0%B0%20%D0%B7%D0%B0%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B8%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%80%94%20%D1%81%D1%8A%D0%B7%D0%B4%D0%B0%D0%B2%D0%B0%D0%BD%D0%B5%2C%20%D1%87%D0%B5%D1%82%D0%B5%D0%BD%D0%B5%2C%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%20%D0%B8%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Файлова система и достъп до данните: Файл — именувани данни; Папка — организация на файлове и подпапки; Файлова система — правила за съхранение и достъп; ОС — създаване, четене, запис и управление на достъпа\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Файлова система и достъп до данните.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Файловата система организира съхранението на файловете."
+            },
+            {
+              "id": "o2",
+              "text": "ОС управлява достъпа до запомнящите устройства."
+            },
+            {
+              "id": "o3",
+              "text": "Папките помагат за организация на файлове и подпапки."
+            },
+            {
+              "id": "o4",
+              "text": "Файлът винаги е физическо копче на клавиатурата."
+            },
+            {
+              "id": "o5",
+              "text": "Записването на документ означава единствено да го виждаме на екрана."
+            },
+            {
+              "id": "o6",
+              "text": "Операционната система няма никакво участие при отваряне на файл."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Файловата система организира данните върху носителя. ОС осигурява операции и контрол на достъпа, а папките дават структура. Видимият текст в незаписан документ не е равнозначен на запазен файл."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "network-devices",
+        "step_content": {
+          "type": "information",
+          "title": "19. Мрежа и периферни устройства",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Мрежа и периферни устройства</h2><p style=\"font-size:18px;margin:0\">ОС осигурява общи услуги за обмен на информация.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9C%D1%80%D0%B5%D0%B6%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%BD%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%86%92%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0%20%2F%20%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%86%92%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%20%D1%81%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%BB%D0%B8%20%D0%BC%D1%80%D0%B5%D0%B6%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%E2%86%94%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Мрежа и периферни устройства: Приложение → системна услуга / драйвер; ОС → обмен с устройство или мрежа; Устройства ↔ оперативна памет\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Мрежа и периферни устройства.</figcaption></figure><p>Системните функции от урока включват <strong>работа в мрежа</strong> и <strong>управление на обмена между периферни устройства и оперативната памет</strong>. Към тях се отнася и многопрограмната работа.</p><p>ОС използва драйвери, за да обслужва конкретни устройства. Приложенията получават общ начин за използването им, вместо всяка програма да управлява сама всички възможни модели принтери или мрежови адаптери.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Пример:</strong> редакторът подава заявка за печат, ОС организира задачата и предава данните чрез съответния драйвер. За получаване на страница браузърът използва мрежовите услуги на ОС.</aside><p>ОС предоставя възможност за мрежова работа, но не може сама да осигури интернет, когато няма работеща физическа връзка и достъп до мрежа.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "network-devices-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "20. Провери: Мрежа и периферни устройства",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9C%D1%80%D0%B5%D0%B6%D0%B0%20%D0%B8%20%D0%BF%D0%B5%D1%80%D0%B8%D1%84%D0%B5%D1%80%D0%BD%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9F%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%E2%86%92%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B0%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B0%20%2F%20%D0%B4%D1%80%D0%B0%D0%B9%D0%B2%D0%B5%D1%80%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%A1%20%E2%86%92%20%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD%20%D1%81%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%B8%D0%BB%D0%B8%20%D0%BC%D1%80%D0%B5%D0%B6%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A3%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%20%E2%86%94%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%B0%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Мрежа и периферни устройства: Приложение → системна услуга / драйвер; ОС → обмен с устройство или мрежа; Устройства ↔ оперативна памет\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Мрежа и периферни устройства.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Работата в мрежа е сред системните функции на ОС."
+            },
+            {
+              "id": "o2",
+              "text": "ОС участва в обмена между периферните устройства и паметта."
+            },
+            {
+              "id": "o3",
+              "text": "Драйверът подпомага ОС при работа с конкретно устройство."
+            },
+            {
+              "id": "o4",
+              "text": "Всеки редактор трябва сам да замести всички функции на ОС и драйверите."
+            },
+            {
+              "id": "o5",
+              "text": "ОС гарантира интернет дори без никаква мрежова връзка."
+            },
+            {
+              "id": "o6",
+              "text": "Печатът се изпълнява само чрез графичната икона, без обмен на данни."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "ОС предоставя мрежови услуги и координира обмена с устройства чрез драйвери. Приложението подава заявка, а системата обслужва необходимите операции. За интернет е нужна и реална мрежова свързаност."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "kernel-shell",
+        "step_content": {
+          "type": "information",
+          "title": "21. Ядро, обвивка и команди",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Ядро, обвивка и команди</h2><p style=\"font-size:18px;margin:0\">Видимият интерфейс и основното управление са различни части на ОС.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%AF%D0%B4%D1%80%D0%BE%2C%20%D0%BE%D0%B1%D0%B2%D0%B8%D0%B2%D0%BA%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D0%B2%D0%B8%D0%B2%D0%BA%D0%B0%20%E2%80%94%20%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%AF%D0%B4%D1%80%D0%BE%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%B8%2C%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A5%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%20%E2%80%94%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Ядро, обвивка и команди: Обвивка — приема действия и команди; Ядро — управлява процеси, памет и устройства; Хардуер — ресурси на компютъра\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Ядро, обвивка и команди.</figcaption></figure><p>Учебникът разглежда две основни съставни части: <strong>ядро</strong> и <strong>обвивка</strong>. Това е опростен модел; реалните ОС имат и много услуги и помощни компоненти.</p><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Част</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Роля</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Ядро</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Зарежда се при стартиране на ОС след началната подготовка. Управлява процеси, разпределя ресурси и осигурява достъп до хардуера.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Обвивка</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Осигурява връзката между потребителя и услугите на ядрото. Приема и интерпретира действия или команди.</td></tr></tbody></table></div><p>Обвивката може да е командна или да включва графична среда. В урока е споменат и <strong>интерпретатор на команди</strong>: компонентът, който разпознава командите и организира изпълнението им.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Пример:</strong> команда за списък на файловете се приема от командната обвивка. Тя използва системни услуги; ядрото и файловата система осигуряват необходимия достъп.</aside></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "kernel-shell-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "22. Провери: Ядро, обвивка и команди",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%AF%D0%B4%D1%80%D0%BE%2C%20%D0%BE%D0%B1%D0%B2%D0%B8%D0%B2%D0%BA%D0%B0%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D0%B2%D0%B8%D0%B2%D0%BA%D0%B0%20%E2%80%94%20%D0%BF%D1%80%D0%B8%D0%B5%D0%BC%D0%B0%20%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D1%8F%20%D0%B8%20%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%AF%D0%B4%D1%80%D0%BE%20%E2%80%94%20%D1%83%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D1%8F%D0%B2%D0%B0%20%D0%BF%D1%80%D0%BE%D1%86%D0%B5%D1%81%D0%B8%2C%20%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%20%D0%B8%20%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%A5%D0%B0%D1%80%D0%B4%D1%83%D0%B5%D1%80%20%E2%80%94%20%D1%80%D0%B5%D1%81%D1%83%D1%80%D1%81%D0%B8%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%8E%D1%82%D1%8A%D1%80%D0%B0%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Ядро, обвивка и команди: Обвивка — приема действия и команди; Ядро — управлява процеси, памет и устройства; Хардуер — ресурси на компютъра\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Ядро, обвивка и команди.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Ядрото изпълнява основни управляващи функции."
+            },
+            {
+              "id": "o2",
+              "text": "Обвивката осигурява взаимодействие между потребителя и системата."
+            },
+            {
+              "id": "o3",
+              "text": "Интерпретаторът обработва команди на потребителя."
+            },
+            {
+              "id": "o4",
+              "text": "Ядрото е само картинката на работния плот."
+            },
+            {
+              "id": "o5",
+              "text": "Обвивката задължително е пластмасовият корпус."
+            },
+            {
+              "id": "o6",
+              "text": "Командите се изпълняват без никаква връзка с услугите на ОС."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Ядрото управлява основните ресурси, а обвивката приема действията и командите. Интерпретаторът на команди е свързан с командната работа. Тапетът и физическият корпус не са ядро или обвивка в този софтуерен смисъл."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "os-examples",
+        "step_content": {
+          "type": "information",
+          "title": "23. Windows, Linux и macOS",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Windows, Linux и macOS</h2><p style=\"font-size:18px;margin:0\">Различни ОС могат да изпълняват сходни роли, но се различават по среда, съвместимост и разпространение.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3EWindows%2C%20Linux%20%D0%B8%20macOS%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3EWindows%20%E2%80%94%20%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%9E%D0%A1%20%D0%BD%D0%B0%20Microsoft%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ELinux%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%20%E2%80%94%20%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%86%D0%B8%D0%B8%20%D0%BA%D0%B0%D1%82%D0%BE%20Ubuntu%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3EmacOS%20%E2%80%94%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%82%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BD%D0%B0%20Apple%20%D0%B7%D0%B0%20Mac%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Windows, Linux и macOS: Windows — семейство ОС на Microsoft; Linux системи — дистрибуции като Ubuntu; macOS — операционната система на Apple за Mac\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Windows, Linux и macOS.</figcaption></figure><div style=\"overflow-x:auto\"><table style=\"width:100%;border-collapse:collapse\"><thead><tr><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Система от урока</th><th style=\"background:#eaf2fb;padding:12px;border:1px solid #cbd8e6;text-align:left\">Какво е важно да разпознаеш</th></tr></thead><tbody><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Microsoft Windows</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Семейство ОС на Microsoft, широко използвано на персонални компютри.</td></tr><tr style=\"background:#f7fafc\"><td style=\"padding:12px;border:1px solid #cbd8e6\">Linux</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Строго погледнато е ядро с отворен код. В учебния език „Linux“ често означава цяла система; Ubuntu е пример за дистрибуция с Linux ядро и допълнителен софтуер. Много дистрибуции се предоставят безплатно.</td></tr><tr style=\"background:#fff\"><td style=\"padding:12px;border:1px solid #cbd8e6\">macOS</td><td style=\"padding:12px;border:1px solid #cbd8e6\">Операционната система на Apple за компютри Mac. По-старото име OS X може да се срещне в учебни материали.</td></tr></tbody></table></div><p>Всички тези системи управляват ресурси и предоставят среда за приложения. Различните графични среди могат да изглеждат различно; външният вид не определя сам всички възможности.</p><p>Учебникът описва разпространението към своето издание. Популярността се променя; при избор е по-полезно да проверим нужните програми, хардуерната поддръжка и поддръжката на самата ОС.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Проучване по урока:</strong> сравни Windows и macOS по поддържан хардуер, приложения и начин на работа. Разгледай и примерна Linux дистрибуция. Не е нужно да инсталираш друга ОС за тази мисия.</aside><p>Допълнителни материали: <a href=\"https://www.microsoft.com/windows\">Windows</a> · <a href=\"https://ubuntu.com/desktop\">Ubuntu Desktop</a> · <a href=\"https://support.apple.com/macos\">macOS</a>.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "os-examples-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "24. Провери: Windows, Linux и macOS",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22280%22%20viewBox%3D%220%200%20800%20280%22%3E%3Crect%20width%3D%22800%22%20height%3D%22280%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3EWindows%2C%20Linux%20%D0%B8%20macOS%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3EWindows%20%E2%80%94%20%D1%81%D0%B5%D0%BC%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%BE%20%D0%9E%D0%A1%20%D0%BD%D0%B0%20Microsoft%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3ELinux%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B8%20%E2%80%94%20%D0%B4%D0%B8%D1%81%D1%82%D1%80%D0%B8%D0%B1%D1%83%D1%86%D0%B8%D0%B8%20%D0%BA%D0%B0%D1%82%D0%BE%20Ubuntu%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3EmacOS%20%E2%80%94%20%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%B0%D1%82%D0%B0%20%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D0%BD%D0%B0%20Apple%20%D0%B7%D0%B0%20Mac%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Windows, Linux и macOS: Windows — семейство ОС на Microsoft; Linux системи — дистрибуции като Ubuntu; macOS — операционната система на Apple за Mac\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Windows, Linux и macOS.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Windows е семейство операционни системи на Microsoft."
+            },
+            {
+              "id": "o2",
+              "text": "Ubuntu е пример за система, използваща Linux ядро."
+            },
+            {
+              "id": "o3",
+              "text": "macOS е предназначена за компютрите Mac."
+            },
+            {
+              "id": "o4",
+              "text": "Linux е само модел принтер."
+            },
+            {
+              "id": "o5",
+              "text": "macOS е офис документ, а не операционна система."
+            },
+            {
+              "id": "o6",
+              "text": "Всички приложения са съвместими с всички ОС само защото имат графичен интерфейс."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Windows, Linux дистрибуциите и macOS са примери за системни среди с различни особености. Linux е ядро; Ubuntu е дистрибуция. macOS е за Mac. Графичният интерфейс не гарантира съвместимост на приложенията."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "practical-software-choice",
+        "step_content": {
+          "type": "information",
+          "title": "25. Практически избор: доклад и облачни услуги",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Практически избор: доклад и облачни услуги</h2><p style=\"font-size:18px;margin:0\">Свържи наученото с реална училищна задача.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%3A%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%B8%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%20%E2%86%92%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%BE%D0%B1%D0%B5%D0%BA%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%B7%D0%B1%D0%BE%D1%80%20%E2%86%92%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%2C%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D1%8A%D1%80%20%D0%B8%20%D0%9E%D0%A1%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D0%BF%D0%B8%D1%81%20%E2%86%92%20%D1%84%D0%B0%D0%B9%D0%BB%20%D1%81%20%D0%B8%D0%BC%D0%B5%20%D0%B8%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%20%E2%86%92%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%20%D0%B8%20%D1%81%D0%BF%D0%BE%D0%B4%D0%B5%D0%BB%D1%8F%D0%BD%D0%B5%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Практически избор: доклад и облачни услуги: Задача → доклад за природен обект; Избор → текстов редактор, браузър и ОС; Запис → файл с име и папка; Облак → онлайн съхранение, достъп и споделяне\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Практически избор: доклад и облачни услуги.</figcaption></figure><p>Последните задачи в урока свързват <strong>потребителския и системния софтуер</strong> с практиката. За доклад избираме текстов редактор; за информация — браузър; за запис и организация използваме услугите на ОС.</p><p>Microsoft Word е приложение за текст, а не ОС. Под Linux могат да се използват подходящи алтернативи като LibreOffice Writer или уеб редактор, според съвместимостта и задачата.</p><p>В задачата от учебника се предлагат онлайн редактор и <strong>Microsoft OneDrive</strong>. Онлайн редакторът обработва документа през браузър, а облачната услуга съхранява файлове на отдалечени сървъри и може да осигурява достъп от други устройства и споделяне. ОС продължава да управлява устройството; облакът не я заменя.</p><aside style=\"background:#edfafa;border-left:5px solid #19a5b7;padding:18px;border-radius:0 12px 12px 0;margin:18px 0\"><strong>Завършен сценарий:</strong> подготвяш кратък доклад „Рила“. Създаваш заглавие и два абзаца в редактор, записваш файла като „Рила.docx“ в папка „Доклади“. Ако вече имаш предоставен училищен достъп, можеш да запазиш копие в OneDrive. Проверяваш името, местоположението и кой има достъп.</aside><p>Това е пример за упражнение. За отговора по-долу не са нужни нова регистрация, друга ОС или качване на лични данни.</p></div>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "practical-software-choice-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "26. Провери: Практически избор: доклад и облачни услуги",
+          "instruction_format": "html",
+          "instruction": "<div style=\"max-width:900px;margin:0 auto;font-family:Segoe UI,Arial,sans-serif;color:#24364e;line-height:1.7;font-size:16px\"><header style=\"background:#12365b;color:#fff;padding:26px;border-radius:18px\"><p style=\"color:#9ddcf8;letter-spacing:2px;margin:0;font-size:13px\">ИНФОРМАЦИОННИ ТЕХНОЛОГИИ · 8. КЛАС</p><h2 style=\"color:#fff;font-size:29px;margin:10px 0\">Кои твърдения са верни?</h2><p style=\"font-size:18px;margin:0\">Избери всички верни отговори.</p></header><figure style=\"margin:20px 0\"><img src=\"data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22800%22%20height%3D%22352%22%20viewBox%3D%220%200%20800%20352%22%3E%3Crect%20width%3D%22800%22%20height%3D%22352%22%20rx%3D%2218%22%20fill%3D%22%23f5f8fc%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2236%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2221%22%20font-weight%3D%22bold%22%20fill%3D%22%2312365b%22%3E%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%20%D0%B8%D0%B7%D0%B1%D0%BE%D1%80%3A%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%B8%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%B8%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%2256%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf5ff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%2291%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B0%20%E2%86%92%20%D0%B4%D0%BE%D0%BA%D0%BB%D0%B0%D0%B4%20%D0%B7%D0%B0%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B5%D0%BD%20%D0%BE%D0%B1%D0%B5%D0%BA%D1%82%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22128%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23eaf8f1%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22163%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%98%D0%B7%D0%B1%D0%BE%D1%80%20%E2%86%92%20%D1%82%D0%B5%D0%BA%D1%81%D1%82%D0%BE%D0%B2%20%D1%80%D0%B5%D0%B4%D0%B0%D0%BA%D1%82%D0%BE%D1%80%2C%20%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D1%8A%D1%80%20%D0%B8%20%D0%9E%D0%A1%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22200%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23fff5df%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%97%D0%B0%D0%BF%D0%B8%D1%81%20%E2%86%92%20%D1%84%D0%B0%D0%B9%D0%BB%20%D1%81%20%D0%B8%D0%BC%D0%B5%20%D0%B8%20%D0%BF%D0%B0%D0%BF%D0%BA%D0%B0%3C%2Ftext%3E%3Crect%20x%3D%2234%22%20y%3D%22272%22%20width%3D%22732%22%20height%3D%2256%22%20rx%3D%2212%22%20fill%3D%22%23f0edff%22%20stroke%3D%22%23cbd8e6%22%2F%3E%3Ctext%20x%3D%22400%22%20y%3D%22307%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%2Csans-serif%22%20font-size%3D%2220%22%20fill%3D%22%2324364e%22%3E%D0%9E%D0%B1%D0%BB%D0%B0%D0%BA%20%E2%86%92%20%D0%BE%D0%BD%D0%BB%D0%B0%D0%B9%D0%BD%20%D1%81%D1%8A%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%2C%20%D0%B4%D0%BE%D1%81%D1%82%D1%8A%D0%BF%20%D0%B8%20%D1%81%D0%BF%D0%BE%D0%B4%D0%B5%D0%BB%D1%8F%D0%BD%D0%B5%3C%2Ftext%3E%3C%2Fsvg%3E\" alt=\"Практически избор: доклад и облачни услуги: Задача → доклад за природен обект; Избор → текстов редактор, браузър и ОС; Запис → файл с име и папка; Облак → онлайн съхранение, достъп и споделяне\" style=\"display:block;width:100%;max-width:800px;height:auto;margin:auto\"><figcaption style=\"font-size:12px;text-align:center;color:#596b80\">Учебна илюстрация: Практически избор: доклад и облачни услуги.</figcaption></figure><p>Отбележи всички верни твърдения и натисни <strong>„Провери отговора“</strong>. След проверката ще видиш верните отговори и обяснение; изборът ти ще бъде заключен.</p></div>",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Текстовият редактор е приложен софтуер."
+            },
+            {
+              "id": "o2",
+              "text": "ОС участва в работата с файлове и папки."
+            },
+            {
+              "id": "o3",
+              "text": "Облачна услуга може да предоставя достъп до файл от различни устройства."
+            },
+            {
+              "id": "o4",
+              "text": "OneDrive физически заменя процесора в лаптопа."
+            },
+            {
+              "id": "o5",
+              "text": "При уеб редактор вече не е нужна операционна система на устройството."
+            },
+            {
+              "id": "o6",
+              "text": "Името на файла е достатъчно доказателство, че той е записан и достъпен на правилното място."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2",
+            "o3"
+          ],
+          "feedback": "Редакторът решава задачата с текста; ОС управлява устройството и достъпа до ресурси. Облачната услуга добавя отдалечено съхранение и споделяне, без да заменя локалната ОС. След запис проверяваме името, местоположението и достъпа до файла."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "time_limit_seconds": 0
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

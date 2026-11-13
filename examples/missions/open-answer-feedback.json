@@ -1,0 +1,60 @@
+{
+  "mission_version": 4,
+  "mission_id": "open-answer-feedback-modes",
+  "mission_content": {
+    "title": "Свободен отговор — режими за обратна връзка",
+    "steps": [
+      {
+        "id": "answer-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Без обратна връзка",
+          "instruction": "Какво е хардуер? Дай един пример."
+        },
+        "step_rules": {
+          "automatic_feedback": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "answer-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Готов пример",
+          "instruction": "Какво е хардуер? Дай един пример.",
+          "reference_answer": "Хардуерът включва физическите компоненти на компютъра, например клавиатурата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "answer-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Само AI анализ",
+          "instruction": "Какво е хардуер? Дай един пример."
+        },
+        "step_rules": {
+          "automatic_feedback": false,
+          "ai_feedback": true
+        }
+      },
+      {
+        "id": "answer-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Готов пример и AI анализ",
+          "instruction": "Какво е хардуер? Дай един пример.",
+          "reference_answer": "Хардуерът включва физическите компоненти на компютъра, например клавиатурата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "ai_feedback": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {}
+}

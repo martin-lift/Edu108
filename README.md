@@ -66,3 +66,5 @@ Wizard 1 работи само със стандартни шаблони. Им�
 Проверка при бъдеща редакция: [scripts/validate_examples.py](scripts/validate_examples.py). При съседни изтеглени хранилища `Student108` и `Teacher108` изпълни `python scripts/validate_examples.py` от кореновата папка на това хранилище. Скриптът проверява примерите с реалните валидатори, импортира шаблоните само във временна база и проверява JSON фрагментите и локалните връзки.
 
 За проверка и през публикуваната JSON Schema: инсталирай пакета `jsonschema` в работната среда и изпълни `python scripts/validate_examples.py --json-schema`. Самият Teacher108 не изисква този пакет — използва валидатора с подробни съобщения на български.
+
+Параметрите за обратна връзка при свободен отговор са сверени на **13 ноември 2026 г.** със [Student108 0.14.14](https://github.com/martin-lift/Student108/commit/9417ed91a99a1dedeb76be7fa6b97e9956114fbb) и [Teacher108 0.13.8](https://github.com/martin-lift/Teacher108/commit/91185ae). Описанието е в [JSON на мисия](docs/mission-json.md#обратна-връзка-за-свободен-отговор) и [JSON шаблон](docs/mission-template-json.md#обратна-връзка-за-свободен-отговор).

@@ -39,6 +39,14 @@
         "do_not_shuffle_answers": {
           "type": "boolean",
           "default": false
+        },
+        "automatic_feedback": {
+          "type": "boolean",
+          "default": false
+        },
+        "ai_feedback": {
+          "type": "boolean",
+          "default": false
         }
       },
       "required": []
@@ -141,6 +149,16 @@
             "minLength": 1,
             "pattern": "\\S"
           }
+        },
+        "reference_answer": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 20000,
+          "pattern": "\\S"
+        },
+        "feedback": {
+          "type": "string",
+          "maxLength": 20000
         }
       },
       "required": [
@@ -198,6 +216,39 @@
             "options",
             "correct_option_ids"
           ]
+        }
+      ],
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "reference_answer"
+            ]
+          },
+          "then": {
+            "properties": {
+              "type": {
+                "const": "open_answer"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "feedback"
+            ]
+          },
+          "then": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "single_choice",
+                  "multiple_choice"
+                ]
+              }
+            }
+          }
         }
       ]
     }

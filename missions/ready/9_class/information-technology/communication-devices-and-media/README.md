@@ -16,7 +16,7 @@
 
 В Teacher108 избери „Мисии създаване“ → „Импорт на мисия…“ → „Импорт от файл“ и посочи JSON файла. Избери желаната достъпност. При импорт от URL може да се използва:
 
-https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/information-technology/communication-devices-and-media/communication-devices-and-media.mission.json
+https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/communication-devices-and-media/communication-devices-and-media.mission.json
 
 ## Технически уточнения спрямо учебника
 

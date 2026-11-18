@@ -3,7 +3,6 @@
 Мисия по [урок 20](https://martin-lift.github.io/108/Programming/20-Programming-Languages-Compilers-Interpreters.html) за 11. клас.
 
 - [Готова мисия](programming-languages-compilers-interpreters.mission.json) — схема 4 за Student108.
-- [Самостоятелен шаблон](programming-languages-compilers-interpreters.template.json) — стандартен шаблон v1 за Teacher108.
 
 25 стъпки: 13 информационни, 8 въпроса с шест варианта и няколко верни отговора, 4 отворени задачи. Въведението е без въпрос; всяка следваща информационна стъпка е последвана веднага от задача върху нея. Обясненията и редът съвпадат с урока. Оригиналните SVG схеми са вградени и не изискват външно зареждане. Заглавието е само в полето title.
 

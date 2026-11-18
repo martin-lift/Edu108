@@ -1,0 +1,653 @@
+{
+  "mission_version": 4,
+  "mission_id": "communication-devices-and-media-lesson-06",
+  "mission_content": {
+    "title": "Основни комуникационни устройства и съобщителни среди",
+    "description": "Урок 6, стр. 20–21: кабелни и безжични среди, мрежови устройства, MAC адреси и проект на малка локална мрежа. Обяснения с илюстрации, задачи с шест варианта и отворени въпроси.",
+    "class_name": "",
+    "subject": "Информационни технологии",
+    "category": "Компютърни мрежи",
+    "lesson": "6. Основни комуникационни устройства и съобщителни среди",
+    "mission_type": "practice",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "introduction",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>В кабинета има компютри, общ принтер и лаптопи. Как да ги свържем, за да обменят данни и да използват интернет?</p><ul><li>Ще различаваш кабелна и безжична съобщителна среда.</li><li>Ще избираш подходящ кабел според разстоянието и условията.</li><li>Ще обясняваш ролите на мрежовата карта, суича, рутера, модема и точката за достъп.</li><li>Ще съставиш план на малка локална мрежа.</li></ul><p class=\"focus\">Прочети обяснението и разгледай схемата. Следващата стъпка е задача по прочетеното. При въпросите с избор има 6 варианта и няколко верни отговора.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 445\" role=\"img\" aria-label=\"Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.\"><path d=\"M225 85 L275 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M485 85 L550 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M605 130 L115 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 130 L380 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M665 130 L635 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 295 L635 355\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><rect x=\"25\" y=\"40\" width=\"200\" height=\"90\" rx=\"12\" fill=\"#e8edf9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"125.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Интернет /</text><text x=\"125.0\" y=\"105.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">доставчик</text><rect x=\"275\" y=\"40\" width=\"210\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Рутер</text><rect x=\"550\" y=\"40\" width=\"180\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"640.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><rect x=\"20\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"115.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютри</text><rect x=\"285\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Принтер</text><rect x=\"540\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Точка за достъп</text><rect x=\"540\" y=\"355\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#fff2d9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"392.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Лаптопи</text></svg><figcaption>Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "media-text",
+        "step_content": {
+          "type": "information",
+          "title": "По какво пътува информацията?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Съобщителната среда пренася сигналите между устройствата.</strong> По кабел сигналите са електрически или светлинни. При Wi‑Fi се използват радиовълни.</p><p>Мрежовите устройства подготвят, изпращат, приемат или насочват данните. Кабелът е среда за пренос; суичът е устройство.</p><p class=\"example\">Компютърът изпраща документ към общ принтер. Данните преминават през мрежовия му адаптер, кабела и суича към принтера.</p><p>Скоростта на пренос се измерва в <strong>bit/s, Mbit/s и Gbit/s</strong>. Малката буква <strong>b</strong> означава бит, а голямата <strong>B</strong> — байт; 1 байт съдържа 8 бита.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Средата пренася сигналите, а устройствата осъществяват обмена.\"><rect x=\"30.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"102.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютър</text><path d=\"M175.0 100 L215.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"215.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"287.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Кабел</text><path d=\"M360.0 100 L400.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"400.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"472.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><path d=\"M545.0 100 L585.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"585.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"657.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Принтер</text></svg><figcaption>Средата пренася сигналите, а устройствата осъществяват обмена.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "media-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Среда или устройство?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Кои твърдения разграничават правилно средата за пренос от устройствата?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Медният кабел е среда, по която се пренасят сигнали."
+            },
+            {
+              "id": "answer-2",
+              "text": "Суичът е вид безжична съобщителна среда."
+            },
+            {
+              "id": "answer-3",
+              "text": "Оптичният кабел пренася информация чрез светлина."
+            },
+            {
+              "id": "answer-4",
+              "text": "При Wi‑Fi данните се пренасят чрез радиовълни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Gbit/s и GB/s означават точно една и съща скорост."
+            },
+            {
+              "id": "answer-6",
+              "text": "Мрежовата карта е устройство, което участва в изпращането и приемането на данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Кабелите и радиовълните осигуряват преноса. Мрежовата карта и суичът са устройства. Gbit/s означава гигабита в секунда, а GB/s — гигабайта в секунда; един байт съдържа 8 бита."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "twisted-pair-text",
+        "step_content": {
+          "type": "information",
+          "title": "Усукана двойка — кабелът в кабинета",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Този кабел съдържа изолирани медни проводници, усукани по двойки. <strong>В обичайните Ethernet кабели има 4 двойки — общо 8 жила.</strong> Усукването намалява влиянието на електромагнитните смущения.</p><p><strong>UTP</strong> е неекраниран кабел. При екранираните разновидности има допълнителен метален екран; в учебника се среща означението <strong>STP</strong>.</p><p class=\"example\">За компютър на 15 m от суича често използваме кабел усукана двойка с подходяща категория и съвместими Ethernet портове.</p><p class=\"focus\">За обичайните Ethernet връзки по усукана двойка се планира канал до <strong>100 m</strong>, включително свързващите кабели. Скоростта зависи от категорията, стандарта, дължината и портовете. Този вид кабел няма обща максимална скорост „2 Gbit/s“.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 220\" role=\"img\" aria-label=\"Четири усукани двойки: общо осем изолирани проводника.\"><path d=\"M30 40 C100 12,160 68,230 40 S360 12,430 40 S560 68,640 40\" stroke=\"#d77829\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 40 C100 68,160 12,230 40 S360 68,430 40 S560 12,640 40\" stroke=\"#edb978\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 85 C100 57,160 113,230 85 S360 57,430 85 S560 113,640 85\" stroke=\"#317dbc\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 85 C100 113,160 57,230 85 S360 113,430 85 S560 57,640 85\" stroke=\"#96c2e4\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 130 C100 102,160 158,230 130 S360 102,430 130 S560 158,640 130\" stroke=\"#38834e\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 130 C100 158,160 102,230 130 S360 158,430 130 S560 102,640 130\" stroke=\"#9dc8a8\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 175 C100 147,160 203,230 175 S360 147,430 175 S560 203,640 175\" stroke=\"#815731\" stroke-width=\"7\" fill=\"none\"/><path d=\"M30 175 C100 203,160 147,230 175 S360 203,430 175 S560 147,640 175\" stroke=\"#c9aa83\" stroke-width=\"7\" fill=\"none\"/><rect x=\"655\" y=\"70\" width=\"80\" height=\"90\" rx=\"12\" fill=\"#fff2d9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"695.0\" y=\"109.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">8</text><text x=\"695.0\" y=\"135.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">жила</text></svg><figcaption>Четири усукани двойки: общо осем изолирани проводника.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "twisted-pair-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Избери кабел за работното място",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Компютър е на 20 m от суича. Какво е вярно за обичайната Ethernet връзка с усукана двойка?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Усукването превръща електрическия сигнал в светлина."
+            },
+            {
+              "id": "answer-2",
+              "text": "Кабелът обикновено съдържа четири двойки проводници."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всеки такъв кабел осигурява една и съща скорост с всеки суич."
+            },
+            {
+              "id": "answer-4",
+              "text": "UTP означава, че кабелът няма метален екран."
+            },
+            {
+              "id": "answer-5",
+              "text": "Проверяваме категорията на кабела и възможностите на портовете."
+            },
+            {
+              "id": "answer-6",
+              "text": "Само защото кабелът е екраниран, можем безусловно да направим 500 m стандартна връзка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Усуканата двойка е меден кабел. UTP е неекраниран, а екранът при други разновидности намалява смущенията. Категорията и Ethernet портовете трябва да поддържат нужната скорост; екранът не премахва ограниченията за дължина."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "coax-fiber-text",
+        "step_content": {
+          "type": "information",
+          "title": "Коаксиален и оптичен кабел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Коаксиалният кабел</strong> има централен проводник, изолация и външен проводящ екран. Пренася електрически сигнали. Среща се в кабелната телевизия и връзките на кабелни модеми; използван е и в по-стари локални мрежи.</p><p><strong>Оптичният кабел</strong> съдържа стъклени или пластмасови влакна, по които се пренася светлина. Подходящ е за голям капацитет, по-дълги разстояния и места с електромагнитни смущения.</p><p class=\"example\">Две училищни сгради са на 250 m една от друга. Проектантът разглежда оптична връзка с подходящи оптични модули и влакно, вместо един стандартен меден Ethernet канал с усукана двойка.</p><p class=\"focus\">Оптиката не означава „без загуби“ или „безкрайна скорост“. Допустимите разстояние и скорост зависят от влакното и предавателите. Нужни са съвместими портове или преобразуватели.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 230\" role=\"img\" aria-label=\"Коаксиалният кабел пренася електрически сигнали; оптичният — светлинни.\"><rect x=\"25\" y=\"35\" width=\"320\" height=\"160\" rx=\"12\" fill=\"#fff2d9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"185.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Коаксиален кабел</text><text x=\"185.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Меден централен проводник</text><text x=\"185.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Изолация и метален екран</text><rect x=\"415\" y=\"35\" width=\"320\" height=\"160\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"575.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Оптичен кабел</text><text x=\"575.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Оптични влакна</text><text x=\"575.0\" y=\"148.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Светлинни сигнали</text></svg><figcaption>Коаксиалният кабел пренася електрически сигнали; оптичният — светлинни.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "coax-fiber-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Връзка между две сгради",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>За връзката от 250 m и разгледаните видове кабели кои твърдения са верни?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Оптичната връзка е подходящ вариант, ако влакното и оптичните модули поддържат разстоянието."
+            },
+            {
+              "id": "answer-2",
+              "text": "Коаксиалният кабел пренася светлина през медния си проводник."
+            },
+            {
+              "id": "answer-3",
+              "text": "Оптичното влакно не се влияе от електромагнитни смущения както медният проводник."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всеки оптичен кабел се включва директно във всеки меден Ethernet порт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Коаксиалният кабел има централен проводник и външен проводящ екран."
+            },
+            {
+              "id": "answer-6",
+              "text": "Един обичаен 250-метров канал с усукана двойка е в рамките на посочената граница от 100 m."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Оптиката е подходяща за тази дължина при правилен избор на влакно и модули и е устойчива на електромагнитни смущения. Коаксиалният кабел е медна среда. Оптичните и медните портове не са взаимозаменяеми."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "wireless-text",
+        "step_content": {
+          "type": "information",
+          "title": "Безжична локална мрежа — WLAN",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>WLAN</strong> означава безжична локална мрежа. При обичайната Wi‑Fi връзка лаптопът обменя данни с точка за достъп чрез радиовълни.</p><p>Това позволява движение в зоната на покритие. Стени, разстояние, смущения и натоварване могат да намалят качеството и действителната скорост.</p><p class=\"example\">Лаптоп работи добре близо до точката за достъп, но зад две дебели стени връзката се влошава. Проверяваме покритието и разположението на точката за достъп.</p><p class=\"focus\"><strong>Wi‑Fi и интернет са различни неща.</strong> Можеш да имаш връзка с локалната Wi‑Fi мрежа, докато връзката към интернет е прекъсната. Безжичната връзка не е по правило винаги по-бавна от всяка кабелна връзка.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Wi‑Fi осигурява безжичната част от локалната мрежа.\"><rect x=\"30.0\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"133.33333333333331\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Лаптоп</text><path d=\"M236.66666666666663 100 L276.66666666666663 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><rect x=\"276.66666666666663\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"379.99999999999994\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Радиовълни</text><path d=\"M483.33333333333326 100 L523.3333333333333 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><rect x=\"523.3333333333333\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"626.6666666666666\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Точка за</text><text x=\"626.6666666666666\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">достъп</text></svg><figcaption>Wi‑Fi осигурява безжичната част от локалната мрежа.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "wireless-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Свързан с Wi‑Fi, но без интернет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Лаптопът е свързан с Wi‑Fi, но не отваря външни сайтове. Кои изводи са правилни?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Символът за Wi‑Fi гарантира, че доставчикът осигурява интернет."
+            },
+            {
+              "id": "answer-2",
+              "text": "Локалната безжична връзка може да работи, а връзката към интернет да е прекъсната."
+            },
+            {
+              "id": "answer-3",
+              "text": "Ако има дебели стени, радиосигналът може да отслабне."
+            },
+            {
+              "id": "answer-4",
+              "text": "Wi‑Fi изисква оптично влакно между лаптопа и точката за достъп."
+            },
+            {
+              "id": "answer-5",
+              "text": "Радиовълните са средата за безжичната част на връзката."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка безжична мрежа е по-бавна от всяка кабелна мрежа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Wi‑Fi свързва лаптопа с локалната мрежа чрез радиовълни. Това само по себе си не гарантира интернет. Стените и смущенията влияят на връзката; скоростта зависи от конкретните технологии и условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "adapter-text",
+        "step_content": {
+          "type": "information",
+          "title": "Мрежова карта и MAC адрес",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Мрежовият адаптер</strong> (мрежова карта) свързва устройството с мрежата. Може да е вграден, отделна платка или USB адаптер. Има кабелни Ethernet и безжични Wi‑Fi адаптери.</p><p>При Ethernet и Wi‑Fi <strong>MAC адресът</strong> идентифицира мрежовия интерфейс в локалния обмен. Обичайният адрес е 48-битов, записван с 12 шестнадесетични цифри, например <code>02:1A:2B:3C:4D:5E</code>.</p><p class=\"example\">Лаптоп с Ethernet и Wi‑Fi има отделни интерфейси и обикновено различни MAC адреси за тях.</p><p class=\"focus\">Производителят обикновено задава адрес, но той може да бъде заменен с локално зададен или случаен адрес за поверителност. Затова MAC не е гарантирано неизменен „сериен номер на компютъра“. Не бива различни активни интерфейси в един локален сегмент да използват един и същ индивидуален MAC адрес.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 245\" role=\"img\" aria-label=\"Различните мрежови интерфейси имат свои MAC адреси.\"><rect x=\"25\" y=\"45\" width=\"220\" height=\"110\" rx=\"12\" fill=\"#e8edf9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"135.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Един лаптоп</text><path d=\"M245 75 L365 65\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M245 120 L365 160\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"365\" y=\"25\" width=\"365\" height=\"80\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"547.5\" y=\"59.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Ethernet интерфейс</text><text x=\"547.5\" y=\"85.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">02:1A:2B:3C:4D:5E</text><rect x=\"365\" y=\"135\" width=\"365\" height=\"80\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"547.5\" y=\"169.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Wi‑Fi интерфейс</text><text x=\"547.5\" y=\"195.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">02:6A:7B:8C:9D:AE</text></svg><figcaption>Различните мрежови интерфейси имат свои MAC адреси.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "adapter-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво показва MAC адресът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Кои твърдения за мрежовите адаптери и MAC адресите са верни?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Мрежовият адаптер може да е вграден в устройството."
+            },
+            {
+              "id": "answer-2",
+              "text": "MAC адресът е името на интернет доставчика."
+            },
+            {
+              "id": "answer-3",
+              "text": "Ethernet и Wi‑Fi интерфейсите на един лаптоп могат да имат различни MAC адреси."
+            },
+            {
+              "id": "answer-4",
+              "text": "MAC адресът никога не може да се промени."
+            },
+            {
+              "id": "answer-5",
+              "text": "Обичайният 48-битов MAC адрес може да се запише с 12 шестнадесетични цифри."
+            },
+            {
+              "id": "answer-6",
+              "text": "Два компютъра задължително трябва да имат еднакви индивидуални MAC адреси, за да обменят данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Адаптерът може да е вграден или добавен. MAC се отнася до мрежовия интерфейс, а не до доставчика. Ethernet и Wi‑Fi имат отделни интерфейси. Адресът може да бъде локално зададен или рандомизиран; дублираните индивидуални MAC адреси могат да нарушат обмена."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "switch-text",
+        "step_content": {
+          "type": "information",
+          "title": "Комутатор — суич",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Суичът свързва устройства в локалната мрежа.</strong> Всеки компютър, мрежов принтер или друга кабелна връзка използва порт на суича.</p><p>Обичайният Ethernet суич научава кои MAC адреси са достъпни през портовете му. Когато адресът на получателя е известен, изпраща кадъра към съответния порт.</p><p class=\"example\">Иван изпраща документ към мрежовия принтер. Ако суичът знае порта на принтера, насочва кадъра натам.</p><p class=\"focus\">Това не означава, че суичът никога не изпраща данни към повече портове. Например широковещателните кадри и кадрите с непознат адрес на получателя се разпространяват в съответния локален сегмент. Локалният обмен не изисква непременно интернет.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 320\" role=\"img\" aria-label=\"Суичът свързва крайните устройства в една локална мрежа.\"><path d=\"M380 120 L120 215\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M380 120 L380 215\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M380 120 L640 215\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"270\" y=\"25\" width=\"220\" height=\"95\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"66.5\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><text x=\"380.0\" y=\"92.5\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Таблица с MAC адреси</text><rect x=\"20\" y=\"215\" width=\"200\" height=\"70\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"120.0\" y=\"257.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютър А</text><rect x=\"280\" y=\"215\" width=\"200\" height=\"70\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"257.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Принтер</text><rect x=\"540\" y=\"215\" width=\"200\" height=\"70\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"640.0\" y=\"257.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютър Б</text></svg><figcaption>Суичът свързва крайните устройства в една локална мрежа.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "switch-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Документ към общия принтер",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Компютрите и принтерът са свързани към един обичаен Ethernet суич. Кое е вярно?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Суичът задължително създава радиовръзка с всеки компютър."
+            },
+            {
+              "id": "answer-2",
+              "text": "Суичът използва MAC адреси при насочване на кадрите."
+            },
+            {
+              "id": "answer-3",
+              "text": "Локалното изпращане към принтера винаги изисква интернет доставчик."
+            },
+            {
+              "id": "answer-4",
+              "text": "При известен адрес на получателя кадърът се насочва към съответния порт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Суичът може да свързва няколко устройства в локалната мрежа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Суичът при всички обстоятелства изпраща всеки кадър само към един порт."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Суичът свързва локалните устройства и използва MAC таблица. Към известен получател насочва кадъра през съответния порт; има и случаи на разпространение към повече портове. Интернет не е условие за местния обмен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "router-text",
+        "step_content": {
+          "type": "information",
+          "title": "Маршрутизатор — рутер",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Рутерът свързва различни IP мрежи и препраща пакети между тях.</strong> Използва IP адресите и информация за маршрутите.</p><p class=\"example\">Училищната локална мрежа е свързана чрез рутер към мрежата на доставчика. Компютърът използва рутера като шлюз, когато изпраща към външен сайт.</p><p>Суичът в нашия пример свързва устройства в една LAN, а рутерът осигурява връзката към други мрежи.</p><p class=\"focus\">Домашната кутия, наричана „Wi‑Fi рутер“, често съчетава <strong>рутер, малък суич и точка за достъп</strong>. Това са различни функции, дори когато са в общ корпус.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Рутерът препраща пакети между различни IP мрежи.\"><rect x=\"30.0\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"133.33333333333331\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Локална</text><text x=\"133.33333333333331\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">мрежа</text><path d=\"M236.66666666666663 100 L276.66666666666663 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"276.66666666666663\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"379.99999999999994\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Рутер</text><path d=\"M483.33333333333326 100 L523.3333333333333 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"523.3333333333333\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"626.6666666666666\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Мрежа на</text><text x=\"626.6666666666666\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">доставчика</text></svg><figcaption>Рутерът препраща пакети между различни IP мрежи.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "router-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Суич или рутер?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Кои описания разграничават правилно двете устройства в учебния пример?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Рутерът препраща пакети между различни IP мрежи."
+            },
+            {
+              "id": "answer-2",
+              "text": "Рутерът е другото име на всеки меден кабел."
+            },
+            {
+              "id": "answer-3",
+              "text": "Обичайният Ethernet суич свързва устройства в локалната мрежа."
+            },
+            {
+              "id": "answer-4",
+              "text": "Антените доказват, че устройството има само функция рутер."
+            },
+            {
+              "id": "answer-5",
+              "text": "Една домашна кутия може да съчетава рутер, суич и точка за достъп."
+            },
+            {
+              "id": "answer-6",
+              "text": "Рутерът може да насочва към други мрежи, без да използва информация за IP адреси и маршрути."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Рутерът свързва IP мрежи, а обичайният суич обслужва локалния Ethernet обмен. В общ корпус могат да са комбинирани няколко функции; само външният вид не показва всички възможности."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "modem-text",
+        "step_content": {
+          "type": "information",
+          "title": "Модем и връзка с доставчика",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Модемът преобразува данните в сигнали и обратно според използваната линия или радиоканал.</strong> Името идва от модулация и демодулация.</p><p class=\"example\">При кабелен интернет коаксиалната линия влиза в кабелен модем. Модемът осигурява съответния достъп до доставчика, а рутерът свързва домашната IP мрежа с неговата мрежа.</p><p>Модемите не работят само по телефонни линии: има DSL, кабелни и мобилни модеми. При оптична услуга често има оптичен терминал <strong>ONT</strong>, който не е същото устройство като кабелния модем.</p><p class=\"focus\">Оборудването зависи от услугата на доставчика. Модемът и рутерът могат да са в общ корпус. Не е нужно непременно да купуваш отделна кутия за всяка функция.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Пример за кабелен интернет; други услуги използват друго крайно оборудване.\"><rect x=\"30.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"102.5\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Коаксиална</text><text x=\"102.5\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">линия</text><path d=\"M175.0 100 L215.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"215.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"287.5\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Кабелен</text><text x=\"287.5\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">модем</text><path d=\"M360.0 100 L400.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"400.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"472.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Рутер</text><path d=\"M545.0 100 L585.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"585.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"657.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">LAN</text></svg><figcaption>Пример за кабелен интернет; други услуги използват друго крайно оборудване.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "modem-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "За какво служи модемът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Разглеждаме пример с коаксиална линия от доставчика, кабелен модем и отделен рутер. Кое е вярно?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Модемите се използват единствено с телефонна линия."
+            },
+            {
+              "id": "answer-2",
+              "text": "Кабелният модем работи със сигналите на коаксиалната линия."
+            },
+            {
+              "id": "answer-3",
+              "text": "В този пример рутерът свързва локалната IP мрежа с мрежата на доставчика."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всеки суич е модем само защото има Ethernet портове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Модем и рутер могат да бъдат комбинирани в един корпус."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всеки домашен рутер непременно съдържа подходящ модем за всяка услуга."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Кабелният модем работи със съответната линия, а рутерът препраща между IP мрежи. Има различни модеми и комбинирани устройства; Ethernet портът не прави устройството модем, а всеки рутер не поддържа всяка линия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "access-point-text",
+        "step_content": {
+          "type": "information",
+          "title": "Точка за достъп — връзката към Wi‑Fi",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Точката за достъп</strong> (Access Point, AP) позволява на Wi‑Fi устройствата да се включат в локалната мрежа. В нашата схема AP е свързана с кабел към суича.</p><p class=\"example\">Четири компютъра и принтер са включени с кабели към суич. Два лаптопа се свързват чрез Wi‑Fi с AP и така използват същия локален принтер, ако достъпът е разрешен.</p><p class=\"focus\">Добавянето на Wi‑Fi покритие и свързването с друга IP мрежа са различни задачи. Самостоятелната AP не замества непременно рутера. Често AP е вградена в домашния рутер.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Суич ↔ AP: кабел; AP ↔ лаптопи: радиовълни.\"><rect x=\"30.0\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"133.33333333333331\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><path d=\"M236.66666666666663 100 L276.66666666666663 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"276.66666666666663\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"379.99999999999994\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Точка за</text><text x=\"379.99999999999994\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">достъп</text><path d=\"M483.33333333333326 100 L523.3333333333333 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"523.3333333333333\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"626.6666666666666\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Wi‑Fi</text><text x=\"626.6666666666666\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">лаптопи</text></svg><figcaption>Суич ↔ AP: кабел; AP ↔ лаптопи: радиовълни.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "access-point-question",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Лаптопи към общия принтер",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>В кабинета вече има работещ суич и свързан към него мрежов принтер. Искаме два лаптопа да печатат без кабел.</p><p>Обясни как ще използваш точка за достъп: с какво я свързваш, по каква среда се свързват лаптопите и защо AP и рутерът имат различни роли. Нужен ли е непременно интернет за този локален печат?</p><p class=\"focus\">Отговори със свои думи и включи конкретен пример. След предаването сравни отговора си с примерния.</p></main></body></html>",
+          "reference_answer": "Свързвам AP с Ethernet кабел към суича. Лаптопите с Wi‑Fi адаптери се свързват с AP чрез радиовълни. Така могат да достигнат общия принтер в локалната мрежа, ако настройките разрешават печат. AP осигурява безжичния достъп, а рутерът препраща между различни IP мрежи. За печат към локалния принтер не е непременно нужен интернет."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "connectors-text",
+        "step_content": {
+          "type": "information",
+          "title": "Конектори и съвместими връзки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p><strong>Конекторът е накрайникът, чрез който кабелът се свързва с порт.</strong> Накрайникът, кабелът и портът трябва да са съвместими.</p><div class=\"table-wrap\"><table><tr><th>Среда</th><th>Пример за конектор</th><th>Къде го срещаме</th></tr><tr><td>Усукана двойка</td><td>8P8C, обичайно наричан RJ‑45</td><td>Ethernet порт на компютър и суич</td></tr><tr><td>Коаксиален кабел</td><td>BNC или F според системата</td><td>По-стари LAN, телевизия и кабелен интернет</td></tr><tr><td>Оптичен кабел</td><td>Например LC или SC</td><td>Съвместим оптичен модул или терминал</td></tr></table></div><p class=\"example\">RJ‑45 накрайникът на мрежовия кабел се включва в съответния Ethernet порт. Оптичен конектор не се поставя в този меден порт.</p><p class=\"focus\">Само еднаквият външен вид на портовете не гарантира еднаква скорост. Проверяваме и поддържания стандарт.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Връзката работи при съвместими кабел, конектори и портове.\"><rect x=\"30.0\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"133.33333333333331\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Кабел</text><path d=\"M236.66666666666663 100 L276.66666666666663 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"276.66666666666663\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"379.99999999999994\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Подходящ</text><text x=\"379.99999999999994\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">конектор</text><path d=\"M483.33333333333326 100 L523.3333333333333 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"523.3333333333333\" y=\"50\" width=\"206.66666666666666\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"626.6666666666666\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Съвместим</text><text x=\"626.6666666666666\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">порт</text></svg><figcaption>Връзката работи при съвместими кабел, конектори и портове.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "connectors-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Кой накрайник къде се включва?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Кои твърдения за конекторите са верни?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ethernet кабелът с усукана двойка често завършва с накрайник, наричан RJ‑45."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всички мрежови кабели използват един и същ конектор."
+            },
+            {
+              "id": "answer-3",
+              "text": "Оптичният конектор се поставя в съвместим оптичен порт или модул."
+            },
+            {
+              "id": "answer-4",
+              "text": "F или BNC могат да се срещнат при коаксиални връзки според системата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Еднаквият външен вид на два Ethernet порта гарантира еднаква скорост."
+            },
+            {
+              "id": "answer-6",
+              "text": "Накрайникът заменя нуждата от съвместим мрежов адаптер."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Различните среди използват подходящи конектори. RJ‑45 е обичайното название при меден Ethernet, LC и SC са примери за оптични конектори, а F и BNC се срещат при коаксиални системи. Важна е и съвместимостта на портовете и стандартите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "design-text",
+        "step_content": {
+          "type": "information",
+          "title": "План за малка локална мрежа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Трябват ни <strong>4 кабелни компютъра, 1 мрежов принтер и 2 Wi‑Fi лаптопа</strong>. Връзката към доставчика минава през рутер. AP е отделно устройство.</p><p>Планираме мрежа тип <strong>звезда</strong>: всяка кабелна крайна връзка отива към суича.</p><ul><li>4 порта за компютрите;</li><li>1 порт за принтера;</li><li>1 порт за AP;</li><li>1 порт за връзката към рутера.</li></ul><p class=\"example\">Общо са нужни <strong>7 порта на суича</strong> и 7 отделни Ethernet кабелни връзки при тази опростена схема. Суич с 8 порта оставя един свободен порт. Кабелът към доставчика е отделно от тази сметка.</p><p>Проверяваме адаптерите, дължините на трасетата, покритието и съвместимостта. Ако адаптерите са вградени и подходящи, не добавяме излишни мрежови карти.</p><p class=\"focus\">Между устройствата има и физически връзки, и настройки за достъп. Добрата схема посочва кой с кого се свързва и по каква среда.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 445\" role=\"img\" aria-label=\"Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.\"><path d=\"M225 85 L275 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M485 85 L550 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M605 130 L115 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 130 L380 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M665 130 L635 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 295 L635 355\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><rect x=\"25\" y=\"40\" width=\"200\" height=\"90\" rx=\"12\" fill=\"#e8edf9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"125.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Интернет /</text><text x=\"125.0\" y=\"105.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">доставчик</text><rect x=\"275\" y=\"40\" width=\"210\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Рутер</text><rect x=\"550\" y=\"40\" width=\"180\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"640.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><rect x=\"20\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"115.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютри</text><rect x=\"285\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Принтер</text><rect x=\"540\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Точка за достъп</text><rect x=\"540\" y=\"355\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#fff2d9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"392.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Лаптопи</text></svg><figcaption>Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "design-question",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проектирай мрежата на кабинета",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Използвай ситуацията от предишната стъпка: 4 кабелни компютъра, 1 мрежов принтер, 2 Wi‑Fi лаптопа, отделна AP, суич и рутер. Всички кабелни трасета в кабинета са под 30 m.</p><p>Предложи план в 5–8 изречения. Посочи подходящата среда за кабелните връзки, кой към кой порт или устройство се свързва, нужния брой портове на суича и ролята на рутера. Обясни дали локалният печат може да остане възможен при прекъсване на интернет.</p><p class=\"focus\">Отговори със свои думи и включи конкретен пример. След предаването сравни отговора си с примерния.</p></main></body></html>",
+          "reference_answer": "Свързвам четирите компютъра и принтера към суича с подходящи Ethernet кабели с усукана двойка. Свързвам отделната AP към още един порт на суича. Двата лаптопа използват Wi‑Fi към AP. Рутерът е свързан към суича и към оборудването или мрежата на доставчика. Суичът използва 4 + 1 + 1 + 1 = 7 порта, затова 8-портов суич е достатъчен и има един резервен порт. Рутерът препраща пакети между локалната IP мрежа и други мрежи. При работеща и правилно настроена LAN локалният печат може да продължи и без интернет."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "diagnosis-text",
+        "step_content": {
+          "type": "information",
+          "title": "Проследи пътя и открий проблема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Когато връзка не работи, проследяваме пътя на данните и сравняваме какво работи и какво не.</p><ul><li>Ако само един кабелен компютър няма връзка, проверяваме неговия кабел, конектори, порт, адаптер и настройки.</li><li>Ако локалният печат работи, но никой не отваря външни сайтове, проверяваме връзката към рутера и доставчика и мрежовите настройки.</li><li>Ако само отдалечените Wi‑Fi лаптопи губят връзка, проверяваме покритието и смущенията.</li></ul><p class=\"example\">Иван не достига принтера, а Мария печата успешно. Това насочва първата проверка към връзката и настройките на Иван, вместо веднага да обявим принтера за повреден.</p><p class=\"focus\">Това са насоки за проверка, а не доказателство за точната повреда. Един симптом може да има няколко причини.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 200\" role=\"img\" aria-label=\"Проверяваме последователно връзките по пътя на данните.\"><rect x=\"30.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"102.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Адаптер</text><path d=\"M175.0 100 L215.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"215.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"287.5\" y=\"94.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Кабел /</text><text x=\"287.5\" y=\"120.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Wi‑Fi</text><path d=\"M360.0 100 L400.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"400.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"472.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич / AP</text><path d=\"M545.0 100 L585.0 100\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><rect x=\"585.0\" y=\"50\" width=\"145.0\" height=\"100\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"657.5\" y=\"107.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Получател</text></svg><figcaption>Проверяваме последователно връзките по пътя на данните.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      },
+      {
+        "id": "diagnosis-question",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Коя проверка е обоснована?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><p>Кои действия са разумни при описаните симптоми?</p><p class=\"focus\"><strong>Отбележи всички верни отговори.</strong> Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Само Иван няма кабелна връзка: първо проверяваме неговия кабел, порт, адаптер и настройки."
+            },
+            {
+              "id": "answer-2",
+              "text": "Локалният печат работи, но няма интернет: сигурно всички локални кабели са прекъснати."
+            },
+            {
+              "id": "answer-3",
+              "text": "Wi‑Fi прекъсва зад дебели стени: проверяваме покритието и разположението на AP."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един сайт не се отваря: без други проверки обявяваме суича за повреден."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всички губят интернет, но обменят локални файлове: проверяваме изхода към рутера и доставчика и настройките."
+            },
+            {
+              "id": "answer-6",
+              "text": "Щом има индикатор за Wi‑Fi, повече проверки на интернет връзката не са нужни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Проверките следват симптома: отделна крайна връзка, Wi‑Fi покритие или общ път към интернет. Работещият локален обмен показва, че поне част от LAN работи. Нито иконата за Wi‑Fi, нито недостъпен отделен сайт сами доказват причината."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво вече можеш да обясниш?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{margin:0;background:#fff;color:#253449;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:860px;margin:auto;padding:22px}p{margin:12px 0}li{margin:7px 0}strong{color:#194d64}.focus,.example{padding:14px 18px;border-radius:10px}.focus{background:#e9f5f3;border-left:5px solid #168778}.example{background:#eef3fc}figure{margin:20px 0;padding:14px;background:#f5f8fb;border:1px solid #dbe4ee;border-radius:12px}figure svg{display:block;width:100%;height:auto}figcaption{font-size:15px;color:#526176;margin-top:8px}table{width:100%;border-collapse:collapse;font-size:18px}td,th{padding:10px;border:1px solid #cbd8e4;text-align:left;vertical-align:top}th{background:#e9f5f3}code{font:19px Consolas,monospace;overflow-wrap:anywhere}.table-wrap{overflow-x:auto}@media(max-width:540px){body{font-size:18px}main{padding:14px}table{font-size:16px}}</style></head><body><main><div class=\"table-wrap\"><table><tr><th>Част</th><th>Основна роля</th></tr><tr><td>Медни кабели, оптика, радиовълни</td><td>Пренасят сигналите.</td></tr><tr><td>Мрежов адаптер</td><td>Свързва устройството с мрежата.</td></tr><tr><td>Суич</td><td>Свързва локални устройства и насочва Ethernet кадри.</td></tr><tr><td>Рутер</td><td>Препраща пакети между IP мрежи.</td></tr><tr><td>Точка за достъп</td><td>Осигурява Wi‑Fi достъп до локалната мрежа.</td></tr><tr><td>Модем / крайно оборудване</td><td>Осигурява съответната връзка към услугата на доставчика.</td></tr><tr><td>Конектор</td><td>Свързва кабела със съвместим порт.</td></tr></table></div><p class=\"focus\">Преди да завършиш, обясни мислено пътя: лаптоп → Wi‑Fi → AP → суич → принтер. После опиши пътя до интернет и добави ролята на рутера и оборудването на доставчика.</p><p>Можеш да се върнеш към обясненията. Вече проверените или предадени отговори остават заключени. Когато си готов, завърши мисията.</p><figure><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 760 445\" role=\"img\" aria-label=\"Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.\"><path d=\"M225 85 L275 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M485 85 L550 85\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M605 130 L115 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 130 L380 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M665 130 L635 235\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\"/><path d=\"M635 295 L635 355\" fill=\"none\" stroke=\"#227f90\" stroke-width=\"4\" stroke-dasharray=\"8 6\"/><rect x=\"25\" y=\"40\" width=\"200\" height=\"90\" rx=\"12\" fill=\"#e8edf9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"125.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Интернет /</text><text x=\"125.0\" y=\"105.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">доставчик</text><rect x=\"275\" y=\"40\" width=\"210\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Рутер</text><rect x=\"550\" y=\"40\" width=\"180\" height=\"90\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"640.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Суич</text><rect x=\"20\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"115.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Компютри</text><rect x=\"285\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"380.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Принтер</text><rect x=\"540\" y=\"235\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#e3f2ee\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"272.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Точка за достъп</text><rect x=\"540\" y=\"355\" width=\"190\" height=\"60\" rx=\"12\" fill=\"#fff2d9\" stroke=\"#8aa7b5\" stroke-width=\"2\"/><text x=\"635.0\" y=\"392.0\" text-anchor=\"middle\" font-family=\"Segoe UI,Arial,sans-serif\" font-size=\"20\" fill=\"#253449\">Лаптопи</text></svg><figcaption>Кабелите свързват устройствата със суича; пунктираната връзка към лаптопите е Wi‑Fi.</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

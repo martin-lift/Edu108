@@ -73,6 +73,8 @@
 49. Ергономия (information)
 50. Допълнителни материали (information)
 
-## Снимка в първата стъпка
+## Изображения за първата стъпка
 
-`images/intro-keyboard.jpg`: [Black Computer keyboard.jpg](https://commons.wikimedia.org/wiki/File:Black_Computer_keyboard.jpg), Samiknoov, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Миниатюра 960 × 720 px. Първата стъпка съдържа само снимката и четирите зададени изречения.
+`images/intro-keyboard.jpg`: [Black Computer keyboard.jpg](https://commons.wikimedia.org/wiki/File:Black_Computer_keyboard.jpg), Samiknoov, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Миниатюра 960 × 720 px. Първоначална снимка, запазена като съществуващ ресурс.
+
+Текуща снимка: `images/intro-pink-keyboard-mouse.png` — файл `keyboardpink.png`, предоставен от потребителя; 640 × 384 px, без промени. Първата стъпка съдържа само тази снимка и четирите зададени изречения.

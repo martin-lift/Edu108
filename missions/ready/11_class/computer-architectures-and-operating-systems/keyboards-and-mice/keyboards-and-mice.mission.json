@@ -1,15 +1,15 @@
 {
   "mission_version": 4,
-  "mission_id": "keyboards-mice-input-events-20261119-accessible",
+  "mission_id": "keyboards-mice-input-events-20261119-experiments",
   "mission_content": {
     "title": "Клавиатури, мишки и входни събития",
-    "description": "Мисия по урок 16: QWERTY и БДС с изображения, достъпно обяснение на видовете клавиатури и пътя на клавиша, 10 клавиатури, 10 мишки и алтернативи, входни събития и практическа лаборатория. Въпросът след десетте клавиатури е за лично впечатление и е без примерен отговор.",
+    "description": "Мисия с 10 клавиатури, 12 мишки и алтернативи, общи обяснения за клавишни събития и Unicode, работа на оптичния сензор, други входни устройства и два отделни практически експеримента.",
     "class_name": "11. клас",
     "subject": "Компютърни архитектури и операционни системи",
     "category": "Входни устройства",
     "lesson": "16. Клавиатури, мишки и входни устройства",
     "content_format": "html",
-    "persistent_text": "Разгледай информацията и отговори на задачите. Двата блока с по 10 устройства са непрекъснати. Практическите наблюдения се правят в браузъра и се записват в мисията.",
+    "persistent_text": "Разгледай примерите и обясненията. В отделните експерименти наблюдавай клавиатурата и мишката, а после запиши собствените си наблюдения в мисията.",
     "steps": [
       {
         "id": "purpose",
@@ -371,59 +371,13 @@
         "id": "key-codes-events",
         "step_content": {
           "type": "information",
-          "title": "Код на клавиш, Unicode и събития в браузъра",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><h3>Един клавиш, няколко различни кода</h3><div class=\"table-wrap\"><table><caption>Пример за позицията A при обикновена US QWERTY подредба</caption><thead><tr><th scope=\"col\">Ниво</th><th scope=\"col\">Пример</th><th scope=\"col\">Какво означава?</th></tr></thead><tbody>\n<tr><td>USB HID Usage</td><td>Страница <code>0x07</code>, идентификатор <code>0x04</code></td><td>Клавишът Keyboard a and A. Не е Unicode и не съдържа решението дали да се въведе малка или главна буква.</td></tr>\n<tr><td>PS/2 сканкод, набор 2</td><td>Натискане <code>1C</code>; отпускане <code>F0 1C</code> (шестнадесетично)</td><td>Пример от друг протокол. Тези стойности не се изпращат като такива в USB отчета.</td></tr>\n<tr><td>Windows виртуален код</td><td><code>0x41</code> при US подредба</td><td>Логически клавиш на ниво ОС. Съвпадението със стойността на латинското A не го прави код на въведения текст.</td></tr>\n<tr><td>Събитие в браузър</td><td><code>code=\"KeyA\"</code>, <code>key=\"a\"</code>; със Shift — <code>key=\"A\"</code></td><td><code>code</code> описва физическата позиция, а <code>key</code> — значението според подредбата и модификаторите.</td></tr>\n<tr><td>Unicode символ</td><td><code>a = U+0061</code>; <code>A = U+0041</code></td><td>Код на вече определения символ. Кодиране като UTF-8 задава как този текст се представя в байтове.</td></tr>\n</tbody></table></div><p><strong>Пример за промяна на подредбата:</strong> физическата позиция <code>KeyF</code> въвежда <code>f</code> при английска US, <code>о</code> при българска БДС и <code>ф</code> при фонетична подредба. Българското <code>о</code> е <code>U+043E</code>, а латинското <code>o</code> е <code>U+006F</code>: изглеждат сходно, но са различни символи.</p><h3>Как изглежда това като събития в уеб приложение?</h3><p>При кратко натискане на A в обикновено текстово поле, с US подредба и без модификатори, типичният ред е следният:</p><ol><li><code>keydown</code> — клавишът е натиснат; приложението получава например <code>code=\"KeyA\"</code> и <code>key=\"a\"</code>.</li><li><code>beforeinput</code> — предстои промяна на текста; например <code>inputType=\"insertText\"</code> и <code>data=\"a\"</code>.</li><li>Ако действието не е отменено, браузърът добавя буквата в полето.</li><li><code>input</code> — съдържанието вече е променено.</li><li><code>keyup</code> — клавишът е отпуснат.</li></ol><p>В браузъра фокусираният елемент е целта на клавишното събитие; то преминава през DOM дървото и регистрираните слушатели могат да го обработят. Обработчикът може да извика <code>preventDefault()</code> за отменимо действие. Така клавишно събитие може да бъде получено, без да се въведе текст. Старото <code>keypress</code> и числовото <code>keyCode</code> не са добра основа за нов код.</p><p>При задържане може да има поредица от <code>keydown</code> с <code>repeat=true</code> преди едно <code>keyup</code>. Стрелките и Shift не въвеждат букви. При IME или комбиниране на знаци има композиционни събития и текстът може да се получи след няколко клавиша. Поставянето с мишката също променя текста, без буквен <code>keydown</code>. Затова текстът се следи чрез входните събития, а управлението с клавиши — чрез клавишните.</p><p class=\"source\">Технически източници: <a href=\"https://docs.qmk.fm/how_a_matrix_works\">QMK: матрица</a>; <a href=\"https://docs.qmk.fm/feature_debounce_type\">QMK: debounce</a>; <a href=\"https://www.usb.org/sites/default/files/hid1_11.pdf\">USB HID 1.11</a>; <a href=\"https://www.usb.org/sites/default/files/hut1_21_0.pdf\">HID Usage Tables</a>; <a href=\"https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input\">Microsoft: клавиатурен вход</a>; <a href=\"https://www.w3.org/TR/uievents/\">W3C: UI Events</a>.</p></main></body></html>",
+          "title": "Код на клавиш, Unicode и събития",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>При натискане компютърът получава информация <strong>кой клавиш е използван</strong>. След това избраната подредба и състоянието на Shift определят какъв символ може да се получи.</p>\n<h3>Кодът на клавиша и кодът на символа са различни неща</h3>\n<ul><li><strong>Код на клавиш:</strong> позволява да се разпознае клавишът. Конкретните означения зависят от устройството и операционната система.</li><li><strong>Unicode код:</strong> определя вече избрания символ. Например българското „а“ е <code>U+0430</code>, а „А“ е <code>U+0410</code>. Това са два различни символа.</li></ul>\n<p>Един и същ физически клавиш може да се използва за малка буква, главна буква или друг символ според подредбата. Затова не трябва да смесваме „кой клавиш натиснах“ с „какъв символ се получи“.</p>\n<h3>Какво е събитие?</h3><p>Събитието е съобщение до програмата, че е станало действие. При клавиатурата важни са <strong>натискането</strong>, <strong>отпускането</strong> и <strong>повторението при задържане</strong>. Въвеждането на текст е отделен резултат: Shift и стрелките например могат да се използват без добавяне на буква.</p>\n<p>Това се отнася за различни програми — текстови редактори, игри, електронни таблици и други приложения. Текстовият редактор може да добави символ, играта да премести герой, а таблицата да премести избраната клетка. Имената на събитията зависят от операционната система и използваната програмна среда.</p>\n<p class=\"source\">Източници: <a href=\"https://learn.microsoft.com/en-us/windows/win32/learnwin32/keyboard-input\">Microsoft: клавишни събития и символи</a>; <a href=\"https://www.unicode.org/standard/principles.html\">Unicode: принципи на кодирането на символи</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
           "time_limit_seconds": 0,
           "send_progress": true
-        }
-      },
-      {
-        "id": "check-key-codes",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: различни нива на кодиране",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Кои разграничения са правилни?</p><p>Избери всички верни твърдения.</p></main></body></html>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "answer-1",
-              "text": "USB HID 0x04 винаги е Unicode кодът на главното A."
-            },
-            {
-              "id": "answer-2",
-              "text": "В браузър code=\"KeyA\" описва позицията на клавиша."
-            },
-            {
-              "id": "answer-3",
-              "text": "При US подредба key може да е \"a\" или \"A\" според модификаторите."
-            },
-            {
-              "id": "answer-4",
-              "text": "keyup е същото като добавяне на текст."
-            },
-            {
-              "id": "answer-5",
-              "text": "Unicode U+0061 и U+0041 означават съответно a и A."
-            },
-            {
-              "id": "answer-6",
-              "text": "Всяко натискане непременно поражда input и видима буква."
-            }
-          ],
-          "correct_option_ids": [
-            "answer-2",
-            "answer-3",
-            "answer-5"
-          ],
-          "feedback": "Физическа позиция, логическо значение и символ са различни нива. Някои клавиши и комбинации изпълняват команди, без да въвеждат текст."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
         }
       },
       {
@@ -431,7 +385,7 @@
         "step_content": {
           "type": "information",
           "title": "Мишка и сензор",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Оптичният сензор отчита движение спрямо повърхността. Формата, бутоните и скролът влияят върху удобството. Неподходяща или замърсена повърхност може да причини неточно движение без повреда на компютъра.</p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p><strong>Мишката е входно посочващо устройство.</strong> С нея движим показалеца по екрана, избираме обекти, натискаме бутони и влачим. Колелцето обикновено служи за превъртане.</p>\n<h3>Как разбира накъде я движим?</h3><p>В повечето съвременни мишки има оптичен сензор от долната страна. Той работи като много малка камера, която следи повърхността под мишката.</p>\n<ol><li>Източник на светлина осветява малка част от повърхността.</li><li>Сензорът прави много последователни изображения на нейните дребни детайли.</li><li>Като сравнява изображенията, устройството установява в каква посока и с колко е преместена мишката.</li><li>Изпраща тези данни до компютъра, който премества показалеца.</li></ol>\n<p>Бутоните и колелцето изпращат отделни данни за натискане, отпускане и превъртане. Лазерните мишки също използват оптично отчитане, като осветяват повърхността с лазер.</p><p>Затова повърхността има значение: върху неподходяща, силно отразяваща или замърсена повърхност някои сензори се затрудняват и показалецът може да се движи неточно.</p>\n<p class=\"source\">Принцип на оптичното отчитане: <a href=\"https://media.digikey.com/pdf/Data%20Sheets/Avago%20PDFs/ADNS-2610.pdf\">Avago: оптичен сензор ADNS-2610</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -440,56 +394,10 @@
         }
       },
       {
-        "id": "check-mouse-sensor",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: когато показалецът се движи неточно",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Кои проверки и изводи са разумни?</p><p>Избери всички верни твърдения.</p></main></body></html>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "answer-1",
-              "text": "Проверка дали повърхността е подходяща за сензора."
-            },
-            {
-              "id": "answer-2",
-              "text": "Незабавен извод, че процесорът е повреден."
-            },
-            {
-              "id": "answer-3",
-              "text": "Проверка за замърсяване на повърхността."
-            },
-            {
-              "id": "answer-4",
-              "text": "Формата и бутоните нямат отношение към удобството."
-            },
-            {
-              "id": "answer-5",
-              "text": "Оптичният сензор отчита движение спрямо повърхността."
-            },
-            {
-              "id": "answer-6",
-              "text": "Всяко неточно движение доказва повреда на компютъра."
-            }
-          ],
-          "correct_option_ids": [
-            "answer-1",
-            "answer-3",
-            "answer-5"
-          ],
-          "feedback": "Повърхността и замърсяването могат да влошат отчитането без повреда на компютъра. Формата и контролите влияят на удобството."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
-        }
-      },
-      {
         "id": "mouse-example-01",
         "step_content": {
           "type": "information",
-          "title": "1/10. Игрова мишка за бързо прицелване — Razer DeathAdder Elite",
+          "title": "1/12. Игрова мишка за бързо прицелване — Razer DeathAdder Elite",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Различните задачи изискват различно управление: бързи движения в игра, много команди, работа с 3D модел или достъп без използване на ръцете. Тук „мишка“ включва и <strong>сродни посочващи и помощни устройства</strong>. Някои заместват стандартната мишка, а други я допълват.</p>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/01.jpg\" aria-label=\"Отвори снимката: Игрова мишка за бързо прицелване — Razer DeathAdder Elite\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/01.jpg\" alt=\"Кабелна Razer DeathAdder Elite с колелце и бутони за чувствителност.\" width=\"960\" height=\"600\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: D-Kuru · <a href=\"https://commons.wikimedia.org/wiki/File:Razer_DeathAdder_Elite-front_oblique-ar_16to10-fs_PNr%C2%B00465.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/at/deed.en\">CC BY-SA 3.0 at</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Оптична игрова мишка, подходяща за FPS игри.</p><p><strong>С какво е особена?</strong> Има бутони за смяна на чувствителността, странични бутони и сензор за отчитане на бързи движения. Формата е за захват с дясната ръка.</p><p><strong>За какво служи?</strong> За управление на камерата и прицелване в игри. Играчът настройва чувствителността според движенията си; най-високата стойност на DPI не е задължително най-удобната.</p><p class=\"source\"><a href=\"https://mysupport.razer.com/app/answers/detail/a_id/3692/\">Razer: устройство и характеристики</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -502,7 +410,7 @@
         "id": "mouse-example-02",
         "step_content": {
           "type": "information",
-          "title": "2/10. Мишка с много команди — Razer Naga 2014",
+          "title": "2/12. Мишка с много команди — Razer Naga 2014",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/02.jpg\" aria-label=\"Отвори снимката: Мишка с много команди — Razer Naga 2014\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/02.jpg\" alt=\"Razer Naga с решетка от дванадесет странични бутона за палеца.\" width=\"960\" height=\"800\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: osman gucel · <a href=\"https://commons.wikimedia.org/wiki/File:Razer_Naga_2014_MMO_Gaming_Mouse_(14714867599).jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Програмируема MMO мишка с лазерен сензор.</p><p><strong>С какво е особена?</strong> Отстрани има решетка от 12 бутона за палеца. На тях могат да се задават различни действия според играта или профила.</p><p><strong>За какво служи?</strong> За MMORPG игри с много умения, предмети и бързи команди. Бутоните могат да обслужват и преки пътища в работни приложения, ако софтуерът го позволява.</p><p class=\"source\"><a href=\"https://mysupport.razer.com/app/answers/detail/a_id/3753/\">Razer: Naga 2014</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -515,7 +423,7 @@
         "id": "mouse-example-03",
         "step_content": {
           "type": "information",
-          "title": "3/10. Професионална офис мишка — Logitech MX Master 3S",
+          "title": "3/12. Професионална офис мишка — Logitech MX Master 3S",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/03.jpg\" aria-label=\"Отвори снимката: Професионална офис мишка — Logitech MX Master 3S\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/03.jpg\" alt=\"Logitech MX Master 3S, поглед отпред към основното колелце и формата на корпуса.\" width=\"960\" height=\"640\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: Hayden Schiff · <a href=\"https://commons.wikimedia.org/wiki/File:Logitech_MX_Master_3S_HS19.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Мишка за работа с документи и приложения с много команди.</p><p><strong>С какво е особена?</strong> Има основно колелце с режим за свободно въртене, допълнително колелце за палеца и настройваеми действия. Допълнителното колелце може да превърта хоризонтално.</p><p><strong>За какво служи?</strong> За широки електронни таблици, дълги документи, графични приложения и времеви линии при видеообработка. Действията зависят от настройките и приложението.</p><p class=\"source\"><a href=\"https://hub.sync.logitech.com/mx-master-3s/post/mx-master-3s---setup-guide-logIbt80SWDODOk\">Logitech: ръководство за MX Master 3S</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -528,7 +436,7 @@
         "id": "mouse-example-04",
         "step_content": {
           "type": "information",
-          "title": "4/10. 3D мишка за инженери и дизайнери — SpaceNavigator",
+          "title": "4/12. 3D мишка за инженери и дизайнери — SpaceNavigator",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/04.jpg\" aria-label=\"Отвори снимката: 3D мишка за инженери и дизайнери — SpaceNavigator\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/04.jpg\" alt=\"3Dconnexion SpaceNavigator с широка основа и подвижна капачка.\" width=\"960\" height=\"640\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: AmericanXplorer13 (Wikimedia Commons) · <a href=\"https://commons.wikimedia.org/wiki/File:Space-Navigator.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Триизмерен контролер с шест степени на свобода (6DoF).</p><p><strong>С какво е особена?</strong> Капачката се натиска, издърпва, накланя и завърта. Така се управляват три посоки на преместване и три оси на завъртане в поддържано приложение.</p><p><strong>За какво служи?</strong> За CAD, архитектура и 3D моделиране. Често едната ръка движи изгледа със SpaceNavigator, а другата избира и редактира с обикновена мишка. Това е допълващо устройство, а не стандартна двумерна мишка.</p><p class=\"source\"><a href=\"https://3dconnexion.com/us/spacemouse/\">3Dconnexion: предназначение на 3D мишките</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -541,7 +449,7 @@
         "id": "mouse-example-05",
         "step_content": {
           "type": "information",
-          "title": "5/10. Вертикална мишка — Delux M618",
+          "title": "5/12. Вертикална мишка — Delux M618",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/05.jpg\" aria-label=\"Отвори снимката: Вертикална мишка — Delux M618\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/05.jpg\" alt=\"Delux M618 с висок вертикален корпус, бутони и колелце отстрани.\" width=\"960\" height=\"640\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: Ilya Plekhanov · <a href=\"https://commons.wikimedia.org/wiki/File:Delux_M618_vertical_mouse.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Ергономична мишка с изправен корпус.</p><p><strong>С какво е особена?</strong> Дланта стои по-странично, подобно на положение при ръкостискане. Основните бутони и колелцето са разположени по наклонената страна на корпуса.</p><p><strong>За какво служи?</strong> За работа с различна позиция на предмишницата. Може да е удобна за хора, които трудно използват плоска мишка; размерът, захватът и личните възможности са решаващи.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -554,7 +462,7 @@
         "id": "mouse-example-06",
         "step_content": {
           "type": "information",
-          "title": "6/10. Мишка с неподвижна основа — Kensington Expert Mouse",
+          "title": "6/12. Мишка с неподвижна основа — Kensington Expert Mouse",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/06.jpg\" aria-label=\"Отвори снимката: Мишка с неподвижна основа — Kensington Expert Mouse\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/06.jpg\" alt=\"Kensington Expert Mouse с голяма горна топка, четири бутона и пръстен за скрол.\" width=\"960\" height=\"960\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: Bobulous · <a href=\"https://commons.wikimedia.org/wiki/File:Kensington_Expert_Mouse_Wired_Trackball_64325.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Тракбол, управляван с пръстите.</p><p><strong>С какво е особена?</strong> Корпусът остава на място, а показалецът се движи чрез въртене на голямата топка. Около нея има пръстен за превъртане и отделни бутони.</p><p><strong>За какво служи?</strong> За бюра с малко свободно място, професионална работа и потребители, които могат да движат пръстите си, но се затрудняват да местят цялата ръка. Топката тук е отгоре и се управлява от човека.</p><p class=\"source\"><a href=\"https://www.kensington.com/news/ergonomic-workspace-blog/trackball-gift-guide-for-the-professionals-in-your-life/\">Kensington: приложения на тракболите</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -567,7 +475,7 @@
         "id": "mouse-example-07",
         "step_content": {
           "type": "information",
-          "title": "7/10. Мишка с форма на писалка",
+          "title": "7/12. Мишка с форма на писалка",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/07.jpg\" aria-label=\"Отвори снимката: Мишка с форма на писалка\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/07.jpg\" alt=\"Червено-черна писалковидна мишка с бутони и отделна прозрачна поставка.\" width=\"330\" height=\"266\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: Simon Speed · <a href=\"https://commons.wikimedia.org/wiki/File:PenMouseWithStand.JPG\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Писалковидна мишка (pen mouse).</p><p><strong>С какво е особена?</strong> Държи се с пръстите като писалка, а бутоните са по корпуса. Формата предлага друг захват за управление на показалеца.</p><p><strong>За какво служи?</strong> За човек, който предпочита такъв захват при посочване и работа в приложения. Това не я прави автоматично графичен таблет: абсолютни координати и чувствителност към натиск се поддържат само ако конкретното устройство ги има.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -580,7 +488,7 @@
         "id": "mouse-example-08",
         "step_content": {
           "type": "information",
-          "title": "8/10. Достъпност чрез джойстик — алтернатива на мишката",
+          "title": "8/12. Достъпност чрез джойстик — алтернатива на мишката",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/08.jpg\" aria-label=\"Отвори снимката: Достъпност чрез джойстик — алтернатива на мишката\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/08.jpg\" alt=\"Достъпна работна станция с жълта клавиатура и помощен джойстик вдясно.\" width=\"960\" height=\"720\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: Humanblocks · <a href=\"https://commons.wikimedia.org/wiki/File:Assistive_keyboard_and_Joystick.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Помощно посочващо устройство с лост и отделни бутони.</p><p><strong>С какво е особена?</strong> Отклоняването на лоста управлява движението на показалеца, без корпусът да се плъзга по бюрото. При различните модели има различни дръжки и настройки на скоростта.</p><p><strong>За какво служи?</strong> За хора с ограничен фин захват или двигателни затруднения, за които лостът е по-лесен от обикновена мишка. На снимката джойстикът е вдясно от клавиатурата на достъпна работна станция.</p></main></body></html>",
           "instruction_format": "html"
         },
@@ -593,8 +501,8 @@
         "id": "mouse-example-09",
         "step_content": {
           "type": "information",
-          "title": "9/10. Мишка, управлявана с глава — SmartNav 4",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/09.jpg\" aria-label=\"Отвори снимката: Мишка, управлявана с глава — SmartNav 4\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/09.jpg\" alt=\"Камера SmartNav 4 върху стойка с лепяща основа.\" width=\"432\" height=\"576\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: © The Board of Trustees of the Science Museum · <a href=\"https://collection.sciencemuseumgroup.org.uk/objects/co9027506/smart-nav-4-adaptive-cursor-eye-tracker\">Science Museum Group</a> · <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Оптично устройство за управление на показалеца с движения на главата.</p><p><strong>С какво е особена?</strong> Камерата следи малък светлоотразителен маркер върху лицето или очилата. Софтуерът преобразува движението му в движение на показалеца. Следи се маркерът, а не посоката на погледа.</p><p><strong>За какво служи?</strong> За хора, които могат да движат главата си, но не могат удобно да използват ръчна мишка. Щракването може да се организира чрез допълнителен превключвател или подходящ софтуер. Показаният модел е исторически пример за тази технология.</p><p class=\"source\"><a href=\"https://collection.sciencemuseumgroup.org.uk/objects/co9027506/smart-nav-4-adaptive-cursor-eye-tracker\">Science Museum: SmartNav 4</a>.</p></main></body></html>",
+          "title": "9/12. Мишка, управлявана с глава — SmartNav 4",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/09.jpg\" aria-label=\"Отвори снимката: Мишка, управлявана с глава — SmartNav 4\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/09.jpg\" alt=\"Камера SmartNav 4 върху стойка с лепяща основа.\" width=\"432\" height=\"576\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: © The Board of Trustees of the Science Museum · <a href=\"https://collection.sciencemuseumgroup.org.uk/objects/co9027506/smart-nav-4-adaptive-cursor-eye-tracker\">Science Museum Group</a> · <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Оптично устройство за управление на показалеца с движения на главата.</p><p><strong>С какво е особена?</strong> Камерата следи малък светлоотразителен маркер върху лицето или очилата. Софтуерът преобразува движението му в движение на показалеца. Следи се маркерът, а не посоката на погледа.</p><p><strong>За какво служи?</strong> За хора, които могат да движат главата си, но не могат удобно да използват ръчна мишка. Щракването може да се организира чрез допълнителен превключвател или подходящ софтуер. Показаният модел е исторически пример за тази технология.</p><p class=\"source\"><a href=\"https://collection.sciencemuseumgroup.org.uk/objects/co9027506/smart-nav-4-adaptive-cursor-eye-tracker\">Science Museum: SmartNav 4</a>.</p><figure id=\"head-mouse-explained\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/head-mouse-in-use.png\" alt=\"Учебна илюстрация на човек с маркер на челото, камера над монитора и показалец на екрана.\" width=\"1536\" height=\"1024\" loading=\"lazy\" decoding=\"async\"><figcaption>Учебна илюстрация: камерата проследява маркера на челото. При движение на главата програмата премества показалеца. Синият пунктир е пояснителен знак за връзката между камерата и маркера. Илюстрацията е създадена с изкуствен интелект.</figcaption></figure><p>Камерата стои над екрана и е насочена към човека. Малкият светлоотразителен маркер може да е на челото или на очилата. Когато човек премести главата си, маркерът сменя мястото си в изображението на камерата и показалецът се премества. Щракването може да се изпълнява с отделен достъпен превключвател или чрез подходяща настройка на софтуера.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -606,8 +514,34 @@
         "id": "mouse-example-10",
         "step_content": {
           "type": "information",
-          "title": "10/10. Управление с уста и дишане — QuadStick",
+          "title": "10/12. Управление с уста и дишане — QuadStick",
           "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main>\n<figure><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/10.jpg\" aria-label=\"Отвори снимката: Управление с уста и дишане — QuadStick\"><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/mice/10.jpg\" alt=\"QuadStick с джойстик за устата, мундщук и тръбички за управление чрез дишане.\" width=\"768\" height=\"576\" loading=\"lazy\" decoding=\"async\"></a><figcaption>Снимка: © The Board of Trustees of the Science Museum · <a href=\"https://collection.sciencemuseumgroup.org.uk/objects/co9019024/quadstick-game-controller\">Science Museum Group</a> · <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0/\">CC BY-NC-SA 4.0</a>.</figcaption></figure>\n<p><strong>Вид:</strong> Помощен контролер с джойстик за устата и сензори за засмукване и издухване (sip-and-puff).</p><p><strong>С какво е особена?</strong> Движението на джойстика и промените в налягането в тръбичките се преобразуват в команди. Според модела, връзката и профила устройството може да действа като игрови контролер, мишка или клавиатура.</p><p><strong>За какво служи?</strong> За хора със силно ограничени движения на крайниците, включително тетраплегия, които могат да използват устата и дишането си за управление. Позволява достъп до компютърни задачи и игри без ръчна мишка.</p><p class=\"source\"><a href=\"https://www.quadstick.com/shop/quadstick-original-game-controller\">QuadStick: режими и управление</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "mouse-example-11",
+        "step_content": {
+          "type": "information",
+          "title": "11/12. Lenovo TrackPoint — червеното посочващо лостче",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><figure><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/trackpoint.jpg\" alt=\"Червеният TrackPoint между клавишите на лаптоп.\" width=\"960\" height=\"720\" loading=\"lazy\" decoding=\"async\"><figcaption>TrackPoint е малкото червено посочващо лостче в клавиатурата. Снимка: Inklein · <a href=\"https://commons.wikimedia.org/wiki/File:Mouse_pointing_stick.jpeg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>.</figcaption></figure><p><strong>Вид:</strong> посочващо лостче TrackPoint, познато от лаптопите Lenovo ThinkPad.</p><p><strong>С какво е особено?</strong> Поставяш пръст върху червената капачка и прилагаш лек натиск в желаната посока. Показалецът се движи според посоката и силата на натиска. Не е нужно да плъзгаш пръста по голяма площ.</p><p><strong>За какво служи?</strong> За управление на показалеца, докато ръцете остават близо до клавишите. Щракването се прави с отделните бутони, а средният бутон може да участва в превъртане.</p><p class=\"source\"><a href=\"https://support.lenovo.com/it/it/documentation/SG10019/Use_the_TrackPoint_pointing_device?language=en\">Lenovo: работа с TrackPoint</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "mouse-example-12",
+        "step_content": {
+          "type": "information",
+          "title": "12/12. Тъчпад — управление с пръст по чувствителна площ",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><figure><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/touchpad.jpg\" alt=\"Правоъгълен тъчпад с отделни бутони под клавиатурата на лаптоп.\" width=\"960\" height=\"721\" loading=\"lazy\" decoding=\"async\"><figcaption>Тъчпадът е чувствителната на допир площ под клавиатурата. Снимка: Santeri Viinamäki · <a href=\"https://commons.wikimedia.org/wiki/File:Laptop_touchpad_20190320.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>.</figcaption></figure><p><strong>Вид:</strong> тъчпад, наричан още touchpad или trackpad.</p><p><strong>С какво е особен?</strong> Плъзгаш пръст по плоската повърхност и показалецът следва движението. Докосване или натискане може да означава щракване; жест с два пръста често превърта или променя мащаба според настройките.</p><p><strong>За какво служи?</strong> За работа с лаптоп без отделна мишка. Удобен е при малко място и пренасяне на компютъра. Поддържаните жестове зависят от модела и операционната система.</p><p class=\"source\"><a href=\"https://support.microsoft.com/en-gb/windows/hardware/input-devices/touch-gestures-for-windows\">Microsoft: жестове с тъчпад</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -619,15 +553,13 @@
         "id": "check-mouse-gallery",
         "step_content": {
           "type": "open_answer",
-          "title": "Обща проверка: десетте мишки и алтернативи",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>За всяка задача посочи подходящия пример от десетте устройства. За <strong>три случая</strong> обясни с какво особеността на устройството помага.</p><ol><li>Бързо прицелване и управление на камерата в FPS игра.</li><li>Достъп с палеца до много MMO команди.</li><li>Хоризонтално превъртане на широки таблици и работа с дълги документи.</li><li>Преместване и завъртане на изглед в CAD по шест степени на свобода.</li><li>Работа с по-изправен, страничен захват на дланта.</li><li>Движение на показалеца чрез горна топка, при неподвижен корпус.</li><li>Алтернативен захват на мишката като писалка.</li><li>Управление чрез отклоняване на помощен лост без плъзгане на корпус.</li><li>Управление чрез светлоотразителен маркер върху лице или очила.</li><li>Управление с уста, засмукване и издухване.</li></ol><p>Уточни кое устройство за CAD често допълва обикновената мишка.</p></main></body></html>",
-          "instruction_format": "html",
-          "reference_answer": "1 Razer DeathAdder Elite. 2 Razer Naga 2014. 3 Logitech MX Master 3S. 4 SpaceNavigator. 5 Вертикална Delux M618. 6 Kensington Expert Mouse — тракбол. 7 Писалковидна мишка. 8 Помощен джойстик. 9 SmartNav 4 — следи маркер при движение на главата. 10 QuadStick — устен джойстик и sip-and-puff сензори. SpaceNavigator често допълва двумерната мишка. Приемат се ясни названия на вида и смислово точни обосновки за три случая."
+          "title": "Обратна връзка: мишки и алтернативи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Какъв нов вид мишка бихте искали да съществува. Опишете вашия проект за мишка.</p></main></body></html>",
+          "instruction_format": "html"
         },
         "step_rules": {
           "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
+          "send_progress": true
         }
       },
       {
@@ -641,52 +573,6 @@
         "step_rules": {
           "time_limit_seconds": 0,
           "send_progress": true
-        }
-      },
-      {
-        "id": "check-dpi",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: DPI и скорост на показалеца",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Кои твърдения са верни?</p><p>Избери всички верни твърдения.</p></main></body></html>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "answer-1",
-              "text": "Висок DPI автоматично означава най-добра точност за всеки човек."
-            },
-            {
-              "id": "answer-2",
-              "text": "DPI описва отчетени единици за изминато разстояние."
-            },
-            {
-              "id": "answer-3",
-              "text": "Настройките на ОС също влияят върху скоростта на показалеца."
-            },
-            {
-              "id": "answer-4",
-              "text": "Най-подходящият офис модел винаги е този с най-висок DPI."
-            },
-            {
-              "id": "answer-5",
-              "text": "DPI е честотата на опресняване на монитора."
-            },
-            {
-              "id": "answer-6",
-              "text": "Подходящата чувствителност зависи от задачата и човека."
-            }
-          ],
-          "correct_option_ids": [
-            "answer-2",
-            "answer-3",
-            "answer-6"
-          ],
-          "feedback": "DPI/CPI е свързан с отчетени стъпки за разстояние. Екранното движение зависи и от настройките; по-високо число не е универсално предимство."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
         }
       },
       {
@@ -753,7 +639,7 @@
         "step_content": {
           "type": "information",
           "title": "Как програмите използват събитията от мишката",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><h3>От отчетите до събитията</h3><p>В браузър програмата може да слуша <code>pointermove</code>, <code>pointerdown</code> и <code>pointerup</code>, както и <code>click</code>, <code>dblclick</code>, <code>contextmenu</code> и <code>wheel</code>. Съществуват и мишите събития <code>mousemove</code>, <code>mousedown</code> и <code>mouseup</code>. Pointer Events дават общ начин за работа с мишка, докосване и писалка.</p><p>При обикновено щракване с основния бутон типичната последователност е <strong>натискане → отпускане → <code>click</code></strong>. Двойното щракване се разпознава от софтуера според времето, позицията и настройките; то не е отделен електрически сигнал от стандартната мишка. В уеб събитията <code>clientX</code> и <code>clientY</code> са координати спрямо видимата област на страницата, <code>button</code> описва променения бутон, а <code>buttons</code> — състоянието на задържаните бутони. Основният бутон може да е преназначен.</p><p>При <code>wheel</code> приращенията са в <code>deltaX</code> и <code>deltaY</code>, а <code>deltaMode</code> указва дали единиците са пиксели, редове или страници. Това вече е ниво на браузъра и не е същото като суровите байтове от устройството. Конкретното действие зависи и от модификатори като Ctrl и Shift.</p><h3>Едни входни данни, различни употреби</h3><div class=\"table-wrap\"><table><caption>Как приложението придава смисъл на движението и бутоните</caption><thead><tr><th scope=\"col\">Действие</th><th scope=\"col\">Какво проследява програмата?</th><th scope=\"col\">Приложение</th></tr></thead><tbody>\n<tr><td>Посочване и щракване</td><td>Позиция върху елемент и завършено щракване</td><td>Бутон, връзка, избор на клетка или поставяне на текстов курсор</td></tr>\n<tr><td>Влачене</td><td>Натискане, последващо движение със задържан бутон и отпускане</td><td>Местене на прозорец, файл, фигура или маркер във времева линия</td></tr>\n<tr><td>Маркиране и рисуване</td><td>Поредица от позиции, докато бутонът е задържан</td><td>Избор на текст или област, свободна линия, редактиране на изображение</td></tr>\n<tr><td>Превъртане и мащабиране</td><td>Приращение на колелцето и евентуални модификатори</td><td>Скрол на документ, увеличение на карта или чертеж</td></tr>\n<tr><td>Контекстни и бързи команди</td><td>Контекстно действие или допълнителен бутон</td><td>Меню за избрания обект, връщане назад, зададена команда</td></tr>\n<tr><td>Управление в игра</td><td>Относителни движения, натискания и отпускания</td><td>Завъртане на камерата, прицелване, задържане на действие</td></tr>\n<tr><td>3D навигация</td><td>Три оси на преместване и три на завъртане от 3D контролер</td><td>Оглед на CAD модел и движение на изгледа в пространството</td></tr>\n</tbody></table></div><p><strong>DPI и честота на отчитане са различни величини.</strong> DPI/CPI описва броя отчетени стъпки за изминато разстояние, а честотата в Hz — колко често се обслужват/предават отчети според интерфейса и устройството. При 125 Hz номиналният интервал е 8 ms, а при 1000 Hz — 1 ms. Това не гарантира същото време до видима реакция: участват още ОС, програмата и обновяването на екрана.</p><p><strong>Достъпност:</strong> тракбол, джойстик или устройство за управление с глава може да осигури същите основни действия — движение и щракване — чрез различни движения на човека. Затова добре направеното приложение предлага и клавиатурни алтернативи и не разчита само на трудни жестове като прецизно влачене.</p><p class=\"source\">Източници: <a href=\"https://www.usb.org/sites/default/files/hid1_11.pdf\">USB HID 1.11: протокол и пример за мишка</a>; <a href=\"https://learn.microsoft.com/en-us/windows/win32/inputdev/about-mouse-input\">Microsoft: обработка на миши вход</a>; <a href=\"https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-rawmouse\">Microsoft: RAWMOUSE</a>; <a href=\"https://www.w3.org/TR/pointerevents/\">W3C: Pointer Events, Mouse и Wheel Events</a>.</p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><h3>Събитията достигат до програмата</h3><p>Програмата получава съобщения за движение, натискане и отпускане на бутон и превъртане. Чрез позицията на показалеца тя определя към кой бутон, файл, клетка или друг обект е насочено действието.</p><p>Едно натискане и последващо отпускане може да се разпознае като щракване. Две близки по време щраквания могат да се разпознаят като двойно щракване. При движение със задържан бутон програмата може да влачи обект или да рисува линия. Точните имена на събитията зависят от програмната среда.</p><h3>Едни входни данни, различни употреби</h3><div class=\"table-wrap\"><table><caption>Как приложението придава смисъл на движението и бутоните</caption><thead><tr><th scope=\"col\">Действие</th><th scope=\"col\">Какво проследява програмата?</th><th scope=\"col\">Приложение</th></tr></thead><tbody>\n<tr><td>Посочване и щракване</td><td>Позиция върху елемент и завършено щракване</td><td>Бутон, връзка, избор на клетка или поставяне на текстов курсор</td></tr>\n<tr><td>Влачене</td><td>Натискане, последващо движение със задържан бутон и отпускане</td><td>Местене на прозорец, файл, фигура или маркер във времева линия</td></tr>\n<tr><td>Маркиране и рисуване</td><td>Поредица от позиции, докато бутонът е задържан</td><td>Избор на текст или област, свободна линия, редактиране на изображение</td></tr>\n<tr><td>Превъртане и мащабиране</td><td>Приращение на колелцето и евентуални модификатори</td><td>Скрол на документ, увеличение на карта или чертеж</td></tr>\n<tr><td>Контекстни и бързи команди</td><td>Контекстно действие или допълнителен бутон</td><td>Меню за избрания обект, връщане назад, зададена команда</td></tr>\n<tr><td>Управление в игра</td><td>Относителни движения, натискания и отпускания</td><td>Завъртане на камерата, прицелване, задържане на действие</td></tr>\n<tr><td>3D навигация</td><td>Три оси на преместване и три на завъртане от 3D контролер</td><td>Оглед на CAD модел и движение на изгледа в пространството</td></tr>\n</tbody></table></div><p><strong>DPI и честота на отчитане са различни величини.</strong> DPI/CPI описва броя отчетени стъпки за изминато разстояние, а честотата в Hz — колко често се обслужват/предават отчети според интерфейса и устройството. При 125 Hz номиналният интервал е 8 ms, а при 1000 Hz — 1 ms. Това не гарантира същото време до видима реакция: участват още ОС, програмата и обновяването на екрана.</p><p><strong>Достъпност:</strong> тракбол, джойстик или устройство за управление с глава може да осигури същите основни действия — движение и щракване — чрез различни движения на човека. Затова добре направеното приложение предлага и клавиатурни алтернативи и не разчита само на трудни жестове като прецизно влачене.</p><p class=\"source\">Източници: <a href=\"https://www.usb.org/sites/default/files/hid1_11.pdf\">USB HID 1.11: протокол и пример за мишка</a>; <a href=\"https://learn.microsoft.com/en-us/windows/win32/inputdev/about-mouse-input\">Microsoft: обработка на миши вход</a>; <a href=\"https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-rawmouse\">Microsoft: RAWMOUSE</a>; <a href=\"https://www.w3.org/TR/pointerevents/\">W3C: Pointer Events, Mouse и Wheel Events</a>.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -811,8 +697,8 @@
         "id": "lab-keyboard",
         "step_content": {
           "type": "information",
-          "title": "Лаборатория: наблюдавай клавишните и текстовите събития",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/16-Keyboards-and-Mice.html#input-events-demo\" target=\"_blank\" rel=\"noopener noreferrer\">Отвори интерактивната лаборатория в браузъра</a>. Върни се в мисията, за да запишеш наблюденията си.</p><ol><li>Щракни в полето „Клавиатура“ и избери английска US подредба.</li><li>Натисни F без Shift, после Shift + F. Задръж и буквен клавиш, за да потърсиш <code>repeat=true</code>.</li><li>Натисни „Пауза“ и намери записите <code>keydown</code>, <code>beforeinput</code>, <code>input</code> и <code>keyup</code>. Най-новият запис е отгоре.</li></ol><p><code>key</code> е значението на клавиша, <code>code</code> — браузърното означение на физическата позиция, а Unicode стойността се показва за единичен символ. Това не са сурови USB HID отчети или хардуерни сканкодове. При екранна клавиатура някои свойства могат да липсват.</p></main></body></html>",
+          "title": "Експеримент с клавиатура",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/keyboard-experiment.html\" target=\"_blank\" rel=\"noopener noreferrer\">Отвори: Експеримент с клавиатура</a>.</p><p>Избери буква, натисни я без Shift и със Shift и сравни key, code и Unicode. Задръж клавиш и потърси повторение.</p><p>Използвай „Пауза“, за да прочетеш дневника, „Продължи записа“, за да продължиш, и „Изчисти дневника“, за да започнеш ново наблюдение. После се върни в мисията.</p><p>Страницата е предназначена само за този експеримент. Тя показва събитията, достъпни за уеб страница; събития при работа с клавиатура и мишка има и в останалите приложения.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -825,22 +711,20 @@
         "step_content": {
           "type": "open_answer",
           "title": "Проверка: предай наблюденията от клавиатурата",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Запиши от дневника <strong>key, code и Unicode</strong> за натискането на F без Shift и със Shift. Посочи кое се запазва и кое се променя.</p><p>Посочи две различни събития от опита и обясни защо <code>input</code> и <code>keyup</code> не означават едно и също. Ако използваното устройство не предоставя <code>code</code> или повторение, отбележи това, вместо да измисляш стойности.</p></main></body></html>",
-          "instruction_format": "html",
-          "reference_answer": "При физическа клавиатура с US подредба: без Shift key=\"f\", code=\"KeyF\", U+0066; със Shift key=\"F\", code=\"KeyF\", U+0046. Позицията code остава същата, а key и символът се променят. keydown означава натискане, keyup — отпускане, beforeinput — предстояща промяна, input — вече променен текст. При задържане може да има keydown с repeat=true. Приемат се реално наблюдаваните ограничения на екранна клавиатура, ако са обяснени."
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Какво показва дневникът, когато натиснеш и отпуснеш избран от теб клавиш?</p></main></body></html>",
+          "instruction_format": "html"
         },
         "step_rules": {
           "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
+          "send_progress": true
         }
       },
       {
         "id": "lab-mouse",
         "step_content": {
           "type": "information",
-          "title": "Лаборатория: движение, щракване, скрол и дневник",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Върни се в <a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/16-Keyboards-and-Mice.html#input-events-demo\" target=\"_blank\" rel=\"noopener noreferrer\">лабораторията</a> и продължи записа, ако е на пауза.</p><ol><li>Изчисти дневника. Движи мишката в очертаната зона.</li><li>Задръж основния бутон, премести мишката и отпусни. Направи единично и двойно щракване.</li><li>Завърти колелцето или превърти с тъчпада върху зоната. Виж <code>deltaY</code> и <code>deltaMode</code>.</li><li>Натисни „Пауза“, прочети записите, после използвай „Продължи записа“ и „Изчисти дневника“.</li></ol><p><code>button</code> описва променения бутон; <code>buttons</code> е маска за задържаните бутони: 1 = основен, 2 = вторичен, 4 = среден. <code>clientX/Y</code> са координати спрямо видимата област. <code>deltaMode</code> указва пиксели, редове или страници.</p><p>Пауза замразява показанията и дневника; изчистването премахва само дневника. Записите за движение са ограничени до 10 в секунда и се пазят последните 120. Данните остават в страницата и изчезват при презареждане.</p></main></body></html>",
+          "title": "Експеримент с мишка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/mouse-experiment.html\" target=\"_blank\" rel=\"noopener noreferrer\">Отвори: Експеримент с мишка</a>.</p><p>Премести показалеца, щракни веднъж и два пъти, задръж бутон при движение и превърти с колелцето или тъчпада. Сравни имената на събитията и стойностите.</p><p>Използвай „Пауза“, за да прочетеш дневника, „Продължи записа“, за да продължиш, и „Изчисти дневника“, за да започнеш ново наблюдение. После се върни в мисията.</p><p>Страницата е предназначена само за този експеримент. Тя показва събитията, достъпни за уеб страница; събития при работа с клавиатура и мишка има и в останалите приложения.</p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
@@ -853,14 +737,12 @@
         "step_content": {
           "type": "open_answer",
           "title": "Проверка: предай наблюденията от мишката",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Напиши имената на събитията при натискане, движение със задържан основен бутон и отпускане. Как се променя <code>buttons</code>?</p><p>Запиши действително наблюдавана стойност на <code>deltaY</code> и съответния <code>deltaMode</code> с единиците му. Обясни със свои думи защо това не е команда „отвори файл“.</p><p>Опиши какво се случва с дневника при „Пауза“ и при „Изчисти дневника“. Не се изисква снимка или файл.</p></main></body></html>",
-          "instruction_format": "html",
-          "reference_answer": "Обичайно: mousedown, mousemove, mouseup; при задържан основен бутон buttons=1, след отпускане buttons=0. При завършено щракване може да има click, при двойно — dblclick. Стойността deltaY трябва да е реално наблюдавана; deltaMode=0 означава пиксели, 1 — редове, 2 — страници. Мишката дава данни за движение/бутони/превъртане; програмата избира действието. Пауза спира обновяването, изчистването премахва записите, но запазва текста в клавиатурното поле и състоянието на паузата."
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Какви събития наблюдаваш, когато движиш мишката, щракваш и превърташ колелцето?</p></main></body></html>",
+          "instruction_format": "html"
         },
         "step_rules": {
           "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
+          "send_progress": true
         }
       },
       {
@@ -877,108 +759,16 @@
         }
       },
       {
-        "id": "check-connections",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: как е свързано устройството",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Кои твърдения за връзката са верни?</p><p>Избери всички верни твърдения.</p></main></body></html>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "answer-1",
-              "text": "Bluetooth устройствата нямат нужда от захранване."
-            },
-            {
-              "id": "answer-2",
-              "text": "USB може да пренася данни и захранване за кабелно устройство."
-            },
-            {
-              "id": "answer-3",
-              "text": "Всеки USB радиоприемник работи с всяка безжична мишка."
-            },
-            {
-              "id": "answer-4",
-              "text": "При безжично устройство трябва да се проверят батерията или акумулаторът."
-            },
-            {
-              "id": "answer-5",
-              "text": "Безжичното устройство може да използва Bluetooth или подходящ приемник."
-            },
-            {
-              "id": "answer-6",
-              "text": "USB кабелът се използва единствено за изображение на екрана."
-            }
-          ],
-          "correct_option_ids": [
-            "answer-2",
-            "answer-4",
-            "answer-5"
-          ],
-          "feedback": "Кабелът може да осигурява данни и захранване. Безжичните устройства се нуждаят от собствен източник на енергия и подходяща връзка."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
-        }
-      },
-      {
         "id": "other-input",
         "step_content": {
           "type": "information",
           "title": "Други входни устройства",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Тъчпадът заменя мишката в много лаптопи. Графичният таблет е полезен за рисуване, а четецът на баркод — за бързо въвеждане на кодове. Микрофонът и камерата подават различен тип данни от клавиатурата.</p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Освен клавиатурата и посочващите устройства компютърът може да получава данни и по други начини.</p><h3>Графичен таблет</h3><p>Работим със специална писалка върху чувствителна повърхност. Устройството предава позицията на писалката, а много модели отчитат и натиска. Така в програма за рисуване линията може да променя дебелината си. При някои таблети рисуваме върху отделна плоча и гледаме монитора, а при други има вграден екран.</p><figure><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/graphics-tablet.jpg\" alt=\"Художник рисува със специална писалка върху графичен таблет; вдясно се вижда изображението.\" width=\"960\" height=\"527\" loading=\"lazy\" decoding=\"async\"><figcaption>Писалката управлява рисуването в графичното приложение. Снимка: David Revoy · <a href=\"https://commons.wikimedia.org/wiki/File:Graphics_tablet.jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/licenses/by/2.5\">CC BY 2.5</a>.</figcaption></figure><h3>Четец на баркод</h3><p>Осветява и разчита код от етикет, след което подава разпознатия номер или текст към програмата. Така касиер или складов служител може бързо да въведе код на стока, без да го преписва. Обикновеният баркод често служи за намиране на запис в база данни — цената се извлича от програмата.</p><figure><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/barcode-scanner.jpg\" alt=\"Ръчен четец на баркод с дръжка и кабел.\" width=\"960\" height=\"720\" loading=\"lazy\" decoding=\"async\"><figcaption>Четецът въвежда разпознатите кодове в търговска или складова програма. Снимка: Network.nt · <a href=\"https://commons.wikimedia.org/wiki/File:CCD_Barcode_Scanner-1.jpg\">Wikimedia Commons</a> · Public domain.</figcaption></figure><h3>Уебкамера</h3><p>Обективът насочва светлината към сензор, който я превръща в цифрово изображение. Поредица от такива изображения образува видео. Камерата подава образ към програми за видеовръзка, запис или разпознаване на изображения.</p><figure><img src=\"https://martin-lift.github.io/108/Computer%20Architectures%20and%20Operating%20Systems/images/input-devices/webcam.jpg\" alt=\"Уебкамера с ясно видим обектив, поставена пред монитор.\" width=\"960\" height=\"720\" loading=\"lazy\" decoding=\"async\"><figcaption>Камерата е входно устройство за изображение и видео. Снимка: Zsinytwiki · <a href=\"https://commons.wikimedia.org/wiki/File:Webcam_(Logitech_c922).jpg\">Wikimedia Commons</a> · <a href=\"https://creativecommons.org/publicdomain/zero/1.0/deed.en\">CC0</a>.</figcaption></figure></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {
           "time_limit_seconds": 0,
           "send_progress": true
-        }
-      },
-      {
-        "id": "check-other-input",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: избери входно устройство",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Кои съответствия между устройство и задача са правилни?</p><p>Избери всички верни твърдения.</p></main></body></html>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "answer-1",
-              "text": "Четец на баркод — бързо въвеждане на кодове."
-            },
-            {
-              "id": "answer-2",
-              "text": "Монитор — задължителен заместител на микрофона."
-            },
-            {
-              "id": "answer-3",
-              "text": "Графичен таблет — рисуване."
-            },
-            {
-              "id": "answer-4",
-              "text": "Микрофон — подаване на звук към компютъра."
-            },
-            {
-              "id": "answer-5",
-              "text": "Камера — въвежда само клавишни сканкодове."
-            },
-            {
-              "id": "answer-6",
-              "text": "Тъчпад — устройство единствено за печат върху хартия."
-            }
-          ],
-          "correct_option_ids": [
-            "answer-1",
-            "answer-3",
-            "answer-4"
-          ],
-          "feedback": "Различните входни устройства подават различен тип данни. Изборът зависи от задачата: кодове, изображение, звук, рисуване или посочване."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
         }
       },
       {
@@ -995,21 +785,6 @@
         }
       },
       {
-        "id": "check-ergonomics",
-        "step_content": {
-          "type": "open_answer",
-          "title": "Проверка: подобри работното място",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>Ученик държи мишката далеч от клавиатурата, притиска силно китките си и стои дълго в една поза. Предложи три конкретни промени и обясни как всяка помага за удобството.</p></main></body></html>",
-          "instruction_format": "html",
-          "reference_answer": "Да постави мишката близо до клавиатурата; да поддържа китките в удобна позиция без силно притискане; да прави кратки паузи и да променя позата. Отговорът трябва да свързва всяка промяна с описаното затруднение и удобството на човека."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
-        }
-      },
-      {
         "id": "first-checks",
         "step_content": {
           "type": "information",
@@ -1020,21 +795,6 @@
         "step_rules": {
           "time_limit_seconds": 0,
           "send_progress": true
-        }
-      },
-      {
-        "id": "check-first-checks",
-        "step_content": {
-          "type": "open_answer",
-          "title": "Проверка: подреди първите действия",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202124;margin:0;padding:12px;max-width:880px}p{margin:12px 0}img{display:block;max-width:100%;height:auto;max-height:360px;width:auto;margin:auto}figure{margin:18px 0;padding:14px;background:#f6f8fb;border-radius:8px}figcaption,.source{font-size:14px}h3{font-size:20px}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid #ccd4df;padding:8px;text-align:left;vertical-align:top}.table-wrap{overflow-x:auto}code{overflow-wrap:anywhere;font-family:Consolas,monospace}a{color:#174ea6}.flow{background:#eef3fa;padding:12px}li{margin:8px 0}</style></head><body><main><p>За всеки случай предложи първа лесна проверка и следваща стъпка, ако тя не реши проблема:</p><ol><li>Клавиатурата реагира, но изписва други букви.</li><li>Безжична мишка изобщо не реагира.</li><li>Мишката реагира, но показалецът се движи неточно.</li></ol><p>Обясни избрания ред. Не променяй общи или административни настройки без указание на учителя.</p></main></body></html>",
-          "instruction_format": "html",
-          "reference_answer": "1 Проверка на активния език и подредба; ако са правилни, описване кога и в кое приложение възниква проблемът и търсене на съдействие от учителя. 2 Проверка дали е включена и има батерия/заряд, после на Bluetooth връзката или правилния приемник. 3 Проверка на повърхността и замърсяването, после сравнение на поведението върху подходяща повърхност и описание на проблема. Приемат се други логични лесни проверки, които съответстват на симптомите. Не е обоснован незабавен извод за повреда на компютъра."
-        },
-        "step_rules": {
-          "time_limit_seconds": 0,
-          "send_progress": true,
-          "automatic_feedback": true
         }
       }
     ]

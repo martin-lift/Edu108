@@ -78,3 +78,7 @@
 `images/intro-keyboard.jpg`: [Black Computer keyboard.jpg](https://commons.wikimedia.org/wiki/File:Black_Computer_keyboard.jpg), Samiknoov, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Миниатюра 960 × 720 px. Първоначална снимка, запазена като съществуващ ресурс.
 
 Текуща снимка: `images/intro-pink-keyboard-mouse.png` — файл `keyboardpink.png`, предоставен от потребителя; 640 × 384 px, без промени. Първата стъпка съдържа само тази снимка и четирите зададени изречения.
+
+## Снимка в последната стъпка
+
+`images/apple-pink-keyboard-mouse.jpg` — Hillary Black, [Unsplash](https://unsplash.com/photos/a-computer-keyboard-and-mouse-on-a-desk-MLhSNqH_RVc), [Unsplash License](https://unsplash.com/license). Избрана от потребителя снимка № 2, 1200 × 800 px.

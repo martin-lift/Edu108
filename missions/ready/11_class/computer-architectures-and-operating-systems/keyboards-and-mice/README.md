@@ -72,3 +72,7 @@
 48. Други входни устройства (information)
 49. Ергономия (information)
 50. Допълнителни материали (information)
+
+## Снимка в първата стъпка
+
+`images/intro-keyboard.jpg`: [Black Computer keyboard.jpg](https://commons.wikimedia.org/wiki/File:Black_Computer_keyboard.jpg), Samiknoov, [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Миниатюра 960 × 720 px. Първата стъпка съдържа само снимката и четирите зададени изречения.

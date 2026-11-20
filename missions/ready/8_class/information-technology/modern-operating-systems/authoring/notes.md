@@ -6,7 +6,7 @@ https://ebook.domino.bg/books/8/it/#page=24
 Съдържание: определение за операционна система (без проверка след него) →
 компютърна система и софтуер → системен софтуер и BIOS/UEFI →
 приложения и пакети → интерфейс → видове приложения → избор и съвместимост на ОС →
-функции → подсистеми → ядро и обвивка → Windows/Linux/macOS → практическа работа → обобщение.
+функции → подсистеми → ядро и обвивка → Windows/Linux/macOS/Android → практическа работа → обобщение.
 
 Следва docs/standard-lesson-mission-principles.md. Един отворен въпрос с AI проверка
 в Teacher108; останалите проверки са с шест варианта и няколко верни отговора.
@@ -27,9 +27,12 @@ OneDrive има указания за споделяне за редактира
 - https://www.linuxfoundation.org/blog/blog/the-linux-foundation-its-not-just-the-linux-operating-system
 - https://www.gnu.org/software/bash/manual/html_node/What-is-a-shell_003f.html
 
-Външни илюстрации: седем оригинални SVG файла от Wikimedia Commons — Windows,
-Tux, macOS, LibreOffice, Bash и две схеми за ролята на ОС и ядрото. URLs и
+Външни илюстрации: осем оригинални SVG файла от Wikimedia Commons — Windows,
+Tux, macOS, Android, LibreOffice, Bash и две схеми за ролята на ОС и ядрото. URLs и
 изискваните авторски атрибуции са в authoring/build.py и в информационните стъпки.
 Файловете не са променяни. Английските надписи в схемите са пояснени на български.
 
 Възстановяване на мисията: python authoring/build.py
+
+Android: https://source.android.com/docs/setup/about
+Илюстрация: https://commons.wikimedia.org/wiki/File:Android_robot_head.svg

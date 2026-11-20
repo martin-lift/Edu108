@@ -196,8 +196,8 @@
         "id": "cycle",
         "step_content": {
           "type": "information",
-          "title": "От инструкцията до резултата",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Програмата е подготвила две стойности: 7 и 5. За да получи 12, процесорът трябва да изпълни инструкция за събиране. Ще проследим опростен пример, в който стойностите вече са заредени в два регистъра. Имената R1, R2 и R3 са условни, за да виждаме ясно къде стоят данните.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/modern-computer-systems/new-images/cycle.svg\" alt=\"Една инструкция за събиране: проследи стойностите\"><figcaption>Една инструкция за събиране: проследи стойностите</figcaption></figure><p>Първо процесорът <strong>извлича инструкцията</strong> от паметта. Управляващото устройство я разчита: каква операция трябва да се изпълни, кои данни участват и къде се очаква резултатът. След това АЛУ събира стойностите от R1 и R2, а полученото 12 се записва в R3.</p><p>Следваща инструкция може да използва 12 в ново изчисление или да го запише в оперативната памет. Друга част от програмата организира показването му на екрана. Самото събиране не означава автоматично, че числото вече е изобразено.</p><p>Тази повтаряща се последователност се нарича <strong>цикъл на изпълнение на инструкция</strong>. В учебния модел виждаме извличане, разчитане, получаване на нужните данни, изпълнение и записване. В действителните процесори някои дейности се припокриват и не всяка инструкция чете RAM или използва АЛУ по един и същ начин. Основната идея остава: резултатите възникват чрез изпълнение на конкретни инструкции.</p></body></html>",
+          "title": "Основните понятия за централния процесор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/modern-computer-systems/new-images/architecture.svg\" alt=\"Програма и данни в обща памет\"><figcaption>Програма и данни в обща памет</figcaption></figure><p>Когато работиш с програма, процесорът изпълнява нейните инструкции. За това са нужни части, които обработват данните, организират действията, пренасят информация и временно пазят необходимите стойности. В учебника те са представени чрез четири основни понятия.</p><h3>Аритметично-логическо устройство (АЛУ)</h3><p>АЛУ извършва <strong>аритметични операции</strong>, например събиране и изваждане, и <strong>логически операции</strong>, например сравняване на две числа. Ако програмата трябва да събере 8 и 3, АЛУ може да получи резултата 11. Ако трябва да провери дали 8 е по-голямо от 3, резултатът от сравнението позволява на програмата да избере следващото действие.</p><h3>Управляващо устройство (УУ)</h3><p>Управляващото устройство <strong>организира и координира работата</strong>. То разчита какво действие задава инструкцията и подава управляващи сигнали към необходимите части. Например при събиране организира използването на данните и действието на АЛУ. Можеш да го сравниш с диригент: той задава кога да се включат музикантите, а те изпълняват своите партии.</p><h3>Шина (BUS)</h3><p>Шината е <strong>електронна връзка за пренасяне на информация</strong> между части на компютъра. Представи си път: по него се пренасят данни, адреси или управляващи сигнали според предназначението на връзката. Ширината на шината показва колко бита могат да се пренасят едновременно. Например 32-битова шина за данни може да пренесе 32 бита наведнъж. Това не определя само по себе си скоростта на целия компютър.</p><h3>Регистри</h3><p>Регистрите са <strong>много малки и бързи места за временно съхранение вътре в процесора</strong>. Те държат данни и междинни резултати, нужни за текущата работа. Например при пресмятане стойностите 8 и 3 и полученият резултат 11 могат временно да се пазят в регистри. Те са като малко работно пространство за непосредствено нужните стойности, а не място за трайно съхраняване на документи.</p><div class=\"example\"><strong>Свържи ролите:</strong> АЛУ обработва, управляващото устройство организира, шината пренася, а регистрите временно съхраняват.</div></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}
@@ -205,14 +205,44 @@
       {
         "id": "cycle-check",
         "step_content": {
-          "type": "open_answer",
-          "title": "Разкажи пътя на едно изчисление",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Обясни със свои думи как процесорът получава резултат от събиране. Дай собствен пример с две числа и посочи ролята на управлението, АЛУ и регистрите.</p></body></html>",
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Кои твърдения правилно описват понятията за централния процесор?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
           "instruction_format": "html",
-          "reference_answer": "Например 9 + 4: процесорът извлича и разчита инструкцията. Стойностите 9 и 4 са подготвени в регистри. Управляващото устройство организира действието, АЛУ получава 13, а резултатът се записва в регистър. Следваща инструкция може да го използва или да го запише в RAM."
+          "options": [
+            {
+              "id": "1",
+              "text": "АЛУ може да събира числа и да сравнява стойности."
+            },
+            {
+              "id": "2",
+              "text": "Управляващото устройство организира действията чрез управляващи сигнали."
+            },
+            {
+              "id": "3",
+              "text": "Шината е място за трайно съхраняване на документи."
+            },
+            {
+              "id": "4",
+              "text": "Регистрите временно пазят данни и междинни резултати вътре в процесора."
+            },
+            {
+              "id": "5",
+              "text": "АЛУ определя физическия размер на монитора."
+            },
+            {
+              "id": "6",
+              "text": "32-битова шина пренася точно 32 байта наведнъж."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4"
+          ],
+          "feedback": "АЛУ извършва аритметични и логически операции, УУ организира работата, шината пренася информация, а регистрите временно съхраняват стойности. 32 бита са 4 байта, а не 32 байта."
         },
         "step_rules": {
-          "ai_feedback": false,
           "automatic_feedback": true
         }
       },

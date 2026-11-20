@@ -116,5 +116,15 @@
     "author": "NOAA",
     "license": "Public domain",
     "license_url": ""
+  },
+  "5g": {
+    "title": "File:Galaxy S10 5g.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Galaxy_S10_5g.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Galaxy_S10_5g.jpg",
+    "author": "BuBrhms",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "Samsung Galaxy S10 5G: знакът за мрежата и резултати от измервания на скоростта.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Galaxy_S10_5g.jpg/960px-Galaxy_S10_5g.jpg"
   }
 }

@@ -21,6 +21,16 @@
         "step_rules": {}
       },
       {
+        "id": "architecture-importance",
+        "step_content": {
+          "type": "information",
+          "title": "Защо архитектурата на Фон Нойман е важна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Представи си, че за да преминеш от една задача към друга, не е достатъчно да отвориш друга програма. Трябва да пренаредиш кабели и да настроиш превключватели. Така първоначално се подготвя за нови задачи една от ранните електронни изчислителни машини — ENIAC. Подготовката изисква време и внимателна работа.</p><p>Преди и по времето на Фон Нойман съществуват различни начини за организиране и управление на изчислителните машини. Някои получават инструкции от перфолента, а други се настройват чрез кабелни връзки и превключватели. Изследователите търсят начин една машина по-лесно да преминава към различни задачи.</p><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/1/16/Classic_shot_of_the_ENIAC.jpg\" alt=\"ENIAC: операторите работят пред панели с кабели и превключватели. Първоначалното задаване на задачите се различава от зареждането на програма днес. U. S. Army Photo.\"><figcaption>ENIAC: операторите работят пред панели с кабели и превключватели. Първоначалното задаване на задачите се различава от зареждането на програма днес. U. S. Army Photo.</figcaption></figure><p>Решаващата идея е <strong>самата програма да се съхранява в паметта</strong>. В описаната от Фон Нойман организация паметта съдържа и инструкции, и данни. Процесорът извлича инструкциите и ги изпълнява. За нова задача зареждаме друга програма, вместо да променяме физическите връзки на машината.</p><p>Докладът на Фон Нойман от 1945 г. помага тези идеи, разработвани заедно с други изследователи, да се разпространят. Организацията става известна като <strong>архитектура на Фон Нойман</strong> и оказва огромно влияние върху развитието на компютрите.</p><p>Масово съвременните компютри използват принципите на тази архитектура. Затова на един и същ компютър можеш първо да пресмяташ в електронна таблица, после да рисуваш, а след това да слушаш музика. <strong>Сменяш програмата, а компютърът остава същият.</strong></p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
         "id": "architecture",
         "step_content": {
           "type": "information",

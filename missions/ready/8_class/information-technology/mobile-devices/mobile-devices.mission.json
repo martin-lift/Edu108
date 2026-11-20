@@ -1,0 +1,954 @@
+{
+  "mission_version": 4,
+  "mission_id": "it8-mobile-devices-20261120-01",
+  "mission_content": {
+    "title": "Принципи на действие на съвременните мобилни устройства",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Принципи на действие на съвременните мобилни устройства",
+    "description": "По урок 8, стр. 26–28, Домино: мобилни устройства и история, клетъчна мрежа и поколения, скорост, Android, iOS, HarmonyOS, Wi-Fi, Bluetooth и GPS.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети с различни размери на екрана.\"><figcaption>Смартфони и таблети с различни размери на екрана. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Телефонът в джоба ти е малък компютър. С него разговаряш, снимаш, учиш, използваш карти и обменяш информация. Таблетите и смартчасовниците също съчетават изчисления и възможности за връзка.</p><ul><li>Ще различаваш основните <strong>мобилни устройства</strong> и ще проследиш развитието им.</li><li>Ще обясняваш как телефонът използва <strong>клетъчната мрежа</strong> и какво означават поколенията 1G–5G.</li><li>Ще разпознаваш <strong>Android, iOS и HarmonyOS</strong>.</li><li>Ще избираш между <strong>Wi-Fi, Bluetooth и GPS</strong> според задачата.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "mobile-devices",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е мобилно устройство?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/IPad_Wiki.jpg/960px-IPad_Wiki.jpg\" alt=\"Таблети iPad с различни размери на сензорния екран.\"><figcaption>Таблети iPad с различни размери на сензорния екран. · 彭家杰 · <a href=\"https://commons.wikimedia.org/wiki/File:IPad_Wiki.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>Мобилно устройство</strong> е преносимо изчислително устройство, което можем да използваме на различни места. То има процесор, памет, екран и захранване от батерия. <strong>Операционната система</strong> управлява устройството и осигурява работата на приложенията.</p><p><strong>Мобилно приложение</strong> е програма за конкретна задача: например рисуване, съобщения, снимане или навигация. Някои приложения работят и без интернет, а други се нуждаят от връзка.</p><p>При <strong>сензорен екран</strong> задаваш действия чрез докосване. Докосваш икона, за да отвориш приложение, плъзгаш пръст, за да прелистиш, и използваш <strong>виртуална клавиатура</strong>, показана на екрана, за да пишеш.</p><div class=\"example\">В приложението за бележки записваш домашната работа. Устройството е телефонът, приложението е програмата за бележки, а клавиатурата върху екрана е средство за въвеждане.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "mobile-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/IPad_Wiki.jpg/960px-IPad_Wiki.jpg\" alt=\"Таблети iPad с различни размери на сензорния екран.\"><figcaption>Таблети iPad с различни размери на сензорния екран. · 彭家杰 · <a href=\"https://commons.wikimedia.org/wiki/File:IPad_Wiki.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения за мобилните устройства са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Мобилното устройство може да се използва на различни места."
+            },
+            {
+              "id": "2",
+              "text": "Операционната система управлява устройството."
+            },
+            {
+              "id": "3",
+              "text": "Мобилното приложение е вид батерия."
+            },
+            {
+              "id": "4",
+              "text": "Виртуалната клавиатура се показва на екрана."
+            },
+            {
+              "id": "5",
+              "text": "Всяко приложение задължително изисква интернет."
+            },
+            {
+              "id": "6",
+              "text": "Докосването на икона може да отвори приложение."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Устройството е преносимо, операционната система го управлява, а приложенията изпълняват задачи. Виртуалната клавиатура е на екрана. Част от приложенията работят и без интернет."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "types",
+        "step_content": {
+          "type": "information",
+          "title": "Видове мобилни устройства",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/IPad_Wiki.jpg/960px-IPad_Wiki.jpg\" alt=\"Таблети iPad с различни размери на сензорния екран.\"><figcaption>Таблети iPad с различни размери на сензорния екран. · 彭家杰 · <a href=\"https://commons.wikimedia.org/wiki/File:IPad_Wiki.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Infiniti_2.0_smartwatch.jpg/960px-Infiniti_2.0_smartwatch.jpg\" alt=\"Смартчасовник — пример за носимо устройство.\"><figcaption>Смартчасовник — пример за носимо устройство.</figcaption></figure></div><table><tr><th>Вид</th><th>Особеност и пример за използване</th></tr><tr><td><strong>Лаптоп</strong></td><td>Преносим компютър с екран и физическа клавиатура. Удобен за писане на доклад. Ноутбук и нетбук са названия за видове преносими компютри.</td></tr><tr><td><strong>Таблет</strong></td><td>Компютър със сензорен екран. Обикновено се използва с виртуална клавиатура; може да се свърже и външна. Подходящ за четене и рисуване.</td></tr><tr><td><strong>Смартфон</strong></td><td>Мобилен телефон с операционна система и приложения. Съчетава разговори и много компютърни функции.</td></tr><tr><td><strong>Носимо устройство</strong></td><td>Носи се на тялото: смартчасовник, фитнес гривна или някои видове умни очила.</td></tr><tr><td><strong>Други преносими устройства</strong></td><td>Електронен четец за книги, цифров фотоапарат и камера — по-специализирани задачи.</td></tr></table><p>Очила за виртуална реалност също са пример за носима техника. Пейджърите получават кратки съобщения, а смарткартите съдържат чип за съхраняване и обработване на данни. Те са по-специализирани от смартфона.</p><div class=\"key\">Избираме устройство според задачата: дълъг текст — лаптоп; удобно четене — таблет или четец; разговори в движение — смартфон.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "types-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Infiniti_2.0_smartwatch.jpg/960px-Infiniti_2.0_smartwatch.jpg\" alt=\"Смартчасовник — пример за носимо устройство.\"><figcaption>Смартчасовник — пример за носимо устройство.</figcaption></figure><p>Кои съчетания между устройство и описание са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Смартфон — телефон с операционна система и приложения."
+            },
+            {
+              "id": "2",
+              "text": "Смартчасовник — носимо устройство."
+            },
+            {
+              "id": "3",
+              "text": "Електронен четец — устройство основно за телефонни разговори."
+            },
+            {
+              "id": "4",
+              "text": "Лаптоп — преносим компютър с физическа клавиатура."
+            },
+            {
+              "id": "5",
+              "text": "Таблет — устройство, към което никога не може да се свърже клавиатура."
+            },
+            {
+              "id": "6",
+              "text": "Цифров фотоапарат — специализирано устройство за снимки."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Смартфонът съчетава телефон и приложения, часовникът се носи на тялото, лаптопът има клавиатура, а фотоапаратът служи за снимки. Четецът е предимно за книги; таблетът може да работи и с външна клавиатура."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "history-ideas",
+        "step_content": {
+          "type": "information",
+          "title": "От идея до преносим компютър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alan_Kay_and_the_prototype_of_the_Dynabook_%283009206205%29.jpg/960px-Alan_Kay_and_the_prototype_of_the_Dynabook_%283009206205%29.jpg\" alt=\"Алън Кей показва макета на Dynabook.\"><figcaption>Алън Кей показва макета на Dynabook. · Marcin Wichary from San Francisco, U.S.A. · <a href=\"https://commons.wikimedia.org/wiki/File:Alan_Kay_and_the_prototype_of_the_Dynabook_(3009206205).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a></figcaption></figure><p>Мобилните компютри не се появяват изведнъж. Първо възниква идеята човек да носи със себе си устройство за писане, четене и общуване.</p><p>Още през XIX век <strong>телеаутографът</strong> предава ръкопис и рисунки по проводници. Той е исторически предшественик на електронното общуване, но не е съвременен таблет.</p><p>През 1968 г. Алън Кей развива идея за преносим компютър за учене, която по-късно става известна като <strong>Dynabook</strong>. През 1972 г. я описва в публикация. На снимката виждаш макет, представящ идеята. Това не е завършен таблет, продаван с интернет и сензорен екран.</p><p>Във филма <strong>„2001: Космическа одисея“</strong> от 1968 г. също се виждат устройства, напомнящи днешните таблети. Художествената представа и техническите проекти показват желанието за удобно лично устройство.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "history-ideas-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Alan_Kay_and_the_prototype_of_the_Dynabook_%283009206205%29.jpg/960px-Alan_Kay_and_the_prototype_of_the_Dynabook_%283009206205%29.jpg\" alt=\"Алън Кей показва макета на Dynabook.\"><figcaption>Алън Кей показва макета на Dynabook. · Marcin Wichary from San Francisco, U.S.A. · <a href=\"https://commons.wikimedia.org/wiki/File:Alan_Kay_and_the_prototype_of_the_Dynabook_(3009206205).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a></figcaption></figure><p>Кои твърдения за ранните идеи са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Dynabook е идея за преносим компютър за учене."
+            },
+            {
+              "id": "2",
+              "text": "Макетът на Dynabook доказва, че устройството е било масово продаван таблет."
+            },
+            {
+              "id": "3",
+              "text": "Телеаутографът предава ръкопис и рисунки по проводници."
+            },
+            {
+              "id": "4",
+              "text": "Филм от 1968 г. показва устройства, напомнящи таблети."
+            },
+            {
+              "id": "5",
+              "text": "Телеаутографът използва 5G."
+            },
+            {
+              "id": "6",
+              "text": "Идеята за преносим компютър предхожда днешните таблети."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Dynabook е концепция, представена и с макет. Телеаутографът е по-ранно устройство за предаване по проводници. И филмовите представи показват, че идеята за подобна техника съществува преди днешните продукти."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "history-products",
+        "step_content": {
+          "type": "information",
+          "title": "Появяват се реални устройства",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Palm-IMG_7025.jpg/960px-Palm-IMG_7025.jpg\" alt=\"Джобен компютър Palm — предшественик на много съвременни мобилни приложения.\"><figcaption>Джобен компютър Palm — предшественик на много съвременни мобилни приложения. · Rama &amp; Musée Bolo · <a href=\"https://commons.wikimedia.org/wiki/File:Palm-IMG_7025.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en\">CC BY-SA 2.0 fr</a></figcaption></figure><p>Когато електронните компоненти стават по-малки, се появяват и реални преносими устройства, управлявани с писалка или докосване.</p><table><tr><th>Година</th><th>Устройство</th><th>Място в развитието</th></tr><tr><td>1989</td><td><strong>GRiDPad</strong></td><td>Ранен таблетен компютър с управление чрез писалка.</td></tr><tr><td>1993</td><td><strong>Apple Newton</strong></td><td>Джобен цифров помощник за бележки, контакти и организация.</td></tr><tr><td>1996</td><td><strong>Palm Pilot</strong></td><td>Компактен цифров помощник за лична информация.</td></tr><tr><td>2010</td><td><strong>Apple iPad</strong></td><td>Таблет с управление чрез докосване и много приложения.</td></tr></table><p>Развитието не е само намаляване на размера. Подобряват се екраните, батериите, програмите и възможностите за връзка. Така преносимият компютър става полезен за повече задачи.</p><div class=\"example\">По-ранният цифров помощник пази контакти и бележки. По-новият таблет съчетава тези задачи с видео, рисуване, обучение и онлайн общуване.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "products-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Palm-IMG_7025.jpg/960px-Palm-IMG_7025.jpg\" alt=\"Джобен компютър Palm — предшественик на много съвременни мобилни приложения.\"><figcaption>Джобен компютър Palm — предшественик на много съвременни мобилни приложения. · Rama &amp; Musée Bolo · <a href=\"https://commons.wikimedia.org/wiki/File:Palm-IMG_7025.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en\">CC BY-SA 2.0 fr</a></figcaption></figure><p>Кои твърдения съответстват на развитието на устройствата?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "GRiDPad е пример за ранен таблет с писалка."
+            },
+            {
+              "id": "2",
+              "text": "Apple iPad се появява през 2010 г."
+            },
+            {
+              "id": "3",
+              "text": "Palm Pilot е базова станция за 5G."
+            },
+            {
+              "id": "4",
+              "text": "Newton и Palm са цифрови помощници."
+            },
+            {
+              "id": "5",
+              "text": "Развитието засяга единствено размера на корпуса."
+            },
+            {
+              "id": "6",
+              "text": "Екраните, батериите и приложенията също се развиват."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "GRiDPad, Newton, Palm и iPad са различни етапи в развитието на преносимите устройства. Подобряват се както размерите, така и начинът на управление, захранването и възможностите на програмите."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "early-smartphone",
+        "step_content": {
+          "type": "information",
+          "title": "Ранен смартфон и днешен смартфон",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/960px-IBM_Simon_Personal_Communicator.png\" alt=\"IBM Simon — ранен смартфон със сензорен екран.\"><figcaption>IBM Simon — ранен смартфон със сензорен екран.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure></div><p><strong>IBM Simon</strong> е сред най-известните ранни смартфони. Продава се от 1994 г. Съчетава мобилен телефон, сензорен екран и функции на цифров помощник: контакти, календар, бележки и работа с факс.</p><p>Днешният смартфон запазва идеята <strong>„телефон и компютър в едно“</strong>, но добавя много по-големи възможности: цветен екран с висока разделителна способност, камери, навигация, разнообразни приложения и бърз достъп до интернет при подходяща мрежа.</p><p>За смислено сравнение използвай едни и същи показатели: <strong>управление, приложения и връзка</strong>. Не сравнявай само годината или външния вид.</p><p>Можеш да проучиш още в <a href=\"https://bg.wikipedia.org/wiki/IBM_Simon\">статията за IBM Simon</a> и <a href=\"https://bg.wikipedia.org/wiki/Смартфон\">статията за смартфоните</a>. Отвори връзката; с <strong>Ctrl + F</strong> потърси „1994“ или „екран“. Сверявай датите и описанията.</p><div class=\"example\">Общо: Simon и днешният смартфон използват сензорен екран. Разлика: днешният смартфон предлага много повече приложения и по-бързи мрежови услуги.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "smartphone-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни развитието на смартфона",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/960px-IBM_Simon_Personal_Communicator.png\" alt=\"IBM Simon — ранен смартфон със сензорен екран.\"><figcaption>IBM Simon — ранен смартфон със сензорен екран.</figcaption></figure><p>Как се развива идеята „телефон и компютър в едно“ от IBM Simon до днешния смартфон, показано с обща черта и конкретни подобрения?</p><p>Отговори със свои думи в кратък абзац.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "IBM Simon от 1994 г. вече съчетава телефон, сензорен екран и приложения като календар и бележки. Днешният смартфон също е телефон и компютър в едно, но има много повече приложения и по-бърз достъп до интернет при подходяща мрежа. Например можем да снимаме с камерата, да използваме навигация и да провеждаме видеоразговори. Общата идея остава, а възможностите се разширяват."
+        },
+        "step_rules": {
+          "send_progress": true,
+          "automatic_feedback": false,
+          "ai_feedback": true
+        }
+      },
+      {
+        "id": "cellular",
+        "step_content": {
+          "type": "information",
+          "title": "Как телефонът се свързва с мобилната мрежа?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg/960px-Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\" alt=\"Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът.\"><figcaption>Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът. · Acabashi · <a href=\"https://commons.wikimedia.org/wiki/File:Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>Мобилни комуникации</strong> наричаме безжичния обмен на информация с движещи се или преносими устройства. При клетъчната телефония телефонът изпраща и приема радиосигнали чрез близка <strong>базова станция</strong>. Значи той е и предавател, и приемник.</p><p>Всяка станция обслужва определена област. Областта на радиопокритие се нарича <strong>клетка</strong>. Много клетки заедно образуват <strong>клетъчна мрежа</strong>, която обслужва голяма територия.</p><div class=\"flow\">Твоят телефон ↔ базова станция ↔ мрежа на оператора ↔ друг телефон или интернет</div><p>Когато се придвижваш, мрежата може да прехвърли връзката към друга станция. Клетките не са физически огради: покритието зависи от разстоянието, сградите, релефа и оборудването.</p><div class=\"example\">В автобуса разговаряш по телефона. Докато той се движи през града, връзката може да премине между различни клетки, без да започваш разговора отначало.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "cellular-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg/960px-Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\" alt=\"Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът.\"><figcaption>Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът. · Acabashi · <a href=\"https://commons.wikimedia.org/wiki/File:Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения описват клетъчната мрежа?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Телефонът обменя радиосигнали с базова станция."
+            },
+            {
+              "id": "2",
+              "text": "Клетка е област на радиопокритие."
+            },
+            {
+              "id": "3",
+              "text": "Всеки разговор изисква кабел от телефона до станцията."
+            },
+            {
+              "id": "4",
+              "text": "Много клетки осигуряват покритие на по-голяма територия."
+            },
+            {
+              "id": "5",
+              "text": "Сградите и релефът никога не влияят на сигнала."
+            },
+            {
+              "id": "6",
+              "text": "При движение връзката може да премине към друга станция."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Клетъчната мрежа използва радиовръзка между телефоните и базовите станции. Клетката е област на покритие. Покритието зависи от условията; при движение мрежата може да прехвърля връзката между станции."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "generation-12",
+        "step_content": {
+          "type": "information",
+          "title": "От аналогов разговор до цифрови услуги",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/960px-IBM_Simon_Personal_Communicator.png\" alt=\"IBM Simon — ранен смартфон със сензорен екран.\"><figcaption>IBM Simon — ранен смартфон със сензорен екран.</figcaption></figure><p>Буквата <strong>G</strong> идва от английската дума <em>Generation</em> — <strong>поколение</strong>. Всяко поколение обединява технологии с определени възможности за пренос.</p><p><strong>1G</strong> е първото поколение мобилни клетъчни системи. То се развива през края на 1970-те и 1980-те години и използва <strong>аналогова връзка за глас</strong>.</p><p><strong>2G</strong> въвежда цифрова мобилна връзка през 1990-те години. Един от основните стандарти е <strong>GSM</strong>. Появяват се повече услуги:</p><ul><li><strong>SMS</strong> — кратки текстови съобщения.</li><li><strong>MMS</strong> — мултимедийни съобщения, например със снимка.</li><li><strong>WAP</strong> — технология за достъп до уеб услуги от ранни мобилни телефони.</li><li><strong>GPRS и EDGE</strong> — технологии за развитие на преноса на данни в GSM мрежите.</li></ul><p>Тези услуги се развиват постепенно. Цифровият пренос създава основа телефонът да обменя не само глас, но и други данни.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "generation-12-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/IBM_Simon_Personal_Communicator.png/960px-IBM_Simon_Personal_Communicator.png\" alt=\"IBM Simon — ранен смартфон със сензорен екран.\"><figcaption>IBM Simon — ранен смартфон със сензорен екран.</figcaption></figure><p>Кои твърдения за 1G и 2G са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "G означава поколение."
+            },
+            {
+              "id": "2",
+              "text": "1G използва аналогова връзка за глас."
+            },
+            {
+              "id": "3",
+              "text": "SMS е услуга само за прехвърляне на големи видеофайлове."
+            },
+            {
+              "id": "4",
+              "text": "GSM е стандарт от второто поколение."
+            },
+            {
+              "id": "5",
+              "text": "GPRS и EDGE развиват преноса на данни в GSM мрежите."
+            },
+            {
+              "id": "6",
+              "text": "2G означава два гигабайта памет."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "G означава поколение, а не капацитет. 1G пренася аналогов глас. 2G използва цифрови технологии като GSM; SMS са текстови съобщения, а GPRS и EDGE подобряват преноса на данни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "generation-35",
+        "step_content": {
+          "type": "information",
+          "title": "3G, 4G и 5G: повече данни и нови възможности",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg/960px-Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\" alt=\"Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът.\"><figcaption>Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът. · Acabashi · <a href=\"https://commons.wikimedia.org/wiki/File:Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>По-новите поколения развиват мобилния интернет и обслужват повече задачи. <strong>Пренос на данни</strong> означава изпращане и получаване на информация — например снимки, звук или страници.</p><table><tr><th>Поколение</th><th>Основна промяна</th><th>Пример</th></tr><tr><td><strong>3G</strong></td><td>По-удобен мобилен интернет и мултимедийни услуги спрямо ранните 2G технологии.</td><td>Разглеждане на страници и видеоразговори.</td></tr><tr><td><strong>4G</strong></td><td>Високоскоростен пренос на данни през мрежа, използваща интернет протоколи.</td><td>Гледане на онлайн видео и разговори през приложения.</td></tr><tr><td><strong>5G</strong></td><td>Възможности за още по-високи скорости, по-малко закъснение и много свързани устройства.</td><td>Обмен на големи файлове и свързани умни устройства.</td></tr></table><p><strong>VoIP</strong> е пренос на глас чрез интернет протокола. Например приложение може да превърне гласа в данни и да ги предаде през интернет. Технологията не е ограничена само до 4G.</p><p><strong>6G</strong> е следващото поколение в процес на разработване и стандартизиране, свързано с рамката <strong>IMT-2030</strong>. Това е посока за развитие около 2030 г. и след това, а не обещание, че всеки телефон ще работи с 6G на конкретна дата.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "generation-35-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg/960px-Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\" alt=\"Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът.\"><figcaption>Антени на мобилна мрежа: връзката на телефона с мрежата започва по радиопът. · Acabashi · <a href=\"https://commons.wikimedia.org/wiki/File:Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения за поколенията и услугите са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "3G развива мобилния интернет и мултимедията."
+            },
+            {
+              "id": "2",
+              "text": "5G може да поддържа повече устройства и по-малко закъснение."
+            },
+            {
+              "id": "3",
+              "text": "VoIP означава съхраняване на снимки само в телефона."
+            },
+            {
+              "id": "4",
+              "text": "4G позволява бърз обмен на данни и онлайн видео."
+            },
+            {
+              "id": "5",
+              "text": "6G вече е задължително във всеки телефон."
+            },
+            {
+              "id": "6",
+              "text": "VoIP предава глас като данни чрез интернет протокола."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "3G, 4G и 5G развиват преноса на данни. VoIP е пренос на глас чрез интернет протокола. 6G е бъдещо поколение в процес на разработване и стандартизиране; наличието му не следва от това, че телефонът е нов."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "speed",
+        "step_content": {
+          "type": "information",
+          "title": "Как се измерва скоростта на връзката?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>Скоростта на пренос</strong> показва колко данни се пренасят за единица време. Често се измерва в <strong>Mbit/s или Mbps — мегабита в секунда</strong>. <strong>1 Gbit/s = 1000 Mbit/s.</strong> Това са единици за скорост, а не за размера на паметта.</p><ul><li><strong>Download</strong> — получаване на данни към устройството, например изтегляне на снимка.</li><li><strong>Upload</strong> — изпращане на данни от устройството, например качване на снимка.</li><li><strong>Закъснение</strong> — времето за отговор на връзката. При тестове се показва като ping в <strong>милисекунди (ms)</strong>; по-малка стойност означава по-кратко чакане.</li></ul><p>8 бита образуват един байт. Затова <strong>80 Mbit/s съответстват на 10 MB/s</strong> преди разходите за самия пренос. Файл с размер 100 MB би се прехвърлил за около 10 секунди при постоянна скорост 10 MB/s, без да броим допълнителния обмен.</p><div class=\"key\">Надписът „5G“ не гарантира определена скорост. Влияят сигналът, натоварването, телефонът и услугата. Теоретичните максимуми на стандартите не са обещание за резултата от конкретен тест.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "speed-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои тълкувания на скоростта са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Mbps измерва мегабити в секунда."
+            },
+            {
+              "id": "2",
+              "text": "Upload е получаване на снимка от интернет."
+            },
+            {
+              "id": "3",
+              "text": "Download е получаване на данни към устройството."
+            },
+            {
+              "id": "4",
+              "text": "По-нисък ping означава по-малко закъснение."
+            },
+            {
+              "id": "5",
+              "text": "5G гарантира една и съща скорост навсякъде."
+            },
+            {
+              "id": "6",
+              "text": "80 Mbit/s съответстват на 10 MB/s преди разходите за пренос."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Download получава, а upload изпраща данни. Mbps е скорост в мегабити за секунда. 8 бита = 1 байт, така че 80 Mbit/s = 10 MB/s преди допълнителния обмен. Резултатът зависи от условията, а не само от поколението."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "network-practice",
+        "step_content": {
+          "type": "information",
+          "title": "Практическо наблюдение: връзка и скорост",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Можеш да наблюдаваш своята връзка или да използваш примерните резултати по-долу. Не е необходимо да имаш собствен смартфон.</p><ol><li>Погледни лентата за състоянието. Обозначения като <strong>4G, LTE или 5G</strong> показват мобилна технология. Знакът за <strong>Wi-Fi</strong> показва връзка с безжична локална мрежа.</li><li>Ако наблюдаваш мобилните данни, запиши означението на мрежата. Тест през Wi-Fi измерва друга връзка, а не директно клетъчната връзка на телефона.</li><li>За измерване може да отвориш <a href=\"https://www.speedtest.net/\">Speedtest</a> в браузъра и да натиснеш <strong>Go / Старт</strong>. Запиши download, upload и ping. Тестът прехвърля данни; ако нямаш подходящ достъп, използвай готовия пример.</li></ol><table><tr><th>Примерен тест</th><th>Download</th><th>Upload</th><th>Ping</th></tr><tr><td>Мобилни данни, 4G</td><td>60 Mbit/s</td><td>15 Mbit/s</td><td>35 ms</td></tr></table><div class=\"example\">При този тест телефонът получава данни по-бързо, отколкото ги изпраща. Резултатът описва едно измерване в конкретни условия. Той не доказва скоростта на всички 4G мрежи.</div><p>В следващата стъпка обясни какво показва примерният тест или собственото ти измерване.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "network-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разчети резултата от теста",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Какво показва за връзката примерният тест 4G с download 60 Mbit/s, upload 15 Mbit/s и ping 35 ms или твоето собствено измерване?</p><p>Отговори със свои думи в кратък абзац.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "В примерния тест получаването на данни е 60 Mbit/s, а изпращането е 15 Mbit/s, тоест получаването е по-бързо. Ping 35 ms показва закъснението на отговора при теста. Резултатите се отнасят за тази връзка и конкретния момент; не доказват скоростта на всяка 4G мрежа. При собствено измерване се посочват неговите стойности и видът на връзката."
+        },
+        "step_rules": {
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "android",
+        "step_content": {
+          "type": "information",
+          "title": "Android: операционна система за много устройства",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>Android</strong> е мобилна операционна система, развивана от Google и общност от разработчици. Използва ядрото <strong>Linux</strong> и работи на много модели смартфони и таблети от различни производители. Първият продаван телефон с Android се появява през 2008 г.</p><p><strong>Началният екран</strong> съдържа икони за отваряне на приложения. <strong>Лентата за състоянието</strong> показва например заряда на батерията и наличната връзка. Чрез докосване отваряш приложение, а с плъзгане прелистваш съдържание.</p><p>Операционната система управлява паметта, приложенията и устройствата. Например приложението „Камера“ използва възможностите, които системата предоставя за работа с камерата и за записване на снимката.</p><div class=\"key\">Марката на телефона и операционната система са различни неща. Samsung е производител, а Android е операционна система. Външният вид на Android може да се различава според производителя и версията.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "android-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения за Android са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Android използва ядрото Linux."
+            },
+            {
+              "id": "2",
+              "text": "Android е име на батерия."
+            },
+            {
+              "id": "3",
+              "text": "Телефони от различни производители могат да използват Android."
+            },
+            {
+              "id": "4",
+              "text": "Лентата за състоянието може да показва заряда и връзката."
+            },
+            {
+              "id": "5",
+              "text": "Всички версии на Android задължително изглеждат еднакво."
+            },
+            {
+              "id": "6",
+              "text": "Приложението „Камера“ и операционната система имат различни роли."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Android е операционна система, използваща Linux, а не хардуерен компонент. Използва се от различни производители. Системата управлява ресурсите; приложението изпълнява конкретна задача. Обликът може да е различен."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "ios",
+        "step_content": {
+          "type": "information",
+          "title": "iOS: системата на iPhone",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/IPhone_5.png\" alt=\"iPhone 5 — пример за смартфон с iOS.\"><figcaption>iPhone 5 — пример за смартфон с iOS. · Zach Vega · <a href=\"https://commons.wikimedia.org/wiki/File:IPhone_5.png\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p><strong>iOS</strong> е мобилната операционна система на Apple за <strong>iPhone</strong>. Тя управлява ресурсите на телефона и осигурява среда за приложенията. Apple разработва както телефоните iPhone, така и тяхната операционна система.</p><p>Работата използва <strong>директно взаимодействие</strong> с екрана: докосваш бутон, плъзгаш списък, местиш плъзгач за силата на звука или променяш превключвател в настройките. Началният екран съдържа икони на приложения.</p><p>Таблетите iPad днес използват <strong>iPadOS</strong> — сродна система, предназначена за тях. Затова при описване на устройство записвай точните му вид и система: <strong>iPhone — iOS; iPad — iPadOS</strong>.</p><div class=\"example\">Натискаш иконата „Снимки“, за да разгледаш албум. „Снимки“ е приложение, а iOS е системата, която осигурява работата му на iPhone.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ios-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/IPhone_5.png\" alt=\"iPhone 5 — пример за смартфон с iOS.\"><figcaption>iPhone 5 — пример за смартфон с iOS. · Zach Vega · <a href=\"https://commons.wikimedia.org/wiki/File:IPhone_5.png\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Кои твърдения за системите на Apple са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "iOS се използва на iPhone."
+            },
+            {
+              "id": "2",
+              "text": "iPadOS е предназначена за iPad."
+            },
+            {
+              "id": "3",
+              "text": "iOS е приложение само за снимки."
+            },
+            {
+              "id": "4",
+              "text": "Плъзгачите и бутоните са елементи на интерфейса."
+            },
+            {
+              "id": "5",
+              "text": "Всеки телефон на всяка марка използва iOS."
+            },
+            {
+              "id": "6",
+              "text": "Apple разработва iPhone и неговата операционна система."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "iOS е операционната система на iPhone, а iPadOS е предназначена за iPad. Бутоните и плъзгачите са средства за управление. Приложението за снимки изпълнява конкретна задача в средата, която системата осигурява."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "harmony",
+        "step_content": {
+          "type": "information",
+          "title": "HarmonyOS: взаимодействие между устройства",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg/960px-HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\" alt=\"Huawei Mate 40 Pro с HarmonyOS 2.0.\"><figcaption>Huawei Mate 40 Pro с HarmonyOS 2.0. · 30000lightyears · <a href=\"https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>HarmonyOS</strong> е операционна система, разработвана от <strong>Huawei</strong> и представена през 2019 г. Използва се в съвместими устройства като смартфони, таблети, смартчасовници и смарттелевизори.</p><p>Важна идея е различни устройства да <strong>работят съвместно</strong>. При поддържани модели и подходящи настройки можеш например да прехвърлиш възпроизвеждането на съдържание или да обменяш данни между устройства.</p><p>Възможностите зависят от <strong>модела, версията на системата и региона</strong>. Не можем да заключим операционната система само от надписа Huawei върху корпуса. Проверяваме я в настройките на конкретното устройство.</p><div class=\"key\">Android, iOS и HarmonyOS изпълняват сходна основна задача: управляват устройството и предоставят среда за приложения. Различават се по съвместимите устройства, програмите и конкретните средства за работа.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "harmony-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg/960px-HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\" alt=\"Huawei Mate 40 Pro с HarmonyOS 2.0.\"><figcaption>Huawei Mate 40 Pro с HarmonyOS 2.0. · 30000lightyears · <a href=\"https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения за HarmonyOS и мобилните системи са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "HarmonyOS се разработва от Huawei."
+            },
+            {
+              "id": "2",
+              "text": "Съвместими устройства могат да обменят данни и да работят заедно."
+            },
+            {
+              "id": "3",
+              "text": "Еднаквата марка гарантира всички функции на всяко устройство."
+            },
+            {
+              "id": "4",
+              "text": "Моделът и версията могат да влияят на възможностите."
+            },
+            {
+              "id": "5",
+              "text": "Операционната система е същото като металния корпус."
+            },
+            {
+              "id": "6",
+              "text": "Android, iOS и HarmonyOS осигуряват среда за приложения."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "HarmonyOS е система на Huawei. Съвместната работа зависи от конкретните модели и версии. Операционната система е софтуер; марката върху корпуса не е достатъчна, за да установим всички функции или точната система."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "os-practice",
+        "step_content": {
+          "type": "information",
+          "title": "Практическо наблюдение: коя система използваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg/960px-Samsung_Galaxy_S2%2C_Note_4%2C_Note_8%2C_S21_Ultra%2C_and_S24_Ultra_%28alt_angle%29.jpg\" alt=\"Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra.\"><figcaption>Пет поколения смартфони Samsung: Galaxy S2, Note 4, Note 8, S21 Ultra и S24 Ultra. · Benlisquare · <a href=\"https://commons.wikimedia.org/wiki/File:Samsung_Galaxy_S2,_Note_4,_Note_8,_S21_Ultra,_and_S24_Ultra_(alt_angle).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/f/fa/IPhone_5.png\" alt=\"iPhone 5 — пример за смартфон с iOS.\"><figcaption>iPhone 5 — пример за смартфон с iOS. · Zach Vega · <a href=\"https://commons.wikimedia.org/wiki/File:IPhone_5.png\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg/960px-HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\" alt=\"Huawei Mate 40 Pro с HarmonyOS 2.0.\"><figcaption>Huawei Mate 40 Pro с HarmonyOS 2.0. · 30000lightyears · <a href=\"https://commons.wikimedia.org/wiki/File:HUAWEI_Mate_40_Pro_loaded_with_Harmony_OS_2.0.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure></div><p>За да установиш системата на телефон, отвори приложението <strong>„Настройки“</strong>. При Android потърси <strong>„За телефона“ / „Относно телефона“</strong>, а при iPhone — <strong>„Основни“ → „Информация“</strong>. Названията могат да се различават според версията. Ако не виждаш раздела, използвай търсенето в настройките с думата „версия“.</p><p>За общо наблюдение може да се използва споделена таблица с колони <strong>„Участник“ и „Операционна система“</strong>. Всеки попълва само своя ред, например „Участник 1 — Android“. Достатъчно е името на системата.</p><p>Ако нямаш достъп до устройство или обща таблица, използвай този <strong>учебен пример</strong>:</p><table><tr><th>Операционна система</th><th>Брой устройства в примерната група</th></tr><tr><td>Android</td><td>6</td></tr><tr><td>iOS</td><td>3</td></tr><tr><td>HarmonyOS</td><td>1</td></tr></table><p>Общият брой е <strong>10</strong>. Android е при 6 от 10 устройства, тоест <strong>60%</strong> от тази група. Данните описват само примерната група. За световно сравнение са нужни по-широко изследване, посочени период и показател.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "os-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Направи извод от данните",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети с различни размери на екрана.\"><figcaption>Смартфони и таблети с различни размери на екрана. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Какъв извод за разпространението на операционните системи можеш да направиш от примерната група с 6 Android, 3 iOS и 1 HarmonyOS?</p><p>Отговори със свои думи в кратък абзац.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "В примерната група Android е най-разпространена: използва се на 6 от общо 10 устройства, или 60%. iOS е на 3, а HarmonyOS — на 1 устройство. Този резултат описва само тази група и не доказва какво е разпространението в целия свят."
+        },
+        "step_rules": {
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "wifi",
+        "step_content": {
+          "type": "information",
+          "title": "Wi-Fi: връзка с локална мрежа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg\" alt=\"Wi-Fi рутер — свързва устройствата в безжична мрежа.\"><figcaption>Wi-Fi рутер — свързва устройствата в безжична мрежа. · TaurusEmerald · <a href=\"https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p><strong>Wi-Fi</strong> е технология за безжично свързване на устройства в локална мрежа. Телефонът или лаптопът обменя радиосигнали с <strong>точка за достъп</strong>, която често е част от домашния рутер.</p><div class=\"flow\">Телефон ↔ Wi-Fi точка за достъп / рутер ↔ интернет връзка</div><p>Когато рутерът има работеща връзка с интернет, устройството може да използва нея. Самото свързване към Wi-Fi обаче не доказва, че интернет е достъпен. Локалната мрежа може да работи и без външна интернет връзка.</p><p>За свързване отвори <strong>Настройки → Wi-Fi</strong>, избери разрешената мрежа и въведи паролата, ако се изисква. След успешното свързване се появява знакът за Wi-Fi.</p><div class=\"example\">Вкъщи телефонът е свързан към рутера чрез Wi-Fi. Ако интернет връзката на рутера прекъсне, Wi-Fi знакът може да остане, но онлайн страницата няма да се зареди.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "wifi-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg\" alt=\"Wi-Fi рутер — свързва устройствата в безжична мрежа.\"><figcaption>Wi-Fi рутер — свързва устройствата в безжична мрежа. · TaurusEmerald · <a href=\"https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Кои твърдения за Wi-Fi са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Wi-Fi свързва устройства безжично в локална мрежа."
+            },
+            {
+              "id": "2",
+              "text": "Точката за достъп може да е част от рутера."
+            },
+            {
+              "id": "3",
+              "text": "Wi-Fi знакът винаги доказва работещ интернет."
+            },
+            {
+              "id": "4",
+              "text": "За някои мрежи е необходима парола."
+            },
+            {
+              "id": "5",
+              "text": "Wi-Fi е името на всички GPS спътници."
+            },
+            {
+              "id": "6",
+              "text": "Локална Wi-Fi мрежа може да работи и без интернет."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Wi-Fi е безжична локална връзка, обикновено през точка за достъп или рутер. Интернет е отделна услуга: знакът за Wi-Fi показва локална връзка, но не гарантира достъп до онлайн страници."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "bluetooth",
+        "step_content": {
+          "type": "information",
+          "title": "Bluetooth: връзка с близки устройства",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg/960px-Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\" alt=\"Безжични слушалки: пример за използване на Bluetooth.\"><figcaption>Безжични слушалки: пример за използване на Bluetooth. · www.digitalpush.net · <a href=\"https://commons.wikimedia.org/wiki/File:Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a></figcaption></figure><p><strong>Bluetooth</strong> е технология за безжичен обмен на данни между устройства. В ежедневието често я използваме на малко разстояние: телефон със слушалки, таблет с клавиатура или телефон със смартчасовник.</p><p><strong>Сдвояване</strong> означава устройствата да се разпознаят и да установят разрешена връзка. За слушалки обикновено включваш техния режим за сдвояване, отваряш <strong>Настройки → Bluetooth</strong> на телефона и избираш името им. Точните действия зависят от модела.</p><p>Bluetooth не изисква непременно интернет. Телефонът може да изпрати към слушалките звук от вече записана песен. Ако слушаш музика онлайн, интернет е нужен за получаването ѝ, а Bluetooth — за звука до слушалките.</p><div class=\"key\">Различните технологии могат да работят заедно: получаваш песента през Wi-Fi, а я слушаш чрез Bluetooth слушалки.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "bluetooth-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg/960px-Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\" alt=\"Безжични слушалки: пример за използване на Bluetooth.\"><figcaption>Безжични слушалки: пример за използване на Bluetooth. · www.digitalpush.net · <a href=\"https://commons.wikimedia.org/wiki/File:Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a></figcaption></figure><p>Кои твърдения за Bluetooth са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Може да свърже телефон и безжични слушалки."
+            },
+            {
+              "id": "2",
+              "text": "Сдвояването установява връзка между устройствата."
+            },
+            {
+              "id": "3",
+              "text": "Всяка Bluetooth връзка изисква мобилен интернет."
+            },
+            {
+              "id": "4",
+              "text": "Записана песен може да се слуша през Bluetooth без интернет."
+            },
+            {
+              "id": "5",
+              "text": "Bluetooth заменя GPS спътниците."
+            },
+            {
+              "id": "6",
+              "text": "Wi-Fi и Bluetooth могат да се използват едновременно за различни части от една задача."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Bluetooth свързва устройства като телефон и слушалки. За записана песен не е необходим интернет. При онлайн музика интернет доставя песента до телефона, а Bluetooth пренася звука към слушалките."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "gps",
+        "step_content": {
+          "type": "information",
+          "title": "GPS: определяне на местоположение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/GPS_satellite_constellation.jpg\" alt=\"Спътници на GPS изпращат сигнали към приемниците на Земята.\"><figcaption>Спътници на GPS изпращат сигнали към приемниците на Земята.</figcaption></figure><p><strong>GPS</strong> е спътникова система за определяне на местоположение. Спътниците изпращат радиосигнали с информация за времето и положението си. GPS приемникът в телефона използва сигнали от няколко спътника, за да изчисли къде се намира.</p><div class=\"flow\">Спътници → сигнали → GPS приемник → изчислено местоположение</div><p>Обикновеният GPS приемник <strong>не изпраща обратно съобщение до спътниците</strong>. Приемането на GPS сигнал не изисква мобилен интернет. Интернет обаче може да помогне за по-бързо намиране на мястото или да се използва за изтегляне на карти и актуална информация.</p><p><strong>Местоположението и картата са различни неща.</strong> При предварително изтеглена карта приложение може да показва GPS позицията и без интернет. В помещение или между високи сгради сигналът може да е затруднен.</p><div class=\"example\">На разходка телефонът показва мястото ти върху изтеглена карта. GPS помага да се определи позицията, а картата е изображението на района.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "gps-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/GPS_satellite_constellation.jpg\" alt=\"Спътници на GPS изпращат сигнали към приемниците на Земята.\"><figcaption>Спътници на GPS изпращат сигнали към приемниците на Земята.</figcaption></figure><p>Кои твърдения за GPS са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Приемникът използва сигнали от спътници."
+            },
+            {
+              "id": "2",
+              "text": "GPS се използва за определяне на местоположение."
+            },
+            {
+              "id": "3",
+              "text": "Всеки GPS приемник изпраща съобщение до спътниците."
+            },
+            {
+              "id": "4",
+              "text": "GPS сигналът и изтеглянето на карта са различни неща."
+            },
+            {
+              "id": "5",
+              "text": "GPS винаги изисква мобилен интернет."
+            },
+            {
+              "id": "6",
+              "text": "Предварително изтеглена карта може да се използва с GPS без интернет."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "GPS приемникът получава сигнали и изчислява местоположение. Не е необходим обратен сигнал до спътниците или задължително мобилен интернет. Картите могат да са изтеглени предварително; получаването им онлайн е отделен обмен."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "connections",
+        "step_content": {
+          "type": "information",
+          "title": "Избери подходящата технология",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg\" alt=\"Wi-Fi рутер — свързва устройствата в безжична мрежа.\"><figcaption>Wi-Fi рутер — свързва устройствата в безжична мрежа. · TaurusEmerald · <a href=\"https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg/960px-Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\" alt=\"Безжични слушалки: пример за използване на Bluetooth.\"><figcaption>Безжични слушалки: пример за използване на Bluetooth. · www.digitalpush.net · <a href=\"https://commons.wikimedia.org/wiki/File:Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a></figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/d/d3/GPS_satellite_constellation.jpg\" alt=\"Спътници на GPS изпращат сигнали към приемниците на Земята.\"><figcaption>Спътници на GPS изпращат сигнали към приемниците на Земята.</figcaption></figure></div><p>Преди да избереш технология, определи <strong>каква задача изпълняваш</strong>. Сходната дума „безжично“ не означава еднакво предназначение.</p><table><tr><th>Задача</th><th>Подходяща технология</th><th>Защо</th></tr><tr><td>Отваряне на учебен сайт през домашния рутер</td><td><strong>Wi-Fi</strong></td><td>Свързва устройството към локалната мрежа; рутерът осигурява достъпа до интернет.</td></tr><tr><td>Слушане със сдвоени безжични слушалки</td><td><strong>Bluetooth</strong></td><td>Пренася звука между близките устройства.</td></tr><tr><td>Намиране на позицията върху карта</td><td><strong>GPS</strong></td><td>Приемникът изчислява местоположението по спътникови сигнали.</td></tr><tr><td>Мобилен интернет по време на пътуване, без Wi-Fi</td><td><strong>Клетъчна мрежа</strong></td><td>Телефонът използва базовите станции на оператора.</td></tr></table><p>Една ситуация може да използва няколко технологии. При пътуване GPS определя позицията, мобилните данни доставят актуална информация, а Bluetooth предава указанията към слушалките.</p><p>За допълнително проучване: <a href=\"https://bg.wikipedia.org/wiki/Wi-Fi\">Wi-Fi</a>, <a href=\"https://bg.wikipedia.org/wiki/Bluetooth\">Bluetooth</a> и <a href=\"https://bg.wikipedia.org/wiki/GPS\">GPS</a>.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "connections-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"compact\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети с различни размери на екрана.\"><figcaption>Смартфони и таблети с различни размери на екрана. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Кои избори са подходящи за посочената задача?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Домашен рутер към телефон — Wi-Fi."
+            },
+            {
+              "id": "2",
+              "text": "Телефон към безжични слушалки — Bluetooth."
+            },
+            {
+              "id": "3",
+              "text": "Определяне на позиция по спътникови сигнали — GPS."
+            },
+            {
+              "id": "4",
+              "text": "GPS — изтегляне на всички снимки от интернет."
+            },
+            {
+              "id": "5",
+              "text": "Мобилен интернет без Wi-Fi — клетъчна мрежа."
+            },
+            {
+              "id": "6",
+              "text": "Bluetooth — връзка на телефона с GPS спътниците."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Wi-Fi е за локалната безжична мрежа, Bluetooth — за устройства като слушалки, GPS — за местоположение, а клетъчната мрежа — за мобилна връзка през базови станции. GPS не е интернет услуга за изтегляне на снимки."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:920px;box-sizing:border-box}p{margin:16px 0}h3{font-size:23px;color:#156b82;margin:24px 0 10px}strong{color:#155e75}li{margin:8px 0}figure{margin:20px 0;padding:16px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:16px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:320px;margin:auto;object-fit:contain}figcaption{font-size:14px;line-height:1.45;color:#52687d;margin-top:10px}.compact img{max-height:145px}.gallery{display:flex;flex-wrap:wrap;gap:12px}.gallery figure{flex:1 1 210px;min-width:0;margin:0}.gallery img{max-height:230px}.key{background:#e8f6ed;border-left:5px solid #3b9b74;padding:15px 19px;border-radius:8px;margin:18px 0}.example{background:#fff5df;border-left:5px solid #e6ad42;padding:15px 19px;border-radius:8px;margin:18px 0}.flow{background:#eaf2fc;padding:15px;border-radius:10px;text-align:center;font-weight:bold}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c8dbe5;padding:10px;text-align:left;vertical-align:top}th{background:#e7f1f7}a{color:#126797;overflow-wrap:anywhere}code{background:#edf2f7;padding:2px 5px;border-radius:4px}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети с различни размери на екрана.\"><figcaption>Смартфони и таблети с различни размери на екрана. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><ul><li><strong>Мобилните устройства</strong> са преносими компютърни устройства; смартфонът съчетава телефон и приложения.</li><li><strong>Клетъчната мрежа</strong> използва базови станции, които осигуряват радиопокритие в клетки.</li><li><strong>1G–5G</strong> означават поколения мобилни технологии; реалната скорост зависи и от условията.</li><li><strong>Android, iOS и HarmonyOS</strong> управляват устройства и осигуряват среда за приложения; точната система се проверява в настройките.</li><li><strong>Wi-Fi</strong> свързва към локална мрежа, <strong>Bluetooth</strong> — към устройства като слушалки, а <strong>GPS</strong> помага да определим местоположението.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

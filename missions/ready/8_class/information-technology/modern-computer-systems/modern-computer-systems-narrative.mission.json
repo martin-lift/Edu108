@@ -369,7 +369,7 @@
         "step_content": {
           "type": "information",
           "title": "Битове, байтове и характеристики на паметта",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/modern-computer-systems/new-images/bits.svg\" alt=\"Един байт: осем позиции, две възможности във всяка\"><figcaption>Един байт: осем позиции, две възможности във всяка</figcaption></figure><p>Електронната памет представя информацията чрез състояния, които означаваме с 0 и 1. Една такава двоична единица е <strong>бит</strong>. Осем бита образуват <strong>байт</strong>. Това не означава, че всяка буква винаги заема точно един байт: броят зависи от използваното кодиране.</p><p>В илюстрацията един байт съдържа 00000101. В този числов пример това е 5. Осемте позиции могат да образуват 256 различни комбинации. Компютърът използва последователности от байтове, за да представя текстове, изображения, инструкции и други данни.</p><p><strong>Капацитетът</strong> показва колко информация се побира. В десетичните означения 1 kB е 1000 байта, 1 MB е един милион, а 1 GB — един милиард байта. За двоични количества се използват KiB, MiB и GiB: 1 KiB е 1024 байта. В интерфейси и обяви означенията невинаги са последователни, затова проверяваме единицата.</p><p><strong>Закъснението при достъп</strong> показва колко време чакаме за данните, а <strong>скоростта на пренос</strong> — колко данни могат да се пренесат за секунда. Честотата е свързана с работата на паметта, но не е същото като време за достъп. Памет с по-голям капацитет не е автоматично по-бърза: по-големият шкаф побира повече, но това само по себе си не прави вземането на папка по-бързо.</p></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/modern-computer-systems/new-images/bits.svg\" alt=\"Един байт: осем позиции, две възможности във всяка\"><figcaption>Един байт: осем позиции, две възможности във всяка</figcaption></figure><h3>Какво е бит?</h3><p><strong>Битът е най-малката единица за информация в компютъра.</strong> Той може да има една от две стойности: <strong>0 или 1</strong>.</p><p>Можеш да си го представиш като ключ с две положения — изключено и включено.</p><p>Чрез комбинации от битове компютърът представя числа, текст, изображения и звук. <strong>Осем бита образуват един байт.</strong> Например <code>00000101</code> е поредица от осем бита, която може да представя числото 5.</p><h3>Какво е байт?</h3><p><strong>Байтът е група от 8 бита.</strong> Всеки от тях може да бъде 0 или 1.</p><p>Например <code>00000101</code> е един байт. Осемте бита позволяват <strong>256 различни комбинации</strong> — с тях могат да се представят целите числа от 0 до 255.</p><p>В байтове измерваме размера на файловете и капацитета на паметта.</p><h3>Мога ли да кажа, че байт е число между 0 и 255?</h3><p>Можеш да кажеш, че <strong>един байт може да представя цяло число от 0 до 255 включително</strong>.</p><p>Самият байт е група от 8 бита. Какво означават те зависи от начина, по който ги използваме — могат да представят число, част от текст, цвят или друга информация.</p><h3>Какво е килобайт?</h3><p><strong>Килобайтът (kB) е единица за количество информация, равна на 1000 байта.</strong></p><p>Често ще срещнеш и употребата „килобайт“ за <strong>1024 байта</strong>. Точното название за това количество е <strong>кибибайт (KiB)</strong>:</p><ul><li><strong>1 kB = 1000 байта</strong></li><li><strong>1 KiB = 1024 байта</strong></li></ul><h3>Какво е гигабайт?</h3><p><strong>Гигабайтът (GB) е единица за количество информация, равна на един милиард байта.</strong></p><p><strong>1 GB = 1000 MB = 1 000 000 000 байта.</strong></p><p>В гигабайти измерваме например капацитета на RAM и SSD или размера на големи файлове.</p><div style=\"background:#e6f4ef;border-left:5px solid #25856b;padding:16px 20px;border-radius:0 12px 12px 0;margin:20px 0\"><p>С един байт най-често се представя една буква или цифра.<br>Ако кажем 1 килобайт, това са 1000 байта или приблизително текст с 1000 букви.</p></div></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}
@@ -379,40 +379,40 @@
         "step_content": {
           "type": "multiple_choice",
           "title": "Провери разбирането си",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Как правилно да разчетем характеристиките?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.7 Arial,sans-serif;color:#183247;background:white;margin:0;padding:22px;max-width:920px}p{margin:16px 0}h3{color:#156b82;font-size:23px}figure{margin:22px 0;padding:14px;background:#f1f6fa;border-radius:12px}img{max-width:100%;height:auto;max-height:430px;display:block;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526473;margin-top:10px}table{border-collapse:collapse;width:100%;font-size:17px}th,td{padding:10px;border:1px solid #b9cddd;text-align:left;vertical-align:top}th{background:#e6f1f6}strong{color:#12556c}.example{padding:14px 18px;border-left:5px solid #deaa45;background:#fff8e9}li{margin:8px 0}</style></head><body><p>Кои твърдения за единиците за информация са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
           "instruction_format": "html",
           "options": [
             {
               "id": "1",
-              "text": "16 байта съдържат 128 бита."
+              "text": "Битът може да има стойност 0 или 1."
             },
             {
               "id": "2",
-              "text": "Капацитетът показва времето за прочитане на една стойност."
+              "text": "Един байт съдържа 8 бита."
             },
             {
               "id": "3",
-              "text": "GB/s описва количество данни за секунда."
+              "text": "Един байт има само 8 различни комбинации."
             },
             {
               "id": "4",
-              "text": "Всяка кирилска буква винаги е точно един байт."
+              "text": "Един килобайт (kB) е равен на 1000 байта."
             },
             {
               "id": "5",
-              "text": "По-голям капацитет и по-бърз достъп са различни предимства."
+              "text": "Един гигабайт е равен на 1000 байта."
             },
             {
               "id": "6",
-              "text": "1 GHz е единица за обем памет."
+              "text": "Байтът винаги означава число и не може да представя друга информация."
             }
           ],
           "correct_option_ids": [
             "1",
-            "3",
-            "5"
+            "2",
+            "4"
           ],
-          "feedback": "16 × 8 = 128 бита. GB/s е скорост на пренос; капацитетът е количество, а закъснението е време."
+          "feedback": "Битът има две възможни стойности: 0 и 1. Осем бита образуват байт с 256 различни комбинации. 1 kB е 1000 байта, а 1 GB е 1 000 000 000 байта. Значението на байта зависи от използването му — може да представя число, текст, цвят или друга информация."
         },
         "step_rules": {
           "automatic_feedback": true

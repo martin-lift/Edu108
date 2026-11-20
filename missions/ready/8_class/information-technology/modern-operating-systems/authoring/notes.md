@@ -9,10 +9,11 @@ https://ebook.domino.bg/books/8/it/#page=24
 функции → подсистеми → ядро и обвивка → Windows/Linux/macOS/Android → практическа работа → обобщение.
 
 Следва docs/standard-lesson-mission-principles.md. Един отворен въпрос с AI проверка
-в Teacher108; останалите проверки са с шест варианта и няколко верни отговора.
-Практическата работа запазва .docx документ и го предава чрез стъпка от тип file.
-OneDrive има указания за споделяне за редактиране с конкретен получател; при липса
-на училищен акаунт остава локалното предаване.
+в Teacher108; девет проверки с шест варианта и няколко верни отговора.
+Практическата работа е кратка история на Windows по три опорни момента:
+Windows 1.0 (1985), Windows 95 (1995), Windows 11 (2021). Източниците за ученика
+са на български в Уикипедия. След нея има един отворен въпрос с подготвен примерен
+отговор за самопроверка. Няма стъпка за файл или указания за OneDrive.
 
 Корекции спрямо учебника: BIOS/UEFI е фърмуер преди ОС, а не нейно ядро;
 „интерпретатор на данните“ е обяснен като команден интерпретатор;
@@ -36,3 +37,9 @@ Tux, macOS, Android, LibreOffice, Bash и две схеми за ролята н
 
 Android: https://source.android.com/docs/setup/about
 Илюстрация: https://commons.wikimedia.org/wiki/File:Android_robot_head.svg
+
+Източници за историята на Windows:
+- https://bg.wikipedia.org/wiki/Microsoft_Windows
+- https://bg.wikipedia.org/wiki/Windows_95
+- https://bg.wikipedia.org/wiki/Windows_11
+Проверка на хронологията: https://blogs.windows.com/windows-insider/2020/08/24/looking-back-the-25th-anniversary-of-windows-95/ и https://blogs.windows.com/windowsexperience/2021/08/31/windows-11-available-on-october-5/

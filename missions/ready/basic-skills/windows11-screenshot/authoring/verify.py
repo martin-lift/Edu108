@@ -24,7 +24,7 @@ assert content['category'] == 'Базови умения'
 assert not any(key in content for key in ('class_name', 'lesson', 'subject'))
 assert content['title'] == 'Екранна снимка (Screenshot) в Windows 11 — заснемане и записване'
 assert steps[0]['step_content']['title'] == 'За какво е този урок'
-assert [s['step_content']['type'] for s in steps] == ['information'] * 7 + ['file']
+assert [s['step_content']['type'] for s in steps] == ['information'] * 8 + ['file']
 assert all(not s['step_rules'].get('ai_feedback') and not s['step_rules'].get('automatic_feedback') for s in steps)
 assert steps[-1]['step_rules']['send_progress']
 assert all('options' not in s['step_content'] and 'reference_answer' not in s['step_content'] for s in steps)
@@ -40,7 +40,7 @@ assert base64.b64decode(value['content']) == fixture.read_bytes()
 assert value['sha256'] == hashlib.sha256(fixture.read_bytes()).hexdigest()
 restored = Attempt.restore(a.snapshot(completed=True), {'id': 'qa', 'name': 'QA'})
 assert restored.submissions['submit-image']['value'] == value
-print('PASS: both schemas; category; no class/lesson; 7 information + final file; no checks; attachment bytes and restoration.', flush=True)
+print('PASS: both schemas; category; no class/lesson; 8 information + final file; no checks; attachment bytes and restoration.', flush=True)
 
 if '--render' not in sys.argv:
     sys.exit()

@@ -7,8 +7,11 @@
 урок: 7 информационни стъпки, без въпроси, тестове или AI проверка;
 осмата и последна стъпка е предаване на файл. Няма обобщение след нея.
 
-Основен път: папка в Documents → Calculator като пример → Windows + Shift + S
-→ правоъгълна област → Paint / Ctrl + V → Ctrl + S / PNG → отваряне → качване.
+Основен път: папка в Documents → Calculator като пример → Prt Scr →
+заснемане → Paint / Ctrl + V → Ctrl + S / PNG → отваряне → качване.
+Обяснени са двата режима на Prt Scr според настройката в Windows 11:
+избор на област чрез Snipping Tool или копиране на целия екран в клипборда.
+Windows + Shift + S е алтернатива за отваряне на избора на област.
 Алтернатива: Windows + Print Screen → Pictures / Screenshots. Обяснени са Fn,
 възможното пренасочване на Pictures към OneDrive и резервният избор на цял
 екран през Snipping Tool. Не се разчита на автоматичното записване на Snipping
@@ -24,6 +27,7 @@ PNG или JPG/JPEG до 20 MB. Това е условие в текста: фо
 
 Проверени на 23.11.2026 г.:
 
+- [Настройката на Prt Scr, Microsoft Support](https://support.microsoft.com/en-gb/accessibility/windows/make-your-mouse-keyboard-and-other-input-devices-easier-to-use)
 - [Snipping Tool, Microsoft Support](https://support.microsoft.com/en-us/windows/apps/use-snipping-tool-to-capture-screenshots)
 - [Заснемане в Windows 11, Microsoft](https://www.microsoft.com/en-us/windows/learning-center/how-to-screenshot-windows-11)
 - [Копиране на екран и поставяне в Paint, Microsoft Support](https://support.microsoft.com/en-us/office/copy-the-window-or-screen-contents)

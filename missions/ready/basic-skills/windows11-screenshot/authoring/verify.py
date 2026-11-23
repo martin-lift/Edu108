@@ -24,23 +24,27 @@ assert content['category'] == 'Базови умения'
 assert not any(key in content for key in ('class_name', 'lesson', 'subject'))
 assert content['title'] == 'Екранна снимка (Screenshot) в Windows 11 — заснемане и записване'
 assert steps[0]['step_content']['title'] == 'За какво е този урок'
-assert [s['step_content']['type'] for s in steps] == ['information'] * 8 + ['file']
+assert [s['id'] for s in steps] == ['intro', 'prepare', 'capture-full', 'save-full', 'submit-full', 'capture-area', 'paste-paint', 'save-area', 'submit-area', 'print-screen-setting']
+assert [s['step_content']['type'] for s in steps] == ['information'] * 4 + ['file'] + ['information'] * 3 + ['file', 'information']
 assert all(not s['step_rules'].get('ai_feedback') and not s['step_rules'].get('automatic_feedback') for s in steps)
-assert steps[-1]['step_rules']['send_progress']
+assert all(s['step_rules']['send_progress'] for s in steps if s['step_content']['type'] == 'file')
 assert all('options' not in s['step_content'] and 'reference_answer' not in s['step_content'] for s in steps)
 
-fixture = OUT / 'moqt-screenshot.png'
-fixture.write_bytes(base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII='))
+fixtures = {'submit-full': OUT / 'screenshot-full-screen Martin.png', 'submit-area': OUT / 'screenshot-calculator Martin.png'}
+for fixture in fixtures.values():
+    fixture.write_bytes(base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII='))
 a = Attempt(m, {'id': 'qa', 'name': 'QA'})
-a.current = len(steps) - 1
-a.attach('submit-image', fixture)
-value = a.submissions['submit-image']['value']
-assert value['filename'] == fixture.name
-assert base64.b64decode(value['content']) == fixture.read_bytes()
-assert value['sha256'] == hashlib.sha256(fixture.read_bytes()).hexdigest()
+for sid, fixture in fixtures.items():
+    a.current = next(i for i, s in enumerate(steps) if s['id'] == sid)
+    a.attach(sid, fixture)
+    value = a.submissions[sid]['value']
+    assert value['filename'] == fixture.name
+    assert base64.b64decode(value['content']) == fixture.read_bytes()
+    assert value['sha256'] == hashlib.sha256(fixture.read_bytes()).hexdigest()
 restored = Attempt.restore(a.snapshot(completed=True), {'id': 'qa', 'name': 'QA'})
-assert restored.submissions['submit-image']['value'] == value
-print('PASS: both schemas; category; no class/lesson; 8 information + final file; no checks; attachment bytes and restoration.', flush=True)
+assert all(restored.submissions[sid]['value'] == a.submissions[sid]['value'] for sid in fixtures)
+assert 'moqt-screenshot' not in json.dumps(m, ensure_ascii=False)
+print('PASS: both schemas; full screen before area; two independent uploads; Prt Scr last; no class/lesson/checks; both attachments restored.', flush=True)
 
 if '--render' not in sys.argv:
     sys.exit()
@@ -69,9 +73,10 @@ def advance():
     state['poll'] = 0
     state['settled'] = False
     w.render(state['index'])
-    if state['index'] == len(steps) - 1:
+    sid = steps[state['index']]['id']
+    if sid in fixtures:
         original = QFileDialog.getOpenFileName
-        QFileDialog.getOpenFileName = lambda *args, **kwargs: (str(fixture), '')
+        QFileDialog.getOpenFileName = lambda *args, **kwargs: (str(fixtures[sid]), '')
         try:
             w.attach_file()
         finally:
@@ -97,14 +102,21 @@ def got(raw):
     index = state['index']
     w.grab().save(str(OUT / f'step-{index:02}.png'))
     if index == 0:
-        w.grab().save(str(fixture))
+        w.grab().save(str(fixtures['submit-full']))
+        w.findChildren(QWebEngineView)[0].grab().save(str(fixtures['submit-area']))
     assert not result['check']
-    if index == len(steps) - 1:
+    sid = steps[index]['id']
+    if sid in fixtures:
+        fixture = fixtures[sid]
         assert fixture.name in result['filename']
-        assert 'Завърши мисията' in w.next_button.text()
-        attached = w.attempt.submissions['submit-image']['value']
+        assert 'Напред' in w.next_button.text()
+        attached = w.attempt.submissions[sid]['value']
         assert base64.b64decode(attached['content']) == fixture.read_bytes()
-        assert Attempt.restore(w.attempt.snapshot(), w.student).submissions['submit-image']['value'] == attached
+        assert Attempt.restore(w.attempt.snapshot(), w.student).submissions[sid]['value'] == attached
+    if index == len(steps) - 1:
+        assert 'Завърши мисията' in w.next_button.text()
+        restored = Attempt.restore(w.attempt.snapshot(), w.student)
+        assert all(base64.b64decode(restored.submissions[sid]['value']['content']) == fixture.read_bytes() for sid, fixture in fixtures.items())
     results.append({'id': steps[index]['id'], **result})
     print('Rendered', steps[index]['id'], 'images', [(i['width'], i['complete']) for i in images], flush=True)
     state['index'] += 1

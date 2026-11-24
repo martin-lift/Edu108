@@ -7,6 +7,7 @@ import xml.etree.ElementTree as ET
 parser=argparse.ArgumentParser()
 parser.add_argument('--workspace',type=Path,required=True)
 parser.add_argument('--render',action='store_true')
+parser.add_argument('--local-images',action='store_true',help='Preview local SVG bytes before publication; do not change the deliverable JSON.')
 args=parser.parse_args()
 sys.path[:0]=[str(args.workspace/'work/new-systems/qt-runtime'),str(args.workspace/'work/student108-current'),str(args.workspace/'work/Teacher108-feedback')]
 from student108.mission import validate_mission
@@ -47,6 +48,19 @@ for i,s in enumerate(steps):
 assert steps[-1]['step_content']['instruction'].count('<li>')==5
 print('PASS: both models; 56 steps; 29 SVGs; 78 choice-feedback cases; one AI question; no practical/file tasks.',flush=True)
 if not args.render:sys.exit()
+if args.local_images:
+    from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+    from functools import partial
+    from threading import Thread
+    class QuietHandler(SimpleHTTPRequestHandler):
+        def log_message(self,*args):pass
+    server=ThreadingHTTPServer(('127.0.0.1',0),partial(QuietHandler,directory=str(folder)))
+    Thread(target=server.serve_forever,daemon=True).start()
+    for s in steps:
+        c=s['step_content']
+        def embed(match):
+            return f'src="http://127.0.0.1:{server.server_port}/images/{match.group(1)}"'
+        c['instruction']=re.sub(r'src="https://raw.githubusercontent.com/[^\"]+/images/([^\"]+)"',embed,c['instruction'])
 os.environ['QT_QPA_PLATFORM']='offscreen'
 os.environ['QTWEBENGINE_CHROMIUM_FLAGS']='--disable-gpu --no-sandbox'
 from PySide6.QtWidgets import QApplication
@@ -73,7 +87,7 @@ def got(raw):
 QTimer.singleShot(500,advance);QTimer.singleShot(300000,app.quit);app.exec()
 (out/'render.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
 assert len(results)==len(steps)
-assert all(r.get('frames') for r in results)
+assert all(r.get('frames') and len(r['frames'][0]['images'])==1 for r,s in zip(results,steps) if s['step_content']['type']=='information')
 assert all(im['width']>0 for r in results for f in r['frames'] for im in f['images'])
 assert all(f['width']<=f['viewport']+2 and f['height']>=f['bodyHeight']-2 for r in results for f in r['frames'])
-print('PASS: actual Student108 rendered all steps; external illustrations loaded; no clipping.',flush=True)
+print('PASS: actual Student108 rendered all steps; '+('local illustration bytes' if args.local_images else 'external illustrations')+' loaded; no clipping.',flush=True)

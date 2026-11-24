@@ -1,0 +1,85 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-first-spreadsheet-file-20261125",
+  "mission_content": {
+    "title": "Първа мисия: добавете суми и предайте файл",
+    "description": "Кратка начална мисия по част от урок „Електронни таблици — създаване“. Една практическа задача: общо количество и общ приход в готова таблица, записване и предаване на файла.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Електронни таблици — създаване",
+    "content_format": "html",
+    "persistent_text": "Следвайте стъпките. Можете да се връщате назад. Работете в Excel или LibreOffice Calc.",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "Какво ще направите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:12px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>В тази първа мисия ще отворите готова таблица с продажби, ще добавите <strong>две суми</strong> под нея и ще предадете готовия файл.</p><p>Ще работите в <strong>Microsoft Excel</strong> или <strong>LibreOffice Calc</strong>. Следвайте указанията стъпка по стъпка и натискайте <strong>„Напред“</strong>, когато сте готови.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "open-file",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:12px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><ol><li>Натиснете <a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/processing-of-socio-economic-information/spreadsheets-creation-first-mission/first-mission-sales.xlsx\"><strong>Изтеглете таблицата „Продажби“ (.xlsx)</strong></a>. Ако се появи прозорец за записване, изберете папка <strong>„Изтегляния“</strong>.</li><li>Отворете папка <strong>„Изтегляния“ (Downloads)</strong> на компютъра и щракнете два пъти върху <strong>first-mission-sales.xlsx</strong>.</li><li>Файлът трябва да се отвори в Excel или LibreOffice Calc. Ако Windows попита с коя програма да го отворите, изберете една от тях.</li><li>В Excel, ако виждате жълта лента <strong>„Разрешаване на редактирането“ (Enable Editing)</strong>, натиснете този бутон.</li></ol><p>Ще видите един лист — <strong>„Продажби“</strong>. На ред 10 пише <strong>„Общо“</strong>, а двете жълти клетки са празни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "add-totals",
+        "step_content": {
+          "type": "information",
+          "title": "Добавете двете суми",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:12px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Колоните са означени с букви отгоре, а редовете — с числа отляво. <strong>C10</strong> е клетката на пресечната точка на колона C и ред 10.</p><p>Формулата <code>SUM</code> събира числата в посочените клетки. Например <code>C2:C9</code> означава клетките от C2 до C9 включително. Формулата започва със знак <code>=</code>.</p><ol><li>Щракнете върху жълтата клетка <strong>C10</strong>, под „Количество“. Въведете <code>=SUM(C2:C9)</code> и натиснете <strong>Enter</strong>.</li><li>Щракнете върху жълтата клетка <strong>E10</strong>, под „Приход“. Въведете <code>=SUM(E2:E9)</code> и натиснете <strong>Enter</strong>.</li></ol><p>Тези действия са еднакви в Excel и LibreOffice Calc.</p><table><thead><tr><th>Клетка</th><th>Очакван резултат</th></tr></thead><tbody><tr><td><strong>C10</strong> — общо количество</td><td><strong>138</strong></td></tr><tr><td><strong>E10</strong> — общ приход</td><td><strong>1771,50</strong></td></tr></tbody></table><p class=\"note\">Проверете дали виждате тези два резултата. Разделителите на числата може да изглеждат различно според настройките на програмата. Ако резултатът е друг, щракнете отново върху съответната жълта клетка и въведете точно показаната формула.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "save-file",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете готовия файл на диска",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:12px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><ol><li>В Excel изберете <strong>Файл → Запиши като (File → Save As)</strong>. Ако е необходимо, изберете <strong>Този компютър → Преглед (This PC → Browse)</strong>. В LibreOffice Calc изберете <strong>Файл → Записване като (File → Save As)</strong>.</li><li>Изберете папка <strong>„Документи“ (Documents)</strong>.</li><li>Запишете файла с име <strong>Първа-мисия-Име-Фамилия.xlsx</strong>, като замените „Име-Фамилия“ със своите имена.</li><li>Запазете формата <strong>.xlsx</strong>. Ако LibreOffice попита кой формат да използва, изберете <strong>„Използване на Excel 2007–365“ (Use Excel 2007–365 Format)</strong>.</li><li>Затворете файла. Отворете папка „Документи“ и щракнете два пъти върху записания файл. Проверете дали сумите <strong>138</strong> и <strong>1771,50</strong> са запазени.</li></ol><p>След проверката затворете файла и се върнете в мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте готовия файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:12px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Сега предайте файла, който записахте в папка <strong>„Документи“</strong>.</p><ol><li>Натиснете бутона за <strong>прилагане на файл</strong> в тази стъпка.</li><li>В отворилия се прозорец изберете <strong>„Документи“</strong>, намерете <strong>Първа-мисия-Име-Фамилия.xlsx</strong> със своите имена и натиснете <strong>„Отвори“ (Open)</strong>.</li><li>Проверете дали в стъпката се показва името на правилния файл.</li><li>Приключете мисията с бутона на Student108 за завършване.</li></ol><p>Предавате <strong>един .xlsx файл</strong> с двете добавени суми в C10 и E10.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

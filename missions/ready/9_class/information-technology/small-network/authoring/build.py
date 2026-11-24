@@ -192,9 +192,22 @@ def page(identifier, text, example, panels, source=None):
     (ASSETS/f'{identifier}.svg').write_text(svg(identifier,panels),encoding='utf-8')
     src=f'{BASE}/images/{identifier}.svg'
     figure=f'<figure><a href="{src}"><img src="{src}" alt="{html.escape("; ".join(panels).replace("|",": "))}"></a></figure>'
+    example_html=f'<div class="example"><strong>Пример:</strong> {example}</div>'
+    if identifier=='http':
+        example_html='''<h3>Когато картинката съществува</h3>
+<p>Страницата на сайта <code>www.example.org</code> съдържа картинка на котка. За да я покаже, браузърът изпраща отделна заявка до сървъра. Ето разговора, представен опростено:</p>
+<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>/images/cat.jpg</code>.“<br>Заявката използва <code>GET</code> — „получи този ресурс“.</p>
+<p><strong>Сървър → браузър:</strong> <code>200 OK</code> — „Картинката е намерена. Ето я.“ Заедно с отговора сървърът изпраща данните на картинката.</p>
+<p><strong>Резултат:</strong> браузърът получава данните и показва котката на страницата.</p></div>
+<h3>Когато картинката не съществува</h3>
+<p>Сега страницата сочи към <code>/images/dog.jpg</code>, но на този адрес няма картинка.</p>
+<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>/images/dog.jpg</code>.“ Отново използва <code>GET</code>.</p>
+<p><strong>Сървър → браузър:</strong> <code>404 Not Found</code> — „На този адрес не намирам такъв ресурс.“ Сървърът не изпраща исканата картинка.</p>
+<p><strong>Резултат:</strong> браузърът не може да покаже кучето. На мястото му може да се вижда знак за липсващо изображение или заместващ текст.</p></div>
+<div class="key"><strong>Запомни:</strong> и в двата случая сървърът отговаря. <code>200</code> означава успешна заявка, а <code>404</code> — че исканият ресурс не е намерен.</div>'''
     source_url='https://www.iana.org/domains/root/db' if source=='iana' else f'https://www.rfc-editor.org/rfc/rfc{source}.html'
     citation=f'<p style="font-size:14px"><a href="{source_url}">Повече за понятието: {"IANA" if source=="iana" else "RFC "+str(source)}</a></p>' if source else ''
-    return f'<!doctype html><html lang="bg"><head><meta charset="utf-8"><style>{CSS}</style></head><body><main>{text}{figure}<div class="example"><strong>Пример:</strong> {example}</div>{citation}</main></body></html>'
+    return f'<!doctype html><html lang="bg"><head><meta charset="utf-8"><style>{CSS}</style></head><body><main>{text}{figure}{example_html}{citation}</main></body></html>'
 
 def main():
     steps=[]
@@ -224,7 +237,7 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-02','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-03','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

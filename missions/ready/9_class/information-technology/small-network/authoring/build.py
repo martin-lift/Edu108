@@ -214,7 +214,7 @@ Host: www.example.org
 </code></pre>
 <p><strong>Сървър → браузър:</strong> <code>404 Not Found</code> — „На този адрес не намирам такъв ресурс.“ Сървърът не изпраща исканата картинка.</p>
 <p><strong>Резултат:</strong> браузърът не може да покаже кучето. На мястото му може да се вижда знак за липсващо изображение или заместващ текст.</p></div>
-<div class="key"><strong>Запомни:</strong> и в двата случая сървърът отговаря. <code>200</code> означава успешна заявка, а <code>404</code> — че исканият ресурс не е намерен.</div>'''
+<div class="key"><strong>Запомни:</strong> и в двата случая сървърът отговаря. Кодът <code>200</code> означава успешна заявка — има такава картинка, а кодът <code>404</code> — че исканият ресурс не е намерен.</div>'''
     source_url='https://www.iana.org/domains/root/db' if source=='iana' else f'https://www.rfc-editor.org/rfc/rfc{source}.html'
     descriptions={
         9110:'правилата за заявки и отговори при HTTP',
@@ -273,7 +273,7 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-05','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-06','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

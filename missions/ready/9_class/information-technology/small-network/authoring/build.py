@@ -194,14 +194,24 @@ def page(identifier, text, example, panels, source=None):
     figure=f'<figure><a href="{src}"><img src="{src}" alt="{html.escape("; ".join(panels).replace("|",": "))}"></a></figure>'
     example_html=f'<div class="example"><strong>Пример:</strong> {example}</div>'
     if identifier=='http':
-        example_html='''<h3>Когато картинката съществува</h3>
-<p>Страницата на сайта <code>www.example.org</code> съдържа картинка на котка. За да я покаже, браузърът изпраща отделна заявка до сървъра. Ето разговора, представен опростено:</p>
-<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>/images/cat.jpg</code>.“<br>Заявката използва <code>GET</code> — „получи този ресурс“.</p>
+        example_html='''<p>HTTP е протокол, чрез който се зареждат както текстовете, така и картинките в един сайт. Нека видим пример как си говорят програмата браузър и сървърът, който съхранява картинките:</p>
+<p>Страницата <code>https://www.example.org/</code> съдържа картинка на котка с пълен URL <code>https://www.example.org/images/cat.jpg</code>. За да я покаже, браузърът изпраща отделна заявка до сървъра.</p>
+<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>https://www.example.org/images/cat.jpg</code>.“<br>Заявката използва <code>GET</code> — „получи този ресурс“.</p>
+<p>Ето примерната HTTP заявка във формат HTTP/1.1:</p>
+<pre style="white-space:pre-wrap;overflow-wrap:anywhere;padding:14px;background:#edf2f6;border-radius:8px"><code>GET /images/cat.jpg HTTP/1.1
+Host: www.example.org
+
+</code></pre>
+<p>В заявката пътят <code>/images/cat.jpg</code> посочва картинката, а <code>Host: www.example.org</code> — сайта. Така частите от пълния URL участват в заявката.</p>
 <p><strong>Сървър → браузър:</strong> <code>200 OK</code> — „Картинката е намерена. Ето я.“ Заедно с отговора сървърът изпраща данните на картинката.</p>
 <p><strong>Резултат:</strong> браузърът получава данните и показва котката на страницата.</p></div>
 <h3>Когато картинката не съществува</h3>
-<p>Сега страницата сочи към <code>/images/dog.jpg</code>, но на този адрес няма картинка.</p>
-<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>/images/dog.jpg</code>.“ Отново използва <code>GET</code>.</p>
+<p>Сега страницата сочи към <code>https://www.example.org/images/dog.jpg</code>, но на този адрес няма картинка.</p>
+<div class="example"><p><strong>Браузър → сървър:</strong> „Дай ми картинката <code>https://www.example.org/images/dog.jpg</code>.“ Отново използва <code>GET</code>.</p>
+<pre style="white-space:pre-wrap;overflow-wrap:anywhere;padding:14px;background:#edf2f6;border-radius:8px"><code>GET /images/dog.jpg HTTP/1.1
+Host: www.example.org
+
+</code></pre>
 <p><strong>Сървър → браузър:</strong> <code>404 Not Found</code> — „На този адрес не намирам такъв ресурс.“ Сървърът не изпраща исканата картинка.</p>
 <p><strong>Резултат:</strong> браузърът не може да покаже кучето. На мястото му може да се вижда знак за липсващо изображение или заместващ текст.</p></div>
 <div class="key"><strong>Запомни:</strong> и в двата случая сървърът отговаря. <code>200</code> означава успешна заявка, а <code>404</code> — че исканият ресурс не е намерен.</div>'''
@@ -263,7 +273,7 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-04','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-05','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

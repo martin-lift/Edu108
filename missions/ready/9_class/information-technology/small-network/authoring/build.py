@@ -191,7 +191,7 @@ def page(identifier, text, example, panels, source=None):
     ASSETS.mkdir(parents=True, exist_ok=True)
     (ASSETS/f'{identifier}.svg').write_text(svg(identifier,panels),encoding='utf-8')
     src=f'{BASE}/images/{identifier}.svg'
-    figure=f'<figure><a href="{src}"><img src="{src}" alt="{html.escape("; ".join(panels).replace("|",": "))}"></a><figcaption><a href="{src}">Отвори схемата</a></figcaption></figure>'
+    figure=f'<figure><a href="{src}"><img src="{src}" alt="{html.escape("; ".join(panels).replace("|",": "))}"></a></figure>'
     source_url='https://www.iana.org/domains/root/db' if source=='iana' else f'https://www.rfc-editor.org/rfc/rfc{source}.html'
     citation=f'<p style="font-size:14px"><a href="{source_url}">Повече за понятието: {"IANA" if source=="iana" else "RFC "+str(source)}</a></p>' if source else ''
     return f'<!doctype html><html lang="bg"><head><meta charset="utf-8"><style>{CSS}</style></head><body><main>{text}{figure}<div class="example"><strong>Пример:</strong> {example}</div>{citation}</main></body></html>'
@@ -224,7 +224,7 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-01','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-02','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

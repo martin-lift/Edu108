@@ -1,6 +1,6 @@
 {
   "mission_version": 4,
-  "mission_id": "it9-small-network-20261124-06",
+  "mission_id": "it9-small-network-20261124-07",
   "mission_content": {
     "title": "Свързване и конфигуриране на малка мрежа",
     "class_name": "9. клас",
@@ -184,7 +184,7 @@
         "step_content": {
           "type": "information",
           "title": "SMTP",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>SMTP означава Simple Mail Transfer Protocol. Неговата основна задача е изпращане и препредаване на електронни писма. Пощенският клиент подава писмото към изходящ пощенски сървър, а пощенските сървъри използват SMTP и помежду си. Писмото може да съдържа текст и кодирани прикачени файлове. SMTP не е протоколът, чрез който обикновено преглеждаш получените писма в пощенската си кутия; за този достъп има други протоколи.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\" alt=\"Писмо от Анна: изпращане; SMTP: предава писмото; Сървър на Борис: приема писмото\"></a></figure><div class=\"example\"><strong>Пример:</strong> Анна изпраща писмо на Борис. SMTP участва в предаването му към пощенския сървър на Борис. Самото отваряне на получената поща е отделна задача.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc5321.html\">RFC 5321</a> е официалният технически документ, който описва правилата на SMTP за изпращане и препредаване на електронни писма.</strong></p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>SMTP означава Simple Mail Transfer Protocol. Неговата основна задача е изпращане и препредаване на електронни писма. Пощенският клиент подава писмото към изходящ пощенски сървър, а пощенските сървъри използват SMTP и помежду си. Писмото може да съдържа текст и кодирани прикачени файлове. SMTP не е протоколът, чрез който обикновено преглеждаш получените писма в пощенската си кутия; за този достъп има други протоколи.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\" alt=\"Писмо от Анна: изпращане; SMTP: предава писмото; Сървър на Борис: приема писмото\"></a></figure><div class=\"example\"><strong>Пример:</strong> Анна изпраща писмо на Борис. SMTP е протоколът, който определя правилата, по които пощенските сървъри общуват, за да предадат писмото до пощенския сървър на Борис.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc5321.html\">RFC 5321</a> е официалният технически документ, който описва правилата на SMTP за изпращане и препредаване на електронни писма.</strong></p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}
@@ -226,7 +226,7 @@
             "o1",
             "o2"
           ],
-          "feedback": "SMTP се използва за изпращане на електронни писма. SMTP може да пренася писма между пощенски сървъри. Анна изпраща писмо на Борис. SMTP участва в предаването му към пощенския сървър на Борис. Самото отваряне на получената поща е отделна задача."
+          "feedback": "SMTP се използва за изпращане на електронни писма. SMTP може да пренася писма между пощенски сървъри. Анна изпраща писмо на Борис. SMTP е протоколът, който определя правилата, по които пощенските сървъри общуват, за да предадат писмото до пощенския сървър на Борис."
         },
         "step_rules": {
           "automatic_feedback": true
@@ -551,112 +551,6 @@
         }
       },
       {
-        "id": "packet",
-        "step_content": {
-          "type": "information",
-          "title": "IP пакет",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IP пакетът е оформена единица данни, която може да бъде пренасяна през мрежа. Той съдържа заглавна част и полезни данни. Голям обмен, например изтегляне на снимка, обикновено използва много пакети. Те могат да преминат по различни маршрути и да пристигнат в различен ред или някой да се изгуби. IP пренася пакетите, а протоколи от по-горните нива организират използването на получените данни.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/packet.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/packet.svg\" alt=\"Голям обмен: например снимка; IP пакети: [данни] [данни] [данни]; Получател: обработка на данните\"></a></figure><div class=\"example\"><strong>Пример:</strong> Снимката е разделена между много пакети. Един отделен пакет не е задължително цялата снимка, а съдържа само част от обмена и необходимата служебна информация.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">RFC 791</a> е официалният технически документ, който описва правилата на IPv4, включително адресите и устройството на IP пакетите.</strong></p></main></body></html>",
-          "instruction_format": "html"
-        },
-        "step_rules": {}
-      },
-      {
-        "id": "packet-check",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: IP пакет",
-          "instruction": "<p>Кои твърдения за <strong>IP пакет</strong> са верни? Отбележи всички верни отговори.</p>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "o5",
-              "text": "IP пакетът няма служебна информация."
-            },
-            {
-              "id": "o6",
-              "text": "Всеки пакет е отделен пощенски акаунт."
-            },
-            {
-              "id": "o1",
-              "text": "IP пакетът има заглавна част и полезни данни."
-            },
-            {
-              "id": "o2",
-              "text": "Един голям обмен може да използва много пакети."
-            },
-            {
-              "id": "o3",
-              "text": "Всеки пакет винаги съдържа цялата снимка."
-            },
-            {
-              "id": "o4",
-              "text": "Всички пакети задължително минават по един маршрут."
-            }
-          ],
-          "correct_option_ids": [
-            "o1",
-            "o2"
-          ],
-          "feedback": "IP пакетът има заглавна част и полезни данни. Един голям обмен може да използва много пакети. Снимката е разделена между много пакети. Един отделен пакет не е задължително цялата снимка, а съдържа само част от обмена и необходимата служебна информация."
-        },
-        "step_rules": {
-          "automatic_feedback": true
-        }
-      },
-      {
-        "id": "header",
-        "step_content": {
-          "type": "information",
-          "title": "Хедър — заглавна част",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Хедърът е служебната заглавна част на пакет. IP хедърът съдържа информация, необходима за обработка и насочване, включително IP адресите на източника и получателя. След него се пренасят полезните данни. Можеш да го сравниш с адресните надписи върху плик: те помагат пратката да стигне до целта, но са различни от текста вътре. Полетата и подредбата на хедъра зависят от версията на IP.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/header.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/header.svg\" alt=\"IP хедър: източник + получател; Полезни данни: пренасяно съдържание; IP пакет: хедър + данни\"></a></figure><div class=\"example\"><strong>Пример:</strong> В учебен IPv6 пакет източникът е 2001:db8::10, а получателят е 2001:db8::20. Тези адреси са служебни данни, а изпращаният текст е полезното съдържание.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc8200.html\">RFC 8200</a> е официалният технически документ, който описва правилата на IPv6, включително устройството на заглавната част на пакетите.</strong></p></main></body></html>",
-          "instruction_format": "html"
-        },
-        "step_rules": {}
-      },
-      {
-        "id": "header-check",
-        "step_content": {
-          "type": "multiple_choice",
-          "title": "Проверка: Хедър — заглавна част",
-          "instruction": "<p>Кои твърдения за <strong>Хедър — заглавна част</strong> са верни? Отбележи всички верни отговори.</p>",
-          "instruction_format": "html",
-          "options": [
-            {
-              "id": "o1",
-              "text": "IP хедърът съдържа служебна информация."
-            },
-            {
-              "id": "o2",
-              "text": "Адресът на получателя участва в насочването."
-            },
-            {
-              "id": "o3",
-              "text": "Хедърът е задължително заглавие на уеб статия."
-            },
-            {
-              "id": "o4",
-              "text": "Хедърът съдържа единствено снимката."
-            },
-            {
-              "id": "o5",
-              "text": "Всички IP версии имат напълно еднакъв хедър."
-            },
-            {
-              "id": "o6",
-              "text": "Адресът на получателя е ненужен за насочването."
-            }
-          ],
-          "correct_option_ids": [
-            "o1",
-            "o2"
-          ],
-          "feedback": "IP хедърът съдържа служебна информация. Адресът на получателя участва в насочването. В учебен IPv6 пакет източникът е 2001:db8::10, а получателят е 2001:db8::20. Тези адреси са служебни данни, а изпращаният текст е полезното съдържание."
-        },
-        "step_rules": {
-          "automatic_feedback": true
-        }
-      },
-      {
         "id": "address",
         "step_content": {
           "type": "information",
@@ -675,14 +569,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o3",
-              "text": "Всеки компютър има точно един адрес завинаги."
-            },
-            {
-              "id": "o4",
-              "text": "IP адресът е име на файл."
-            },
-            {
               "id": "o5",
               "text": "Всички IP адреси са уникални в целия свят без изключения."
             },
@@ -697,6 +583,14 @@
             {
               "id": "o2",
               "text": "Частен IPv4 адрес може да се повтаря в отделни локални мрежи."
+            },
+            {
+              "id": "o3",
+              "text": "Всеки компютър има точно един адрес завинаги."
+            },
+            {
+              "id": "o4",
+              "text": "IP адресът е име на файл."
             }
           ],
           "correct_option_ids": [
@@ -714,7 +608,7 @@
         "step_content": {
           "type": "information",
           "title": "IPv4",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IPv4 е версия на интернет протокола с адреси от 32 бита, тоест 4 байта. Обичайният запис съдържа четири десетични числа, разделени с точки. Всяко число представлява осем бита и е от 0 до 255. Например 192.168.10.25 е правилно оформен IPv4 адрес, а 192.168.10.300 не е. Пространството има общо 2 на степен 32 стойности; част от тях са със специално предназначение и не са свободни публични адреси.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\" alt=\"IPv4: 32 бита; 4 части по 8 бита: 192 . 168 . 10 . 25; Всяка част: число от 0 до 255\"></a></figure><div class=\"example\"><strong>Пример:</strong> В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">RFC 791</a> е официалният технически документ, който описва правилата на IPv4, включително адресите и устройството на IP пакетите.</strong></p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IPv4 означава Internet Protocol version 4 — четвърта версия на интернет протокола. Частта v4 показва номера на версията. Съвпадението с четирите числа в обичайния запис на адреса е случайност: версията не е наречена така заради броя на числата. IPv4 адресите са от 32 бита, тоест 4 байта. Обичайният запис съдържа четири десетични числа, разделени с точки. Всяко число представлява осем бита и е от 0 до 255. Например 192.168.10.25 е правилно оформен IPv4 адрес, а 192.168.10.300 не е. Пространството има общо 2 на степен 32 стойности; част от тях са със специално предназначение и не са свободни публични адреси.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\" alt=\"IPv4: четвърта версия на протокола; Примерен адрес: 192 . 168 . 10 . 25; Четирите числа: не определят името на версията\"></a></figure><div class=\"example\"><strong>Пример:</strong> В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">RFC 791</a> е официалният технически документ, който описва правилата на IPv4, включително адресите и устройството на IP пакетите.</strong></p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}
@@ -728,16 +622,8 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o5",
-              "text": "Всяка част може да е произволно голямо число."
-            },
-            {
-              "id": "o6",
-              "text": "Всички възможни стойности са свободни публични адреси."
-            },
-            {
               "id": "o1",
-              "text": "IPv4 адресът е 32-битов."
+              "text": "v4 означава четвърта версия на интернет протокола."
             },
             {
               "id": "o2",
@@ -749,14 +635,22 @@
             },
             {
               "id": "o4",
-              "text": "IPv4 използва осем групи с двоеточия."
+              "text": "Името IPv4 идва от четирите числа в адреса."
+            },
+            {
+              "id": "o5",
+              "text": "Всяка част може да е произволно голямо число."
+            },
+            {
+              "id": "o6",
+              "text": "Всички възможни стойности са свободни публични адреси."
             }
           ],
           "correct_option_ids": [
             "o1",
             "o2"
           ],
-          "feedback": "IPv4 адресът е 32-битов. 192.168.10.25 е правилно оформен IPv4 адрес. В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи."
+          "feedback": "v4 означава четвърта версия на интернет протокола. 192.168.10.25 е правилно оформен IPv4 адрес. В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи."
         },
         "step_rules": {
           "automatic_feedback": true
@@ -767,7 +661,7 @@
         "step_content": {
           "type": "information",
           "title": "IPv6",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IPv6 използва адреси от 128 бита, тоест 16 байта. Пълният запис има осем групи по четири шестнайсетични цифри, разделени с двоеточия. Използват се цифрите от 0 до 9 и буквите от a до f. Водещите нули в група могат да се пропуснат. Една поредица от нулеви групи може да се съкрати с двойно двоеточие. По-голямото адресно пространство позволява много повече адреси в сравнение с IPv4.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\" alt=\"IPv6: 128 бита; Пълен запис: 8 шестнайсетични групи; Съкратен пример: 2001:db8::25\"></a></figure><div class=\"example\"><strong>Пример:</strong> 2001:0db8:0000:0000:0000:0000:0000:0025 може да се запише като 2001:db8::25. Това са два записа на един адрес от диапазон за документационни примери.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc4291.html\">RFC 4291</a> е официалният технически документ, който описва устройството и начина на записване на IPv6 адресите.</strong></p></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Ето как може да изглежда един IPv6 адрес: <code>2001:db8:1234:5678:abcd:ef01:2345:6789</code>. Забелязваш букви, цифри и двоеточия. На този етап е достатъчно да разпознаваш вида му. IPv6 означава шеста версия на интернет протокола.</p><p>Защо е нужна нова версия? IPv4 има около 4,3 милиарда възможни адреса. С разрастването на интернет свободните публични адреси не стигат за всички нови мрежи и устройства. Споделянето на публични адреси помага на IPv4 да продължава да работи, но усложнява мрежите. IPv6 предоставя несравнимо повече адреси и позволява интернет да продължи да расте.</p><p>Използва ли се вече? Да. IPv6 работи в реални мрежи и услуги по света; не е само бъдещ проект. Преходът е постепенен и често IPv4 и IPv6 се използват едновременно. Успешното внедряване не означава, че IPv4 вече е изчезнал.</p><p>Колко е напреднал преходът? Изследването IPv6Matrix от август 2026 г. установява, че 54,27% от над 5,3 милиона проверени уеб хоста (сървърни имена) поддържат едновременно IPv4 и IPv6. Това е измерване на конкретната извадка, а не процент на всички потребители или на целия интернет.</p><p>А какво е станало с версия 5? Номерът 5 е използван от експерименталния протокол ST2 за пренасяне на потоци, например звук и видео. Той не се превръща в масов заместник на IPv4. Затова новата широко внедрявана версия получава номер 6.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\" alt=\"Примерен IPv6 адрес: 2001:db8::25; Причина за прехода: много повече адреси; Днес: IPv4 и IPv6 работят паралелно\"></a></figure><div class=\"example\"><strong>Пример:</strong> Един сайт може да е достъпен и по IPv4, и по IPv6. При подходяща поддръжка от устройството, доставчика и сайта браузърът може да използва IPv6, без да променяш начина, по който отваряш страницата.</div><p style=\"font-size:16px\"><strong><a href=\"https://www.rfc-editor.org/rfc/rfc4291.html\">RFC 4291</a> е официалният технически документ, който описва устройството и начина на записване на IPv6 адресите.</strong></p><p style=\"font-size:16px\"><a href=\"https://www.internetsociety.org/deploy360/ipv6/faq/\">Internet Society обяснява защо недостигът на IPv4 адреси налага IPv6.</a></p><p style=\"font-size:16px\"><a href=\"https://internetsociety.uk/the-state-of-the-internet-august-2026/\">Изследването IPv6Matrix описва измереното внедряване през август 2026 г.</a></p><p style=\"font-size:16px\"><a href=\"https://www.rfc-editor.org/rfc/rfc9049.html#section-6.1\">RFC 9049 разказва историята на експерименталния ST2, използвал номер 5.</a></p></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}
@@ -781,35 +675,35 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o1",
-              "text": "IPv6 адресите са 128-битови."
-            },
-            {
-              "id": "o2",
-              "text": "Двойното двоеточие може да съкрати поредица нулеви групи."
-            },
-            {
               "id": "o3",
-              "text": "IPv6 адресите са 32-битови."
+              "text": "IPv6 е само бъдещ проект и още не се използва."
             },
             {
               "id": "o4",
-              "text": "IPv6 използва само десетични числа от 0 до 255."
+              "text": "Числото 6 означава шест числа във всеки адрес."
             },
             {
               "id": "o5",
-              "text": "Пълният IPv6 запис има четири групи с точки."
+              "text": "IPv4 вече е спрян навсякъде по света."
             },
             {
               "id": "o6",
-              "text": "IPv6 има по-малко възможни адреси от IPv4."
+              "text": "Версия 5 е била масовият заместник на IPv4."
+            },
+            {
+              "id": "o1",
+              "text": "IPv6 предоставя много повече възможни адреси от IPv4."
+            },
+            {
+              "id": "o2",
+              "text": "IPv6 вече се използва, а преходът от IPv4 продължава."
             }
           ],
           "correct_option_ids": [
             "o1",
             "o2"
           ],
-          "feedback": "IPv6 адресите са 128-битови. Двойното двоеточие може да съкрати поредица нулеви групи. 2001:0db8:0000:0000:0000:0000:0000:0025 може да се запише като 2001:db8::25. Това са два записа на един адрес от диапазон за документационни примери."
+          "feedback": "IPv6 предоставя много повече възможни адреси от IPv4. IPv6 вече се използва, а преходът от IPv4 продължава. Един сайт може да е достъпен и по IPv4, и по IPv6. При подходяща поддръжка от устройството, доставчика и сайта браузърът може да използва IPv6, без да променяш начина, по който отваряш страницата."
         },
         "step_rules": {
           "automatic_feedback": true
@@ -834,14 +728,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o3",
-              "text": "Статичен адрес винаги означава публичен адрес."
-            },
-            {
-              "id": "o4",
-              "text": "Статичен адрес никога не може да се промени чрез настройка."
-            },
-            {
               "id": "o5",
               "text": "Два активни интерфейса в една подмрежа трябва да имат един адрес."
             },
@@ -856,6 +742,14 @@
             {
               "id": "o2",
               "text": "Статичен IP адрес може да е частен."
+            },
+            {
+              "id": "o3",
+              "text": "Статичен адрес винаги означава публичен адрес."
+            },
+            {
+              "id": "o4",
+              "text": "Статичен адрес никога не може да се промени чрез настройка."
             }
           ],
           "correct_option_ids": [
@@ -887,14 +781,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o5",
-              "text": "DHCP служи само за изпращане на писма."
-            },
-            {
-              "id": "o6",
-              "text": "Динамичният адрес се избира без съобразяване със свободните адреси."
-            },
-            {
               "id": "o1",
               "text": "Динамичен адрес може да бъде получен автоматично чрез DHCP."
             },
@@ -909,6 +795,14 @@
             {
               "id": "o4",
               "text": "При всяко включване непременно се получава различен адрес."
+            },
+            {
+              "id": "o5",
+              "text": "DHCP служи само за изпращане на писма."
+            },
+            {
+              "id": "o6",
+              "text": "Динамичният адрес се избира без съобразяване със свободните адреси."
             }
           ],
           "correct_option_ids": [
@@ -940,14 +834,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o1",
-              "text": "Маската отделя мрежовата част на IPv4 адреса."
-            },
-            {
-              "id": "o2",
-              "text": "255.255.255.0 може да се означи като /24."
-            },
-            {
               "id": "o3",
               "text": "Маската е паролата за безжична мрежа."
             },
@@ -962,6 +848,14 @@
             {
               "id": "o6",
               "text": "255.255.255.0 означава 24 байта."
+            },
+            {
+              "id": "o1",
+              "text": "Маската отделя мрежовата част на IPv4 адреса."
+            },
+            {
+              "id": "o2",
+              "text": "255.255.255.0 може да се означи като /24."
             }
           ],
           "correct_option_ids": [
@@ -993,14 +887,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o3",
-              "text": "Шлюзът е задължително самият отдалечен сайт."
-            },
-            {
-              "id": "o4",
-              "text": "Шлюзът е име на файл."
-            },
-            {
               "id": "o5",
               "text": "Шлюзът служи само за оформяне на текст."
             },
@@ -1015,6 +901,14 @@
             {
               "id": "o2",
               "text": "Шлюзът позволява достигане на други мрежи."
+            },
+            {
+              "id": "o3",
+              "text": "Шлюзът е задължително самият отдалечен сайт."
+            },
+            {
+              "id": "o4",
+              "text": "Шлюзът е име на файл."
             }
           ],
           "correct_option_ids": [
@@ -1046,14 +940,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o5",
-              "text": "Адресът на шлюза винаги е адресът на сайта."
-            },
-            {
-              "id": "o6",
-              "text": "Локалните устройства никога не могат да общуват пряко."
-            },
-            {
               "id": "o1",
               "text": "Шлюзът по подразбиране се използва при липса на по-конкретен маршрут."
             },
@@ -1068,6 +954,14 @@
             {
               "id": "o4",
               "text": "Шлюзът по подразбиране е маската."
+            },
+            {
+              "id": "o5",
+              "text": "Адресът на шлюза винаги е адресът на сайта."
+            },
+            {
+              "id": "o6",
+              "text": "Локалните устройства никога не могат да общуват пряко."
             }
           ],
           "correct_option_ids": [
@@ -1099,14 +993,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o1",
-              "text": "Частите на домейновото име се разделят с точки."
-            },
-            {
-              "id": "o2",
-              "text": "Домейнът може да бъде по-лесен за запомняне от IP адрес."
-            },
-            {
               "id": "o3",
               "text": "Домейнът задължително включва https://."
             },
@@ -1121,6 +1007,14 @@
             {
               "id": "o6",
               "text": "Домейнът е вид мрежов кабел."
+            },
+            {
+              "id": "o1",
+              "text": "Частите на домейновото име се разделят с точки."
+            },
+            {
+              "id": "o2",
+              "text": "Домейнът може да бъде по-лесен за запомняне от IP адрес."
             }
           ],
           "correct_option_ids": [
@@ -1152,14 +1046,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o3",
-              "text": "DNS изпраща съдържанието на всяка уеб страница."
-            },
-            {
-              "id": "o4",
-              "text": "DNS трябва да търси целия URL заедно с пътя."
-            },
-            {
               "id": "o5",
               "text": "Всеки DNS сървър задължително съхранява всички имена."
             },
@@ -1174,6 +1060,14 @@
             {
               "id": "o2",
               "text": "DNS отговорите могат временно да се кешират."
+            },
+            {
+              "id": "o3",
+              "text": "DNS изпраща съдържанието на всяка уеб страница."
+            },
+            {
+              "id": "o4",
+              "text": "DNS трябва да търси целия URL заедно с пътя."
             }
           ],
           "correct_option_ids": [
@@ -1205,14 +1099,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o5",
-              "text": "Всяка дума от домейна е име на отделна физическа мрежа."
-            },
-            {
-              "id": "o6",
-              "text": "Първото ниво е пътят след наклонената черта."
-            },
-            {
               "id": "o1",
               "text": "В example.org първото ниво е org."
             },
@@ -1227,6 +1113,14 @@
             {
               "id": "o4",
               "text": "Домейнът org гарантира вярност на всяка страница."
+            },
+            {
+              "id": "o5",
+              "text": "Всяка дума от домейна е име на отделна физическа мрежа."
+            },
+            {
+              "id": "o6",
+              "text": "Първото ниво е пътят след наклонената черта."
             }
           ],
           "correct_option_ids": [
@@ -1258,14 +1152,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o1",
-              "text": "bg е държавен домейн от първо ниво за България."
-            },
-            {
-              "id": "o2",
-              "text": "Държавният домейн не гарантира местоположението на сървъра."
-            },
-            {
               "id": "o3",
               "text": "bg е път до файл."
             },
@@ -1280,6 +1166,14 @@
             {
               "id": "o6",
               "text": "com е двубуквен код за България."
+            },
+            {
+              "id": "o1",
+              "text": "bg е държавен домейн от първо ниво за България."
+            },
+            {
+              "id": "o2",
+              "text": "Държавният домейн не гарантира местоположението на сървъра."
             }
           ],
           "correct_option_ids": [
@@ -1311,14 +1205,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o3",
-              "text": "В example.org етикетът org е второто ниво."
-            },
-            {
-              "id": "o4",
-              "text": "Навсякъде регистрацията задължително е на второ ниво."
-            },
-            {
               "id": "o5",
               "text": "Домейн от второ ниво е вид IP пакет."
             },
@@ -1333,6 +1219,14 @@
             {
               "id": "o2",
               "text": "Правилата за регистрация зависят от съответната система."
+            },
+            {
+              "id": "o3",
+              "text": "В example.org етикетът org е второто ниво."
+            },
+            {
+              "id": "o4",
+              "text": "Навсякъде регистрацията задължително е на второ ниво."
             }
           ],
           "correct_option_ids": [
@@ -1364,14 +1258,6 @@
           "instruction_format": "html",
           "options": [
             {
-              "id": "o5",
-              "text": "В library.example.org org е третото ниво."
-            },
-            {
-              "id": "o6",
-              "text": "Домейновата йерархия може да има най-много три нива."
-            },
-            {
               "id": "o1",
               "text": "library.example.org е поддомейн на example.org."
             },
@@ -1386,6 +1272,14 @@
             {
               "id": "o4",
               "text": "Поддомейнът се добавя след пътя на файла."
+            },
+            {
+              "id": "o5",
+              "text": "В library.example.org org е третото ниво."
+            },
+            {
+              "id": "o6",
+              "text": "Домейновата йерархия може да има най-много три нива."
             }
           ],
           "correct_option_ids": [
@@ -1428,7 +1322,7 @@
         "step_content": {
           "type": "information",
           "title": "Какво да запомниш?",
-          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><ul><li>Протоколите определят общите правила; различните услуги използват подходящи протоколи.</li><li>IP адресира пакетите, а TCP добавя надежден и подреден транспорт.</li><li>IPv4 използва 32-битови адреси, а IPv6 — 128-битови.</li><li>Маската определя локалната подмрежа; шлюзът осигурява път към други мрежи.</li><li>Домейнът е име, DNS намира адреси за името, а URL посочва ресурс и начина за достъп.</li></ul><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\" alt=\"Понятие: разбираш значението; Пример: разпознаваш ролята; Обяснение: използваш свои думи\"></a></figure><div class=\"example\"><strong>Пример:</strong> При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.</div></main></body></html>",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><ul><li>Протоколите определят общите правила; различните услуги използват подходящи протоколи.</li><li>IP адресира пакетите, а TCP добавя надежден и подреден транспорт.</li><li>IPv4 е четвърта версия; IPv6 е шеста версия и предоставя много повече адреси. Двете все още се използват паралелно.</li><li>Маската определя локалната подмрежа; шлюзът осигурява път към други мрежи.</li><li>Домейнът е име, DNS намира адреси за името, а URL посочва ресурс и начина за достъп.</li></ul><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\" alt=\"Понятие: разбираш значението; Пример: разпознаваш ролята; Обяснение: използваш свои думи\"></a></figure><div class=\"example\"><strong>Пример:</strong> При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.</div></main></body></html>",
           "instruction_format": "html"
         },
         "step_rules": {}

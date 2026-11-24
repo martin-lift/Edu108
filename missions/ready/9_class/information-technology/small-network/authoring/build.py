@@ -206,7 +206,33 @@ def page(identifier, text, example, panels, source=None):
 <p><strong>Резултат:</strong> браузърът не може да покаже кучето. На мястото му може да се вижда знак за липсващо изображение или заместващ текст.</p></div>
 <div class="key"><strong>Запомни:</strong> и в двата случая сървърът отговаря. <code>200</code> означава успешна заявка, а <code>404</code> — че исканият ресурс не е намерен.</div>'''
     source_url='https://www.iana.org/domains/root/db' if source=='iana' else f'https://www.rfc-editor.org/rfc/rfc{source}.html'
-    citation=f'<p style="font-size:14px"><a href="{source_url}">Повече за понятието: {"IANA" if source=="iana" else "RFC "+str(source)}</a></p>' if source else ''
+    descriptions={
+        9110:'правилата за заявки и отговори при HTTP',
+        959:'правилата на FTP за прехвърляне на файлове',
+        5321:'правилата на SMTP за изпращане и препредаване на електронни писма',
+        1939:'правилата на POP3 за получаване на електронни писма',
+        9051:'правилата на IMAP за достъп до писма и папки на пощенски сървър',
+        1459:'правилата на IRC за текстови разговори в реално време',
+        1122:'изискванията към интернет устройствата за работа с протоколите от семейството TCP/IP',
+        9293:'правилата на TCP за надежден и подреден обмен на данни',
+        791:'правилата на IPv4, включително адресите и устройството на IP пакетите',
+        8200:'правилата на IPv6, включително устройството на заглавната част на пакетите',
+        1918:'използването на частни IP адреси в отделни мрежи',
+        4291:'устройството и начина на записване на IPv6 адресите',
+        2131:'правилата на DHCP за автоматично предоставяне на IPv4 настройки',
+        950:'разделянето на IPv4 мрежи на подмрежи и използването на подмрежова маска',
+        1812:'изискванията към IPv4 маршрутизаторите за препращане на пакети между мрежи',
+        1034:'основните принципи на DNS и йерархията на домейновите имена',
+        1035:'техническите правила за DNS записите, заявките и отговорите',
+        3986:'общите правила за записване на идентификатори на ресурси, включително URL',
+    }
+    citation=''
+    if source=='iana':
+        citation=f'<p style="font-size:14px"><a href="{source_url}">Повече за понятието: IANA</a></p>'
+    elif source:
+        citation=f'<p style="font-size:16px"><strong><a href="{source_url}">RFC {source}</a> е официалният технически документ, който описва {descriptions[source]}.</strong></p>'
+        if identifier=='protocol':
+            citation='<p><strong>RFC</strong> е съкращение от <em>Request for Comments</em> — „Заявка за коментари“. Така се нарича поредицата от технически документи за интернет. Част от тях определят международно приети стандарти, а други дават пояснения или описват експериментални решения. Номерът посочва конкретния документ.</p>'+citation
     return f'<!doctype html><html lang="bg"><head><meta charset="utf-8"><style>{CSS}</style></head><body><main>{text}{figure}{example_html}{citation}</main></body></html>'
 
 def main():
@@ -237,7 +263,7 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-03','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-04','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

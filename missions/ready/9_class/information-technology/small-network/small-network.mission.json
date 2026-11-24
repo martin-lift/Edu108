@@ -1,0 +1,1439 @@
+{
+  "mission_version": 4,
+  "mission_id": "it9-small-network-20261124-01",
+  "mission_content": {
+    "title": "Свързване и конфигуриране на малка мрежа",
+    "class_name": "9. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Свързване и конфигуриране на малка мрежа",
+    "description": "По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Как браузърът намира страница, как писмото стига до пощенската кутия и как компютърът избира път към друга мрежа? В този урок ще разбереш ролята на протоколите, IP адресите, маската, шлюза, домейните и DNS.</p><div class=\"key\">Ще можеш да разчиташ примерни адреси и да обясняваш предназначението на всяка част. Не се изискват промени на настройки или работа с файлове.</div><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/intro.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/intro.svg\" alt=\"Правила: протоколи; Адреси и пътища: IP • маска • шлюз; Имена и ресурси: домейн • DNS • URL\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/intro.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Ще проследяваме познати ситуации: отваряне на страница, получаване на писмо и пренасяне на данни между устройства.</div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "protocol",
+        "step_content": {
+          "type": "information",
+          "title": "Мрежов протокол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Мрежовият протокол е система от правила за обмен на данни между устройства. Той определя как изглеждат съобщенията, какво означават и в какъв ред се изпращат. За успешен обмен двете страни трябва да използват съвместими правила. Представи си разговор, в който единият задава въпрос, а другият отговаря по уговорен начин. Различните мрежови услуги използват различни протоколи, защото имат различни задачи.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/protocol.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/protocol.svg\" alt=\"Подател: оформя съобщение; Общи правила: формат и ред; Получател: разбира съобщението\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/protocol.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Браузърът заявява страница, а уеб сървърът връща отговор. Протоколът описва заявката и отговора, така че програмите да ги разберат.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc9110.html\">Повече за понятието: RFC 9110</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "protocol-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Мрежов протокол",
+          "instruction": "<p>Кои твърдения за <strong>Мрежов протокол</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Протоколът е вид мрежов кабел."
+            },
+            {
+              "id": "o4",
+              "text": "Всички услуги задължително използват един протокол."
+            },
+            {
+              "id": "o5",
+              "text": "Протоколът определя цвета на компютъра."
+            },
+            {
+              "id": "o6",
+              "text": "Правилата са нужни само на получателя."
+            },
+            {
+              "id": "o1",
+              "text": "Протоколът определя правила за обмен на данни."
+            },
+            {
+              "id": "o2",
+              "text": "Участниците трябва да използват съвместими правила."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Протоколът определя правила за обмен на данни. Участниците трябва да използват съвместими правила. Браузърът заявява страница, а уеб сървърът връща отговор. Протоколът описва заявката и отговора, така че програмите да ги разберат."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "http",
+        "step_content": {
+          "type": "information",
+          "title": "HTTP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>HTTP означава Hypertext Transfer Protocol. Чрез него уеб клиент, например браузър, изпраща заявка за ресурс, а уеб сървърът връща отговор. Ресурсът може да бъде HTML документ, изображение или други данни. HTML е езикът за описание на уеб страница, а HTTP е протоколът за обмен. При HTTPS обменът използва защитена връзка, която криптира предаваните данни и позволява проверка на самоличността на сървъра.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/http.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/http.svg\" alt=\"Браузър: заявка за страница; HTTP / HTTPS: заявка и отговор; Уеб сървър: страница и картинки\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/http.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> При отваряне на сайт браузърът получава страницата и може да изпрати още заявки за нейните картинки. Един видим екран често изисква няколко обмена.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc9110.html\">Повече за понятието: RFC 9110</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "http-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: HTTP",
+          "instruction": "<p>Кои твърдения за <strong>HTTP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "HTTP служи само за електронна поща."
+            },
+            {
+              "id": "o6",
+              "text": "Всяка страница изисква точно една заявка."
+            },
+            {
+              "id": "o1",
+              "text": "HTTP използва заявки и отговори."
+            },
+            {
+              "id": "o2",
+              "text": "Чрез HTTP може да се получи изображение."
+            },
+            {
+              "id": "o3",
+              "text": "HTTP е език за оформяне на страници."
+            },
+            {
+              "id": "o4",
+              "text": "HTTPS изпраща данните винаги без криптиране."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "HTTP използва заявки и отговори. Чрез HTTP може да се получи изображение. При отваряне на сайт браузърът получава страницата и може да изпрати още заявки за нейните картинки. Един видим екран често изисква няколко обмена."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "ftp",
+        "step_content": {
+          "type": "information",
+          "title": "FTP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>FTP означава File Transfer Protocol и служи за прехвърляне на файлове между клиент и сървър. Клиентската програма може да изтегля файлове от сървъра или да качва файлове към него, ако има необходимите права. FTP различава команди за управление и пренос на данни. Обикновеният FTP не криптира автоматично съдържанието и паролите. SFTP е различен протокол за защитен пренос, въпреки сходното име.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ftp.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ftp.svg\" alt=\"Клиент: report.pdf; FTP: качване / изтегляне; Файлов сървър: съхранява файла\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ftp.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Автор подготвя файл report.pdf. Качването го копира от компютъра към сървъра; изтеглянето го копира в обратната посока. Правата определят кои действия са разрешени.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc959.html\">Повече за понятието: RFC 959</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ftp-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: FTP",
+          "instruction": "<p>Кои твърдения за <strong>FTP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "FTP може да се използва за качване на файлове."
+            },
+            {
+              "id": "o2",
+              "text": "Изтеглянето прехвърля файл от сървъра към клиента."
+            },
+            {
+              "id": "o3",
+              "text": "FTP винаги криптира паролата."
+            },
+            {
+              "id": "o4",
+              "text": "FTP и SFTP са един и същ протокол."
+            },
+            {
+              "id": "o5",
+              "text": "FTP служи единствено за чат."
+            },
+            {
+              "id": "o6",
+              "text": "Клиентът може да качва независимо от правата си."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "FTP може да се използва за качване на файлове. Изтеглянето прехвърля файл от сървъра към клиента. Автор подготвя файл report.pdf. Качването го копира от компютъра към сървъра; изтеглянето го копира в обратната посока. Правата определят кои действия са разрешени."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "smtp",
+        "step_content": {
+          "type": "information",
+          "title": "SMTP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>SMTP означава Simple Mail Transfer Protocol. Неговата основна задача е изпращане и препредаване на електронни писма. Пощенският клиент подава писмото към изходящ пощенски сървър, а пощенските сървъри използват SMTP и помежду си. Писмото може да съдържа текст и кодирани прикачени файлове. SMTP не е протоколът, чрез който обикновено преглеждаш получените писма в пощенската си кутия; за този достъп има други протоколи.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\" alt=\"Писмо от Анна: изпращане; SMTP: предава писмото; Сървър на Борис: приема писмото\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/smtp.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Анна изпраща писмо на Борис. SMTP участва в предаването му към пощенския сървър на Борис. Самото отваряне на получената поща е отделна задача.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc5321.html\">Повече за понятието: RFC 5321</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "smtp-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: SMTP",
+          "instruction": "<p>Кои твърдения за <strong>SMTP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "SMTP е предназначен за синхронизиране на прочетени писма."
+            },
+            {
+              "id": "o4",
+              "text": "SMTP задава IP адреса на компютъра."
+            },
+            {
+              "id": "o5",
+              "text": "SMTP е формат на изображение."
+            },
+            {
+              "id": "o6",
+              "text": "SMTP забранява писма с прикачени файлове."
+            },
+            {
+              "id": "o1",
+              "text": "SMTP се използва за изпращане на електронни писма."
+            },
+            {
+              "id": "o2",
+              "text": "SMTP може да пренася писма между пощенски сървъри."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "SMTP се използва за изпращане на електронни писма. SMTP може да пренася писма между пощенски сървъри. Анна изпраща писмо на Борис. SMTP участва в предаването му към пощенския сървър на Борис. Самото отваряне на получената поща е отделна задача."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "pop3",
+        "step_content": {
+          "type": "information",
+          "title": "POP3",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>POP3 означава Post Office Protocol, версия 3. Пощенски клиент го използва, за да получи писма от пощенска кутия на сървър. Типичният подход е изтегляне на писмата на устройството за местно съхранение. Според настройките копията на сървъра могат да останат или да бъдат изтрити. POP3 не осигурява същото управление и синхронизиране на папки и състояния като IMAP. Той не служи за изпращане на нови писма.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/pop3.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/pop3.svg\" alt=\"Пощенска кутия: писма на сървъра; POP3: изтегля писмата; Клиент: местни копия\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/pop3.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Лаптопът изтегля пет писма. Ако клиентът е настроен да оставя копие на сървъра, писмата остават и там; изтриването не е задължително при всяко получаване.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1939.html\">Повече за понятието: RFC 1939</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "pop3-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: POP3",
+          "instruction": "<p>Кои твърдения за <strong>POP3</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "POP3 означава три пощенски сървъра."
+            },
+            {
+              "id": "o6",
+              "text": "POP3 синхронизира папки точно като IMAP."
+            },
+            {
+              "id": "o1",
+              "text": "POP3 позволява получаване на писма от сървър."
+            },
+            {
+              "id": "o2",
+              "text": "Копията на сървъра могат да се запазят според настройките."
+            },
+            {
+              "id": "o3",
+              "text": "POP3 винаги изтрива писмата веднага."
+            },
+            {
+              "id": "o4",
+              "text": "POP3 е основният протокол за изпращане на писма."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "POP3 позволява получаване на писма от сървър. Копията на сървъра могат да се запазят според настройките. Лаптопът изтегля пет писма. Ако клиентът е настроен да оставя копие на сървъра, писмата остават и там; изтриването не е задължително при всяко получаване."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "imap",
+        "step_content": {
+          "type": "information",
+          "title": "IMAP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IMAP означава Internet Message Access Protocol. Той позволява достъп до писма и папки, съхранявани на пощенски сървър. Клиентите могат да синхронизират състояния като „прочетено“ и преместване между папки. Това е удобно, когато използваш една поща на телефон и компютър. Възможно е клиентът да пази и местни копия за работа без връзка. IMAP управлява достъпа до получената поща; изпращането на ново писмо обикновено използва SMTP.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/imap.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/imap.svg\" alt=\"Телефон: прочетено писмо; IMAP сървър: писма и състояния; Компютър: същото състояние\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/imap.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Прочиташ писмо на телефона. След синхронизация компютърът също го показва като прочетено, защото състоянието се пази на сървъра.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc9051.html\">Повече за понятието: RFC 9051</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "imap-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IMAP",
+          "instruction": "<p>Кои твърдения за <strong>IMAP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "IMAP поддържа синхронизация на състоянието на писмата."
+            },
+            {
+              "id": "o2",
+              "text": "IMAP е удобен за една поща на няколко устройства."
+            },
+            {
+              "id": "o3",
+              "text": "IMAP е единствено протокол за изпращане."
+            },
+            {
+              "id": "o4",
+              "text": "IMAP изисква изтриване на всички сървърни копия."
+            },
+            {
+              "id": "o5",
+              "text": "IMAP забранява местни копия за работа без връзка."
+            },
+            {
+              "id": "o6",
+              "text": "IMAP определя адреса на локалната мрежа."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IMAP поддържа синхронизация на състоянието на писмата. IMAP е удобен за една поща на няколко устройства. Прочиташ писмо на телефона. След синхронизация компютърът също го показва като прочетено, защото състоянието се пази на сървъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "irc",
+        "step_content": {
+          "type": "information",
+          "title": "IRC",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IRC означава Internet Relay Chat. Това е протокол за текстово общуване в реално време. Потребителите се свързват чрез клиентски програми към IRC сървъри и могат да участват в общи канали или в лични разговори. Съобщенията достигат до свързаните участници чрез сървърите. Каналът е общо място за разговор по определена тема. IRC е конкретна технология; не всяко приложение за чат използва този протокол.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/irc.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/irc.svg\" alt=\"Участник: пише съобщение; IRC канал: #school; Други участници: четат и отговарят\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/irc.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Трима ученици са в канал #school. Когато единият изпрати съобщение към канала, другите свързани участници могат да го видят и да отговорят.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1459.html\">Повече за понятието: RFC 1459</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "irc-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IRC",
+          "instruction": "<p>Кои твърдения за <strong>IRC</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Всяко съвременно чат приложение задължително е IRC."
+            },
+            {
+              "id": "o4",
+              "text": "IRC е версия на IP адрес."
+            },
+            {
+              "id": "o5",
+              "text": "IRC служи само за получаване на електронна поща."
+            },
+            {
+              "id": "o6",
+              "text": "IRC каналът е физически мрежов кабел."
+            },
+            {
+              "id": "o1",
+              "text": "IRC служи за текстови разговори в реално време."
+            },
+            {
+              "id": "o2",
+              "text": "В IRC може да има общи канали."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IRC служи за текстови разговори в реално време. В IRC може да има общи канали. Трима ученици са в канал #school. Когато единият изпрати съобщение към канала, другите свързани участници могат да го видят и да отговорят."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "tcp-ip",
+        "step_content": {
+          "type": "information",
+          "title": "Пакетът от протоколи TCP/IP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>TCP/IP е общо название на семейство мрежови протоколи, които работят съвместно. Името идва от TCP и IP, но семейството включва и други протоколи. Различните протоколи имат различни отговорности: приложението определя услугата, транспортът организира обмена, а IP осигурява адресиране и пренос през мрежи. Тук „пакет от протоколи“ означава съвкупност от правила. Това е различно от „пакет с данни“, който се пренася по мрежата.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp-ip.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp-ip.svg\" alt=\"Приложение: например HTTP; Транспорт: например TCP; IP: адресиране\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp-ip.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> При уеб обмен HTTP определя заявката, TCP може да осигури надежден транспорт, а IP адресира пакетите. Не всеки интернет обмен използва TCP: HTTP/3 използва QUIC върху UDP.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1122.html\">Повече за понятието: RFC 1122</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "tcp-ip-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Пакетът от протоколи TCP/IP",
+          "instruction": "<p>Кои твърдения за <strong>Пакетът от протоколи TCP/IP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "Всяка интернет връзка непременно използва TCP."
+            },
+            {
+              "id": "o6",
+              "text": "IP определя оформлението на уеб страницата."
+            },
+            {
+              "id": "o1",
+              "text": "TCP/IP е семейство от протоколи."
+            },
+            {
+              "id": "o2",
+              "text": "В семейството различните протоколи изпълняват различни задачи."
+            },
+            {
+              "id": "o3",
+              "text": "TCP/IP включва точно два протокола и никакви други."
+            },
+            {
+              "id": "o4",
+              "text": "Пакет от протоколи е един файл с изображение."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "TCP/IP е семейство от протоколи. В семейството различните протоколи изпълняват различни задачи. При уеб обмен HTTP определя заявката, TCP може да осигури надежден транспорт, а IP адресира пакетите. Не всеки интернет обмен използва TCP: HTTP/3 използва QUIC върху UDP."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "tcp",
+        "step_content": {
+          "type": "information",
+          "title": "TCP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>TCP означава Transmission Control Protocol. Той осигурява надежден, подреден поток от байтове между две крайни точки. Преди обмена се установява връзка. TCP използва номера и потвърждения, за да следи данните, и може да изпрати повторно изгубени части. Така приложението получава байтовете в правилния ред. Надежден транспорт не означава гаранция, че прекъсната мрежа винаги ще достави данните, нито че съдържанието е автоматично криптирано.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp.svg\" alt=\"Изпращане: A • B • C; TCP: потвърждение / повторение; Получаване: A • B • C по ред\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tcp.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Части A, B и C са изпратени, но B се губи. TCP може да предаде B повторно и да предостави на приложението подредения поток A, B, C.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc9293.html\">Повече за понятието: RFC 9293</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "tcp-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: TCP",
+          "instruction": "<p>Кои твърдения за <strong>TCP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "TCP може да изпраща повторно изгубени данни."
+            },
+            {
+              "id": "o2",
+              "text": "TCP предоставя данните на приложението в правилния ред."
+            },
+            {
+              "id": "o3",
+              "text": "TCP винаги криптира съдържанието."
+            },
+            {
+              "id": "o4",
+              "text": "TCP гарантира доставка и при трайно прекъсната мрежа."
+            },
+            {
+              "id": "o5",
+              "text": "TCP определя имената на домейните."
+            },
+            {
+              "id": "o6",
+              "text": "TCP умишлено оставя данните в разбъркан ред."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "TCP може да изпраща повторно изгубени данни. TCP предоставя данните на приложението в правилния ред. Части A, B и C са изпратени, но B се губи. TCP може да предаде B повторно и да предостави на приложението подредения поток A, B, C."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "ip",
+        "step_content": {
+          "type": "information",
+          "title": "IP",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IP означава Internet Protocol. Той описва адресирането и пренасянето на пакети между мрежи. В пакетите има адрес на източника и адрес на получателя. Маршрутизаторите използват адреса на получателя и своите таблици, за да изберат следваща посока. Самият IP не гарантира доставка, правилен ред или повторно изпращане. Ако услугата изисква надежден обмен, други протоколи, например TCP, добавят необходимите механизми над IP.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ip.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ip.svg\" alt=\"Подател: IP пакет; Маршрутизатор: избира следващ път; Получател: адрес на целта\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ip.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Пакет към отдалечен сървър преминава през няколко маршрутизатора. Всеки избира следващата стъпка към получателя; IP адресът не описва предварително всяко устройство по целия път.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">Повече за понятието: RFC 791</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ip-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IP",
+          "instruction": "<p>Кои твърдения за <strong>IP</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "IP сам гарантира повторно изпращане на всичко изгубено."
+            },
+            {
+              "id": "o4",
+              "text": "IP сам гарантира правилния ред."
+            },
+            {
+              "id": "o5",
+              "text": "IP е езикът за оформление на страница."
+            },
+            {
+              "id": "o6",
+              "text": "IP премахва нуждата от адрес на получателя."
+            },
+            {
+              "id": "o1",
+              "text": "IP участва в адресирането на пакетите."
+            },
+            {
+              "id": "o2",
+              "text": "Маршрутизаторите използват адреса на получателя за насочване."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IP участва в адресирането на пакетите. Маршрутизаторите използват адреса на получателя за насочване. Пакет към отдалечен сървър преминава през няколко маршрутизатора. Всеки избира следващата стъпка към получателя; IP адресът не описва предварително всяко устройство по целия път."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "packet",
+        "step_content": {
+          "type": "information",
+          "title": "IP пакет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IP пакетът е оформена единица данни, която може да бъде пренасяна през мрежа. Той съдържа заглавна част и полезни данни. Голям обмен, например изтегляне на снимка, обикновено използва много пакети. Те могат да преминат по различни маршрути и да пристигнат в различен ред или някой да се изгуби. IP пренася пакетите, а протоколи от по-горните нива организират използването на получените данни.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/packet.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/packet.svg\" alt=\"Голям обмен: например снимка; IP пакети: [данни] [данни] [данни]; Получател: обработка на данните\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/packet.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Снимката е разделена между много пакети. Един отделен пакет не е задължително цялата снимка, а съдържа само част от обмена и необходимата служебна информация.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">Повече за понятието: RFC 791</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "packet-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IP пакет",
+          "instruction": "<p>Кои твърдения за <strong>IP пакет</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "IP пакетът няма служебна информация."
+            },
+            {
+              "id": "o6",
+              "text": "Всеки пакет е отделен пощенски акаунт."
+            },
+            {
+              "id": "o1",
+              "text": "IP пакетът има заглавна част и полезни данни."
+            },
+            {
+              "id": "o2",
+              "text": "Един голям обмен може да използва много пакети."
+            },
+            {
+              "id": "o3",
+              "text": "Всеки пакет винаги съдържа цялата снимка."
+            },
+            {
+              "id": "o4",
+              "text": "Всички пакети задължително минават по един маршрут."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IP пакетът има заглавна част и полезни данни. Един голям обмен може да използва много пакети. Снимката е разделена между много пакети. Един отделен пакет не е задължително цялата снимка, а съдържа само част от обмена и необходимата служебна информация."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "header",
+        "step_content": {
+          "type": "information",
+          "title": "Хедър — заглавна част",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Хедърът е служебната заглавна част на пакет. IP хедърът съдържа информация, необходима за обработка и насочване, включително IP адресите на източника и получателя. След него се пренасят полезните данни. Можеш да го сравниш с адресните надписи върху плик: те помагат пратката да стигне до целта, но са различни от текста вътре. Полетата и подредбата на хедъра зависят от версията на IP.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/header.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/header.svg\" alt=\"IP хедър: източник + получател; Полезни данни: пренасяно съдържание; IP пакет: хедър + данни\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/header.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В учебен IPv6 пакет източникът е 2001:db8::10, а получателят е 2001:db8::20. Тези адреси са служебни данни, а изпращаният текст е полезното съдържание.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc8200.html\">Повече за понятието: RFC 8200</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "header-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Хедър — заглавна част",
+          "instruction": "<p>Кои твърдения за <strong>Хедър — заглавна част</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "IP хедърът съдържа служебна информация."
+            },
+            {
+              "id": "o2",
+              "text": "Адресът на получателя участва в насочването."
+            },
+            {
+              "id": "o3",
+              "text": "Хедърът е задължително заглавие на уеб статия."
+            },
+            {
+              "id": "o4",
+              "text": "Хедърът съдържа единствено снимката."
+            },
+            {
+              "id": "o5",
+              "text": "Всички IP версии имат напълно еднакъв хедър."
+            },
+            {
+              "id": "o6",
+              "text": "Адресът на получателя е ненужен за насочването."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IP хедърът съдържа служебна информация. Адресът на получателя участва в насочването. В учебен IPv6 пакет източникът е 2001:db8::10, а получателят е 2001:db8::20. Тези адреси са служебни данни, а изпращаният текст е полезното съдържание."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "address",
+        "step_content": {
+          "type": "information",
+          "title": "IP адрес",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IP адресът е числов адрес на мрежов интерфейс. Той позволява данните да бъдат насочвани към устройството в съответната мрежа. Един компютър може да има повече от един IP адрес, например за различни интерфейси или за IPv4 и IPv6. Адресът не е непременно постоянен. Частните IPv4 адреси могат да се повтарят в различни отделни локални мрежи, затова не всеки адрес е уникален в целия интернет.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/address.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/address.svg\" alt=\"Мрежа A: 192.168.10.25; Отделни мрежи: частните адреси се повтарят; Мрежа B: 192.168.10.25\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/address.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Лаптопът има адрес 192.168.10.25 в домашната мрежа. Устройство в друг дом може да има същия частен адрес; двете локални мрежи са отделни.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1918.html\">Повече за понятието: RFC 1918</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "address-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IP адрес",
+          "instruction": "<p>Кои твърдения за <strong>IP адрес</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Всеки компютър има точно един адрес завинаги."
+            },
+            {
+              "id": "o4",
+              "text": "IP адресът е име на файл."
+            },
+            {
+              "id": "o5",
+              "text": "Всички IP адреси са уникални в целия свят без изключения."
+            },
+            {
+              "id": "o6",
+              "text": "IP адресът описва цвета на мрежовия кабел."
+            },
+            {
+              "id": "o1",
+              "text": "Един компютър може да има повече от един IP адрес."
+            },
+            {
+              "id": "o2",
+              "text": "Частен IPv4 адрес може да се повтаря в отделни локални мрежи."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Един компютър може да има повече от един IP адрес. Частен IPv4 адрес може да се повтаря в отделни локални мрежи. Лаптопът има адрес 192.168.10.25 в домашната мрежа. Устройство в друг дом може да има същия частен адрес; двете локални мрежи са отделни."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "ipv4",
+        "step_content": {
+          "type": "information",
+          "title": "IPv4",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IPv4 е версия на интернет протокола с адреси от 32 бита, тоест 4 байта. Обичайният запис съдържа четири десетични числа, разделени с точки. Всяко число представлява осем бита и е от 0 до 255. Например 192.168.10.25 е правилно оформен IPv4 адрес, а 192.168.10.300 не е. Пространството има общо 2 на степен 32 стойности; част от тях са със специално предназначение и не са свободни публични адреси.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\" alt=\"IPv4: 32 бита; 4 части по 8 бита: 192 . 168 . 10 . 25; Всяка част: число от 0 до 255\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv4.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc791.html\">Повече за понятието: RFC 791</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ipv4-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IPv4",
+          "instruction": "<p>Кои твърдения за <strong>IPv4</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "Всяка част може да е произволно голямо число."
+            },
+            {
+              "id": "o6",
+              "text": "Всички възможни стойности са свободни публични адреси."
+            },
+            {
+              "id": "o1",
+              "text": "IPv4 адресът е 32-битов."
+            },
+            {
+              "id": "o2",
+              "text": "192.168.10.25 е правилно оформен IPv4 адрес."
+            },
+            {
+              "id": "o3",
+              "text": "192.168.10.300 е правилно оформен IPv4 адрес."
+            },
+            {
+              "id": "o4",
+              "text": "IPv4 използва осем групи с двоеточия."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IPv4 адресът е 32-битов. 192.168.10.25 е правилно оформен IPv4 адрес. В 192.168.10.25 четирите числа са 192, 168, 10 и 25. Всяко е в допустимия диапазон. Точките разделят частите и не са десетични запетаи."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "ipv6",
+        "step_content": {
+          "type": "information",
+          "title": "IPv6",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>IPv6 използва адреси от 128 бита, тоест 16 байта. Пълният запис има осем групи по четири шестнайсетични цифри, разделени с двоеточия. Използват се цифрите от 0 до 9 и буквите от a до f. Водещите нули в група могат да се пропуснат. Една поредица от нулеви групи може да се съкрати с двойно двоеточие. По-голямото адресно пространство позволява много повече адреси в сравнение с IPv4.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\" alt=\"IPv6: 128 бита; Пълен запис: 8 шестнайсетични групи; Съкратен пример: 2001:db8::25\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/ipv6.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> 2001:0db8:0000:0000:0000:0000:0000:0025 може да се запише като 2001:db8::25. Това са два записа на един адрес от диапазон за документационни примери.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc4291.html\">Повече за понятието: RFC 4291</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ipv6-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: IPv6",
+          "instruction": "<p>Кои твърдения за <strong>IPv6</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "IPv6 адресите са 128-битови."
+            },
+            {
+              "id": "o2",
+              "text": "Двойното двоеточие може да съкрати поредица нулеви групи."
+            },
+            {
+              "id": "o3",
+              "text": "IPv6 адресите са 32-битови."
+            },
+            {
+              "id": "o4",
+              "text": "IPv6 използва само десетични числа от 0 до 255."
+            },
+            {
+              "id": "o5",
+              "text": "Пълният IPv6 запис има четири групи с точки."
+            },
+            {
+              "id": "o6",
+              "text": "IPv6 има по-малко възможни адреси от IPv4."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "IPv6 адресите са 128-битови. Двойното двоеточие може да съкрати поредица нулеви групи. 2001:0db8:0000:0000:0000:0000:0000:0025 може да се запише като 2001:db8::25. Това са два записа на един адрес от диапазон за документационни примери."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "static",
+        "step_content": {
+          "type": "information",
+          "title": "Постоянен IP адрес",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Постоянният, или статичен, IP адрес се задава така, че да се запазва при обичайното използване на мрежата. Това е удобно за услуга или устройство, което трябва да се намира на известен адрес. Статичната настройка трябва да съответства на мрежата и да не дублира адрес на друго устройство. Постоянен не означава публичен: статичен адрес може да бъде и частен. Адресът може да бъде променен по-късно чрез нова настройка.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/static.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/static.svg\" alt=\"Включване днес: 192.168.10.50; Статична настройка: запазен адрес; Включване утре: 192.168.10.50\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/static.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Училищен принтер е настроен на 192.168.10.50. Компютрите го намират на този адрес след включване, докато настройките на мрежата и принтера се запазват.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc2131.html\">Повече за понятието: RFC 2131</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "static-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Постоянен IP адрес",
+          "instruction": "<p>Кои твърдения за <strong>Постоянен IP адрес</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Статичен адрес винаги означава публичен адрес."
+            },
+            {
+              "id": "o4",
+              "text": "Статичен адрес никога не може да се промени чрез настройка."
+            },
+            {
+              "id": "o5",
+              "text": "Два активни интерфейса в една подмрежа трябва да имат един адрес."
+            },
+            {
+              "id": "o6",
+              "text": "Статичната настройка може да е произволна за всяка мрежа."
+            },
+            {
+              "id": "o1",
+              "text": "Статичният адрес е удобен за устройство с известен адрес."
+            },
+            {
+              "id": "o2",
+              "text": "Статичен IP адрес може да е частен."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Статичният адрес е удобен за устройство с известен адрес. Статичен IP адрес може да е частен. Училищен принтер е настроен на 192.168.10.50. Компютрите го намират на този адрес след включване, докато настройките на мрежата и принтера се запазват."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "dynamic",
+        "step_content": {
+          "type": "information",
+          "title": "Динамичен IP адрес",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Динамичният IP адрес се получава автоматично за определен период. В много IPv4 локални мрежи това става чрез DHCP сървър, често част от маршрутизатора. Той предоставя свободен адрес и може да даде маска, шлюз и DNS настройки. При следващо свързване устройството може да получи същия адрес или различен. Следователно динамичен не означава задължително нов при всяко включване, а автоматично управляван адрес, който може да се променя.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dynamic.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dynamic.svg\" alt=\"Устройство: иска настройки; DHCP сървър: предоставя свободен адрес; Получен адрес: може да се запази / промени\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dynamic.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Днес лаптопът получава 192.168.10.25. Утре може отново да получи .25 или друг свободен адрес. Не е необходимо потребителят да въвежда новия адрес ръчно.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc2131.html\">Повече за понятието: RFC 2131</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "dynamic-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Динамичен IP адрес",
+          "instruction": "<p>Кои твърдения за <strong>Динамичен IP адрес</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "DHCP служи само за изпращане на писма."
+            },
+            {
+              "id": "o6",
+              "text": "Динамичният адрес се избира без съобразяване със свободните адреси."
+            },
+            {
+              "id": "o1",
+              "text": "Динамичен адрес може да бъде получен автоматично чрез DHCP."
+            },
+            {
+              "id": "o2",
+              "text": "При повторно свързване е възможен същият адрес."
+            },
+            {
+              "id": "o3",
+              "text": "Динамичният адрес задължително се сменя всяка секунда."
+            },
+            {
+              "id": "o4",
+              "text": "При всяко включване непременно се получава различен адрес."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Динамичен адрес може да бъде получен автоматично чрез DHCP. При повторно свързване е възможен същият адрес. Днес лаптопът получава 192.168.10.25. Утре може отново да получи .25 или друг свободен адрес. Не е необходимо потребителят да въвежда новия адрес ръчно."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "mask",
+        "step_content": {
+          "type": "information",
+          "title": "Подмрежова маска",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Подмрежовата маска при IPv4 е 32-битова стойност, която отделя мрежовата част на адреса от частта за интерфейсите в подмрежата. В обичайна маска единиците са последователни отляво, а след тях има нули. Маската 255.255.255.0 има 24 единици и се означава /24. Тя помага на компютъра да определи дали дадена цел е в локалната подмрежа. Маската не е адрес на сървър и не е парола.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/mask.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/mask.svg\" alt=\"Адрес: 192.168.10.25; Маска /24: 255.255.255.0; Подмрежа: 192.168.10.0/24\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/mask.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> 192.168.10.25 с маска 255.255.255.0 е в 192.168.10.0/24. Тук има 256 стойности, обичайно 254 адреса за устройства; .0 е мрежов, а .255 е broadcast адрес.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc950.html\">Повече за понятието: RFC 950</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "mask-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Подмрежова маска",
+          "instruction": "<p>Кои твърдения за <strong>Подмрежова маска</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Маската отделя мрежовата част на IPv4 адреса."
+            },
+            {
+              "id": "o2",
+              "text": "255.255.255.0 може да се означи като /24."
+            },
+            {
+              "id": "o3",
+              "text": "Маската е паролата за безжична мрежа."
+            },
+            {
+              "id": "o4",
+              "text": "Маската е адресът на DNS сървъра."
+            },
+            {
+              "id": "o5",
+              "text": "При /24 всичките 256 стойности обичайно са адреси за устройства."
+            },
+            {
+              "id": "o6",
+              "text": "255.255.255.0 означава 24 байта."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Маската отделя мрежовата част на IPv4 адреса. 255.255.255.0 може да се означи като /24. 192.168.10.25 с маска 255.255.255.0 е в 192.168.10.0/24. Тук има 256 стойности, обичайно 254 адреса за устройства; .0 е мрежов, а .255 е broadcast адрес."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "gateway",
+        "step_content": {
+          "type": "information",
+          "title": "Гейтуей — шлюз",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>В контекста на IP настройките гейтуеят, или шлюзът, е маршрутизатор, чрез който достигаме други мрежи. Той има връзки към повече от една мрежа и препраща пакети според маршрутите си. Компютърът може да общува пряко с достъпните устройства в собствената подмрежа, а за друга мрежа използва подходящ маршрут. Думата gateway има и по-общо значение за свързване на системи; тук разглеждаме мрежовия маршрутизатор.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/gateway.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/gateway.svg\" alt=\"Локална мрежа: 192.168.10.25; Шлюз: 192.168.10.1; Друга мрежа: например интернет\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/gateway.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> Лаптоп с 192.168.10.25 изпраща данни към интернет през маршрутизатор с локален адрес 192.168.10.1. Шлюзът е изход към други мрежи, а не самият отдалечен сайт.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1812.html\">Повече за понятието: RFC 1812</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "gateway-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Гейтуей — шлюз",
+          "instruction": "<p>Кои твърдения за <strong>Гейтуей — шлюз</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "Шлюзът е задължително самият отдалечен сайт."
+            },
+            {
+              "id": "o4",
+              "text": "Шлюзът е име на файл."
+            },
+            {
+              "id": "o5",
+              "text": "Шлюзът служи само за оформяне на текст."
+            },
+            {
+              "id": "o6",
+              "text": "Маршрутизаторът не препраща пакети."
+            },
+            {
+              "id": "o1",
+              "text": "Шлюзът в IP настройките може да е маршрутизатор."
+            },
+            {
+              "id": "o2",
+              "text": "Шлюзът позволява достигане на други мрежи."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Шлюзът в IP настройките може да е маршрутизатор. Шлюзът позволява достигане на други мрежи. Лаптоп с 192.168.10.25 изпраща данни към интернет през маршрутизатор с локален адрес 192.168.10.1. Шлюзът е изход към други мрежи, а не самият отдалечен сайт."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "default-gateway",
+        "step_content": {
+          "type": "information",
+          "title": "Шлюз по подразбиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Шлюзът по подразбиране е следващата мрежова точка, използвана, когато няма по-конкретен маршрут към получателя. В домашна IPv4 мрежа обикновено се задава локалният IP адрес на маршрутизатора. Това не означава, че всяко съобщение задължително минава през него. Обменът с устройство от същата подмрежа обикновено е пряк. За отдалечена цел компютърът изпраща пакета към шлюза, който продължава насочването към следващата мрежа.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/default-gateway.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/default-gateway.svg\" alt=\"Локална цел: обикновено пряко; Няма по-точен маршрут: избор на default route; Шлюз по подразбиране: към друга мрежа\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/default-gateway.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> При адрес 192.168.10.25/24 целта 192.168.10.40 е локална. За цел в друга мрежа, без по-конкретен маршрут, се използва шлюзът 192.168.10.1.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1122.html\">Повече за понятието: RFC 1122</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "default-gateway-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Шлюз по подразбиране",
+          "instruction": "<p>Кои твърдения за <strong>Шлюз по подразбиране</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "Адресът на шлюза винаги е адресът на сайта."
+            },
+            {
+              "id": "o6",
+              "text": "Локалните устройства никога не могат да общуват пряко."
+            },
+            {
+              "id": "o1",
+              "text": "Шлюзът по подразбиране се използва при липса на по-конкретен маршрут."
+            },
+            {
+              "id": "o2",
+              "text": "Локалният обмен не е задължително през шлюза."
+            },
+            {
+              "id": "o3",
+              "text": "Всеки пакет без изключение трябва да мине през шлюза."
+            },
+            {
+              "id": "o4",
+              "text": "Шлюзът по подразбиране е маската."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Шлюзът по подразбиране се използва при липса на по-конкретен маршрут. Локалният обмен не е задължително през шлюза. При адрес 192.168.10.25/24 целта 192.168.10.40 е локална. За цел в друга мрежа, без по-конкретен маршрут, се използва шлюзът 192.168.10.1."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "domain",
+        "step_content": {
+          "type": "information",
+          "title": "Домейн",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Домейнът е име в йерархичната система от имена в интернет. Частите му се наричат етикети и се отделят с точки. Имената улесняват хората, защото са по-запомнящи се от числовите адреси. Домейнът не е целият адрес на конкретна страница и не включва https:// или път след наклонена черта. Едно име може да има няколко IP адреса, а един IP адрес може да обслужва различни имена.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/domain.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/domain.svg\" alt=\"Име: www.example.org; Етикети с точки: www • example • org; За хората: по-лесно запомняне\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/domain.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В https://www.example.org/lessons/network.html името на сървъра е www.example.org. Частта /lessons/network.html е път към ресурс и не е част от домейновото име.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1034.html\">Повече за понятието: RFC 1034</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "domain-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Домейн",
+          "instruction": "<p>Кои твърдения за <strong>Домейн</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "Частите на домейновото име се разделят с точки."
+            },
+            {
+              "id": "o2",
+              "text": "Домейнът може да бъде по-лесен за запомняне от IP адрес."
+            },
+            {
+              "id": "o3",
+              "text": "Домейнът задължително включва https://."
+            },
+            {
+              "id": "o4",
+              "text": "Пътят /lessons/network.html е част от домейновото име."
+            },
+            {
+              "id": "o5",
+              "text": "На едно име винаги съответства точно един IP адрес."
+            },
+            {
+              "id": "o6",
+              "text": "Домейнът е вид мрежов кабел."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "Частите на домейновото име се разделят с точки. Домейнът може да бъде по-лесен за запомняне от IP адрес. В https://www.example.org/lessons/network.html името на сървъра е www.example.org. Частта /lessons/network.html е път към ресурс и не е част от домейновото име."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "dns",
+        "step_content": {
+          "type": "information",
+          "title": "DNS сървър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>DNS означава Domain Name System — система за домейнови имена. DNS сървърите съхраняват или намират записи за имена. Когато приложението се нуждае от IP адрес за дадено име, DNS заявката може да осигури съответния адрес. Системата е разпределена и йерархична; един сървър не съдържа непременно всичко. Отговорите могат временно да се кешират. DNS обработва името на сървъра, а не целия URL с пътя до документа.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dns.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dns.svg\" alt=\"Име на сървър: www.example.org; DNS заявка: търсене на адрес; DNS отговор: IP адрес / адреси\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/dns.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> За https://www.example.org/lesson.html се търси адрес за www.example.org. След получаването му браузърът може да установи връзка и да заяви /lesson.html от уеб сървъра.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1035.html\">Повече за понятието: RFC 1035</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "dns-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: DNS сървър",
+          "instruction": "<p>Кои твърдения за <strong>DNS сървър</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "DNS изпраща съдържанието на всяка уеб страница."
+            },
+            {
+              "id": "o4",
+              "text": "DNS трябва да търси целия URL заедно с пътя."
+            },
+            {
+              "id": "o5",
+              "text": "Всеки DNS сървър задължително съхранява всички имена."
+            },
+            {
+              "id": "o6",
+              "text": "DNS е протокол за отпечатване на документи."
+            },
+            {
+              "id": "o1",
+              "text": "DNS може да намери IP адрес за име на сървър."
+            },
+            {
+              "id": "o2",
+              "text": "DNS отговорите могат временно да се кешират."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "DNS може да намери IP адрес за име на сървър. DNS отговорите могат временно да се кешират. За https://www.example.org/lesson.html се търси адрес за www.example.org. След получаването му браузърът може да установи връзка и да заяви /lesson.html от уеб сървъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "tld",
+        "step_content": {
+          "type": "information",
+          "title": "Домейни от първо ниво",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Домейнът от първо ниво, или top-level domain, е най-дясната видима част в обичайно домейново име. В example.org това е org. Системата е йерархична: от общото вдясно към по-конкретното вляво. Съществуват общи домейни като com, org и net, както и други видове. Името на домейна само по себе си не доказва, че съдържанието на сайта е вярно, безопасно или официално.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tld.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tld.svg\" alt=\"Първо ниво: org; Второ ниво: example.org; Трето ниво: library.example.org\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/tld.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В library.example.org домейнът от първо ниво е org. Думата library е по-вляво и означава по-ниско, по-конкретно ниво в йерархията.</div><p style=\"font-size:14px\"><a href=\"https://www.iana.org/domains/root/db\">Повече за понятието: IANA</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "tld-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Домейни от първо ниво",
+          "instruction": "<p>Кои твърдения за <strong>Домейни от първо ниво</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "Всяка дума от домейна е име на отделна физическа мрежа."
+            },
+            {
+              "id": "o6",
+              "text": "Първото ниво е пътят след наклонената черта."
+            },
+            {
+              "id": "o1",
+              "text": "В example.org първото ниво е org."
+            },
+            {
+              "id": "o2",
+              "text": "Йерархията се разчита от по-общото вдясно към по-конкретното вляво."
+            },
+            {
+              "id": "o3",
+              "text": "В example.org първото ниво е example."
+            },
+            {
+              "id": "o4",
+              "text": "Домейнът org гарантира вярност на всяка страница."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "В example.org първото ниво е org. Йерархията се разчита от по-общото вдясно към по-конкретното вляво. В library.example.org домейнът от първо ниво е org. Думата library е по-вляво и означава по-ниско, по-конкретно ниво в йерархията."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "cctld",
+        "step_content": {
+          "type": "information",
+          "title": "Държавни домейни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Държавните домейни от първо ниво се наричат country-code top-level domains. Познатите латински кодове са двубуквени: bg за България, uk за Обединеното кралство и de за Германия. Те са част от системата за имена и се управляват според правила на съответния регистър. Съществуват и международнизирани държавни домейни на други писмености. Държавният домейн не гарантира физическо местоположение на сървъра или езика на всяка страница.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/cctld.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/cctld.svg\" alt=\".bg: България; .uk: Обединено кралство; .de: Германия\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/cctld.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В school.example.bg частта bg е държавният домейн от първо ниво. Това не е доказателство, че машината, която обслужва сайта, се намира физически в България.</div><p style=\"font-size:14px\"><a href=\"https://www.iana.org/domains/root/db\">Повече за понятието: IANA</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "cctld-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Държавни домейни",
+          "instruction": "<p>Кои твърдения за <strong>Държавни домейни</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o1",
+              "text": "bg е държавен домейн от първо ниво за България."
+            },
+            {
+              "id": "o2",
+              "text": "Държавният домейн не гарантира местоположението на сървъра."
+            },
+            {
+              "id": "o3",
+              "text": "bg е път до файл."
+            },
+            {
+              "id": "o4",
+              "text": "Всеки сайт с bg задължително е само на български."
+            },
+            {
+              "id": "o5",
+              "text": "Държавният домейн доказва точния адрес на сървъра."
+            },
+            {
+              "id": "o6",
+              "text": "com е двубуквен код за България."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "bg е държавен домейн от първо ниво за България. Държавният домейн не гарантира местоположението на сървъра. В school.example.bg частта bg е държавният домейн от първо ниво. Това не е доказателство, че машината, която обслужва сайта, се намира физически в България."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "second-level",
+        "step_content": {
+          "type": "information",
+          "title": "Домейни от второ ниво",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Второто ниво е непосредствено под домейн от първо ниво. В example.org етикетът example е на второ ниво, а пълното име на домейна е example.org. Такова име може да бъде регистрирано според правилата на регистъра и да се управлява от собственик. Не всяка регистрационна система позволява регистрация точно на второ ниво. Нивото в йерархията и правилата за регистрация са свързани, но са различни понятия.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/second-level.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/second-level.svg\" alt=\"org: първо ниво; example.org: второ ниво; mail.example.org: поддомейн\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/second-level.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В example.org първото ниво е org, а example.org е домейн от второ ниво. Собственикът може да организира услуги под това име, например mail.example.org.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1034.html\">Повече за понятието: RFC 1034</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "second-level-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Домейни от второ ниво",
+          "instruction": "<p>Кои твърдения за <strong>Домейни от второ ниво</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o3",
+              "text": "В example.org етикетът org е второто ниво."
+            },
+            {
+              "id": "o4",
+              "text": "Навсякъде регистрацията задължително е на второ ниво."
+            },
+            {
+              "id": "o5",
+              "text": "Домейн от второ ниво е вид IP пакет."
+            },
+            {
+              "id": "o6",
+              "text": "Второто ниво е името на файла след наклонената черта."
+            },
+            {
+              "id": "o1",
+              "text": "example.org е домейн от второ ниво под org."
+            },
+            {
+              "id": "o2",
+              "text": "Правилата за регистрация зависят от съответната система."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "example.org е домейн от второ ниво под org. Правилата за регистрация зависят от съответната система. В example.org първото ниво е org, а example.org е домейн от второ ниво. Собственикът може да организира услуги под това име, например mail.example.org."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "subdomain",
+        "step_content": {
+          "type": "information",
+          "title": "Поддомейни от трето ниво",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>Поддомейнът е домейн, който се намира под друг домейн в йерархията. В library.example.org името library.example.org е на трето ниво и е поддомейн на example.org. Собственикът на основния домейн може да организира чрез поддомейни различни услуги или части на организацията. Не е задължително всеки поддомейн да има собствен отделен компютър. Може да има и още по-дълбоки нива, когато пред името се добавят нови етикети.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/subdomain.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/subdomain.svg\" alt=\"example.org: родителски домейн; library.example.org: поддомейн от трето ниво; mail.example.org: друг поддомейн\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/subdomain.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> mail.example.org може да обозначава пощенска услуга, а library.example.org — библиотечна услуга. И двете са под example.org; имената сами не определят дали машините са различни.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc1034.html\">Повече за понятието: RFC 1034</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "subdomain-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Поддомейни от трето ниво",
+          "instruction": "<p>Кои твърдения за <strong>Поддомейни от трето ниво</strong> са верни? Отбележи всички верни отговори.</p>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "o5",
+              "text": "В library.example.org org е третото ниво."
+            },
+            {
+              "id": "o6",
+              "text": "Домейновата йерархия може да има най-много три нива."
+            },
+            {
+              "id": "o1",
+              "text": "library.example.org е поддомейн на example.org."
+            },
+            {
+              "id": "o2",
+              "text": "Различни поддомейни могат да обозначават различни услуги."
+            },
+            {
+              "id": "o3",
+              "text": "Всеки поддомейн задължително е отделен компютър."
+            },
+            {
+              "id": "o4",
+              "text": "Поддомейнът се добавя след пътя на файла."
+            }
+          ],
+          "correct_option_ids": [
+            "o1",
+            "o2"
+          ],
+          "feedback": "library.example.org е поддомейн на example.org. Различни поддомейни могат да обозначават различни услуги. mail.example.org може да обозначава пощенска услуга, а library.example.org — библиотечна услуга. И двете са под example.org; имената сами не определят дали машините са различни."
+        },
+        "step_rules": {
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "url",
+        "step_content": {
+          "type": "information",
+          "title": "URL",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><p>URL означава Uniform Resource Locator — унифициран локатор на ресурси. Това е адрес, който показва как и къде се достига даден ресурс. В уеб пример основните части са схема, име на сървъра и път. Схемата https указва защитен уеб достъп; името посочва сървъра, а пътят насочва към ресурса. URL може да съдържа и допълнителни части, например параметри след въпросителен знак и фрагмент след знак #.</p><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/url.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/url.svg\" alt=\"Схема: https://; Име на сървър: library.example.org; Път: /lessons/network.html\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/url.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> В https://library.example.org/lessons/network.html схемата е https, името е library.example.org, а пътят е /lessons/network.html. Две различни страници могат да имат еднакво име на сървър и различен път.</div><p style=\"font-size:14px\"><a href=\"https://www.rfc-editor.org/rfc/rfc3986.html\">Повече за понятието: RFC 3986</a></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "url-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни URL със свои думи",
+          "instruction": "<p>Какво означава адресът <code>https://library.example.org/lessons/network.html</code>, обяснен със свои думи чрез частите му?</p>",
+          "instruction_format": "html",
+          "reference_answer": "Това е уеб адрес на ресурс. Частта https показва защитен уеб достъп. Името на сървъра е library.example.org, а /lessons/network.html е пътят до ресурса на този сървър. Домейнът сам по себе си не е целият URL."
+        },
+        "step_rules": {
+          "ai_feedback": true,
+          "automatic_feedback": false,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомниш?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>*{box-sizing:border-box}body{margin:0;padding:24px;font:19px/1.7 Arial,sans-serif;color:#20354b;background:#fff}main{max-width:900px;margin:auto}p{margin:16px 0}strong{color:#116779}figure{margin:24px 0;background:#eff7fa;border:1px solid #d5e7ed;border-radius:18px;padding:16px}img{display:block;width:100%;max-width:720px;height:auto;margin:auto}figcaption{font-size:14px;line-height:1.5;color:#526a7c;margin-top:10px;text-align:center}.example{padding:16px 20px;background:#fff5df;border-left:5px solid #e2a536;border-radius:8px;margin:20px 0}.key{padding:16px 20px;background:#eaf7ef;border-left:5px solid #3b9572;border-radius:8px;margin:20px 0}a{color:#116b90;overflow-wrap:anywhere}code{font:0.94em Consolas,monospace;background:#edf2f6;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}li{margin:12px 0}h3{font-size:21px;color:#116779} @media(max-width:550px){body{padding:14px;font-size:18px}figure{padding:9px}.example,.key{padding:12px 14px}}</style></head><body><main><ul><li>Протоколите определят общите правила; различните услуги използват подходящи протоколи.</li><li>IP адресира пакетите, а TCP добавя надежден и подреден транспорт.</li><li>IPv4 използва 32-битови адреси, а IPv6 — 128-битови.</li><li>Маската определя локалната подмрежа; шлюзът осигурява път към други мрежи.</li><li>Домейнът е име, DNS намира адреси за името, а URL посочва ресурс и начина за достъп.</li></ul><figure><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\" alt=\"Понятие: разбираш значението; Пример: разпознаваш ролята; Обяснение: използваш свои думи\"></a><figcaption><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/9_class/information-technology/small-network/images/summary.svg\">Отвори схемата</a></figcaption></figure><div class=\"example\"><strong>Пример:</strong> При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.</div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {}
+}

@@ -18,8 +18,8 @@ folder=Path(__file__).resolve().parent.parent
 m=json.loads((folder/'small-network.mission.json').read_text(encoding='utf-8'))
 assert validate_mission(m)==m and teacher_validate(m)==m
 steps=m['mission_content']['steps']
-assert len(steps)==52
-assert not {'packet','packet-check','header','header-check'} & {s['id'] for s in steps}
+assert len(steps)==48
+assert not {'packet','packet-check','header','header-check','second-level','second-level-check','subdomain','subdomain-check'} & {s['id'] for s in steps}
 assert [s['id'] for s in steps if s['step_content']['type']=='information']==['intro']+[row[0] for row in DATA]+['summary']
 assert sum(bool(s['step_rules'].get('ai_feedback')) for s in steps)==1
 assert not any(s['step_content']['type']=='file' for s in steps)
@@ -47,7 +47,7 @@ for i,s in enumerate(steps):
             result=a.feedback_for(s['id']);assert result['correct']==expected and result['explanation']==c['feedback']
     if c['type']=='open_answer':assert c['instruction'].count('?')==1 and c['reference_answer'] and s['step_rules']['ai_feedback']
 assert steps[-1]['step_content']['instruction'].count('<li>')==5
-print('PASS: both models; 52 steps; 27 SVGs; 72 choice-feedback cases; one AI question; packet/header steps removed; no practical/file tasks.',flush=True)
+print('PASS: both models; 48 steps; 25 SVGs; 66 choice-feedback cases; one AI question; merged domain levels; no practical/file tasks.',flush=True)
 if not args.render:sys.exit()
 if args.local_images:
     from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -82,7 +82,7 @@ def got(raw):
     if (not r.get('text') or any(not im['complete'] or im['width']==0 for im in images)) and state['poll']<12:
         state['poll']+=1;QTimer.singleShot(500,inspect);return
     idx=state['index'];results.append({'id':steps[idx]['id'],**r})
-    if steps[idx]['id'] in ['intro','smtp','ipv4','ipv6','mask','url','summary']:w.grab().save(str(out/(steps[idx]['id']+'.png')))
+    if steps[idx]['id'] in ['intro','smtp','ipv4','ipv6','mask','tld','cctld','url','url-answer','summary']:w.grab().save(str(out/(steps[idx]['id']+'.png')))
     print('Rendered',steps[idx]['id'],[(im['width'],im['complete']) for im in images],flush=True)
     state['index']+=1;QTimer.singleShot(0,advance)
 QTimer.singleShot(500,advance);QTimer.singleShot(300000,app.quit);app.exec()

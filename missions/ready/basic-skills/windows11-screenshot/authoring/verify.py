@@ -30,7 +30,7 @@ assert all(not s['step_rules'].get('ai_feedback') and not s['step_rules'].get('a
 assert all(s['step_rules']['send_progress'] for s in steps if s['step_content']['type'] == 'file')
 assert all('options' not in s['step_content'] and 'reference_answer' not in s['step_content'] for s in steps)
 
-fixtures = {'submit-full': OUT / 'screenshot-full-screen Martin.png', 'submit-area': OUT / 'screenshot-calculator Martin.png'}
+fixtures = {'submit-full': OUT / 'screenshot-full-screen моето име.png', 'submit-area': OUT / 'screenshot-calculator моето име.png'}
 for fixture in fixtures.values():
     fixture.write_bytes(base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+jRZkAAAAASUVORK5CYII='))
 a = Attempt(m, {'id': 'qa', 'name': 'QA'})

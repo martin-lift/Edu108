@@ -137,12 +137,12 @@ DATA = [
 ('tld','Домейни от първо, второ и трето ниво',
 'Домейновите имена имат йерархия. Разчитаме нивата отдясно наляво: от по-общото към по-конкретното. Частите се разделят с точки.\n\n'
 'Първото ниво е най-дясната видима част: например org или com. В example.org първото ниво е org, а в example.com е com. Името на домейна само по себе си не гарантира, че сайтът е достоверен или безопасен.\n\n'
-'Второто ниво е непосредствено вляво от първото. В example.org и example.com това е етикетът example. Пълните домейнови имена от второ ниво са съответно example.org и example.com. Регистрацията се извършва според правилата на съответния регистър; не във всяка система тя е точно на второ ниво.\n\n'
-'Третото ниво е още една част вляво. В library.example.org това е етикетът library, а пълният домейн от трето ниво е library.example.org. В shop.example.com етикетът на трето ниво е shop, а пълното му име е shop.example.com. Те са поддомейни съответно на example.org и example.com.\n\n'
+'Второто ниво е непосредствено вляво от първото. В example.org и example.com частта на второ ниво е example. Когато посочваме тази част, записваме само example.\n\n'
+'Третото ниво е още една част вляво. В library.example.org частта на трето ниво е library. В shop.example.com частта на трето ниво е shop. За всяко ниво посочваме само съответната част, без да добавяме частите от останалите нива.\n\n'
 'Чрез поддомейни собственикът може да отдели различни услуги. Това не означава задължително отделен компютър за всяко име. При нужда могат да се добавят и още нива.',
-'В примерния URL https://library.example.org/lessons/network.html нивата са org → example.org → library.example.org. В https://shop.example.com/catalog/books.html нивата са com → example.com → shop.example.com. Частите /lessons/network.html и /catalog/books.html са пътища до ресурси, а не домейни.',
-['Първо ниво|org / com','Второ ниво|example.org / example.com','Трето ниво|library.example.org / shop.example.com'],
-['В shop.example.com първото ниво е com, второто е example.com, а третото е shop.example.com.','library.example.org е поддомейн на example.org.'],
+'В примерния URL https://library.example.org/lessons/network.html първо ниво е org, второ е example, трето е library. В https://shop.example.com/catalog/books.html първо ниво е com, второ е example, трето е shop. Частите /lessons/network.html и /catalog/books.html са пътища до ресурси, а не части от домейновото име.',
+['Първо ниво|org','Второ ниво|example','Трето ниво|library'],
+['В shop.example.com първото ниво е com, второто е example, а третото е shop.','В library.example.org първото ниво е org, второто е example, а третото е library.'],
 ['В library.example.org първото ниво е library.','Пътят /catalog/books.html е домейн от трето ниво.','Всеки поддомейн задължително е отделен компютър.','Домейновата йерархия може да има най-много три нива.'],1034),
 ('cctld','Държавни домейни',
 'Държавните домейни от първо ниво се наричат country-code top-level domains. Познатите латински кодове са двубуквени: bg за България, uk за Обединеното кралство и de за Германия. Те са част от системата за имена и се управляват според правила на съответния регистър. Съществуват и международнизирани държавни домейни на други писмености. Държавният домейн не гарантира физическо местоположение на сървъра или езика на всяка страница.',
@@ -158,13 +158,17 @@ DATA = [
 ['URL е само IP адрес без други части.','https е името на файла.','Пътят е задължително домейнът от първо ниво.','DNS трябва да преобразува пътя до файла в IP адрес.'],3986),
 ]
 
-def svg(identifier, panels):
+def svg(identifier, panels, heading=None):
     # A vertical, large-type composition stays readable in the narrow reader.
-    parts=['<svg xmlns="http://www.w3.org/2000/svg" width="720" height="460" viewBox="0 0 720 460" role="img">',
-           '<rect width="720" height="460" rx="24" fill="#eff7fa"/>']
+    offset=64 if heading else 0
+    height=460+offset
+    parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="720" height="{height}" viewBox="0 0 720 {height}" role="img">',
+           f'<rect width="720" height="{height}" rx="24" fill="#eff7fa"/>']
+    if heading:
+        parts.append(f'<text x="360" y="42" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#20354b">{html.escape(heading)}</text>')
     colors=[('#d9edf3','#116779'),('#e6f3e9','#27734f'),('#fff0d1','#875e10')]
     for i,panel in enumerate(panels):
-        label,detail=panel.split('|',1); y=18+i*150;bg,fg=colors[i]
+        label,detail=panel.split('|',1); y=18+i*150+offset;bg,fg=colors[i]
         parts.append(f'<rect x="16" y="{y}" width="688" height="120" rx="16" fill="{bg}"/>')
         parts.append(f'<text x="360" y="{y+44}" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="{fg}">{html.escape(label)}</text>')
         parts.append(f'<text x="360" y="{y+87}" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#20354b">{html.escape(detail)}</text>')
@@ -173,15 +177,20 @@ def svg(identifier, panels):
 
 def page(identifier, text, example, panels, source=None):
     ASSETS.mkdir(parents=True, exist_ok=True)
-    (ASSETS/f'{identifier}.svg').write_text(svg(identifier,panels),encoding='utf-8')
+    (ASSETS/f'{identifier}.svg').write_text(svg(identifier,panels,'library.example.org' if identifier=='tld' else None),encoding='utf-8')
     src=f'{BASE}/images/{identifier}.svg'
     figure=f'<figure><a href="{src}"><img src="{src}" alt="{html.escape("; ".join(panels).replace("|",": "))}"></a></figure>'
     if identifier=='ipv6':
         text=text.replace('2001:db8:1234:5678:abcd:ef01:2345:6789','<code>2001:db8:1234:5678:abcd:ef01:2345:6789</code>')
     example_html=f'<div class="example"><strong>Пример:</strong> {example}</div>'
     if identifier=='tld':
-        example_html='''<div class="example"><p><strong>Пример с .org:</strong><br><code>https://library.example.org/lessons/network.html</code></p><ul><li>Първо ниво: <strong>org</strong>.</li><li>Второ ниво: <strong>example.org</strong> — етикетът example е непосредствено пред org.</li><li>Трето ниво: <strong>library.example.org</strong> — добавен е етикетът library.</li></ul></div>
-<div class="example"><p><strong>Пример с .com:</strong><br><code>https://shop.example.com/catalog/books.html</code></p><ul><li>Първо ниво: <strong>com</strong>.</li><li>Второ ниво: <strong>example.com</strong> — етикетът example е непосредствено пред com.</li><li>Трето ниво: <strong>shop.example.com</strong> — добавен е етикетът shop.</li></ul></div><p>Частите <code>/lessons/network.html</code> и <code>/catalog/books.html</code> са пътища до ресурси. Те не участват в нивата на домейна.</p>'''
+        com_panels=['Първо ниво|com','Второ ниво|example','Трето ниво|shop']
+        (ASSETS/'tld-com.svg').write_text(svg('tld-com',com_panels,'shop.example.com'),encoding='utf-8')
+        com_src=f'{BASE}/images/tld-com.svg'
+        com_figure=f'<figure><a href="{com_src}"><img src="{com_src}" alt="shop.example.com: първо ниво com; второ ниво example; трето ниво shop."></a></figure>'
+        example_html=f'''<div class="example"><p><strong>Пример с .org:</strong><br><code>https://library.example.org/lessons/network.html</code></p><ul><li>Първо ниво: <strong>org</strong>.</li><li>Второ ниво: <strong>example</strong>.</li><li>Трето ниво: <strong>library</strong>.</li></ul></div>{figure}
+<div class="example"><p><strong>Пример с .com:</strong><br><code>https://shop.example.com/catalog/books.html</code></p><ul><li>Първо ниво: <strong>com</strong>.</li><li>Второ ниво: <strong>example</strong>.</li><li>Трето ниво: <strong>shop</strong>.</li></ul></div>{com_figure}<p>Частите <code>/lessons/network.html</code> и <code>/catalog/books.html</code> са пътища до ресурси. Те не участват в нивата на домейна.</p>'''
+        figure=''
     elif identifier=='cctld':
         example_html='''<div class="example"><p><strong>Примери с пълни URL адреси:</strong></p><ul><li><a href="https://www.mon.bg/">https://www.mon.bg/</a> — сайт на Министерството на образованието и науката; <strong>bg</strong> е за България.</li><li><a href="https://www.parliament.uk/">https://www.parliament.uk/</a> — сайт на парламента на Обединеното кралство; <strong>uk</strong> е за Обединеното кралство.</li><li><a href="https://www.bundestag.de/">https://www.bundestag.de/</a> — сайт на германския Бундестаг; <strong>de</strong> е за Германия.</li></ul></div><p>Държавният домейн не доказва къде физически се намира сървърът.</p>'''
     if identifier=='http':
@@ -251,9 +260,9 @@ def main():
         add(identifier,'information',title,page(identifier,paragraphs,html.escape(example),panels,source))
         if identifier=='url':
             add('url-answer','open_answer','В този адрес посочи протокола, трите нива на домейна и пътя',
-                '<p>Разгледай адреса:</p><p><code>https://library.example.com/lessons/network.html</code></p><p>В този адрес коя част е протоколът, кой е домейнът от първо ниво, кой е домейнът от второ ниво, кой е домейнът от трето ниво и коя част е пътят?</p>',
+                '<p>Разгледай адреса:</p><p><code>https://library.example.com/lessons/network.html</code></p><p>В този адрес коя част е протоколът, коя е частта на първо ниво, коя е частта на второ ниво, коя е частта на трето ниво и коя част е пътят?</p><p>За всяко ниво посочи само съответната част от домейновото име.</p>',
                 {'ai_feedback':True,'automatic_feedback':False,'send_progress':True},
-                reference_answer='Протоколът е HTTPS, посочен чрез https в началото. Домейнът от първо ниво е com. Домейнът от второ ниво е example.com; етикетът на това ниво е example. Домейнът от трето ниво е library.example.com; етикетът на това ниво е library. Пътят е /lessons/network.html.')
+                reference_answer='Протокол: HTTPS (https). Първо ниво: com. Второ ниво: example. Трето ниво: library. Път: /lessons/network.html.')
         else:
             assert len(text.split())+len(example.split())>=50,identifier
             options=[{'id':f'o{i+1}','text':v} for i,v in enumerate(good+bad)]
@@ -267,10 +276,10 @@ def main():
     add('summary','information','Какво да запомниш?',page('summary',summary,
         'При уеб посещение името помага да намерим сървъра, IP насочва пакетите, а уеб протоколът определя заявката за страницата.',
         ['Понятие|разбираш значението','Пример|разпознаваш ролята','Обяснение|използваш свои думи']))
-    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-08','mission_content':{
+    mission={'mission_version':4,'mission_id':'it9-small-network-20261124-09','mission_content':{
         'title':TITLE,'class_name':'9. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':TITLE,
         'description':'По стр. 22–24 от учебника на Домино: отделно обяснение за всяко понятие и всеки протокол; без практическите упражнения за мрежови настройки.','content_format':'html','steps':steps},'mission_rules':{}}
     (OUT/'small-network.mission.json').write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    print(f'Built {len(steps)} steps; {len(DATA)+2} information steps and original illustrations.')
+    print(f'Built {len(steps)} steps; {len(DATA)+2} information steps; {len(DATA)+3} original illustrations.')
 
 if __name__=='__main__':main()

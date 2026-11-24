@@ -35,9 +35,10 @@ for i,s in enumerate(steps):
     c=s['step_content'];p=Body();p.feed(c['instruction']);assert not p.tags
     assert not re.search(r'<h[12]\b',c['instruction'])
     if c['type']=='information':
-        assert len(p.images)==1 and p.images[0].startswith('https://raw.githubusercontent.com/')
-        assert p.images[0] in p.links
-        ET.parse(folder/'images'/Path(p.images[0]).name)
+        assert len(p.images)==(2 if s['id']=='tld' else 1)
+        for src in p.images:
+            assert src.startswith('https://raw.githubusercontent.com/') and src in p.links
+            ET.parse(folder/'images'/Path(src).name)
     if c['type']=='multiple_choice':
         assert steps[i-1]['step_content']['type']=='information'
         assert len(c['options'])==6 and len(c['correct_option_ids'])==2
@@ -47,7 +48,7 @@ for i,s in enumerate(steps):
             result=a.feedback_for(s['id']);assert result['correct']==expected and result['explanation']==c['feedback']
     if c['type']=='open_answer':assert c['instruction'].count('?')==1 and c['reference_answer'] and s['step_rules']['ai_feedback']
 assert steps[-1]['step_content']['instruction'].count('<li>')==5
-print('PASS: both models; 48 steps; 25 SVGs; 66 choice-feedback cases; one AI question; merged domain levels; no practical/file tasks.',flush=True)
+print('PASS: both models; 48 steps; 26 SVGs; 66 choice-feedback cases; one AI question; separate domain diagrams; no practical/file tasks.',flush=True)
 if not args.render:sys.exit()
 if args.local_images:
     from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
@@ -88,7 +89,7 @@ def got(raw):
 QTimer.singleShot(500,advance);QTimer.singleShot(300000,app.quit);app.exec()
 (out/'render.json').write_text(json.dumps(results,ensure_ascii=False,indent=2),encoding='utf-8')
 assert len(results)==len(steps)
-assert all(r.get('frames') and len(r['frames'][0]['images'])==1 for r,s in zip(results,steps) if s['step_content']['type']=='information')
+assert all(r.get('frames') and len(r['frames'][0]['images'])==(2 if s['id']=='tld' else 1) for r,s in zip(results,steps) if s['step_content']['type']=='information')
 assert all(im['width']>0 for r in results for f in r['frames'] for im in f['images'])
 assert all(f['width']<=f['viewport']+2 and f['height']>=f['bodyHeight']-2 for r in results for f in r['frames'])
 print('PASS: actual Student108 rendered all steps; '+('local illustration bytes' if args.local_images else 'external illustrations')+' loaded; no clipping.',flush=True)

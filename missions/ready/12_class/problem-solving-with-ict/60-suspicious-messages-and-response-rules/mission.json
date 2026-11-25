@@ -1,0 +1,418 @@
+{
+  "mission_version": 4,
+  "mission_id": "2c4b7800-9869-44d3-8382-74d198a8be06",
+  "mission_content": {
+    "title": "Анализ на подозрителни съобщения и правила за реакция",
+    "description": "Ще работите в екип по подозрителни съобщения, ще разграничите фактите от предположенията и ще изготвите кратко правило за реакция. Упражнението не изпраща истински уведомления.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Анализ на подозрителни съобщения и правила за реакция",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще работите в екип по подозрителни съобщения, ще разграничите фактите от предположенията и ще изготвите кратко правило за реакция. Упражнението не изпраща истински уведомления.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Последователност за реакция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/topic-1.svg\" alt=\"Основни връзки: Последователност за реакция\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Последователност за реакция</figcaption></figure>\n<ol><li><strong>Спрете исканото действие:</strong> не отваряйте файл, не плащайте и не предоставяйте парола или код.</li><li><strong>Запишете фактите:</strong> кога е получено, какво се иска и дали вече е имало взаимодействие.</li><li><strong>Проверете независимо:</strong> през предварително известен контакт, запазен адрес или официалния канал на организацията.</li><li><strong>Уведомете отговорното лице:</strong> по установения ред, без да разпространявате опасния файл към всички.</li><li><strong>Следвайте указанията:</strong> за запазване на доказателства, ограничаване на последиците и последващи действия.</li></ol>\n<p>Неизвестността не е причина да се изпълни спешното искане. Също така подозрително съобщение не доказва автоматично, че устройството е заразено или акаунтът е превзет.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Последователност за реакция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Първо спираме исканото рисково действие."
+            },
+            {
+              "id": "answer-2",
+              "text": "Неизвестността налага да изпълним спешното искане."
+            },
+            {
+              "id": "answer-3",
+              "text": "Докладът включва дали вече е имало взаимодействие."
+            },
+            {
+              "id": "answer-4",
+              "text": "Подозрението само доказва превзет акаунт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Проверката се прави през предварително известен канал."
+            },
+            {
+              "id": "answer-6",
+              "text": "Опасният файл се разпраща на всички за мнение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Първо спираме исканото рисково действие. Докладът включва дали вече е имало взаимодействие. Проверката се прави през предварително известен канал."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Екипни роли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/topic-2.svg\" alt=\"Основни връзки: Екипни роли\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Екипни роли</figcaption></figure>\n<p>Разпределете анализатор на признаците, проверяващ адресите, автор на уведомлението и представящ решението. При по-малък екип един участник може да има две роли. Всеки посочва свой конкретен принос.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Четири казуса",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/topic-3.svg\" alt=\"Основни връзки: Четири казуса\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Четири казуса</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Казус</th><th>Учебни факти</th><th>Въпрос</th></tr></thead><tbody><tr><td>K1 — само получено съобщение</td><td>Получено е непроверено съобщение, което заплашва със спиране на акаунта след 10 минути и иска парола и еднократен код. Никой не е отварял файл или адрес.</td><td>Коя е подходящата първа реакция без недоказани твърдения?</td></tr><tr><td>K2 — въведена парола</td><td>Участник е отворил непозната страница и е въвел паролата си. Не е предоставил MFA код.</td><td>Какво трябва да съобщи и откъде започват защитните действия?</td></tr><tr><td>K3 — отворен файл</td><td>Неочакван файл е отворен. Появило се е искане да се разрешат макроси; участникът не го е потвърдил.</td><td>Какво е известно и какво се предава на ИТ екипа?</td></tr><tr><td>K4 — нова банкова сметка</td><td>Познат доставчик уж иска промяна на сметката само чрез съобщение. Има натиск „плати веднага“.</td><td>Как се проверява промяната независимо и кой одобрява плащането?</td></tr></tbody></table></div>\n<p>За K2 участникът уведомява незабавно, а смяната на засегнатата парола и проверката на сесиите се правят през истинската услуга или с администратора, според процедурата. Ако паролата е използвана и другаде, това също се съобщава. Липсата на предоставен MFA код не гарантира липса на риск.</p>\n<p>За K3 не се разрешават макроси. Не се правят самоволни „почиствания“ или изтриване на следи. Учителят/ИТ екипът преценява ограничаването на връзката, проверката на устройството и съхраняването на доказателства. За K4 проверката използва вече известен контакт и установения ред за одобрение, а не номера от съмнителното съобщение.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Четири казуса",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "При K2 защитата започва през истинската услуга или администратора."
+            },
+            {
+              "id": "answer-2",
+              "text": "При K3 разрешаваме макроси, за да установим причината."
+            },
+            {
+              "id": "answer-3",
+              "text": "При K4 промяната се проверява независимо и по ред за одобрение."
+            },
+            {
+              "id": "answer-4",
+              "text": "При K4 плащаме преди проверката заради спешния срок."
+            },
+            {
+              "id": "answer-5",
+              "text": "K1 и K2 имат различно вече извършено взаимодействие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Липсата на MFA код изключва всякакъв риск при разкрита парола."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "K1 и K2 имат различно вече извършено взаимодействие. При K2 защитата започва през истинската услуга или администратора. При K4 промяната се проверява независимо и по ред за одобрение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Кратко уведомление",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/topic-4.svg\" alt=\"Основни връзки: Кратко уведомление\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Кратко уведомление</figcaption></figure>\n<div class=\"example\"><p><strong>Образец за K2:</strong> „В учебния казус днес в 10:15 отворих адрес от непроверено съобщение и въведох парола. Не съм предоставял MFA код. Преустанових работата със страницата. Моля за указания за защита на акаунта и проверка на сесиите.“</p><p>Не добавяйте истинска парола, код или активна опасна връзка в учебния отчет.</p></div>\n<p>За реално докладване се използва установеният канал. Екипът може да поиска оригиналното съобщение по определен начин; не го препращайте произволно на всички участници.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Кратко уведомление",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Паролата трябва да се изпише, за да се докаже случилото се."
+            },
+            {
+              "id": "answer-2",
+              "text": "Оригиналното съобщение се предоставя по установения ред."
+            },
+            {
+              "id": "answer-3",
+              "text": "Уведомлението задължително съдържа недоказана диагноза."
+            },
+            {
+              "id": "answer-4",
+              "text": "Уведомлението включва време и извършеното действие."
+            },
+            {
+              "id": "answer-5",
+              "text": "Полезният доклад скрива въведената парола като факт на взаимодействие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Истински пароли и кодове не се добавят в учебния отчет."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Уведомлението включва време и извършеното действие. Истински пароли и кодове не се добавят в учебния отчет. Оригиналното съобщение се предоставя по установения ред."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Списък за проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/topic-5.svg\" alt=\"Основни връзки: Списък за проверка\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Списък за проверка</figcaption></figure>\n<p>Съставете до шест кратки въпроса, например: Очаквам ли това? Съвпада ли реалният адрес? Какво действие се иска? Има ли натиск или тайна? Какво вече е направено? Кой е независимият контакт?</p>\n<div class=\"task\"><ol><li>Разпределете ролите и решете K1–K4 в таблица „Факти — риск — първа реакция — проверка — отговорник“.</li><li>Изберете един казус и напишете кратко учебно уведомление.</li><li>Разменете решението с друг екип. Нека той открие едно недоказано твърдение или пропуск, или потвърди, че няма такъв.</li><li>Оформете списъка за проверка и коригирайте решението според обратната връзка.</li><li>Представете за две минути реакцията. Всеки участник записва своя принос.</li></ol></div>\n\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Списък за проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всеки участник посочва конкретния си принос."
+            },
+            {
+              "id": "answer-2",
+              "text": "Проверяващият трябва да намери грешка дори когато няма такава."
+            },
+            {
+              "id": "answer-3",
+              "text": "Списъкът пита какво вече е направено."
+            },
+            {
+              "id": "answer-4",
+              "text": "Реакцията е еднаква независимо от взаимодействието."
+            },
+            {
+              "id": "answer-5",
+              "text": "Чуждият преглед търси пропуск или недоказан извод."
+            },
+            {
+              "id": "answer-6",
+              "text": "Екипът прикрива неудобните факти в уведомлението."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Списъкът пита какво вече е направено. Чуждият преглед търси пропуск или недоказан извод. Всеки участник посочва конкретния си принос."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Сравнете K1 и K2",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете първа реакция и разликата между получено съобщение и въведена парола.</strong></p><p>За всеки казус запишете факти, риск, първо действие, независим контакт и отговорник. В K2 посочете и дали паролата е използвана другаде, без да я изписвате.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "K1: не взаимодействаме и докладваме. K2: незабавно съобщаваме за разкритата тайна; защитаваме акаунта през истинската услуга/администратора според процедурата и посочваме повторната употреба. Самопроверка: липсата на предоставен MFA код не е гаранция за липса на риск."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Решете K3 и K4",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете действия за отворения файл и непотвърдената банкова промяна.</strong></p><p>За K3 различете отваряне от разрешени макроси и посочете какво предавате на ИТ екипа. За K4 посочете независим контакт и одобряваща роля.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "K3: не разрешаваме макроси, уведомяваме и пазим фактите; ИТ екипът определя проверката и ограничаването. K4: задържаме плащането до проверка по известен контакт и одобрение. Самопроверка: няма самоволно почистване, плащане за проба или контакт само от съобщението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Напишете уведомление",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте кратко учебно уведомление за един от четирите казуса.</strong></p><p>В 3–5 изречения посочете време, какво е получено, какво точно е направено, предприето първо действие и искане за указания. Използвайте измислени данни и не добавяйте тайни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример K2: „В учебния казус в 10:15 въведох парола в непроверена страница. Не предоставих MFA код. Спрях работата със страницата. Моля за указания за защита и проверка на сесиите.“ Самопроверка: докладът казва извършеното, без самата парола, активен опасен адрес или недоказана диагноза."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изработете списък за проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Формулирайте до шест въпроса за реакция при съмнително съобщение.</strong></p><p>Обхванете очакван контекст, реален адрес, искано действие, натиск, вече извършено взаимодействие и независим отговорник. Въпросите трябва да водят към действие.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: Очаквам ли го? Каква е реалната цел? Какво се иска? Има ли натиск или тайна? Какво вече направих? Кой е известният независим контакт? Самопроверка: има въпрос за взаимодействието и няма правило „изглежда добре — изпълни“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Прегледайте решението и приноса",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете резултат от преглед и едно лично подобрение.</strong></p><p>Дайте решението на друг екип или направете означен самостоятелен преглед. Посочете пропуск, недоказано твърдение или обосновано потвърждение; напишете поправката и своя конкретен принос.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „В K2 пропуснахме повторната употреба на паролата; добавихме я като факт за докладване. Аз сравних първите действия и редактирах уведомлението.“ Самопроверка: поправката е конкретна, а ако няма намерена грешка, не се измисля такава."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Еднаква ли е реакцията при K1 и K2?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Еднаква ли е реакцията при K1 и K2?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "И в двата случая се спира исканото действие и се докладва. При K2 вече има разкрита тайна и е необходимо незабавно защитно действие за акаунта. Не бива да се скрива фактът на взаимодействието. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/60-suspicious-messages-and-response-rules/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Спираме действието и записваме фактите.</li><li>Реакцията отчита дали е разкрита тайна или отворен файл.</li><li>Проверяваме през известен независим контакт.</li><li>Уведомяваме ясно, без тайни и самоволно разпространяване.</li><li>Преглеждаме решението за пропуски и недоказани твърдения.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

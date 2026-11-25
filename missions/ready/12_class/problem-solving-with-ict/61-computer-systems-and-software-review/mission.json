@@ -1,0 +1,496 @@
+{
+  "mission_version": 4,
+  "mission_id": "e96d9ee0-e7cc-4025-8fd9-8c6d681fb021",
+  "mission_content": {
+    "title": "Управление на компютърни системи и приложен софтуер",
+    "description": "Ще обобщите работата през годината чрез портфолио: проектен план, технически избор, бюджет и мерки за защита. Целта е да свържете решенията с нуждите и доказателствата, а не само да съберете файлове.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Управление на компютърни системи и приложен софтуер",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще обобщите работата през годината чрез портфолио: проектен план, технически избор, бюджет и мерки за защита. Целта е да свържете решенията с нуждите и доказателствата, а не само да съберете файлове.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Какво трябва да показва портфолиото?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/topic-1.svg\" alt=\"Основни връзки: Какво трябва да показва портфолиото?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво трябва да показва портфолиото?</figcaption></figure>\n<p>Посочете потребителя и проблема, договорения резултат, ограниченията и критериите за приемане. За всяко важно решение покажете основанието: изискване, спецификация, изчисление или проверка.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Част</th><th>Необходимо доказателство</th><th>Връзка с уроците</th></tr></thead><tbody><tr><td>План и екип</td><td>Задачи, отговорници, зависимости, срокове и индивидуален принос</td><td>16–17, 24–30</td></tr><tr><td>Технически избор</td><td>Потребности, задължителни условия, сравнение и аргументиран избор</td><td>33–37, 40–41</td></tr><tr><td>Бюджет и разходи</td><td>Входни данни, формули, общ период и ограничения на модела</td><td>25, 38–39, 53</td></tr><tr><td>Права и защита</td><td>Източници/лицензи, права за достъп, рискове и реакции</td><td>49–56, 59–60</td></tr><tr><td>Резервни копия и възстановяване</td><td>План, проверена версия и протокол от възстановяване</td><td>57–58</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво трябва да показва портфолиото",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Портфолиото свързва целта с доказателства."
+            },
+            {
+              "id": "answer-2",
+              "text": "Броят файлове сам доказва качеството."
+            },
+            {
+              "id": "answer-3",
+              "text": "Техническият избор се основава на изисквания и сравнение."
+            },
+            {
+              "id": "answer-4",
+              "text": "Непроверено твърдение е равностойно на извършен тест."
+            },
+            {
+              "id": "answer-5",
+              "text": "Планът за копия се подкрепя с протокол за възстановяване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Екипният резултат отменя личния принос."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Портфолиото свързва целта с доказателства. Техническият избор се основава на изисквания и сравнение. Планът за копия се подкрепя с протокол за възстановяване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Направете начална страница или опис",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/topic-2.svg\" alt=\"Основни връзки: Направете начална страница или опис\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Направете начална страница или опис</figcaption></figure>\n<p>Създайте един документ „Портфолио“ с име на проекта, екип, версия и дата. Добавете таблица „Материал — какво доказва — актуален файл — автор/принос“. Връзките трябва да работят от предаденото копие на цялата папка.</p>\n<p>Можете да използвате <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/26-Team-Wiki-Starter.zip\">началния комплект</a>. Пазете само ясно означен текущ комплект за преглед; нужната история остава отделно. Не заменяйте липсващ резултат с твърдение, че той е извършен.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Направете начална страница или опис",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Липсващият резултат се заменя с твърдение за изпълнение."
+            },
+            {
+              "id": "answer-2",
+              "text": "Връзките се проверяват от предаденото копие."
+            },
+            {
+              "id": "answer-3",
+              "text": "Връзка към личния работен диск винаги работи при получателя."
+            },
+            {
+              "id": "answer-4",
+              "text": "Демонстрацията се означава като демонстрация."
+            },
+            {
+              "id": "answer-5",
+              "text": "Версията и датата са без значение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Описът сочи актуален файл и неговия принос."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Описът сочи актуален файл и неговия принос. Връзките се проверяват от предаденото копие. Демонстрацията се означава като демонстрация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Преглед по четири въпроса",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/topic-3.svg\" alt=\"Основни връзки: Преглед по четири въпроса\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Преглед по четири въпроса</figcaption></figure>\n<ol><li><strong>Изпълним ли е планът?</strong> Има ли зависимост, която е нарушена, или човек, зает едновременно с несъвместими задачи?</li><li><strong>Съответства ли изборът на нуждите?</strong> Сравнени ли са всички задължителни условия, включително системата, форматите и лиценза?</li><li><strong>Правилни ли са разчетите?</strong> Еднакви ли са периодът, обхватът и единиците? Средната консумация различава ли се от мощността на захранването?</li><li><strong>Може ли да се използва и възстанови резултатът?</strong> Работят ли файловете, проследими ли са източниците и има ли проверено копие?</li></ol>\n<p>Ако няма завършен проект, използвайте комплекта за малка ясно означена демонстрация и създайте липсващите план, избор и разчет. Оценявайте действително създаденото; не представяйте демонстрацията като приключил реален проект.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Преглед по четири въпроса",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Разчетите използват еднакви периоди и единици."
+            },
+            {
+              "id": "answer-2",
+              "text": "Само външният вид определя техническата съвместимост."
+            },
+            {
+              "id": "answer-3",
+              "text": "Проверява се използваемостта и възстановяването на резултата."
+            },
+            {
+              "id": "answer-4",
+              "text": "Незавършената демонстрация се отчита като реално приключил проект."
+            },
+            {
+              "id": "answer-5",
+              "text": "Планът се проверява за зависимости и натоварване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Мощността на захранването е винаги средната консумация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Планът се проверява за зависимости и натоварване. Разчетите използват еднакви периоди и единици. Проверява се използваемостта и възстановяването на резултата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Представяне за пет минути",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/topic-4.svg\" alt=\"Основни връзки: Представяне за пет минути\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Представяне за пет минути</figcaption></figure>\n<ul><li>1 минута: потребител, проблем и резултат.</li><li>1 минута: план и роли с конкретен пример.</li><li>1 минута: технически избор и едно изчисление.</li><li>1 минута: риск, мярка и проверка на възстановяването.</li><li>1 минута: постигнати критерии, ограничения и индивидуален принос.</li></ul>\n<p>Покажете действителни файлове и наблюдения. При използване на екранни снимки посочете коя версия представят. Всеки участник трябва да може да обясни свое решение и проверката му.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Представяне за пет минути",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Личният принос се заменя само с общото име на екипа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Постигнатите критерии се разграничават от ограниченията."
+            },
+            {
+              "id": "answer-3",
+              "text": "Петминутното представяне трябва да избягва доказателства."
+            },
+            {
+              "id": "answer-4",
+              "text": "Представянето показва действителни файлове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Снимката на стара версия винаги доказва текущото състояние."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всеки участник обяснява свое решение и проверка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Представянето показва действителни файлове. Всеки участник обяснява свое решение и проверка. Постигнатите критерии се разграничават от ограниченията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Подготовка за финалната проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/topic-6.svg\" alt=\"Основни връзки: Подготовка за финалната проверка\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Подготовка за финалната проверка</figcaption></figure>\n<p>Преговорете: проверима цел; зависимости и роли; RAM спрямо SSD; хардуерна и софтуерна съвместимост; работен формат и експорт; лиценз и източник; минимални права; резервно копие, RTO и RPO; безопасна реакция при фишинг. За всеки термин дайте собствен пример.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "assembly",
+        "step_content": {
+          "type": "information",
+          "title": "Подготовка на завършения проект за предаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/assembly.svg\" alt=\"Комплект → архив → независима проверка\" width=\"840\" height=\"430\"><figcaption>Комплект → архив → независима проверка</figcaption></figure><p><strong>Подгответе портфолиото като един цял комплект.</strong> Създайте папка „Портфолио_Име“ с актуалните материали и начален опис Портфолио.html или Портфолио.txt. Посочете проект, екип, дата, версия, критерии и дали резултатът е реален проект или учебна демонстрация.</p><ol><li>Подредете подпапки „План“, „Технически избор“, „Разчети“, „Права и защита“ и „Възстановяване“. Съберете действителните материали: задачи и роли; потребности и сравнение; входни данни и формули; източници, лицензи, достъп и рискове; план за копия и протокол за възстановяване.</li><li>В описа запишете за всеки материал относителния път, какво доказва и автора/приноса. При HTML използвайте относителни връзки, например &lt;a href=\"План/plan.txt\"&gt;План&lt;/a&gt;. При текстов опис посочете точния относителен път. Пазете редактируемите таблици с формулите.</li><li>Ако нямате завършен проект, използвайте <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/58-Recovery-Practice-Kit.zip\">учебния комплект за възстановяване</a> за ясно означена малка демонстрация. Добавете собствени план, технически избор и разчет с означени учебни данни; не представяйте липсващи проверки като изпълнени.</li><li>Добавете отчет за прегледа, версията и краткия индивидуален принос. Премахнете от предавания комплект реални тайни и лични данни, които не са необходими; работете с разрешени учебни материали.</li><li>В Windows щракнете с десен бутон върху цялата папка и изберете Compress to ZIP file или Send to → Compressed (zipped) folder според версията. Запишете Портфолио_Име.zip. Разархивирайте в нова тестова папка и оттам намерете целта, общия разход и протокола; отворете ключовите файлове. Поправете комплекта при пропуск и създайте отново ZIP.</li></ol><p>Кратките обяснения се попълват в отворените въпроси. Последната практическа стъпка приема самия завършен ZIP за преглед от учителя.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-assembly",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка на комплекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои действия осигуряват проверим комплект за предаване?</p><p>Изберете всички верни твърдения.</p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Запазваме цялата относителна структура в един ZIP."
+            },
+            {
+              "id": "answer-2",
+              "text": "Проверяваме от разархивирано тестово копие."
+            },
+            {
+              "id": "answer-3",
+              "text": "Архивът съдържа продукт и документация."
+            },
+            {
+              "id": "answer-4",
+              "text": "Качваме само index.html без свързаните документи."
+            },
+            {
+              "id": "answer-5",
+              "text": "Името на архива доказва работещи връзки."
+            },
+            {
+              "id": "answer-6",
+              "text": "Екранна снимка винаги замества редактируемите резултати."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Предаваме продукт и документация в цяла структура и проверяваме копието след разархивиране."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете комплекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете кратък опис на портфолиото.</strong></p><p>Посочете проект, потребител, цел, версия и пет материала: план, технически избор, разчет, права/защита, възстановяване. За всеки запишете актуален файл, какво доказва и автор/принос. Означете липсите или демонстрационните данни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Описът свързва всеки материал с доказателство и конкретен файл. Например recovery.txt съдържа версията и резултата от възстановяване. Самопроверка: няма липсващ материал, представен като извършен; описът е съгласуван с действително предавания комплект."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете съгласуваността",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Отговорете на четирите въпроса за преглед на портфолиото.</strong></p><p>За изпълнимост, съответствие с нуждите, точност на разчетите и използваемост посочете по едно доказателство, извод и нужда от поправка. Сравнявайте еднакви периоди и единици.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: зависимости и натоварване от плана; покрити задължителни условия от сравнението; формула и период от разчета; работещи файлове и протокол за възстановяване. Самопроверка: всеки извод сочи материал, а мощността на захранването не е използвана като измерена средна консумация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Запишете независим преглед",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете резултат от опит да се намерят три важни доказателства.</strong></p><p>Друг екип или означен самостоятелен преглед трябва да намери целта, общия разход и протокола за възстановяване без допълнителни устни указания. Запишете намереното, една корекция или потвърден успех и новата версия.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „Целта и разходът са открити чрез описа; липсваше връзка към възстановяването. Добавихме я и проверихме копието като версия 1.1.“ Самопроверка: не се измисля външен проверяващ, ако прегледът е самостоятелен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подгответе представянето",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете план за петминутно представяне с доказателства.</strong></p><p>Отделете по минута за проблем/резултат, план/роли, избор/изчисление, риск/възстановяване и критерии/ограничения/принос. До всяка част посочете конкретен файл или наблюдение.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Планът има пет части с действителни материали: задание, план, сравнение и разчет, протокол, отчет. Самопроверка: времето е общо пет минути, снимките са означени с версия и ограниченията не се скриват."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обяснете личния принос",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете личен запис „Създадох — проверих — научих“.</strong></p><p>Посочете конкретен свой резултат, как го проверихте, доказателство и една поука. Добавете пример с два термина от преговора, които са важни за вашия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „Създадох разчета; проверих формулата за еднакъв период; доказателството е costs.xlsx и проверочният ред. Научих да различавам средна консумация от мощност на захранване.“ Самопроверка: записът обяснява действителен личен принос и проверка, а не само присъствие в екипа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Много файлове означават ли добро портфолио?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Много файлове означават ли добро портфолио?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Решаващи са връзката с целта, актуалността и доказателствата. Един точен план с проверен резултат е по-полезен от много неясни или противоречиви версии. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "submit-project",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте завършеното портфолио",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Качете <strong>един ZIP архив Портфолио_Име.zip</strong> с описа и актуалните материали: план и роли; технически избор; разчети с входни данни и формули; права и защита; план за копия и протокол за възстановяване; преглед и индивидуален принос. Означете учебните данни, ограниченията и липсите.</p><p>Преди предаването разархивирайте в отделна тестова папка. Отворете описа и ключовите файлове; проверете относителните връзки или пътища, целта, общия разход и протокола за възстановяване.</p><p>В Student108 използвайте бутона за избор/качване на файл, изберете архива и потвърдете. Проверете показаните име и размер и предайте файла чрез бутона на стъпката. Ако е избран друг файл, сменете го преди предаване. Учителят преглежда действителния комплект.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/61-computer-systems-and-software-review/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Портфолиото доказва резултат спрямо цел и критерии.</li><li>Описът прави актуалните материали лесни за намиране.</li><li>План, технически избор и разчети трябва да са съгласувани.</li><li>Правата, защитата и възстановяването се проверяват с доказателства.</li><li>Всеки участник обяснява своя принос, проверка и поука.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

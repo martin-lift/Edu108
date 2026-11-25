@@ -1,0 +1,403 @@
+{
+  "mission_version": 4,
+  "mission_id": "84f8f3db-a7f7-4ed9-aee6-f673ae5fbdb2",
+  "mission_content": {
+    "title": "Управление на пароли, криптиране и контрол на достъпа",
+    "description": "Ще оцените измислени пароли, ще разграничите удостоверяване от права за достъп и ще проследите учебен пример за криптиране. Не използвайте истински пароли, ключове или кодове за възстановяване.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Управление на пароли, криптиране и контрол на достъпа",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще оцените измислени пароли, ще разграничите удостоверяване от права за достъп и ще проследите учебен пример за криптиране. Не използвайте истински пароли, ключове или кодове за възстановяване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Дължина, уникалност и начин на създаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/topic-1.svg\" alt=\"Основни връзки: Дължина, уникалност и начин на създаване\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Дължина, уникалност и начин на създаване</figcaption></figure>\n<p>Полезни свойства са достатъчна дължина, непредсказуем избор и уникалност за всяка услуга. Мениджър на пароли може да генерира и пази различни тайни. Дълга известна фраза, име с година или редица от клавиатурата могат да бъдат предвидими. Няколко специални символа не поправят автоматично слабия избор.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Измислен пример</th><th>Проблем или предимство</th></tr></thead><tbody><tr><td>12345678</td><td>Кратка и предвидима последователност</td></tr><tr><td>Klub2026!</td><td>Предвидим контекст и година въпреки различните видове знаци</td></tr><tr><td>трамвай-кедър-облак-пясък-фенер</td><td>По-дълга фраза; действителната устойчивост зависи от случайния избор и начина на използване</td></tr><tr><td>Една и съща дълга парола за всички услуги</td><td>Повторната употреба позволява компрометиране на повече акаунти</td></tr></tbody></table></div>\n<p>Всички публикувани примери вече са известни и не трябва да се използват за действителни акаунти. За упражнението създайте две нови примерни фрази от независимо подбрани несвързани думи и ги означете „само за учебна оценка“. Не изчисляваме измислено „време за разбиване“ само от броя символи.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Дължина, уникалност и начин на създаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Уникалността ограничава последствията от повторна употреба."
+            },
+            {
+              "id": "answer-2",
+              "text": "Една парола за всички услуги премахва риска."
+            },
+            {
+              "id": "answer-3",
+              "text": "Известната дълга фраза може да бъде предвидима."
+            },
+            {
+              "id": "answer-4",
+              "text": "Добавянето на удивителен знак гарантира устойчивост."
+            },
+            {
+              "id": "answer-5",
+              "text": "Публикуваните примери не са подходящи за действителни акаунти."
+            },
+            {
+              "id": "answer-6",
+              "text": "Броят символи сам доказва точно време за разбиване."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Уникалността ограничава последствията от повторна употреба. Известната дълга фраза може да бъде предвидима. Публикуваните примери не са подходящи за действителни акаунти."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "MFA и контрол на достъпа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/topic-2.svg\" alt=\"Основни връзки: MFA и контрол на достъпа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: MFA и контрол на достъпа</figcaption></figure>\n<p><strong>Удостоверяването</strong> проверява кой влиза. <strong>Разрешаването на достъп</strong> определя какво може да прави след вход. MFA използва различни видове фактори, например знание на парола и притежаване на удостоверител. Парола и втори PIN са два секрета от един и същ вид и сами не са два различни фактора.</p>\n<p>MFA намалява риска, но кодове могат да бъдат откраднати чрез фишинг. Не одобрявайте неочаквана заявка за вход и не давайте еднократен код на „поддръжка“. Когато услугата предлага устойчиви на фишинг методи като подходящи passkeys/защитни ключове, те се разглеждат според организационните правила.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Учебна роля</th><th>Четене</th><th>Редакция</th><th>Управление на достъп</th></tr></thead><tbody><tr><td>Гост</td><td>Само публикуван резултат</td><td>Не</td><td>Не</td></tr><tr><td>Редактор</td><td>Работни материали за задачата</td><td>В определената проектна папка</td><td>Не</td></tr><tr><td>Отговорен администратор</td><td>Според служебната необходимост</td><td>Според ролята</td><td>Да, по одобрена процедура</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: MFA и контрол на достъпа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Успешният вход разрешава всяко администраторско действие."
+            },
+            {
+              "id": "answer-2",
+              "text": "Парола и PIN са един вид фактор."
+            },
+            {
+              "id": "answer-3",
+              "text": "MFA код се дава на всеки, представил се за поддръжка."
+            },
+            {
+              "id": "answer-4",
+              "text": "Неочаквана заявка за вход не се одобрява автоматично."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всеки вид MFA е еднакво устойчив на фишинг."
+            },
+            {
+              "id": "answer-6",
+              "text": "Удостоверяването и разрешаването на действия са различни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Удостоверяването и разрешаването на действия са различни. Парола и PIN са един вид фактор. Неочаквана заявка за вход не се одобрява автоматично."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Криптиране и хеширане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/topic-3.svg\" alt=\"Основни връзки: Криптиране и хеширане\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Криптиране и хеширане</figcaption></figure>\n<p><strong>Криптирането</strong> преобразува данните така, че възстановяването на четимото съдържание изисква подходящ ключ. То помага при защита на съхранявани или пренасяни данни. Загубен ключ може да направи собствените файлове недостъпни; нужен е план за възстановяване.</p>\n<p><strong>Хеширането</strong> създава стойност за проверка и не е „криптиране с обратна парола“. За съхраняване на пароли системите използват подходящи схеми за хеширане със salt и изчислителна цена, а не просто обратимо криптиране или бърз MD5. Това е задача на разработчика и администратора.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Криптиране и хеширане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Хеширането не е обратно разшифроване с парола."
+            },
+            {
+              "id": "answer-2",
+              "text": "Загубата на ключ винаги е без последици."
+            },
+            {
+              "id": "answer-3",
+              "text": "Паролите изискват подходяща схема със salt и изчислителна цена."
+            },
+            {
+              "id": "answer-4",
+              "text": "Хешът се разшифрова с обща обратна парола."
+            },
+            {
+              "id": "answer-5",
+              "text": "Криптираното съдържание изисква подходящ ключ."
+            },
+            {
+              "id": "answer-6",
+              "text": "Бързият MD5 сам е подходящо съвременно съхранение на пароли."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Криптираното съдържание изисква подходящ ключ. Хеширането не е обратно разшифроване с парола. Паролите изискват подходяща схема със salt и изчислителна цена."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Учителски пример или подготвен сценарий",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/topic-4.svg\" alt=\"Основни връзки: Учителски пример или подготвен сценарий\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Учителски пример или подготвен сценарий</figcaption></figure>\n<p>В наличен и одобрен инструмент учителят създава криптирано копие на нов файл с текст „Само учебни данни“. Използва временна демонстрационна тайна, която не служи за действителен акаунт. Първоначалният учебен файл се пази отделно.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Стъпка</th><th>Какво наблюдаваме?</th></tr></thead><tbody><tr><td>1. Избор на файл и действителна функция за криптиране</td><td>Кое съдържание се защитава и къде е записано копието?</td></tr><tr><td>2. Отваряне на затвореното криптирано копие без правилния ключ</td><td>Четимото съдържание не се предоставя; конкретното съобщение зависи от инструмента.</td></tr><tr><td>3. Отваряне с правилната демонстрационна тайна</td><td>Възстановеният текст съвпада с учебния оригинал.</td></tr><tr><td>4. Загуба на тайна или вече отворена сесия</td><td>Обсъждаме възстановяването и границите: криптирането не спира упълномощен човек да копира вече отворено съдържание.</td></tr></tbody></table></div>\n<p>Ако няма подходящ инструмент, използвайте таблицата като подготвен сценарий и означете „анализ, без изпълнение“. Преименуване на разширение, скриване на файл и компресиране без криптиране не изпълняват задачата.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Учителски пример или подготвен сценарий",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Обикновен ZIP без криптиране гарантира тайна."
+            },
+            {
+              "id": "answer-2",
+              "text": "Неизпълненият сценарий се означава като анализ."
+            },
+            {
+              "id": "answer-3",
+              "text": "Криптирането спира всяко копиране на вече отворено съдържание."
+            },
+            {
+              "id": "answer-4",
+              "text": "Използва се нов учебен файл и временна демонстрационна тайна."
+            },
+            {
+              "id": "answer-5",
+              "text": "Преименуването на разширението е криптиране."
+            },
+            {
+              "id": "answer-6",
+              "text": "Проверява се отваряне без и с правилния ключ."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Използва се нов учебен файл и временна демонстрационна тайна. Проверява се отваряне без и с правилния ключ. Неизпълненият сценарий се означава като анализ."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Оценете четирите примера",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете примерите от таблицата по три признака.</strong></p><p>За всеки посочете дължина, предсказуемост и повторна употреба. Обяснете защо нито един публикуван пример не трябва да стане реална парола.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "12345678 е предвидима редица; Klub2026! следва познат контекст; фразата е по-дълга, но зависи от избора; повторената парола засяга много услуги. Самопроверка: няма обещание „неразбиваема“ или измислено време за разбиване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Предложете начин за създаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте две фрази само за учебна оценка и опишете по-добър метод за реална употреба.</strong></p><p>Изберете независимо несвързани думи и означете примерите като публични учебни данни. Не споделяйте действителна тайна. Обяснете ролята на мениджър за уникални генерирани пароли.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Учебен пример: „компас-кестен-орбита-глина-флейта“, означен като публикуван и негоден за реален акаунт. Реалният избор е уникален, непредсказуем и пазен в одобрен мениджър. Самопроверка: има две собствени учебни фрази и описан метод, а не истински пароли."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разграничете вход и права",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете MFA и матрица на три роли за проектна папка.</strong></p><p>Посочете два различни вида фактори; обяснете защо парола плюс PIN не стигат. За гост, редактор и администратор задайте четене, редакция и управление на достъпа.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример за фактори: парола и притежаван удостоверител. Гостът чете публикуваното; редакторът работи в зададената папка; администраторът управлява права по процедура. Самопроверка: успешният вход не дава всички права и не се одобряват неочаквани заявки."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изберете криптиране или хеширане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обяснете как се защитават четим документ и съхранявани пароли.</strong></p><p>За всяка задача посочете дали трябва да се възстановява първоначалното съдържание. Добавете защо ключът се управлява отделно и защо бързият общ хеш не е достатъчна схема за пароли.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Документът може да се криптира и отваря с ключ. Паролите се проверяват чрез подходящо хеширане със salt и изчислителна цена. Самопроверка: няма „разшифроване на хеш“ и има план при загубен ключ."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Съставете демонстрационен протокол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете проверката на криптирано копие по сценария.</strong></p><p>Означете дали наблюдавате учителска демонстрация или анализирате таблицата. Запишете учебен вход, защита, резултат без правилния ключ, резултат с него и ограничение. Не променяйте действителни акаунти.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Входът е нов файл „Само учебни данни“; оригиналът се пази; без правилен ключ копието не е четимо, с него текстът съвпада. Самопроверка: наблюдаваното е различено от очакваното, а копирането на отворени данни и загубата на ключ са отчетени като ограничения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Криптирането прави ли ненужно резервното копие?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Криптирането прави ли ненужно резервното копие?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. То защитава съдържанието, а резервното копие подпомага възстановяването при загуба или повреда. И копията, и ключовете се управляват отделно според правилата. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/56-passwords-encryption-and-access-control/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Паролите са непредсказуеми и уникални за услугата.</li><li>MFA използва различни видове фактори и има ограничения.</li><li>Входът не означава неограничени права.</li><li>Криптиране и хеширане решават различни задачи.</li><li>За ключовете и данните е нужен план за възстановяване.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

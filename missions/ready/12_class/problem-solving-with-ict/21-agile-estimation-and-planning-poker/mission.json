@@ -1,0 +1,483 @@
+{
+  "mission_version": 4,
+  "mission_id": "758541a1-cff7-4891-b160-2af0bee9958e",
+  "mission_content": {
+    "title": "Оценка на време и сложност в софтуерен проект (Agile Estimation)",
+    "description": "Двама участници виждат една и съща задача, но дават различни оценки. Разликата може да показва скрито изискване, липсващо знание или различно разбиране за качеството. Ще използвате Planning Poker, за да изясните работата.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Оценка на време и сложност в софтуерен проект (Agile Estimation)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Двама участници виждат една и съща задача, но дават различни оценки. Разликата може да показва скрито изискване, липсващо знание или различно разбиране за качеството. Ще използвате Planning Poker, за да изясните работата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Какво всъщност оценяваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/topic-1.svg\" alt=\"Основни връзки: Какво всъщност оценяваме?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво всъщност оценяваме?</figcaption></figure>\n<p><strong>Оценката</strong> е обосновано предположение при известни условия. Тя може да се промени, когато научим повече. Разграничете:</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Понятие</th><th>Какво показва?</th><th>Пример</th></tr></thead><tbody><tr><td>Относителен размер</td><td>Сравнение на обем работа, трудност и неизвестност</td><td>Втората история е по-голяма от първата</td></tr><tr><td>Усилие</td><td>Колко труд е нужен</td><td>Общо шест човекочаса</td></tr><tr><td>Продължителност</td><td>Колко време минава от начало до край</td><td>Три дни при ограничена наличност и изчакване</td></tr></tbody></table></div>\n<p>Двама души не изпълняват непременно една задача за половината време. Част от работата може да е последователна, а обменът на информация също отнема време.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво всъщност оценяваме",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Оценката зависи от известните условия и може да се промени."
+            },
+            {
+              "id": "answer-2",
+              "text": "Двама души винаги съкращават времето точно наполовина."
+            },
+            {
+              "id": "answer-3",
+              "text": "Усилието измерва труд, а продължителността — изминал период."
+            },
+            {
+              "id": "answer-4",
+              "text": "Относителният размер е точна календарна дата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Изчакването и последователните дейности влияят на срока."
+            },
+            {
+              "id": "answer-6",
+              "text": "Първата оценка остава вярна независимо от нови данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Оценката зависи от известните условия и може да се промени. Усилието измерва труд, а продължителността — изминал период. Изчакването и последователните дейности влияят на срока."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Story points и общ ориентир",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/topic-2.svg\" alt=\"Основни връзки: Story points и общ ориентир\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Story points и общ ориентир</figcaption></figure>\n<p><strong>Story points</strong> са относителни оценки на размера. В учебния модел разглеждаме обем работа, сложност и неизвестност заедно. Изберете малка, добре разбрана история за ориентир — например „Показване на готов текст за един клуб“ = 2 точки.</p>\n<div class=\"example\"><strong>Учебни ориентири:</strong><ul><li>2 точки: показване на подготвена информация по познат образец.</li><li>3 или 5 точки: избор по ден с няколко ясни проверки.</li><li>8 точки: записване с неизвестни правила и по-сложни проверки — първо е нужно уточнение.</li></ul><p>Това са примерни сравнения за един екип, а не универсални стойности за всяка програма.</p></div>\n<p class=\"note\"><strong>Точки ≠ часове.</strong> Не задавайте правило „1 точка = 1 час“. Не сравнявайте производителността на ученици или екипи по точките. Scrum не изисква story points или Planning Poker.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Story points и общ ориентир",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Една точка винаги е един час."
+            },
+            {
+              "id": "answer-2",
+              "text": "Общ ориентир подпомага сравняването на истории."
+            },
+            {
+              "id": "answer-3",
+              "text": "Точките са универсална скала за сравняване на производителността на ученици."
+            },
+            {
+              "id": "answer-4",
+              "text": "Scrum не изисква задължително story points."
+            },
+            {
+              "id": "answer-5",
+              "text": "Осем точки имат еднакво значение във всеки екип."
+            },
+            {
+              "id": "answer-6",
+              "text": "Story points сравняват относителен размер в контекста на екипа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Story points сравняват относителен размер в контекста на екипа. Общ ориентир подпомага сравняването на истории. Scrum не изисква задължително story points."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Planning Poker с хартиени карти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/topic-3.svg\" alt=\"Основни връзки: Planning Poker с хартиени карти\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Planning Poker с хартиени карти</figcaption></figure>\n<p>Подгответе карти <strong>1, 2, 3, 5, 8 и ?</strong>. „?“ означава, че липсва информация. Оценяват участниците, които ще изпълняват работата; някой изяснява потребителската нужда и критериите.</p>\n<ol><li>Прочетете историята и критериите ѝ за приемане.</li><li>Задайте уточняващи въпроси: има ли готови данни, познат ли е инструментът, какво трябва да се тества?</li><li>Всеки избира карта самостоятелно. Всички показват едновременно.</li><li>Участниците с най-ниска и най-висока оценка обясняват предположенията си.</li><li>Уточнете обхвата и оценете отново. Запишете договорената оценка и основанията.</li><li>При голяма неизвестност запишете въпрос или малко проучване. Не насилвайте съгласие чрез средно аритметично.</li></ol>\n<p>Едновременното показване ограничава влиянието на първата чута оценка. Целта е общо разбиране, а не победител с „правилната карта“.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Planning Poker с хартиени карти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Разминаването се обсъжда чрез предположенията зад оценките."
+            },
+            {
+              "id": "answer-2",
+              "text": "Средното аритметично винаги замества обсъждането."
+            },
+            {
+              "id": "answer-3",
+              "text": "Знакът ? показва нужда от информация."
+            },
+            {
+              "id": "answer-4",
+              "text": "Оценява единствено човекът, който няма да изпълнява работата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Участниците избират оценка самостоятелно и показват едновременно."
+            },
+            {
+              "id": "answer-6",
+              "text": "Целта е да спечели участникът с най-високата карта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Участниците избират оценка самостоятелно и показват едновременно. Разминаването се обсъжда чрез предположенията зад оценките. Знакът ? показва нужда от информация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Пример за полезно разминаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/topic-4.svg\" alt=\"Основни връзки: Пример за полезно разминаване\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Пример за полезно разминаване</figcaption></figure>\n<div class=\"example\"><p>За „Ученикът получава потвърждение“ оценките са 2, 3 и 8. Първият участник си представя надпис на екрана. Третият смята, че се изисква имейл с проверка на доставката.</p><p>След разговор е уточнено: за учебния вариант потвърждението е само на екрана с код на заявката. Екипът оценява повторно и записва 3 точки. Ако имейлът е действителна потребност, той остава отделна история за последващо обсъждане.</p></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Пример за полезно разминаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изискванията за потвърждение не влияят на размера."
+            },
+            {
+              "id": "answer-2",
+              "text": "След уточнение екипът оценява повторно."
+            },
+            {
+              "id": "answer-3",
+              "text": "Уточняването изисква да премахнем реалната нужда от имейл без обсъждане."
+            },
+            {
+              "id": "answer-4",
+              "text": "Различните оценки могат да отразяват различен обхват."
+            },
+            {
+              "id": "answer-5",
+              "text": "Оценките 2, 3 и 8 доказват, че някой непременно не умее да работи."
+            },
+            {
+              "id": "answer-6",
+              "text": "Надпис на екран и имейл с проверена доставка са различни очаквания."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Различните оценки могат да отразяват различен обхват. Надпис на екран и имейл с проверена доставка са различни очаквания. След уточнение екипът оценява повторно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "От относителен размер към времеви план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/topic-5.svg\" alt=\"Основни връзки: От относителен размер към времеви план\" width=\"840\" height=\"430\"><figcaption>Основни връзки: От относителен размер към времеви план</figcaption></figure>\n<p>За времеви план разгледайте конкретни действия, наличното време на участниците, зависимостите и изчакванията. Относителната оценка сама по себе си не дава крайна дата.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Действие</th><th>Примерно усилие</th><th>Условие</th></tr></thead><tbody><tr><td>Уточняване на полетата</td><td>30 минути</td><td>Нужно е решение на потребителя</td></tr><tr><td>Изработване на формуляра</td><td>60 минути</td><td>След уточняването</td></tr><tr><td>Проверки и корекции</td><td>45 минути</td><td>Нужен е готов пробен вариант</td></tr></tbody></table></div>\n<p>Сборът е 135 минути труд при тези допускания. Ако екипът има само по 45 минути дневно за последователните действия, изпълнението може да заеме поне три работни сесии, а изчакването на обратна връзка може да го удължи.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От относителен размер към времеви план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Относителната оценка сама не определя крайна дата."
+            },
+            {
+              "id": "answer-2",
+              "text": "Човекочасовете автоматично измерват потребителска стойност."
+            },
+            {
+              "id": "answer-3",
+              "text": "30 + 60 + 45 дава 135 минути труд при допусканията."
+            },
+            {
+              "id": "answer-4",
+              "text": "135 минути труд винаги означават непрекъснати 135 календарни минути."
+            },
+            {
+              "id": "answer-5",
+              "text": "Наличността и изчакванията влияят на календарния срок."
+            },
+            {
+              "id": "answer-6",
+              "text": "Трите действия могат да започнат едновременно независимо от зависимостите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "30 + 60 + 45 дава 135 минути труд при допусканията. Наличността и изчакванията влияят на календарния срок. Относителната оценка сама не определя крайна дата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изберете ориентир",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете четири малки потребителски истории и общ ориентир от 2 точки.</strong></p><p>Всяка история трябва да има полза и разбираем резултат. Обяснете защо ориентирът е познат и сравнително малък. Посочете поне един фактор, който увеличава неизвестността.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: показване на готов текст = 2 точки; филтър по ден; заявка; потвърждение. Неясните правила за дублирани заявки увеличават неизвестността. Самопроверка: ориентирът използва ли се за сравнение, без превръщане на точки в часове?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Моделирайте първи кръг",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете първоначални оценки на трима участници за четирите истории.</strong></p><p>Използвайте 1, 2, 3, 5, 8 и ?. Моделирайте едновременно показване. За най-голямото разминаване опишете предположенията зад ниската и високата оценка.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: потвърждение — 2, 3, 8; единият очаква надпис, другият имейл с доставка. Самопроверка: разминаването е повод да уточните обхват, а не да оцените хората. Други обосновани числа също са възможни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Уточнете и оценете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Дайте уточнение и втори кръг за спорната история.</strong></p><p>Запишете какво влиза и какво остава извън текущия вариант. Посочете нов размер или нерешен въпрос и основание. Ако има ?, предложете малка проба или разговор.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: текущото потвърждение е на екрана с код; имейлът остава отделна потребност. След уточнение екипът избира 3 точки. Самопроверка: съгласието произтича ли от общо разбиране, а не от механично осредняване?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разделете неизвестното",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете разделяне или проучване за най-голямата история.</strong></p><p>Назовете конкретния неизвестен въпрос, действие за получаване на информация и как резултатът ще промени оценката. При разделяне запазете полезни части.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: проба как формулярът открива дублирана заявка с измислени данни; след нея уточняваме правилото и нужните проверки. Самопроверка: проучването намалява ли определена неизвестност, вместо да е общо „ще проучим всичко“?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте усилие и срок",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>За една история дайте три действия, усилие и възможни изчаквания.</strong></p><p>Изчислете сбора в минути. Посочете наличното време на участниците и зависимостите. Обяснете защо сборът не определя сам календарния край.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: 30 минути уточняване, 60 изработване, 45 проверки = 135 минути труд. При 45 минути дневно са нужни поне три сесии, а чакането на решение може да удължи периода. Самопроверка: разграничени ли са размер, труд и изминало време?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Може ли оценката да се промени?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Може ли оценката да се промени?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Да, при нова информация. Запишете какво се е променило. Не променяйте оценките само за да изглежда екипът по-продуктивен. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Какво правим, ако всички изберат „?“?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Какво правим, ако всички изберат „?“?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Историята не е достатъчно изяснена. Формулирайте въпрос, разговор или малка проба, която ще намали неизвестността, после оценете отново. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/21-agile-estimation-and-planning-poker/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Размер, усилие и продължителност се оценяват отделно.</li><li>Story points са относителен ориентир за конкретен екип.</li><li>Planning Poker изяснява различните предположения.</li><li>Неизвестността води до въпрос, проба или разделяне на историята.</li><li>Срокът отчита конкретни действия, наличност, зависимости и изчаквания.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

@@ -1,0 +1,480 @@
+{
+  "mission_version": 4,
+  "mission_id": "47abaa82-7df1-4c99-9e34-3e57ac3e7eb2",
+  "mission_content": {
+    "title": "Scrum — организация на работата и провеждане на спринт",
+    "description": "Подредените истории и оценките са подготовка. Как екипът избира обща цел, създава използваем резултат и научава какво да промени? Ще свържете частите на Scrum чрез учебна симулация.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Scrum — организация на работата и провеждане на спринт",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Подредените истории и оценките са подготовка. Как екипът избира обща цел, създава използваем резултат и научава какво да промени? Ще свържете частите на Scrum чрез учебна симулация.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Три артефакта и техните ангажименти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-1.svg\" alt=\"Основни връзки: Три артефакта и техните ангажименти\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Три артефакта и техните ангажименти</figcaption></figure>\n<p><strong>Артефакт</strong> тук е видим резултат или описание на работата, което помага на екипа да проверява напредъка.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Артефакт</th><th>Съдържание</th><th>Свързан ангажимент</th></tr></thead><tbody><tr><td>Product Backlog</td><td>Развиващ се, подреден списък на нужната работа по продукта</td><td>Product Goal — цел на продукта</td></tr><tr><td>Sprint Backlog</td><td>Целта на спринта, избраната работа и планът за изпълнението ѝ</td><td>Sprint Goal — цел на спринта</td></tr><tr><td>Increment</td><td>Използваемо допълнение, което се съчетава с предишния резултат</td><td>Definition of Done — общо описание на нужното качество</td></tr></tbody></table></div>\n<p>Product Goal дава по-дълга посока. Sprint Goal обяснява конкретната полза от текущия цикъл. Планът се адаптира; целта помага работата да остане свързана.</p>\n<div class=\"example\"><p><strong>Product Goal:</strong> учениците да могат самостоятелно да намират подходящ клуб и да заявяват участие.</p><p><strong>Sprint Goal:</strong> посетителят да може да сравни часовете на двата клуба. За този цикъл екипът избира списъка и описанията, а изпращането на заявка остава за следваща стъпка.</p></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Три артефакта и техните ангажименти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Product Backlog е свързан с Product Goal."
+            },
+            {
+              "id": "answer-2",
+              "text": "Product Goal и Sprint Goal винаги са един и същ текст."
+            },
+            {
+              "id": "answer-3",
+              "text": "Sprint Backlog включва цел, избрана работа и план."
+            },
+            {
+              "id": "answer-4",
+              "text": "Increment е само неподреден списък с бъдещи желания."
+            },
+            {
+              "id": "answer-5",
+              "text": "Increment е свързан с Definition of Done."
+            },
+            {
+              "id": "answer-6",
+              "text": "Sprint Backlog няма отношение към плана на Developers."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Product Backlog е свързан с Product Goal. Sprint Backlog включва цел, избрана работа и план. Increment е свързан с Definition of Done."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Definition of Done и критерии за приемане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-2.svg\" alt=\"Основни връзки: Definition of Done и критерии за приемане\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Definition of Done и критерии за приемане</figcaption></figure>\n<p><strong>Definition of Done (DoD)</strong> задава общо разбиране кога Increment отговаря на нужното качество. Критериите за приемане описват очакваното поведение на отделна история. Покриването само на критерия „има надпис“ не заменя проверките за общото качество.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Примерна учебна DoD за сайта</th><th>Критерий за историята „Виждам часове“</th></tr></thead><tbody><tr><td>Промените са обединени; договорените проверки са преминали; текстът е прегледан; връзките работят; друг участник е направил проба.</td><td>За всеки от двата клуба се виждат правилните ден, час и място.</td></tr></tbody></table></div>\n<p>Работа, която не покрива DoD, не се представя като завършен Increment. В един Sprint може да има повече от един Increment; предоставянето на стойност не е задължително да чака Sprint Review.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Definition of Done и критерии за приемане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Един надпис отменя всички общи проверки за качество."
+            },
+            {
+              "id": "answer-2",
+              "text": "Критерият за приемане уточнява конкретна история."
+            },
+            {
+              "id": "answer-3",
+              "text": "В Sprint може да има само един Increment."
+            },
+            {
+              "id": "answer-4",
+              "text": "Непокриваща DoD работа не се представя като завършен Increment."
+            },
+            {
+              "id": "answer-5",
+              "text": "Предоставянето на стойност задължително чака Sprint Review."
+            },
+            {
+              "id": "answer-6",
+              "text": "DoD описва общото нужно качество на Increment."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "DoD описва общото нужно качество на Increment. Критерият за приемане уточнява конкретна история. Непокриваща DoD работа не се представя като завършен Increment."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Как са свързани събитията?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-3.svg\" alt=\"Основни връзки: Как са свързани събитията?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Как са свързани събитията?</figcaption></figure>\n<p><strong>Sprint</strong> обхваща всички събития и работата по създаване на стойност. Той е с фиксирана продължителност до един месец. Следващият започва веднага след приключването на предишния.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Sprint Planning — защо, какво, как?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-4.svg\" alt=\"Основни връзки: Sprint Planning — защо, какво, как?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Sprint Planning — защо, какво, как?</figcaption></figure>\n<p>Scrum Team договаря целта и плана. Product Owner подготвя важните потребности; Developers избират изпълнима работа след обсъждане и планират как ще създадат резултата. Вземат предвид качеството, наличността и наученото от предишната работа.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Daily Scrum — проверка и адаптиране на плана",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-5.svg\" alt=\"Основни връзки: Daily Scrum — проверка и адаптиране на плана\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Daily Scrum — проверка и адаптиране на плана</figcaption></figure>\n<p>Това е 15-минутно събитие за Developers всеки работен ден на спринта. Проверяват напредъка към Sprint Goal и уточняват следващите действия. Форматът е техен избор; не е отчет пред началник и не изисква непременно три фиксирани въпроса.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Sprint Review — резултатът и следващата полезна стъпка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-6.svg\" alt=\"Основни връзки: Sprint Review — резултатът и следващата полезна стъпка\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Sprint Review — резултатът и следващата полезна стъпка</figcaption></figure>\n<p>Scrum Team и заинтересованите страни преглеждат постигнатото и променените условия. Обсъждат какво е полезно да се направи след това. Това е работна среща за обратна връзка и адаптиране на продукта, а не само демонстрация.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-7",
+        "step_content": {
+          "type": "information",
+          "title": "Sprint Retrospective — подобряване на начина на работа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-7.svg\" alt=\"Основни връзки: Sprint Retrospective — подобряване на начина на работа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Sprint Retrospective — подобряване на начина на работа</figcaption></figure>\n<p>Scrum Team разглежда сътрудничеството, процеса, инструментите и качеството. Избира конкретно подобрение. Ретроспекцията приключва Sprint; фокусът е как да работим по-ефективно, а не кого да обвиним.</p>\n<p class=\"note\">Daily Scrum се повтаря през спринта. Прегледът и ретроспекцията са към края му. Подреждането на карти в часа е съкратена учебна симулация, а не промяна на официалните правила за Scrum.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-7",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Sprint Retrospective — подобряване на начина на работа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ретроспекцията разглежда сътрудничество, процес и качество."
+            },
+            {
+              "id": "answer-2",
+              "text": "Ретроспекцията служи само за обвиняване на човек."
+            },
+            {
+              "id": "answer-3",
+              "text": "Екипът избира конкретно подобрение на начина на работа."
+            },
+            {
+              "id": "answer-4",
+              "text": "Daily Scrum се провежда само веднъж след края на спринта."
+            },
+            {
+              "id": "answer-5",
+              "text": "Учебната симулация не променя официалните правила на Scrum."
+            },
+            {
+              "id": "answer-6",
+              "text": "Review и Retrospective имат напълно еднакъв фокус."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Ретроспекцията разглежда сътрудничество, процес и качество. Екипът избира конкретно подобрение на начина на работа. Учебната симулация не променя официалните правила на Scrum."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-8",
+        "step_content": {
+          "type": "information",
+          "title": "Симулация с хартиени карти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/topic-8.svg\" alt=\"Основни връзки: Симулация с хартиени карти\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Симулация с хартиени карти</figcaption></figure>\n<div class=\"task\"><p>Разпределете Product Owner, Scrum Master и Developers за упражнението. Използвайте историите и оценките.</p><ol>\n<li>На отделни листове запишете Product Goal, три важни истории и примерната DoD.</li>\n<li><strong>Планиране — 5 минути:</strong> формулирайте една Sprint Goal и изберете малък резултат. Напишете кой как ще участва.</li>\n<li><strong>Работа — 7 минути:</strong> подгответе хартиен прототип на списък с два клуба и техните часове.</li>\n<li><strong>Учебна пауза за адаптиране — 2 минути:</strong> един текст липсва. Обсъдете какво може да се промени, без да се загуби целта. Това е аналогия на проверката на плана, не истински Daily Scrum за целия учебен цикъл.</li>\n<li><strong>Работа — 5 минути:</strong> довършете прототипа и го проверете по договорената учебна DoD. За прототипа „връзките работят“ означава, че можете да покажете предвидения преход между екраните.</li>\n<li><strong>Преглед — 4 минути:</strong> друг екип като потребители намира часовете на двата клуба. Запишете наблюденията и нова потребност.</li>\n<li><strong>Ретроспекция — 3 минути:</strong> изберете едно подобрение на съвместната работа с отговорник и начин за проверка.</li></ol></div>\n<p>Подредете и карти с имената на събитията: Planning в началото, повтарящ се Daily през работата, Review преди Retrospective в края. Начертайте Sprint като обща рамка около тях.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-8",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Симулация с хартиени карти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Двуминутната учебна пауза променя официалната продължителност на Daily Scrum."
+            },
+            {
+              "id": "answer-2",
+              "text": "Прототипът се проверява по договорена учебна DoD."
+            },
+            {
+              "id": "answer-3",
+              "text": "Липсващ текст се прикрива, за да се обяви всичко за готово."
+            },
+            {
+              "id": "answer-4",
+              "text": "Прегледът събира наблюдения, а ретроспекцията — подобрение на работата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Sprint е събитие извън работата и останалите Scrum събития."
+            },
+            {
+              "id": "answer-6",
+              "text": "В симулацията първо се уточняват цел и избрана работа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "В симулацията първо се уточняват цел и избрана работа. Прототипът се проверява по договорена учебна DoD. Прегледът събира наблюдения, а ретроспекцията — подобрение на работата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Свържете целите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете Product Goal и една по-тясна Sprint Goal за малък продукт.</strong></p><p>Назовете потребител и обща полза. Изберете три малки истории и обяснете кои допринасят за целта на текущия цикъл. Можете да моделирате учебен екип, ако работите сами.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: обща цел — самостоятелен избор и заявка за клуб; Sprint Goal — сравняване на часовете на два клуба. Избираме списък и часове, а заявката остава следваща стъпка. Самопроверка: целите различават ли обща посока и конкретна полезна стъпка?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете качество и план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе учебна DoD и кратък план за избрания резултат.</strong></p><p>Дайте поне четири общи проверки за качество и един критерий за конкретна история. Назовете действия на Developers и какво е нужно от Product Owner. Разграничете план от обещание за всяка желана функция.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: обединен прототип, проверени данни, четими надписи, проба от друг човек. За историята: двата клуба показват правилните ден, час и място. Developers планират изработването и теста. Самопроверка: общата DoD не е заменена с един частен критерий."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Адаптирайте работата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>По време на симулацията липсва текст за единия клуб. Опишете решение.</strong></p><p>Посочете какво е известно, кой може да уточни съдържанието и как Developers ще променят плана, запазвайки Sprint Goal. Обяснете защо учебната пауза е само аналогия на проверката на плана.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: липсва потвърден час; Product Owner подпомага уточнението, Developers работят по готовата част и планират повторна проверка след данните. Самопроверка: целта остава видима, липсващото не се обявява за готово, а симулацията не се представя като пълен Scrum Sprint."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проведете преглед",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете потребителска проба и извод за следващата полезна работа.</strong></p><p>Запишете задача за потребителя, наблюдение, състояние спрямо DoD и нова потребност. Разграничете завършеното от оставащото. Ако пробата е моделирана, означете данните като примерни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: посетител сравнява часовете; намира ги, но пита за място. Провереният списък покрива договорената DoD; добавянето на място се обсъжда за Product Backlog. Самопроверка: Review използва обратна връзка за продукта и посоката, а не само показване на екран."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подобрете сътрудничеството",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете едно действие от ретроспекцията и подредете събитията.</strong></p><p>Дайте проблем в начина на работа, подобрение, отговорник и проверка на ефекта. После опишете Planning в началото, Daily Scrum през работата, Review и Retrospective към края, със Sprint като обща рамка.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: неясни промени се записват в общ план; координаторът на учебната проба следи дали всеки вижда текущата версия. Следва проверка при нова задача. Самопроверка: подобрението засяга процеса и е изпълнимо; Retrospective не е обвинителен разговор."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Трябва ли незавършената история автоматично да се обяви за готова при Review?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Трябва ли незавършената история автоматично да се обяви за готова при Review?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Покажете честно състоянието. Работата, която не покрива DoD, не е част от завършен Increment; тя се връща за последващо разглеждане в Product Backlog. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Каква е разликата между Review и Retrospective?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Каква е разликата между Review и Retrospective?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "При Review екипът и заинтересованите страни обсъждат продукта и бъдещата полезна работа. При Retrospective Scrum Team търси подобрение в начина си на работа. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/22-scrum-sprint-organization-and-simulation/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Артефактите се свързват с Product Goal, Sprint Goal и Definition of Done.</li><li>Sprint обхваща работата и събитията в фиксиран цикъл до месец.</li><li>Planning и Daily Scrum подпомагат целта и адаптирането на плана.</li><li>Review преглежда продукта и бъдещата полезна работа.</li><li>Retrospective избира подобрение на начина на съвместна работа.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

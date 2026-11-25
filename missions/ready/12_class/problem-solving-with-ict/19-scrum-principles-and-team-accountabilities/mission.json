@@ -1,0 +1,593 @@
+{
+  "mission_version": 4,
+  "mission_id": "5876003f-fa05-42c0-bda8-1abc2afdfedc",
+  "mission_content": {
+    "title": "Scrum — основни принципи и отговорности в екипа",
+    "description": "Екипът е подготвил план, но след първата проба потребителите искат промяна. Как да учим от резултатите и да работим заедно на кратки цикли? Ще разгледате Scrum и ще обсъдите кой носи различните отговорности.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Scrum — основни принципи и отговорности в екипа",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Екипът е подготвил план, но след първата проба потребителите искат промяна. Как да учим от резултатите и да работим заедно на кратки цикли? Ще разгледате Scrum и ще обсъдите кой носи различните отговорности.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е Scrum?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-1.svg\" alt=\"Основни връзки: Какво е Scrum?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво е Scrum?</figcaption></figure>\n<p><strong>Scrum</strong> е лека рамка за създаване на стойност при сложни проблеми. Екипът работи на повтарящи се цикли, проверява реалния резултат и променя подхода според наученото. Не е необходим специализиран софтуер: за днешния учебен казус са достатъчни листове и обща таблица.</p>\n<p>Стойност означава полезна промяна за потребителя. Например красиво меню има малка полза, ако посетителят още не може да открие подходящ клуб. Избирайте работа, която помага за конкретна потребност.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво е Scrum",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Scrum подпомага създаването на стойност при сложни проблеми."
+            },
+            {
+              "id": "answer-2",
+              "text": "Scrum изисква задължително платен специализиран софтуер."
+            },
+            {
+              "id": "answer-3",
+              "text": "Екипът проверява резултата и променя подхода според наученото."
+            },
+            {
+              "id": "answer-4",
+              "text": "Красивото меню винаги е по-ценно от намирането на нужната информация."
+            },
+            {
+              "id": "answer-5",
+              "text": "Стойността се свързва с конкретна полза за потребителя."
+            },
+            {
+              "id": "answer-6",
+              "text": "Планът не може да се промени след нови наблюдения."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Scrum подпомага създаването на стойност при сложни проблеми. Екипът проверява резултата и променя подхода според наученото. Стойността се свързва с конкретна полза за потребителя."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Трите опори: прозрачност, проверка, адаптиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-2.svg\" alt=\"Основни връзки: Трите опори: прозрачност, проверка, адаптиране\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Трите опори: прозрачност, проверка, адаптиране</figcaption></figure>\n<p><strong>Емпиризъм</strong> означава да се учим от наблюдения и опит. За да вземаме решения по факти, работата трябва да бъде видима и да се преглежда редовно.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Опора</th><th>Какво означава?</th><th>Учебен пример</th></tr></thead><tbody>\n<tr><td>Прозрачност</td><td>Има общо разбиране за състоянието на работата и качеството.</td><td>Екипът отбелязва, че формулярът е изработен, но още не е проверен.</td></tr>\n<tr><td>Проверка</td><td>Преглеждаме резултата и напредъка към целта.</td><td>Трима съученици пробват записването; наблюдаваме къде се затрудняват.</td></tr>\n<tr><td>Адаптиране</td><td>Променяме работата при установено отклонение или нова информация.</td><td>Уточняваме надписа и преместваме неясното поле, после правим нова проба.</td></tr>\n</tbody></table></div>\n<p>Scrum посочва пет ценности: <strong>ангажираност, фокус, откритост, уважение и смелост</strong>. В екипа те се виждат в действията: казваме навреме за затруднение, изслушваме другите и проверяваме неудобните факти.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Трите опори: прозрачност, проверка, адаптиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Откритостта означава да премълчаваме затрудненията."
+            },
+            {
+              "id": "answer-2",
+              "text": "Проверката преглежда резултата и напредъка към целта."
+            },
+            {
+              "id": "answer-3",
+              "text": "Проверка е само изразяване на лично усещане без наблюдение."
+            },
+            {
+              "id": "answer-4",
+              "text": "Адаптирането променя работата според наученото."
+            },
+            {
+              "id": "answer-5",
+              "text": "Уважението изисква да не се задават уточняващи въпроси."
+            },
+            {
+              "id": "answer-6",
+              "text": "Прозрачността подпомага общото разбиране за състоянието."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Прозрачността подпомага общото разбиране за състоянието. Проверката преглежда резултата и напредъка към целта. Адаптирането променя работата според наученото."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Един Scrum Team, три вида отговорности",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-3.svg\" alt=\"Основни връзки: Един Scrum Team, три вида отговорности\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Един Scrum Team, три вида отговорности</figcaption></figure>\n<p>Scrum Team включва <strong>Product Owner, Scrum Master и Developers</strong>. Това са конкретни отговорности в рамката, а не три нива на началници. Екипът има обща цел и нужните умения, за да създава полезен резултат.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Product Owner — отговорност за стойността",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-4.svg\" alt=\"Основни връзки: Product Owner — отговорност за стойността\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Product Owner — отговорност за стойността</figcaption></figure>\n<p>Product Owner помага продуктът да носи максимална стойност и отговаря за ефективното управление на <strong>Product Backlog</strong> — подредения списък на нужната работа по продукта. Той изяснява целта, подрежда елементите и осигурява разбиране за тях. Може да делегира дейности, но запазва отговорността. Product Owner е един човек, който отчита нуждите на заинтересованите страни.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Product Owner — отговорност за стойността",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Product Backlog съдържа само вече завършени задачи."
+            },
+            {
+              "id": "answer-2",
+              "text": "Делегирането на дейности не прехвърля отговорността на Product Owner."
+            },
+            {
+              "id": "answer-3",
+              "text": "Подредбата не се влияе от нуждите на потребителите."
+            },
+            {
+              "id": "answer-4",
+              "text": "Product Owner носи отговорност за максимизирането на стойността."
+            },
+            {
+              "id": "answer-5",
+              "text": "Product Owner задължително е комитет без едно отговорно лице."
+            },
+            {
+              "id": "answer-6",
+              "text": "Product Backlog е подреден списък на нужната работа по продукта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Product Owner носи отговорност за максимизирането на стойността. Product Backlog е подреден списък на нужната работа по продукта. Делегирането на дейности не прехвърля отговорността на Product Owner."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Developers — отговорност за създаването на резултата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-5.svg\" alt=\"Основни връзки: Developers — отговорност за създаването на резултата\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Developers — отговорност за създаването на резултата</figcaption></figure>\n<p>Developers планират и извършват работата, нужна за използваем резултат във всеки Sprint. Те поддържат качеството, адаптират своя план и се държат взаимно отговорни като професионалисти. Думата не означава само програмисти: в ИТ продукт могат да са нужни дизайн, тестване, анализ и други умения.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Scrum Master — отговорност за ефективността на екипа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-6.svg\" alt=\"Основни връзки: Scrum Master — отговорност за ефективността на екипа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Scrum Master — отговорност за ефективността на екипа</figcaption></figure>\n<p>Scrum Master помага на екипа и организацията да разбират и използват Scrum. Подкрепя самоуправлението, подобряването и отстраняването на пречки, като съдейства те да бъдат решени. Не раздава задължително ежедневните задачи и не е секретар, който само организира срещи.</p>\n<p class=\"note\">Ролите от PRINCE2 и RACI не се пренасят автоматично в Scrum. Product Owner не е просто друго име за проектен мениджър, а Scrum Master не е началник на Developers. Днес сравняваме отговорностите чрез конкретни ситуации.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-6",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Scrum Master — отговорност за ефективността на екипа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Product Owner е просто друго име за всеки проектен мениджър."
+            },
+            {
+              "id": "answer-2",
+              "text": "Scrum Master подпомага разбирането и използването на Scrum."
+            },
+            {
+              "id": "answer-3",
+              "text": "Scrum Master задължително раздава всички ежедневни задачи."
+            },
+            {
+              "id": "answer-4",
+              "text": "Scrum Master съдейства за решаване на пречки."
+            },
+            {
+              "id": "answer-5",
+              "text": "Scrum Master получава автоматично административни права."
+            },
+            {
+              "id": "answer-6",
+              "text": "Самоуправлението е част от работата на екипа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Scrum Master подпомага разбирането и използването на Scrum. Scrum Master съдейства за решаване на пречки. Самоуправлението е част от работата на екипа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-7",
+        "step_content": {
+          "type": "information",
+          "title": "Самоуправление и кратки цикли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-7.svg\" alt=\"Основни връзки: Самоуправление и кратки цикли\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Самоуправление и кратки цикли</figcaption></figure>\n<p>Самоуправляващият се Scrum Team решава вътрешно кой какво прави, кога и как. Developers съставят и променят плана си за изпълнение. Свободата върви с обща цел, прозрачност и отговорност за качеството.</p>\n<p><strong>Sprint</strong> е цикъл с фиксирана продължителност до един месец. В него се създава използваемо допълнение към продукта — <strong>Increment</strong>. Подробната организация на събитията ще бъде разгледана в следващите уроци.</p>\n<div class=\"example\"><p><strong>Учебен пример с едноседмични цикли:</strong> първо екипът подготвя работещ списък с два клуба. При пробата се оказва, че потребителите не разбират кога се провеждат срещите. В следващия цикъл екипът може да добави ясна информация за време и място, вместо предварително замислена анимация.</p><p>Нова идея не означава произволно прекъсване на всяка текуща задача. Product Owner и Developers обсъждат как тя се отнася към целта и какво е изпълнимо.</p></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-7",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Самоуправление и кратки цикли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Scrum Team вътрешно организира кой какво прави, кога и как."
+            },
+            {
+              "id": "answer-2",
+              "text": "Самоуправлението означава всеки да игнорира общата цел."
+            },
+            {
+              "id": "answer-3",
+              "text": "Sprint е с фиксирана продължителност до един месец."
+            },
+            {
+              "id": "answer-4",
+              "text": "Increment е единствено списък с бъдещи идеи без използваем резултат."
+            },
+            {
+              "id": "answer-5",
+              "text": "Нова потребителска информация може да промени избора на полезна работа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка нова идея изисква произволно прекъсване на всички текущи задачи."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Scrum Team вътрешно организира кой какво прави, кога и как. Sprint е с фиксирана продължителност до един месец. Нова потребителска информация може да промени избора на полезна работа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-8",
+        "step_content": {
+          "type": "information",
+          "title": "Кой какво прави? Решете казусите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/topic-8.svg\" alt=\"Основни връзки: Кой какво прави? Решете казусите\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Кой какво прави? Решете казусите</figcaption></figure>\n<p>За всяка ситуация посочете водещата отговорност и обяснете как помагат останалите. Не е нужно едно действие да се изпълнява от човек в изолация.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Ситуация в „Клуб Онлайн“</th><th>Въпрос за обсъждане</th></tr></thead><tbody>\n<tr><td>Има заявки за търсене на клубове и за декоративна анимация. Трябва да се уточни кое носи повече полза.</td><td>Кой отговаря за подреждането на Product Backlog?</td></tr>\n<tr><td>Избраната функционалност трябва да се раздели на изпълними стъпки.</td><td>Кой съставя техническия план и решава разпределението на работата?</td></tr>\n<tr><td>Екипът не може да тества поради липсващ достъп до учебната среда.</td><td>Кой подпомага отстраняването на пречката и кой може реално да даде достъп?</td></tr>\n<tr><td>Двама потребители не разбират потвърждението след записване.</td><td>Как ще направите проблема видим, ще го проверите и ще адаптирате решението?</td></tr>\n</tbody></table></div>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-8",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Кой какво прави? Решете казусите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Само Scrum Master може да извършва технически проверки."
+            },
+            {
+              "id": "answer-2",
+              "text": "Developers планират създаването на резултата."
+            },
+            {
+              "id": "answer-3",
+              "text": "Нужният достъп възниква автоматично при избора на роли."
+            },
+            {
+              "id": "answer-4",
+              "text": "Наблюдавано затруднение се прави видимо и се проверява."
+            },
+            {
+              "id": "answer-5",
+              "text": "Потребителското затруднение се решава чрез скриване на наблюдението."
+            },
+            {
+              "id": "answer-6",
+              "text": "Product Owner подрежда работата с информация от участниците."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Product Owner подрежда работата с информация от участниците. Developers планират създаването на резултата. Наблюдавано затруднение се прави видимо и се проверява."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете стойността",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете потребител и една желана полза от малък софтуерен продукт.</strong></p><p>В 3–5 изречения уточнете нужда, наблюдавано затруднение и полезна промяна. Дайте пример за функция, която допринася за ползата, и за подобрение с по-нисък приоритет.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: посетителят иска да намери клуб, съвместим с графика му; ясните часове помагат за избора, декоративната анимация има по-ниска стойност при тази нужда. Самопроверка: ползата различава ли се от самото наличие на функция? Други конкретни продукти също са подходящи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подредете работата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете шест елемента за Product Backlog и обосновете първите два.</strong></p><p>Използвайте конкретни нужди, дефекти или проучвания. Назовете един примерен Product Owner и какви данни от потребители и екип ще използва за подредбата.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: описания, часове, филтър по ден, заявка, потвърждение, поправка на неясен надпис. Описанията и часовете дават основата за избор. Самопроверка: подредбата има ли основание в стойност, зависимости и информация, а не само личен вкус?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте малък резултат",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете как Developers ще създадат използваемо допълнение към продукта.</strong></p><p>Изберете малък резултат от списъка, посочете стъпки и проверки. Обяснете разликата между избора на стойност и техническата организация на работата. Определете как Scrum Master подпомага екипа.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: работещ списък с два клуба и часове; Developers уточняват данните, създават изглед и проверяват правилното показване. Scrum Master помага за общото разбиране и решаването на пречки. Самопроверка: има ли полезен резултат и ясно разграничени отговорности?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изследвайте нова информация",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>При проба двама от трима потребители не намират началото на записването. Предложете реакция.</strong></p><p>Разделете наблюдение и предполагаема причина. Посочете какво ще проверите и една възможна промяна. Обяснете кой участва в преценката на стойността и плана.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Наблюдение: двама не намират началото; хипотеза: надписът е неясен. Наблюдаваме повторна проба, уточняваме надписа и проверяваме с нов потребител. Product Owner и Developers обсъждат полезността и изпълнимото. Самопроверка: тримата участници не доказват причината за всички бъдещи случаи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Покажете трите опори",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Дайте свързани примери за прозрачност, проверка и адаптиране във вашия случай.</strong></p><p>За всяка опора запишете действие, видима информация и очакван резултат. Добавете по едно действие за Product Owner, Developers и Scrum Master. Подчертайте, че учебната симулация е съкратена.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: видим статус „непроверено“; потребителска проба; промяна на надпис и нов тест. Product Owner уточнява стойността, Developers адаптират плана, Scrum Master подпомага решаването на пречката. Самопроверка: примери са конкретни действия, а не само изброени имена на опорите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Насоки след обсъждането",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Насоки след обсъждането</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Product Owner подрежда работата, като използва информация от потребители и екипа.  Developers планират как да създадат резултата и организират изпълнението.  Scrum Master съдейства за решаването на пречката; учител или администратор може да осигури достъп. Самият Scrum Master не получава автоматично административни права.  Екипът записва наблюдението, уточнява проблема и проверява подобрен вариант. Product Owner и Developers обсъждат ефекта върху стойността и плана. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Трябва ли Product Owner да определя кой ученик коя техническа задача изпълнява?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Трябва ли Product Owner да определя кой ученик коя техническа задача изпълнява?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Той изяснява нуждата и приоритета. Developers организират работата за създаване на резултата, като съгласуват изпълнимото с целта. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Самоуправление означава ли, че всеки работи по каквото пожелае?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Самоуправление означава ли, че всеки работи по каквото пожелае?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Участниците се организират около общата цел, проверяват напредъка и спазват договореното качество. Видимите затруднения са повод за съвместно действие. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/19-scrum-principles-and-team-accountabilities/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Scrum използва кратки цикли за полезен резултат и учене.</li><li>Прозрачност, проверка и адаптиране свързват наблюденията с решенията.</li><li>Product Owner отговаря за стойността и Product Backlog.</li><li>Developers създават резултата, а Scrum Master подпомага ефективното използване на рамката.</li><li>Самоуправлението върви с обща цел и отговорност за качеството.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

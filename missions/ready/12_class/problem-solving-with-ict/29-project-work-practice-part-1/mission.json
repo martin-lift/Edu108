@@ -1,0 +1,466 @@
+{
+  "mission_version": 4,
+  "mission_id": "05e51664-7ce0-492c-a6a5-d336bde4d216",
+  "mission_content": {
+    "title": "Работа по проект. Практически дейности. Част 1",
+    "description": "Започнете изпълнението на избрани задачи от плана. Ще подберете информация, ще създадете междинни продукти, ще ги проверите и ще запишете действителния напредък.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Работа по проект. Практически дейности. Част 1",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Започнете изпълнението на избрани задачи от плана. Ще подберете информация, ще създадете междинни продукти, ще ги проверите и ще запишете действителния напредък.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Определете малък резултат за часа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/topic-1.svg\" alt=\"Основни връзки: Определете малък резултат за часа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Определете малък резултат за часа</figcaption></figure>\n<p>Използвайте своя проект или „Клуб Онлайн“. За учебния вариант изработете <strong>два прегледани текста за клубове</strong> и <strong>пробна начална страница или документ с навигация към тях</strong>. Тези резултати са част от проекта, а не непременно завършената система за записване.</p>\n<p>Ако учителят е избрал друг казус от учебника, уточнете два сравними междинни продукта и критериите им. Работете с налични инструменти и само с примерни данни.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Резултат</th><th>Критерий за тази сесия</th></tr></thead><tbody><tr><td>Описание на клуб 1</td><td>Има цел, подходящи участници, ден, час и място; данните са проверени или ясно означени като учебни</td></tr><tr><td>Описание на клуб 2</td><td>Същите полета и разбираем текст без противоречия</td></tr><tr><td>Навигационен прототип</td><td>От обща начална страница могат да се отворят и двете описания</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Определете малък резултат за часа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "За сесията се определят малки междинни продукти."
+            },
+            {
+              "id": "answer-2",
+              "text": "Междинният комплект автоматично е цялата система за записване."
+            },
+            {
+              "id": "answer-3",
+              "text": "Двете описания имат договорени полета и проверки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Липсващите данни се представят като потвърдени."
+            },
+            {
+              "id": "answer-5",
+              "text": "Началната навигация трябва да отваря и двата текста."
+            },
+            {
+              "id": "answer-6",
+              "text": "Критериите се измислят едва след предаването."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "За сесията се определят малки междинни продукти. Двете описания имат договорени полета и проверки. Началната навигация трябва да отваря и двата текста."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Подберете информация и пазете източниците",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/topic-2.svg\" alt=\"Основни връзки: Подберете информация и пазете източниците\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Подберете информация и пазете източниците</figcaption></figure>\n<p>Първо запишете нужните полета, после търсете информация за тях. За реален клуб проверете данните с ръководителя му; ако това не е възможно, използвайте ясно обозначени измислени данни за упражнението.</p>\n<p>За външни материали водете регистър: <strong>материал, автор или организация, адрес, дата на преглед, начин на използване и посочени условия</strong>. Използвайте собствени текстове и изображения или материали с подходящо разрешение. Публично достъпно изображение не означава автоматично свободно за използване.</p>\n<p class=\"example\"><strong>Обработка:</strong> превърнете дълго описание в кратък текст с цел, дейности и време. Проверете дали смисълът е запазен. Не измисляйте липсващ час и не представяйте предположение като потвърдена информация.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Подберете информация и пазете източниците",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всяко публично изображение е свободно за всяка употреба."
+            },
+            {
+              "id": "answer-2",
+              "text": "Източникът и условията за използване се записват."
+            },
+            {
+              "id": "answer-3",
+              "text": "Липсващ час се измисля и се представя като реален."
+            },
+            {
+              "id": "answer-4",
+              "text": "Непотвърдената информация се означава ясно."
+            },
+            {
+              "id": "answer-5",
+              "text": "Съкращаването на текст позволява произволна промяна на смисъла."
+            },
+            {
+              "id": "answer-6",
+              "text": "Нужните полета насочват търсенето на информация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Нужните полета насочват търсенето на информация. Източникът и условията за използване се записват. Непотвърдената информация се означава ясно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Разпределете работата и изпълнете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/topic-3.svg\" alt=\"Основни връзки: Разпределете работата и изпълнете\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Разпределете работата и изпълнете</figcaption></figure>\n<ol><li>Прегледайте задачите, предшествениците и договорените роли.</li><li>Един участник подбира данните, втори оформя текстовете, трети подготвя навигацията; друг участник или партньорски екип прави проверка.</li><li>Изберете общи имена и място за файловете, преди да започнете.</li><li>Създайте първи версии и ги запазете като междинни резултати.</li><li>Обсъдете липсващите данни и запишете конкретно следващо действие.</li></ol>\n<p>Можете да използвате текстов редактор и началния HTML документ. Създайте описанията като документи и насочете връзките към тях. Ако имате нужните умения, направете ги като отделни уебстраници.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Разпределете работата и изпълнете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Имената и общото място за файловете се договарят."
+            },
+            {
+              "id": "answer-2",
+              "text": "Навигацията не зависи от действителните имена на документите."
+            },
+            {
+              "id": "answer-3",
+              "text": "Междинните версии са проверими резултати от работата."
+            },
+            {
+              "id": "answer-4",
+              "text": "Липсващите данни не изискват следващо действие."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ролите и предшествениците се преглеждат преди изпълнението."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички участници трябва да редактират един местен файл едновременно без координация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Ролите и предшествениците се преглеждат преди изпълнението. Имената и общото място за файловете се договарят. Междинните версии са проверими резултати от работата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете преди да отчетете „Готово“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/topic-4.svg\" alt=\"Основни връзки: Проверете преди да отчетете „Готово“\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Проверете преди да отчетете „Готово“</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Тест</th><th>Очаквано</th><th>Какво записвате?</th></tr></thead><tbody><tr><td>Отваряне на клуб 1 и 2</td><td>Двете връзки водят към правилните файлове</td><td>Получен резултат и име на версията</td></tr><tr><td>Преглед на полетата</td><td>И в двата текста има всички пет договорени полета</td><td>Липса или потвърждение</td></tr><tr><td>Сравнение с източника</td><td>Денят, часът и мястото не си противоречат</td><td>Кой източник е проверен</td></tr><tr><td>Проба от друг човек</td><td>Той намира часа на посочен клуб без допълнителни указания</td><td>Наблюдавано затруднение или успех</td></tr></tbody></table></div>\n<p>При грешка запишете файл, стъпки и наблюдавано поведение. След корекция повторете същия тест. Не заменяйте получен резултат с очаквания само за да изглежда протоколът завършен.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Проверете преди да отчетете „Готово“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Готово“ се записва преди всяка проверка."
+            },
+            {
+              "id": "answer-2",
+              "text": "След корекция се повтаря същият тест."
+            },
+            {
+              "id": "answer-3",
+              "text": "Името на версията е излишно при записване на тест."
+            },
+            {
+              "id": "answer-4",
+              "text": "Проверяват се връзки, полета и съответствие с източника."
+            },
+            {
+              "id": "answer-5",
+              "text": "Полученият резултат се заменя с очаквания за по-хубав протокол."
+            },
+            {
+              "id": "answer-6",
+              "text": "Друг човек може да изпробва намирането на час."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Проверяват се връзки, полета и съответствие с източника. Друг човек може да изпробва намирането на час. След корекция се повтаря същият тест."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Обновете плана и отчетете напредъка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/topic-5.svg\" alt=\"Основни връзки: Обновете плана и отчетете напредъка\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Обновете плана и отчетете напредъка</figcaption></figure>\n<p>В графика променете статусите според проверените резултати. Ако T02 още чака уточнение, запишете „Блокирано“ или „В работа“ с обяснение. При влияние върху срока актуализирайте оценката и обсъдете новия план.</p>\n<div class=\"example\"><strong>Кратък отчет:</strong><p>„Създадени са две описания v01 и начална страница. Връзките работят. За втория клуб часът още е учебно предположение; Мария ще го уточни с учителя. След това Иван ще обнови текста, а Елена ще повтори проверката.“</p></div>\n<p>Отделете <strong>нов бъдещ риск</strong> от <strong>вече възникнала пречка</strong>. За всяко записано действие определете човек и момент за проверка.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Обновете плана и отчетете напредъка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Действието има отговорник и момент за проверка."
+            },
+            {
+              "id": "answer-2",
+              "text": "Графикът не се преглежда при влияние върху срока."
+            },
+            {
+              "id": "answer-3",
+              "text": "Статусите се обновяват според проверените резултати."
+            },
+            {
+              "id": "answer-4",
+              "text": "Бъдещ риск и вече възникнал проблем са едно и също."
+            },
+            {
+              "id": "answer-5",
+              "text": "Непотвърден час може да е текуща пречка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Новият отчет трябва да скрива оставащото неизвестно."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Статусите се обновяват според проверените резултати. Непотвърден час може да е текуща пречка. Действието има отговорник и момент за проверка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете междинния комплект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Дайте два примерни текста за клубове и план за начална навигация.</strong></p><p>За всеки текст включете цел, участници, ден, час и място с ясно означени измислени данни. Посочете как посетителят ще отваря и двете описания.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: клуб А — програмиране, начинаещи, понеделник 15:00, учебна зала; клуб Б — дизайн, сряда 15:00. Началната страница има отделни ясни връзки. Самопроверка: данните са учебни и двата текста имат всички договорени полета."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проследете източниците",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе регистър за използваните материали.</strong></p><p>За поне три записа дайте материал, автор или организация, адрес или собствен произход, дата на преглед, употреба и основание. Не измисляйте разрешение за чужд материал.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: собствен текст — автор екипът; собствена рисунка — посочен автор; външно изображение — конкретна страница и проверен лиценз. Самопроверка: публичният достъп не се представя като разрешение, а неизвестното е означено за уточняване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Организирайте изпълнението",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Разпределете подбиране на данни, редакция, навигация и проверка.</strong></p><p>За всяко действие посочете резултат, изпълнител и зависимост. Дайте общи имена и версии на файловете. Посочете една възможна липса и действие за уточняване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: данни → описания → навигация → тест; друг участник преглежда текста; текущата версия е ясно означена. Самопроверка: всеки знае кой резултат очаква и редакциите не създават противоречиви окончателни копия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проведете проверки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете четири теста за междинния комплект.</strong></p><p>Включете отваряне на двете описания, полета, сравнение с източника и проба от друг човек. За всеки дайте очакван и наблюдаван или ясно моделиран резултат, версия и следващо действие.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: грешна връзка към втория текст — поправка на href — повторна проба от началното копие. Самопроверка: неуспешният тест остава в историята, а планираното не се описва като действително изпълнено."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Отчетете напредъка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете отчет за готовото, оставащата пречка и личния принос.</strong></p><p>Посочете конкретни версии, статуси и действие с отговорник. Разграничете потвърдени данни, учебно предположение и бъдещ риск. Опишете какво остава за финално приемане.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: две описания v01 и навигация са подготвени; часът за клуб Б е учебен; Мария го уточнява, Иван обновява, Елена проверява. Самопроверка: полезният междинен напредък не се представя като окончателно приет проект."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Може ли междинен продукт да се отчете като полезен напредък?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Може ли междинен продукт да се отчете като полезен напредък?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Да, ако е ясно какво включва, кои проверки са преминали и какво още липсва. Междинна версия не трябва да се представя като окончателно приет проект. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/29-project-work-practice-part-1/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Работната сесия има малки продукти и конкретни критерии.</li><li>Данните и правата за използване се проверяват и проследяват.</li><li>Общата работа изисква ясни файлове, версии и принос.</li><li>Тестът записва действителния резултат и се повтаря след корекция.</li><li>Отчетът различава напредък, текуща пречка и бъдещ риск.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

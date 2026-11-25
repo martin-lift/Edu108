@@ -1,0 +1,449 @@
+{
+  "mission_version": 4,
+  "mission_id": "d3952441-f4fe-4e95-86b5-82f028375590",
+  "mission_content": {
+    "title": "Създаване на формуляр за събиране на данни по проект",
+    "description": "Кои клубове интересуват учениците и в кои дни могат да участват? Ще създадете Google формуляр, ще го изпробвате с примерни данни и ще проверите дали получените отговори помагат за решение.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Създаване на формуляр за събиране на данни по проект",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Кои клубове интересуват учениците и в кои дни могат да участват? Ще създадете Google формуляр, ще го изпробвате с примерни данни и ще проверите дали получените отговори помагат за решение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Определете целта и нужните данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/topic-1.svg\" alt=\"Основни връзки: Определете целта и нужните данни\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Определете целта и нужните данни</figcaption></figure>\n<p><strong>Формуляр</strong> е подреден набор от въпроси за събиране на данни. Той може да служи за анкета, заявка или регистрация. За упражнението използвайте анкета за предпочитания, която не представлява окончателно записване за клуб.</p>\n<p>За създаване е необходим Google акаунт. Използвайте разрешения в училището акаунт. Достъпът на отговарящите зависи от настройките на формуляра и правилата на организацията.</p>\n<div class=\"table-wrap\"><table><caption>Примерен план на формуляра</caption><thead><tr><th>Въпрос</th><th>Тип</th><th>Задължителен?</th><th>За какво служи?</th></tr></thead><tbody>\n<tr><td>Учебен код на участника</td><td>Кратък отговор</td><td>Да</td><td>Различаване на тестовите записи U01, U02, U03</td></tr>\n<tr><td>Кой клуб предпочитате?</td><td>Един избираем отговор</td><td>Да</td><td>Избор между двата клуба</td></tr>\n<tr><td>В кои дни можете да участвате?</td><td>Квадратчета за отметка</td><td>Да</td><td>Възможни са няколко дни</td></tr>\n<tr><td>Кой час е най-удобен?</td><td>Падащ списък</td><td>Да</td><td>Сравними предварително зададени часове</td></tr>\n<tr><td>Колко полезни са описанията?</td><td>Линейна скала 1–5</td><td>Не</td><td>1 — неясни; 5 — много ясни</td></tr>\n<tr><td>Какво още искате да уточним?</td><td>Абзац</td><td>Не</td><td>Свободен коментар</td></tr>\n</tbody></table></div>\n<p>Използвайте само измислени тестови кодове. За тази практика не са нужни имена, телефони или реални имейли. Не приемайте, че кодът сам доказва самоличност или забранява повторно подаване.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Определете целта и нужните данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Типът въпрос се избира според нужните данни."
+            },
+            {
+              "id": "answer-2",
+              "text": "За теста задължително се събират реални имейли и телефони."
+            },
+            {
+              "id": "answer-3",
+              "text": "За точно един клуб е подходящ един избираем отговор."
+            },
+            {
+              "id": "answer-4",
+              "text": "Отметките ограничават избора винаги до една възможност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Учебният код не доказва самоличност или уникално подаване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Анкетата за предпочитания автоматично е окончателна регистрация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Типът въпрос се избира според нужните данни. За точно един клуб е подходящ един избираем отговор. Учебният код не доказва самоличност или уникално подаване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Създайте и редактирайте формуляра",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/topic-2.svg\" alt=\"Основни връзки: Създайте и редактирайте формуляра\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Създайте и редактирайте формуляра</figcaption></figure>\n<ol><li>Отворете <a href=\"https://forms.google.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Google Forms</a> и създайте празен формуляр.</li><li>Дайте заглавие „Клуб Онлайн — учебна анкета“. В описанието запишете целта и че се използват примерни данни.</li><li>Добавете въпросите от таблицата. За всеки изберете подходящ тип и попълнете ясни отговори.</li><li>Включете „Задължителен“ / Required само там, където е посочено.</li><li>За скалата пояснете значението на крайните стойности. За избора на час задайте например 14:00, 15:00 и 16:00.</li><li>Изберете съобщение за потвърждение: „Учебният отговор е получен. Това не е окончателна регистрация.“</li></ol>\n<p>За избор на точно един клуб използвайте един избираем отговор, а не квадратчета. За няколко допустими дни използвайте квадратчета. Типът на въпроса определя какви данни ще можете да анализирате.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Създайте и редактирайте формуляра",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Типът на въпроса не влияе върху анализа на данните."
+            },
+            {
+              "id": "answer-2",
+              "text": "Задължителността се включва според предназначението на въпроса."
+            },
+            {
+              "id": "answer-3",
+              "text": "Заглавието замества описанието на целта."
+            },
+            {
+              "id": "answer-4",
+              "text": "Потвърждението уточнява характера на учебния отговор."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всички въпроси задължително са свободен абзац."
+            },
+            {
+              "id": "answer-6",
+              "text": "За скалата се обясняват крайните стойности."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "За скалата се обясняват крайните стойности. Задължителността се включва според предназначението на въпроса. Потвърждението уточнява характера на учебния отговор."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете настройките и достъпа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/topic-3.svg\" alt=\"Основни връзки: Проверете настройките и достъпа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Проверете настройките и достъпа</figcaption></figure>\n<p>Прегледайте Settings / „Настройки“, включително събирането на имейли и достъпа. За учебните тестове не събирайте имейли, ако училищните правила позволяват тази настройка. Ограничаване до един отговор изисква вход в Google акаунт; не го включвайте механично, ако един човек трябва да изпрати трите тестови записа.</p>\n<p>Използвайте предварителния преглед, за да видите формуляра като участник. Когато е готов за тест, изберете Publish / „Публикуване“, проверете кой може да отговаря и копирайте връзката за попълване. В училищен акаунт някои възможности може да са ограничени.</p>\n<p class=\"note\">Връзката за <strong>попълване</strong> и достъпът за <strong>редактиране</strong> имат различно предназначение. За тестовите участници използвайте достъп за отговарящи. Проверете с разрешен за целта акаунт дали връзката се отваря; съобщение „Нужен е достъп“ може да означава неподходящ акаунт или ограничена аудитория.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Проверете настройките и достъпа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Преди тест се проверява кой може да отговаря."
+            },
+            {
+              "id": "answer-2",
+              "text": "Ограничението до един отговор позволява непременно три подавания от един акаунт."
+            },
+            {
+              "id": "answer-3",
+              "text": "Училищните правила могат да ограничават настройките."
+            },
+            {
+              "id": "answer-4",
+              "text": "Предварителният преглед отменя проверката с разрешен участник."
+            },
+            {
+              "id": "answer-5",
+              "text": "Достъпът за попълване се различава от редакторския достъп."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всеки с връзка за попълване трябва да може да редактира въпросите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Достъпът за попълване се различава от редакторския достъп. Преди тест се проверява кой може да отговаря. Училищните правила могат да ограничават настройките."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Направете три проби",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/topic-4.svg\" alt=\"Основни връзки: Направете три проби\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Направете три проби</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Проба</th><th>Действие</th><th>Очакван резултат</th></tr></thead><tbody><tr><td>Непълен запис</td><td>Опитайте да изпратите без избран клуб</td><td>Формулярът изисква отговор; не приема непълната заявка</td></tr><tr><td>Няколко дни</td><td>За U01 изберете понеделник и сряда</td><td>Записът пази и двата дни</td></tr><tr><td>Нормални записи</td><td>Изпратете общо три пълни отговора с U01, U02 и U03</td><td>В Responses има три тестови подавания</td></tr></tbody></table></div>\n<p>При броенето не включвайте непълния опит, ако той е бил правилно спрян. При грешно подаден допълнителен тест запишете това в протокола и отчетете действителния брой.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Направете три проби",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Допълнителен грешен тест трябва да се прикрие в протокола."
+            },
+            {
+              "id": "answer-2",
+              "text": "Неприетият непълен опит не се брои като пълно подаване."
+            },
+            {
+              "id": "answer-3",
+              "text": "Три пълни теста винаги доказват реалните предпочитания на всички ученици."
+            },
+            {
+              "id": "answer-4",
+              "text": "Непълен задължителен запис трябва да бъде спрян."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всеки опит за изпращане задължително увеличава броя приети отговори."
+            },
+            {
+              "id": "answer-6",
+              "text": "Отговор с две отметки пази двата избрани дни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Непълен задължителен запис трябва да бъде спрян. Отговор с две отметки пази двата избрани дни. Неприетият непълен опит не се брои като пълно подаване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Прегледайте резултатите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/topic-5.svg\" alt=\"Основни връзки: Прегледайте резултатите\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Прегледайте резултатите</figcaption></figure>\n<p>Отворете <strong>Responses / „Отговори“</strong>. Разгледайте обобщението и отделните подавания. По желание свържете с Google Sheets или изтеглете отговорите като CSV за местен анализ. Запишете колко са избрали всеки клуб и кои дни се срещат най-често.</p>\n<p>При въпрос с няколко отметки сборът на изборите може да е по-голям от броя отговори. Три учебни подавания показват дали формулярът работи; те не доказват реалните предпочитания на целия клас.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Прегледайте резултатите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изводът за три учебни подавания се ограничава до тези данни."
+            },
+            {
+              "id": "answer-2",
+              "text": "Тестовите кодове доказват представителност на извадката."
+            },
+            {
+              "id": "answer-3",
+              "text": "Преглеждаме обобщение и отделни подавания."
+            },
+            {
+              "id": "answer-4",
+              "text": "CSV пази всички интерактивни настройки на формуляра."
+            },
+            {
+              "id": "answer-5",
+              "text": "При няколко отметки сборът на изборите може да надхвърли броя хора."
+            },
+            {
+              "id": "answer-6",
+              "text": "Броят отметки винаги е равен на броя подавания."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Преглеждаме обобщение и отделни подавания. При няколко отметки сборът на изборите може да надхвърли броя хора. Изводът за три учебни подавания се ограничава до тези данни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте въпросите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете шест въпроса за учебна анкета за предпочитания.</strong></p><p>За всеки дайте тип, задължителност и цел. Включете учебен код, един клуб, няколко дни, час, скала и свободен коментар. Използвайте само измислени данни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: код — кратък текст; клуб — един избор; дни — отметки; час — списък; полезност — скала 1–5 с пояснения; коментар — абзац. Самопроверка: типът позволява ли нужния брой отговори и всяко поле има ли ясна цел?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Уточнете редакцията",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе заглавие, описание и потвърждение на формуляра.</strong></p><p>Опишете как създавате празен формуляр в разрешения Google Forms акаунт, добавяте типове и Required. Дайте текстове, от които се разбира, че това са учебни предпочитания, а не окончателно записване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „Учебна анкета за клубове“; описание с цел и измислени кодове; потвърждение „Тестовият отговор е получен“. Самопроверка: няма двусмислено обещание за реална регистрация и краищата на скалата са пояснени."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете достъпа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете настройки и проба за достъпа на отговарящите.</strong></p><p>Разграничете редактор и участник. Обяснете събирането на имейли, ограничението до един отговор и нуждата от три учебни подавания. Посочете как ще проверите връзката с разрешен акаунт.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: настройките следват училищните правила; не събираме ненужни реални данни; проверяваме аудиторията и връзката за попълване. Самопроверка: връзката не дава редакторски права и съобщението „Нужен е достъп“ се изследва, а не се заобикаля."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подгответе тестов протокол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете три проби с очакван и примерен или наблюдаван резултат.</strong></p><p>Проверете липсващ клуб, два избрани дни и три пълни подавания U01–U03. Разделете действително изпълнено от планирано. Отчетете и допълнителен тест, ако има такъв.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Очаквано: непълният опит е спрян; U01 пази понеделник и сряда; три нормални записа дават три подавания. Самопроверка: неприетият опит не се брои като четвърти отговор, а моделираният резултат е означен като такъв."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Анализирайте тестовите данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Формулирайте ограничен извод от три примерни подавания.</strong></p><p>Нека U01 избира клуб А и два дни, U02 — клуб Б и един ден, U03 — клуб А и един ден. Дайте брой по клубове, общ брой отметки и обяснете границите на извода.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Клуб А: 2; клуб Б: 1; отметки за дни: 4 при 3 подавания. Самопроверка: данните показват работата на типовете въпроси, а не реалното разпределение на предпочитанията на целия клас."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/27-google-forms-for-project-data/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Целта определя необходимите данни и типовете въпроси.</li><li>Задължителността и ясните отговори правят данните използваеми.</li><li>Достъпът за попълване и редактиране се настройва отделно.</li><li>Пробите проверяват непълен, многовариантен и нормален запис.</li><li>Изводите от тестови данни не се пренасят автоматично към цялата група.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

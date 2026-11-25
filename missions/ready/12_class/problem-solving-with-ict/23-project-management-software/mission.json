@@ -1,0 +1,466 @@
+{
+  "mission_version": 4,
+  "mission_id": "b594afe4-2287-4186-90c4-5e1eceba8206",
+  "mission_content": {
+    "title": "Софтуерни средства, подпомагащи управлението на проекти",
+    "description": "Как разбирате коя задача закъснява, кой я изпълнява и какво блокира следващата? Ще разгледате основните функции на проектните инструменти и ще ги приложите в местна електронна таблица.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Софтуерни средства, подпомагащи управлението на проекти",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Как разбирате коя задача закъснява, кой я изпълнява и какво блокира следващата? Ще разгледате основните функции на проектните инструменти и ще ги приложите в местна електронна таблица.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Инструментът прави плана видим",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/topic-1.svg\" alt=\"Основни връзки: Инструментът прави плана видим\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Инструментът прави плана видим</figcaption></figure>\n<p>Средствата за управление на проекти събират информация за работата на едно място. Те помагат да се виждат <strong>задачи, изпълнители, срокове, зависимости и състояние</strong>. Данните трябва да се актуализират от екипа; програмата не установява сама дали резултатът действително покрива изискванията.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Функция</th><th>Въпрос, на който помага да отговорим</th></tr></thead><tbody><tr><td>Списък със задачи</td><td>Какво остава да се направи?</td></tr><tr><td>Изпълнители и срокове</td><td>Кой работи и до кога?</td></tr><tr><td>Зависимости</td><td>Кой резултат е нужен преди следващата работа?</td></tr><tr><td>Табло по статус</td><td>Какво е планирано, в работа, блокирано или готово?</td></tr><tr><td>График, например Гант</td><td>Кога са разположени дейностите и къде се застъпват?</td></tr><tr><td>Отчет и документация</td><td>Какво се е променило и къде е доказателството за резултата?</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Инструментът прави плана видим",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Инструментът прави задачи, срокове и зависимости видими."
+            },
+            {
+              "id": "answer-2",
+              "text": "Програмата сама знае, че всяка функция е качествена."
+            },
+            {
+              "id": "answer-3",
+              "text": "Данните се актуализират от екипа."
+            },
+            {
+              "id": "answer-4",
+              "text": "Списъкът с имена замества всички зависимости."
+            },
+            {
+              "id": "answer-5",
+              "text": "Готовността се доказва чрез резултат и критерии."
+            },
+            {
+              "id": "answer-6",
+              "text": "Красивият график премахва нуждата от отчет."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Инструментът прави задачи, срокове и зависимости видими. Данните се актуализират от екипа. Готовността се доказва чрез резултат и критерии."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изберете средство според задачата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/topic-2.svg\" alt=\"Основни връзки: Изберете средство според задачата\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Изберете средство според задачата</figcaption></figure>\n<p>Текстовият документ е удобен за задание и протокол. Електронната таблица позволява подреждане, формули, филтри и малък график. Специализираният инструмент може да предоставя допълнителни изгледи, съвместна работа и автоматично преизчисляване на зависимости.</p>\n<p>За нашата практика използвайте <strong>наличния Excel или LibreOffice Calc</strong> с местен файл. Това позволява работа с познат офис пакет. Един местен файл обаче не осигурява автоматично едновременно редактиране и надеждно управление на версии.</p>\n<div class=\"example\"><strong>Избор по условия:</strong> ако екипът трябва да планира шест задачи в един кабинет, таблица е достатъчна. Ако десетки участници редактират от различни места, ще са нужни допълнителни възможности за съгласуване, права и история.</div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Изберете средство според задачата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всеки местен файл осигурява автоматично едновременно редактиране."
+            },
+            {
+              "id": "answer-2",
+              "text": "Условията за съвместна работа влияят върху избора."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всички инструменти имат еднакви възможности."
+            },
+            {
+              "id": "answer-4",
+              "text": "Местният файл изисква организация на версиите."
+            },
+            {
+              "id": "answer-5",
+              "text": "Броят участници няма отношение към координацията."
+            },
+            {
+              "id": "answer-6",
+              "text": "Таблицата е подходяща за малък регистър и изчисления."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Таблицата е подходяща за малък регистър и изчисления. Условията за съвместна работа влияят върху избора. Местният файл изисква организация на версиите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Създайте минимален регистър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/topic-3.svg\" alt=\"Основни връзки: Създайте минимален регистър\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Създайте минимален регистър</figcaption></figure>\n<p>В нова електронна таблица въведете колоните: <strong>ID, Задача, Резултат, Изпълнител, Срок, Предшественик, Статус, Бележка</strong>. В този пример сроковете са учебни дни от началото на проекта.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>ID</th><th>Задача</th><th>Резултат</th><th>Изпълнител</th><th>Срок</th><th>Предшественик</th><th>Статус</th></tr></thead><tbody>\n<tr><td>T01</td><td>Уточняване на информацията</td><td>Приет списък на данните</td><td>Мария</td><td>Ден 1</td><td>Няма</td><td>Готово</td></tr><tr><td>T02</td><td>Подготовка на описания</td><td>Текстове за двата клуба</td><td>Иван</td><td>Ден 3</td><td>T01</td><td>В работа</td></tr><tr><td>T03</td><td>Създаване на страниците</td><td>Пробни страници</td><td>Петър</td><td>Ден 5</td><td>T02</td><td>Планирано</td></tr><tr><td>T04</td><td>Проверка на страниците</td><td>Попълнен протокол</td><td>Елена</td><td>Ден 6</td><td>T03</td><td>Планирано</td></tr>\n</tbody></table></div>\n<p>Всеки ред има устойчив ID. При сортиране премествате целия ред, а връзката „T03 зависи от T02“ остава разбираема. Не използвайте номера на реда като единствено име на задача.</p>\n<ol><li>Включете филтър за целия диапазон с всички колони.</li><li>Покажете само „В работа“. Трябва да остане T02.</li><li>Върнете всички записи. Подредете целите редове по срока.</li><li>За T03 запишете „Блокирано“ и бележка „Чака текстовете от T02“.</li><li>Обяснете как забавяне на T02 влияе на T03 и T04.</li></ol>\n<p class=\"note\">Сортирайте всички колони заедно. Сортиране само на имената или само на сроковете може да свърже задача с чужд изпълнител. В проста таблица връзките и сроковете се проверяват от екипа; те не се преизчисляват сами без подходящи формули.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Създайте минимален регистър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "При сортиране се преместват всички колони на реда заедно."
+            },
+            {
+              "id": "answer-2",
+              "text": "Филтърът изтрива скритите задачи."
+            },
+            {
+              "id": "answer-3",
+              "text": "Филтър „В работа“ показва T02 в примера."
+            },
+            {
+              "id": "answer-4",
+              "text": "Текстът за зависимост винаги преизчислява сроковете без формули."
+            },
+            {
+              "id": "answer-5",
+              "text": "Устойчивото ID пази смисъла на зависимостта при подреждане."
+            },
+            {
+              "id": "answer-6",
+              "text": "Номерът на реда винаги е достатъчно име на задача."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Устойчивото ID пази смисъла на зависимостта при подреждане. При сортиране се преместват всички колони на реда заедно. Филтър „В работа“ показва T02 в примера."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Статус, доказателство и отчет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/topic-4.svg\" alt=\"Основни връзки: Статус, доказателство и отчет\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Статус, доказателство и отчет</figcaption></figure>\n<p>Договорете значенията: <strong>Планирано</strong> — не е започнато; <strong>В работа</strong> — изпълнява се; <strong>Блокирано</strong> — има конкретна пречка; <strong>Готово</strong> — резултатът е проверен по критериите. При „Блокирано“ запишете причината и следващото действие.</p>\n<p>В бележката към готова задача посочете файла или протокола, който показва резултата. Кратък отчет съдържа постигнато, отклонение, влияние и действие. „Всичко върви“ не е полезно, ако липсват проверими данни.</p>\n<p class=\"example\"><strong>Примерен отчет:</strong> „T01 е приета. T02 чака уточнение на часа за втория клуб. Това блокира T03. Мария ще потвърди часа с учителя преди следващата работна сесия.“</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Статус, доказателство и отчет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Всичко върви“ е достатъчен отчет при липсващ резултат."
+            },
+            {
+              "id": "answer-2",
+              "text": "Отчетът посочва постигнато, отклонение, влияние и действие."
+            },
+            {
+              "id": "answer-3",
+              "text": "Доказателствата за готовност са ненужни."
+            },
+            {
+              "id": "answer-4",
+              "text": "Статусът „Блокирано“ се допълва с пречка и действие."
+            },
+            {
+              "id": "answer-5",
+              "text": "Миналият срок доказва завършена задача."
+            },
+            {
+              "id": "answer-6",
+              "text": "„Готово“ изисква проверен резултат."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Статусът „Блокирано“ се допълва с пречка и действие. „Готово“ изисква проверен резултат. Отчетът посочва постигнато, отклонение, влияние и действие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Файлове и условия за използване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/topic-5.svg\" alt=\"Основни връзки: Файлове и условия за използване\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Файлове и условия за използване</figcaption></figure>\n<p>Запишете работния файл като <code>.xlsx</code> или <code>.ods</code>. Тези формати пазят таблици, формули и оформление според поддържаните възможности на програмата. <code>.csv</code> съдържа таблични текстови стойности, но не пази целия работен файл с формули и оформление. <code>.pdf</code> е удобен за четим отчет, а не за продължаване на изчисленията.</p>\n<p>Преди избор на нов инструмент проверете: работи ли на наличните устройства, нужен ли е интернет, какви са условията за достъп, как се запазват данните и може ли да изнесете резултата. Не приемайте, че всички платформи поддържат едни и същи формати.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Файлове и условия за използване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Преди избор проверяваме достъп, устройства и износ на данни."
+            },
+            {
+              "id": "answer-2",
+              "text": "Наличието на интернет е без значение за онлайн инструмент."
+            },
+            {
+              "id": "answer-3",
+              "text": "XLSX и ODS могат да пазят работни формули и оформление."
+            },
+            {
+              "id": "answer-4",
+              "text": "PDF е пълен заместител на редактируемите изчисления."
+            },
+            {
+              "id": "answer-5",
+              "text": "CSV не пази цялата работна книга с нейното оформление."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички платформи поддържат еднакви формати."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "XLSX и ODS могат да пазят работни формули и оформление. CSV не пази цялата работна книга с нейното оформление. Преди избор проверяваме достъп, устройства и износ на данни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изберете средство",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обосновете инструмент за екип с шест задачи и наличен офис пакет.</strong></p><p>Посочете нужните функции и сравнете текстов документ, таблица и специализиран инструмент. Отчетете местна или едновременна работа и как ще се пази текущата версия.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: таблица е достатъчна за шест задачи, срокове и филтри; документът пази подробното задание. Един човек обединява местните промени. Самопроверка: изборът покрива ли нуждите без предположение за несъществуваща автоматизация?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Създайте регистър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете шест задачи с устойчиви ID и основните им полета.</strong></p><p>Използвайте списък „ID — задача — резултат — изпълнител — срок — предшественик — статус — бележка“. Включете поне две зависимости и две собствени задачи към примерните.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: T01 изисквания; T02 текстове след T01; T03 страници след T02; T04 тест след T03; T05 поправки; T06 предаване. Самопроверка: всеки ред съдържа ли проверим резултат и връзките използват ли ID? Допустим е друг логичен план."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете филтриране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Посочете кои записи остават видими при два последователни филтъра.</strong></p><p>Изберете изпълнител и статус „Блокирано“ от вашия регистър. Запишете видимите ID и как ще върнете всички записи. Обяснете как се различава това от сортиране.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: след филтър Петър остават неговите задачи; допълнителният филтър „Блокирано“ оставя само тези от тях с пречка. Изчистването на филтрите връща всички. Самопроверка: филтърът не изтрива данни и подреждането не смесва колоните."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Реагирайте на пречка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Добавете конкретна пречка и нейното влияние върху зависими задачи.</strong></p><p>Посочете липсващ резултат, блокирана работа, отговорник, следващо действие и момент за преглед. Не отбелязвайте задачата за готова само по планова дата.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: T02 чака потвърден час и блокира T03; Мария уточнява данните преди следващата сесия, после се проверява новият срок. Самопроверка: причината и действието са конкретни, а статусът отразява наблюдаваното."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подгответе отчет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете отчет от три изречения и посочете подходящ работен формат.</strong></p><p>Включете доказано готово, отклонение с влияние и действие с отговорник. Обяснете защо пазите формулите в XLSX или ODS и кога CSV или PDF са полезни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: T01 е приета по протокол. T02 чака данни и отлага T03. Мария ги потвърждава до ден 3 и екипът преглежда графика. Самопроверка: форматът за износ не се приема за пълен заместител на работната книга, а броят готови задачи не се превръща автоматично в процент труд."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Четири готови задачи от шест означават ли 67% завършен проект?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Четири готови задачи от шест означават ли 67% завършен проект?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Това е около 67% от броя задачи. Задачите могат да са с различен размер, затова процентът не доказва същия дял изпълнена работа или постигната стойност. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/23-project-management-software/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Изборът на средство следва задачата и условията.</li><li>Регистърът свързва ID, резултат, отговорник, срок и зависимост.</li><li>Филтрирането скрива временно, а сортирането мести цели записи.</li><li>Статусът се подкрепя с конкретно доказателство.</li><li>Форматът и версиите определят как резултатът се запазва и предава.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

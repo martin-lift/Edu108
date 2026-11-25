@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-statistical-functions-full-20261125",
+  "mission_content": {
+    "title": "Функции за обработка на статистически данни — пълна мисия",
+    "description": "Средна стойност, медиана, крайни стойности, условно броене и извадково стандартно отклонение.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Функции за обработка на статистически данни",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Средна стойност, медиана, крайни стойности, условно броене и извадково стандартно отклонение.</p><p>Изпълнете всички седем задачи в една работна книга и запазете резултатите от всяка задача.</p><p>Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/20-statistical-functions/20-statistical-functions-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтеглянето, отворете него.</li><li>Отворете <strong>20-statistical-functions-clean.xlsx</strong> с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Работният файл съдържа само данни и места за резултати. Всички задачи и обяснения са тук, в мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Средна стойност на Тест 1",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B2</td><td><code>=AVERAGE(&#x27;Резултати&#x27;!B2:B13)</code></td></tr></table><p>AVERAGE събира стойностите и ги дели на броя им.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B2 = 79.33.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Медиана на Тест 1",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B3</td><td><code>=MEDIAN(&#x27;Резултати&#x27;!B2:B13)</code></td></tr></table><p>При 12 стойности медианата е средното аритметично на двете централни след подреждане. Не е нужно да сортирате източника.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B3 = 79.5.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Максимум и минимум на Тест 2",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B4</td><td><code>=MAX(&#x27;Резултати&#x27;!C2:C13)</code></td></tr><tr><td>B5</td><td><code>=MIN(&#x27;Резултати&#x27;!C2:C13)</code></td></tr></table><p>MAX намира най-високия резултат, а MIN — най-ниския.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B4 = 95; B5 = 63.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Брой резултати поне 80",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B6</td><td><code>=COUNTIF(&#x27;Резултати&#x27;!D2:D13;&quot;&gt;=80&quot;)</code></td></tr></table><p>Условието включва и точно 80 точки.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B6 = 7.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Извадково стандартно отклонение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B7</td><td><code>=STDEV.S(&#x27;Резултати&#x27;!B2:B13)</code></td></tr></table><p>STDEV.S използва извадка и делител n−1. Ако данните са цялата разглеждана съвкупност, съответната функция е STDEV.P. Тук упражняваме извадковия показател.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B7 = 12.95.</p><p>В B11 обяснете с едно изречение какво показва полученото отклонение около средния резултат. Измерва се в точки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Отсъствия спрямо средната стойност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong> въведете:</p><table><tr><td>B8</td><td><code>=AVERAGE(&#x27;Резултати&#x27;!E2:E13)</code></td></tr><tr><td>B9</td><td><code>=COUNTIF(&#x27;Резултати&#x27;!E2:E13;&quot;&gt;&quot;&amp;B8)</code></td></tr><tr><td>B10</td><td><code>=COUNTIF(&#x27;Резултати&#x27;!E2:E13;&quot;&lt;&quot;&amp;B8)</code></td></tr></table><p>Строгите сравнения > и < не включват стойности, равни на средната.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> B8 = 3.33; B9 = 5; B10 = 7.</p><p>В B12 сравнете броя ученици над и под средните отсъствия, като посочите получените числа.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Показатели за трите теста",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Обобщение</strong> попълнете B2:B6 със следните формули и после копирайте целия диапазон надясно до D6:</p><table><tr><td>B2</td><td><code>=AVERAGE(&#x27;Резултати&#x27;!B2:B13)</code></td></tr><tr><td>B3</td><td><code>=MEDIAN(&#x27;Резултати&#x27;!B2:B13)</code></td></tr><tr><td>B4</td><td><code>=MIN(&#x27;Резултати&#x27;!B2:B13)</code></td></tr><tr><td>B5</td><td><code>=MAX(&#x27;Резултати&#x27;!B2:B13)</code></td></tr><tr><td>B6</td><td><code>=STDEV.S(&#x27;Резултати&#x27;!B2:B13)</code></td></tr></table><p>Проверете, че колони B, C и D сочат съответно към Тест 1, Тест 2 и Тест 3. В A9 напишете кой тест има най-висока средна стойност и кой — най-малко извадково стандартно отклонение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>Изберете File (Файл) → Save As (Запиши като). В Excel при нужда натиснете Browse (Преглед).</li><li>Изберете Documents (Документи), въведете <strong>20-full-Ime-Familia.xlsx</strong>. В Calc потвърдете запазването в избрания Excel формат, ако програмата попита. Заменете Ime-Familia с вашето име и фамилия.</li><li>Запишете файла. Затворете и отворете отново същия файл в същата програма. Проверете резултатите от задачите и запазете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане във файла:</strong> Три листа: Резултати, Показатели и Обобщение. Всички показатели, таблица за трите теста и писмените обяснения и сравнения.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>Отворете Documents (Документи) и изберете записания файл с вашето име: <strong>20-full-Ime-Familia.xlsx</strong>.</li><li>Проверете, че сте избрали завършената работна книга, и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-financial-functions-short-20261125",
+  "mission_content": {
+    "title": "Функции за обработка на финансови данни — кратка мисия",
+    "description": "Месечни вноски, лихва и погасена главница с PMT, IPMT и PPMT.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Функции за обработка на финансови данни",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Месечни вноски, лихва и погасена главница с PMT, IPMT и PPMT.</p><p>Тази кратка мисия има една задача. </p><p>Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/19-financial-functions/short/19-financial-functions-short-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтеглянето, отворете него.</li><li>Отворете <strong>19-financial-functions-short-clean.xlsx</strong> с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Работният файл съдържа само данни и места за резултати. Всички задачи и обяснения са тук, в мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Изчислете една месечна вноска",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Кредит</strong> попълнете само <strong>D2</strong> с <code>=PMT(B2;C2;-A2)</code>. Натиснете Enter.</p><p>Месечната лихва и броят месеци са вече подготвени. Използваме -A2, за да получим положителна вноска. Плащанията са в края на месеца, при постоянна лихва и без такси.</p><p>Формулите са с английски имена на функциите и точка и запетая между аргументите. Ако програмата очаква запетаи, заменете разделителите. За препратка към друг лист Excel използва <code>!</code>, а Calc може да показва <code>.</code>. При нужда изберете диапазона с мишката, вместо да го изписвате.</p><p><strong>Проверка:</strong> 531,85 лв.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>Изберете File (Файл) → Save As (Запиши като). В Excel при нужда натиснете Browse (Преглед).</li><li>Изберете Documents (Документи), въведете <strong>19-short-Ime-Familia.xlsx</strong>. В Calc потвърдете запазването в избрания Excel формат, ако програмата попита. Заменете Ime-Familia с вашето име и фамилия.</li><li>Запишете файла. Затворете и отворете отново същия файл в същата програма. Проверете резултатите от задачите и запазете с Ctrl+S.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>Отворете Documents (Документи) и изберете записания файл с вашето име: <strong>19-short-Ime-Familia.xlsx</strong>.</li><li>Проверете, че сте избрали завършената работна книга, и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

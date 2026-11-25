@@ -1,0 +1,124 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-spreadsheets-creation-part2-20261125",
+  "mission_content": {
+    "title": "Електронни таблици — създаване, част 2",
+    "description": "Четири задачи в една работна книга: оформление на заглавния ред и ширините на колоните, числови формати, копиране на формулата за приход и средна единична цена.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Електронни таблици — създаване, част 2",
+    "content_format": "html",
+    "persistent_text": "Изпълнете четирите задачи в един файл. Работете с Excel или LibreOffice Calc. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>В тази част ще направите таблицата по-четима и ще попълните изчисленията в нея. Ще научите как да <strong>оформите заглавията</strong>, да <strong>показвате числата с два знака след десетичния разделител</strong>, да <strong>копирате формула</strong> и да <strong>изчислите средна стойност</strong>.</p><p>Ще изпълните <strong>четири задачи в един файл</strong> с Microsoft Excel или LibreOffice Calc. Накрая ще запишете и предадете работата си.</p><p>След всяка завършена стъпка натискайте <strong>„Напред“</strong>. Можете да се връщате назад, за да препрочитате указанията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "open-file",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файлове, изтеглени от интернет. Браузърът обикновено ги записва там.</p><ol><li>Натиснете <a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/processing-of-socio-economic-information/spreadsheets-creation-part-2/sales-part-2.xlsx\"><strong>Изтеглете файла „Продажби — част 2“ (.xlsx)</strong></a>. Ако се появи прозорец за записване, изберете <strong>Downloads (Изтегляния)</strong>.</li><li>Натиснете <strong>Windows + E</strong>, за да отворите <strong>File Explorer (Файлов мениджър)</strong>. В списъка вляво изберете <strong>Downloads (Изтегляния)</strong>.</li><li>Отворете <strong>sales-part-2.xlsx</strong> с двойно щракване. Ако Windows попита с коя програма, изберете <strong>Excel</strong> или <strong>LibreOffice Calc</strong>.</li><li>В Excel натиснете <strong>„Разрешаване на редактирането“ (Enable Editing)</strong>, ако се появи такава лента.</li></ol><p>Файлът има един лист — <strong>„Продажби“</strong>. В него има осем продукта, готови суми на ред 10 и място за средната цена в <strong>D12</strong>. Колоната „Приход“ е започната само за първия продукт. Докато попълните останалите формули, общият приход в E10 е <strong>120</strong>.</p><p class=\"note\">Работете в същия файл през всички задачи. Всяка следваща задача добавя към вече направеното.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "format-header",
+        "step_content": {
+          "type": "information",
+          "title": "Задача 1. Оформете заглавния ред и колоните",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Заглавията показват какви данни има във всяка колона. Ще ги направите <strong>удебелени</strong> и ще нагласите ширините на колоните така, че текстът да се вижда целият.</p><p><strong>Как се маркира диапазон:</strong> полето за име е вляво от лентата за формули, над таблицата. Обикновено показва адрес като A1. Щракнете в него, въведете <code>A1:E1</code> и натиснете <strong>Enter</strong>. Така маркирате петте заглавия на ред 1.</p><ol><li>Маркирайте <strong>A1:E1</strong> по описания начин.</li><li>Натиснете <strong>Ctrl + B</strong>, за да удебелите заглавията.</li><li>Щракнете върху буквата <strong>A</strong> над първата колона и, със задържан ляв бутон на мишката, плъзнете до буквата <strong>E</strong>. Така избирате петте колони.</li><li>Поставете показалеца върху границата между буквите <strong>E</strong> и <strong>F</strong>, горе над таблицата. Когато се появи двупосочна хоризонтална стрелка, щракнете <strong>два пъти</strong>. Програмата наглася ширините на избраните колони според съдържанието им.</li></ol><p>Действията са еднакви в Excel и LibreOffice Calc.</p><p class=\"note\"><strong>Проверка:</strong> петте заглавия са удебелени, а имената на продуктите, категориите и надписът „Средна единична цена“ се виждат изцяло.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "format-numbers",
+        "step_content": {
+          "type": "information",
+          "title": "Задача 2. Покажете цените и приходите с два знака",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Числовият формат определя <strong>как изглежда числото</strong>. Например стойността 4,8 може да се показва като 4,80. Форматирането не променя записаната стойност.</p><ol><li>В полето за име въведете <code>D2:E10</code> и натиснете <strong>Enter</strong>. Избирате единичните цени, приходите и общия приход.</li><li>Натиснете <strong>Ctrl + 1</strong>, за да отворите прозореца за форматиране на клетки.</li></ol><p><strong>В Excel:</strong> отворете раздел <strong>Number (Число)</strong>, изберете категория <strong>Number (Число)</strong> и задайте <strong>Decimal places (Десетични знаци): 2</strong>. Потвърдете с <strong>OK</strong>.</p><p><strong>В LibreOffice Calc:</strong> отворете раздел <strong>Numbers (Числа)</strong>, изберете категория <strong>Number (Число)</strong> и задайте <strong>Decimal places (Десетични знаци): 2</strong>. Потвърдете с <strong>OK</strong>.</p><p class=\"note\"><strong>Проверка:</strong> D2 показва <strong>4,80</strong>, D5 — <strong>52,00</strong>, а E2 — <strong>120,00</strong>. При английски настройки може да виждате 4.80, 52.00 и 120.00. Празните клетки остават празни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "copy-formula",
+        "step_content": {
+          "type": "information",
+          "title": "Задача 3. Проверете и копирайте формулата за приход",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Приход = количество × единична цена.</strong> За тетрадките това е 25 × 4,80 = <strong>120,00</strong>. В E2 формулата е <code>=C2*D2</code>, където звездичката <code>*</code> означава умножение.</p><p>Адресите C2 и D2 са <strong>относителни</strong>: при копиране на следващия ред те стават C3 и D3. Така всеки приход се изчислява с количеството и цената на съответния продукт.</p><ol><li>Щракнете върху <strong>E2</strong>. В лентата за формули над таблицата проверете, че е записано <code>=C2*D2</code>.</li><li>В полето за име въведете <code>E2:E9</code> и натиснете <strong>Enter</strong>. Диапазонът включва готовата формула и седемте празни клетки под нея.</li><li>Натиснете <strong>Ctrl + D</strong>. Командата копира формулата от горната клетка надолу в избрания диапазон. Работи и в Excel, и в LibreOffice Calc.</li><li>Щракнете върху <strong>E3</strong>: в лентата за формули трябва да виждате <code>=C3*D3</code>. В <strong>E9</strong> формулата трябва да е <code>=C9*D9</code>.</li></ol><table><thead><tr><th>Клетка</th><th>Очакван резултат</th></tr></thead><tbody><tr><td>E3 — химикали</td><td>88,00</td></tr><tr><td>E8 — хартия A4</td><td>187,50</td></tr><tr><td>E9 — тонер</td><td>380,00</td></tr><tr><td>E10 — общ приход</td><td><strong>1771,50</strong></td></tr></tbody></table><p class=\"note\">Сумата в E10 се обновява автоматично, защото формулата <code>=SUM(E2:E9)</code> вече е подготвена. Копирайте само до <strong>E9</strong>, за да запазите сумата на ред 10.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "average-price",
+        "step_content": {
+          "type": "information",
+          "title": "Задача 4. Изчислете средната единична цена",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Функцията <code>AVERAGE</code> намира <strong>средната аритметична стойност</strong>: събира числата и разделя сбора на техния брой. В нашата таблица всяка от осемте единични цени участва веднъж.</p><ol><li>Щракнете върху жълтата клетка <strong>D12</strong>, вдясно от надписа „Средна единична цена“.</li><li>Въведете <code>=AVERAGE(D2:D9)</code> и натиснете <strong>Enter</strong>.</li><li>Изберете отново <strong>D12</strong> и натиснете <strong>Ctrl + 1</strong>. Както в задача 2, изберете числов формат с <strong>2 десетични знака</strong> и потвърдете с <strong>OK</strong>.</li></ol><p>Формулата е еднаква в Excel и LibreOffice Calc.</p><p class=\"note\"><strong>Проверка:</strong> резултатът е <strong>29,19</strong> при показване с два знака. Изчислената стойност е 29,1875 — програмата само я показва закръглена. Не включвайте ред 10 в диапазона за средната цена.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "save-file",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете и запишете готовия файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Проверете дали всички резултати са запазени в лист <strong>„Продажби“</strong>:</p><ul><li>Заглавията A1:E1 са удебелени, а колоните показват целия текст.</li><li>Цените и приходите са с два десетични знака.</li><li>В E2:E9 има осем формули за приход; общият приход в E10 е <strong>1771,50</strong>.</li><li>Общото количество в C10 е <strong>138</strong>, а средната единична цена в D12 се показва като <strong>29,19</strong>.</li></ul><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Запишете готовата таблица там, за да я намерите при предаването.</p><ol><li>В Excel изберете <strong>Файл → Запиши като (File → Save As)</strong>, а при необходимост — <strong>Този компютър → Преглед (This PC → Browse)</strong>. В LibreOffice Calc изберете <strong>Файл → Записване като (File → Save As)</strong>.</li><li>Изберете <strong>Documents (Документи)</strong> и име <strong>Продажби-част-2-Име-Фамилия.xlsx</strong>, като замените „Име-Фамилия“ със своите имена.</li><li>Запазете формата <strong>.xlsx</strong>. Ако LibreOffice попита, потвърдете <strong>„Използване на Excel 2007–365“ (Use Excel 2007–365 Format)</strong>.</li><li>Затворете файла. Натиснете <strong>Windows + E</strong>, изберете <strong>Documents (Документи)</strong> и отворете записания файл с двойно щракване. Проверете оформлението и трите резултата: <strong>138</strong>, <strong>1771,50</strong> и <strong>29,19</strong>.</li></ol><p>Затворете файла и се върнете в мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте готовия файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:820px;margin:auto;background:#fff;padding:26px;border-radius:14px}p{margin:0 0 16px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{font-family:Consolas,monospace;background:#eeebf7;padding:3px 7px;border-radius:4px}table{border-collapse:collapse;width:100%;margin:18px 0}th,td{padding:10px;border:1px solid #ddd7eb;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p>Предайте <strong>един .xlsx файл с резултатите от четирите задачи</strong>.</p><ol><li>Натиснете бутона <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>Изберете папка <strong>Documents (Документи)</strong>. Намерете <strong>Продажби-част-2-Име-Фамилия.xlsx</strong> със своите имена и натиснете <strong>„Отвори“ (Open)</strong>.</li><li>Проверете дали се показва името на правилния файл.</li><li>Приключете мисията с бутона на Student108 за завършване.</li></ol><p>Готовият файл трябва да съдържа оформената таблица, формулите за приход, общите суми и средната единична цена.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

@@ -1,6 +1,6 @@
 {
   "mission_version": 4,
-  "mission_id": "software-product-lifecycle-12-20261125",
+  "mission_id": "99b81636-0802-48a9-a21a-68bb401bc332",
   "mission_content": {
     "title": "Жизнен цикъл на софтуерния продукт",
     "description": "Цялостният път от идеята до края на употребата; шестфазен учебен модел, повторения, внедряване, поддръжка и замяна. Пет последователни практически задачи и три самопроверки с готова обратна връзка.",
@@ -967,5 +967,6 @@
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true
-  }
+  },
+  "next_mission_id": "e8205807-8f70-4584-a773-ffc1b68fc09b"
 }

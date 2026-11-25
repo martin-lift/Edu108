@@ -1,6 +1,6 @@
 {
   "mission_version": 4,
-  "mission_id": "project-planning-quality-12-20261125",
+  "mission_id": "e8205807-8f70-4584-a773-ffc1b68fc09b",
   "mission_content": {
     "title": "Планиране на проект и осигуряване на качество на софтуера",
     "description": "План, работни пакети, зависимости, ресурси, график и показатели; осигуряване и контрол на качеството с конкретни проверки. Пет практически задачи и три самопроверки с готова обратна връзка.",
@@ -1063,5 +1063,6 @@
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true
-  }
+  },
+  "next_mission_id": "7e7e62c5-94bd-46c5-b6ef-5ece3a88e3d8"
 }

@@ -445,5 +445,6 @@
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true
-  }
+  },
+  "next_mission_id": "f0f383ef-d0f1-4e17-9e9e-fdd42c0d0e21"
 }

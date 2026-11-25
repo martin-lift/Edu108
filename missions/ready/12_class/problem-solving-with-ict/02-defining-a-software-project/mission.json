@@ -1,6 +1,6 @@
 {
   "mission_version": 4,
-  "mission_id": "software-project-definition-12-20261125-rebuilt",
+  "mission_id": "1113ca88-85e4-48f4-86a3-3e3101797523",
   "mission_content": {
     "title": "Основни етапи в софтуерен проект - дефиниране",
     "description": "Общи понятия за софтуерните проекти: проект, продукт, текуща дейност, характеристики, дефиниране, участници и организиране на работата. Развит пример и пет практически задачи с готова обратна връзка.",
@@ -889,5 +889,6 @@
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true
-  }
+  },
+  "next_mission_id": "99b81636-0802-48a9-a21a-68bb401bc332"
 }

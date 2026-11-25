@@ -15,3 +15,14 @@
 | Урок | Мисия |
 |---|---|
 | 3 | [Планиране на уеб сайт](03-website-planning/mission.json) |
+| 4 | [Планиране на уеб сайт — упражнение](04-website-planning-practice/mission.json) |
+| 5 | [Избор на име и регистриране на уеб сайт](05-domain-name-and-web-hosting/mission.json) |
+| 6 | [Проектиране и графичен дизайн на уеб сайт](06-web-design-and-site-structure/mission.json) |
+| 7 | [Проектиране на уеб страница](07-web-page-design/mission.json) |
+| 8 | [Създаване на графичен модел на уеб страница (mockup)](08-web-page-mockup/mission.json) |
+| 9 | [Софтуер за създаване и избор на цветови схеми](09-color-scheme-software/mission.json) |
+| 10 | [Стандарти в уеб дизайна и основни уеб технологии](10-web-standards-and-technologies/mission.json) |
+| 11 | [Специализирани софтуерни средства за създаване на уеб сайтове](11-specialized-web-editors/mission.json) |
+| 12 | [Създаване на графичен модел на уеб страница — упражнение](12-web-page-mockup-practice/mission.json) |
+
+Мисиите са свързани в реда на уроците. Уроците без готова мисия и контролните се пропускат.

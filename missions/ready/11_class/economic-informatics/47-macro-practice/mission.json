@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "economic11-macro-practice-full-20261125",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "mission_content": {
+    "title": "Макроси – упражнение — пълна мисия",
+    "description": "Макроси – упражнение",
+    "class_name": "11 клас",
+    "subject": "Икономическа информатика",
+    "category": "Електронни таблици",
+    "lesson": "Макроси – упражнение",
+    "content_format": "html",
+    "persistent_text": "Запишете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използвайте настолния Excel или LibreOffice Calc и останете в същата програма за записа и проверката. Excel за уеб не създава и не изпълнява VBA макроси. Excel записва VBA в .xlsm; Calc записва LibreOffice Basic в .ods. Това са различни технологии и не разчитаме на прехвърляне на записания код между програмите.</p><p>Абсолютният макрос използва записан адрес. Относителният работи спрямо активната позиция. Ще проверите разликата върху два блока и ще опишете границите на повторението.</p><p>Пълната мисия следва всички практически задачи на урока, подредени в 7 стъпки. Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни и измислени.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/11_class/economic-informatics/47-macro-practice/47-macro-practice-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено ги записва там.</p><ol><li>Натиснете Windows + E и отворете File Explorer (Файлов мениджър) → Downloads (Изтегляния), или избраното от вас място.</li><li>Отворете 47-macro-practice-clean.xlsx в Excel или Calc. Ако Excel покаже Enable Editing (Разрешаване на редактирането), натиснете го.</li></ol><p>Файлът съдържа само данни, заглавия и места за резултатите. Жълтите клетки са за работа. Условията и обясненията са тук.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Запазете собствено копие с макроси",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използвайте настолния Excel или LibreOffice Calc и останете в същата програма за записа и проверката. Excel за уеб не създава и не изпълнява VBA макроси. Excel записва VBA в .xlsm; Calc записва LibreOffice Basic в .ods. Това са различни технологии и не разчитаме на прехвърляне на записания код между програмите.</p><p>Excel: 47-full-Ime-Familia.xlsm, Excel Macro-Enabled Workbook. Calc: 47-full-Ime-Familia.ods, ODF Spreadsheet. Записвайте и тествайте само в това копие.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете абсолютен макрос",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Excel:</strong> File → Options → Customize Ribbon → включете Developer. <strong>Calc:</strong> ако Tools → Macros → Record Macro липсва, Tools → Options → LibreOffice → Advanced → Enable macro recording. Използвайте само собствените макроси в учебното копие; началният файл няма макроси.</p><p><strong>Excel:</strong> в активния учебен лист изключете Developer → Use Relative References за абсолютния запис. Developer → Record Macro, име <strong>HeaderAbsolute</strong>, Store macro in = This Workbook, без клавишна комбинация. <strong>Calc:</strong> Tools → Macros → Record Macro; името и мястото се избират след спиране. Не превключвайте към други документи или листове по време на записа.</p><p>По време на записа изберете A1:P1 чрез полето за име и приложете Bold и Wrap Text. Това записва фиксираната област на активния лист.</p><p><strong>Excel:</strong> Developer → Stop Recording. <strong>Calc:</strong> Stop Recording → в Save macro in изберете самия текущ документ, а не My Macros. В него Standard → създайте модул при нужда, име на макроса HeaderAbsolute → Save. Записът трябва да се съхрани в предавания файл.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Подгответе два еднакви блока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Създайте лист „Блокове“ с бутона +. В A1:C4 въведете таблица: заглавия Продукт, Количество, Цена EUR; Тетрадка, 5, 4,5; Папка, 20, 6; Химикал, 12, 2,4. Копирайте я в A7:C10. Заглавията трябва първоначално да са без получер и без пренасяне, за да се вижда ефектът на макроса.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Създайте относителен макрос",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Excel:</strong> преди запис изберете Блокове!A1. Включете Developer → Use Relative References → Record Macro, име HeaderRelative, This Workbook. С клавиатурата задръжте Shift и натиснете Right два пъти, за да изберете трите клетки от текущата позиция. Задайте Bold и Wrap Text и спрете записа. По време на относителния запис не избирайте фиксиран адрес чрез полето за име.</p><p><strong>Calc:</strong> няма същия Excel превключвател за относителен VBA запис. За същата учебна цел използвайте кратък Basic макрос, който взема началната позиция от избраната клетка. Tools → Macros → Organize Macros → Basic → текущият документ → Standard → модул → Edit. Въведете следния макрос в модула и запазете в документа:</p><pre style=\"white-space:pre-wrap\"><code>Sub HeaderRelative\n  Dim a As Variant, s As Object, h As Object\n  a = ThisComponent.CurrentSelection.getRangeAddress()\n  s = ThisComponent.Sheets.getByIndex(a.Sheet)\n  h = s.getCellRangeByPosition(a.StartColumn, a.StartRow, a.StartColumn + 2, a.StartRow)\n  h.CharWeight = 150\n  h.IsTextWrapped = True\nEnd Sub</code></pre><p>Изберете една клетка, преди да го изпълнявате. Кодът форматира три клетки на същия ред, започвайки от текущата позиция. При нужда изпълнете го от A1, за да оформите първото заглавие, както при записа в Excel.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Изпълнете от втория блок",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Изберете точно A7, а не целия диапазон, и изпълнете HeaderRelative.</p><p>За изпълнение: Excel → Developer → Macros → HeaderRelative → Run; Calc → Tools → Macros → Run Macro → текущият документ → Standard → модулът → HeaderRelative → Run. Уверете се, че е активен правилният лист.</p><p><strong>Проверка:</strong> Форматират се A7:C7 — заглавието на втория блок. Данните на редове 8–10 остават същите.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сравнете с абсолютния адрес",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В Блокове изберете F7 и изпълнете HeaderAbsolute. Проверете коя област се променя. Ако записът не съдържа фиксирано преминаване към лист Продажби, той ще приложи записания A1:P1 върху активния лист Блокове, независимо от F7.</p><p>За изпълнение: Excel → Developer → Macros → HeaderAbsolute → Run; Calc → Tools → Macros → Run Macro → текущият документ → Standard → модулът → HeaderAbsolute → Run. Уверете се, че е активен правилният лист.</p><p><strong>Проверка:</strong> Абсолютният адрес е A1:P1, а не областта до активната F7. Относителният пример от A7 е A7:C7.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете правилата за повторение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В Блокове!E2:E4 запишете: в E2 — работим върху копие и първо проверяваме активния лист; в E3 — HeaderAbsolute използва фиксиран A1:P1, HeaderRelative — три клетки от текущата позиция; в E4 — размерът не се разширява автоматично при нова таблица и Undo може да не възстанови изпълненото от макрос. Проверете, че и двата макроса са в самия документ и че количествата и цените в двата блока са запазени.</p><p><a href=\"https://support.microsoft.com/en-us/excel/automate-tasks-with-the-macro-recorder\">Excel: запис на макрос</a> · <a href=\"https://help.libreoffice.org/latest/en-US/text/shared/guide/macro_recording.html\">Calc: запис и ограничения</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за личните ви документи и работни файлове. Използвайте я, за да намирате завършената работа.</p><ol><li>File → Save As (Запиши като).</li><li><strong>Excel:</strong> Documents → 47-full-Ime-Familia.xlsm; формат Excel Macro-Enabled Workbook (.xlsm). <strong>Calc:</strong> Documents → 47-full-Ime-Familia.ods; формат ODF Spreadsheet (.ods). Заменете Ime-Familia с вашето име и фамилия.</li><li>Използвайте собствения формат на програмата, за да запазите макросите. Предава се само един файл, според използваната програма.</li><li>Запишете, затворете и отворете отново същия файл в същата програма. Проверете че собствените ви макроси са налични в книгата, а не само в личната библиотека. Запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане:</strong> Макроси HeaderAbsolute и HeaderRelative в документа; Продажби и Блокове с двата еднакви блока, изпълнените проверки и бележки E2:E4. Предава се .xlsm от Excel или .ods от Calc.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong>.</li><li>От Documents (Документи) изберете готовия <strong>47-full-Ime-Familia.xlsm</strong> от Excel или <strong>47-full-Ime-Familia.ods</strong> от Calc с вашето име.</li><li>Проверете избора и предайте само завършения файл.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  }
+}

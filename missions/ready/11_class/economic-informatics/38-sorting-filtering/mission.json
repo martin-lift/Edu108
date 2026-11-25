@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "economic11-sorting-filtering-full-20261125",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "mission_content": {
+    "title": "Сортиране и филтриране – упражнение — пълна мисия",
+    "description": "Сортиране и филтриране – упражнение",
+    "class_name": "11 клас",
+    "subject": "Икономическа информатика",
+    "category": "Електронни таблици",
+    "lesson": "Сортиране и филтриране – упражнение",
+    "content_format": "html",
+    "persistent_text": "Запишете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Сортирането променя реда, а филтърът скрива записи. Ще запазите платените продажби и по-тесния подбор за октомври и ще сравните SUBTOTAL за видимите със SUM за всички записи.</p><p>Пълната мисия следва всички практически задачи на урока, подредени в 7 стъпки. Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни и измислени.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/11_class/economic-informatics/38-sorting-filtering/38-sorting-filtering-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено ги записва там.</p><ol><li>Натиснете Windows + E и отворете File Explorer (Файлов мениджър) → Downloads (Изтегляния), или избраното от вас място.</li><li>Отворете 38-sorting-filtering-clean.xlsx в Excel или Calc. Ако Excel покаже Enable Editing (Разрешаване на редактирането), натиснете го.</li></ol><p>Файлът съдържа само данни, заглавия и места за резултатите. Жълтите клетки са за работа. Условията и обясненията са тук.</p><p>Формулата започва със знак =. Използваме английски имена на функциите и разделител ;. Ако програмата изисква запетая между аргументите, заменете ; с ,. Десетичният разделител зависи от настройките. За постоянен процент можете да въведете 10% вместо десетично число.</p><p>За избор на клетка или диапазон въведете адреса в полето за име вляво от лентата за формули и натиснете Enter. За копиране надолу използвайте малкия квадрат в долния десен ъгъл на избраната клетка. Excel и LibreOffice Calc поддържат тези действия. При препратка към друг лист изберете клетките с мишката — Excel обикновено показва !, а Calc може да показва точка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Подгответе източника",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Excel:</strong> изберете Продажби!A1:P25 → Ctrl+T → My table has headers (Таблицата има заглавия). В Table Design (Проектиране на таблица) задайте посоченото име. <strong>Calc:</strong> няма същия обект Excel Table и структурирани препратки. Изберете A1:P25 → Data → Define Range, задайте същото име и включете Contains column labels; Data → AutoFilter добавя стрелките. Това е именуван диапазон за база данни, а не Excel таблица.</p><p>Използвайте име ПродажбиТаблица.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Сортирайте по два ключа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Маркирайте всички записи A1:P25 → Data → Sort. Първи ключ Търговец, Ascending / A to Z. Добавете втори ключ Стойност, Descending / Largest to Smallest. Потвърдете заглавията.</p><p><strong>Проверка:</strong> Групите са Анна, Борис, Вера; стойностите във всяка група намаляват.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Филтрирайте платените",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В стрелката на Статус оставете само Платена. Excel таблицата има стрелки автоматично. В Calc ги включете с Data → AutoFilter, ако липсват.</p><p>Създайте лист „Платени“ с бутона +. От Продажби копирайте заглавията и само видимите записи, без бъдещите обобщителни клетки; в Excel Alt+; избира само видимите клетки преди Ctrl+C и поставете само стойностите: Excel → Paste Special → Values; Calc → Edit → Paste Special → Paste Only Values. Това е запазено наблюдение, което не се обновява автоматично.</p><p><strong>Проверка:</strong> 7 записа; обща стойност 242,60 EUR.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Оставете само октомври 2026",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист Продажби, в допълнение към статуса задайте филтър на Дата от 01.10.2026 включително до преди 01.11.2026. Excel → Date Filters → Between с крайна дата 31.10.2026 при тези дати без час; Calc → Standard Filter с две условия Дата >= 2026-10-01 И Дата < 2026-11-01.</p><p><strong>Проверка:</strong> Два записа: S-011 и S-015.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Сумирайте видимите записи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В K27 въведете <code>=SUBTOTAL(109;K2:K25)</code>. Код 109 сумира видимите редове и пропуска както филтрирани, така и ръчно скрити редове.</p><p><strong>Проверка:</strong> 57,60 EUR при текущия филтър.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сравнете със сумата на всички записи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В K28 въведете <code>=SUM(K2:K25)</code>. SUM включва и филтрираните записи. В Проверки!B2:D2 запишете като постоянни стойности 57,60; 1776,05; 2, за да запазите наблюдението.</p><p><strong>Проверка:</strong> SUBTOTAL = 57,60; SUM = 1776,05.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Запазете подбора и изчистете филтрите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Създайте лист „Подбор“ с бутона +. От Продажби копирайте само заглавията и двата видими първични записа, като поставите само стойности и изключите K27:K28 и поставете само стойностите: Excel → Paste Special → Values; Calc → Edit → Paste Special → Paste Only Values. Това е запазено наблюдение, което не се обновява автоматично.</p><p>Изчистете двата филтъра в оригиналния лист. Запишете в Проверки!B3:D3 двата текущи сбора и броя видими записи. Не изтривайте листовете Платени и Подбор.</p><p><strong>Проверка:</strong> Отново 24 записа; двата сбора са 1776,05. Подбор пази двата записа от октомври.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за личните ви документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>Изберете File (Файл) → Save As (Запиши като); в Excel при нужда Browse (Преглед).</li><li>Изберете Documents (Документи) и име <strong>38-full-Ime-Familia.xlsx</strong>, като замените Ime-Familia с вашето име и фамилия.</li><li>Запазете като Excel Workbook (.xlsx). В Calc потвърдете използването на Excel 2007–365 формат, ако програмата попита.</li><li>Затворете и отворете отново същия файл. Проверете резултата и запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане:</strong> Продажби с 24 видими записа, сортирани по два ключа, и K27:K28; Платени със 7 записа; Подбор с 2; Проверки с двата обхвата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>От Documents (Документи) изберете готовия 38-full-Ime-Familia.xlsx с вашето име.</li><li>Проверете избрания файл и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  }
+}

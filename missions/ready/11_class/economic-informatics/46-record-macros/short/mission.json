@@ -1,0 +1,85 @@
+{
+  "mission_version": 4,
+  "mission_id": "economic11-record-macros-short-20261125",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "mission_content": {
+    "title": "Макроси в Excel – записване — кратка мисия",
+    "description": "Запишете един макрос за заглавие",
+    "class_name": "11 клас",
+    "subject": "Икономическа информатика",
+    "category": "Електронни таблици",
+    "lesson": "Макроси в Excel – записване",
+    "content_format": "html",
+    "persistent_text": "Запишете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използвайте настолния Excel или LibreOffice Calc и останете в същата програма за записа и проверката. Excel за уеб не създава и не изпълнява VBA макроси. Excel записва VBA в .xlsm; Calc записва LibreOffice Basic в .ods. Това са различни технологии и не разчитаме на прехвърляне на записания код между програмите.</p><p>Макросът повтаря записани действия. Ще запишете само оформление, ще го изпълните върху копие и ще проверите, че е съхранен в самата работна книга.</p><p>Кратката мисия има една задача за промяна на файл. Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни и измислени.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/11_class/economic-informatics/46-record-macros/short/46-record-macros-short-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено ги записва там.</p><ol><li>Натиснете Windows + E и отворете File Explorer (Файлов мениджър) → Downloads (Изтегляния), или избраното от вас място.</li><li>Отворете 46-record-macros-short-clean.xlsx в Excel или Calc. Ако Excel покаже Enable Editing (Разрешаване на редактирането), натиснете го.</li></ol><p>Файлът съдържа само данни, заглавия и места за резултатите. Жълтите клетки са за работа. Условията и обясненията са тук.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете един макрос за заглавие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използвайте настолния Excel или LibreOffice Calc и останете в същата програма за записа и проверката. Excel за уеб не създава и не изпълнява VBA макроси. Excel записва VBA в .xlsm; Calc записва LibreOffice Basic в .ods. Това са различни технологии и не разчитаме на прехвърляне на записания код между програмите.</p><p><strong>Excel:</strong> File → Options → Customize Ribbon → включете Developer. <strong>Calc:</strong> ако Tools → Macros → Record Macro липсва, Tools → Options → LibreOffice → Advanced → Enable macro recording. Използвайте само собствените макроси в учебното копие; началният файл няма макроси.</p><p><strong>Excel:</strong> в активния учебен лист изключете Developer → Use Relative References за абсолютния запис. Developer → Record Macro, име <strong>FormatHeader</strong>, Store macro in = This Workbook, без клавишна комбинация. <strong>Calc:</strong> Tools → Macros → Record Macro; името и мястото се избират след спиране. Не превключвайте към други документи или листове по време на записа.</p><p>Запишете само оформяне на A1:C1 с получер шрифт: изберете диапазона с полето за име и натиснете Ctrl+B веднъж. Началните заглавия са без получер. Не записвайте други промени.</p><p><strong>Excel:</strong> Developer → Stop Recording. <strong>Calc:</strong> Stop Recording → в Save macro in изберете самия текущ документ, а не My Macros. В него Standard → създайте модул при нужда, име на макроса FormatHeader → Save. Записът трябва да се съхрани в предавания файл.</p><p><strong>Проверка:</strong> В книгата има един собствен макрос FormatHeader и заглавието е получер. Запазете по указанията в стъпката за записване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за личните ви документи и работни файлове. Използвайте я, за да намирате завършената работа.</p><ol><li>File → Save As (Запиши като).</li><li><strong>Excel:</strong> Documents → 46-short-Ime-Familia.xlsm; формат Excel Macro-Enabled Workbook (.xlsm). <strong>Calc:</strong> Documents → 46-short-Ime-Familia.ods; формат ODF Spreadsheet (.ods). Заменете Ime-Familia с вашето име и фамилия.</li><li>Използвайте собствения формат на програмата, за да запазите макросите. Предава се само един файл, според използваната програма.</li><li>Запишете, затворете и отворете отново същия файл в същата програма. Проверете че собствените ви макроси са налични в книгата, а не само в личната библиотека. Запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане:</strong> Единственият резултат от задачата, с формула и посочената очаквана стойност.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong>.</li><li>От Documents (Документи) изберете готовия <strong>46-short-Ime-Familia.xlsm</strong> от Excel или <strong>46-short-Ime-Familia.ods</strong> от Calc с вашето име.</li><li>Проверете избора и предайте само завършения файл.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  }
+}

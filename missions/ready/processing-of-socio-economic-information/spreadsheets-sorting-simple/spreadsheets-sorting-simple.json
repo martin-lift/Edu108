@@ -1,0 +1,85 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-sorting-one-task-20261125",
+  "mission_content": {
+    "title": "Електронни таблици — сортиране по име",
+    "description": "Една задача: подреждане на пет ученици по име във възходящ ред, записване и предаване на един файл.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Електронни таблици — сортиране",
+    "content_format": "html",
+    "persistent_text": "Изпълнете една задача и предайте готовия файл. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:800px;margin:auto;background:#fff;padding:24px;border-radius:14px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{background:#eeebf7;padding:3px 7px;border-radius:4px}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Сортиране</strong> означава подреждане на редовете в таблица според избрана колона. В този урок ще подредите <strong>пет имена по азбучен ред — от А към Я</strong>.</p><p>Когато редовете се преместват, <strong>името и резултатът на всеки ученик трябва да останат заедно</strong>.</p><p>Ще отворите готов файл, ще изпълните една задача и ще предадете записания резултат. Работете в <strong>Microsoft Excel</strong> или <strong>LibreOffice Calc</strong>. След всяка завършена стъпка натискайте <strong>„Напред“</strong>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "open-file",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:800px;margin:auto;background:#fff;padding:24px;border-radius:14px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{background:#eeebf7;padding:3px 7px;border-radius:4px}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows, в която браузърът обикновено записва файловете, изтеглени от интернет.</p><ol><li>Натиснете <a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/processing-of-socio-economic-information/spreadsheets-sorting-simple/sorting-simple.xlsx\"><strong>Изтеглете файла за сортиране (.xlsx)</strong></a>. Ако трябва да изберете папка, посочете <strong>Downloads (Изтегляния)</strong>.</li><li>Натиснете <strong>Windows + E</strong>, за да отворите <strong>File Explorer (Файлов мениджър)</strong>. Вляво изберете <strong>Downloads (Изтегляния)</strong>.</li><li>Отворете <strong>sorting-simple.xlsx</strong> с двойно щракване. Ако Windows попита с коя програма, изберете <strong>Excel</strong> или <strong>LibreOffice Calc</strong>.</li><li>В Excel натиснете <strong>„Разрешаване на редактирането“ (Enable Editing)</strong>, ако се появи такава лента.</li></ol><p>Ще видите един лист — <strong>„Ученици“</strong>, с две колони: <strong>„Име“</strong> и <strong>„Резултат тест“</strong>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "sort-names",
+        "step_content": {
+          "type": "information",
+          "title": "Подредете имената от А към Я",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:800px;margin:auto;background:#fff;padding:24px;border-radius:14px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{background:#eeebf7;padding:3px 7px;border-radius:4px}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Задача:</strong> сортирайте таблицата по колоната <strong>„Име“</strong> във възходящ ред — от А към Я. В програмите тази посока е означена като <strong>A to Z</strong> или <strong>Ascending</strong>.</p><p>За да преместите имената заедно с резултатите им, маркирайте <strong>цялата таблица — A1:B6</strong>, включително заглавията.</p><p><strong>Как да маркирате:</strong> намерете полето за име вляво от лентата за формули, над таблицата. То обикновено показва адрес като A1. Щракнете в него, въведете <code>A1:B6</code> и натиснете <strong>Enter</strong>.</p><p><strong>В Microsoft Excel:</strong></p><ol><li>При маркирана таблица A1:B6 изберете <strong>Data → Sort (Данни → Сортиране)</strong>.</li><li>Включете отметката <strong>My data has headers (Данните имат заглавия)</strong>, за да останат заглавията на ред 1.</li><li>Задайте <strong>Sort by: Име</strong>, <strong>Sort On: Cell Values</strong>, <strong>Order: A to Z</strong>. Трябва да има само едно ниво за сортиране.</li><li>Натиснете <strong>OK</strong>.</li></ol><p><strong>В LibreOffice Calc:</strong></p><ol><li>При маркирана таблица A1:B6 изберете <strong>Data → Sort (Данни → Сортиране)</strong>.</li><li>Включете <strong>Range contains column labels (Диапазонът съдържа заглавия на колони)</strong>. Според версията настройката е в раздел <strong>Options (Настройки)</strong> или при критериите. Оставете сортиране на редове <strong>отгоре надолу</strong>.</li><li>В <strong>Sort Criteria (Критерии за сортиране)</strong> задайте <strong>Sort Key 1: Име</strong> и <strong>Ascending (Възходящо)</strong>. Останалите ключове оставете без критерий.</li><li>Натиснете <strong>OK</strong>.</li></ol><p class=\"note\"><strong>Проверка:</strong> редът на имената трябва да бъде <strong>Алекс, Борис, Виктория, Георги, Елена</strong>. До Алекс трябва да стои <strong>84</strong>, а до Елена — <strong>91</strong>. Заглавията остават на ред 1.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "save-file",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете готовия файл на диска",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:800px;margin:auto;background:#fff;padding:24px;border-radius:14px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{background:#eeebf7;padding:3px 7px;border-radius:4px}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за съхраняване на вашите документи и работни файлове. Запишете сортираната таблица там, за да я намерите при предаването.</p><ol><li>В Excel изберете <strong>Файл → Запиши като (File → Save As)</strong>. Ако е необходимо, изберете <strong>Този компютър → Преглед (This PC → Browse)</strong>. В LibreOffice Calc изберете <strong>Файл → Записване като (File → Save As)</strong>.</li><li>Изберете папка <strong>Documents (Документи)</strong>.</li><li>Запишете файла като <strong>Сортиране-Име-Фамилия.xlsx</strong>, като замените „Име-Фамилия“ със своите имена.</li><li>Запазете формата <strong>.xlsx</strong>. Ако LibreOffice попита, потвърдете <strong>„Използване на Excel 2007–365“ (Use Excel 2007–365 Format)</strong>.</li><li>Затворете файла. Натиснете <strong>Windows + E</strong>, изберете <strong>Documents (Документи)</strong> и отворете записания файл с двойно щракване. Проверете, че първото име е <strong>Алекс</strong>, а последното — <strong>Елена</strong>.</li></ol><p>Затворете файла и се върнете в мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте готовия файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font-family:Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px;font-size:18px;line-height:1.6}main{max-width:800px;margin:auto;background:#fff;padding:24px;border-radius:14px}li{margin:10px 0}strong{color:#40317d}a{color:#49358e}code{background:#eeebf7;padding:3px 7px;border-radius:4px}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}</style></head><body><main><ol><li>Натиснете бутона <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>Изберете папка <strong>Documents (Документи)</strong>, намерете <strong>Сортиране-Име-Фамилия.xlsx</strong> със своите имена и натиснете <strong>„Отвори“ (Open)</strong>.</li><li>Проверете дали се показва името на правилния файл.</li><li>Приключете мисията с бутона на Student108 за завършване.</li></ol><p>Предавате <strong>един .xlsx файл с таблицата, сортирана по име от А към Я</strong>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

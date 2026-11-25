@@ -37,3 +37,11 @@
 | 12 | Функции за търсене и препратки | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/12-lookup-functions/short/mission.json) | [Excel](12-lookup-functions/short/12-lookup-functions-short-clean.xlsx) |
 | 13 | Свързване на данни от различни работни листове | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/13-cross-sheet-lookup/short/mission.json) | [Excel](13-cross-sheet-lookup/short/13-cross-sheet-lookup-short-clean.xlsx) |
 | 14 | Защита на данните в електронни таблици | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/14-data-protection/short/mission.json) | [Excel](14-data-protection/short/14-data-protection-short-clean.xlsx) |
+
+## Мисии за уроци 17–21
+
+За всеки урок: пълна мисия с всички седем задачи и кратка мисия с една задача. Всеки вариант има собствен изчистен файл и завършва с предаване на една работна книга. Уроци 17–18: готовият файл е .xlsx за Excel или .ods за Calc, за да се запазят обобщаващите обекти.
+
+| Урок | Тема | Пълна мисия | Пълен файл | Кратка мисия | Кратък файл |
+|---|---|---|---|---|---|
+| 17 | Обобщаващи диаграми (PivotChart) | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/17-pivot-charts/mission.json) | [Excel](17-pivot-charts/17-pivot-charts-clean.xlsx) | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/17-pivot-charts/short/mission.json) | [Excel](17-pivot-charts/short/17-pivot-charts-short-clean.xlsx) |

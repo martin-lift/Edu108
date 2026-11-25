@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-pivot-charts-full-20261125",
+  "mission_content": {
+    "title": "Обобщаващи диаграми (PivotChart) — пълна мисия",
+    "description": "Създаване, оформяне, филтриране и сравняване на обобщаващи диаграми.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Обобщаващи диаграми (PivotChart)",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Създаване, оформяне, филтриране и сравняване на обобщаващи диаграми.</p><p>Изпълнете всички седем задачи в една работна книга и запазете резултатите от всяка задача.</p><p>Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/17-pivot-charts/17-pivot-charts-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтеглянето, отворете него.</li><li>Отворете <strong>17-pivot-charts-clean.xlsx</strong> с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Работният файл съдържа само данни и места за резултати. Всички задачи и обяснения са тук, в мисията.</p><p>Обобщаващата таблица групира записите и изчислява обобщения. Обобщаващата диаграма е свързана с нея. Готовите резултати запишете като <strong>.xlsx в Excel</strong> или <strong>.ods в Calc</strong>, за да запазите обектите в собствения формат на програмата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Таблица по региони",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n<h2>5. Създайте нов лист за първия отчет</h2>\n<p>Работната книга е целият файл. Листовете „Продажби“ и „Упражнения“ са части от него. Сега добавете празен лист <strong>„1-По региони“</strong>, в който ще поставите първата обобщаваща таблица.</p>\n<h3>В Microsoft Excel</h3><ol><li>До разделите на листовете в долната част на прозореца натиснете бутона <strong>+</strong> (New Sheet).</li><li>Щракнете два пъти върху името на новия лист, въведете <strong>1-По региони</strong> и натиснете Enter.</li><li>Оставете клетка <strong>A1</strong> празна — от нея ще започне отчетът.</li></ol>\n<h3>В LibreOffice Calc</h3><ol><li>Натиснете <strong>+</strong> до разделите на листовете.</li><li>Щракнете два пъти върху раздела на новия лист. Въведете <strong>1-По региони</strong> и потвърдете с OK.</li><li>Оставете листа празен за резултата от задача 1.</li></ol>\n<p>В следващите задачи самият диалог за обобщаваща таблица може да създава нов лист: <strong>New Worksheet</strong> в Excel или <strong>New sheet</strong> в Calc. След това го преименувайте с името от съответната задача. По същия начин с бутона + ще създадете и листа за изводи накрая.</p>\n\n\n<p><strong>Условие:</strong> от „Продажби“!A1:E13 създайте обобщение с <strong>Регион в Редове</strong> и <strong>Sum на Продажби в Стойности</strong>. Поставете го в A1 на подготвения лист „1-По региони“. Колони и Филтри остават празни.</p>\n<h3>В Microsoft Excel</h3><ol><li>В „Продажби“ маркирайте <strong>A1:E13</strong> и изберете <strong>Insert → PivotTable</strong>.</li><li>Проверете източника. Изберете <strong>Existing Worksheet</strong> и местоположение <code>'1-По региони'!$A$1</code>. Потвърдете с OK.</li><li>В панела с полетата преместете <strong>Регион в Rows</strong> и <strong>Продажби в Values</strong>.</li><li>От менюто на полето във Values изберете <strong>Value Field Settings → Summarize Values By → Sum</strong>. За числата използвайте формат с разделител за хиляди.</li></ol>\n<h3>В LibreOffice Calc</h3><ol><li>В „Продажби“ маркирайте <strong>A1:E13</strong> и изберете <strong>Data → Pivot Table → Insert or Edit</strong>. Потвърдете <strong>Current selection</strong>.</li><li>Преместете <strong>Регион в Row Fields</strong> и <strong>Продажби в Data Fields</strong>. Щракнете два пъти върху полето в Data Fields и изберете <strong>Sum</strong>.</li><li>Разгънете <strong>Source and Destination</strong>, ако е необходимо. За резултата изберете <strong>Selection</strong>, използвайте бутона за избор на местоположение и посочете <strong>A1 на „1-По региони“</strong>. Върнете се в диалога и потвърдете.</li></ol>\n<table><caption>Контролни суми по региони</caption><thead><tr><th scope=\"col\">Регион</th><th scope=\"col\">Продажби (лв.)</th></tr></thead><tbody><tr><td>Запад</td><td>27 500</td></tr><tr><td>Изток</td><td>25 200</td></tr><tr><td>Юг</td><td>26 000</td></tr><tr><th scope=\"row\">Общо</th><td><strong>78 700</strong></td></tr></tbody></table>\n<p>За Запад например се събират 8 200 + 5 200 + 9 400 + 4 700 = <strong>27 500 лв.</strong> Ако вместо тези суми виждате броя на записите, проверете функцията Sum и дали полето „Продажби“ е числово.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> оставете този отчет в <strong>„1-По региони“</strong> без диаграма и без филтри. В <strong>A25</strong> на листа запишете кой регион има най-високи продажби и колко са те. Следващата задача ще има собствен отчет.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Колонна обобщаваща диаграма",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> създайте нова обобщаваща таблица и свързана с нея колонна диаграма в отделен лист <strong>„2-Колонна“</strong>.</p>\n<ol><li>Върнете се в <strong>„Продажби“</strong> и маркирайте A1:E13. Създайте <strong>нова</strong> обобщаваща таблица по стъпките от задача 1, но този път изберете <strong>New Worksheet</strong> в Excel или <strong>New sheet</strong> в Calc.</li><li>Преименувайте новия лист на <strong>2-Колонна</strong>. Задайте Регион в Редове и Sum на Продажби в Стойности, без Колони и Филтри. Проверете сбор 78 700.</li></ol>\n<h3>В Microsoft Excel</h3><ol><li>Щракнете в клетка от <strong>новата обобщаваща таблица</strong>.</li><li>Изберете <strong>Insert → PivotChart</strong>. В прозореца изберете <strong>Column → Clustered Column</strong> — двуизмерна групирана колонна диаграма — и натиснете OK.</li><li>Поставете заглавие <strong>„Продажби по региони“</strong>. Преместете диаграмата вдясно от таблицата, например в областта от H2 надясно, така че и двете да се виждат.</li></ol>\n<h3>В LibreOffice Calc</h3><ol><li>Щракнете в клетка от <strong>новата обобщаваща таблица</strong>.</li><li>Изберете <strong>Insert → Chart</strong>. Calc разпознава обобщаващата таблица и отваря помощника за обобщаваща диаграма.</li><li>Изберете <strong>Column</strong> с обикновени колони една до друга. В Chart Elements въведете <strong>„Продажби по региони“</strong> и завършете помощника.</li><li>Щракнете извън диаграмата, после веднъж върху рамката ѝ, за да я преместите вдясно от таблицата.</li></ol>\n<p class=\"note\">В Calc страниците за ръчен избор на диапазон и серии на обобщаващата диаграма са недостъпни — данните се управляват от свързаната обобщаваща таблица. Не избирайте изходния списък или ръчно преписани суми вместо нея.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> „2-Колонна“ съдържа собствена обобщаваща таблица и PivotChart с три регионални колони. „1-По региони“ остава непроменен. Не включвайте общия сбор като отделна колона.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Категории по региони",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> в нов лист <strong>„3-Категории“</strong> покажете продажбите по региони и категории чрез отделна групирана колонна обобщаваща диаграма.</p>\n<ol><li>От <strong>„Продажби“!A1:E13</strong> създайте нова обобщаваща таблица в нов лист. Преименувайте го на <strong>3-Категории</strong>.</li><li>Задайте <strong>Регион в Rows / Row Fields</strong>, <strong>Категория в Columns / Column Fields</strong> и <strong>Продажби в Values / Data Fields</strong> с функция <strong>Sum</strong>. Не задавайте филтър.</li></ol>\n<h3>В Microsoft Excel</h3><p>Щракнете в новата таблица и изберете <strong>Insert → PivotChart → Column → Clustered Column</strong>. Поставете заглавие „Продажби по региони и категории“ и оставете легендата за категориите видима.</p>\n<h3>В LibreOffice Calc</h3><p>Щракнете в новата таблица и изберете <strong>Insert → Chart → Column</strong>, с колони една до друга. В Chart Elements задайте същото заглавие и включете легендата.</p>\n<p>Поставете диаграмата вдясно от таблицата. По хоризонталната ос трябва да са <strong>трите региона</strong>, а във всяка група — по една колона за <strong>Техника, Канцелария и Консумативи</strong>. Легендата свързва цветовете със сериите.</p>\n<div class=\"scroll\"><table><caption>Контролна разбивка по региони и категории, лв.</caption><thead><tr><th scope=\"col\">Регион</th><th scope=\"col\">Техника</th><th scope=\"col\">Канцелария</th><th scope=\"col\">Консумативи</th><th scope=\"col\">Общо</th></tr></thead><tbody><tr><td>Запад</td><td>17 600</td><td>5 200</td><td>4 700</td><td>27 500</td></tr><tr><td>Изток</td><td>16 400</td><td>4 600</td><td>4 200</td><td>25 200</td></tr><tr><td>Юг</td><td>17 000</td><td>5 100</td><td>3 900</td><td>26 000</td></tr><tr><th scope=\"row\">Общо</th><td>51 000</td><td>14 900</td><td>12 800</td><td>78 700</td></tr></tbody></table></div>\n<p class=\"result\"><strong>Запазен резултат:</strong> „3-Категории“ запазва своята таблица, три категории в легендата и групирана колонна диаграма. Таблицата и диаграмата в „2-Колонна“ продължават да показват общите суми по региони.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Заглавия, оси и легенда",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> създайте отделен отчет в <strong>„4-Оформление“</strong> със същите полета като задача 3 — Регион по редове, Категория по колони и Sum на Продажби. Създайте нова групирана колонна PivotChart към него.</p>\n<h3>В Microsoft Excel</h3><ol><li>Създайте новата таблица от оригиналния A1:E13 в нов лист и от нея изберете <strong>Insert → PivotChart → Clustered Column</strong>.</li><li>Щракнете върху диаграмата. От <strong>Chart Design → Add Chart Element</strong> задайте заглавие, заглавия на двете оси и легенда. Можете да използвате и бутона <strong>+</strong> до избраната диаграма.</li><li>Задайте заглавие <strong>„Продажби по региони и категории — януари–април“</strong>, хоризонтална ос <strong>„Регион“</strong> и вертикална <strong>„Продажби (лв.)“</strong>. Поставете легендата отдолу или вдясно.</li></ol>\n<h3>В LibreOffice Calc</h3><ol><li>Създайте новата таблица от оригиналния A1:E13 в нов лист и изберете <strong>Insert → Chart → Column</strong>.</li><li>В <strong>Chart Elements</strong> въведете същото заглавие, ос X <strong>„Регион“</strong>, ос Y <strong>„Продажби (лв.)“</strong> и включете легендата.</li><li>Ако диаграмата вече е създадена, щракнете два пъти в нея, за да влезете в режим на редактиране. Използвайте <strong>Insert → Titles</strong> или контекстното меню за съответния елемент.</li></ol>\n<p>Увеличете диаграмата, ако имената се застъпват. Проверете всички три имена в легендата, стойностите по оста и четимостта на текста. Числовата ос трябва да започва от нула. Избягвайте 3D ефекти, които затрудняват сравняването на височините.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> „4-Оформление“ съдържа отделната оформена диаграма и таблицата ѝ. „3-Категории“ запазва резултата си от предишната задача.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Филтър за техника",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> в нов лист <strong>„5-Техника“</strong> покажете продажбите на техника по региони и ги визуализирайте с колонна обобщаваща диаграма.</p>\n<ol><li>От <strong>„Продажби“!A1:E13</strong> създайте нова обобщаваща таблица в нов лист с име <strong>5-Техника</strong>.</li><li>Задайте <strong>Регион в Редове</strong> и <strong>Sum на Продажби в Стойности</strong>. Оставете Колони празни.</li></ol>\n<h3>В Microsoft Excel</h3><p>Поставете <strong>Категория във Filters</strong>. От падащия списък над таблицата изберете само <strong>Техника</strong>. Щракнете в тази таблица и създайте <strong>Insert → PivotChart → Clustered Column</strong>.</p>\n<h3>В LibreOffice Calc</h3><p>В оформлението поставете <strong>Категория в Page Fields / Filters</strong>. В готовия отчет изберете само <strong>Техника</strong> от филтъра. Щракнете в тази таблица и изберете <strong>Insert → Chart → Column</strong>.</p>\n<p>Поставете заглавие <strong>„Продажби на техника по региони“</strong>. Филтърът управлява обобщаващата таблица и свързаната диаграма. Самото изписване на „Техника“ в заглавието не филтрира данните.</p>\n<p><strong>Самопроверка:</strong> Запад <strong>17 600</strong>, Изток <strong>16 400</strong>, Юг <strong>17 000</strong>; общо <strong>51 000 лв.</strong> В листовете без филтър общата сума трябва да остане 78 700.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> „5-Техника“ остава с активен филтър <strong>Техника</strong>, таблицата и нейната колонна диаграма. „4-Оформление“ продължава да показва всички категории.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Лентова диаграма и сравнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> създайте отделна <strong>лентова</strong> обобщаваща диаграма в лист <strong>„6-Лентова“</strong>. Използвайте същото обобщение и филтър Техника като задача 5, за да сравнявате един и същ набор от данни.</p>\n<ol><li>Създайте нова обобщаваща таблица от <strong>„Продажби“!A1:E13</strong> в нов лист <strong>6-Лентова</strong>.</li><li>Задайте Регион в Редове, Sum на Продажби в Стойности, Категория във Филтри и изберете само <strong>Техника</strong>. Колони остават празни.</li></ol>\n<h3>В Microsoft Excel</h3><p>Щракнете в новата таблица и изберете <strong>Insert → PivotChart → Bar → Clustered Bar</strong>. Лентите трябва да са хоризонтални. Ако още в тази задача сте избрали колонна диаграма, променете вида само на диаграмата в „6-Лентова“ чрез <strong>Chart Design → Change Chart Type</strong>.</p>\n<h3>В LibreOffice Calc</h3><p>Щракнете в новата таблица и изберете <strong>Insert → Chart → Bar</strong> с обикновени хоризонтални ленти. За промяна на вида в този лист щракнете два пъти в диаграмата и изберете <strong>Chart Type</strong> от контекстното меню.</p>\n<p>Поставете заглавие <strong>„Продажби на техника по региони — лентова диаграма“</strong>. При този вид числовата ос е хоризонтална, а имената на регионите са по вертикалната ос. Използвайте същите стойности: 17 600, 16 400 и 17 000 лв.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> „6-Лентова“ запазва лентовата диаграма, а „5-Техника“ — колонната. В <strong>A25</strong> на „6-Лентова“ напишете кой вид ви е по-лесен за четене и защо. Диаграмите сравняват едни и същи данни — видът не променя сумите.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Два извода с числа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main>\n\n<p><strong>Условие:</strong> създайте отделен лист <strong>„7-Изводи“</strong> и напишете два кратки извода — един за регионите и един за категориите.</p>\n<h3>В Microsoft Excel</h3><p>Натиснете + до разделите, щракнете два пъти върху името на новия лист, въведете <strong>7-Изводи</strong> и потвърдете с Enter.</p>\n<h3>В LibreOffice Calc</h3><p>Натиснете + до разделите, щракнете два пъти върху новия раздел, въведете <strong>7-Изводи</strong> и потвърдете с OK.</p>\n<ol><li>В <strong>A1</strong> запишете първия извод. Използвайте „1-По региони“ или „2-Колонна“, за да посочите водещия регион и сравнение с друг регион, подкрепено с числа.</li><li>В <strong>A3</strong> запишете втория извод по категориите. Използвайте „3-Категории“ или „4-Оформление“ и посочете сумите или разликата, на която се основава твърдението ви.</li><li>Посочете от кой лист вземате данните и дали обобщението е за <strong>всички категории</strong> или само за <strong>Техника</strong>. Ако текстът не се побира, включете <strong>Wrap Text</strong> в Excel или автоматично пренасяне в <strong>Format Cells → Alignment</strong> в Calc и увеличете реда.</li></ol>\n<p>Изводът трябва да следва числата. По-високи продажби не доказват по-висока печалба, защото файлът не съдържа разходи. „Тази колона е по-висока“ описва изгледа; подкрепете сравнението и с конкретни суми.</p>\n<p class=\"result\"><strong>Запазен резултат:</strong> „7-Изводи“ съдържа двата ви извода. Остават и всички шест обобщаващи таблици и петте диаграми в отделните им листове.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>Изберете File (Файл) → Save As (Запиши като). В Excel при нужда натиснете Browse (Преглед).</li><li>Изберете Documents (Документи), въведете <strong>17-full-Ime-Familia.xlsx</strong> в Excel или <strong>17-full-Ime-Familia.ods</strong> в Calc. Заменете Ime-Familia с вашето име и фамилия.</li><li>Запишете файла. Затворете и отворете отново същия файл в същата програма. Проверете резултатите от задачите и запазете с Ctrl+S.</li></ol><p>Проверете, че обобщаващите таблици и диаграми са редактируеми обекти, а не снимки или ръчно изписани крайни числа.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>Отворете Documents (Документи) и изберете записания файл с вашето име: <strong>17-full-Ime-Familia.xlsx</strong> или <strong>17-full-Ime-Familia.ods</strong> според програмата.</li><li>Проверете, че сте избрали завършената работна книга, и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

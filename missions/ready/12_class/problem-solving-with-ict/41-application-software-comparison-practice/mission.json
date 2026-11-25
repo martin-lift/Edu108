@@ -1,0 +1,466 @@
+{
+  "mission_version": 4,
+  "mission_id": "b247fbf2-2acd-4522-8310-dfc2ef5bff7d",
+  "mission_content": {
+    "title": "Управление на компютърни системи и приложен софтуер. Приложни програми",
+    "description": "Ще сравните две програми с еднакво предназначение чрез общо задание, еднакви критерии и проверими доказателства. Можете да работите по подготвените описания или с две разрешени и вече налични програми.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Управление на компютърни системи и приложен софтуер. Приложни програми",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще сравните две програми с еднакво предназначение чрез общо задание, еднакви критерии и проверими доказателства. Можете да работите по подготвените описания или с две разрешени и вече налични програми.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Общото задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/topic-1.svg\" alt=\"Основни връзки: Общото задание\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Общото задание</figcaption></figure>\n<p>За инструкция към „Клуб Онлайн“ е нужно изображение на избрана област от екрана с една стрелка и надпис „Отвори клуба“. Резултатът трябва да се запази местно като PNG и да е четлив в браузър. Работата трябва да може да се извърши без интернет и без акаунт.</p>\n<p>Учебният компютър е с условна система „ОС-У, 64 bit“, 8 GB RAM и 2 GB свободно място. Тригодишният бюджет за програмата и поддръжката ѝ е до 100 у.е. Това са условия на задачата, а не препоръки за покупка.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Общото задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Задачата изисква местен PNG с четлива анотация."
+            },
+            {
+              "id": "answer-2",
+              "text": "Това са реални оферти за незабавна покупка."
+            },
+            {
+              "id": "answer-3",
+              "text": "Работата трябва да е без интернет и акаунт."
+            },
+            {
+              "id": "answer-4",
+              "text": "Нужен е експорт само в PDF."
+            },
+            {
+              "id": "answer-5",
+              "text": "Тригодишният бюджет е до 100 условни единици."
+            },
+            {
+              "id": "answer-6",
+              "text": "Няма условия за системата и ресурсите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Задачата изисква местен PNG с четлива анотация. Работата трябва да е без интернет и акаунт. Тригодишният бюджет е до 100 условни единици."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Подготвени описания",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/topic-2.svg\" alt=\"Основни връзки: Подготвени описания\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Подготвени описания</figcaption></figure>\n<p class=\"note\">„Кадър A“ и „Кадър B“ са измислени програми. Таблицата замества спецификациите им за тази практика. Няма файлове за инсталиране. „Не е посочено“ означава липса на доказателство, а не доказана липса на функция.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Общ критерий</th><th>Кадър A, учебна версия 1</th><th>Кадър B, учебна версия 1</th></tr></thead><tbody>\n<tr><td>Система и ресурси</td><td>ОС-У, 64 bit; поне 4 GB RAM и 200 MB свободно място</td><td>ОС-У, 64 bit; поне 8 GB RAM и 500 MB свободно място</td></tr>\n<tr><td>Заснемане</td><td>Избрана област, прозорец и цял екран</td><td>Избрана област, прозорец и цял екран</td></tr>\n<tr><td>Редактиране</td><td>Стрелка, текст, изрязване</td><td>Стрелка, текст, изрязване; отделно преместване на анотациите в работен файл</td></tr>\n<tr><td>Предаване</td><td>Местен PNG и JPEG</td><td>Местен PNG и JPEG; PDF</td></tr>\n<tr><td>Без интернет и без акаунт</td><td>Да, всички функции от общото задание</td><td>Да, всички функции от общото задание</td></tr>\n<tr><td>Цена за разрешено използване</td><td>0 у.е.; няма задължителни допълнителни покупки</td><td>30 у.е. годишно, включва поддръжката</td></tr>\n<tr><td>Поддръжка</td><td>Ръководство; планирани 20 у.е. годишно за помощ от училищния администратор</td><td>Ръководство и включена помощ от доставчика</td></tr>\n<tr><td>Време за отговор при проблем</td><td>Не е посочено</td><td>Не е посочено</td></tr>\n<tr><td>Последващо редактиране на отделни анотации след затваряне</td><td>Не е посочено</td><td>Да, при запазен работен файл; PNG остава отделно копие</td></tr>\n<tr><td>Измерено време за изпълнение на общия тест</td><td>Няма данни</td><td>Няма данни</td></tr>\n</tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Подготвени описания",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Не е посочено“ доказва липса на функция."
+            },
+            {
+              "id": "answer-2",
+              "text": "За A няма данни за повторно редактиране на отделните анотации."
+            },
+            {
+              "id": "answer-3",
+              "text": "Няма разход за поддръжка на A в модела."
+            },
+            {
+              "id": "answer-4",
+              "text": "B пази тази възможност в работен файл."
+            },
+            {
+              "id": "answer-5",
+              "text": "Таблицата съдържа измерено време за изпълнение на общия тест."
+            },
+            {
+              "id": "answer-6",
+              "text": "Двете програми са измислени и не се инсталират."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Двете програми са измислени и не се инсталират. За A няма данни за повторно редактиране на отделните анотации. B пази тази възможност в работен файл."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Допустимост и аргументиран избор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/topic-3.svg\" alt=\"Основни връзки: Допустимост и аргументиран избор\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Допустимост и аргументиран избор</figcaption></figure>\n<p>Проверете всички задължителни условия преди предпочитанията. По описанията и двете програми могат да изпълнят основната задача на зададения компютър. За три години A струва <strong>3 × 20 = 60 у.е.</strong>, а B — <strong>3 × 30 = 90 у.е.</strong> Разходът за компютъра е общ и е изключен и от двата варианта.</p>\n<p>При приоритет „най-нисък известен разход за основната задача“ изборът е A. Ако се добави задължително условие за повторно редактиране на отделните анотации след затваряне, B има потвърдено съответствие, а за A е нужно уточнение. По-малки системни изисквания не доказват автоматично по-бърза работа.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Допустимост и аргументиран избор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "И двете покриват първоначалната основна задача по описанията."
+            },
+            {
+              "id": "answer-2",
+              "text": "При липсващи данни за A автоматично приемаме новото условие за изпълнено."
+            },
+            {
+              "id": "answer-3",
+              "text": "При ново задължително редактиране B има потвърдено съответствие."
+            },
+            {
+              "id": "answer-4",
+              "text": "PDF е задължителен в първоначалното задание."
+            },
+            {
+              "id": "answer-5",
+              "text": "A струва 60, а B 90 у.е. за три години."
+            },
+            {
+              "id": "answer-6",
+              "text": "По-малките системни изисквания доказват по-бърза работа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "A струва 60, а B 90 у.е. за три години. И двете покриват първоначалната основна задача по описанията. При ново задължително редактиране B има потвърдено съответствие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Общ тест с налични програми",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/topic-4.svg\" alt=\"Основни връзки: Общ тест с налични програми\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Общ тест с налични програми</figcaption></figure>\n<p>Ако учителят предостави две налични приложения, използвайте този протокол за всяко. Запишете точните имена и версии; не пренасяйте характеристиките на измислените програми върху тях.</p>\n<div class=\"task\"><ol><li>Отворете <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/41-Screenshot-Test-Card.html\" target=\"_blank\" rel=\"noopener\">еднаквата учебна карта за заснемане</a>. Тя съдържа само примерни клубове.</li><li>Заснемете само картата с двата клуба чрез функция за избрана област.</li><li>Добавете стрелка към „Клуб Роботика“ и надпис „Отвори клуба“.</li><li>Запазете PNG в папката на екипа като <code>ПрограмаA.png</code> или <code>ПрограмаB.png</code>. Отворете файла в браузър и проверете четливостта.</li><li>Ако има работен формат, запазете и него. Затворете и отворете копието; проверете могат ли да се местят отделно стрелката и текстът.</li><li>Запишете стъпки, очакван и действителен резултат. При липсваща функция отбележете неуспешния тест и причината.</li></ol></div>\n<p>Използвайте само учебната карта и местни файлове. Не е нужно да заснемате други прозорци, да публикувате изображенията, да създавате акаунти или да инсталирате програми. Ако нямате подходящи приложения, изпълнете анализа по описанията и запишете „документна проверка“; не отчитайте проведен практически тест.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Общ тест с налични програми",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Планираният тест се отчита като действително проведен."
+            },
+            {
+              "id": "answer-2",
+              "text": "PNG се отваря в браузър за преглед на четливостта."
+            },
+            {
+              "id": "answer-3",
+              "text": "Необходимо е заснемане на лични прозорци и публикуване на снимките."
+            },
+            {
+              "id": "answer-4",
+              "text": "Реалният тест записва точни имена и версии."
+            },
+            {
+              "id": "answer-5",
+              "text": "Характеристиките на условната A се прехвърлят върху произволно налично приложение."
+            },
+            {
+              "id": "answer-6",
+              "text": "При липса на програми се означава документна проверка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Реалният тест записва точни имена и версии. При липса на програми се означава документна проверка. PNG се отваря в браузър за преглед на четливостта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Протокол и предаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/topic-5.svg\" alt=\"Основни връзки: Протокол и предаване\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Протокол и предаване</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Програма / версия</th><th>Критерий и очакван резултат</th><th>Наблюдение или данни от описанието</th><th>Извод и доказателство</th></tr></thead><tbody><tr><td>A или B</td><td>PNG с четлива анотация</td><td>Попълнете извършените стъпки или точния ред от описанието</td><td>Изпълнен / неизпълнен / няма данни; име на файл или източник</td></tr></tbody></table></div>\n<p>Предайте сравнителна таблица по поне шест общи критерия, тригодишните разходи и препоръка от 4–5 изречения. При реален тест добавете файловете и протокола. При работа по описанията добавете план на теста и два въпроса за липсваща информация.</p>\n<p>В заявка за поддръжка посочете програма и версия, стъпки за повторение, очакван и получен резултат. Например: „След експорт в PNG надписът се отрязва; в работния файл се вижда целият“. Приложете учебен пример, когато е нужен за възпроизвеждане.</p>\n\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Протокол и предаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Заявката за помощ включва стъпки и очаквано/получено."
+            },
+            {
+              "id": "answer-2",
+              "text": "Препоръката може да се основава на непосочени измервания."
+            },
+            {
+              "id": "answer-3",
+              "text": "Протоколът свързва критерий, наблюдение и доказателство."
+            },
+            {
+              "id": "answer-4",
+              "text": "Твърдението „не работи“ винаги е пълно описание."
+            },
+            {
+              "id": "answer-5",
+              "text": "Липсващата информация се различава от неуспешен тест."
+            },
+            {
+              "id": "answer-6",
+              "text": "По-ниската цена доказва по-бърза поддръжка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Протоколът свързва критерий, наблюдение и доказателство. Липсващата информация се различава от неуспешен тест. Заявката за помощ включва стъпки и очаквано/получено."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Съставете общи критерии",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете поне шест еднакви критерия за A и B.</strong></p><p>Включете система и ресурси, избрана област, стрелка и текст, PNG, работа без мрежа и акаунт, тригодишна цена. Дайте начин за доказване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: за всеки критерий използваме точен ред от описанието или реален тест с версия. Самопроверка: критериите са общи и свързани със заданието, не подбрани само за предпочитаната програма."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изчислете разхода",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Проверете допустимостта и разхода за три години.</strong></p><p>При A цена 0 плюс 20 у.е. годишна помощ, при B 30 у.е. годишно с поддръжка сметнете общо и разлика. Съпоставете с бюджет 100.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "A=60, B=90, разлика 30 у.е.; и двете са в бюджета. Самопроверка: цена нула за лиценз не означава нулев общ разход."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Оценете ново условие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Изисква се местене на стрелката след повторно отваряне. Преценете A и B.</strong></p><p>Дайте извод и доказателство за всяка. Разграничете работен файл от PNG и „няма данни“ от доказана липса. Посочете въпрос или тест за A.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "B има потвърдена редакция в работния формат; за A се иска уточнение или проба. Самопроверка: PNG не се приема автоматично за файл с отделни редактируеми обекти."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подгответе протокол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете общ тест или ясно означена документна проверка.</strong></p><p>Използвайте учебната карта, избрана област, стрелка, надпис, PNG и отваряне в браузър. Посочете версия и кое е наблюдение, кое — данни от условното описание.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: планът задава стъпки и очаквана четливост; действителният резултат остава непопълнен до проба. Самопроверка: при липса на приложения не се твърди проведен тест или измерена скорост."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Дайте препоръка и заявка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обосновете избор и напишете кратко съобщение за отрязан надпис след експорт.</strong></p><p>Изборът да съдържа допустимост, разход и ограничение. За проблема посочете програма/версия, стъпки, очакван и получен резултат и нужен учебен пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: A е по-нисък известен разход за основната задача; B е потвърдена при новото условие. Заявка: „След PNG експорт надписът е отрязан; в работния файл е цял“. Самопроверка: няма неподкрепено твърдение за бързина на програмата или поддръжката."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Самопроверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Самопроверка</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "За първоначалното задание и двете са допустими; A има с 30 у.е. по-нисък разход за три години. B има доказано предимство за повторна редакция на анотации и предлага PDF, но PDF не е задължителен в началното задание. Няма данни коя програма е по-бърза или колко бързо отговаря поддръжката. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/41-application-software-comparison-practice/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Сравняват се програми по една и съща задача и условия.</li><li>Неизвестно, неизпълнено и изпълнено са различни изводи.</li><li>Тригодишният разход включва и поддръжката.</li><li>Документната проверка се различава от реалния тест.</li><li>Препоръката и заявката за помощ използват доказателства.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

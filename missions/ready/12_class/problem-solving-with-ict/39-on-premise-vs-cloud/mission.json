@@ -1,0 +1,403 @@
+{
+  "mission_version": 4,
+  "mission_id": "af68be60-7560-4951-810f-e1a4715df542",
+  "mission_content": {
+    "title": "Физически сървър срещу Облачна инфраструктура (On-Premise vs. Cloud)",
+    "description": "Къде да работи общото файлово хранилище на учебен клуб — на собствен сървър или в облачна инфраструктура? Ще сравните две подготвени оферти по еднакви условия, без да създавате или наемате ресурси.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Физически сървър срещу Облачна инфраструктура (On-Premise vs. Cloud)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Къде да работи общото файлово хранилище на учебен клуб — на собствен сървър или в облачна инфраструктура? Ще сравните две подготвени оферти по еднакви условия, без да създавате или наемате ресурси.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Двата подхода",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/topic-1.svg\" alt=\"Основни връзки: Двата подхода\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Двата подхода</figcaption></figure>\n<p><strong>On-premises</strong> означава инфраструктура в помещенията на организацията. Тя осигурява хардуер, ток, мрежа, физическа защита и хора за поддръжка. <strong>Облачната инфраструктура</strong> предоставя изчислителни ресурси през мрежата при договорени условия. Облакът също работи върху физически сървъри.</p>\n<p>При IaaS доставчикът управлява физическата инфраструктура, а клиентът обикновено поддържа операционната система, приложенията и настройките на виртуалната машина. При PaaS доставчикът поема повече от платформата; при SaaS се използва готово приложение. Точните отговорности се проверяват в описанието на услугата.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Двата подхода",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Облакът също използва физическа инфраструктура."
+            },
+            {
+              "id": "answer-2",
+              "text": "Плащането за облак премахва всички задачи по сигурността."
+            },
+            {
+              "id": "answer-3",
+              "text": "Отговорностите зависят от IaaS, PaaS или SaaS и договора."
+            },
+            {
+              "id": "answer-4",
+              "text": "On-premises означава липса на физически сървър."
+            },
+            {
+              "id": "answer-5",
+              "text": "При IaaS клиентът обичайно управлява ОС и приложенията си."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка услуга има напълно еднаква граница на отговорност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Облакът също използва физическа инфраструктура. Отговорностите зависят от IaaS, PaaS или SaaS и договора. При IaaS клиентът обичайно управлява ОС и приложенията си."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Задание и сравними оферти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/topic-2.svg\" alt=\"Основни връзки: Задание и сравними оферти\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Задание и сравними оферти</figcaption></figure>\n<p>Клубът има 10 потребители, 500 GB работни файлове и нужда от достъп в кабинета и от разстояние. За казуса са задължителни отделни акаунти, права по групи, ежедневно резервно копие и процедура за възстановяване. Работи се само с примерни материали. Срокът за сравнение е три години.</p>\n<p class=\"note\">Това са условни оферти в у.е., а не актуални тарифи. Приемаме еднакъв капацитет и достатъчна производителност за описаното натоварване. И двете оферти включват настройка на достъпа и резервното копиране. Съществуващият интернет в кабинета е общ разход и е изключен и от двата варианта.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Показател</th><th>O — собствен сървър</th><th>C — облачна IaaS услуга</th></tr></thead><tbody><tr><td>Еднократно</td><td>3000: хардуер, системен лиценз, UPS и настройка</td><td>300: първоначална настройка и прехвърляне</td></tr><tr><td>Периодични разходи</td><td>600 годишно: администриране и ремонтен резерв; 120 годишно: отделно резервно копие</td><td>95 месечно: виртуална машина, дискове, системен лиценз, резервни копия и администриране на ОС; 10 месечно: изходящ трафик при зададения обем</td></tr><tr><td>Енергия</td><td>Средно 100 W за сървъра и UPS; 24 ч. × 365 дни; 0,25 у.е./kWh</td><td>Включена в услугата</td></tr><tr><td>Резервни копия</td><td>Ежедневно; отделно от основния сървър</td><td>Ежедневно; отделна политика за задържане</td></tr><tr><td>Достъп при отпаднал интернет в кабинета</td><td>Вътрешен достъп остава, ако LAN, сървърът и токът работят; отдалеченият спира</td><td>Достъпът от кабинета спира; други места с интернет може да продължат</td></tr><tr><td>Прекратяване</td><td>Организацията пази оборудването; остатъчна стойност не се приспада в модела</td><td>Има експорт на данните; разходът и времето за окончателно изнасяне още не са уточнени</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Задание и сравними оферти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Условните оферти са актуални пазарни тарифи."
+            },
+            {
+              "id": "answer-2",
+              "text": "Общият интернет разход е изключен и от двата варианта."
+            },
+            {
+              "id": "answer-3",
+              "text": "При отпаднал интернет облакът се отваря от кабинета без мрежа."
+            },
+            {
+              "id": "answer-4",
+              "text": "Разходът за окончателно изнасяне от облака още е неизвестен."
+            },
+            {
+              "id": "answer-5",
+              "text": "Собственият сървър не изисква ток и администриране."
+            },
+            {
+              "id": "answer-6",
+              "text": "Сравнението използва еднакъв тригодишен период и обхват."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Сравнението използва еднакъв тригодишен период и обхват. Общият интернет разход е изключен и от двата варианта. Разходът за окончателно изнасяне от облака още е неизвестен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Цена за три години",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/topic-3.svg\" alt=\"Основни връзки: Цена за три години\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Цена за три години</figcaption></figure>\n<p>За O: енергията е 0,1 × 24 × 365 = 876 kWh годишно, или 219 у.е. Общ разход: <strong>3000 + 3 × (600 + 120 + 219) = 5817 у.е.</strong></p>\n<p>За C: <strong>300 + 36 × (95 + 10) = 4080 у.е.</strong> по известните позиции. Това е с 1737 у.е. по-малко. Неизвестният разход за окончателно изнасяне не е включен; поискайте уточнение преди окончателен избор. При удвоен месечен трафик до 20 у.е. C става 4440 у.е.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Цена за три години",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "По известните позиции O е 5817, а C е 4080 у.е."
+            },
+            {
+              "id": "answer-2",
+              "text": "Разликата 1737 у.е. сама доказва всички качествени условия."
+            },
+            {
+              "id": "answer-3",
+              "text": "При трафик 20 у.е. месечно C става 4440 у.е."
+            },
+            {
+              "id": "answer-4",
+              "text": "Месечната цена се умножава само по 3 при тригодишен период."
+            },
+            {
+              "id": "answer-5",
+              "text": "За O годишната енергия е 876 kWh."
+            },
+            {
+              "id": "answer-6",
+              "text": "Неизвестният разход за изнасяне е доказано нула."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "За O годишната енергия е 876 kWh. По известните позиции O е 5817, а C е 4080 у.е. При трафик 20 у.е. месечно C става 4440 у.е."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Достъпност и контрол на данните",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/topic-4.svg\" alt=\"Основни връзки: Достъпност и контрол на данните\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Достъпност и контрол на данните</figcaption></figure>\n<p>Нито местоположението, нито резервното копие сами гарантират непрекъсната работа. Изяснете кой реагира при повреда, допустимия престой, допустимата загуба на последни промени и времето за възстановяване. Ежедневното копие може да не съдържа промените след последното копиране.</p>\n<p>При двата подхода организацията трябва да управлява акаунтите, правата и съдържанието. При облачна услуга проверете региона на съхранение, достъпа на администратори, експорта и изтриването след прекратяване. При собствен сървър проверете физическия достъп, отделното копие и наличния администратор. Плащането за облак не отменя тези задачи.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Достъпност и контрол на данните",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "При облак не е нужно да се уточняват експорт и прекратяване."
+            },
+            {
+              "id": "answer-2",
+              "text": "При двата подхода се управляват акаунти и права."
+            },
+            {
+              "id": "answer-3",
+              "text": "Физическото местоположение само доказва защита на данните."
+            },
+            {
+              "id": "answer-4",
+              "text": "Резервното копие не гарантира само непрекъсната работа."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ежедневното копие винаги съдържа всяка промяна от последната минута."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изясняват се допустим престой и загуба на промени."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Резервното копие не гарантира само непрекъсната работа. Изясняват се допустим престой и загуба на промени. При двата подхода се управляват акаунти и права."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Сравнете обхвата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете условията на двата варианта за 10 потребители и 500 GB.</strong></p><p>Посочете акаунти, права, ежедневни копия, възстановяване, еднаква работа и период. Разделете общи, включени и неизвестни разходи.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Общ интернет е изключен; двата варианта включват достъп и копия; неизвестно е окончателното изнасяне от C. Самопроверка: сравнявате еднакви услуги, а не само надписите „сървър“ и „облак“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изчислете разходите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Покажете тригодишната стойност на O и C.</strong></p><p>За O използвайте 3000 + 3 × (600+120+енергия), с 100 W непрекъснато и 0,25/kWh. За C използвайте 300 + 36 × (95+10). Дайте разлика и единици.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "O: 876 kWh/година, 219 у.е./година, общо 5817. C: 4080. Разлика 1737 у.е. Самопроверка: месечните и годишните стойности са приведени към три години без двойно броене."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете сценарий и отговорности",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Удвоете трафика до 20 у.е. месечно и опишете кой изпълнява основните задачи.</strong></p><p>Изчислете C отново. За хардуер, ОС, акаунти, копия и възстановяване посочете изпълнител и доказателство според офертата, а не само според името IaaS.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "C=4440 у.е. Офертата включва администриране на ОС, въпреки общото разграничение за IaaS; акаунтите и достъпът остават за съгласуване. Самопроверка: реалните договорени услуги имат предимство пред общото предположение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Анализирайте прекъсвания",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Разгледайте отпаднал интернет в кабинета и изтрит работен файл.</strong></p><p>За всяка ситуация опишете достъп, нужни действия и неизвестни условия. Разграничете работа по LAN от отдалечен достъп и наличие на копие от успешно възстановяване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "При работещи LAN, сървър и ток O може да остане достъпен вътрешно; C изисква интернет от мястото. Изтрит файл се възстановява по проверена процедура и подходяща версия. Самопроверка: дневното копие може да не съдържа последните промени."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Дайте условна препоръка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обосновете вариант с две основания и три въпроса към доставчика.</strong></p><p>Включете известна цена, нужда от достъп и контрол. Попитайте за изнасяне, възстановяване и отговорности. Посочете условие, което би променило препоръката.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: C е по-нисък по известните разходи, но са нужни цена за изнасяне, срок за възстановяване и точен обхват на администрирането. Ако постоянният вътрешен достъп без интернет е задължителен, O има предимство по този критерий. Самопроверка: заключението остава условно до уточняване на липсващото."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Достатъчно ли е C да е по-евтина по известните позиции?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Достатъчно ли е C да е по-евтина по известните позиции?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Това подкрепя избора, но трябва да се уточнят изнасянето на данните, условията за възстановяване и отговорностите. Ако работата изисква вътрешен достъп без интернет, собствената инфраструктура има предимство по този конкретен критерий. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/39-on-premise-vs-cloud/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Инфраструктурните подходи се сравняват по задача и отговорности.</li><li>Разходите се привеждат към еднакъв период и обхват.</li><li>Неизвестното изнасяне и възстановяване се уточняват.</li><li>Достъпът при прекъсване зависи от мрежа, ток и среда.</li><li>Копието е част от проверена процедура за възстановяване.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

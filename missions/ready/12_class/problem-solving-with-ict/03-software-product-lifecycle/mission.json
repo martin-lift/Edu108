@@ -1,0 +1,971 @@
+{
+  "mission_version": 4,
+  "mission_id": "software-product-lifecycle-12-20261125",
+  "mission_content": {
+    "title": "Жизнен цикъл на софтуерния продукт",
+    "description": "Цялостният път от идеята до края на употребата; шестфазен учебен модел, повторения, внедряване, поддръжка и замяна. Пет последователни практически задачи и три самопроверки с готова обратна връзка.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "3. Жизнен цикъл на софтуерния продукт",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/cycle.svg\" alt=\"Животът на продукта продължава от идеята до края на употребата.\" width=\"760\" height=\"300\"><figcaption>Животът на продукта продължава от идеята до края на употребата.</figcaption></figure>\n    <p>Софтуерният продукт има история: възниква идея за него, изясняват се изискванията, създава се решение, проверява се, използва се и се поддържа. Накрая употребата му може да бъде прекратена или той да бъде заменен.</p>\n    <p>В този урок ще разберете какво представлява <strong>жизненият цикъл на софтуерния продукт</strong> и каква работа се извършва в основните му фази. Ще свързвате всяка фаза с конкретна дейност, резултат и проверка.</p>\n    <p>Ще можете да обясните защо публикуването на първата версия не е краят на живота на продукта и защо екипът понякога се връща към по-ранни решения. Примерите важат за различни продукти: информационна система, мобилно приложение, игра или уеб сайт.</p>\n  </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "lifecycle",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е жизнен цикъл?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/cycle.svg\" alt=\"Отделният проект е част от по-дългия живот на продукта.\" width=\"760\" height=\"300\"><figcaption>Отделният проект е част от по-дългия живот на продукта.</figcaption></figure><p><strong>Жизненият цикъл на софтуерния продукт</strong> обхваща неговия път от първоначалната идея през разработването, използването и поддръжката до прекратяването на употребата му.</p>\n    <p><strong>Жизненият цикъл на продукта и отделният проект се различават.</strong> Проектът за първата версия има определен обхват и край. След приключването му продуктът може да продължи да се използва, да се поддържа и да получава нови версии. Значимо разширение може да бъде разработено чрез следващ проект.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> екип създава първа версия на игра и я предоставя на потребителите. След това поправя открити грешки и подобрява съвместимостта ѝ с устройствата. По-късно отделен проект добавя нов режим. Играта продължава своя жизнен цикъл през тези промени.</p></div>\n    <p>Разглеждането на целия цикъл помага да планираме работата отвъд писането на код: как ще се провери продуктът, кой ще го поддържа и какво ще стане с потребителите и данните при неговата замяна.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-lifecycle",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Жизнен цикъл и отделен проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения разграничават правилно жизнения цикъл и проекта?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Жизненият цикъл включва използването и поддръжката на продукта."
+            },
+            {
+              "id": "answer-2",
+              "text": "След приключването на проекта за първата версия продуктът задължително се изтрива."
+            },
+            {
+              "id": "answer-3",
+              "text": "Значимо разширение може да се разработи чрез следващ проект."
+            },
+            {
+              "id": "answer-4",
+              "text": "Жизненият цикъл започва едва след публикуването."
+            },
+            {
+              "id": "answer-5",
+              "text": "Продуктът може да получава нови версии след завършването на първия проект."
+            },
+            {
+              "id": "answer-6",
+              "text": "Целият живот на продукта се състои само от писане на код."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Проектът за първата версия има определен обхват и край. Животът на продукта включва идеята, разработването, използването, поддръжката и края на употребата. Следващи проекти могат да развиват същия продукт."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "six-phase-model",
+        "step_content": {
+          "type": "information",
+          "title": "Учебен модел с шест фази",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/model.svg\" alt=\"Фазите подреждат дейности, резултати и проверки.\" width=\"760\" height=\"300\"><figcaption>Фазите подреждат дейности, резултати и проверки.</figcaption></figure><p>За да подредим основните дейности, ще използваме шест фази: <strong>изследване и планиране, анализ на осъществимостта, проектиране, изпълнение, оценка, внедряване и използване</strong>. В последната фаза разглеждаме и поддръжката.</p>\n    <p class=\"note\">Това е учебен модел, а не единствена задължителна последователност за всички организации. В различни модели дейностите могат да бъдат групирани и назовани различно. Част от тях се извършват едновременно или се повтарят. След шестте фази ще разгледаме и края на използването на продукта.</p>\n    <p>За всяка фаза задаваме три въпроса: <strong>Какво правим? Какъв резултат получаваме? Как го проверяваме?</strong></p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-model",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Как да използваме модела?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои изводи са правилни за разгледания модел?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Това е единствената допустима последователност за всички организации."
+            },
+            {
+              "id": "answer-2",
+              "text": "За всяка фаза свързваме дейност, резултат и проверка."
+            },
+            {
+              "id": "answer-3",
+              "text": "Част от дейностите могат да се повтарят или да протичат едновременно."
+            },
+            {
+              "id": "answer-4",
+              "text": "В последната фаза разглеждаме и поддръжката."
+            },
+            {
+              "id": "answer-5",
+              "text": "Броят на фазите доказва, че продуктът няма край на използването."
+            },
+            {
+              "id": "answer-6",
+              "text": "Фазите забраняват обратната връзка от потребителите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Шестте фази са учебно групиране на необходимата работа. В други модели названията и групирането могат да са различни. Важни са връзките между дейностите, резултатите и проверките, а не механичното запомняне на реда."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "research-planning",
+        "step_content": {
+          "type": "information",
+          "title": "Изследване и планиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/planning.svg\" alt=\"От потребност и изисквания към съгласувано описание и начален план.\" width=\"760\" height=\"300\"><figcaption>От потребност и изисквания към съгласувано описание и начален план.</figcaption></figure><p><strong>Какво правим?</strong> Проучваме потребността, потребителите и начина им на работа. Уточняваме предназначението на продукта, основните функции, изискванията и обхвата. Подготвяме първоначален план с задачи, ресурси и срокове.</p>\n    <p><strong>Какъв резултат получаваме?</strong> Описание на съгласуваните изисквания и начален план за работата. Изискване е условие, което продуктът трябва да изпълнява — например да записва разход и да показва общата сума.</p>\n    <p><strong>Как го проверяваме?</strong> Обсъждаме описанието с възложителя и представители на потребителите: разбира ли се какво ще се създаде, защо е нужно и как ще се приеме?</p>\n    <div class=\"example\"><p><strong>Пример:</strong> за приложение за лични разходи уточняваме ръчно въвеждане на сума, дата и категория и показване на обобщение. Автоматична връзка с банка остава извън първата версия.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-planning",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво изясняваме в началото?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои действия и резултати принадлежат към изследването и планирането?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проучваме потребителите и начина им на работа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Обявяваме всички възможни функции за включени, без обсъждане."
+            },
+            {
+              "id": "answer-3",
+              "text": "Уточняваме изискванията, обхвата, ресурсите и сроковете."
+            },
+            {
+              "id": "answer-4",
+              "text": "Съгласуваме с възложителя и потребителите какво ще се създаде."
+            },
+            {
+              "id": "answer-5",
+              "text": "Избираме само цвят на бутона и пропускаме предназначението."
+            },
+            {
+              "id": "answer-6",
+              "text": "Проверяваме единствено готовата инсталация в реална среда."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Началната работа изяснява потребността и договорените очаквания и подготвя план. Изискванията трябва да са разбираеми за възложителя и потребителите, а обхватът — изрично уточнен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "feasibility-types",
+        "step_content": {
+          "type": "information",
+          "title": "Как оценяваме осъществимостта?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/feasibility.svg\" alt=\"Технологии, разходи, реална употреба и пазар се разглеждат според продукта.\" width=\"760\" height=\"300\"><figcaption>Технологии, разходи, реална употреба и пазар се разглеждат според продукта.</figcaption></figure><p><strong>Какво правим?</strong> Проверяваме дали предложеното решение може да бъде изпълнено при наличните условия и дали очакваните ползи оправдават необходимите ресурси.</p>\n    <ul>\n      <li><strong>Техническа осъществимост:</strong> разполагаме ли с подходящи устройства, технологии и умения за създаване и използване на продукта?</li>\n      <li><strong>Икономическа осъществимост:</strong> какви разходи за разработване, внедряване и поддръжка очакваме и какви ползи ще получим?</li>\n      <li><strong>Експлоатационна осъществимост:</strong> ще може ли продуктът да се използва в реалната работа, ще бъде ли полезен за потребителите и има ли кой да го обслужва?</li>\n      <li><strong>Пазарна осъществимост:</strong> ако продуктът ще се предлага на пазара, има ли търсене, какви алтернативи съществуват и с какво ще се отличава? При вътрешна система основният въпрос може да е потребността на организацията, а не продажбите.</li>\n    </ul>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-feasibility-types",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Различете въпросите за осъществимост",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои съответствия са правилни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Имаме ли нужните устройства и умения?“ — техническа осъществимост."
+            },
+            {
+              "id": "answer-2",
+              "text": "„Кой ще обслужва продукта в реалната работа?“ — само цвят на интерфейса."
+            },
+            {
+              "id": "answer-3",
+              "text": "„Оправдават ли ползите разходите?“ — икономическа осъществимост."
+            },
+            {
+              "id": "answer-4",
+              "text": "„Има ли търсене и конкурентни решения?“ — пазарна осъществимост."
+            },
+            {
+              "id": "answer-5",
+              "text": "Вътрешната система винаги трябва да се продава на външни клиенти."
+            },
+            {
+              "id": "answer-6",
+              "text": "Осъществимостта се доказва само с желание да се напише код."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Техническата оценка разглежда технологии и умения, икономическата — разходи и ползи, експлоатационната — реална употреба и обслужване, а пазарната — търсене и алтернативи. Значението им зависи от предназначението на продукта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "feasibility-decision",
+        "step_content": {
+          "type": "information",
+          "title": "Решение след анализа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/decision.svg\" alt=\"Продължаване, по-малък обхват, готов продукт или отказ според доказателствата.\" width=\"760\" height=\"300\"><figcaption>Продължаване, по-малък обхват, готов продукт или отказ според доказателствата.</figcaption></figure><p><strong>Какъв резултат получаваме?</strong> Обосновано решение: да продължим, да намалим обхвата, да изберем готов продукт, да отложим или да се откажем от предложението.</p>\n    <p><strong>Как го проверяваме?</strong> Сравняваме необходимите и наличните ресурси и посочваме на какви данни и предположения се основава решението. Оценката се уточнява при нова информация.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> екипът може да изработи прототип за ръчно въвеждане на разходи с наличните си умения, но няма опит и време за банкова интеграция. Той обосновава по-малкия първоначален обхват и го съгласува с възложителя.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-feasibility-decision",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво следва от анализа?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Екипът няма време и опит за банкова интеграция. Кои действия са обосновани?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Да намали началния обхват и да го съгласува."
+            },
+            {
+              "id": "answer-2",
+              "text": "Да обещае всяка функция без оценка на ресурсите."
+            },
+            {
+              "id": "answer-3",
+              "text": "Да сравни необходимите и наличните ресурси и да посочи допусканията."
+            },
+            {
+              "id": "answer-4",
+              "text": "Да разгледа готов продукт, отлагане или отказ като възможни решения."
+            },
+            {
+              "id": "answer-5",
+              "text": "Да приеме, че първата оценка никога не може да се уточнява."
+            },
+            {
+              "id": "answer-6",
+              "text": "Да обяви за изпълнено нещо, което не е разработено."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Анализът може да доведе до продължаване, промяна на обхвата, готово решение, отлагане или отказ. Решението се обосновава и съгласува, а оценката се уточнява при нова информация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "design",
+        "step_content": {
+          "type": "information",
+          "title": "Проектиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/design.svg\" alt=\"Скиците и прототипите позволяват проверка на решението преди завършен продукт.\" width=\"760\" height=\"300\"><figcaption>Скиците и прототипите позволяват проверка на решението преди завършен продукт.</figcaption></figure><p><strong>Какво правим?</strong> Определяме как да бъде устроено решението: отделните части, връзките между тях и начина на съхраняване и обработване на данните. Подготвяме потребителския интерфейс — екраните и действията, чрез които човек работи с продукта.</p>\n    <p><strong>Какъв резултат получаваме?</strong> Описание на решението, схеми на данните и скици или прототип на интерфейса. Прототипът позволява да изпробваме идея, преди да е готов целият продукт.</p>\n    <p><strong>Как го проверяваме?</strong> Проследяваме дали предложеното устройство позволява да се изпълнят изискванията. Показваме екраните на потребители и наблюдаваме дали разбират как да извършат основните действия.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> проектираме екран за нов разход и екран за обобщение. Потребител изпробва прототипа и показва къде очаква да намери бутона за записване.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-design",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво получаваме при проектирането?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Уточняваме частите на решението, връзките и данните."
+            },
+            {
+              "id": "answer-2",
+              "text": "Проектирането е само публикуване на готовия продукт."
+            },
+            {
+              "id": "answer-3",
+              "text": "Скица или прототип може да помогне да проверим основни потребителски действия."
+            },
+            {
+              "id": "answer-4",
+              "text": "Потребителският интерфейс включва екраните и действията на човека."
+            },
+            {
+              "id": "answer-5",
+              "text": "Прототипът задължително е готов за всяка реална употреба."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изискванията нямат значение за устройството на решението."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Проектирането определя устройството, данните и интерфейса. Схемите и прототипите позволяват да проверим дали предложеното решение отговаря на изискванията и е разбираемо за потребителите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "implementation",
+        "step_content": {
+          "type": "information",
+          "title": "Изпълнение — разработване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/implementation.svg\" alt=\"Създаваме и свързваме части на програмата и ги проверяваме.\" width=\"760\" height=\"300\"><figcaption>Създаваме и свързваме части на програмата и ги проверяваме.</figcaption></figure><p><strong>Какво правим?</strong> Създаваме програмния код, екраните и отделните модули и ги свързваме. <strong>Модул</strong> е обособена част от програмата с определена задача, например обработване на въведените разходи.</p>\n    <p><strong>Какъв резултат получаваме?</strong> Изпълнима версия с реализираните функции. Тя може да бъде непълна, ако работим на части и постепенно добавяме възможности.</p>\n    <p><strong>Как го проверяваме?</strong> Проверяваме отделните части и взаимодействието между тях още докато ги разработваме. Откритите проблеми се поправят и се проверяват отново.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> реализираме записването на сума, дата и категория. Проверяваме дали записът се появява в списъка и дали данните се запазват при повторно отваряне.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-implementation",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво означава изпълнение?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разработването?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Създават се код, екрани и програмни модули."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изпълнима версия никога не може да е непълна."
+            },
+            {
+              "id": "answer-3",
+              "text": "Модулът е обособена част с определена задача."
+            },
+            {
+              "id": "answer-4",
+              "text": "Отделните части и взаимодействието им се проверяват още при разработването."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всички проверки трябва да се отложат за след внедряването."
+            },
+            {
+              "id": "answer-6",
+              "text": "Модулите не е необходимо да работят заедно."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Екипът създава и свързва програмните части. При работа на части версията може още да не включва всички функции. Проверките започват по време на разработването, а проблемите се поправят и проверяват повторно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "evaluation",
+        "step_content": {
+          "type": "information",
+          "title": "Оценка на продукта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/testing.svg\" alt=\"Тестът сравнява очаквания и действителния резултат.\" width=\"760\" height=\"300\"><figcaption>Тестът сравнява очаквания и действителния резултат.</figcaption></figure><p><strong>Какво правим?</strong> Тестваме продукта спрямо изискванията и критериите за приемане. Проверяваме както отделни функции, така и цялостни действия на потребителя. Оценяваме и дали решението е разбираемо и полезно за предназначените хора.</p>\n    <p><strong>Какъв резултат получаваме?</strong> Записани резултати от проверките: тестови данни, действия, очакван и действителен резултат, открити проблеми и извършени корекции.</p>\n    <p><strong>Как го проверяваме?</strong> Сравняваме действителното поведение с предварително определеното. След поправка повтаряме засегнатите проверки и проверяваме дали промяната не е повредила други работещи функции.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> въвеждаме измислени разходи от 5, 7 и 8 единици и очакваме обща сума 20. Проверяваме и какво се случва при празна сума или невалидно въведена стойност.</p></div>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-evaluation",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво показва проверката?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои действия и изводи са правилни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "За 5, 7 и 8 единици очакваната обща сума е 20."
+            },
+            {
+              "id": "answer-2",
+              "text": "Достатъчно е да запишем „работи“, без данни и действия."
+            },
+            {
+              "id": "answer-3",
+              "text": "Записваме очакван и действителен резултат и откритите проблеми."
+            },
+            {
+              "id": "answer-4",
+              "text": "След поправка проверяваме и дали са засегнати други функции."
+            },
+            {
+              "id": "answer-5",
+              "text": "Празните или невалидните стойности не трябва да се проверяват."
+            },
+            {
+              "id": "answer-6",
+              "text": "Проверката се свежда само до мнение за цветовете."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Проверката свързва конкретни данни, действия и очакван резултат. След корекция повторно проверяваме засегнатото и възможното влияние върху други функции."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "testing-throughout",
+        "step_content": {
+          "type": "information",
+          "title": "Проверки през цялата работа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/repeat.svg\" alt=\"Проверките започват рано и се повтарят след промяна.\" width=\"760\" height=\"300\"><figcaption>Проверките започват рано и се повтарят след промяна.</figcaption></figure><p class=\"note\">Проверките не започват едва след написването на целия код. Описанията, прототипите и отделните модули се проверяват по време на работата. Успешните тестове дават доказателства за проверените случаи, но не гарантират липса на всякакви грешки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "deployment",
+        "step_content": {
+          "type": "information",
+          "title": "Внедряване и реална употреба",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/deployment.svg\" alt=\"От версията при разработчика към работещ продукт в предназначената среда.\" width=\"760\" height=\"300\"><figcaption>От версията при разработчика към работещ продукт в предназначената среда.</figcaption></figure><p><strong>Какво правим при внедряването?</strong> Подготвяме продукта за реална употреба: инсталираме или публикуваме версията, настройваме средата и достъпа и предоставяме указания. При необходимост прехвърляме данни от предишна система и обучаваме потребителите.</p>\n    <p><strong>Какъв резултат получаваме?</strong> Предоставена версия, с която предназначените потребители могат да работят, и уточнена отговорност за обслужването ѝ.</p>\n    <p><strong>Как го проверяваме?</strong> Изпробваме основните действия в реалната среда и проверяваме дали потребителите имат необходимия достъп, данни и указания. Успешната демонстрация на компютъра на разработчика сама по себе си не доказва успешно внедряване.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-deployment",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Готов ли е продуктът за потребителите?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни за внедряването?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проверяваме основните действия в реалната среда."
+            },
+            {
+              "id": "answer-2",
+              "text": "Демонстрацията само на компютъра на разработчика доказва успешно внедряване навсякъде."
+            },
+            {
+              "id": "answer-3",
+              "text": "Потребителите трябва да имат необходимите достъп, данни и указания."
+            },
+            {
+              "id": "answer-4",
+              "text": "При нужда се прехвърлят данни и се провежда обучение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Внедряването премахва необходимостта от обслужване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Настройването на средата никога не е част от внедряването."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Внедряването предоставя продукта за реална работа и включва нужните настройки, достъп и указания. Проверяваме предназначената среда, а не разчитаме само на успешна демонстрация при разработчика."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "maintenance",
+        "step_content": {
+          "type": "information",
+          "title": "Поддръжка и развитие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/maintenance.svg\" alt=\"Съобщение за проблем води до поправка, проверка и обновена версия.\" width=\"760\" height=\"300\"><figcaption>Съобщение за проблем води до поправка, проверка и обновена версия.</figcaption></figure>\n    <p>По време на използването наблюдаваме работата, отстраняваме грешки, помагаме на потребителите и приспособяваме продукта към промени в средата. При нужда разработваме подобрения и нови версии. След промяна отново проверяваме засегнатите функции.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> след пускането на приложението потребители съобщават, че бутонът за записване не се вижда на малък екран. Екипът поправя оформлението, тества го на различни размери и предоставя обновена версия.</p></div>\n    <p>Редовното въвеждане на личните разходи е използване на продукта. Поправянето на грешка в сумирането е софтуерна поддръжка. Създаването на значим нов модул може да бъде организирано като отделен проект за развитие.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-maintenance",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Използване, поддръжка или нов проект?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Редовното въвеждане на разходи е използване на продукта."
+            },
+            {
+              "id": "answer-2",
+              "text": "Поправянето на грешка в сумирането е софтуерна поддръжка."
+            },
+            {
+              "id": "answer-3",
+              "text": "След промяна повече не са нужни проверки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Значим нов модул може да се разработи чрез отделен проект."
+            },
+            {
+              "id": "answer-5",
+              "text": "Поддръжката винаги означава само добавяне на потребителски данни."
+            },
+            {
+              "id": "answer-6",
+              "text": "Промените в устройствата никога не изискват приспособяване."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Използването изпълнява предназначението на продукта. Поддръжката отстранява грешки и приспособява работата към промените. Значимото развитие може да се организира в нов проект, а промените се проверяват."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "connected-phases",
+        "step_content": {
+          "type": "information",
+          "title": "Как са свързани фазите?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/repeat.svg\" alt=\"Проверката може да върне екипа към изисквания, дизайн или разработване.\" width=\"760\" height=\"300\"><figcaption>Проверката може да върне екипа към изисквания, дизайн или разработване.</figcaption></figure><p>Фазите подреждат работата и очакваните резултати, но не са непременно еднократно преминаване по права линия. Изискванията се уточняват, решенията се изпробват и продуктът може да се изгражда на части.</p>\n    <div class=\"example\"><p><strong>Пример за връщане към по-ранно решение:</strong> при оценката потребителят не разбира от кой екран се добавя разход. Екипът променя проектирането на навигацията, реализира промяната и повтаря проверката. Ако се окаже необходима непредвидена функция, първо се уточняват изискването, обхватът и отражението върху плана.</p></div>\n    <p>Анализът на осъществимостта също може да наложи промяна на първоначалния план. Открита грешка след внедряването не означава автоматично започване на всичко отначало: определяме засегнатото, поправяме го и го проверяваме.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-connections",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Когато потребителят не намира действието",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>При оценката потребител не разбира откъде да добави разход. Кои действия са подходящи?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Да променим навигацията и да проверим отново."
+            },
+            {
+              "id": "answer-2",
+              "text": "Да приемем, че вече не можем да променяме проектирането."
+            },
+            {
+              "id": "answer-3",
+              "text": "Ако е нужна нова функция, да уточним изискването, обхвата и плана."
+            },
+            {
+              "id": "answer-4",
+              "text": "Да определим засегнатото решение, вместо автоматично да започнем всичко отначало."
+            },
+            {
+              "id": "answer-5",
+              "text": "Да премахнем проверките, за да няма открити проблеми."
+            },
+            {
+              "id": "answer-6",
+              "text": "Да обявим използването за прекратено при всяко затруднение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Фазите могат да се повтарят. Проблемът насочва към конкретна промяна и повторна проверка. Новите функции изискват съгласуване на изискванията и последствията за проекта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "quality-and-data",
+        "step_content": {
+          "type": "information",
+          "title": "Качество и данни през целия цикъл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/data.svg\" alt=\"В учебните проверки използваме измислени данни.\" width=\"760\" height=\"300\"><figcaption>В учебните проверки използваме измислени данни.</figcaption></figure><p>Изискванията за качество и защитата на данните се обмислят през целия цикъл. За учебните проверки използваме измислени данни. Когато продуктът работи с реални данни, грижата за тях започва още при изясняването на изискванията и проектирането.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "retirement",
+        "step_content": {
+          "type": "information",
+          "title": "Край на използването и замяна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/retirement.svg\" alt=\"Подготвяме потребителите и данните за преминаване към ново решение.\" width=\"760\" height=\"300\"><figcaption>Подготвяме потребителите и данните за преминаване към ново решение.</figcaption></figure><p>Жизненият цикъл включва и края на употребата. Продуктът може да стане ненужен, да бъде заменен с друго решение или поддръжката му да бъде прекратена.</p>\n    <p>Преходът се организира предварително: потребителите се уведомяват, определя се какво ще замени продукта и как необходимите данни ще бъдат прехвърлени или съхранени. Проверява се дали новото решение работи и как спирането на старото се отразява на свързаните системи.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> организация заменя старо приложение за разходи с ново. Преди спирането му проверява дали необходимите записи могат да бъдат прехвърлени и прочетени правилно и дали потребителите знаят как да продължат работата.</p></div>\n    <p>Краят на поддръжката и краят на използването не винаги настъпват едновременно. Ако продуктът се използва без поддръжка, организацията трябва да оцени последствията и да реши как ще осигури продължаване или прекратяване на работата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-retirement",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Как се подготвя замяната?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои действия и изводи са обосновани?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Уведомяваме потребителите как ще продължат работата."
+            },
+            {
+              "id": "answer-2",
+              "text": "Прехвърлянето на данни никога не трябва да се проверява."
+            },
+            {
+              "id": "answer-3",
+              "text": "Проверяваме необходимите записи и връзките с други системи."
+            },
+            {
+              "id": "answer-4",
+              "text": "Краят на поддръжката и краят на използването могат да настъпят в различни моменти."
+            },
+            {
+              "id": "answer-5",
+              "text": "Продуктът няма край на употребата, ако някога е бил публикуван."
+            },
+            {
+              "id": "answer-6",
+              "text": "Спираме старото решение без преценка на последствията."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Замяната е организиран преход: уведомяване, подготовка на данните и проверка на новото решение и зависимостите. Прекратената поддръжка не означава непременно незабавно спряла употреба, но изисква оценка на последствията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-product",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: представете продукта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Представете софтуерен продукт, чийто жизнен цикъл ще проследите.</strong></p><p>Изберете приложение, игра, уеб сайт или информационна система от позната област. Може да използвате своя проектна идея. Запазете същия продукт за следващите задачи.</p><p>В 3–5 изречения посочете предназначението, потребителите и функциите на първата версия. Завършете с условие, при което проектът за тази версия ще е приключил — например договорените функции са проверени и версията е предоставена.</p><p>Отговаряйте направо в мисията. Не е необходимо да разработвате продукта; използвайте ясно описан пример и измислени данни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Примерен отговор:\nПродуктът е приложение за лични задачи, предназначено за хора, които искат да подреждат ежедневната си работа. Първата версия позволява добавяне на задача, отбелязване като изпълнена и показване само на неизпълнените задачи. Използваме измислени задачи при проверките. Проектът за тази версия приключва, когато договорените функции са проверени, версията е предоставена в предназначената среда и има указания за работа.\n\nСамопроверка: ясни ли са предназначението, потребителите и първата версия? Условието за край на проекта не трябва да означава край на целия живот на продукта. Вашият продукт може да е различен, ако описанието е конкретно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-phases",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: проследете шестте фази",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Проследете избрания продукт през шестте фази на учебния модел.</strong></p><p>Напишете шест обозначени части: <strong>„Изследване и планиране“, „Анализ на осъществимостта“, „Проектиране“, „Изпълнение“, „Оценка“, „Внедряване и използване“</strong>.</p><p>За всяка използвайте структурата <strong>„Дейност — Резултат — Проверка“</strong>. Предвидете около 2–3 изречения за всяка фаза. Опишете конкретна работа и полученото от нея, а не само общото определение на фазата.</p><p>При оценката дайте примерни входни данни и очакван резултат. При внедряването уточнете предназначената среда и как ще проверите достъпа на потребителя.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример за приложение за лични задачи:\nИзследване и планиране — уточняваме трите функции и потребителите; получаваме описание на изискванията и начален план; проверяваме дали възложителят и потребителите разбират включеното.\nАнализ на осъществимостта — сравняваме нужните умения и време с наличните; получаваме обосновано решение за първа версия без онлайн споделяне; проверяваме допусканията и наличните ресурси.\nПроектиране — скицираме списък и форма за нова задача; получаваме прототип; потребител показва откъде би добавил и отбелязал задача.\nИзпълнение — разработваме добавянето, отметката и филтъра; получаваме изпълнима версия; проверяваме частите и съвместната им работа.\nОценка — въвеждаме три измислени задачи и отбелязваме една като изпълнена; записваме тестовите резултати; при филтър за неизпълнени очакваме да се виждат останалите две.\nВнедряване и използване — предоставяме версията на предназначеното устройство и указанията; получаваме достъпно приложение; проверяваме дали потребителят може да стартира и изпълни трите основни действия.\n\nСамопроверка: всяка част съдържа ли дейност, резултат и конкретен начин за проверка? Само „правим оценка“ не показва какво е проверено. Различни решения са допустими, ако са свързани с вашия продукт и шестте фази."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-return",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: върнете се към по-ранно решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете една ситуация, при която проверка налага промяна на по-ранно решение.</strong></p><p>Използвайте продукта си и четири свързани части: <strong>„Наблюдаван проблем“, „Кое решение променяме“, „Какво правим“ и „Повторна проверка“</strong>.</p><p>В 4–6 изречения уточнете какво прави потребителят, какво затруднение се наблюдава и дали е нужно да се уточнят изискване, интерфейс или програмен код. Завършете с повторима проверка и очакван резултат. Не е достатъчно само „връщаме се и оправяме“.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nНаблюдаван проблем: при изпробване потребителят не намира действието за добавяне на задача.\nКое решение променяме: проектирането на навигацията.\nКакво правим: поставяме ясно означен бутон „Нова задача“ в основния екран и реализираме промяната.\nПовторна проверка: потребител отваря началния екран, намира бутона, въвежда измислена задача и вижда записа в списъка.\n\nСамопроверка: има ли връзка между наблюдението, промененото решение и проверката? Ако добавяте непредвидена функция, първо се уточняват изискването, обхватът и планът. Не е задължително целият цикъл да започне отначало."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-maintenance",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: планирайте поддръжката",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете два различни случая на поддръжка след внедряването на вашия продукт.</strong></p><p>За всеки напишете <strong>„Причина — Действие — Проверка“</strong>. Първият може да е поправка на грешка, а вторият — приспособяване към промяна на устройство или среда.</p><p>Посочете какво се е променило или какъв проблем е открит, какво ще направи екипът и как ще установи, че промяната е помогнала. Обикновеното добавяне на нов запис от потребителя е използване на продукта, а не софтуерна поддръжка.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nСлучай 1 — Причина: филтърът показва и изпълнени задачи. Действие: поправяме условието за филтриране. Проверка: при три задачи, една от които е изпълнена, филтърът показва само другите две.\nСлучай 2 — Причина: на нов малък екран бутонът „Нова задача“ се скрива. Действие: приспособяваме оформлението. Проверка: на договорените размери бутонът се вижда и може да се използва, а добавянето продължава да работи.\n\nСамопроверка: двата случая описват ли различни причини и конкретни действия? Има ли повторима проверка, вместо само твърдение „вече е добре“? Ежедневното въвеждане на задачи е употреба; поправката на филтъра е поддръжка. Вашите примери могат да са други."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-retirement",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: опишете края на използването",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете организирана замяна или спиране на своя продукт.</strong></p><p>В 5–7 изречения свържете причината за замяната с подготовката на хората и данните. Посочете как потребителите ще бъдат уведомени, кои записи са необходими и как ще проверите, че могат да продължат работата в новото решение.</p><p>Завършете с едно изречение защо това е част от жизнения цикъл, който продължава след първоначалното разработване. Не предполагайте, че спирането на поддръжката автоматично прекратява всяко използване.</p><p>Накрая сверете цялата работа: има ли конкретни резултати и проверки за фазите, връщане към по-ранно решение, поддръжка и подготовка за края на употребата?</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nСтарото приложение за задачи се заменя с решение, което предлага нужните нови възможности. Потребителите предварително получават информация кога и как ще преминат към него. Определяме кои неизпълнени задачи и кои стари записи трябва да се запазят. Прехвърляме необходимите данни и проверяваме дали текстовете и състоянието на задачите са правилни. Изпробваме основните действия в новото приложение и даваме указания на потребителите. След проверения преход организираме спирането на старото решение. Това показва, че жизненият цикъл включва и работа дълго след създаването на първата версия.\n\nСамопроверка: има ли причина, уведомяване, нужни данни и проверка на продължаването на работата? Само „изтриваме приложението“ не описва организиран преход. Допустими са различни ситуации според вашия продукт."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: първата версия",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Приключва ли жизненият цикъл с публикуването на първата версия?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате един конкретен пример, за да подкрепите обяснението.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Следват използване, поддръжка, възможно развитие чрез нови версии и накрая прекратяване на употребата или замяна.\n\nСамопроверка: Разграничете приключването на проект от края на употребата на продукта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: грешка след публикуване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Открита грешка след публикуването означава ли ново начало на целия цикъл?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате един конкретен пример, за да подкрепите обяснението.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не непременно. Анализираме проблема, поправяме засегнатото решение и проверяваме отново. При значима промяна може да са необходими нови изисквания, оценка на осъществимостта и планиране.\n\nСамопроверка: Свържете анализа, конкретната промяна и повторната проверка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: реална среда",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Достатъчно ли е приложението да работи на компютъра на разработчика?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате един конкретен пример, за да подкрепите обяснението.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Преди реална употреба се проверява дали работи в предназначената среда и дали потребителите имат необходимите достъп, данни и указания.\n\nСамопроверка: Посочете предназначената среда и реалните условия за потребителите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}.source{font-size:14px}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/03-software-product-lifecycle/images/cycle.svg\" alt=\"Продуктът се създава, използва, поддържа и накрая се заменя или спира.\" width=\"760\" height=\"300\"><figcaption>Продуктът се създава, използва, поддържа и накрая се заменя или спира.</figcaption></figure><ol>\n      <li><strong>Жизненият цикъл</strong> обхваща пътя от идеята до края на използването на продукта.</li>\n      <li><strong>Шестте фази са учебен модел:</strong> за всяка свързваме дейност, резултат и проверка.</li>\n      <li><strong>Фазите могат да се повтарят и застъпват;</strong> проверките насочват следващите промени.</li>\n      <li><strong>Внедряването започва реалната употреба;</strong> поддръжката осигурява поправки и приспособяване към промени.</li>\n      <li><strong>Продуктът може да надживее отделния проект;</strong> развитието и замяната му също трябва да се организират.</li>\n    </ol><p class=\"source\">Източници: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/03-Software-Product-Lifecycle.html\">Жизнен цикъл на софтуерния продукт</a>; <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT%20-%20Textbook/01-Software-Project-Lifecycle.html\">Софтуерен проект: от идея до използване</a>; <a href=\"https://aws.amazon.com/what-is/sdlc/\">AWS: жизнен цикъл на разработването</a>; <a href=\"https://swehb.nasa.gov/spaces/SWEHBVD/pages/133235383/A.07%2BSoftware%2BRelease%2BOperations%2BMaintenance%2Band%2BRetirement\">NASA: използване, поддръжка и извеждане от употреба</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

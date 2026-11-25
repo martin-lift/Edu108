@@ -71,3 +71,11 @@
 За уроци 22–28 са качени 14 мисии и 14 отделни изчистени работни книги. Всяка кратка мисия има една задача; всяка пълна включва всичките седем задачи. Уроците са преработени с конкретни действия за Excel и Calc. При сценарии и обобщаващи диаграми се предава .xlsx от Excel или .ods от Calc, за да се запазят вградените обекти. В урок 24 CSV е междинен файл; предава се само една завършена работна книга.
 
 Проверени са JSON схема 4, началните данни и празните места за резултати, формулите и независими числови контроли, вариантите на сценарните модели, CSV обменът с UTF-8 и два разделителя, границите на логическите правила и визуалното оформление. Всеки публикуван JSON е сравнен с локалния, а работните книги — с качените Git blob SHA. Реалното преминаване през диалозите на Excel/Calc и предаването през Student108 не е изпълнявано автоматично.
+
+## Мисии за уроци 30–32
+
+По една кратка мисия с една задача и една пълна мисия с всички задачи за всеки урок. Указанията и обясненията са в мисиите. Началните файлове са изчистени.
+
+| Урок | Тема | Пълна мисия | Пълен файл | Кратка мисия | Кратък файл |
+|---|---|---|---|---|---|
+| 30 | НСИ: намиране и изтегляне на реални данни | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/30-nsi-finding-downloading-data/mission.json) | [Excel](30-nsi-finding-downloading-data/30-nsi-finding-downloading-data-clean.xlsx) | [JSON](https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/30-nsi-finding-downloading-data/short/mission.json) | [Excel](30-nsi-finding-downloading-data/short/30-nsi-finding-downloading-data-short-clean.xlsx) |

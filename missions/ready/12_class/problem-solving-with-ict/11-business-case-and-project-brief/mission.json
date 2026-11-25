@@ -1,0 +1,735 @@
+{
+  "mission_version": 4,
+  "mission_id": "d524f8d0-05d0-43e9-9ce0-69d3699a163b",
+  "mission_content": {
+    "title": "Бизнес обосновка и рамката PRINCE2 (Business Case & Project Brief)",
+    "description": "Ще разберете как PRINCE2 подпомага управлението на проекти и защо знанията за него са полезни в професионалната работа. След това ще свържете потребност, полза и продукт в кратка бизнес обосновка и проектно предложение.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Бизнес обосновка и рамката PRINCE2 (Business Case & Project Brief)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще разберете как PRINCE2 подпомага управлението на проекти и защо знанията за него са полезни в професионалната работа. След това ще свържете потребност, полза и продукт в кратка бизнес обосновка и проектно предложение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е PRINCE2 и защо го изучаваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-1.svg\" alt=\"Основни връзки: Какво е PRINCE2 и защо го изучаваме?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво е PRINCE2 и защо го изучаваме?</figcaption></figure>\n<p>Представете си екип, който разработва приложение за записване на часове. Програмистите могат да създадат функциите, но трябва да е ясно и кой определя приоритетите, кой одобрява разходите, какво ще се предаде и как ще се реагира при закъснение. Тези решения свързват техническата работа с целта на проекта.</p>\n<p><strong>PRINCE2</strong> е международно използван, структуриран метод за управление на проекти. Името идва от <span lang=\"en\">Projects IN Controlled Environments</span> — проекти в контролирана среда. Методът дава общ начин да организираме отговорностите, планирането, качеството, рисковете, промените и решенията през проекта. Прилага се в различни области, включително при създаване и внедряване на софтуер.</p>\n<p>„Контролирана среда“ означава ясни договорки, достоверна информация и решения навреме. Възложителят знае каква стойност очаква, екипът разбира какво трябва да създаде, а ръководителят следи дали работата остава изпълнима и оправдана.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво е PRINCE2 и защо го изучаваме",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "PRINCE2 подпомага организацията и решенията през проекта."
+            },
+            {
+              "id": "answer-2",
+              "text": "PRINCE2 описва единствено как се пише програмен код."
+            },
+            {
+              "id": "answer-3",
+              "text": "Методът се прилага и при софтуерни проекти."
+            },
+            {
+              "id": "answer-4",
+              "text": "Възложителят няма отношение към очакваната стойност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Контролираната среда изисква ясни договорки и информация."
+            },
+            {
+              "id": "answer-6",
+              "text": "Контролът означава да отложим решенията до края."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "PRINCE2 подпомага организацията и решенията през проекта. Методът се прилага и при софтуерни проекти. Контролираната среда изисква ясни договорки и информация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Седем принципа с практическо значение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-2.svg\" alt=\"Основни връзки: Седем принципа с практическо значение\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Седем принципа с практическо значение</figcaption></figure>\n<ul>\n<li><strong>Продължаваща бизнес обосновка:</strong> проверяваме дали очакваните ползи още оправдават разходите и рисковете.</li>\n<li><strong>Учене от опита:</strong> използваме наученото от предишни проекти и записваме полезните изводи по време на работата.</li>\n<li><strong>Ясни роли, отговорности и взаимоотношения:</strong> уточняваме кой изпълнява, кой решава и как участниците си сътрудничат.</li>\n<li><strong>Управление по етапи:</strong> разделяме работата на управляеми части и преценяваме продължаването при определени прегледи.</li>\n<li><strong>Управление чрез изключения:</strong> даваме свобода за действие в договорени граници; при прогноза за излизане извън тях търсим решение от следващото управленско ниво.</li>\n<li><strong>Фокус върху продуктите:</strong> първо уточняваме необходимите резултати и качеството им, после работата за създаването им.</li>\n<li><strong>Адаптиране към проекта:</strong> съобразяваме организацията и документите с размера, сложността и условията на конкретната работа.</li>\n</ul>\n<p>В малък учебен проект това може да означава кратка обосновка, ясни отговорности, списък с рискове и няколко проверими резултата. В голям проект същите въпроси изискват по-подробна организация.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Седем принципа с практическо значение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изводите от предишни проекти трябва да се пренебрегват."
+            },
+            {
+              "id": "answer-2",
+              "text": "Фокусът върху продуктите започва от резултатите и качеството."
+            },
+            {
+              "id": "answer-3",
+              "text": "Договорените управленски граници позволяват отклоненията да се скриват."
+            },
+            {
+              "id": "answer-4",
+              "text": "Организацията се адаптира към конкретния проект."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всеки проект задължително използва еднакъв обем документация."
+            },
+            {
+              "id": "answer-6",
+              "text": "Бизнес обосновката се преценява и по време на работата."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Бизнес обосновката се преценява и по време на работата. Фокусът върху продуктите започва от резултатите и качеството. Организацията се адаптира към конкретния проект."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Каква стойност носи при управлението на проекти?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-3.svg\" alt=\"Основни връзки: Каква стойност носи при управлението на проекти?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Каква стойност носи при управлението на проекти?</figcaption></figure>\n<p>Практическата стойност е в <strong>по-ясните решения и по-ранното откриване на затруднения</strong>. Общият език улеснява работата между възложители, потребители и технически специалисти. Проверимите продукти намаляват неяснотата около „готово“, а прегледите дават възможност да променим подхода, преди да изразходим целия бюджет.</p>\n<div class=\"example\"><p><strong>Пример:</strong> за приложението за часове е поискана нова функция за плащане. Екипът описва промяната, оценява допълнителните работа, разходи и рискове и представя варианти. Участникът с право да реши избира дали функцията да влезе в текущата версия или в следваща. Така техническата идея се свързва с ползата, възможностите и отговорността за решението.</p></div>\n<p>Добре приложен, методът подпомага прозрачността, отговорността, сътрудничеството и разумното използване на ресурсите. Успехът зависи и от уменията на хората, качеството на информацията и действителното изпълнение на решенията.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Каква стойност носи при управлението на проекти",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Нова функция се оценява според работа, разходи, рискове и полза."
+            },
+            {
+              "id": "answer-2",
+              "text": "Проверимите продукти правят понятието „готово“ по-неясно."
+            },
+            {
+              "id": "answer-3",
+              "text": "Прегледите подпомагат навременната промяна на подхода."
+            },
+            {
+              "id": "answer-4",
+              "text": "Самото име на метода гарантира успешен проект."
+            },
+            {
+              "id": "answer-5",
+              "text": "Общият език улеснява координацията между участниците."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка поискана функция влиза веднага без решение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Общият език улеснява координацията между участниците. Нова функция се оценява според работа, разходи, рискове и полза. Прегледите подпомагат навременната промяна на подхода."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Защо е ценен при кандидатстване за работа?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-4.svg\" alt=\"Основни връзки: Защо е ценен при кандидатстване за работа?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Защо е ценен при кандидатстване за работа?</figcaption></figure>\n<p>PRINCE2 е разпознаваем професионален език за управление на проекти. Познаването му може да бъде предимство за позиции като проектен координатор, ръководител на проект, бизнес анализатор или специалист в офис за управление на проекти — <span lang=\"en\">Project Management Office (PMO)</span>. То е полезно и за разработчици и тестери, които трябва да разбират общите цели, отговорностите и приемането на работата.</p>\n<p><strong>Колко е ценен зависи от конкретната позиция.</strong> Когато работодателят използва PRINCE2 или го посочва като изискване, съответната квалификация може да е важна при подбора. При други позиции по-голяма тежест могат да имат техническите умения, опитът и доказаните резултати. Обявата показва дали сертификатът е задължителен, желателен или се приема равностоен опит.</p>\n<p>Различавайте три неща, когато представяте подготовката си:</p>\n<ul>\n<li><strong>Знания:</strong> разбирате понятията и можете да обясните кога и защо се използват.</li>\n<li><strong>Практически опит:</strong> можете да покажете как сте обосновали проект, разпределили отговорности, управлявали риск и проверили резултат.</li>\n<li><strong>Официален сертификат:</strong> придобита квалификация след съответния изпит. <span lang=\"en\">Foundation</span> проверява основните знания за метода, а <span lang=\"en\">Practitioner</span> — прилагането и адаптирането му към ситуации.</li>\n</ul>\n<p>Изучаването на тези уроци ви дава начална основа и примери за портфолио. В автобиография можете точно да посочите „Основни познания по PRINCE2; учебен проект с обосновка, роли, регистър на рисковете и PBS“. Официална сертификация посочвате, когато действително сте я придобили. Сертификатът може да подкрепи кандидатурата, а опитът показва как превръщате знанията в резултат.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Защо е ценен при кандидатстване за работа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Знания, практически опит и сертификат са едно и също."
+            },
+            {
+              "id": "answer-2",
+              "text": "Официална сертификация се посочва, когато е придобита."
+            },
+            {
+              "id": "answer-3",
+              "text": "Сертификатът гарантира назначаване на всяка позиция."
+            },
+            {
+              "id": "answer-4",
+              "text": "Стойността на квалификацията зависи от конкретната позиция."
+            },
+            {
+              "id": "answer-5",
+              "text": "Прочитането на учебния урок дава сертификат Practitioner."
+            },
+            {
+              "id": "answer-6",
+              "text": "Практическият опит се подкрепя с примери за решения и резултати."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Стойността на квалификацията зависи от конкретната позиция. Практическият опит се подкрепя с примери за решения и резултати. Официална сертификация се посочва, когато е придобита."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Защо ни е нужна бизнес обосновка?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-5.svg\" alt=\"Основни връзки: Защо ни е нужна бизнес обосновка?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Защо ни е нужна бизнес обосновка?</figcaption></figure>\n<p>„Да направим сайт“ е идея за продукт. „Учениците да намират програмата на училищния клуб по-бързо“ е очаквана полза. Добрата обосновка свързва продукта с реална нужда и показва как ще разберем дали е помогнал.</p>\n\n<p>Една от водещите идеи е <strong>продължаващата бизнес обосновка</strong>: ползите, разходите и рисковете се преценяват и по време на работата. Ако важна предпоставка се промени, преразглеждаме решението да продължим. За училищен проект стойността може да бъде спестено време, по-добра достъпност или по-малко грешки, без парична печалба.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Защо ни е нужна бизнес обосновка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Стойността може да е спестено време или по-малко грешки."
+            },
+            {
+              "id": "answer-2",
+              "text": "Полза съществува само ако е парична печалба."
+            },
+            {
+              "id": "answer-3",
+              "text": "Продуктът и очакваната полза са различни понятия."
+            },
+            {
+              "id": "answer-4",
+              "text": "Бизнес обосновката доказва само броя създадени страници."
+            },
+            {
+              "id": "answer-5",
+              "text": "При променени предпоставки обосновката се преразглежда."
+            },
+            {
+              "id": "answer-6",
+              "text": "След началното одобрение обосновката не се проверява."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Продуктът и очакваната полза са различни понятия. При променени предпоставки обосновката се преразглежда. Стойността може да е спестено време или по-малко грешки."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Business Case и Project Brief",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-6.svg\" alt=\"Основни връзки: Business Case и Project Brief\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Business Case и Project Brief</figcaption></figure>\n<div class=\"table-wrap\"><table><caption>Два свързани документа с различен акцент</caption><thead><tr><th>Документ</th><th>Основен въпрос</th><th>Какво записваме</th></tr></thead><tbody>\n<tr><td><strong>Business Case</strong><br>Бизнес обосновка</td><td>Защо си струва?</td><td>Причини, варианти за действие, очаквани ползи, разходи, срокове и важни рискове.</td></tr>\n<tr><td><strong>Project Brief</strong><br>Кратко описание на проекта</td><td>Какъв проект предлагаме?</td><td>Цели, обхват, очакван краен продукт, подход, основни роли и начална бизнес обосновка.</td></tr>\n</tbody></table></div>\n<p>Краткото описание се подготвя в началото, за да има общо разбиране за предложението. Началната обосновка се уточнява с повече данни при планирането. В този час ще ги съберем в <strong>един опростен учебен документ</strong>. Това не е пълният набор документи за професионален проект.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-6",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Business Case и Project Brief",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Разходите и рисковете са извън обосновката."
+            },
+            {
+              "id": "answer-2",
+              "text": "Business Case обяснява защо проектът си струва."
+            },
+            {
+              "id": "answer-3",
+              "text": "Business Case е само списък на участниците."
+            },
+            {
+              "id": "answer-4",
+              "text": "Project Brief описва целите, обхвата и началното предложение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Project Brief замества всички документи на всеки професионален проект."
+            },
+            {
+              "id": "answer-6",
+              "text": "Началната обосновка се уточнява с повече данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Business Case обяснява защо проектът си струва. Project Brief описва целите, обхвата и началното предложение. Началната обосновка се уточнява с повече данни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-7",
+        "step_content": {
+          "type": "information",
+          "title": "„Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-7.svg\" alt=\"Основни връзки: „Клуб Онлайн“\" width=\"840\" height=\"430\"><figcaption>Основни връзки: „Клуб Онлайн“</figcaption></figure><div class=\"example\"><p>Училищен клуб публикува съобщения на различни места. Ученици пропускат срещи, защото намират стара програма. Екип от четирима ученици предлага малък сайт с актуален график, описание на дейностите и инструкции за участие. Проектът е учебен, а всички числа по-долу са примерни.</p></div>\n<div class=\"table-wrap\"><table><thead><tr><th>Елемент</th><th>Пример за проекта</th></tr></thead><tbody>\n<tr><td>Проблем и потребители</td><td>Разпръсната информация за срещите; ученици от 11. и 12. клас и ръководителят на клуба.</td></tr>\n<tr><td>Проверима цел</td><td>До края на четвъртата седмица 8 от 10 тестови потребители да намират датата на следващата среща за не повече от 30 секунди.</td></tr>\n<tr><td>Краен продукт</td><td>Работещ сайт с три страници, проверени връзки и кратки указания за обновяване на графика.</td></tr>\n<tr><td>Полза и измерване</td><td>По-бързо намиране на информацията. Преди и след проекта провеждаме еднаква задача с 10 доброволци и сравняваме времето.</td></tr>\n<tr><td>В обхвата</td><td>Начална страница, график, участие; четим вид на телефон; тест с потребители.</td></tr>\n<tr><td>Извън обхвата</td><td>Регистрация с пароли, плащания, чат и мобилно приложение.</td></tr>\n<tr><td>Срок и ресурси</td><td>Четири седмици; четирима ученици; налични компютри и редактор; одобрени текстове от ръководителя.</td></tr>\n<tr><td>Приемане</td><td>Ръководителят проверява информацията; тестът с потребители изпълнява целта; сайтът работи на телефон и компютър.</td></tr>\n<tr><td>Основен риск</td><td>Ако графикът не бъде потвърден навреме, публикуването може да закъснее. Искаме потвърждение до края на първата седмица.</td></tr>\n</tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-7",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: „Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Целта в примера включва време за намиране на следващата среща."
+            },
+            {
+              "id": "answer-2",
+              "text": "Трите страници сами доказват спестено време за потребителите."
+            },
+            {
+              "id": "answer-3",
+              "text": "Плащанията и чатът остават извън първия обхват."
+            },
+            {
+              "id": "answer-4",
+              "text": "Регистрацията с пароли е задължителна част от първата версия."
+            },
+            {
+              "id": "answer-5",
+              "text": "Приемането включва проверка с потребители и на различни устройства."
+            },
+            {
+              "id": "answer-6",
+              "text": "В примера не са посочени срок и ресурси."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Целта в примера включва време за намиране на следващата среща. Плащанията и чатът остават извън първия обхват. Приемането включва проверка с потребители и на различни устройства."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сравняваме варианти, преди да изберем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-8.svg\" alt=\"Основни връзки: Сравняваме варианти, преди да изберем\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Сравняваме варианти, преди да изберем</figcaption></figure>\n<ul><li><strong>Без промяна:</strong> не влагаме време, но остава проблемът с различните версии.</li><li><strong>Един общ документ:</strong> създава се бързо; може да е достатъчен, ако клубът има нужда само от график.</li><li><strong>Малък сайт:</strong> изисква повече работа, но позволява ясно подредени страници и упражняване на уеб умения.</li></ul>\n<p>Изборът на сайт трябва да е аргументиран. Ако един общ документ решава нуждата по-добре при наличните ресурси, това също е разумно решение.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-8",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Сравняваме варианти, преди да изберем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "По-сложното решение винаги е по-добро."
+            },
+            {
+              "id": "answer-2",
+              "text": "Общ документ може да е достатъчен за нуждата."
+            },
+            {
+              "id": "answer-3",
+              "text": "Вариантите се сравняват само след разработването на сайта."
+            },
+            {
+              "id": "answer-4",
+              "text": "Изборът на сайт трябва да е аргументиран."
+            },
+            {
+              "id": "answer-5",
+              "text": "По-малкият разход на работа означава автоматично по-лошо решение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Вариантът без промяна също участва в сравнението."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Вариантът без промяна също участва в сравнението. Общ документ може да е достатъчен за нуждата. Изборът на сайт трябва да е аргументиран."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-9",
+        "step_content": {
+          "type": "information",
+          "title": "Опростен бюджет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/topic-9.svg\" alt=\"Основни връзки: Опростен бюджет\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Опростен бюджет</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Разход</th><th>Изчисление</th><th>Стойност</th></tr></thead><tbody><tr><td>Примерен домейн за една година</td><td>1 × 20 евро</td><td>20 евро</td></tr><tr><td>Примерен хостинг за една година</td><td>12 × 3 евро</td><td>36 евро</td></tr><tr><td>Резерв за непредвидени разходи</td><td>Учебно допускане</td><td>14 евро</td></tr><tr><th colspan=\"2\">Общ планиран паричен бюджет</th><td>70 евро</td></tr></tbody></table></div>\n<p>Сумите са измислени за упражнението, не са оферта и не изискват покупка. Екипът планира отделно <strong>24 човекочаса</strong> труд: четирима души по шест часа. Неплатеният ученически труд също използва ограничено време. Проверете дали е наличен одобрен безплатен вариант за публикуване.</p>\n<div class=\"note\"><strong>Продукт ≠ полза.</strong> „Имаме три страници“ описва резултат. „Потребителите намират графика по-бързо“ описва промяната, която искаме да постигнем. Не обещавайте спестявания, които не можете да измерите.</div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-9",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Опростен бюджет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Четирима души по шест часа дават 24 човекочаса."
+            },
+            {
+              "id": "answer-2",
+              "text": "Примерните цени изискват покупка на услуга."
+            },
+            {
+              "id": "answer-3",
+              "text": "Паричните разходи и вложеното време се планират отделно."
+            },
+            {
+              "id": "answer-4",
+              "text": "Неплатеният труд не използва ограничен ресурс."
+            },
+            {
+              "id": "answer-5",
+              "text": "Общият примерен паричен бюджет е 70 евро."
+            },
+            {
+              "id": "answer-6",
+              "text": "20 + 36 + 14 дава 80 евро."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Общият примерен паричен бюджет е 70 евро. Четирима души по шест часа дават 24 човекочаса. Паричните разходи и вложеното време се планират отделно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете потребността",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе начало на проектно предложение за малък софтуерен продукт.</strong></p><p>В 4–6 изречения посочете име, потребители, наблюдаван проблем и защо решаването му има стойност. Използвайте измислени данни и конкретно затруднение.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „Час Онлайн“ е приложение за записване на часове в малък сервиз. Клиентите трудно виждат свободните часове, а служителят сравнява няколко списъка. Целеви групи са клиентите и приемащият заявки. Самопроверка: описани ли са нужда и хора, а не само име на приложение? Други конкретни идеи също са подходящи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Формулирайте цел и полза",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете проверима цел и как ще измерите очакваната полза.</strong></p><p>Посочете срок, задача за потребителя, наблюдаем резултат и начин за сравнение преди и след. Разграничете продукта от промяната, която очаквате от използването му.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: до четвъртата седмица 8 от 10 тестови потребители да откриват свободен час за до 30 секунди. Измерваме еднаква задача преди и след прототипа. Самопроверка: има ли условия, срок и измерване? „Създаден сайт“ е продукт, а по-бързото намиране е полза."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Сравнете три варианта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обосновете избор между липса на промяна, минимално решение и предложен продукт.</strong></p><p>За всеки вариант запишете една полза, едно ограничение и нужен ресурс. Завършете с 2–3 изречения защо избирате конкретния вариант при вашите условия.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: без промяна няма разработване, но остават разминаванията; обща таблица е бърза, но служителят продължава да посредничи; прототипът позволява самостоятелно търсене, но изисква разработване и тест. Изборът зависи от реалната нужда и ресурсите. Самопроверка: разгледан ли е минималният вариант справедливо?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете обхват и приемане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете продукта с включени функции, изключения и критерии за приемане.</strong></p><p>Дайте три включени функции и две извън обхвата. За два критерия посочете входни данни и очакван резултат. Съобразете ги с целта от предходната задача.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: списък с часове, търсене по дата и заявка; плащане и клиентски профили са извън прототипа. При избрана дата се виждат правилните свободни часове; заявка за зает час се отказва с ясно съобщение. Самопроверка: могат ли проверките да разграничат приет от неприет резултат?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Завършете обосновката",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Добавете срок, ресурси, бюджет, рискове и решение за предложението.</strong></p><p>Разделете паричен бюджет от човекочасове. Покажете поне едно изчисление. Опишете два риска с мерки и кой ще разгледа предложението. Посочете промяна, която би наложила преразглеждане.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: четири седмици, трима души по осем часа = 24 човекочаса и условни 60 евро за услуги. Неясни данни могат да забавят теста — съгласуваме примерите рано; отсъствие на редактор — втори човек упражнява обновяването. Възложителят преценява предложението. Самопроверка: обосновани ли са сумите и мерките? Удвояване на разхода налага нова преценка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Сайтът е готов, но учениците продължават да пропускат срещите. Успешен ли е проектът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сайтът е готов, но учениците продължават да пропускат срещите. Успешен ли е проектът?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Продуктът е създаден, но ползата не е доказана. Проверяваме актуалността на графика, достъпа до сайта и резултатите от измерването, преди да оценим успеха. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Бюджетът става двойно по-голям. Какво следва?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Бюджетът става двойно по-голям. Какво следва?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Актуализираме обосновката и сравняваме вариантите. Представяме промяната на човека с право да реши дали проектът да продължи, да се ограничи или да спре. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/11-business-case-and-project-brief/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>PRINCE2 свързва целите, продуктите, хората и решенията в управляем проект.</li><li>Методът се адаптира към проекта и използва учене, прегледи и ясни отговорности.</li><li>Бизнес обосновката сравнява ползи, варианти, разходи и рискове през работата.</li><li>Краткото описание уточнява предложението, обхвата и условията за приемане.</li><li>Знанията, практическият опит и официалната сертификация имат различна стойност.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

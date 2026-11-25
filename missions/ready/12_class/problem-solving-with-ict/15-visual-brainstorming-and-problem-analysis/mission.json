@@ -1,0 +1,815 @@
+{
+  "mission_version": 4,
+  "mission_id": "811cbb30-281c-4fe4-95e9-c8970d39a791",
+  "mission_content": {
+    "title": "Визуален брейнсторминг и анализ на проблеми (Диаграма на Ишикава и Mind Mapping)",
+    "description": "Когато работим по проект, често чуваме „Нещо не работи“ или „Трябва да го подобрим“. Тези думи не ни казват откъде да започнем. В този урок ще видим как един екип описва проблема, подрежда идеите си, проверява възможните причини и избира конкретно подобрение.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Визуален брейнсторминг и анализ на проблеми (Диаграма на Ишикава и Mind Mapping)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Когато работим по проект, често чуваме „Нещо не работи“ или „Трябва да го подобрим“. Тези думи не ни казват откъде да започнем. В този урок ще видим как един екип описва проблема, подрежда идеите си, проверява възможните причини и избира конкретно подобрение.</p>\n<p>Урокът е за <strong>преминаването от неясно затруднение към обосновано решение</strong>. Ще използваме рисунки с кратки надписи, за да направим обсъждането видимо за всички. Така идеите не остават само в разговора и по-лесно откриваме какво пропускаме.</p>\n<p>Представете си, че вашият клас е направил сайт за записване в училищни клубове. Част от учениците не успяват да се запишат. Един съученик предлага нов дизайн, друг обвинява интернет връзката, а трети иска подробни инструкции. Всяко предложение може да е полезно, но първо трябва да разберем какво всъщност затруднява хората.</p>\n<p>След урока ще можете да:</p>\n<ul><li>описвате конкретно какво се случва и какво искате да се подобри;</li><li>използвате <strong>мисловна карта</strong> за подреждане на идеи и варианти;</li><li>използвате <strong>диаграма на Ишикава</strong> за търсене на възможни причини;</li><li>задавате последователни въпроси „Защо?“ и проверявате отговорите;</li><li>предлагате действие, отговорник и начин за измерване на резултата.</li></ul>\n<p class=\"note\"><strong>За примерите:</strong> всички сценарии и числови резултати по-долу са измислени за обучението. Те представят реалистични ситуации, а не отчети за действително проведени проучвания.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Как да опишем проблема, преди да търсим решение?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-2.svg\" alt=\"Основни връзки: Как да опишем проблема, преди да търсим решение?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Как да опишем проблема, преди да търсим решение?</figcaption></figure>\n<p><strong>Ситуация:</strong> екипът получава оплакване „Записването за клубовете е трудно“. Ако започнем веднага да променяме сайта, може да отделим време за нещо, което не причинява затруднението.</p>\n<p><strong>Подход:</strong> първо уточняваме кой среща проблема, какво прави, къде спира и колко често се случва това. След това записваме какъв резултат искаме да постигнем.</p>\n<div class=\"example\"><p><strong>Конкретно описание:</strong> при 20 пробни записвания 6 не завършват успешно. При 4 не е избран клуб, а при 2 се появява съобщение за грешка.</p><p><strong>Цел:</strong> след подобрението поне 18 от 20 нови пробни записвания да завършат успешно, без помощ от организатор.</p></div>\n<p>За да не смесваме наблюденията с догадките, разграничаваме три неща:</p>\n<div class=\"table-wrap\"><table><caption>Какво знаем и какво още трябва да проверим?</caption><thead><tr><th scope=\"col\">Понятие</th><th scope=\"col\">Обяснение</th><th scope=\"col\">Пример</th></tr></thead><tbody>\n<tr><td>Факт и симптом</td><td>Фактът е установено наблюдение. Симптомът е проявата на затруднението.</td><td>В теста 6 от 20 записвания са незавършени.</td></tr>\n<tr><td>Хипотеза</td><td>Възможно обяснение, за което още нямаме достатъчно доказателства.</td><td>Учениците може да не забелязват полето за избор на клуб.</td></tr>\n<tr><td>Предложено действие</td><td>Промяна, с която очакваме да подобрим резултата.</td><td>Преместваме избора на клуб преди дългото описание и проверяваме отново.</td></tr>\n</tbody></table></div>\n<p>Един симптом може да има няколко причини. Четирите пропуснати избора и двете технически грешки не е задължително да се решат с една и съща промяна.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Как да опишем проблема, преди да търсим решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Предложението за нов дизайн доказва причината за всички грешки."
+            },
+            {
+              "id": "answer-2",
+              "text": "Конкретното описание посочва случаи и условия."
+            },
+            {
+              "id": "answer-3",
+              "text": "Общото оплакване е достатъчно точно измерване."
+            },
+            {
+              "id": "answer-4",
+              "text": "Различните симптоми могат да изискват различни проверки."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всички незавършени записвания задължително имат една причина."
+            },
+            {
+              "id": "answer-6",
+              "text": "Фактът е установено наблюдение, а хипотезата е възможно обяснение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Фактът е установено наблюдение, а хипотезата е възможно обяснение. Конкретното описание посочва случаи и условия. Различните симптоми могат да изискват различни проверки."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Визуален брейнсторминг — как събираме идеи?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-3.svg\" alt=\"Основни връзки: Визуален брейнсторминг — как събираме идеи?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Визуален брейнсторминг — как събираме идеи?</figcaption></figure>\n<p><strong>Ситуация:</strong> в екипа говорят едновременно, една идея се повтаря няколко пъти, а по-тихите участници не успяват да се включат. Разговорът приключва без обща представа какво е предложено.</p>\n<p><strong>Решение:</strong> провеждаме брейнсторминг, наричан още „мозъчна атака“ — събираме идеи, преди да ги оценяваме. Когато ги записваме върху листчета, дъска или цифрова схема, брейнстормингът става визуален.</p>\n<ol><li><strong>Задаваме един ясен въпрос.</strong> Например „Какво може да пречи на учениците да завършат записването?“</li><li><strong>Всеки обмисля идеи самостоятелно за две минути.</strong> Записва по една идея на листче или във възел на схемата.</li><li><strong>Събираме предложенията без незабавно отхвърляне.</strong> „Полето не се вижда“ и „Връзката прекъсва“ засега са възможности за проверка.</li><li><strong>Групираме сходните идеи.</strong> Обединяваме повторенията и уточняваме неясни надписи като „лош сайт“.</li><li><strong>Избираме какво да проверим първо.</strong> Обсъждаме кои предположения биха обяснили много случаи и могат лесно да се проверят.</li></ol>\n<p><strong>Полученият резултат</strong> е подреден набор от идеи. Гласуването може да помогне да изберем откъде да започнем, но броят гласове не доказва, че дадено обяснение е вярно.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Визуален брейнсторминг — как събираме идеи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Самостоятелното записване подпомага включването на повече участници."
+            },
+            {
+              "id": "answer-2",
+              "text": "Визуалният брейнсторминг започва с лични нападки."
+            },
+            {
+              "id": "answer-3",
+              "text": "Гласуването помага за избор на проверка, но не доказва причина."
+            },
+            {
+              "id": "answer-4",
+              "text": "Неясни надписи като „лош сайт“ не се нуждаят от уточняване."
+            },
+            {
+              "id": "answer-5",
+              "text": "Идеите първо се събират, а после се оценяват."
+            },
+            {
+              "id": "answer-6",
+              "text": "Най-популярната идея автоматично е вярно обяснение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Идеите първо се събират, а после се оценяват. Самостоятелното записване подпомага включването на повече участници. Гласуването помага за избор на проверка, но не доказва причина."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Мисловна карта — когато трябва да разгърнем тема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-4.svg\" alt=\"Основни връзки: Мисловна карта — когато трябва да разгърнем тема\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Мисловна карта — когато трябва да разгърнем тема</figcaption></figure>\n<p><strong>Ситуация:</strong> планираме училищен ден на професиите. Имаме много идеи, но още не сме решили какви дейности, участници и ресурси ще са нужни.</p>\n<p><strong>Решение:</strong> правим <strong>мисловна карта (Mind Mapping)</strong>. В центъра записваме темата. От нея излизат основни клони за големите групи идеи, а от тях — подклонове с подробности. „Възел“ наричаме отделния надпис или фигура в картата.</p>\n<div class=\"example\"><p><strong>Примерно съдържание на завършена карта</strong> с център „Ден на професиите“:</p>\n<ul><li><strong>Участници:</strong> ученици от 11. и 12. клас; гост от ИТ фирма; представител на университет.</li><li><strong>Програма:</strong> две кратки представяния; практическа демонстрация; време за въпроси.</li><li><strong>Организация:</strong> зала; проектор и звук; проверка на техниката предния ден.</li><li><strong>Информация:</strong> покана до класовете; плакат с дата и място; формуляр за въпроси към гостите.</li></ul></div>\n<p><strong>Как се използва картата?</strong> Екипът вижда, че има програма и гости, но никой не е поел техническата проверка. Добавя отговорник и час за пробата. Картата помага да открием пропуск, преди той да стане проблем.</p>\n<p>Пишете кратки, но разбираеми надписи. Вместо „техника“ като единствена подробност добавете „проверка на проектора“ и „проба на микрофона“. Цветовете могат да различават клоните, но смисълът трябва да се разбира и без тях.</p>\n<p><strong>Кога е полезна?</strong> При планиране, обобщаване на тема и търсене на варианти. Връзката между възлите показва как сме организирали идеите; сама по себе си тя не доказва причина за проблем.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Мисловна карта — когато трябва да разгърнем тема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всяка тема трябва да има само един възел без подробности."
+            },
+            {
+              "id": "answer-2",
+              "text": "Смисълът трябва да се разбира и без цветове."
+            },
+            {
+              "id": "answer-3",
+              "text": "Картата е полезна единствено след приключване на събитието."
+            },
+            {
+              "id": "answer-4",
+              "text": "Мисловната карта подрежда тема, основни клони и подробности."
+            },
+            {
+              "id": "answer-5",
+              "text": "Връзката в картата сама доказва причинност."
+            },
+            {
+              "id": "answer-6",
+              "text": "Картата може да помогне да открием пропуснат ресурс или отговорност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Мисловната карта подрежда тема, основни клони и подробности. Картата може да помогне да открием пропуснат ресурс или отговорност. Смисълът трябва да се разбира и без цветове."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Диаграма на Ишикава — когато търсим причините",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-5.svg\" alt=\"Основни връзки: Диаграма на Ишикава — когато търсим причините\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Диаграма на Ишикава — когато търсим причините</figcaption></figure>\n<p><strong>Ситуация:</strong> вече имаме конкретен проблем — 6 незавършени записвания от 20 проби. Искаме да разгледаме различни възможни обяснения, вместо да се спрем на първата догадка.</p>\n<p><strong>Решение:</strong> използваме <strong>диаграма на Ишикава</strong>, наричана „Рибена кост“ заради формата ѝ. Вдясно е „главата“ с проблема. Към нея води основна линия, а разклоненията групират възможните причини.</p>\n<div class=\"table-wrap\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-5-source-1.svg\" alt=\"Учебна схема: Диаграма на Ишикава — когато търсим причините\"></div>\n<p><strong>Как да четем схемата?</strong> Започваме от проблема вдясно. После разглеждаме категориите и предположенията към тях. Например „Неясни указания?“ означава: възможно ли е учениците да не разбират какво трябва да попълнят? Въпросителните напомнят, че тези обяснения още не са проверени.</p>\n<p>За нашия случай използваме четири категории:</p>\n<ul><li><strong>Хора:</strong> имат ли участниците опит с подобни формуляри; разбират ли за какво се записват?</li><li><strong>Процес:</strong> ясна ли е последователността; какво става при пропуснато поле; има ли потвърждение?</li><li><strong>Информация:</strong> посочени ли са срокът, условията и необходимите данни?</li><li><strong>Техника:</strong> работи ли формулярът на телефон; появява ли се грешка; прекъсва ли връзката?</li></ul>\n<p>Категориите са удобни групи за обсъждане, а не задължителен списък. При друг проблем можем да използваме „Материали“, „Оборудване“ или „Работна среда“.</p>\n<p><strong>Какво получаваме?</strong> Списък на възможни причини, от който избираме какво да проверим. Следващата стъпка е наблюдение, разговор с потребители или техническа проба.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Диаграма на Ишикава — когато търсим причините",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Категориите се избират според случая."
+            },
+            {
+              "id": "answer-2",
+              "text": "Схемата отменя наблюдението и техническата проба."
+            },
+            {
+              "id": "answer-3",
+              "text": "В главата на „Рибената кост“ се записва конкретният проблем."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всяка причина в схемата вече е доказан факт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Разклоненията групират възможни причини за проверка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички проблеми задължително използват едни и същи категории."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "В главата на „Рибената кост“ се записва конкретният проблем. Разклоненията групират възможни причини за проверка. Категориите се избират според случая."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "„5 Защо“ — как стигаме до по-дълбоко обяснение?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-6.svg\" alt=\"Основни връзки: „5 Защо“ — как стигаме до по-дълбоко обяснение?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: „5 Защо“ — как стигаме до по-дълбоко обяснение?</figcaption></figure>\n<p><strong>Ситуация:</strong> установили сме, че някои ученици пропускат избора на клуб. „Нека внимават повече“ не ни казва как да направим записването по-лесно.</p>\n<p><strong>Подход:</strong> задаваме „Защо?“ към предишния отговор. Техниката се нарича „5 Защо“, но броят не е задължително точно пет. Спираме, когато стигнем до подкрепено с данни обяснение, по което можем да действаме. Ако не знаем отговора, записваме как ще го проверим.</p>\n<div class=\"example\"><p><strong>Примерна проверена верига в учебния сценарий:</strong></p><ol>\n<li><strong>Защо четири записвания са без избран клуб?</strong> При наблюдаваната проба четиримата участници натискат „Изпрати“, без да са стигнали до полето за избор.</li>\n<li><strong>Защо не стигат до полето?</strong> На използваните телефони то остава след дълго описание. Участниците казват, че са решили, че текстът е само допълнителна информация.</li>\n<li><strong>Защо тази подредба е останала?</strong> При прегледа на работата екипът установява, че преди публикуване е пробвал формуляра само на голям екран и с хора, които вече знаят как се попълва.</li></ol>\n<p><strong>Действие:</strong> изборът на клуб се премества преди описанието. Добавя се ясно съобщение при пропуск. Преди следващо публикуване екипът включва проба на телефон с нов потребител.</p></div>\n<p>Първите два отговора се подкрепят от наблюдение и разговор, а третият — от проверка на извършените тестове. Ако само предполагаме, че полето не се вижда, трябва да го отбележим като хипотеза. Повтарянето на „Защо?“ не превръща догадката в доказателство.</p>\n<p>Възможни са и други разклонения. Двете технически грешки например изискват отделно изследване.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-6",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: „5 Защо“ — как стигаме до по-дълбоко обяснение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всички технически грешки се обясняват с пропуснатото поле."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всеки следващ въпрос се отнася към предишното обяснение."
+            },
+            {
+              "id": "answer-3",
+              "text": "Повтарянето на въпроса превръща догадката в доказателство."
+            },
+            {
+              "id": "answer-4",
+              "text": "Броят на въпросите не е задължително точно пет."
+            },
+            {
+              "id": "answer-5",
+              "text": "Веригата задължително приключва с обвиняване на човек."
+            },
+            {
+              "id": "answer-6",
+              "text": "Отговорите се подкрепят с наблюдения, разговори или проверки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Всеки следващ въпрос се отнася към предишното обяснение. Броят на въпросите не е задължително точно пет. Отговорите се подкрепят с наблюдения, разговори или проверки."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-7",
+        "step_content": {
+          "type": "information",
+          "title": "От предположение към проверка и решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-7.svg\" alt=\"Основни връзки: От предположение към проверка и решение\" width=\"840\" height=\"430\"><figcaption>Основни връзки: От предположение към проверка и решение</figcaption></figure>\n<p><strong>Ситуация:</strong> схемата съдържа много възможни причини. Ако променим всичко наведнъж, трудно ще разберем кое е помогнало.</p>\n<p><strong>Подход:</strong> за всяка избрана хипотеза записваме какво ще проверим, кой ще го направи и какви резултати биха я подкрепили. Когато е възможно, изпробваме промените поотделно.</p>\n<div class=\"table-wrap\"><table><caption>План за проверка на две хипотези</caption><thead><tr><th scope=\"col\">Хипотеза</th><th scope=\"col\">Проверка</th><th scope=\"col\">Отговорник</th><th scope=\"col\">Какво установяваме в сценария?</th></tr></thead><tbody>\n<tr><td>Изборът на клуб се пропуска заради подредбата.</td><td>Наблюдаваме попълване на телефон и питаме какво очаква участникът.</td><td>Мария, която отговаря за удобството на формуляра.</td><td>Четиримата участници пропускат полето след дългото описание.</td></tr>\n<tr><td>Грешката е причинена от прекъсване на интернет.</td><td>Записваме точния текст на грешката и повтаряме същите стъпки при стабилна връзка.</td><td>Иван, който поддържа формуляра.</td><td>Грешката се повтаря и при стабилна връзка, когато телефонният номер съдържа интервали. Хипотезата за интернет не се подкрепя от тази проба.</td></tr>\n</tbody></table></div>\n<p><strong>Избрано решение за техническата грешка:</strong> формулярът премахва интервалите от телефонния номер преди проверката и показва разбираемо указание, ако номерът е невалиден. Екипът тества отново и правилни, и неправилни номера.</p>\n<p><strong>Измерване:</strong> записваме броя успешни опити преди и след промените, при сходни задачи и устройства. „Изглежда по-добре“ е мнение; „19 от 20 опита завършиха успешно без помощ“ е резултат, който можем да сравним с целта.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-7",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От предположение към проверка и решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "За хипотезата се определя конкретна проверка и отговорник."
+            },
+            {
+              "id": "answer-2",
+              "text": "Мнението „изглежда по-добре“ измерва точно успешните опити."
+            },
+            {
+              "id": "answer-3",
+              "text": "Промените поотделно помагат да разберем кое е повлияло."
+            },
+            {
+              "id": "answer-4",
+              "text": "Повторена грешка при стабилен интернет доказва прекъсната връзка."
+            },
+            {
+              "id": "answer-5",
+              "text": "Резултатите преди и след се сравняват при сходни условия."
+            },
+            {
+              "id": "answer-6",
+              "text": "След промяна се проверяват само правилните входни данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "За хипотезата се определя конкретна проверка и отговорник. Промените поотделно помагат да разберем кое е повлияло. Резултатите преди и след се сравняват при сходни условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сценарий А: записване за училищни клубове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-8.svg\" alt=\"Основни връзки: Сценарий А: записване за училищни клубове\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Сценарий А: записване за училищни клубове</figcaption></figure>\n<div class=\"example\">\n<p><strong>Начална ситуация:</strong> от 20 пробни записвания само 14 са успешни. Целта е поне 18 успешни опита от 20 без помощ.</p>\n<p><strong>Анализ и проверка:</strong> чрез „Рибена кост“ екипът отделя проблемите с подредбата от техническите грешки. Наблюдението показва пропускан избор на клуб. Отделната техническа проба показва грешка при телефонни номера с интервали.</p>\n<p><strong>Решение и изпълнение:</strong> Мария подготвя по-ясната подредба във вторник. Иван поправя обработката на номерата и съобщенията в сряда. Екипът проверява промените поотделно, после прави обща проба с 20 други ученици и подобно разпределение на телефони и компютри.</p>\n<p><strong>Резултат:</strong> 19 записвания приключват успешно без помощ, а едно е прекъснато от загуба на връзка. Целта е постигната в тази проба. За оставащия случай екипът планира запазване на въведеното и възможност за повторно изпращане.</p>\n<p><strong>Извод:</strong> проблемът има повече от една причина. Общият резултат показва подобрение, но малкият тест не гарантира, че всички бъдещи записвания ще са успешни.</p>\n</div>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-8",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Сценарий А: записване за училищни клубове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Малкият тест гарантира всички бъдещи записвания."
+            },
+            {
+              "id": "answer-2",
+              "text": "19 успешни опита покриват целта за поне 18 в тази проба."
+            },
+            {
+              "id": "answer-3",
+              "text": "Общото подобрение доказва една единствена причина."
+            },
+            {
+              "id": "answer-4",
+              "text": "Оставащият неуспешен случай изисква последващо действие."
+            },
+            {
+              "id": "answer-5",
+              "text": "Промените се приемат без повторна проба."
+            },
+            {
+              "id": "answer-6",
+              "text": "В началото успешните записвания са 14 от 20."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "В началото успешните записвания са 14 от 20. 19 успешни опита покриват целта за поне 18 в тази проба. Оставащият неуспешен случай изисква последващо действие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-9",
+        "step_content": {
+          "type": "information",
+          "title": "Сценарий Б: училищен ден на професиите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-9.svg\" alt=\"Основни връзки: Сценарий Б: училищен ден на професиите\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Сценарий Б: училищен ден на професиите</figcaption></figure>\n<div class=\"example\">\n<p><strong>Начална ситуация:</strong> четирима ученици трябва да организират 90-минутно събитие за два класа след две седмици. Имат зала и проектор, но нямат одобрена програма, потвърдени гости и разпределени задачи.</p>\n<p><strong>Избран метод:</strong> мисловна карта с клоните от точка 4. Тук основната нужда е да планираме работата и да открием пропуски.</p>\n<p><strong>Решение и изпълнение:</strong> Елена потвърждава двама гости до петък. Петър изготвя програма: 10 минути откриване, две представяния по 20 минути, 20 минути демонстрация, 15 минути въпроси и 5 минути закриване. Нина изпраща поканите и събира въпроси. Георги проверява проектора и звука предния ден. Учителят съгласува залата и участието на класовете.</p>\n<p><strong>Резултат:</strong> гостите потвърждават, техниката е проверена и двата класа получават покана. Събитието започва навреме и приключва в планираните 90 минути. При последващото обсъждане учениците искат повече време за въпроси.</p>\n<p><strong>Извод:</strong> картата е превърната в задачи със срокове и отговорници. За следващото събитие екипът ще съкрати представянията и ще увеличи времето за разговор.</p>\n</div>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-9",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Сценарий Б: училищен ден на професиите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Подготовката изисква конкретни отговорници и срокове."
+            },
+            {
+              "id": "answer-2",
+              "text": "При планиране отговорностите не са необходими."
+            },
+            {
+              "id": "answer-3",
+              "text": "Проверката на техниката е част от организацията."
+            },
+            {
+              "id": "answer-4",
+              "text": "Програмата и ресурсите се уточняват едва след събитието."
+            },
+            {
+              "id": "answer-5",
+              "text": "Мисловната карта подрежда участници, програма, техника и информация."
+            },
+            {
+              "id": "answer-6",
+              "text": "Самото наличие на карта гарантира потвърдени гости."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Мисловната карта подрежда участници, програма, техника и информация. Подготовката изисква конкретни отговорници и срокове. Проверката на техниката е част от организацията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-10",
+        "step_content": {
+          "type": "information",
+          "title": "Сценарий В: екип предава грешна версия на презентация",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-10.svg\" alt=\"Основни връзки: Сценарий В: екип предава грешна версия на презентация\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Сценарий В: екип предава грешна версия на презентация</figcaption></figure>\n<div class=\"example\">\n<p><strong>Начална ситуация:</strong> при две от последните три представяния е отворен стар файл. В чата има прикачени „final.pptx“, „final2.pptx“ и „final_novo.pptx“. Целта е при следващите три представяния да се използва одобрената версия.</p>\n<p><strong>Анализ и проверка:</strong> с „Рибена кост“ екипът обсъжда хора, организация, имена на файловете и достъп. Проследява откъде са отворени старите файлове: и двата са свалени от по-ранни съобщения. С въпроси „Защо?“ установява, че няма определено място за окончателния файл и човек, който да потвърди готовността му.</p>\n<p><strong>Решение и изпълнение:</strong> екипът определя обща папка „За представяне“. Само координаторът поставя там одобрения файл, например <code>Proekt_2026-11-19_v03.pptx</code>. В чата се споделя връзка към папката. Преди часа представящият отваря файла и сверява версията с координатора.</p>\n<p><strong>Резултат:</strong> при следващите три представяния е отворена правилната версия. При едно от тях липсва интернет, но предварително изтегленото и проверено копие позволява представянето да продължи.</p>\n<p><strong>Извод:</strong> ясното правило за съхранение и одобрение отстранява установеното объркване. Предварително провереното местно копие помага и при проблем с връзката.</p>\n</div>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-10",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Сценарий В: екип предава грешна версия на презентация",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всички копия с различно съдържание са едновременно окончателни."
+            },
+            {
+              "id": "answer-2",
+              "text": "Причината се изследва чрез факти за работния процес."
+            },
+            {
+              "id": "answer-3",
+              "text": "Изпращането на произволно копие доказва правилно предаване."
+            },
+            {
+              "id": "answer-4",
+              "text": "При грешна версия се проверява как се обединяват и предават промените."
+            },
+            {
+              "id": "answer-5",
+              "text": "Последният редактирал човек автоматично е виновен за целия проблем."
+            },
+            {
+              "id": "answer-6",
+              "text": "Ясното означаване на текущата версия подпомага екипа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "При грешна версия се проверява как се обединяват и предават промените. Ясното означаване на текущата версия подпомага екипа. Причината се изследва чрез факти за работния процес."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-11",
+        "step_content": {
+          "type": "information",
+          "title": "Как да създадем и запазим собствена схема?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/topic-11.svg\" alt=\"Основни връзки: Как да създадем и запазим собствена схема?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Как да създадем и запазим собствена схема?</figcaption></figure>\n<p><strong>Ситуация:</strong> обсъждането е приключило, но схемата трябва да остане достъпна за редактиране и споделяне.</p>\n<p><strong>Решение:</strong> можем да я начертаем с <a href=\"https://app.diagrams.net/\" target=\"_blank\" rel=\"noopener noreferrer\">diagrams.net</a>. За местно съхраняване не е нужен облачен акаунт.</p>\n<ol><li><strong>Създайте документ.</strong> Ако се появи избор на място, изберете Device / „Устройство“, след това създайте празна диаграма.</li>\n<li><strong>Постройте схемата.</strong> За мисловна карта поставете тема в центъра и свържете основните групи с нея. За „Рибена кост“ поставете проблема вдясно, добавете основната стрелка и категориите. Използвайте фигури и свързващи линии от редактора.</li>\n<li><strong>Напишете конкретни надписи.</strong> „Няма указание за формата на номера“ е по-полезно от „Информацията е лоша“. Разграничете проверените обяснения от хипотезите чрез надписи.</li>\n<li><strong>Запазете редактируемия документ.</strong> Изберете File → Save As / „Файл → Запиши като“ и име <code>Analysis_Екип.drawio</code>. Запомнете в коя папка е записан. При друг език потърсете съответната команда.</li>\n<li><strong>Създайте изображение за преглед.</strong> Използвайте File → Export as → PNG. Запазете и файла <code>.drawio</code> за последващи промени.</li>\n<li><strong>Проверете записаното.</strong> Отворете отново местния <code>.drawio</code> файл в редактора и се уверете, че надписите могат да се редактират. Отворете и изображението, за да проверите дали всичко се чете.</li></ol>\n<p class=\"note\">Може да работите и на хартия. Направете четлива снимка и добавете кратък текст: какъв е проблемът, какво сте проверили, какво предлагате и как ще установите дали е помогнало.</p>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-11",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Как да създадем и запазим собствена схема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Преди предаване се проверяват четимостта и съдържанието."
+            },
+            {
+              "id": "answer-2",
+              "text": "Смисловите връзки са излишни, ако използваме много цветове."
+            },
+            {
+              "id": "answer-3",
+              "text": "Редактируемата схема позволява следващи промени."
+            },
+            {
+              "id": "answer-4",
+              "text": "Името на файла само доказва, че схемата е вярна."
+            },
+            {
+              "id": "answer-5",
+              "text": "Изображението е удобно за преглед на схемата."
+            },
+            {
+              "id": "answer-6",
+              "text": "Снимката винаги позволява редактиране на отделните възли."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Редактируемата схема позволява следващи промени. Изображението е удобно за преглед на схемата. Преди предаване се проверяват четимостта и съдържанието."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Уточнете проблема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете конкретно затруднение при използване на софтуерен продукт.</strong></p><p>В 4–6 изречения назовете потребител, действие, място на затруднението и наблюдаван резултат. Посочете кое е факт и кое още е предположение. Дайте измерима цел за подобрение.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: при 20 теста на формуляр 6 остават незавършени; не знаем причините. Целта е поне 18 успешни теста при сходни условия. Самопроверка: наблюдението различава ли се от догадката „лош дизайн“? Можете да използвате и свой конкретен случай."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подредете идеите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте текстова мисловна карта за избрания случай.</strong></p><p>Посочете централна тема, поне три основни клона и по две подробности. Използвайте отстъпи. Обяснете кой пропуск или възможност се вижда благодарение на картата.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „Удобно записване“ — потребители: нови/опитни; информация: срок/условия; интерфейс: избор/потвърждение; техника: телефон/връзка. Картата показва нужда от проба с нов потребител на телефон. Самопроверка: връзките подреждат идеи и не се представят като доказани причини."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изследвайте причини",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подредете хипотези като текстова диаграма на Ишикава.</strong></p><p>Запишете проблема като глава и поне три категории с по две възможни причини. Изберете една хипотеза и задайте последователни въпроси „Защо?“. Където липсват данни, напишете как ще ги получите.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: хора — непозната задача; процес — пропуснат избор; информация — неясни указания; техника — грешка при определен вход. За пропуснат избор питаме защо потребителят не стига до полето и наблюдаваме попълване. Самопроверка: ясно ли е кое е хипотеза и кое е проверено? Броят „Защо?“ не е цел сам по себе си."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Изберете две хипотези и начини за проверяването им.</strong></p><p>За всяка посочете действие, данни, отговорник и какъв резултат я подкрепя или отслабва. Обяснете защо е полезно да отделите двете проверки.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: наблюдаваме достигането до полето на телефон; отделно повтаряме грешния номер при стабилна връзка. Ако грешката остава, прекъснатият интернет не се подкрепя от тази проба. Самопроверка: проверката може ли да промени първоначалното ви мнение?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Предложете подобрение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Формулирайте решение и начин за измерване на ефекта.</strong></p><p>Запишете конкретна промяна, отговорник, срок и повторен тест при сходни условия. Сравнете примерен резултат преди и след и посочете ограничение на извода.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: преместваме избора преди дългия текст и проверяваме с 20 нови теста. 19 успешни вместо 14 показват подобрение в пробата. Остава случай на загубена връзка и нужда от допълнителна проверка. Самопроверка: малкият тест не се представя като гаранция за всички бъдещи потребители."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Кога избираме мисловна карта и кога „Рибена кост“?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Кога избираме мисловна карта и кога „Рибена кост“?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Мисловната карта е удобна за въпроса „Какво трябва да обмислим или организираме?“. „Рибена кост“ е удобна за „Какви може да са причините за този конкретен проблем?“. В един проект могат да се използват и двата метода. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Какво правим, ако проверката не подкрепи нашето предположение?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Какво правим, ако проверката не подкрепи нашето предположение?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Отбелязваме резултата и разглеждаме друго обяснение. Например грешка, която се повтаря при стабилна връзка само за определен формат на номера, насочва към проверка на обработката на данните. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Как изглежда завършеният анализ?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Как изглежда завършеният анализ?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Читателят трябва да разбере какъв е проблемът, какви обяснения са обсъдени, какво е проверено, какво действие е избрано и как е измерен резултатът. Ако действието още не е изпълнено, записваме очакван резултат и план за проверка, без да измисляме постигнати резултати. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/15-visual-brainstorming-and-problem-analysis/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Конкретният проблем различава наблюдение, хипотеза и желан резултат.</li><li>Брейнстормингът събира идеи преди оценката.</li><li>Мисловната карта подрежда тема, а Ишикава — възможни причини.</li><li>Последователните въпроси „Защо?“ се подкрепят с факти.</li><li>Решението има действие, отговорник, срок и проверимо измерване.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

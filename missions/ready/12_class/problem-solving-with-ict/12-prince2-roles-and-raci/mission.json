@@ -1,0 +1,420 @@
+{
+  "mission_version": 4,
+  "mission_id": "9f1a0b51-1a68-4bed-b381-0efa654bc23a",
+  "mission_content": {
+    "title": "Организация и роли в проекта по PRINCE2 (RACI матрица)",
+    "description": "„Всички отговаряме“ често означава, че никой не е сигурен какво трябва да направи. В този час ще разпределите работата по проект чрез таблица: кой изпълнява, кой отговаря за крайния резултат, кого питаме и кого уведомяваме.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Организация и роли в проекта по PRINCE2 (RACI матрица)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>„Всички отговаряме“ често означава, че никой не е сигурен какво трябва да направи. В този час ще разпределите работата по проект чрез таблица: кой изпълнява, кой отговаря за крайния резултат, кого питаме и кого уведомяваме.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Роля, човек и задача",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/topic-1.svg\" alt=\"Основни връзки: Роля, човек и задача\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Роля, човек и задача</figcaption></figure>\n<p><strong>Роля</strong> е набор от отговорности. <strong>Човекът</strong> изпълнява роля, а <strong>задачата</strong> е конкретна работа с очакван резултат. „Мария“ е човек, „ръководител на проекта“ е роля, а „да съгласува графика до петък“ е задача.</p>\n<p>PRINCE2 разглежда интересите на организацията, потребителите и доставчиците. В управителния съвет на проекта те са представени от <span lang=\"en\">Executive</span>, <span lang=\"en\">Senior User</span> и <span lang=\"en\">Senior Supplier</span>. Ежедневната координация е работа на ръководителя на проекта.</p>\n<div class=\"table-wrap\"><table><caption>Основни роли и учебна аналогия</caption><thead><tr><th>Роля</th><th>За какво се грижи</th><th>В „Клуб Онлайн“</th></tr></thead><tbody>\n<tr><td>Executive — ръководна отговорност за проекта</td><td>Обосновката и общият интерес на организацията; председателства съвета.</td><td>Учителят възложител решава дали проектът остава оправдан.</td></tr>\n<tr><td>Senior User — представител на потребителите</td><td>Потребности, използваемост и очаквани ползи.</td><td>Представител на клуба уточнява как учениците ще намират графика.</td></tr>\n<tr><td>Senior Supplier — представител на доставчика</td><td>Техническа осъществимост, нужни умения и ресурси.</td><td>Техническият наставник преценява дали избраният подход е изпълним.</td></tr>\n<tr><td>Project Manager — ръководител на проекта</td><td>Ежедневно планиране, координация и отчет.</td><td>Ученикът координатор следи задачите и сроковете.</td></tr>\n<tr><td>Team Manager — ръководител на екипа</td><td>Организация на създаването на възложени продукти.</td><td>Ученик организира работата по страниците.</td></tr>\n<tr><td>Project Assurance — независимо уверяване</td><td>Проверява управлението от гледна точка на организацията, потребителите и доставчика.</td><td>При обсъждането учителят показва защо е нужна проверка извън самооценката на изпълнителя.</td></tr>\n<tr><td>Project Support — подпомагане</td><td>Поддръжка на документи, регистри и административна помощ.</td><td>Ученик поддържа списъка със задачи и версиите на документите.</td></tr>\n</tbody></table></div>\n<p class=\"note\">Това са учебни аналогии, а не пълна професионална организация. В малък проект някои роли могат да се съчетават според правилата на метода. Независимата проверка не се свежда до това изпълнителят сам да одобри собствената си работа.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Роля, човек и задача",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ролята описва отговорности, а задачата — конкретна работа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Името на човек само определя всички негови задачи."
+            },
+            {
+              "id": "answer-3",
+              "text": "Senior User представлява потребителските потребности и ползи."
+            },
+            {
+              "id": "answer-4",
+              "text": "Project Assurance се изчерпва със самоодобряване на изпълнителя."
+            },
+            {
+              "id": "answer-5",
+              "text": "Project Manager координира ежедневната работа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Senior Supplier отговаря единствено за художествения вид на сайта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Ролята описва отговорности, а задачата — конкретна работа. Senior User представлява потребителските потребности и ползи. Project Manager координира ежедневната работа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Какво означава RACI?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/topic-2.svg\" alt=\"Основни връзки: Какво означава RACI?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво означава RACI?</figcaption></figure>\n<p><strong>RACI</strong> е обща техника за разпределяне на отговорностите, която може да подпомага и PRINCE2. Буквите описват отношението към <em>конкретна задача</em>; те не са длъжности.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Буква</th><th>Значение</th><th>Въпрос</th></tr></thead><tbody>\n<tr><td><strong>R — Responsible</strong></td><td>Изпълнител — върши работата.</td><td>Кой прави?</td></tr><tr><td><strong>A — Accountable</strong></td><td>Един човек, който носи крайната отговорност за задачата и осигурява приемането на резултата.</td><td>Кой отговаря за крайния резултат?</td></tr><tr><td><strong>C — Consulted</strong></td><td>Консултиран — дава мнение преди решението или завършването; двупосочно общуване.</td><td>Кого питаме?</td></tr><tr><td><strong>I — Informed</strong></td><td>Информиран — получава необходимата информация; не е нужно да участва в решението.</td><td>Кого уведомяваме?</td></tr>\n</tbody></table></div>\n<ul><li>За всеки ред определяме <strong>точно един A</strong> и поне един R.</li><li>Един човек може да има A и R за една задача, когато това е подходящо. В тази учебна таблица използваме отделни хора за яснота.</li><li>Може да има повече от един R, но тогава уточняваме кой каква част изпълнява.</li><li>Празната клетка означава, че няма определено участие по този ред. Не е нужно всяка клетка да има буква.</li></ul>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво означава RACI",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "I означава задължително предварително одобрение."
+            },
+            {
+              "id": "answer-2",
+              "text": "A носи крайната отговорност за конкретния резултат."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всеки ред трябва да има няколко A и нито един R."
+            },
+            {
+              "id": "answer-4",
+              "text": "C участва с мнение, а I получава информация."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяка клетка задължително съдържа буква."
+            },
+            {
+              "id": "answer-6",
+              "text": "R посочва изпълнителя на работата."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "R посочва изпълнителя на работата. A носи крайната отговорност за конкретния резултат. C участва с мнение, а I получава информация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Примерна матрица за „Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/topic-3.svg\" alt=\"Основни връзки: Примерна матрица за „Клуб Онлайн“\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Примерна матрица за „Клуб Онлайн“</figcaption></figure>\n<p>Участниците са измислени: учителят Иванов е възложител, Елена е координатор, Мария разработва страниците, а Петър представлява потребителите и проверява съдържанието.</p>\n<div class=\"table-wrap\"><table><caption>RACI — гледаме всяка задача поотделно</caption><thead><tr><th>Дейност и резултат</th><th>Иванов</th><th>Елена</th><th>Мария</th><th>Петър</th></tr></thead><tbody>\n<tr><td>Одобряване на предложението</td><td>A</td><td>R</td><td>C</td><td>C</td></tr>\n<tr><td>Изготвяне на списък със задачи и срокове</td><td>C</td><td>A</td><td>R</td><td>C</td></tr>\n<tr><td>Създаване на страниците</td><td>I</td><td>A</td><td>R</td><td>C</td></tr>\n<tr><td>Проверка на текстовете и графика</td><td>A</td><td>I</td><td>C</td><td>R</td></tr>\n<tr><td>Организиране на тест с потребители</td><td>I</td><td>A</td><td>C</td><td>R</td></tr>\n<tr><td>Представяне на резултата за окончателно приемане</td><td>A</td><td>R</td><td>C</td><td>C</td></tr>\n</tbody></table></div>\n<p><strong>Прочит на третия ред:</strong> Мария създава страниците; Елена отговаря за готовия резултат; Петър дава мнение за използването; учителят получава информация. Елена не е длъжна лично да напише целия сайт.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Примерна матрица за „Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Елена има A за създаването на страниците."
+            },
+            {
+              "id": "answer-2",
+              "text": "Петър няма участие в използваемостта на страниците."
+            },
+            {
+              "id": "answer-3",
+              "text": "Иванов е информиран за създаването на страниците."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един участник има една и съща буква за всички задачи."
+            },
+            {
+              "id": "answer-5",
+              "text": "В реда за създаване на страниците Мария има R."
+            },
+            {
+              "id": "answer-6",
+              "text": "A означава, че Елена задължително пише целия сайт лично."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "В реда за създаване на страниците Мария има R. Елена има A за създаването на страниците. Иванов е информиран за създаването на страниците."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Създаване в електронна таблица",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/topic-4.svg\" alt=\"Основни връзки: Създаване в електронна таблица\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Създаване в електронна таблица</figcaption></figure>\n<ol><li>Отворете Excel, LibreOffice Calc или наличната програма за таблици.</li><li>В A1 запишете „Дейност“, а в B1:E1 — четиримата участници.</li><li>В A2:A7 въведете шестте дейности. В B2:E7 попълнете буквите.</li><li>Използвайте проверка на данните със списък <code>R, A, C, I</code>, като позволите празни клетки. Разделителят на списъка зависи от програмата и езиковите настройки.</li><li>В F1 запишете „Брой A“, в G1 — „Брой R“. В F2 въведете <code>=COUNTIF(B2:E2,\"A\")</code>, а в G2 — <code>=COUNTIF(B2:E2,\"R\")</code>. Копирайте до ред 7.</li><li>С условно форматиране маркирайте F2:F7, когато стойността е различна от 1, и G2:G7, когато е 0. Проверете предупредените редове.</li></ol>\n<p>Ако програмата използва точка и запетая, формулата е <code>=COUNTIF(B2:E2;\"A\")</code>. В някои локализирани версии името на функцията е преведено — потърсете функцията за броене по условие. Тези формули проверяват отделни букви; при означение „A/R“ е нужна друга проверка.</p>\n<div class=\"example\"><strong>Пробвайте проверката:</strong> добавете второ A на един ред — „Брой A“ трябва да стане 2. После премахнете всички R от друг ред — „Брой R“ трябва да стане 0. Поправете матрицата след пробата.</div>\n<p><strong>Къде са командите?</strong> В Excel маркирайте B2:E7 и изберете Data → Data Validation → Allow: List; въведете отделните букви и позволете празни клетки. В LibreOffice Calc използвайте Data → Validity → Allow: List. За условното форматиране използвайте Home → Conditional Formatting в Excel или Format → Conditional в Calc. Изберете условие за числова стойност в колоната с броя и проверете с умишлено грешен ред.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Създаване в електронна таблица",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проверката на данни доказва, че разпределението е реалистично."
+            },
+            {
+              "id": "answer-2",
+              "text": "Нула R показва липсващ изпълнител в учебната проверка."
+            },
+            {
+              "id": "answer-3",
+              "text": "Предупредителният цвят отменя необходимостта от поправка."
+            },
+            {
+              "id": "answer-4",
+              "text": "COUNTIF може да преброи буквата A в определен ред."
+            },
+            {
+              "id": "answer-5",
+              "text": "Формулата за точно A брои автоматично и текста A/R."
+            },
+            {
+              "id": "answer-6",
+              "text": "Два A на ред са повод за преглед на отговорността."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "COUNTIF може да преброи буквата A в определен ред. Два A на ред са повод за преглед на отговорността. Нула R показва липсващ изпълнител в учебната проверка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете участниците",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете четирима участници и шест задачи на малък софтуерен проект.</strong></p><p>Изберете продукт, например каталог с търсене. За всеки участник дайте умения и възможен принос; за всяка задача посочете конкретен резултат. Отговорете със структуриран списък.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: възложител, координатор, разработчик и представител на потребителите. Задачи: одобряване на предложението; уточняване на данни; прототип; търсене; тест; предаване. Самопроверка: всяка задача завършва ли с проверим резултат? Имената и продуктът могат да бъдат други."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разпределете R и A",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>За шестте задачи задайте изпълнител и човек с крайна отговорност.</strong></p><p>Пишете „Задача — R: … — A: …“. Осигурете точно един A и поне един R. Ако човекът съчетава R и A, обяснете защо това е подходящо и кой ще прегледа работата.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: прототип — R разработчик, A координатор; потребителски тест — R представител на потребителите, A координатор; окончателно приемане — R координаторът представя, A възложителят. Самопроверка: няма ли задача без изпълнител или с неясна крайна отговорност?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Уточнете C и I",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Допълнете две задачи с различни консултирани и информирани участници.</strong></p><p>Обяснете какво мнение е необходимо преди решението и каква информация се изпраща след него. Не поставяйте букви във всички клетки без конкретна нужда.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: за прототипа C е потребителският представител, който изпробва намирането на запис; I е възложителят, който получава резултат от прегледа. Самопроверка: разграничени ли са мнение и уведомяване? I само по себе си не дава право за одобрение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете матрицата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете две проверки с COUNTIF и очакваните резултати.</strong></p><p>При участници в B2:E2 запишете формула за брой A и формула за брой R. Обяснете какво става при два A, при липса на R и при текст A/R. Можете да дадете формулите направо в отговора.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: =COUNTIF(B2:E2;\"A\") и =COUNTIF(B2:E2;\"R\"). Първата трябва да дава 1, втората поне 1. Два A дават 2; липса на R дава 0. Точното сравнение с A не брои A/R. Самопроверка: формулите отговарят ли на начина на означаване?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Договорете отчитането",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете подобрение на натоварването и правило за съобщаване на готовност.</strong></p><p>Проверете дали почти всички R са при един човек. Дайте обосновано преразпределение според уменията. Опишете кой, на кого, какво и кога съобщава и при каква пречка търси помощ.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: подготовката на тестови данни преминава към потребителския представител след общо уточнение. Разработчикът изпраща на координатора проверената версия и резултата от тестовете в договорения срок; при липсващо изискване търси уточнение веднага. Самопроверка: има ли реалистично натоварване и ясна информация за готовност?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Има двама A и нито един R. Какъв е проблемът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Има двама A и нито един R. Какъв е проблемът?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не е ясно кой носи крайната отговорност и няма посочен изпълнител. Екипът трябва да избере един A и да възложи изпълнението на поне един R. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Човекът с I трябва ли предварително да одобри задачата?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Човекът с I трябва ли предварително да одобри задачата?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Самото I означава уведомяване. Ако е необходимо мнение преди решението, участието е C; правото и отговорността за приемането трябва да са изяснени отделно чрез A. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/12-prince2-roles-and-raci/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Човек, роля и задача описват различни аспекти на работата.</li><li>PRINCE2 разделя управленските интереси и ежедневната координация.</li><li>R изпълнява, A носи крайната отговорност, C дава мнение, I се уведомява.</li><li>В учебната RACI матрица има един A и поне един R на ред.</li><li>Проверките откриват пропуски, а екипът преценява натоварването и комуникацията.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

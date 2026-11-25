@@ -1,0 +1,546 @@
+{
+  "mission_version": 4,
+  "mission_id": "0a430861-0cd4-48dd-a790-e1827cf9addb",
+  "mission_content": {
+    "title": "Изготвяне на интерактивен регистър на рисковете (PRINCE2 Risk Register)",
+    "description": "Предложението е прието и екипът знае своите задачи. Какво може да попречи и кой ще реагира? Ще създадете регистър с оценка, отговорник и конкретна мярка за всеки риск.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Изготвяне на интерактивен регистър на рисковете (PRINCE2 Risk Register)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Предложението е прието и екипът знае своите задачи. Какво може да попречи и кой ще реагира? Ще създадете регистър с оценка, отговорник и конкретна мярка за всеки риск.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Риск или вече възникнал проблем?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-1.svg\" alt=\"Основни връзки: Риск или вече възникнал проблем?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Риск или вече възникнал проблем?</figcaption></figure>\n<p><strong>Рискът</strong> е несигурно бъдещо събитие, което може да повлияе на целите. „Възможно е графикът да не бъде одобрен навреме“ е риск. „Срокът за одобрение изтече, а графикът липсва“ е вече възникнал проблем, за който е нужно действие.</p>\n<p>PRINCE2 разглежда както заплахи, така и възможности. Например предложение за безплатно място за представяне може да помогне на клуба, ако бъде потвърдено. <strong>В това упражнение оценяваме само заплахи</strong>, за да използваме една ясна скала за отрицателно влияние.</p>\n<div class=\"example\"><strong>Формулирайте причина → събитие → последствие.</strong><p>„Понеже само един човек редактира сайта, при негово отсъствие публикуването може да се забави с два дни.“ Това е по-полезно от „проблем с екипа“: можем да определим мярка и отговорник.</p></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Риск или вече възникнал проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Рискът съдържа несигурност за бъдещо влияние."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всяко общо притеснение е достатъчно конкретен риск."
+            },
+            {
+              "id": "answer-3",
+              "text": "Липсващ график след изтекъл срок е възникнал проблем."
+            },
+            {
+              "id": "answer-4",
+              "text": "PRINCE2 разглежда само отрицателни събития."
+            },
+            {
+              "id": "answer-5",
+              "text": "Формулировката свързва причина, събитие и последствие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Настъпилият проблем се решава само чрез изчакване."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Рискът съдържа несигурност за бъдещо влияние. Липсващ график след изтекъл срок е възникнал проблем. Формулировката свързва причина, събитие и последствие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Какво съдържа регистърът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-2.svg\" alt=\"Основни връзки: Какво съдържа регистърът?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво съдържа регистърът?</figcaption></figure>\n<p>Регистърът е общ, редовно обновяван списък. Той помага информацията за риска да се превърне в действие.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Поле</th><th>Какво записваме</th></tr></thead><tbody>\n<tr><td>Номер и описание</td><td>Уникален код, причина, несигурно събитие и последствие.</td></tr>\n<tr><td>Вероятност (P) и влияние (I)</td><td>Две оценки по предварително договорени скали.</td></tr>\n<tr><td>Оценка</td><td>В нашия модел: P × I. Използва се за подреждане на приоритетите.</td></tr>\n<tr><td>Отговорник за риска — Risk Owner</td><td>Конкретен човек, който следи риска и осигурява подходяща реакция.</td></tr>\n<tr><td>Мярка и изпълнител</td><td>Какво ще се направи и кой ще изпълни действието. Изпълнителят може да е различен от отговорника за риска.</td></tr>\n<tr><td>Дата за преглед и статус</td><td>Кога ще проверим отново и дали рискът се наблюдава, има мярка в изпълнение, е настъпил или е закрит.</td></tr>\n</tbody></table></div>\n<p>За по-пълен професионален регистър се добавят например индикатор за настъпване, цена на реакцията и оценка след мерките. Нашият регистър е учебно опростяване.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво съдържа регистърът",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Само номер и цвят са достатъчни за управление на риска."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изпълнителят на мярката може да е друг човек."
+            },
+            {
+              "id": "answer-3",
+              "text": "Отговорникът е задължително единственият изпълнител на всички мерки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Регистърът съдържа дата за преглед и статус."
+            },
+            {
+              "id": "answer-5",
+              "text": "Датата за преглед се записва само след края на проекта."
+            },
+            {
+              "id": "answer-6",
+              "text": "Отговорникът следи риска и организира реакцията."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Отговорникът следи риска и организира реакцията. Изпълнителят на мярката може да е друг човек. Регистърът съдържа дата за преглед и статус."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Скали и приоритет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-3.svg\" alt=\"Основни връзки: Скали и приоритет\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Скали и приоритет</figcaption></figure>\n<div class=\"table-wrap\"><table><caption>Примерни скали за четириседмичен учебен проект</caption><thead><tr><th>Оценка</th><th>Вероятност</th><th>Влияние върху срока</th></tr></thead><tbody><tr><td>1</td><td>Много малко вероятно</td><td>Забавяне под половин ден</td></tr><tr><td>2</td><td>Малко вероятно</td><td>От половин до един ден включително</td></tr><tr><td>3</td><td>Възможно</td><td>Над един до два дни включително</td></tr><tr><td>4</td><td>Вероятно</td><td>Над два до четири дни включително</td></tr><tr><td>5</td><td>Много вероятно</td><td>Над четири дни или непостигане на крайния срок</td></tr></tbody></table></div>\n<p>Преди оценяването екипът обсъжда наличните факти. Тук влиянието е върху срока; при друг проект може да се оценява цена, качество или друга цел, но определенията трябва да са ясни за всички.</p>\n<pre>Оценка = Вероятност × Влияние\n1–4: нисък приоритет\n5–9: среден приоритет\n10–25: висок приоритет</pre>\n<p class=\"note\">Скалите и границите са избрани за този урок, а не са задължителна формула на PRINCE2. Числото 15 не означава 15% вероятност или точна парична загуба. P=5 и I=2 дава същото произведение като P=2 и I=5, но двата риска могат да изискват различни решения.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Скали и приоритет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Бал 15 не означава вероятност 15%."
+            },
+            {
+              "id": "answer-2",
+              "text": "Влиянието в този пример измерва само рекламния бюджет."
+            },
+            {
+              "id": "answer-3",
+              "text": "Равен бал може да описва различни рискови ситуации."
+            },
+            {
+              "id": "answer-4",
+              "text": "Риск с бал 6 има висок приоритет според учебните прагове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Балът е произведение на договорените оценки P и I."
+            },
+            {
+              "id": "answer-6",
+              "text": "Скалата 1–5 е задължителна формула за всички PRINCE2 проекти."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Балът е произведение на договорените оценки P и I. Бал 15 не означава вероятност 15%. Равен бал може да описва различни рискови ситуации."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Как избираме реакция?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-4.svg\" alt=\"Основни връзки: Как избираме реакция?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Как избираме реакция?</figcaption></figure>\n<ul><li><strong>Избягване:</strong> променяме подхода, за да премахнем конкретната заплаха — например изключваме ненужна сложна функция.</li><li><strong>Намаляване:</strong> ограничаваме вероятността или последствието — втори ученик научава как се публикува сайтът.</li><li><strong>Прехвърляне:</strong> възлагаме определено финансово последствие на друга страна чрез подходящо споразумение; това не премахва всички наши отговорности.</li><li><strong>Приемане:</strong> съзнателно оставяме риска, след като го оценим; записваме кой го наблюдава и какво би наложило ново решение.</li></ul>\n<p>„Ще внимаваме“ не е достатъчна мярка. „Мария показва на Петър публикуването до края на първата седмица; Петър прави пробно публикуване“ е действие, което можем да проверим. След изпълнение оценяваме риска отново — той не става автоматично нулев.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Как избираме реакция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Обещанието „ще внимаваме“ е достатъчна проверима мярка."
+            },
+            {
+              "id": "answer-2",
+              "text": "След изпълнена мярка оценяваме оставащия риск."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всяка мярка прави риска автоматично нулев."
+            },
+            {
+              "id": "answer-4",
+              "text": "Намаляването може да ограничи вероятността или последствията."
+            },
+            {
+              "id": "answer-5",
+              "text": "Прехвърлянето премахва всички отговорности на екипа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Приемането включва съзнателно решение и наблюдение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Намаляването може да ограничи вероятността или последствията. Приемането включва съзнателно решение и наблюдение. След изпълнена мярка оценяваме оставащия риск."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Изпробвайте интерактивния регистър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-5.svg\" alt=\"Основни връзки: Изпробвайте интерактивния регистър\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Изпробвайте интерактивния регистър</figcaption></figure><p>Регистърът позволява редактиране, филтриране и подреждане по приоритет. Филтърът скрива редове временно; подреждането сменя реда им. При висок приоритет се уведомява отговорникът и се договаря действие. Закритите и настъпилите рискове се пазят като история.</p><div class=\"table-wrap\"><table><thead><tr><th>Риск</th><th>P</th><th>I</th><th>Бал</th><th>Приоритет</th></tr></thead><tbody><tr><td>Забавен график</td><td>2</td><td>3</td><td>6</td><td>Среден</td></tr><tr><td>Отсъствие на редактор</td><td>5</td><td>3</td><td>15</td><td>Висок</td></tr><tr><td>Кратка недостъпност</td><td>1</td><td>2</td><td>2</td><td>Нисък</td></tr></tbody></table></div><p>При низходящо подреждане баловете са 15, 6, 2. Филтър „Висок“ показва само записа с бал 15. В публикувания урок интерактивната проба е незадължителна: промените се губят при презареждане, ако не са изтеглени. CSV съхранява стойности без формули и цветове и включва всички записи, включително скритите от филтъра.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Изпробвайте интерактивния регистър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Закритите записи се пазят като история."
+            },
+            {
+              "id": "answer-2",
+              "text": "Настъпилите рискове се броят като ненастъпили активни заплахи."
+            },
+            {
+              "id": "answer-3",
+              "text": "Регистърът подпомага сравняването и проследяването на рискове."
+            },
+            {
+              "id": "answer-4",
+              "text": "Презареждането на страницата гарантира запазени промени."
+            },
+            {
+              "id": "answer-5",
+              "text": "CSV съдържа стойности, но не запазва формули и цветове."
+            },
+            {
+              "id": "answer-6",
+              "text": "Филтрирането премахва окончателно останалите записи."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Регистърът подпомага сравняването и проследяването на рискове. CSV съдържа стойности, но не запазва формули и цветове. Закритите записи се пазят като история."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Създайте собствена електронна таблица",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/topic-6.svg\" alt=\"Основни връзки: Създайте собствена електронна таблица\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Създайте собствена електронна таблица</figcaption></figure>\n<ol><li>В A1:J1 въведете: <strong>№, Риск, Вероятност, Влияние, Оценка, Приоритет, Отговорник, Мярка и изпълнител, Дата за преглед, Статус</strong>.</li><li>В C2:D6 задайте проверка на данните: само цели числа от 1 до 5. Въведете пет риска за вашия проект.</li><li>В E2 въведете <code>=C2*D2</code> и копирайте надолу.</li><li>В F2 въведете <code>=IF(E2&gt;=10,\"Висок\",IF(E2&gt;=5,\"Среден\",\"Нисък\"))</code> и копирайте надолу. При други настройки заменете запетаите с <code>;</code> и използвайте местното име на IF, ако е преведено.</li><li>За E2:E6 създайте три правила за условно форматиране: от 1 до 4 — зелено; от 5 до 9 — жълто; от 10 до 25 — червено. Запазете и текстовия приоритет, за да не разчитате само на цвят.</li><li>Въведете отговорник, конкретна мярка с изпълнител, дата и статус за всеки риск. Включете филтър и подредете по оценка.</li><li>Променете P от 2 на 5 при I=3. Проверете, че оценката става от 6 на 15 и приоритетът — от среден на висок.</li></ol>\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-6",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Създайте собствена електронна таблица",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Цветът замества отговорник, мярка и дата за преглед."
+            },
+            {
+              "id": "answer-2",
+              "text": "При P=2 и I=3 оценката е 6 и приоритетът е среден."
+            },
+            {
+              "id": "answer-3",
+              "text": "Празната вероятност е обоснована оценка на риска."
+            },
+            {
+              "id": "answer-4",
+              "text": "При P=5 и I=3 оценката е 15 и приоритетът е висок."
+            },
+            {
+              "id": "answer-5",
+              "text": "Формулата за оценка е C2+D2."
+            },
+            {
+              "id": "answer-6",
+              "text": "Текстовият приоритет помага да не разчитаме само на цвят."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "При P=2 и I=3 оценката е 6 и приоритетът е среден. При P=5 и I=3 оценката е 15 и приоритетът е висок. Текстовият приоритет помага да не разчитаме само на цвят."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Създайте пет записа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете пет риска за малък софтуерен продукт.</strong></p><p>Назовете продукта и целта му. За всеки риск дайте ID и причина — несигурно събитие — последствие. Включете хора, информация и техника. Използвайте кратки отделни редове.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Примерни области за каталог: отсъствие на единствения редактор; непотвърдени примерни записи; непозната библиотека; недостъпен тестов компютър; неясен критерий за търсене. Всяка област се формулира като възможно събитие с влияние върху целта. Самопроверка: има ли пет различни несигурности, а не списък на вече настъпили дефекти?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Оценете риска",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Оценете най-значимия запис по скалите 1–5 и обосновете приоритета.</strong></p><p>Посочете отделно P и I, произведение и приоритет по праговете 1–4, 5–9 и 10–25. За влиянието използвайте забавянето от разгледаната учебна скала. Дайте основание за двете оценки.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: вероятно отсъствие на редактор — P=4; забавяне над два до четири дни — I=4; бал 16, висок приоритет. Самопроверка: съответства ли всяко число на скалата и фактите? Балът не е процент и оценките могат да се променят."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте реакцията",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете мярка, отговорник, изпълнител и дата за преглед.</strong></p><p>За най-важния риск уточнете кой следи, кой действа, до кога и как ще докаже, че мярката работи. Назовете вида реакция и конкретен признак за ново решение.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: координаторът следи риска; Мария обучава Петър за публикуване до ден 3; Петър прави самостоятелна проба с примерен запис. Това намалява зависимостта от един човек. Самопроверка: има ли изпълнено и проверено действие, а не само обещание?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете изчислението",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Покажете как формулите реагират при промяна на оценка.</strong></p><p>Запишете формулата за бал в E2 при P в C2 и I в D2. Дайте формула или ясна условна логика за приоритета. Сравнете P=2 и P=5 при I=3; посочете и как ще означите приоритета без цвят.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: =C2*D2; =IF(E2>=10;\"Висок\";IF(E2>=5;\"Среден\";\"Нисък\")). Балът се променя от 6 на 15, приоритетът — от среден на висок. Самопроверка: има ли попълнени и допустими P и I? Текстът остава разбираем без цветове."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Актуализирайте записа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Реагирайте на потвърдено отсъствие на единствения редактор.</strong></p><p>Разграничете настъпилия факт от бъдещото забавяне. Преразгледайте оценката, посочете непосредствено действие, нов преглед и какво ще проверите след мярката. Запазете историята на решението в отговора.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: отсъствието е потвърден факт; остава рискът публикуването да закъснее. Подготвеният заместник прави проба днес; координаторът проверява готовността и оценява оставащото забавяне. Самопроверка: след мярката рискът не се закрива автоматично, а се оценява по новите данни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Отговорникът за риска длъжен ли е лично да изпълни всяка мярка?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Отговорникът за риска длъжен ли е лично да изпълни всяка мярка?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Той следи управлението на риска и координира реакцията. Действието може да бъде възложено на друг конкретен човек с подходящи умения. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: След мярка оценката е намаляла от 15 на 6. Закриваме ли риска?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>След мярка оценката е намаляла от 15 на 6. Закриваме ли риска?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Остава среден риск според нашата скала. Проверяваме остатъчната заплаха и продължаваме наблюдението. Закриваме, когато вече не е приложим, като запишем основанието. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/13-prince2-risk-register/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Рискът е несигурно влияние, а възникналият проблем вече изисква действие.</li><li>Описанието свързва причина, събитие и последствие.</li><li>Оценките се обосновават по договорени скали и подпомагат приоритета.</li><li>Отговорникът за риска и изпълнителят на мярката могат да са различни хора.</li><li>Мерките, статусът и остатъчният риск се проверяват редовно.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

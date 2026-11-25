@@ -1,0 +1,483 @@
+{
+  "mission_version": 4,
+  "mission_id": "8b02f1f9-7748-4ccf-947d-1bd1ccaddfd9",
+  "mission_content": {
+    "title": "Продуктово-базирано планиране (PRINCE2 Product Breakdown Structure)",
+    "description": "„Да направим сайта“ е твърде обща задача. Какви отделни резултати са нужни, за да можем да го предадем? Ще подредите продуктите в дървовидна схема и ще опишете как се проверява качеството им.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Продуктово-базирано планиране (PRINCE2 Product Breakdown Structure)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>„Да направим сайта“ е твърде обща задача. Какви отделни резултати са нужни, за да можем да го предадем? Ще подредите продуктите в дървовидна схема и ще опишете как се проверява качеството им.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Започнете от резултата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/topic-1.svg\" alt=\"Основни връзки: Започнете от резултата\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Започнете от резултата</figcaption></figure>\n<p>При <strong>продуктово-базираното планиране</strong> първо определяме какво трябва да бъде доставено, после планираме работата за създаването му. <strong>Продукт</strong> тук е конкретен резултат: формуляр, набор от данни, ръководство или приета конфигурация. Той може да бъде и междинен резултат.</p>\n<div class=\"example\"><strong>Разграничете:</strong> „изготвяне на ръководство“ е дейност; „проверено ръководство за редактора“ е продукт. „По-малко объркани потребители“ е очаквана полза, за която ще събираме данни.</div>\n<p>В PRINCE2 <strong>Product Breakdown Structure (PBS)</strong> е йерархия на продуктите в обхвата на плана. Клоните показват от какви части се състои резултатът. PBS не задава календарни срокове или ред на изпълнение.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Започнете от резултата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "PBS описва йерархия на продуктите в обхвата."
+            },
+            {
+              "id": "answer-2",
+              "text": "PBS е календар с начална дата за всяка задача."
+            },
+            {
+              "id": "answer-3",
+              "text": "Провереното ръководство е продукт, а изготвянето му е дейност."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всеки продукт трябва да бъде само окончателното приложение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Първо уточняваме необходимите резултати и качеството им."
+            },
+            {
+              "id": "answer-6",
+              "text": "Очакваната полза и създаденият файл са винаги едно и също."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "PBS описва йерархия на продуктите в обхвата. Провереното ръководство е продукт, а изготвянето му е дейност. Първо уточняваме необходимите резултати и качеството им."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Пример: първи вариант на „Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/topic-2.svg\" alt=\"Основни връзки: Пример: първи вариант на „Клуб Онлайн“\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Пример: първи вариант на „Клуб Онлайн“</figcaption></figure>\n<p>Договореният резултат е работещ учебен сайт за два клуба с примерни данни, форма за заявка и указания за редактора. Ето една възможна разбивка:</p>\n<div class=\"example\"><strong>0. Приет първи вариант на „Клуб Онлайн“</strong><ul>\n<li><strong>1. Информационни страници</strong><ul><li>1.1. Начална страница</li><li>1.2. Описания на двата клуба</li></ul></li>\n<li><strong>2. Записване</strong><ul><li>2.1. Формуляр с проверка на задължителните полета</li><li>2.2. Потвърждение за получена заявка</li></ul></li>\n<li><strong>3. Комплект за предаване</strong><ul><li>3.1. Ръководство за редактора</li><li>3.2. Протокол с резултатите от проверките</li></ul></li>\n</ul></div>\n<p>Имената са резултати, а номерата дават устойчиви препратки. 2.1 и 2.2 са части от клона „Записване“. Протоколът е отделен резултат от проверките, а не страница, която посетителят непременно вижда.</p>\n<p>Ако друг екип предоставя например готови описания на клубовете, отбележете продукта като <strong>външен вход</strong>. Уточнете кой го осигурява и кога е нужен. Не скривайте зависимостта само защото вашият екип не създава този продукт.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Пример: първи вариант на „Клуб Онлайн“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "2.1 задължително се изпълнява на 21-вия ден."
+            },
+            {
+              "id": "answer-2",
+              "text": "Формулярът и потвърждението са части от клона „Записване“."
+            },
+            {
+              "id": "answer-3",
+              "text": "Протоколът от проверки задължително е публична страница на сайта."
+            },
+            {
+              "id": "answer-4",
+              "text": "Външен вход се отбелязва с доставчик и момент на необходимост."
+            },
+            {
+              "id": "answer-5",
+              "text": "Външните продукти се пропускат, защото екипът не ги създава."
+            },
+            {
+              "id": "answer-6",
+              "text": "Номерата показват устойчиви препратки към елементи в дървото."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Номерата показват устойчиви препратки към елементи в дървото. Формулярът и потвърждението са части от клона „Записване“. Външен вход се отбелязва с доставчик и момент на необходимост."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Напишете кратко описание на продукт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/topic-3.svg\" alt=\"Основни връзки: Напишете кратко описание на продукт\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Напишете кратко описание на продукт</figcaption></figure>\n<p>Името само по себе си не определя качеството. За избрани крайни елементи запишете предназначение, съдържание, формат, проверка и хората, които изработват, преглеждат и приемат резултата. Това е опростено учебно описание на продукт.</p>\n<div class=\"table-wrap\"><table><caption>Примерно описание на продукт 2.1</caption><thead><tr><th>Поле</th><th>Пример</th></tr></thead><tbody>\n<tr><td>Код и име</td><td>2.1. Формуляр за записване</td></tr><tr><td>Предназначение</td><td>Посетителят изпраща заявка за избран клуб.</td></tr><tr><td>Съдържание и формат</td><td>Учебна уебстраница с код на участник, избор на клуб и потвърждение; само примерни данни.</td></tr><tr><td>Критерий за качество</td><td>При липсващ избор на клуб заявката не се приема и се показва ясно съобщение.</td></tr><tr><td>Начин за проверка</td><td>Опит за изпращане без избран клуб и втори опит с попълнен избор.</td></tr><tr><td>Отговорности</td><td>Изработва: Мария; преглежда: Иван; приема за упражнението: учителят.</td></tr>\n</tbody></table></div>\n<p>Използвайте действителните имена от вашия екип. Изразът „готов формуляр“ става полезен, когато всички разбират по каква проверка ще се приеме. Свържете описанията с краткото проектно предложение. Уточнете кои продукти са в обхвата на избрания вариант.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Напишете кратко описание на продукт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "За формуляра се проверява и липсващ задължителен избор."
+            },
+            {
+              "id": "answer-2",
+              "text": "В описанието не се посочват отговорности."
+            },
+            {
+              "id": "answer-3",
+              "text": "Отделяме изработването, прегледа и приемането."
+            },
+            {
+              "id": "answer-4",
+              "text": "Добавената функция остава в обхвата без договаряне."
+            },
+            {
+              "id": "answer-5",
+              "text": "Описанието включва предназначение и проверимо качество."
+            },
+            {
+              "id": "answer-6",
+              "text": "Думата „готов“ определя еднозначно всички проверки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Описанието включва предназначение и проверимо качество. За формуляра се проверява и липсващ задължителен избор. Отделяме изработването, прегледа и приемането."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Отделете състава от зависимостите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/topic-4.svg\" alt=\"Основни връзки: Отделете състава от зависимостите\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Отделете състава от зависимостите</figcaption></figure>\n<p><strong>Дървото PBS</strong> отговаря „Какво включва резултатът?“. <strong>Диаграмата на потока на продуктите (Product Flow Diagram)</strong> отговаря „Кой продукт е необходим преди друг?“. След това можем да определим дейности, продължителност, ресурси и график.</p>\n<div class=\"example\"><p><strong>Примерна зависимост:</strong> съгласувани описания на клубовете → страници с описания. Проверен формуляр + проверено потвърждение → приет комплект за записване.</p><p>Тези стрелки обозначават нужни входове или последователност. В PBS връзката между „Записване“ и „Формуляр“ обозначава състав, без да казва кой ден ще се работи.</p></div>\n<div class=\"table-wrap\"><table><thead><tr><th>Продукт</th><th>Работа за създаването му</th><th>Проверка</th></tr></thead><tbody><tr><td>Описания на клубовете</td><td>Събиране, редактиране и съгласуване на текстовете</td><td>И за двата клуба има цел, място и време</td></tr><tr><td>Ръководство за редактора</td><td>Записване на стъпките и проба с друг ученик</td><td>Друг ученик обновява описание по указанията</td></tr></tbody></table></div>\n<p>Не е необходимо един продукт да съответства на една дейност. Един резултат може да изисква няколко дейности и няколко участници.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Отделете състава от зависимостите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всеки продукт се създава задължително с точно една задача."
+            },
+            {
+              "id": "answer-2",
+              "text": "Един продукт може да изисква няколко дейности."
+            },
+            {
+              "id": "answer-3",
+              "text": "Потокът на продуктите показва само кой има свободен компютър."
+            },
+            {
+              "id": "answer-4",
+              "text": "PBS показва състава, а потокът на продуктите — необходимите предходни резултати."
+            },
+            {
+              "id": "answer-5",
+              "text": "Родителската линия в PBS означава начална дата."
+            },
+            {
+              "id": "answer-6",
+              "text": "След продуктите можем да определим дейности и график."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "PBS показва състава, а потокът на продуктите — необходимите предходни резултати. След продуктите можем да определим дейности и график. Един продукт може да изисква няколко дейности."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Направете своята схема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/topic-5.svg\" alt=\"Основни връзки: Направете своята схема\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Направете своята схема</figcaption></figure>\n<p><a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/14-PBS-Starter.drawio\" download=\"\">Изтегли начален редактируем шаблон за PBS</a>. Отворете файла в <a href=\"https://app.diagrams.net/\" target=\"_blank\" rel=\"noopener noreferrer\">diagrams.net</a> чрез File → Open From → Device. Можете да започнете и от празна диаграма или слайд в наличната програма за презентации.</p>\n<ol><li>Напишете крайния продукт най-горе. Използвайте обхвата от заданието си.</li><li>Създайте три групи под него и поне шест конкретни продукта общо. В шаблона заменете всички примерни надписи.</li><li>Свържете всяка част с нейния родител. За тези връзки използвайте линии без стрелки.</li><li>Проверете дали всеки елемент е резултат. Преформулирайте записи като „тестване“ в конкретен резултат, например „протокол от тестовете“.</li><li>Отделно добавете поне три зависимости между продуктите като кратък списък или схема със стрелки.</li><li>Запишете редактируемата версия като <code>PBS_Екип.drawio</code> или презентационен файл и изнесете изображение за преглед.</li></ol>\n<p class=\"note\">Това е учебно опростяване на продуктовото планиране. Използвайте толкова нива, колкото са нужни, за да се виждат резултатите и проверките. Броят на нивата не е цел сам по себе си.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Направете своята схема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Броят на нивата се определя от нужната яснота."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изображението за преглед винаги замества редактируемата версия."
+            },
+            {
+              "id": "answer-3",
+              "text": "Крайният продукт стои над неговите съставни части."
+            },
+            {
+              "id": "answer-4",
+              "text": "Името „тестване“ е достатъчно конкретен продукт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Линиите за състав се разграничават от стрелките за зависимости."
+            },
+            {
+              "id": "answer-6",
+              "text": "Примерните надписи в шаблона трябва да се пазят независимо от проекта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Крайният продукт стои над неговите съставни части. Линиите за състав се разграничават от стрелките за зависимости. Броят на нивата се определя от нужната яснота."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете крайния резултат",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете краен продукт и три групи съставни резултати.</strong></p><p>Изберете малък софтуерен проект, например каталог. Назовете цел, потребители и включени функции. Дайте трите групи като резултати, без календарни дати.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: приет прототип на каталог; групи „Интерфейс“, „Примерни данни“, „Комплект за предаване“. Самопроверка: групите описват ли какво ще получим, а не кой ден ще работим? Възможни са различни разбивки според обхвата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разгърнете PBS",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подредете поне шест конкретни продукта под трите групи.</strong></p><p>Използвайте отстъпи и номера като 1, 1.1, 1.2. Пишете съществителни имена на резултати. Отбележете един външен вход с доставчик и кога е необходим. Не е нужно да качвате диаграма.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: 1 Интерфейс: 1.1 списък, 1.2 изглед на запис; 2 Данни: 2.1 структура, 2.2 съгласувани примерни записи; 3 Предаване: 3.1 ръководство, 3.2 тестов протокол. Външен вход са записите от възложителя преди теста. Самопроверка: всяка част има ли родител и смисъл за продукта?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете качеството",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете кратко описание на два продукта от вашата PBS.</strong></p><p>За всеки дайте код, предназначение, съдържание или формат, критерий, начин за проверка и кой изработва, преглежда и приема. Избягвайте „да е хубав“ без наблюдаем резултат.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: 1.2 изглед на запис — показва заглавие и автор; проверка с три предварително зададени записа; разработчик изработва, друг участник преглежда, възложител приема. За ръководството проверката е друг човек успешно да извърши описаното действие. Самопроверка: тестът съответства ли на критерия за всеки продукт?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Добавете зависимости",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Посочете три зависимости и две дейности за един продукт.</strong></p><p>Пишете „Продукт А → продукт Б“, като обясните необходимия вход. Отделно дайте дейностите с глаголи. Не използвайте родителска връзка като доказателство за хронологичен ред.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: съгласувани данни → тестов протокол; прототип → реализирани екрани; проверена версия → приет комплект. За ръководството: описване на стъпките и проба с друг потребител. Самопроверка: ясно ли се различават състав, зависимост и действие?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Прегледайте разбивката",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Открийте и поправете един пропуск или неясен запис.</strong></p><p>Проверете покритието на обхвата и продуктите за предаване. Запишете „преди — проблем — след — основание“. Ако добавяте функция, обяснете как влияе на време, ресурси и риск.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: „тестване“ се заменя с „протокол с входове, очаквани и действителни резултати“, защото първото е дейност. Добавяме ръководство, необходимо за предаване. Самопроверка: промяната прави ли резултата по-ясен и остава ли в договорения обхват?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: „Да проверим всички връзки“ продукт ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>„Да проверим всички връзки“ продукт ли е?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Това е дейност. „Протокол от проверката на връзките“ е резултат. Уточнете кои страници са проверени, очаквания резултат и отговорника. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Може ли един продукт да е готов, без да е приет?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Може ли един продукт да е готов, без да е приет?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Екипът може да е приключил изработката, но прегледът да открие пропуск. Запишете отделно изработването, проверката и приемането според договорените критерии. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/14-product-based-planning-and-pbs/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Планирането започва от продуктите и необходимото им качество.</li><li>PBS показва състав и обхват, а не календарен график.</li><li>Описанието уточнява предназначение, съдържание, проверка и отговорности.</li><li>Потокът на продуктите показва зависимости и външни входове.</li><li>От продуктите извеждаме дейности, ресурси, срокове и проверки.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

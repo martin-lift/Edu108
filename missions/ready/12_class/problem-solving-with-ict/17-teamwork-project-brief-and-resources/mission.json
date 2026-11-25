@@ -1,0 +1,546 @@
+{
+  "mission_version": 4,
+  "mission_id": "1248d8d6-c67f-4558-b99e-a2d2d70e1419",
+  "mission_content": {
+    "title": "Управление на проекти. Екипна и групова работа. Практически дейности. Част 2",
+    "description": "Продължете с решението от урок 16. Ще го превърнете в проектно задание: какво трябва да получите, с какви ресурси, кой ще работи по него и как ще проверите резултата.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "Управление на проекти. Екипна и групова работа. Практически дейности. Част 2",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Продължете с решението. Ще го превърнете в проектно задание: какво трябва да получите, с какви ресурси, кой ще работи по него и как ще проверите резултата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "От избрана идея към проектно задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-1.svg\" alt=\"Основни връзки: От избрана идея към проектно задание\" width=\"840\" height=\"430\"><figcaption>Основни връзки: От избрана идея към проектно задание</figcaption></figure>\n<p><strong>Проектното задание</strong> описва договорения резултат и условията за неговото изпълнение. То дава обща отправна точка на екипа и възложителя. Краткото предложение обяснява ползата; сега уточнете какво ще бъде изработено и прието.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Елемент</th><th>Какво да запишете</th><th>Пример за екскурзията</th></tr></thead><tbody>\n<tr><td>Проблем и потребители</td><td>Кой има нужда и каква трудност решаваме?</td><td>Организаторът няма единна справка за записванията.</td></tr>\n<tr><td>Цел и краен резултат</td><td>Какво ще покажете?</td><td>Работещ учебен модел със справка за свободните места.</td></tr>\n<tr><td>Обхват</td><td>Какво е включено и какво е отложено?</td><td>Две пътувания и десет примерни записвания; онлайн плащания са извън първия вариант.</td></tr>\n<tr><td>Изисквания</td><td>Какво трябва да може решението?</td><td>Записване към избрано пътуване и пресмятане на оставащите места.</td></tr>\n<tr><td>Критерии за приемане</td><td>Как ще докажете изпълнението?</td><td>При капацитет 20 и 7 места в записванията справката показва 13 свободни.</td></tr>\n<tr><td>Ресурси, срок и разходи</td><td>Хора, техника, програми, данни, време и допускания за бюджета.</td><td>Екип от четирима, наличен офис пакет, измислени данни и договорен с учителя срок.</td></tr>\n<tr><td>Рискове и комуникация</td><td>Кой следи затрудненията и как се съгласуват промените?</td><td>Координаторът проверява плана и уведомява учителя при риск за срока.</td></tr>\n</tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От избрана идея към проектно задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Заданието уточнява договорения резултат и условията."
+            },
+            {
+              "id": "answer-2",
+              "text": "Името на база данни е пълно проектно задание."
+            },
+            {
+              "id": "answer-3",
+              "text": "Обхватът включва и ясно изключени функции."
+            },
+            {
+              "id": "answer-4",
+              "text": "Ресурсите и срокът се добавят едва след разработването."
+            },
+            {
+              "id": "answer-5",
+              "text": "Критериите за приемане показват как ще се провери резултатът."
+            },
+            {
+              "id": "answer-6",
+              "text": "Възложителят и екипът не се нуждаят от общо разбиране."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Заданието уточнява договорения резултат и условията. Обхватът включва и ясно изключени функции. Критериите за приемане показват как ще се провери резултатът."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изискване, дейност и критерий",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-2.svg\" alt=\"Основни връзки: Изискване, дейност и критерий\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Изискване, дейност и критерий</figcaption></figure>\n<p><strong>Изискване</strong> е необходимо поведение или качество на резултата. <strong>Дейност</strong> е работа, която ще извършим. <strong>Критерий за приемане</strong> описва проверка, по която решаваме дали резултатът е изпълнен.</p>\n<div class=\"example\"><ul><li><strong>Изискване:</strong> да се открива записване за несъществуващо пътуване.</li><li><strong>Дейност:</strong> да се настрои проверка за допустим идентификатор.</li><li><strong>Критерий:</strong> при въвеждане на код, който липсва в списъка с пътувания, системата отказва записа или ясно го маркира за корекция според договорения модел.</li></ul></div>\n<p>Избягвайте „да е хубаво“ или „да работи бързо“ без уточнение. Запишете конкретни входни данни, очакван изход и условия на теста.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Изискване, дейност и критерий",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изразът „да е хубаво“ е достатъчен тест."
+            },
+            {
+              "id": "answer-2",
+              "text": "Дейността описва работа за създаването му."
+            },
+            {
+              "id": "answer-3",
+              "text": "Дейността и резултатът от нея винаги са едно понятие."
+            },
+            {
+              "id": "answer-4",
+              "text": "Критерият съдържа проверими вход и очакван изход."
+            },
+            {
+              "id": "answer-5",
+              "text": "Несъществуващо пътуване е допустимо без проверка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изискването описва нужно поведение или качество."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Изискването описва нужно поведение или качество. Дейността описва работа за създаването му. Критерият съдържа проверими вход и очакван изход."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Планирайте информацията и обектите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-3.svg\" alt=\"Основни връзки: Планирайте информацията и обектите\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Планирайте информацията и обектите</figcaption></figure>\n<p>Проектирането включва проектиране на таблици, полета, връзки, формуляри, заявки и отчети. Тук подгответе схема за избрания казус; пълната реализация може да бъде следващ етап на проекта.</p>\n<div class=\"table-wrap\"><table><caption>Примерен модел за екскурзията</caption><thead><tr><th>Обект</th><th>Основни данни</th><th>Правила</th></tr></thead><tbody><tr><td>Пътуване</td><td>ID, направление, дата, капацитет</td><td>ID е уникален; капацитетът е положително цяло число.</td></tr><tr><td>Записване</td><td>ID, ID на пътуване, код на участник, брой места</td><td>Пътуването съществува; броят места е положително цяло число.</td></tr><tr><td>Справка</td><td>Пътуване, капацитет, сбор записани места, свободни места</td><td>Свободни = капацитет − сбор места; превишението се открива.</td></tr></tbody></table></div>\n<p><strong>Първичен ключ</strong> е поле или съчетание от полета, което различава еднозначно всеки запис. В примера използваме отделно ID. Едно пътуване може да има много записвания, а всяко записване се отнася за едно пътуване. Използвайте учебни кодове вместо реални лични данни.</p>\n<p>Нарисувайте обектите и връзките на хартия или в <a href=\"https://app.diagrams.net/\" target=\"_blank\" rel=\"noopener noreferrer\">diagrams.net</a>. За електронна таблица определете съответните листове и колони. За база данни посочете и нужните заявки, форми и отчети.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Планирайте информацията и обектите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Едно пътуване може да има много записвания."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всяко записване се отнася задължително до няколко различни пътувания."
+            },
+            {
+              "id": "answer-3",
+              "text": "Свободните места се получават от капацитет минус записани места."
+            },
+            {
+              "id": "answer-4",
+              "text": "За упражнението са необходими истински лични данни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Първичният ключ различава еднозначно записите."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички пътувания трябва да имат едно и също ID."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Първичният ключ различава еднозначно записите. Едно пътуване може да има много записвания. Свободните места се получават от капацитет минус записани места."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Определете ресурси и реалистичен план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-4.svg\" alt=\"Основни връзки: Определете ресурси и реалистичен план\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Определете ресурси и реалистичен план</figcaption></figure>\n<p><strong>Ресурс</strong> е нещо необходимо за изпълнението: труд, време, техника, програма, информация или средства. Запишете кой го осигурява и дали е наличен. Ако използвате налична училищна техника без допълнителна покупка, посочете това допускане; не твърдете, че използването ѝ няма разходи изобщо.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Дейност</th><th>Резултат</th><th>Изпълнител</th><th>Преди нея</th><th>Срок</th></tr></thead><tbody><tr><td>Уточняване на изискванията</td><td>Съгласувано задание</td><td>Координатор</td><td>Избор на идея</td><td>Дата 1</td></tr><tr><td>Проектиране на модела</td><td>Схема на информацията</td><td>Проектант</td><td>Задание</td><td>Дата 2</td></tr><tr><td>Изработване на прототип</td><td>Пробен файл</td><td>Изпълнител</td><td>Модел</td><td>Дата 3</td></tr><tr><td>Проверка и корекции</td><td>Попълнен тестов протокол</td><td>Проверяващ</td><td>Прототип</td><td>Дата 4</td></tr></tbody></table></div>\n<p>Заменете примерните роли с имената на участниците, а „Дата 1–4“ — с договорени дати. Уточнете зависимостите: прототипът използва приетия модел. При малък екип един човек може да има няколко функции, но резултатът му трябва да бъде прегледан и от друг.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Определете ресурси и реалистичен план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Датите не се нуждаят от съобразяване с хората."
+            },
+            {
+              "id": "answer-2",
+              "text": "В плана се включват проверки и корекции."
+            },
+            {
+              "id": "answer-3",
+              "text": "Съчетаването на роли премахва необходимостта от преглед."
+            },
+            {
+              "id": "answer-4",
+              "text": "За ресурса се уточняват наличност и кой го осигурява."
+            },
+            {
+              "id": "answer-5",
+              "text": "Наличната техника няма никакъв разход за използване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Прототипът зависи от уточнения модел."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "За ресурса се уточняват наличност и кой го осигурява. Прототипът зависи от уточнения модел. В плана се включват проверки и корекции."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Договорете комуникацията и файловете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-5.svg\" alt=\"Основни връзки: Договорете комуникацията и файловете\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Договорете комуникацията и файловете</figcaption></figure>\n<ul><li>Определете къде е текущият комплект файлове — екипна папка на разрешено от учителя място.</li><li>Договорете кой обединява промените. При работа по един местен документ го редактирайте последователно.</li><li>Използвайте имена с номер на версията: <code>Project_Brief_Екип_v01.docx</code> и <code>v02</code>. Уточнете коя версия е приета.</li><li>Водете кратък дневник: дата, решение, причина, отговорник.</li><li>При спор се върнете към целта и критериите; ако той остава нерешен, поискайте решение от учителя.</li></ul>\n<pre>Екип_Име/\n  01_Задание/\n  02_Модел/\n  03_Работни_файлове/\n  04_Проверки/\n  Дневник_на_решенията.txt</pre>\n<p>След приключване всеки участник трябва да знае къде са записани резултатите. Прегледайте регистъра и актуализирайте риска от загуба на файл, отсъствие на участник или забавяне.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Договорете комуникацията и файловете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Рисковете се актуализират при нови условия."
+            },
+            {
+              "id": "answer-2",
+              "text": "При спор критериите и целта се пренебрегват."
+            },
+            {
+              "id": "answer-3",
+              "text": "Екипът определя коя версия е текуща и кой обединява промените."
+            },
+            {
+              "id": "answer-4",
+              "text": "Различни копия с едно име гарантират правилна версия."
+            },
+            {
+              "id": "answer-5",
+              "text": "Дневникът пази решение, причина и отговорник."
+            },
+            {
+              "id": "answer-6",
+              "text": "При работа по местен документ координацията е излишна."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Екипът определя коя версия е текуща и кой обединява промените. Дневникът пази решение, причина и отговорник. Рисковете се актуализират при нови условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете плана преди изпълнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/topic-6.svg\" alt=\"Основни връзки: Проверете плана преди изпълнение\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Проверете плана преди изпълнение</figcaption></figure>\n<p>Създайте тестов протокол с колони <strong>номер, входни данни, очакван резултат, получен резултат, статус</strong>. На етап планиране последните две колони остават за попълване при изпълнението.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Тест</th><th>Вход</th><th>Очакван резултат</th></tr></thead><tbody><tr><td>Свободни места</td><td>Капацитет 20; записани 7 места</td><td>13 свободни места</td></tr><tr><td>Невалиден брой</td><td>Записване за −2 места</td><td>Отказ или ясна маркировка за корекция</td></tr><tr><td>Превишен капацитет</td><td>Капацитет 20; заявени общо 21 места</td><td>Превишението е открито и записването е спряно или маркирано според изискването</td></tr></tbody></table></div>\n<p>Проверете дали моделът пази данните, нужни за всяка справка. Ако не можете да опишете тест за дадено изискване, уточнете го преди разработката.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-6",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Проверете плана преди изпълнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "21 заявени места при капацитет 20 не изискват реакция."
+            },
+            {
+              "id": "answer-2",
+              "text": "При капацитет 20 и 7 записани места очакваме 13 свободни."
+            },
+            {
+              "id": "answer-3",
+              "text": "Очакваният резултат се записва само след изпълнението на теста."
+            },
+            {
+              "id": "answer-4",
+              "text": "Тестът за −2 места проверява невалидни данни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Непроверимо изискване не се нуждае от уточняване."
+            },
+            {
+              "id": "answer-6",
+              "text": "На етап планиране действителният резултат още не е наблюдаван."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "При капацитет 20 и 7 записани места очакваме 13 свободни. Тестът за −2 места проверява невалидни данни. На етап планиране действителният резултат още не е наблюдаван."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Съставете задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете малък софтуерен проект с договорен обхват.</strong></p><p>В 6–8 изречения посочете потребител, проблем, цел, краен продукт, включени и изключени функции, срок и условия. Използвайте пример за пътувания или свой продукт с измислени данни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: модел за две пътувания и десет записвания, който показва свободните места; онлайн плащания са извън обхвата. Организаторът проверява справката с предварително зададени данни. Самопроверка: заданието казва ли какво ще се получи и приеме, а не само „да се направи база данни“?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Свържете изисквания и тестове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете три изисквания с конкретни проверки.</strong></p><p>Включете нормален случай, невалиден вход и граничен случай. За всяко дайте входни данни и очакван резултат. Отделете планирания тест от още ненаблюдавания действителен резултат.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: капацитет 20 и записани 7 → 13 свободни; брой −2 → отказ или маркиране според договорката; общо 21 при капацитет 20 → открито превишение. Самопроверка: проверките покриват ли различни ситуации и могат ли да установят несъответствие?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете модела",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Представете два свързани информационни обекта и правила за данните.</strong></p><p>За всеки посочете полета и ключ. Обяснете връзката и една справка. Добавете правило за допустими стойности и как ще се открива запис без съществуващ родителски обект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: Пътуване(ID, дата, капацитет) и Записване(ID, ID_пътуване, код, места). Всяко записване сочи съществуващо пътуване; местата са положително цяло число. Едно пътуване има много записвания. Самопроверка: моделът пази ли данните, нужни за справката?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Подгответе изпълним план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете ресурси и четири зависими дейности.</strong></p><p>Дайте нужните хора, техника, програми, информация и време, с наличност и ограничения. За дейностите посочете резултат, конкретен изпълнител, предходна задача и относителен срок.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: задание до ден 1, модел до ден 2, прототип до ден 3, проверка и корекции до ден 4. Прототипът ползва приетия модел. Самопроверка: няма ли човек с невъзможно застъпени задачи? Наличната техника не означава липса на всички разходи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Договорете и прегледайте",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Запишете правила за комуникация и една обоснована корекция на заданието.</strong></p><p>Дайте три правила за текуща версия, обединяване на промени и съобщаване на пречка. Добавете запис „решение — причина — отговорник“. Уточнете едно неясно изискване и посочете отражението му върху плана и тестовете.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: координаторът обединява промените, текущата версия е означена, пречката се съобщава преди следващата зависима задача. Уточняваме как се открива превишен капацитет и добавяме тест. Самопроверка: корекцията отразена ли е в обхват, план и проверка, а не само в едно изречение?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Какво правим, ако желаната функция не може да се завърши в срока?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Какво правим, ако желаната функция не може да се завърши в срока?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Опишете влиянието, предложете по-малък първи вариант и съгласувайте промяната с учителя. Запишете решението, обновете обхвата, плана и критериите. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Готово ли е заданието, ако пише само „да се направи база данни“?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Готово ли е заданието, ако пише само „да се направи база данни“?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Трябва да са ясни потребителят, данните, очакваните справки, ограниченията и проверките, по които ще се приеме резултатът. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/17-teamwork-project-brief-and-resources/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Заданието свързва нужда, цел, продукт, обхват и приемане.</li><li>Изискване, дейност и критерий имат различни роли.</li><li>Моделът определя обекти, идентификатори, връзки и правила.</li><li>Ресурсите, зависимостите и отговорностите правят плана изпълним.</li><li>Комуникацията, версиите и тестовете се договарят преди изпълнението.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

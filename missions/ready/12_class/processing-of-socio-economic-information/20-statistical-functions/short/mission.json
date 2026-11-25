@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-statistical-functions-short-20261125",
+  "mission_id": "79e207cd-3b46-467e-970c-a67034f827b8",
+  "next_mission_id": "99fe402f-a29d-4d71-9854-26a36aa97a9c",
   "mission_content": {
     "title": "Функции за обработка на статистически данни — кратка мисия",
     "description": "Средна стойност, медиана, крайни стойности, условно броене и извадково стандартно отклонение.",

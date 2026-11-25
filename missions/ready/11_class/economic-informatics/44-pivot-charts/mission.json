@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-pivot-charts-full-20261125",
+  "mission_id": "57c58824-6c12-4d41-9872-e3be47e2193e",
+  "next_mission_id": "c94078ad-8da0-4e5c-815b-960563682c07",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

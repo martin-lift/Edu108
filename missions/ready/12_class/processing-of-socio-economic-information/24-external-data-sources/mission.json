@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-external-data-sources-full-20261125",
+  "mission_id": "e80ce53d-53c4-4bee-a1d7-3c625b1f43e9",
+  "next_mission_id": "42290142-3915-4858-9afc-0d370ff21b94",
   "mission_content": {
     "title": "Четене на данни от външни източници — пълна мисия",
     "description": "Четене на данни от външни източници",

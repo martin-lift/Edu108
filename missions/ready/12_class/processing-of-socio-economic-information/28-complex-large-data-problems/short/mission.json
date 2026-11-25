@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-complex-large-data-problems-short-20261125",
+  "mission_id": "075ee479-6ca5-415c-8b14-390e5731de56",
+  "next_mission_id": "34411f75-5395-4bde-9ae7-2e8610563dcd",
   "mission_content": {
     "title": "Сравняване на обекти по няколко показателя — кратка мисия",
     "description": "Изчислете печалбата на един обект",

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-countif-full-20261125",
+  "mission_id": "23ec600a-7699-4441-ab7b-6e045c3bfce5",
+  "next_mission_id": "72b61f7d-1bec-4716-b214-db7275534b2d",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

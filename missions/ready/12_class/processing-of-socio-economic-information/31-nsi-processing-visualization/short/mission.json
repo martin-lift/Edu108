@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-nsi-processing-visualization-short-20261125",
+  "mission_id": "b8a4b671-c577-4781-a5b8-41b453eea14a",
+  "next_mission_id": "3f01db71-c9a6-47ce-a7a6-4ca6f9b916f2",
   "mission_content": {
     "title": "НСИ: обработка и визуализация на реални данни — кратка мисия",
     "description": "Изчислете една абсолютна промяна",

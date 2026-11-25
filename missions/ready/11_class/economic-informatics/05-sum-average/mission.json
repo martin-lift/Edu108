@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sum-average-full-20261125",
+  "mission_id": "65d1971f-1400-448e-83cd-2664fab56533",
+  "next_mission_id": "54dd897d-c294-43f6-8734-a0a95c05462f",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

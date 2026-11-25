@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-nsi-finding-downloading-data-short-20261125",
+  "mission_id": "18b84572-1acb-4611-9159-028553923c62",
+  "next_mission_id": "085534a0-3869-4a61-add0-7d91b5580625",
   "mission_content": {
     "title": "НСИ: намиране и изтегляне на реални данни — кратка мисия",
     "description": "Пренесете една реална стойност",

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-time-functions-short-20261125",
+  "mission_id": "16dfd5c1-8f52-4170-b754-3def3c326f64",
+  "next_mission_id": "304c8082-e7a4-470a-a863-1d14cc2bf1cf",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

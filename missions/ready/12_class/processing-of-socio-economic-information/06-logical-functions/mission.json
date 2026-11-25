@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-logical-functions-20261125",
+  "mission_id": "b12296db-db06-45dc-af6b-f21c68f2fc71",
+  "next_mission_id": "870e0d9d-aca7-4bec-a053-38800aebc1f9",
   "mission_content": {
     "title": "Логически функции IF, AND, OR и NOT",
     "description": "Ще проверявате условия, ще комбинирате логически стойности и ще избирате текстов или числов резултат.",

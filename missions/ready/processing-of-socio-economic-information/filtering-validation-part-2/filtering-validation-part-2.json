@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-filtering-validation-part2-20261125",
+  "mission_id": "5f7fd9de-78f2-4c30-8b69-4914e72cb7ba",
+  "next_mission_id": "f4334aa5-aa52-48f2-a31d-cc8f411c6b8b",
   "mission_content": {
     "title": "Филтриране и валидиране на данни — част 2",
     "description": "Десет практически задачи: OR и AND филтри за области и държави и четири правила за валидиране, с предаване на един файл.",

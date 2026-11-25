@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-nsi-processing-visualization-full-20261125",
+  "mission_id": "3f01db71-c9a6-47ce-a7a6-4ca6f9b916f2",
+  "next_mission_id": "f020ad5d-746a-4f76-b9be-e47d749628de",
   "mission_content": {
     "title": "НСИ: обработка и визуализация на реални данни — пълна мисия",
     "description": "Ще обработите реални данни на НСИ за населението на областите Бургас, Варна и Видин през 2023–2025 г.: сортиране, филтър, промени, обобщение и диаграма.",

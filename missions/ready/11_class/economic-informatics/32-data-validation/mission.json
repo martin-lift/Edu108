@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-data-validation-full-20261125",
+  "mission_id": "dfae2b35-5b02-4db7-a641-23fc1c63f05e",
+  "next_mission_id": "9c07f252-769a-43a4-ab5f-a48a078bbc06",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

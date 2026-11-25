@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-named-ranges-20261125",
+  "mission_id": "96a0c628-1011-4e81-b9f8-8c170cf2a5b5",
+  "next_mission_id": "abec50ac-0948-46d9-ab33-45e21ff6846a",
   "mission_content": {
     "title": "Имена на области и приложения",
     "description": "Ще именувате клетки и диапазони, ще проверявате обхвата им и ще използвате имената във формули.",

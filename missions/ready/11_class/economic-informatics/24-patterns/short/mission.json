@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-patterns-short-20261125",
+  "mission_id": "346baf1b-a58c-4b02-915c-e6b8c5220b3b",
+  "next_mission_id": "10c0ab5f-316c-4b9c-8f0c-1e1694a07db1",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

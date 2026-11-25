@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-text-practice-short-20261125",
+  "mission_id": "fc18e901-4bf7-48bc-98f4-218fb9082235",
+  "next_mission_id": "91f22072-867d-4663-b497-c88535e8dcaa",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

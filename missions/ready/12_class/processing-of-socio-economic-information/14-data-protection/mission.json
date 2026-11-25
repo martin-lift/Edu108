@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-data-protection-20261125",
+  "mission_id": "6d7d7ef6-84df-4d62-976b-9851004335ce",
+  "next_mission_id": "95e852ec-c53a-453d-a983-646776459eaf",
   "mission_content": {
     "title": "Защита на данните в електронни таблици",
     "description": "Ще различавате заключване на клетки, защита на лист и защита на структурата и ще проверите поведението им върху бюджет.",

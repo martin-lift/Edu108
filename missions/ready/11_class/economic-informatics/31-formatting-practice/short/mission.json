@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-formatting-practice-short-20261125",
+  "mission_id": "aacd0926-b395-49dc-a07e-668e8dd4e761",
+  "next_mission_id": "9c34e1e8-1fee-4b51-8c70-f407d3bb5676",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

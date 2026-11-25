@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-integrated-exercise-20261125",
+  "mission_id": "b30f91dd-e992-4c64-bf2d-94393d5ffa72",
+  "next_mission_id": "3c187a33-b816-41b4-b3c1-174f2055dc14",
   "mission_content": {
     "title": "Обобщаващо упражнение — диаграми и функции",
     "description": "Ще комбинирате IF, AND, OR, NOT и CHOOSE и ще представите изчислените резултати с две диаграми.",

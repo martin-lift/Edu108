@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-formats-percentages-short-20261125",
+  "mission_id": "4e7d0823-0e5c-430a-a1c3-fcf621889e54",
+  "next_mission_id": "58e89eb1-89bd-4b73-bbc4-ebdf7982040a",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-dropdown-lists-full-20261125",
+  "mission_id": "3c2fff71-b0b7-475c-9b88-d86bc6ebff1d",
+  "next_mission_id": "c7814b3a-de06-4138-8f91-0212c8ae8c4d",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-vlookup-exact-short-20261125",
+  "mission_id": "770a4dca-7252-4ea6-b7b8-6f4ca0d31b96",
+  "next_mission_id": "4240a214-1baf-4ff8-beaa-771be67d9f37",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

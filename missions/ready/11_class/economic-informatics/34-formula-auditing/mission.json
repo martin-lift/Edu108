@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-formula-auditing-full-20261125",
+  "mission_id": "5a3516d7-e19a-4cfc-899c-0f691e051940",
+  "next_mission_id": "2d760d70-bff1-439f-b7ff-75307d7e49a6",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

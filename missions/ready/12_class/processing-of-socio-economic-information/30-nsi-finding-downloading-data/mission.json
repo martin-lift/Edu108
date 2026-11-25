@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-nsi-finding-downloading-data-full-20261125",
+  "mission_id": "085534a0-3869-4a61-add0-7d91b5580625",
+  "next_mission_id": "b8a4b671-c577-4781-a5b8-41b453eea14a",
   "mission_content": {
     "title": "НСИ: намиране и изтегляне на реални данни — пълна мисия",
     "description": "Ще намерите официална статистическа таблица, ще изберете показател и обхват и ще запишете данните с източника им.",

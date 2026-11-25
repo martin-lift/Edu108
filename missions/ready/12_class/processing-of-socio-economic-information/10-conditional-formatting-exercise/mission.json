@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-conditional-formatting-exercise-20261125",
+  "mission_id": "cfabd35e-8273-4bf1-990d-efa79b664d3d",
+  "next_mission_id": "45ba8e3a-45ea-453b-bba1-9f98eaa9027e",
   "mission_content": {
     "title": "Условно форматиране — упражнение",
     "description": "Ще създавате, редактирате и премахвате правила, като запазите всички състояния за проверка.",

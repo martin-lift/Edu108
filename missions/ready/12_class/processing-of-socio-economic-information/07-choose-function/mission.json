@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-choose-function-20261125",
+  "mission_id": "fe2f368f-5438-48d9-97cc-32883ca45b30",
+  "next_mission_id": "97daa3e2-8767-413e-8e7f-6f2c4a990703",
   "mission_content": {
     "title": "Функция CHOOSE",
     "description": "Ще избирате стойности, проценти, формули и диапазони по числов индекс.",

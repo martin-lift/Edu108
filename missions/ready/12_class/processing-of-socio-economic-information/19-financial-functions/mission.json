@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-financial-functions-full-20261125",
+  "mission_id": "50c67dcc-157b-4107-877c-b873c11fb855",
+  "next_mission_id": "79e207cd-3b46-467e-970c-a67034f827b8",
   "mission_content": {
     "title": "Функции за обработка на финансови данни — пълна мисия",
     "description": "Месечни вноски, лихва и погасена главница с PMT, IPMT и PPMT.",

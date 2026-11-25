@@ -1,0 +1,662 @@
+{
+  "subject": "economic-informatics",
+  "first_mission_id": "f5c2c298-309d-4a4d-b95c-2b5fed46111c",
+  "missions": [
+    {
+      "lesson_number": 5,
+      "variant": "short",
+      "mission_id": "f5c2c298-309d-4a4d-b95c-2b5fed46111c",
+      "next_mission_id": "65d1971f-1400-448e-83cd-2664fab56533",
+      "path": "missions/ready/11_class/economic-informatics/05-sum-average/short/mission.json",
+      "title": "Основни функции SUM и AVERAGE — кратка мисия"
+    },
+    {
+      "lesson_number": 5,
+      "variant": "full",
+      "mission_id": "65d1971f-1400-448e-83cd-2664fab56533",
+      "next_mission_id": "54dd897d-c294-43f6-8734-a0a95c05462f",
+      "path": "missions/ready/11_class/economic-informatics/05-sum-average/mission.json",
+      "title": "Основни функции SUM и AVERAGE — пълна мисия"
+    },
+    {
+      "lesson_number": 6,
+      "variant": "short",
+      "mission_id": "54dd897d-c294-43f6-8734-a0a95c05462f",
+      "next_mission_id": "e2559442-c0bf-4b56-9ec3-8dfd293a33a5",
+      "path": "missions/ready/11_class/economic-informatics/06-math-logical-functions/short/mission.json",
+      "title": "Математически и логически функции — кратка мисия"
+    },
+    {
+      "lesson_number": 6,
+      "variant": "full",
+      "mission_id": "e2559442-c0bf-4b56-9ec3-8dfd293a33a5",
+      "next_mission_id": "a05dadd2-1750-4f55-9593-a5e75c2a8ab8",
+      "path": "missions/ready/11_class/economic-informatics/06-math-logical-functions/mission.json",
+      "title": "Математически и логически функции — пълна мисия"
+    },
+    {
+      "lesson_number": 7,
+      "variant": "short",
+      "mission_id": "a05dadd2-1750-4f55-9593-a5e75c2a8ab8",
+      "next_mission_id": "d7e696f1-8175-40d7-ab0f-4119a5873387",
+      "path": "missions/ready/11_class/economic-informatics/07-cell-references-if/short/mission.json",
+      "title": "Абсолютни и относителни адреси. IF — кратка мисия"
+    },
+    {
+      "lesson_number": 7,
+      "variant": "full",
+      "mission_id": "d7e696f1-8175-40d7-ab0f-4119a5873387",
+      "next_mission_id": "7da7c41a-62a2-44b4-8765-7d0ba68943f6",
+      "path": "missions/ready/11_class/economic-informatics/07-cell-references-if/mission.json",
+      "title": "Абсолютни и относителни адреси. IF — пълна мисия"
+    },
+    {
+      "lesson_number": 8,
+      "variant": "short",
+      "mission_id": "7da7c41a-62a2-44b4-8765-7d0ba68943f6",
+      "next_mission_id": "6c0739b8-ee5a-4bf1-a3e5-7979083f98fb",
+      "path": "missions/ready/11_class/economic-informatics/08-text-functions/short/mission.json",
+      "title": "Функции за работа с текст — кратка мисия"
+    },
+    {
+      "lesson_number": 8,
+      "variant": "full",
+      "mission_id": "6c0739b8-ee5a-4bf1-a3e5-7979083f98fb",
+      "next_mission_id": "fc18e901-4bf7-48bc-98f4-218fb9082235",
+      "path": "missions/ready/11_class/economic-informatics/08-text-functions/mission.json",
+      "title": "Функции за работа с текст — пълна мисия"
+    },
+    {
+      "lesson_number": 9,
+      "variant": "short",
+      "mission_id": "fc18e901-4bf7-48bc-98f4-218fb9082235",
+      "next_mission_id": "91f22072-867d-4663-b497-c88535e8dcaa",
+      "path": "missions/ready/11_class/economic-informatics/09-text-practice/short/mission.json",
+      "title": "Текстови функции — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 9,
+      "variant": "full",
+      "mission_id": "91f22072-867d-4663-b497-c88535e8dcaa",
+      "next_mission_id": "4e7d0823-0e5c-430a-a1c3-fcf621889e54",
+      "path": "missions/ready/11_class/economic-informatics/09-text-practice/mission.json",
+      "title": "Текстови функции — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 10,
+      "variant": "short",
+      "mission_id": "4e7d0823-0e5c-430a-a1c3-fcf621889e54",
+      "next_mission_id": "58e89eb1-89bd-4b73-bbc4-ebdf7982040a",
+      "path": "missions/ready/11_class/economic-informatics/10-formats-percentages/short/mission.json",
+      "title": "Числови формати и проценти — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 10,
+      "variant": "full",
+      "mission_id": "58e89eb1-89bd-4b73-bbc4-ebdf7982040a",
+      "next_mission_id": "606b6851-2d73-4f4f-9b90-90a220ad50af",
+      "path": "missions/ready/11_class/economic-informatics/10-formats-percentages/mission.json",
+      "title": "Числови формати и проценти — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 11,
+      "variant": "short",
+      "mission_id": "606b6851-2d73-4f4f-9b90-90a220ad50af",
+      "next_mission_id": "7a54ba99-ec14-418d-8636-718ff25b9b57",
+      "path": "missions/ready/11_class/economic-informatics/11-rounding/short/mission.json",
+      "title": "Закръгляване и математически функции — кратка мисия"
+    },
+    {
+      "lesson_number": 11,
+      "variant": "full",
+      "mission_id": "7a54ba99-ec14-418d-8636-718ff25b9b57",
+      "next_mission_id": "6f509591-e1a1-477b-adaa-49aa3bf4e9b7",
+      "path": "missions/ready/11_class/economic-informatics/11-rounding/mission.json",
+      "title": "Закръгляване и математически функции — пълна мисия"
+    },
+    {
+      "lesson_number": 12,
+      "variant": "short",
+      "mission_id": "6f509591-e1a1-477b-adaa-49aa3bf4e9b7",
+      "next_mission_id": "ecf4895c-2133-498d-8c62-a57c418ebc7f",
+      "path": "missions/ready/11_class/economic-informatics/12-and-or-not/short/mission.json",
+      "title": "Логически функции AND, OR и NOT — кратка мисия"
+    },
+    {
+      "lesson_number": 12,
+      "variant": "full",
+      "mission_id": "ecf4895c-2133-498d-8c62-a57c418ebc7f",
+      "next_mission_id": "a06ff32b-078f-44b5-ac31-9b56fae3233c",
+      "path": "missions/ready/11_class/economic-informatics/12-and-or-not/mission.json",
+      "title": "Логически функции AND, OR и NOT — пълна мисия"
+    },
+    {
+      "lesson_number": 13,
+      "variant": "short",
+      "mission_id": "a06ff32b-078f-44b5-ac31-9b56fae3233c",
+      "next_mission_id": "e95629ed-411d-4c1b-bd35-9b58dec9e08c",
+      "path": "missions/ready/11_class/economic-informatics/13-nested-if/short/mission.json",
+      "title": "Вложени функции IF — кратка мисия"
+    },
+    {
+      "lesson_number": 13,
+      "variant": "full",
+      "mission_id": "e95629ed-411d-4c1b-bd35-9b58dec9e08c",
+      "next_mission_id": "6d33ebea-92ff-4fb1-93ec-78f13b3fca8f",
+      "path": "missions/ready/11_class/economic-informatics/13-nested-if/mission.json",
+      "title": "Вложени функции IF — пълна мисия"
+    },
+    {
+      "lesson_number": 14,
+      "variant": "short",
+      "mission_id": "6d33ebea-92ff-4fb1-93ec-78f13b3fca8f",
+      "next_mission_id": "6fcdf780-2075-43d0-b306-99b3a12f6bc9",
+      "path": "missions/ready/11_class/economic-informatics/14-date-functions/short/mission.json",
+      "title": "Функции за дати — кратка мисия"
+    },
+    {
+      "lesson_number": 14,
+      "variant": "full",
+      "mission_id": "6fcdf780-2075-43d0-b306-99b3a12f6bc9",
+      "next_mission_id": "16dfd5c1-8f52-4170-b754-3def3c326f64",
+      "path": "missions/ready/11_class/economic-informatics/14-date-functions/mission.json",
+      "title": "Функции за дати — пълна мисия"
+    },
+    {
+      "lesson_number": 15,
+      "variant": "short",
+      "mission_id": "16dfd5c1-8f52-4170-b754-3def3c326f64",
+      "next_mission_id": "304c8082-e7a4-470a-a863-1d14cc2bf1cf",
+      "path": "missions/ready/11_class/economic-informatics/15-time-functions/short/mission.json",
+      "title": "Функции за време — кратка мисия"
+    },
+    {
+      "lesson_number": 15,
+      "variant": "full",
+      "mission_id": "304c8082-e7a4-470a-a863-1d14cc2bf1cf",
+      "next_mission_id": "de004d87-2290-465f-9b8d-66d6899e202f",
+      "path": "missions/ready/11_class/economic-informatics/15-time-functions/mission.json",
+      "title": "Функции за време — пълна мисия"
+    },
+    {
+      "lesson_number": 16,
+      "variant": "short",
+      "mission_id": "de004d87-2290-465f-9b8d-66d6899e202f",
+      "next_mission_id": "719fa877-b8e0-40ec-8d26-5d2738926e74",
+      "path": "missions/ready/11_class/economic-informatics/16-date-time-practice/short/mission.json",
+      "title": "Дати и времена — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 16,
+      "variant": "full",
+      "mission_id": "719fa877-b8e0-40ec-8d26-5d2738926e74",
+      "next_mission_id": "b4823bf7-9458-4783-a6d3-7edacd819d9a",
+      "path": "missions/ready/11_class/economic-informatics/16-date-time-practice/mission.json",
+      "title": "Дати и времена — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 17,
+      "variant": "short",
+      "mission_id": "b4823bf7-9458-4783-a6d3-7edacd819d9a",
+      "next_mission_id": "b4478c51-4648-4d08-ae85-05f5bcbe6102",
+      "path": "missions/ready/11_class/economic-informatics/17-functions-review/short/mission.json",
+      "title": "Основни функции — обобщение и подготовка — кратка мисия"
+    },
+    {
+      "lesson_number": 17,
+      "variant": "full",
+      "mission_id": "b4478c51-4648-4d08-ae85-05f5bcbe6102",
+      "next_mission_id": "a9b4c004-7017-425d-9e6f-a42494749fc5",
+      "path": "missions/ready/11_class/economic-informatics/17-functions-review/mission.json",
+      "title": "Основни функции — обобщение и подготовка — пълна мисия"
+    },
+    {
+      "lesson_number": 19,
+      "variant": "short",
+      "mission_id": "a9b4c004-7017-425d-9e6f-a42494749fc5",
+      "next_mission_id": "8f50640b-673d-429e-a5fe-4fb1a9ab79af",
+      "path": "missions/ready/11_class/economic-informatics/19-count-counta/short/mission.json",
+      "title": "Функции за броене COUNT и COUNTA — кратка мисия"
+    },
+    {
+      "lesson_number": 19,
+      "variant": "full",
+      "mission_id": "8f50640b-673d-429e-a5fe-4fb1a9ab79af",
+      "next_mission_id": "6ffcfe2c-f3d7-4c85-af39-21091b830250",
+      "path": "missions/ready/11_class/economic-informatics/19-count-counta/mission.json",
+      "title": "Функции за броене COUNT и COUNTA — пълна мисия"
+    },
+    {
+      "lesson_number": 20,
+      "variant": "short",
+      "mission_id": "6ffcfe2c-f3d7-4c85-af39-21091b830250",
+      "next_mission_id": "23ec600a-7699-4441-ab7b-6e045c3bfce5",
+      "path": "missions/ready/11_class/economic-informatics/20-countif/short/mission.json",
+      "title": "Броене по критерий COUNTIF — кратка мисия"
+    },
+    {
+      "lesson_number": 20,
+      "variant": "full",
+      "mission_id": "23ec600a-7699-4441-ab7b-6e045c3bfce5",
+      "next_mission_id": "72b61f7d-1bec-4716-b214-db7275534b2d",
+      "path": "missions/ready/11_class/economic-informatics/20-countif/mission.json",
+      "title": "Броене по критерий COUNTIF — пълна мисия"
+    },
+    {
+      "lesson_number": 21,
+      "variant": "short",
+      "mission_id": "72b61f7d-1bec-4716-b214-db7275534b2d",
+      "next_mission_id": "5bec22a0-adb2-41ab-b141-7142379655f3",
+      "path": "missions/ready/11_class/economic-informatics/21-countifs/short/mission.json",
+      "title": "Броене по няколко критерия COUNTIFS — кратка мисия"
+    },
+    {
+      "lesson_number": 21,
+      "variant": "full",
+      "mission_id": "5bec22a0-adb2-41ab-b141-7142379655f3",
+      "next_mission_id": "d51a128a-1601-4c1d-8766-6dc8abbf2737",
+      "path": "missions/ready/11_class/economic-informatics/21-countifs/mission.json",
+      "title": "Броене по няколко критерия COUNTIFS — пълна мисия"
+    },
+    {
+      "lesson_number": 22,
+      "variant": "short",
+      "mission_id": "d51a128a-1601-4c1d-8766-6dc8abbf2737",
+      "next_mission_id": "64192515-a090-4412-95c4-caaf427d2323",
+      "path": "missions/ready/11_class/economic-informatics/22-sumif/short/mission.json",
+      "title": "Сумиране по критерий SUMIF — кратка мисия"
+    },
+    {
+      "lesson_number": 22,
+      "variant": "full",
+      "mission_id": "64192515-a090-4412-95c4-caaf427d2323",
+      "next_mission_id": "d54048f4-736d-4aaf-b0c8-b96a479bedcf",
+      "path": "missions/ready/11_class/economic-informatics/22-sumif/mission.json",
+      "title": "Сумиране по критерий SUMIF — пълна мисия"
+    },
+    {
+      "lesson_number": 23,
+      "variant": "short",
+      "mission_id": "d54048f4-736d-4aaf-b0c8-b96a479bedcf",
+      "next_mission_id": "7af6e274-8ef3-492d-86e8-0e6284949044",
+      "path": "missions/ready/11_class/economic-informatics/23-sumifs-averageif/short/mission.json",
+      "title": "SUMIFS и AVERAGEIF – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 23,
+      "variant": "full",
+      "mission_id": "7af6e274-8ef3-492d-86e8-0e6284949044",
+      "next_mission_id": "346baf1b-a58c-4b02-915c-e6b8c5220b3b",
+      "path": "missions/ready/11_class/economic-informatics/23-sumifs-averageif/mission.json",
+      "title": "SUMIFS и AVERAGEIF – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 24,
+      "variant": "short",
+      "mission_id": "346baf1b-a58c-4b02-915c-e6b8c5220b3b",
+      "next_mission_id": "10c0ab5f-316c-4b9c-8f0c-1e1694a07db1",
+      "path": "missions/ready/11_class/economic-informatics/24-patterns/short/mission.json",
+      "title": "Търсене по образец – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 24,
+      "variant": "full",
+      "mission_id": "10c0ab5f-316c-4b9c-8f0c-1e1694a07db1",
+      "next_mission_id": "770a4dca-7252-4ea6-b7b8-6f4ca0d31b96",
+      "path": "missions/ready/11_class/economic-informatics/24-patterns/mission.json",
+      "title": "Търсене по образец – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 25,
+      "variant": "short",
+      "mission_id": "770a4dca-7252-4ea6-b7b8-6f4ca0d31b96",
+      "next_mission_id": "4240a214-1baf-4ff8-beaa-771be67d9f37",
+      "path": "missions/ready/11_class/economic-informatics/25-vlookup-exact/short/mission.json",
+      "title": "VLOOKUP с точно съвпадение — кратка мисия"
+    },
+    {
+      "lesson_number": 25,
+      "variant": "full",
+      "mission_id": "4240a214-1baf-4ff8-beaa-771be67d9f37",
+      "next_mission_id": "c35f1d51-95f3-42fa-a0d6-c944f9674cbd",
+      "path": "missions/ready/11_class/economic-informatics/25-vlookup-exact/mission.json",
+      "title": "VLOOKUP с точно съвпадение — пълна мисия"
+    },
+    {
+      "lesson_number": 26,
+      "variant": "short",
+      "mission_id": "c35f1d51-95f3-42fa-a0d6-c944f9674cbd",
+      "next_mission_id": "0fc83063-be33-4df6-b0f6-c0f4db23ab8e",
+      "path": "missions/ready/11_class/economic-informatics/26-vlookup-approximate/short/mission.json",
+      "title": "VLOOKUP с приблизително съвпадение — кратка мисия"
+    },
+    {
+      "lesson_number": 26,
+      "variant": "full",
+      "mission_id": "0fc83063-be33-4df6-b0f6-c0f4db23ab8e",
+      "next_mission_id": "319a7dfa-e23f-4c34-a3ec-a22b422c8f76",
+      "path": "missions/ready/11_class/economic-informatics/26-vlookup-approximate/mission.json",
+      "title": "VLOOKUP с приблизително съвпадение — пълна мисия"
+    },
+    {
+      "lesson_number": 27,
+      "variant": "short",
+      "mission_id": "319a7dfa-e23f-4c34-a3ec-a22b422c8f76",
+      "next_mission_id": "66e9a427-ac8c-41fe-9029-d14ae797555d",
+      "path": "missions/ready/11_class/economic-informatics/27-vlookup-vs-if/short/mission.json",
+      "title": "VLOOKUP вместо вложени IF — кратка мисия"
+    },
+    {
+      "lesson_number": 27,
+      "variant": "full",
+      "mission_id": "66e9a427-ac8c-41fe-9029-d14ae797555d",
+      "next_mission_id": "f346b66a-a0da-4492-9311-2923f02df68b",
+      "path": "missions/ready/11_class/economic-informatics/27-vlookup-vs-if/mission.json",
+      "title": "VLOOKUP вместо вложени IF — пълна мисия"
+    },
+    {
+      "lesson_number": 28,
+      "variant": "short",
+      "mission_id": "f346b66a-a0da-4492-9311-2923f02df68b",
+      "next_mission_id": "b6dc2167-6e53-4070-bc41-f08ff9e7336b",
+      "path": "missions/ready/11_class/economic-informatics/28-price-list-practice/short/mission.json",
+      "title": "VLOOKUP – упражнение с ценова листа — кратка мисия"
+    },
+    {
+      "lesson_number": 28,
+      "variant": "full",
+      "mission_id": "b6dc2167-6e53-4070-bc41-f08ff9e7336b",
+      "next_mission_id": "738cc4f4-a509-4f89-8785-54f30db52b75",
+      "path": "missions/ready/11_class/economic-informatics/28-price-list-practice/mission.json",
+      "title": "VLOOKUP – упражнение с ценова листа — пълна мисия"
+    },
+    {
+      "lesson_number": 29,
+      "variant": "short",
+      "mission_id": "738cc4f4-a509-4f89-8785-54f30db52b75",
+      "next_mission_id": "7828c613-0cc6-410b-bdae-678e7935913b",
+      "path": "missions/ready/11_class/economic-informatics/29-conditional-formatting/short/mission.json",
+      "title": "Условно форматиране по стойност — кратка мисия"
+    },
+    {
+      "lesson_number": 29,
+      "variant": "full",
+      "mission_id": "7828c613-0cc6-410b-bdae-678e7935913b",
+      "next_mission_id": "4e4997b6-47f6-4cc3-a6e9-e26a25c81188",
+      "path": "missions/ready/11_class/economic-informatics/29-conditional-formatting/mission.json",
+      "title": "Условно форматиране по стойност — пълна мисия"
+    },
+    {
+      "lesson_number": 30,
+      "variant": "short",
+      "mission_id": "4e4997b6-47f6-4cc3-a6e9-e26a25c81188",
+      "next_mission_id": "a4044565-ae6b-4689-a94c-95899a49f0e9",
+      "path": "missions/ready/11_class/economic-informatics/30-conditional-formulas/short/mission.json",
+      "title": "Условно форматиране с формула — кратка мисия"
+    },
+    {
+      "lesson_number": 30,
+      "variant": "full",
+      "mission_id": "a4044565-ae6b-4689-a94c-95899a49f0e9",
+      "next_mission_id": "aacd0926-b395-49dc-a07e-668e8dd4e761",
+      "path": "missions/ready/11_class/economic-informatics/30-conditional-formulas/mission.json",
+      "title": "Условно форматиране с формула — пълна мисия"
+    },
+    {
+      "lesson_number": 31,
+      "variant": "short",
+      "mission_id": "aacd0926-b395-49dc-a07e-668e8dd4e761",
+      "next_mission_id": "9c34e1e8-1fee-4b51-8c70-f407d3bb5676",
+      "path": "missions/ready/11_class/economic-informatics/31-formatting-practice/short/mission.json",
+      "title": "Условно форматиране – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 31,
+      "variant": "full",
+      "mission_id": "9c34e1e8-1fee-4b51-8c70-f407d3bb5676",
+      "next_mission_id": "bc7936f0-605b-48de-b677-d6e3d01a5143",
+      "path": "missions/ready/11_class/economic-informatics/31-formatting-practice/mission.json",
+      "title": "Условно форматиране – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 32,
+      "variant": "short",
+      "mission_id": "bc7936f0-605b-48de-b677-d6e3d01a5143",
+      "next_mission_id": "dfae2b35-5b02-4db7-a641-23fc1c63f05e",
+      "path": "missions/ready/11_class/economic-informatics/32-data-validation/short/mission.json",
+      "title": "Проверка на въведените данни — кратка мисия"
+    },
+    {
+      "lesson_number": 32,
+      "variant": "full",
+      "mission_id": "dfae2b35-5b02-4db7-a641-23fc1c63f05e",
+      "next_mission_id": "9c07f252-769a-43a4-ab5f-a48a078bbc06",
+      "path": "missions/ready/11_class/economic-informatics/32-data-validation/mission.json",
+      "title": "Проверка на въведените данни — пълна мисия"
+    },
+    {
+      "lesson_number": 33,
+      "variant": "short",
+      "mission_id": "9c07f252-769a-43a4-ab5f-a48a078bbc06",
+      "next_mission_id": "3c2fff71-b0b7-475c-9b88-d86bc6ebff1d",
+      "path": "missions/ready/11_class/economic-informatics/33-dropdown-lists/short/mission.json",
+      "title": "Падащи списъци – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 33,
+      "variant": "full",
+      "mission_id": "3c2fff71-b0b7-475c-9b88-d86bc6ebff1d",
+      "next_mission_id": "c7814b3a-de06-4138-8f91-0212c8ae8c4d",
+      "path": "missions/ready/11_class/economic-informatics/33-dropdown-lists/mission.json",
+      "title": "Падащи списъци – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 34,
+      "variant": "short",
+      "mission_id": "c7814b3a-de06-4138-8f91-0212c8ae8c4d",
+      "next_mission_id": "5a3516d7-e19a-4cfc-899c-0f691e051940",
+      "path": "missions/ready/11_class/economic-informatics/34-formula-auditing/short/mission.json",
+      "title": "Проверка на формули и функции — кратка мисия"
+    },
+    {
+      "lesson_number": 34,
+      "variant": "full",
+      "mission_id": "5a3516d7-e19a-4cfc-899c-0f691e051940",
+      "next_mission_id": "2d760d70-bff1-439f-b7ff-75307d7e49a6",
+      "path": "missions/ready/11_class/economic-informatics/34-formula-auditing/mission.json",
+      "title": "Проверка на формули и функции — пълна мисия"
+    },
+    {
+      "lesson_number": 35,
+      "variant": "short",
+      "mission_id": "2d760d70-bff1-439f-b7ff-75307d7e49a6",
+      "next_mission_id": "6a9986c6-2d17-43a7-ad7a-85b20167e86d",
+      "path": "missions/ready/11_class/economic-informatics/35-lookup-review/short/mission.json",
+      "title": "Справки и проверки – обобщение — кратка мисия"
+    },
+    {
+      "lesson_number": 35,
+      "variant": "full",
+      "mission_id": "6a9986c6-2d17-43a7-ad7a-85b20167e86d",
+      "next_mission_id": "723e2b66-1d67-456f-9f26-bbfeecd44d16",
+      "path": "missions/ready/11_class/economic-informatics/35-lookup-review/mission.json",
+      "title": "Справки и проверки – обобщение — пълна мисия"
+    },
+    {
+      "lesson_number": 37,
+      "variant": "short",
+      "mission_id": "723e2b66-1d67-456f-9f26-bbfeecd44d16",
+      "next_mission_id": "48579012-0e4a-4d07-9d08-39c3522cc4c1",
+      "path": "missions/ready/11_class/economic-informatics/37-lists-tables/short/mission.json",
+      "title": "Организация на списъци и таблици — кратка мисия"
+    },
+    {
+      "lesson_number": 37,
+      "variant": "full",
+      "mission_id": "48579012-0e4a-4d07-9d08-39c3522cc4c1",
+      "next_mission_id": "a7a470df-8106-4f7e-b76f-64abc611ba1c",
+      "path": "missions/ready/11_class/economic-informatics/37-lists-tables/mission.json",
+      "title": "Организация на списъци и таблици — пълна мисия"
+    },
+    {
+      "lesson_number": 38,
+      "variant": "short",
+      "mission_id": "a7a470df-8106-4f7e-b76f-64abc611ba1c",
+      "next_mission_id": "02072298-1727-47f7-8fd1-817059c5940d",
+      "path": "missions/ready/11_class/economic-informatics/38-sorting-filtering/short/mission.json",
+      "title": "Сортиране и филтриране – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 38,
+      "variant": "full",
+      "mission_id": "02072298-1727-47f7-8fd1-817059c5940d",
+      "next_mission_id": "af4bafe0-6b1d-4ae0-ad15-1dc5b565f9c4",
+      "path": "missions/ready/11_class/economic-informatics/38-sorting-filtering/mission.json",
+      "title": "Сортиране и филтриране – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 39,
+      "variant": "short",
+      "mission_id": "af4bafe0-6b1d-4ae0-ad15-1dc5b565f9c4",
+      "next_mission_id": "b97102ab-73f0-40cd-871d-c111dd92ce8a",
+      "path": "missions/ready/11_class/economic-informatics/39-subtotals/short/mission.json",
+      "title": "Междинни и крайни суми — кратка мисия"
+    },
+    {
+      "lesson_number": 39,
+      "variant": "full",
+      "mission_id": "b97102ab-73f0-40cd-871d-c111dd92ce8a",
+      "next_mission_id": "86c544f7-716b-47eb-a898-ab5fe074ee84",
+      "path": "missions/ready/11_class/economic-informatics/39-subtotals/mission.json",
+      "title": "Междинни и крайни суми — пълна мисия"
+    },
+    {
+      "lesson_number": 40,
+      "variant": "short",
+      "mission_id": "86c544f7-716b-47eb-a898-ab5fe074ee84",
+      "next_mission_id": "1dc60421-0428-47d0-b1ad-275c0ddd1b72",
+      "path": "missions/ready/11_class/economic-informatics/40-subtotals-practice/short/mission.json",
+      "title": "Списъци и междинни суми – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 40,
+      "variant": "full",
+      "mission_id": "1dc60421-0428-47d0-b1ad-275c0ddd1b72",
+      "next_mission_id": "791fdb04-dc0e-4eea-b28e-3f36d1cd188f",
+      "path": "missions/ready/11_class/economic-informatics/40-subtotals-practice/mission.json",
+      "title": "Списъци и междинни суми – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 41,
+      "variant": "short",
+      "mission_id": "791fdb04-dc0e-4eea-b28e-3f36d1cd188f",
+      "next_mission_id": "151860b2-36ba-4a85-bf27-3322bbea7872",
+      "path": "missions/ready/11_class/economic-informatics/41-pivot-tables/short/mission.json",
+      "title": "Обобщени таблици – създаване — кратка мисия"
+    },
+    {
+      "lesson_number": 41,
+      "variant": "full",
+      "mission_id": "151860b2-36ba-4a85-bf27-3322bbea7872",
+      "next_mission_id": "1e32c9fb-7074-44e4-980b-42f4bf9748ea",
+      "path": "missions/ready/11_class/economic-informatics/41-pivot-tables/mission.json",
+      "title": "Обобщени таблици – създаване — пълна мисия"
+    },
+    {
+      "lesson_number": 42,
+      "variant": "short",
+      "mission_id": "1e32c9fb-7074-44e4-980b-42f4bf9748ea",
+      "next_mission_id": "7e55fc2b-37c9-4e1c-b2a1-511cc5809995",
+      "path": "missions/ready/11_class/economic-informatics/42-pivot-configuration/short/mission.json",
+      "title": "Обобщени таблици – конфигуриране — кратка мисия"
+    },
+    {
+      "lesson_number": 42,
+      "variant": "full",
+      "mission_id": "7e55fc2b-37c9-4e1c-b2a1-511cc5809995",
+      "next_mission_id": "906e43b6-eb58-498b-a043-b66e6888603a",
+      "path": "missions/ready/11_class/economic-informatics/42-pivot-configuration/mission.json",
+      "title": "Обобщени таблици – конфигуриране — пълна мисия"
+    },
+    {
+      "lesson_number": 43,
+      "variant": "short",
+      "mission_id": "906e43b6-eb58-498b-a043-b66e6888603a",
+      "next_mission_id": "ec77d13d-af2d-4569-b2bf-a8e2f852e22f",
+      "path": "missions/ready/11_class/economic-informatics/43-pivot-filters/short/mission.json",
+      "title": "Обобщени таблици – филтриране — кратка мисия"
+    },
+    {
+      "lesson_number": 43,
+      "variant": "full",
+      "mission_id": "ec77d13d-af2d-4569-b2bf-a8e2f852e22f",
+      "next_mission_id": "fdbb6b54-bb6c-4c3c-a1e3-926979cc6228",
+      "path": "missions/ready/11_class/economic-informatics/43-pivot-filters/mission.json",
+      "title": "Обобщени таблици – филтриране — пълна мисия"
+    },
+    {
+      "lesson_number": 44,
+      "variant": "short",
+      "mission_id": "fdbb6b54-bb6c-4c3c-a1e3-926979cc6228",
+      "next_mission_id": "57c58824-6c12-4d41-9872-e3be47e2193e",
+      "path": "missions/ready/11_class/economic-informatics/44-pivot-charts/short/mission.json",
+      "title": "Обобщени диаграми — кратка мисия"
+    },
+    {
+      "lesson_number": 44,
+      "variant": "full",
+      "mission_id": "57c58824-6c12-4d41-9872-e3be47e2193e",
+      "next_mission_id": "c94078ad-8da0-4e5c-815b-960563682c07",
+      "path": "missions/ready/11_class/economic-informatics/44-pivot-charts/mission.json",
+      "title": "Обобщени диаграми — пълна мисия"
+    },
+    {
+      "lesson_number": 45,
+      "variant": "short",
+      "mission_id": "c94078ad-8da0-4e5c-815b-960563682c07",
+      "next_mission_id": "d03b9b59-4490-4029-8136-98560d919e6e",
+      "path": "missions/ready/11_class/economic-informatics/45-report-practice/short/mission.json",
+      "title": "Обобщен отчет – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 45,
+      "variant": "full",
+      "mission_id": "d03b9b59-4490-4029-8136-98560d919e6e",
+      "next_mission_id": "7567f9ea-421d-41bc-8156-eb691177ad64",
+      "path": "missions/ready/11_class/economic-informatics/45-report-practice/mission.json",
+      "title": "Обобщен отчет – упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 46,
+      "variant": "short",
+      "mission_id": "7567f9ea-421d-41bc-8156-eb691177ad64",
+      "next_mission_id": "e99ca645-83cd-467d-9916-9587ab6b8514",
+      "path": "missions/ready/11_class/economic-informatics/46-record-macros/short/mission.json",
+      "title": "Макроси в Excel – записване — кратка мисия"
+    },
+    {
+      "lesson_number": 46,
+      "variant": "full",
+      "mission_id": "e99ca645-83cd-467d-9916-9587ab6b8514",
+      "next_mission_id": "9ad2a0f3-494d-4455-a9c3-71bb8e23ca63",
+      "path": "missions/ready/11_class/economic-informatics/46-record-macros/mission.json",
+      "title": "Макроси в Excel – записване — пълна мисия"
+    },
+    {
+      "lesson_number": 47,
+      "variant": "short",
+      "mission_id": "9ad2a0f3-494d-4455-a9c3-71bb8e23ca63",
+      "next_mission_id": "029ef6a9-bcb5-4770-b85f-6b7172a8699c",
+      "path": "missions/ready/11_class/economic-informatics/47-macro-practice/short/mission.json",
+      "title": "Макроси – упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 47,
+      "variant": "full",
+      "mission_id": "029ef6a9-bcb5-4770-b85f-6b7172a8699c",
+      "next_mission_id": null,
+      "path": "missions/ready/11_class/economic-informatics/47-macro-practice/mission.json",
+      "title": "Макроси – упражнение — пълна мисия"
+    }
+  ]
+}

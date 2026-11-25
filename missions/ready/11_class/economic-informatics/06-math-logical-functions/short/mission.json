@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-math-logical-functions-short-20261125",
+  "mission_id": "54dd897d-c294-43f6-8734-a0a95c05462f",
+  "next_mission_id": "e2559442-c0bf-4b56-9ec3-8dfd293a33a5",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-conditional-formulas-short-20261125",
+  "mission_id": "4e4997b6-47f6-4cc3-a6e9-e26a25c81188",
+  "next_mission_id": "a4044565-ae6b-4689-a94c-95899a49f0e9",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

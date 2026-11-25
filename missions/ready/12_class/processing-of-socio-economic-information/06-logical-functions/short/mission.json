@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-logical-functions-short-20261125",
+  "mission_id": "bef9afb6-6d1a-4d4e-b51e-e3be2fdd63f5",
+  "next_mission_id": "b12296db-db06-45dc-af6b-f21c68f2fc71",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

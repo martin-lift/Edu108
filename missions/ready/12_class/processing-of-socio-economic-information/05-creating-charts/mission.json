@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-creating-charts-20261125",
+  "mission_id": "4663cf77-38b0-4c49-ae37-9148249dff64",
+  "next_mission_id": "bef9afb6-6d1a-4d4e-b51e-e3be2fdd63f5",
   "mission_content": {
     "title": "Създаване на диаграми",
     "description": "Ще избирате подходящ вид диаграма, ще обобщавате данни и ще формулирате изводи. Ще запазите шест диаграми в една книга.",

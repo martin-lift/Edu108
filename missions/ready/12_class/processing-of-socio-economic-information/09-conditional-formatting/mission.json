@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-conditional-formatting-20261125",
+  "mission_id": "d5992f09-cba2-4865-9dea-b82559a01c68",
+  "next_mission_id": "22c78483-f7e1-4d97-927d-78ab07b8f431",
   "mission_content": {
     "title": "Условно форматиране в електронни таблици",
     "description": "Ще създавате правила по стойност, цветови скали, ленти, Top 3 и правило с формула за цял ред.",

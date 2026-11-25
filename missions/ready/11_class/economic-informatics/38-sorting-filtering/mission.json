@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sorting-filtering-full-20261125",
+  "mission_id": "02072298-1727-47f7-8fd1-817059c5940d",
+  "next_mission_id": "af4bafe0-6b1d-4ae0-ad15-1dc5b565f9c4",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

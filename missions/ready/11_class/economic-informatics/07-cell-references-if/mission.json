@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-cell-references-if-full-20261125",
+  "mission_id": "d7e696f1-8175-40d7-ab0f-4119a5873387",
+  "next_mission_id": "7da7c41a-62a2-44b4-8765-7d0ba68943f6",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

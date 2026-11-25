@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-rounding-short-20261125",
+  "mission_id": "606b6851-2d73-4f4f-9b90-90a220ad50af",
+  "next_mission_id": "7a54ba99-ec14-418d-8636-718ff25b9b57",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

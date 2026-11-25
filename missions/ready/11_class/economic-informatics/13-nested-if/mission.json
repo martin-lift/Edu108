@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-nested-if-full-20261125",
+  "mission_id": "e95629ed-411d-4c1b-bd35-9b58dec9e08c",
+  "next_mission_id": "6d33ebea-92ff-4fb1-93ec-78f13b3fca8f",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

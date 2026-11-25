@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-data-protection-short-20261125",
+  "mission_id": "1293e3d3-521e-4298-af2a-19e9abd79155",
+  "next_mission_id": "6d7d7ef6-84df-4d62-976b-9851004335ce",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

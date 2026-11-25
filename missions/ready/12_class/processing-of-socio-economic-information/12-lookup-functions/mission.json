@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-lookup-functions-20261125",
+  "mission_id": "d8af2ac1-e0a2-434c-a08e-1c2b254db760",
+  "next_mission_id": "6c9f3b5f-c3b4-429b-9d11-194b0b2e43aa",
   "mission_content": {
     "title": "Функции за търсене и препратки",
     "description": "Ще извличате продукти и цени с точно съвпадение и ще определяте отстъпки чрез подредени прагове.",

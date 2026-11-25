@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-large-data-exercise-short-20261125",
+  "mission_id": "a775d207-d7cd-4fe2-878f-3d68c35a8347",
+  "next_mission_id": "f048eeb1-fdd3-4b28-8c4b-841eb9498c17",
   "mission_content": {
     "title": "Филтриране, функции и обобщения — упражнение — кратка мисия",
     "description": "Филтрирайте един регион",

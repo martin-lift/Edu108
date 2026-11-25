@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-subtotals-short-20261125",
+  "mission_id": "af4bafe0-6b1d-4ae0-ad15-1dc5b565f9c4",
+  "next_mission_id": "b97102ab-73f0-40cd-871d-c111dd92ce8a",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

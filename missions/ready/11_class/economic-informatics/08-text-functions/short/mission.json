@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-text-functions-short-20261125",
+  "mission_id": "7da7c41a-62a2-44b4-8765-7d0ba68943f6",
+  "next_mission_id": "6c0739b8-ee5a-4bf1-a3e5-7979083f98fb",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,0 +1,462 @@
+{
+  "subject": "processing-of-socio-economic-information",
+  "first_mission_id": "c46cd6be-9675-4e2e-8ff5-a87753fd47d5",
+  "missions": [
+    {
+      "lesson_number": 2,
+      "variant": "short",
+      "mission_id": "c46cd6be-9675-4e2e-8ff5-a87753fd47d5",
+      "next_mission_id": "35a7e29f-55fc-4291-bc18-0fd91194d1c4",
+      "path": "missions/ready/processing-of-socio-economic-information/spreadsheets-creation-first-mission/spreadsheets-creation-first-mission.json",
+      "title": "Добавете суми и предайте файл"
+    },
+    {
+      "lesson_number": 2,
+      "variant": "full",
+      "mission_id": "35a7e29f-55fc-4291-bc18-0fd91194d1c4",
+      "next_mission_id": "466657bd-75c6-4368-8408-af9ea86ca4c9",
+      "path": "missions/ready/processing-of-socio-economic-information/spreadsheets-creation-part-2/spreadsheets-creation-part-2.json",
+      "title": "Електронни таблици — създаване, част 2"
+    },
+    {
+      "lesson_number": 3,
+      "variant": "short",
+      "mission_id": "466657bd-75c6-4368-8408-af9ea86ca4c9",
+      "next_mission_id": "d652e781-e71c-4cf4-940a-88edf9b38679",
+      "path": "missions/ready/processing-of-socio-economic-information/spreadsheets-sorting-simple/spreadsheets-sorting-simple.json",
+      "title": "Електронни таблици — сортиране по име"
+    },
+    {
+      "lesson_number": 3,
+      "variant": "full",
+      "mission_id": "d652e781-e71c-4cf4-940a-88edf9b38679",
+      "next_mission_id": "6370b855-15de-4302-b482-976d7368c858",
+      "path": "missions/ready/processing-of-socio-economic-information/spreadsheets-sorting/spreadsheets-sorting.json",
+      "title": "Електронни таблици — сортиране"
+    },
+    {
+      "lesson_number": 4,
+      "variant": "short",
+      "mission_id": "6370b855-15de-4302-b482-976d7368c858",
+      "next_mission_id": "5f7fd9de-78f2-4c30-8b69-4914e72cb7ba",
+      "path": "missions/ready/processing-of-socio-economic-information/filtering-simple/filtering-simple.json",
+      "title": "Филтриране — области с население над 200 000"
+    },
+    {
+      "lesson_number": 4,
+      "variant": "full",
+      "mission_id": "5f7fd9de-78f2-4c30-8b69-4914e72cb7ba",
+      "next_mission_id": "f4334aa5-aa52-48f2-a31d-cc8f411c6b8b",
+      "path": "missions/ready/processing-of-socio-economic-information/filtering-validation-part-2/filtering-validation-part-2.json",
+      "title": "Филтриране и валидиране на данни — част 2"
+    },
+    {
+      "lesson_number": 5,
+      "variant": "short",
+      "mission_id": "f4334aa5-aa52-48f2-a31d-cc8f411c6b8b",
+      "next_mission_id": "4663cf77-38b0-4c49-ae37-9148249dff64",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/05-creating-charts/short/mission.json",
+      "title": "Създаване на диаграми — кратка мисия"
+    },
+    {
+      "lesson_number": 5,
+      "variant": "full",
+      "mission_id": "4663cf77-38b0-4c49-ae37-9148249dff64",
+      "next_mission_id": "bef9afb6-6d1a-4d4e-b51e-e3be2fdd63f5",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/05-creating-charts/mission.json",
+      "title": "Създаване на диаграми"
+    },
+    {
+      "lesson_number": 6,
+      "variant": "short",
+      "mission_id": "bef9afb6-6d1a-4d4e-b51e-e3be2fdd63f5",
+      "next_mission_id": "b12296db-db06-45dc-af6b-f21c68f2fc71",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/06-logical-functions/short/mission.json",
+      "title": "Логически функции IF, AND, OR и NOT — кратка мисия"
+    },
+    {
+      "lesson_number": 6,
+      "variant": "full",
+      "mission_id": "b12296db-db06-45dc-af6b-f21c68f2fc71",
+      "next_mission_id": "870e0d9d-aca7-4bec-a053-38800aebc1f9",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/06-logical-functions/mission.json",
+      "title": "Логически функции IF, AND, OR и NOT"
+    },
+    {
+      "lesson_number": 7,
+      "variant": "short",
+      "mission_id": "870e0d9d-aca7-4bec-a053-38800aebc1f9",
+      "next_mission_id": "fe2f368f-5438-48d9-97cc-32883ca45b30",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/07-choose-function/short/mission.json",
+      "title": "Функция CHOOSE — кратка мисия"
+    },
+    {
+      "lesson_number": 7,
+      "variant": "full",
+      "mission_id": "fe2f368f-5438-48d9-97cc-32883ca45b30",
+      "next_mission_id": "97daa3e2-8767-413e-8e7f-6f2c4a990703",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/07-choose-function/mission.json",
+      "title": "Функция CHOOSE"
+    },
+    {
+      "lesson_number": 8,
+      "variant": "short",
+      "mission_id": "97daa3e2-8767-413e-8e7f-6f2c4a990703",
+      "next_mission_id": "b30f91dd-e992-4c64-bf2d-94393d5ffa72",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/08-integrated-exercise/short/mission.json",
+      "title": "Обобщаващо упражнение — диаграми и функции — кратка мисия"
+    },
+    {
+      "lesson_number": 8,
+      "variant": "full",
+      "mission_id": "b30f91dd-e992-4c64-bf2d-94393d5ffa72",
+      "next_mission_id": "3c187a33-b816-41b4-b3c1-174f2055dc14",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/08-integrated-exercise/mission.json",
+      "title": "Обобщаващо упражнение — диаграми и функции"
+    },
+    {
+      "lesson_number": 9,
+      "variant": "short",
+      "mission_id": "3c187a33-b816-41b4-b3c1-174f2055dc14",
+      "next_mission_id": "d5992f09-cba2-4865-9dea-b82559a01c68",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/09-conditional-formatting/short/mission.json",
+      "title": "Условно форматиране в електронни таблици — кратка мисия"
+    },
+    {
+      "lesson_number": 9,
+      "variant": "full",
+      "mission_id": "d5992f09-cba2-4865-9dea-b82559a01c68",
+      "next_mission_id": "22c78483-f7e1-4d97-927d-78ab07b8f431",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/09-conditional-formatting/mission.json",
+      "title": "Условно форматиране в електронни таблици"
+    },
+    {
+      "lesson_number": 10,
+      "variant": "short",
+      "mission_id": "22c78483-f7e1-4d97-927d-78ab07b8f431",
+      "next_mission_id": "cfabd35e-8273-4bf1-990d-efa79b664d3d",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/10-conditional-formatting-exercise/short/mission.json",
+      "title": "Условно форматиране — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 10,
+      "variant": "full",
+      "mission_id": "cfabd35e-8273-4bf1-990d-efa79b664d3d",
+      "next_mission_id": "45ba8e3a-45ea-453b-bba1-9f98eaa9027e",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/10-conditional-formatting-exercise/mission.json",
+      "title": "Условно форматиране — упражнение"
+    },
+    {
+      "lesson_number": 11,
+      "variant": "short",
+      "mission_id": "45ba8e3a-45ea-453b-bba1-9f98eaa9027e",
+      "next_mission_id": "96a0c628-1011-4e81-b9f8-8c170cf2a5b5",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/11-named-ranges/short/mission.json",
+      "title": "Имена на области и приложения — кратка мисия"
+    },
+    {
+      "lesson_number": 11,
+      "variant": "full",
+      "mission_id": "96a0c628-1011-4e81-b9f8-8c170cf2a5b5",
+      "next_mission_id": "abec50ac-0948-46d9-ab33-45e21ff6846a",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/11-named-ranges/mission.json",
+      "title": "Имена на области и приложения"
+    },
+    {
+      "lesson_number": 12,
+      "variant": "short",
+      "mission_id": "abec50ac-0948-46d9-ab33-45e21ff6846a",
+      "next_mission_id": "d8af2ac1-e0a2-434c-a08e-1c2b254db760",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/12-lookup-functions/short/mission.json",
+      "title": "Функции за търсене и препратки — кратка мисия"
+    },
+    {
+      "lesson_number": 12,
+      "variant": "full",
+      "mission_id": "d8af2ac1-e0a2-434c-a08e-1c2b254db760",
+      "next_mission_id": "6c9f3b5f-c3b4-429b-9d11-194b0b2e43aa",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/12-lookup-functions/mission.json",
+      "title": "Функции за търсене и препратки"
+    },
+    {
+      "lesson_number": 13,
+      "variant": "short",
+      "mission_id": "6c9f3b5f-c3b4-429b-9d11-194b0b2e43aa",
+      "next_mission_id": "06576b5a-f1d9-4bdd-8d56-c915c35b6d73",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/13-cross-sheet-lookup/short/mission.json",
+      "title": "Свързване на данни от различни работни листове — кратка мисия"
+    },
+    {
+      "lesson_number": 13,
+      "variant": "full",
+      "mission_id": "06576b5a-f1d9-4bdd-8d56-c915c35b6d73",
+      "next_mission_id": "1293e3d3-521e-4298-af2a-19e9abd79155",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/13-cross-sheet-lookup/mission.json",
+      "title": "Свързване на данни от различни работни листове"
+    },
+    {
+      "lesson_number": 14,
+      "variant": "short",
+      "mission_id": "1293e3d3-521e-4298-af2a-19e9abd79155",
+      "next_mission_id": "6d7d7ef6-84df-4d62-976b-9851004335ce",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/14-data-protection/short/mission.json",
+      "title": "Защита на данните в електронни таблици — кратка мисия"
+    },
+    {
+      "lesson_number": 14,
+      "variant": "full",
+      "mission_id": "6d7d7ef6-84df-4d62-976b-9851004335ce",
+      "next_mission_id": "95e852ec-c53a-453d-a983-646776459eaf",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/14-data-protection/mission.json",
+      "title": "Защита на данните в електронни таблици"
+    },
+    {
+      "lesson_number": 16,
+      "variant": "full",
+      "mission_id": "95e852ec-c53a-453d-a983-646776459eaf",
+      "next_mission_id": "29607ebc-5cd1-47b1-9651-6a855406f0e6",
+      "path": "missions/ready/processing-of-socio-economic-information/pivot-tables/pivot-tables.json",
+      "title": "Обобщаващи таблици (PivotTable)"
+    },
+    {
+      "lesson_number": 17,
+      "variant": "short",
+      "mission_id": "29607ebc-5cd1-47b1-9651-6a855406f0e6",
+      "next_mission_id": "d23ada03-7fca-4f15-93e4-a00a96f25e14",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/17-pivot-charts/short/mission.json",
+      "title": "Обобщаващи диаграми (PivotChart) — кратка мисия"
+    },
+    {
+      "lesson_number": 17,
+      "variant": "full",
+      "mission_id": "d23ada03-7fca-4f15-93e4-a00a96f25e14",
+      "next_mission_id": "7f39cb76-413e-4ff4-97fe-01916aa3ecee",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/17-pivot-charts/mission.json",
+      "title": "Обобщаващи диаграми (PivotChart) — пълна мисия"
+    },
+    {
+      "lesson_number": 18,
+      "variant": "short",
+      "mission_id": "7f39cb76-413e-4ff4-97fe-01916aa3ecee",
+      "next_mission_id": "bd8a2e82-42f4-46ab-b2d2-5c50b92268b8",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/18-pivot-tables-charts-exercise/short/mission.json",
+      "title": "Обобщаващи таблици и диаграми — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 18,
+      "variant": "full",
+      "mission_id": "bd8a2e82-42f4-46ab-b2d2-5c50b92268b8",
+      "next_mission_id": "a9649b26-d602-4717-9b8a-4633d19cd186",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/18-pivot-tables-charts-exercise/mission.json",
+      "title": "Обобщаващи таблици и диаграми — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 19,
+      "variant": "short",
+      "mission_id": "a9649b26-d602-4717-9b8a-4633d19cd186",
+      "next_mission_id": "50c67dcc-157b-4107-877c-b873c11fb855",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/19-financial-functions/short/mission.json",
+      "title": "Функции за обработка на финансови данни — кратка мисия"
+    },
+    {
+      "lesson_number": 19,
+      "variant": "full",
+      "mission_id": "50c67dcc-157b-4107-877c-b873c11fb855",
+      "next_mission_id": "79e207cd-3b46-467e-970c-a67034f827b8",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/19-financial-functions/mission.json",
+      "title": "Функции за обработка на финансови данни — пълна мисия"
+    },
+    {
+      "lesson_number": 20,
+      "variant": "short",
+      "mission_id": "79e207cd-3b46-467e-970c-a67034f827b8",
+      "next_mission_id": "99fe402f-a29d-4d71-9854-26a36aa97a9c",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/20-statistical-functions/short/mission.json",
+      "title": "Функции за обработка на статистически данни — кратка мисия"
+    },
+    {
+      "lesson_number": 20,
+      "variant": "full",
+      "mission_id": "99fe402f-a29d-4d71-9854-26a36aa97a9c",
+      "next_mission_id": "78f854ce-f9f7-4577-8435-cad0b85e1778",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/20-statistical-functions/mission.json",
+      "title": "Функции за обработка на статистически данни — пълна мисия"
+    },
+    {
+      "lesson_number": 21,
+      "variant": "short",
+      "mission_id": "78f854ce-f9f7-4577-8435-cad0b85e1778",
+      "next_mission_id": "5edf4bf6-40eb-416b-afce-121612d51a1e",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/21-financial-statistical-exercise/short/mission.json",
+      "title": "Финансови и статистически функции — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 21,
+      "variant": "full",
+      "mission_id": "5edf4bf6-40eb-416b-afce-121612d51a1e",
+      "next_mission_id": "58c6727e-f0d6-4332-8729-c2ac62fc3bc0",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/21-financial-statistical-exercise/mission.json",
+      "title": "Финансови и статистически функции — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 22,
+      "variant": "short",
+      "mission_id": "58c6727e-f0d6-4332-8729-c2ac62fc3bc0",
+      "next_mission_id": "ae7ddc03-2cb4-405e-b836-bc3fe3ccba60",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/22-scenarios/short/mission.json",
+      "title": "Сценарии в електронна таблица — кратка мисия"
+    },
+    {
+      "lesson_number": 22,
+      "variant": "full",
+      "mission_id": "ae7ddc03-2cb4-405e-b836-bc3fe3ccba60",
+      "next_mission_id": "10279dd2-bf00-45f1-9457-d7934f607b88",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/22-scenarios/mission.json",
+      "title": "Сценарии в електронна таблица — пълна мисия"
+    },
+    {
+      "lesson_number": 23,
+      "variant": "short",
+      "mission_id": "10279dd2-bf00-45f1-9457-d7934f607b88",
+      "next_mission_id": "5fd9a834-cd6e-49e2-b97d-aebf513aa13e",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/23-scenarios-exercise/short/mission.json",
+      "title": "Сценарии — бюджет на събитие — кратка мисия"
+    },
+    {
+      "lesson_number": 23,
+      "variant": "full",
+      "mission_id": "5fd9a834-cd6e-49e2-b97d-aebf513aa13e",
+      "next_mission_id": "dd1d23b0-cf5a-4cf4-9661-5f428ba75aff",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/23-scenarios-exercise/mission.json",
+      "title": "Сценарии — бюджет на събитие — пълна мисия"
+    },
+    {
+      "lesson_number": 24,
+      "variant": "short",
+      "mission_id": "dd1d23b0-cf5a-4cf4-9661-5f428ba75aff",
+      "next_mission_id": "e80ce53d-53c4-4bee-a1d7-3c625b1f43e9",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/24-external-data-sources/short/mission.json",
+      "title": "Четене на данни от външни източници — кратка мисия"
+    },
+    {
+      "lesson_number": 24,
+      "variant": "full",
+      "mission_id": "e80ce53d-53c4-4bee-a1d7-3c625b1f43e9",
+      "next_mission_id": "42290142-3915-4858-9afc-0d370ff21b94",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/24-external-data-sources/mission.json",
+      "title": "Четене на данни от външни източници — пълна мисия"
+    },
+    {
+      "lesson_number": 25,
+      "variant": "short",
+      "mission_id": "42290142-3915-4858-9afc-0d370ff21b94",
+      "next_mission_id": "f68b9beb-9f10-4bc3-b496-75033f0101f7",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/25-external-data-sources-exercise/short/mission.json",
+      "title": "Подготовка на външни данни — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 25,
+      "variant": "full",
+      "mission_id": "f68b9beb-9f10-4bc3-b496-75033f0101f7",
+      "next_mission_id": "985843f5-d0ff-445a-a5b9-90ed5cf5a139",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/25-external-data-sources-exercise/mission.json",
+      "title": "Подготовка на външни данни — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 26,
+      "variant": "short",
+      "mission_id": "985843f5-d0ff-445a-a5b9-90ed5cf5a139",
+      "next_mission_id": "dbf39edc-e315-4f0c-8229-0697bc7ef2dd",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/26-large-data-functions/short/mission.json",
+      "title": "Функции за обобщаване по критерии — кратка мисия"
+    },
+    {
+      "lesson_number": 26,
+      "variant": "full",
+      "mission_id": "dbf39edc-e315-4f0c-8229-0697bc7ef2dd",
+      "next_mission_id": "a775d207-d7cd-4fe2-878f-3d68c35a8347",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/26-large-data-functions/mission.json",
+      "title": "Функции за обобщаване по критерии — пълна мисия"
+    },
+    {
+      "lesson_number": 27,
+      "variant": "short",
+      "mission_id": "a775d207-d7cd-4fe2-878f-3d68c35a8347",
+      "next_mission_id": "f048eeb1-fdd3-4b28-8c4b-841eb9498c17",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/27-large-data-exercise/short/mission.json",
+      "title": "Филтриране, функции и обобщения — упражнение — кратка мисия"
+    },
+    {
+      "lesson_number": 27,
+      "variant": "full",
+      "mission_id": "f048eeb1-fdd3-4b28-8c4b-841eb9498c17",
+      "next_mission_id": "075ee479-6ca5-415c-8b14-390e5731de56",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/27-large-data-exercise/mission.json",
+      "title": "Филтриране, функции и обобщения — упражнение — пълна мисия"
+    },
+    {
+      "lesson_number": 28,
+      "variant": "short",
+      "mission_id": "075ee479-6ca5-415c-8b14-390e5731de56",
+      "next_mission_id": "34411f75-5395-4bde-9ae7-2e8610563dcd",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/28-complex-large-data-problems/short/mission.json",
+      "title": "Сравняване на обекти по няколко показателя — кратка мисия"
+    },
+    {
+      "lesson_number": 28,
+      "variant": "full",
+      "mission_id": "34411f75-5395-4bde-9ae7-2e8610563dcd",
+      "next_mission_id": "18b84572-1acb-4611-9159-028553923c62",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/28-complex-large-data-problems/mission.json",
+      "title": "Сравняване на обекти по няколко показателя — пълна мисия"
+    },
+    {
+      "lesson_number": 30,
+      "variant": "short",
+      "mission_id": "18b84572-1acb-4611-9159-028553923c62",
+      "next_mission_id": "085534a0-3869-4a61-add0-7d91b5580625",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/30-nsi-finding-downloading-data/short/mission.json",
+      "title": "НСИ: намиране и изтегляне на реални данни — кратка мисия"
+    },
+    {
+      "lesson_number": 30,
+      "variant": "full",
+      "mission_id": "085534a0-3869-4a61-add0-7d91b5580625",
+      "next_mission_id": "b8a4b671-c577-4781-a5b8-41b453eea14a",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/30-nsi-finding-downloading-data/mission.json",
+      "title": "НСИ: намиране и изтегляне на реални данни — пълна мисия"
+    },
+    {
+      "lesson_number": 31,
+      "variant": "short",
+      "mission_id": "b8a4b671-c577-4781-a5b8-41b453eea14a",
+      "next_mission_id": "3f01db71-c9a6-47ce-a7a6-4ca6f9b916f2",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/31-nsi-processing-visualization/short/mission.json",
+      "title": "НСИ: обработка и визуализация на реални данни — кратка мисия"
+    },
+    {
+      "lesson_number": 31,
+      "variant": "full",
+      "mission_id": "3f01db71-c9a6-47ce-a7a6-4ca6f9b916f2",
+      "next_mission_id": "f020ad5d-746a-4f76-b9be-e47d749628de",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/31-nsi-processing-visualization/mission.json",
+      "title": "НСИ: обработка и визуализация на реални данни — пълна мисия"
+    },
+    {
+      "lesson_number": 32,
+      "variant": "short",
+      "mission_id": "f020ad5d-746a-4f76-b9be-e47d749628de",
+      "next_mission_id": "4ede609b-e009-4d58-ab70-184e9382d636",
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/32-nsi-analysis-conclusions/short/mission.json",
+      "title": "НСИ: анализ и представяне на изводи — кратка мисия"
+    },
+    {
+      "lesson_number": 32,
+      "variant": "full",
+      "mission_id": "4ede609b-e009-4d58-ab70-184e9382d636",
+      "next_mission_id": null,
+      "path": "missions/ready/12_class/processing-of-socio-economic-information/32-nsi-analysis-conclusions/mission.json",
+      "title": "НСИ: анализ и представяне на изводи — пълна мисия"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-functions-review-full-20261125",
+  "mission_id": "b4478c51-4648-4d08-ae85-05f5bcbe6102",
+  "next_mission_id": "a9b4c004-7017-425d-9e6f-a42494749fc5",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

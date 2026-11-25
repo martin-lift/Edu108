@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-count-counta-short-20261125",
+  "mission_id": "a9b4c004-7017-425d-9e6f-a42494749fc5",
+  "next_mission_id": "8f50640b-673d-429e-a5fe-4fb1a9ab79af",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

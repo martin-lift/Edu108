@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-formats-percentages-full-20261125",
+  "mission_id": "58e89eb1-89bd-4b73-bbc4-ebdf7982040a",
+  "next_mission_id": "606b6851-2d73-4f4f-9b90-90a220ad50af",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

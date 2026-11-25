@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-scenarios-full-20261125",
+  "mission_id": "ae7ddc03-2cb4-405e-b836-bc3fe3ccba60",
+  "next_mission_id": "10279dd2-bf00-45f1-9457-d7934f607b88",
   "mission_content": {
     "title": "Сценарии в електронна таблица — пълна мисия",
     "description": "Създаване, показване, сравняване, редактиране и изтриване на сценарии.",

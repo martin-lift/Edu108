@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-named-ranges-short-20261125",
+  "mission_id": "45ba8e3a-45ea-453b-bba1-9f98eaa9027e",
+  "next_mission_id": "96a0c628-1011-4e81-b9f8-8c170cf2a5b5",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-pivot-charts-short-20261125",
+  "mission_id": "29607ebc-5cd1-47b1-9651-6a855406f0e6",
+  "next_mission_id": "d23ada03-7fca-4f15-93e4-a00a96f25e14",
   "mission_content": {
     "title": "Обобщаващи диаграми (PivotChart) — кратка мисия",
     "description": "Създаване, оформяне, филтриране и сравняване на обобщаващи диаграми.",

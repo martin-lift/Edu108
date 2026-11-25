@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-creating-charts-short-20261125",
+  "mission_id": "f4334aa5-aa52-48f2-a31d-cc8f411c6b8b",
+  "next_mission_id": "4663cf77-38b0-4c49-ae37-9148249dff64",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

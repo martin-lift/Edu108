@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-countifs-short-20261125",
+  "mission_id": "72b61f7d-1bec-4716-b214-db7275534b2d",
+  "next_mission_id": "5bec22a0-adb2-41ab-b141-7142379655f3",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

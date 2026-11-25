@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-report-practice-short-20261125",
+  "mission_id": "c94078ad-8da0-4e5c-815b-960563682c07",
+  "next_mission_id": "d03b9b59-4490-4029-8136-98560d919e6e",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

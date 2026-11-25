@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-choose-function-short-20261125",
+  "mission_id": "870e0d9d-aca7-4bec-a053-38800aebc1f9",
+  "next_mission_id": "fe2f368f-5438-48d9-97cc-32883ca45b30",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-price-list-practice-full-20261125",
+  "mission_id": "b6dc2167-6e53-4070-bc41-f08ff9e7336b",
+  "next_mission_id": "738cc4f4-a509-4f89-8785-54f30db52b75",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

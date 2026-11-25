@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-and-or-not-full-20261125",
+  "mission_id": "ecf4895c-2133-498d-8c62-a57c418ebc7f",
+  "next_mission_id": "a06ff32b-078f-44b5-ac31-9b56fae3233c",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

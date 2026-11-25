@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-record-macros-full-20261125",
+  "mission_id": "e99ca645-83cd-467d-9916-9587ab6b8514",
+  "next_mission_id": "9ad2a0f3-494d-4455-a9c3-71bb8e23ca63",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-pivot-tables-short-20261125",
+  "mission_id": "791fdb04-dc0e-4eea-b28e-3f36d1cd188f",
+  "next_mission_id": "151860b2-36ba-4a85-bf27-3322bbea7872",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

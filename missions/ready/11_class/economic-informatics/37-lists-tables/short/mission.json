@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-lists-tables-short-20261125",
+  "mission_id": "723e2b66-1d67-456f-9f26-bbfeecd44d16",
+  "next_mission_id": "48579012-0e4a-4d07-9d08-39c3522cc4c1",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

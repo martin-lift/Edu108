@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-conditional-formatting-short-20261125",
+  "mission_id": "3c187a33-b816-41b4-b3c1-174f2055dc14",
+  "next_mission_id": "d5992f09-cba2-4865-9dea-b82559a01c68",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-conditional-formatting-short-20261125",
+  "mission_id": "738cc4f4-a509-4f89-8785-54f30db52b75",
+  "next_mission_id": "7828c613-0cc6-410b-bdae-678e7935913b",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

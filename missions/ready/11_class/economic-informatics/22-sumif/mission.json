@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sumif-full-20261125",
+  "mission_id": "64192515-a090-4412-95c4-caaf427d2323",
+  "next_mission_id": "d54048f4-736d-4aaf-b0c8-b96a479bedcf",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sorting-filtering-short-20261125",
+  "mission_id": "a7a470df-8106-4f7e-b76f-64abc611ba1c",
+  "next_mission_id": "02072298-1727-47f7-8fd1-817059c5940d",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

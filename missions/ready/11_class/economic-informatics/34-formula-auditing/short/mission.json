@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-formula-auditing-short-20261125",
+  "mission_id": "c7814b3a-de06-4138-8f91-0212c8ae8c4d",
+  "next_mission_id": "5a3516d7-e19a-4cfc-899c-0f691e051940",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

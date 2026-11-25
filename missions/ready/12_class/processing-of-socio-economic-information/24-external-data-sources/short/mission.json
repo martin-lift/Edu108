@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-external-data-sources-short-20261125",
+  "mission_id": "dd1d23b0-cf5a-4cf4-9661-5f428ba75aff",
+  "next_mission_id": "e80ce53d-53c4-4bee-a1d7-3c625b1f43e9",
   "mission_content": {
     "title": "Четене на данни от външни източници — кратка мисия",
     "description": "Превърнете едно текстово число в число",

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-pivot-filters-full-20261125",
+  "mission_id": "ec77d13d-af2d-4569-b2bf-a8e2f852e22f",
+  "next_mission_id": "fdbb6b54-bb6c-4c3c-a1e3-926979cc6228",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

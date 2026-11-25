@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-financial-statistical-exercise-full-20261125",
+  "mission_id": "5edf4bf6-40eb-416b-afce-121612d51a1e",
+  "next_mission_id": "58c6727e-f0d6-4332-8729-c2ac62fc3bc0",
   "mission_content": {
     "title": "Финансови и статистически функции — упражнение — пълна мисия",
     "description": "Прилагане на финансови и статистически функции и изводи с числа.",

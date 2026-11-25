@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-sorting-one-task-20261125",
+  "mission_id": "466657bd-75c6-4368-8408-af9ea86ca4c9",
+  "next_mission_id": "d652e781-e71c-4cf4-940a-88edf9b38679",
   "mission_content": {
     "title": "Електронни таблици — сортиране по име",
     "description": "Една задача: подреждане на пет ученици по име във възходящ ред, записване и предаване на един файл.",

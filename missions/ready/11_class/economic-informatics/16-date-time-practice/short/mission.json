@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-date-time-practice-short-20261125",
+  "mission_id": "de004d87-2290-465f-9b8d-66d6899e202f",
+  "next_mission_id": "719fa877-b8e0-40ec-8d26-5d2738926e74",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

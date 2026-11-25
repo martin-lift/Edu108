@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sumifs-averageif-short-20261125",
+  "mission_id": "d54048f4-736d-4aaf-b0c8-b96a479bedcf",
+  "next_mission_id": "7af6e274-8ef3-492d-86e8-0e6284949044",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

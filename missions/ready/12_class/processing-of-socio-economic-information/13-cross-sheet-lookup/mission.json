@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-cross-sheet-lookup-20261125",
+  "mission_id": "06576b5a-f1d9-4bdd-8d56-c915c35b6d73",
+  "next_mission_id": "1293e3d3-521e-4298-af2a-19e9abd79155",
   "mission_content": {
     "title": "Свързване на данни от различни работни листове",
     "description": "Ще свържете поръчки с клиенти, продукти и региони чрез формули и ще проверите автоматичното обновяване.",

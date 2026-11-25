@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-lookup-functions-short-20261125",
+  "mission_id": "abec50ac-0948-46d9-ab33-45e21ff6846a",
+  "next_mission_id": "d8af2ac1-e0a2-434c-a08e-1c2b254db760",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

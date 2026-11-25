@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-date-functions-full-20261125",
+  "mission_id": "6fcdf780-2075-43d0-b306-99b3a12f6bc9",
+  "next_mission_id": "16dfd5c1-8f52-4170-b754-3def3c326f64",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

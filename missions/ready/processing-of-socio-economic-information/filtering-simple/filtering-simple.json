@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "onsii12-filtering-simple-20261125",
+  "mission_id": "6370b855-15de-4302-b482-976d7368c858",
+  "next_mission_id": "5f7fd9de-78f2-4c30-8b69-4914e72cb7ba",
   "mission_content": {
     "title": "Филтриране — области с население над 200 000",
     "description": "Една задача за числов филтър, записване и предаване на файл.",

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-report-practice-full-20261125",
+  "mission_id": "d03b9b59-4490-4029-8136-98560d919e6e",
+  "next_mission_id": "7567f9ea-421d-41bc-8156-eb691177ad64",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

@@ -1,6 +1,7 @@
 {
   "mission_version": 4,
-  "mission_id": "economic11-sum-average-short-20261125",
+  "mission_id": "f5c2c298-309d-4a4d-b95c-2b5fed46111c",
+  "next_mission_id": "65d1971f-1400-448e-83cd-2664fab56533",
   "mission_rules": {
     "allow_back_navigation": true,
     "show_progress_panel": true

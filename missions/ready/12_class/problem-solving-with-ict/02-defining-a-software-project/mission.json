@@ -1,0 +1,859 @@
+{
+  "mission_version": 4,
+  "mission_id": "defining-software-project-12-20261125",
+  "mission_content": {
+    "title": "Основни етапи в софтуерен проект — дефиниране",
+    "description": "Определяне на софтуерен проект, обхват, ресурси, график и критерии за приемане; пет последователни практически задачи с готова обратна връзка.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "2. Основни етапи в софтуерен проект — дефиниране",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/definition.svg\" alt=\"Проблемът води до цел, продукт и проверка на резултата.\" width=\"760\" height=\"300\"><figcaption>Проблемът води до цел, продукт и проверка на резултата.</figcaption></figure><p>Как една училищна нужда се превръща в ясно определен софтуерен проект?</p><p>Ще различаваш проект от текуща дейност, цел от продукт и задача от ключово събитие. Ще описваш потребителите, обхвата, ресурсите и условията за приемане на резултата.</p><p>Накрая ще разработиш собствена проектна идея в пет последователни задачи. Отговаряй направо в полетата на мисията.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "project",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е софтуерен проект?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/project.svg\" alt=\"Проектът има начало, организирана работа и договорен резултат.\" width=\"760\" height=\"300\"><figcaption>Проектът има начало, организирана работа и договорен резултат.</figcaption></figure><p><strong>Софтуерен проект</strong> е временно начинание за създаване или съществено развитие на софтуерна система или приложение. Има цел, срок, хора, ресурси и очакван резултат. Продуктът може да бъде поръчан от един клиент или да се предлага на много потребители.</p><p>„Временно“ означава, че работата има начало и край. Не означава, че продуктът ще се използва само за кратко. Сайтът може да служи години след приключването на проекта.</p><p>Всеки проект има свои условия: потребители, налични умения, бюджет и срок. Дори да използва познати технологии, съчетанието от тези условия е конкретно. Екипът трябва да се съобразява с целите на организацията и с промените в средата ѝ.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-project",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Разпознай проекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения описват софтуерен проект?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Проектът има определена цел и очакван резултат."
+            },
+            {
+              "id": "a2",
+              "text": "Щом проектът е временен, продуктът трябва веднага да бъде изтрит."
+            },
+            {
+              "id": "a3",
+              "text": "Проектът може да развива съществуващо приложение."
+            },
+            {
+              "id": "a4",
+              "text": "Един проект винаги се изпълнява без срок и ограничения."
+            },
+            {
+              "id": "a5",
+              "text": "Продуктът може да е за един клиент или за много потребители."
+            },
+            {
+              "id": "a6",
+              "text": "Проектите винаги използват напълно нова технология."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a3",
+            "a5"
+          ],
+          "feedback": "Проектът е ограничен във времето и създава договорен резултат. Той може да развива съществуващ продукт. Временна е проектната работа, а не непременно употребата на продукта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "results",
+        "step_content": {
+          "type": "information",
+          "title": "Краен резултат и междинни резултати",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/project.svg\" alt=\"Междинните резултати подпомагат достигането до договорения краен резултат.\" width=\"760\" height=\"300\"><figcaption>Междинните резултати подпомагат достигането до договорения краен резултат.</figcaption></figure><p><strong>Крайният резултат</strong> е договореният и проверим продукт или резултат от проекта: готово приложение, нова версия или прототип, ако точно това е договорено.</p><p><strong>Прототип</strong> е ранна версия, с която се изпробва идея. Например три свързани страници могат да покажат как ученикът ще намира графика на клуба. Това още не доказва, че сайтът е готов за всички реални потребители.</p><p><strong>Междинните резултати</strong> подпомагат работата: описание на изискванията, план, дизайн или пробна версия. Един прототип може да е междинен резултат при разработване на цял сайт, но краен резултат при проект, чиято цел е само проверка на идеята чрез прототип. Ролята му зависи от договорения обхват.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-results",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Каква е ролята на прототипа?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Проектът е само за прототип на сайт. Кои изводи са верни?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Прототипът задължително е готов за всички реални потребители."
+            },
+            {
+              "id": "a2",
+              "text": "Прототипът може да е крайният договорен резултат."
+            },
+            {
+              "id": "a3",
+              "text": "Планът и дизайнът могат да са междинни резултати."
+            },
+            {
+              "id": "a4",
+              "text": "Всеки проект трябва да завърши с напълно нова операционна система."
+            },
+            {
+              "id": "a5",
+              "text": "При друг проект същият тип прототип може да е междинен резултат."
+            },
+            {
+              "id": "a6",
+              "text": "Крайният резултат не трябва да може да се проверява."
+            }
+          ],
+          "correct_option_ids": [
+            "a2",
+            "a3",
+            "a5"
+          ],
+          "feedback": "Договорката определя крайния резултат. Прототипът е достатъчен за проект за прототип, но не доказва готовност за реална експлоатация. Планът и дизайнът подпомагат достигането до него."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "definition",
+        "step_content": {
+          "type": "information",
+          "title": "Дефиниране: какво изясняваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/definition.svg\" alt=\"Различаваме съществуващия проблем, желаното подобрение и продукта.\" width=\"760\" height=\"300\"><figcaption>Различаваме съществуващия проблем, желаното подобрение и продукта.</figcaption></figure><p><strong>Дефиниране на проекта</strong> означава да уточним какъв проблем решаваме, за кого, какво ще създадем и при какви ограничения.</p><p><strong>Възложителят</strong> е човекът или организацията, които поръчват проекта. <strong>Потребителите</strong> са хората, които ще работят с продукта. Възложител и потребител могат да са различни: ръководителят поръчва сайт, а учениците четат графика в него.</p><div class=\"table-wrap\"><table><thead><tr><th>Елемент</th><th>Какво уточнява</th></tr></thead><tbody><tr><td>Проблем</td><td>Какво затруднява хората сега?</td></tr><tr><td>Цел</td><td>Какво подобрение търсим?</td></tr><tr><td>Продукт</td><td>Какво конкретно ще предадем?</td></tr><tr><td>Ограничения</td><td>Какви срок, бюджет, техника и умения имаме?</td></tr></tbody></table></div><p>Описанието създава общо разбиране между възложителя и екипа. Така думата „сайт“ не прикрива различни очаквания за размера на работата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-definition",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проблем, цел или продукт?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Учениците трудно намират графика на клуба. Кои формулировки поставят елементите на правилното място?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Проблем: „Да напишем HTML код“."
+            },
+            {
+              "id": "a2",
+              "text": "Цел: графикът да се намира лесно на едно място."
+            },
+            {
+              "id": "a3",
+              "text": "Продукт: прототип на сайт с график."
+            },
+            {
+              "id": "a4",
+              "text": "Потребители: учениците и ръководителят на клуба."
+            },
+            {
+              "id": "a5",
+              "text": "Ограничение: неограничени време и средства."
+            },
+            {
+              "id": "a6",
+              "text": "Възложителят и всеки потребител винаги са един и същ човек."
+            }
+          ],
+          "correct_option_ids": [
+            "a2",
+            "a3",
+            "a4"
+          ],
+          "feedback": "Проблемът е настоящото затруднение. Целта е подобрението за хората, а продуктът е конкретният резултат. Писането на код е работа по решението, не описание на потребителския проблем."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "scope",
+        "step_content": {
+          "type": "information",
+          "title": "Обхват и ограничения",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/scope.svg\" alt=\"Включените функции са отделени от предложенията извън обхвата.\" width=\"760\" height=\"300\"><figcaption>Включените функции са отделени от предложенията извън обхвата.</figcaption></figure><p><strong>Обхватът</strong> определя включената работа и функциите на продукта. Записваме и какво остава извън него, за да няма скрити очаквания.</p><p>За първи прототип можем да включим начална страница, график и контакти. Плащанията и личните профили остават извън обхвата. Това не ги прави лоши идеи — означава, че не са част от тази договорка.</p><p><strong>Ограниченията</strong> са условия като две учебни седмици, трима ученици и налични училищни компютри. Те влияят на изпълнимия обхват. Ако възложителят поиска профили, екипът обсъжда допълнителната работа и нужните време и ресурси. Промяната трябва да бъде договорена, вместо незабелязано да се натрупва.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-scope",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Как се променя договорката?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>В прототипа няма лични профили, но възложителят ги поисква допълнително. Кои реакции са подходящи?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Да приемем, че новата функция не изисква никаква работа."
+            },
+            {
+              "id": "a2",
+              "text": "Да проверим каква допълнителна работа е нужна."
+            },
+            {
+              "id": "a3",
+              "text": "Да обсъдим влиянието върху срока и ресурсите."
+            },
+            {
+              "id": "a4",
+              "text": "Да изтрием описанието на обхвата."
+            },
+            {
+              "id": "a5",
+              "text": "Да договорим дали профилите влизат сега или остават за по-късно."
+            },
+            {
+              "id": "a6",
+              "text": "Да наречем новата функция ресурс, за да не се променя обхватът."
+            }
+          ],
+          "correct_option_ids": [
+            "a2",
+            "a3",
+            "a5"
+          ],
+          "feedback": "Нова функция променя обхвата. Екипът оценява последствията и договаря промяната. Изричното изключване на профили предпазва от различни очаквания."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "acceptance",
+        "step_content": {
+          "type": "information",
+          "title": "Критерии за приемане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/acceptance.svg\" alt=\"Приемането сравнява договорено условие с наблюдаван резултат.\" width=\"760\" height=\"300\"><figcaption>Приемането сравнява договорено условие с наблюдаван резултат.</figcaption></figure><p><strong>Критерий за приемане</strong> е предварително договорено и проверимо условие, по което възложителят приема резултата.</p><p>„Сайтът да е хубав“ позволява различни тълкувания. „От началната страница връзката График отваря актуални дата, час и място“ описва конкретна проверка. „При ширина 360 пиксела графикът се чете без хоризонтално превъртане“ уточнява и условието на проверката.</p><p>Критерият трябва да се отнася за договорения продукт. Ако проектът е само за прототип без плащания, не проверяваме дали приема банкови преводи. Целта показва желаното подобрение, а критериите дават наблюдаеми признаци, че резултатът го подкрепя.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-acceptance",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Кои условия могат да се проверят?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Избери проверимите критерии за прототипа с график.</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Сайтът е най-хубавият в света."
+            },
+            {
+              "id": "a2",
+              "text": "Всички трябва веднага да го харесат."
+            },
+            {
+              "id": "a3",
+              "text": "Връзката График от началната страница отваря дата, час и място."
+            },
+            {
+              "id": "a4",
+              "text": "При ширина 360 пиксела графикът няма хоризонтално превъртане."
+            },
+            {
+              "id": "a5",
+              "text": "Страницата Контакти показва договорения адрес за връзка с клуба."
+            },
+            {
+              "id": "a6",
+              "text": "Продуктът е достатъчно модерен."
+            }
+          ],
+          "correct_option_ids": [
+            "a3",
+            "a4",
+            "a5"
+          ],
+          "feedback": "Добър критерий позволява да посочим какво наблюдаваме и кога е изпълнен. „Хубав“, „модерен“ и „всички го харесват“ се нуждаят от уточнение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "stages",
+        "step_content": {
+          "type": "information",
+          "title": "От дефиниране към изпълнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/stages.svg\" alt=\"Дефинираме, планираме, проектираме, разработваме и проверяваме.\" width=\"760\" height=\"300\"><figcaption>Дефинираме, планираме, проектираме, разработваме и проверяваме.</figcaption></figure><p>След дефинирането уточняваме <strong>плана</strong>, проектираме решението, разработваме го, проверяваме го и го предоставяме за използване.</p><p>Това е ориентир за работата, а не задължително еднократна права линия. При проверка може да открием, че графикът се чете трудно на телефон. Тогава коригираме дизайна и разработката и проверяваме отново.</p><p>Ако възникне ново изискване, се връщаме към описанието и договаряме как се променят обхватът, срокът и ресурсите. Ясното начало помага да разберем и последващите промени.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-stages",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Когато проверката открие проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Прототипът се чете трудно на телефон. Кои действия са обосновани?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Проектът не позволява никакво връщане към дизайна."
+            },
+            {
+              "id": "a2",
+              "text": "Коригираме решението и го проверяваме отново."
+            },
+            {
+              "id": "a3",
+              "text": "Ако се изисква нова функция, обсъждаме промяна на обхвата."
+            },
+            {
+              "id": "a4",
+              "text": "Обявяваме критерия за изпълнен, без да проверяваме."
+            },
+            {
+              "id": "a5",
+              "text": "При нужда актуализираме плана след договорена промяна."
+            },
+            {
+              "id": "a6",
+              "text": "Изтриваме всички изисквания, за да няма неизпълнени."
+            }
+          ],
+          "correct_option_ids": [
+            "a2",
+            "a3",
+            "a5"
+          ],
+          "feedback": "Етапите могат да се повтарят. Поправката изисква нова проверка, а новото изискване може да доведе до договорена промяна и актуализиране на плана."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "tasks-resources",
+        "step_content": {
+          "type": "information",
+          "title": "Задачи, дейности и ресурси",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/plan.svg\" alt=\"За всяка задача определяме работа, отговорник и необходими ресурси.\" width=\"760\" height=\"300\"><figcaption>За всяка задача определяме работа, отговорник и необходими ресурси.</figcaption></figure><p>Планът разделя голямата цел на конкретна работа: <strong>какво се прави, от кого и кога</strong>.</p><p><strong>Задача</strong> е конкретна работа с очакван резултат: „Създай страница за контакти“. <strong>Дейност</strong> е поредица от действия по изпълнението: събиране на контакта, подреждане на текста и добавяне на връзката.</p><p><strong>Ресурс</strong> е човек, време, техника, софтуер или средства, необходими за задачата. За страницата са нужни ученик с подходящи умения, компютър, редактор и време. Дори редакторът да е безплатен, трудът и времето остават ограничени ресурси.</p><p>„Създай контакти“ е задача, а „компютър с редактор“ е ресурс — едното е работа, другото помага тя да бъде извършена.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-tasks",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Разграничи работа и ресурс",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения използват понятията правилно?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "„Създай страница за контакти“ е задача."
+            },
+            {
+              "id": "a2",
+              "text": "Компютърът е ключово събитие."
+            },
+            {
+              "id": "a3",
+              "text": "Времето и наличният редактор са ресурси."
+            },
+            {
+              "id": "a4",
+              "text": "Дейността може да включва поредица от действия."
+            },
+            {
+              "id": "a5",
+              "text": "Щом редакторът е безплатен, задачата няма нужда от ресурси."
+            },
+            {
+              "id": "a6",
+              "text": "Задачата е само името на човека, който ще я изпълни."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a3",
+            "a4"
+          ],
+          "feedback": "Задачата описва работа с резултат. Дейността обхваща действия, а ресурсите осигуряват изпълнението. Безплатният софтуер не премахва нуждата от хора, техника и време."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "work-packages",
+        "step_content": {
+          "type": "information",
+          "title": "Списък, работен пакет и междинна разработка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/plan.svg\" alt=\"Подреждаме задачите и групираме свързаната работа.\" width=\"760\" height=\"300\"><figcaption>Подреждаме задачите и групираме свързаната работа.</figcaption></figure><p><strong>Списъкът със задачи</strong> е подреден набор от предстоящите работи. За сайта той може да включва събиране на графика, дизайн, изработване на страници и проверка.</p><p><strong>Работният пакет</strong> обособява свързана част от работата. Например „Потребителски профили“ може да включва задачи за регистрация и вход, когато профилите действително са в обхвата на съответния проект.</p><p><strong>Междинната разработка</strong> е резултат от част от работата — например прототип на началната страница. Различавай работата от нейния резултат: „Изработи прототип“ е задача, а готовият прототип е разработката, която показваме и проверяваме.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-packages",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво подреждаме и какво получаваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Избери верните твърдения.</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Готовият прототип може да е междинна разработка."
+            },
+            {
+              "id": "a2",
+              "text": "Работният пакет е само списък с марки компютри."
+            },
+            {
+              "id": "a3",
+              "text": "Списъкът със задачи показва предстояща работа."
+            },
+            {
+              "id": "a4",
+              "text": "„Изработи прототип“ и готовият прототип са едно и също понятие."
+            },
+            {
+              "id": "a5",
+              "text": "Работният пакет може да групира свързани задачи."
+            },
+            {
+              "id": "a6",
+              "text": "Профилите влизат автоматично във всеки проект за сайт."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a3",
+            "a5"
+          ],
+          "feedback": "Списъкът и работният пакет организират работата. Междинната разработка е получен резултат. Профилите са само пример за пакет и се включват, ако са договорени."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "schedule",
+        "step_content": {
+          "type": "information",
+          "title": "Ключови събития и график",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/schedule.svg\" alt=\"Графикът подрежда задачите, а ключовото събитие отбелязва постигнато състояние.\" width=\"760\" height=\"300\"><figcaption>Графикът подрежда задачите, а ключовото събитие отбелязва постигнато състояние.</figcaption></figure><p><strong>Ключовото събитие</strong> е важна контролна точка: „Одобрен дизайн“. То отбелязва постигнато състояние. Самата работа по създаване и одобряване на дизайна е задача с продължителност.</p><p><strong>Графикът</strong> показва последователността и сроковете на задачите. Ако първо трябва да получим графика на клуба, не можем окончателно да проверим съдържанието на страницата преди това.</p><p><strong>Началният план</strong> е първата версия. <strong>Актуализираният план</strong> отразява договорените промени по време на работа. Ако ръководителят даде данните по-късно, екипът преценява зависимите задачи и уточнява новите срокове. Промяната трябва да е видима, за да знаят всички какво предстои.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-schedule",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Задача или ключово събитие?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "„Одобрен дизайн“ е контролна точка."
+            },
+            {
+              "id": "a2",
+              "text": "„Изготви дизайн“ е задача с продължителност."
+            },
+            {
+              "id": "a3",
+              "text": "Графикът описва само цветовете на сайта."
+            },
+            {
+              "id": "a4",
+              "text": "Актуализираният план може да отрази договорена промяна."
+            },
+            {
+              "id": "a5",
+              "text": "Ключовото събитие е задължително работа, продължаваща три дни."
+            },
+            {
+              "id": "a6",
+              "text": "Задачите никога не зависят една от друга."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a2",
+            "a4"
+          ],
+          "feedback": "Събитието отбелязва състояние, а задачата е работа до постигането му. Графикът показва срокове и последователност, които се уточняват при промени."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "gantt",
+        "step_content": {
+          "type": "information",
+          "title": "Как се чете диаграма на Гант?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/schedule.svg\" alt=\"Примерен график: лентите показват периодите на задачите.\" width=\"760\" height=\"300\"><figcaption>Примерен график: лентите показват периодите на задачите.</figcaption></figure><p>Някои екипи представят графика чрез <strong>диаграма на Гант</strong>. Всяка задача е лента по времева ос. Началото и краят на лентата показват планирания период за работата.</p><p>В учебния пример дизайнът е през дни 1–2, страниците се изработват през дни 3–4, а проверката е през ден 5. Събирането на текстове е през дни 1–3 и частично протича едновременно с другата работа.</p><p>Застъпването на две ленти показва общ период, но не доказва, че един човек може да извършва всичко едновременно. Трябва да проверим наличните хора и зависимости. Диаграмата прави сроковете и едновременните дейности по-лесни за обсъждане.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-gantt",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Прочети графика",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Според показания пример кои изводи са верни?</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Проверката е планирана за ден 5."
+            },
+            {
+              "id": "a2",
+              "text": "Събирането на текстове и дизайнът частично протичат едновременно."
+            },
+            {
+              "id": "a3",
+              "text": "Изработването на страниците е през дни 3–4."
+            },
+            {
+              "id": "a4",
+              "text": "Лентата показва качеството на продукта."
+            },
+            {
+              "id": "a5",
+              "text": "Застъпването гарантира, че един човек ще свърши всичко без затруднения."
+            },
+            {
+              "id": "a6",
+              "text": "Графикът забранява всякаква актуализация."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "feedback": "Лентите показват планирани периоди. Събирането на текстове се застъпва с дизайна и с част от изработването. Това трябва да е съобразено с хората и зависимостите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "project-operation",
+        "step_content": {
+          "type": "information",
+          "title": "Проект и текуща дейност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/project.svg\" alt=\"Проектът създава резултат, а текущата дейност поддържа употребата му.\" width=\"760\" height=\"300\"><figcaption>Проектът създава резултат, а текущата дейност поддържа употребата му.</figcaption></figure><p><strong>Проект:</strong> създаване на първа версия на сайт за училищен клуб до определен срок. Има договорен резултат и момент на приключване.</p><p><strong>Текуща дейност:</strong> седмично добавяне на новини след публикуването на сайта. Работата се повтаря и поддържа ежедневното използване.</p><p>Текущата дейност може да породи нов проект. Например клубът установява, че е необходимо записване с профили. Разработването на тази съществена промяна може да има собствен обхват, срок и резултат. Самото обновяване на датата на срещата остава обичайна поддръжка.</p><p>Един продукт може да се използва постоянно, докато отделни проекти за неговото развитие започват и приключват.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-operation",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Кое продължава след проекта?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p>Избери верните твърдения.</p><p><strong>Избери всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "a1",
+              "text": "Седмичното добавяне на новини е текуща дейност."
+            },
+            {
+              "id": "a2",
+              "text": "Създаването на първа версия до срок е проект."
+            },
+            {
+              "id": "a3",
+              "text": "Всяка поправка на дата задължително е отделен голям проект."
+            },
+            {
+              "id": "a4",
+              "text": "Текуща нужда може да породи проект за значимо разширение."
+            },
+            {
+              "id": "a5",
+              "text": "След проекта продуктът никога повече не се използва."
+            },
+            {
+              "id": "a6",
+              "text": "Текущата дейност и проектът винаги означават едно и също."
+            }
+          ],
+          "correct_option_ids": [
+            "a1",
+            "a2",
+            "a4"
+          ],
+          "feedback": "Различаваме еднократно организираното създаване или значимо развитие от повтарящата се поддръжка. Употребата на продукта може да продължи дълго след проекта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "club-case",
+        "step_content": {
+          "type": "information",
+          "title": "Завършен пример: сайт за училищен клуб",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/scope.svg\" alt=\"Пълното задание съгласува нуждата, продукта и границите на работата.\" width=\"760\" height=\"300\"><figcaption>Пълното задание съгласува нуждата, продукта и границите на работата.</figcaption></figure><p>Ето кратко проектно задание — съгласувано описание на това какво ще се направи.</p><div class=\"table-wrap\"><table><tbody>\n<tr><th>Проблем</th><td>Учениците трудно намират актуалния график на клуба.</td></tr>\n<tr><th>Потребители и цел</th><td>Ученици и ръководител; графикът да се намира на едно ясно място.</td></tr>\n<tr><th>Продукт</th><td>Проверен прототип на сайт.</td></tr>\n<tr><th>В обхвата</th><td>Начална страница, график и контакти.</td></tr>\n<tr><th>Извън обхвата</th><td>Плащания и лични профили.</td></tr>\n<tr><th>Срок и ресурси</th><td>Две учебни седмици; трима ученици, училищни компютри и наличен редактор.</td></tr>\n<tr><th>Приемане</th><td>Връзката График от началната страница отваря актуални дата, час и място. При ширина 360 пиксела графикът се чете без хоризонтално превъртане.</td></tr>\n</tbody></table></div><p>Това е проект за прототип. Публикуване за реална употреба, защита на данните и поддръжка се договарят отделно, ако се включат в следващ проект. Добавянето на профили променя обхвата и може да изисква повече време и ресурси.</p><p class=\"hint\">За собственото си задание провери пет области: ясен проблем и потребители; конкретна цел и продукт; обхват и ограничения; проверими критерии; преглед и уточнение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-problem",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: избери училищен проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Опиши един училищен проблем, който може да бъде подпомогнат със софтуер.</strong></p><p>Избери ситуация, която познаваш: търсене на свободна зала, изгубени вещи, библиотечни книги или записване за дейност. Запази същата идея в следващите задачи.</p><p>В 3–5 изречения посочи кои хора са затруднени, какво правят сега и какъв конкретен пропуск възниква. Започни с „В момента…“ и опиши наблюдаемо затруднение. „Искам приложение“ назовава решение, но не обяснява проблема.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Примерен отговор:\nВ момента учениците питат на място в библиотеката дали определена книга е налична. Понякога отиват в междучасието, но книгата вече е заета. Библиотекарят отговаря многократно на едни и същи въпроси. Необходима е достъпна и актуална справка за наличните книги.\n\nСамопроверка: посочил ли си засегнатите хора, сегашния начин на работа и конкретното затруднение? Възможни са различни проблеми. Самото „да направим приложение“ не показва коя нужда ще бъде подпомогната."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-brief",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: опиши своя проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Състави кратко проектно задание за избрания проблем.</strong></p><p>Отговори в 6 кратки абзаца, общо около 120–180 думи. Използвай заглавията <strong>Проблем, Потребители, Цел, Продукт, Срок, Ресурси</strong>.</p><ul><li>В „Проблем“ обобщи затруднението от предходната задача.</li><li>В „Потребители“ назови хората, които ще използват продукта.</li><li>В „Цел“ опиши желаното подобрение за тях.</li><li>В „Продукт“ уточни какво ще предадеш — например прототип, а не цяла действаща система.</li><li>Дай реалистичен срок в учебни седмици.</li><li>Изброй наличните хора, умения, техника, софтуер и време; ако няма бюджет за покупки, посочи го.</li></ul><p>Тези части описват един общ проект. Не е нужно да създаваш самия продукт в тази мисия.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Примерно проектно задание:\nПроблем: учениците посещават библиотеката, без да знаят дали търсената книга е налична, а библиотекарят повтаря едни и същи справки.\nПотребители: учениците, които търсят книги, и библиотекарят, който предоставя информацията за наличността.\nЦел: учениците да могат да проверят предварително наличността на избрани заглавия и да избегнат излишно посещение.\nПродукт: прототип на уеб справка за десет примерни книги, а не завършена библиотечна система. Той показва заглавие, автор и наличност.\nСрок: две учебни седмици за подготовка, изработване и проверка.\nРесурси: двама ученици с начални умения по HTML, училищен компютър, наличен редактор и четири учебни часа работа. Библиотекарят дава примерните данни. Не се предвижда бюджет за покупки.\n\nСамопроверка: съответстват ли си проблемът, целта и продуктът? Има ли срок и конкретни ресурси? „Полезно приложение“ не е достатъчно описание на продукт. Твоят проект може да е различен, ако частите са ясни и изпълними."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-scope",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: определи границите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Определи обхвата на проекта си с три включени и две изключени функции.</strong></p><p>Напиши два списъка: <strong>„В обхвата“ — 3 точки</strong> и <strong>„Извън обхвата“ — 2 точки</strong>. Във всяка точка посочи конкретна функция, страница или част от работата.</p><p>Свържи избора с продукта от предходната задача. Не записвай компютри или срокове като функции — те са ресурси и ограничения. Изключените функции трябва да са правдоподобни допълнения, за които иначе би могло да възникне очакване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример за прототипа на библиотечна справка:\nВ обхвата:\n1. Списък с десет примерни книги с автор и заглавие.\n2. Филтриране на списъка по въведено заглавие.\n3. Показване на наличност за всяка книга по предоставените примерни данни.\nИзвън обхвата:\n1. Лични читателски профили.\n2. Онлайн резервиране и удължаване на заемането.\n\nСамопроверка: има ли точно три включени и две изключени части? Разбира ли се какво конкретно ще работи в прототипа? „Модерен“ не е функция, а „компютър“ е ресурс. Различен обхват е допустим, ако е съгласуван с твоя продукт и срок."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-acceptance",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: провери готовността и употребата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Опиши как ще приемете резултата и как ще го поддържате след завършването на проекта.</strong></p><p>Дай три обозначени точки: <strong>„Критерий 1“, „Критерий 2“ и „Текуща дейност“</strong>.</p><p>За всеки критерий използвай структурата „При … потребителят прави … и вижда …“. Уточни условието, действието и наблюдаемия резултат. Избери проверки за функции, които вече си включил в обхвата.</p><p>В третата точка посочи една повтаряща се работа след проекта. Назови какво се обновява или проверява и кой би го правил. Тя не трябва да е разработване на изцяло нова функция.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nКритерий 1: при въвеждане на цялото заглавие на една от десетте примерни книги списъкът показва съответната книга с правилния автор.\nКритерий 2: при отваряне на списъка всяка от десетте книги показва статус „налична“ или „заета“, който съвпада с договорените примерни данни.\nТекуща дейност: ако справката се въведе в реална употреба, библиотекарят обновява наличността след заемане или връщане на книга.\n\nСамопроверка: може ли друг човек да повтори проверките и да реши дали са изпълнени? Покриват ли договорения продукт? Различава ли се повтарящата се поддръжка от нов проект? При прототип с примерни данни реалното внедряване трябва да се договори отделно. Други критерии са подходящи, ако са ясни и проверими."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-review",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: уточни неясно условие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Подобри едно неясно условие след преглед на проектното описание.</strong></p><p>Обсъди идеята с друг екип или съученик, като представиш описанието си устно или покажеш отговорите на екрана. Поискай да посочи неясно условие. Ако работиш самостоятелно, прегледай собственото си описание от позицията на възложителя.</p><p>Въведи три свързани части: <strong>„Преди“</strong> — първоначалната формулировка; <strong>„След“</strong> — конкретното уточнение; <strong>„Защо“</strong> — едно изречение как то помага да се провери резултатът.</p><p>Например „да е удобен“ оставя неясно за кого, при какво действие и на какво устройство. Не е достатъчно само да замениш „хубав“ с „много хубав“.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nПреди: „Книгите да се намират лесно.“\nСлед: „От началната страница ученикът отваря списъка с една връзка, въвежда заглавието на примерна книга и вижда съответния запис с автор и наличност.“\nЗащо: уточнени са началната точка, действието и очакваният резултат и друг човек може да повтори проверката.\n\nСамопроверка: запазва ли уточнението смисъла на първоначалното условие? Премахва ли двусмислието? Ако добавяш нова функция, вместо да изясняваш съществуваща, трябва да обсъдиш промяна на обхвата. Възможни са различни добри редакции."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "self-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: достатъчна ли е целта?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><p><strong>Обясни защо „Да направим хубав сайт“ не е достатъчно определение на успешен проект.</strong></p><p>Напиши 3–4 изречения със свои думи. Свържи обяснението с потребителската нужда и с възможността друг човек да провери готовия резултат. Използвай един конкретен пример от своя проект или от сайта за училищния клуб.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Примерен отговор:\n„Хубав“ може да означава различни неща за различните хора и не показва какъв проблем решаваме. Необходими са конкретни потребители, цел, продукт и обхват. За сайта на клуба можем да договорим графикът да се отваря от началната страница и да показва актуални дата, час и място. Така възложителят и екипът могат да проверят един и същ резултат.\n\nСамопроверка: обяснил ли си неяснотата, свързал ли си целта с нужда и дал ли си конкретна проверка? Съществено е обяснението, а не дословното съвпадение с примера."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption{font-size:14px;color:#53677b;margin-top:8px}table{border-collapse:collapse;width:100%}th,td{border:1px solid #cbd8e6;padding:9px;text-align:left;vertical-align:top}th{background:#edf4fb}th:first-child,td:first-child{width:28%;word-break:normal;overflow-wrap:normal}@media(max-width:600px){th:first-child,td:first-child{width:42%}}li{margin:7px 0}.hint{background:#edf7f1;border-left:4px solid #2a8055;padding:12px}.table-wrap{overflow-x:auto}a{color:#155a95}h3{font-size:20px}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/02-defining-a-software-project/images/definition.svg\" alt=\"От ясна нужда към договорен и проверим резултат.\" width=\"760\" height=\"300\"><figcaption>От ясна нужда към договорен и проверим резултат.</figcaption></figure><ol><li><strong>Проектът</strong> е временно начинание с договорен резултат; текущата дейност е повтаряща се работа по използването му.</li><li><strong>Дефинирането</strong> изяснява проблема, потребителите, целта и продукта.</li><li><strong>Обхватът</strong> показва включеното и изключеното, а срокът и ресурсите ограничават изпълнимото.</li><li><strong>Планът</strong> подрежда задачите, ресурсите и сроковете; ключовото събитие отбелязва постигнато състояние.</li><li><strong>Критериите за приемане</strong> позволяват да проверим резултата по обща договорка.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

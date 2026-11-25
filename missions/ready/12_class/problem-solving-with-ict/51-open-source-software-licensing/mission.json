@@ -1,0 +1,418 @@
+{
+  "mission_version": 4,
+  "mission_id": "ebc08a01-bfa0-4d2e-9c59-c462f7247f9c",
+  "mission_content": {
+    "title": "Лицензиране на софтуер с отворен код (Open Source Licensing)",
+    "description": "Ще сравните MIT, Apache 2.0 и GPLv3 чрез избрани условия за използване и разпространяване. После ще създадете местен LICENSE файл за примерен проект само със собствен код.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Лицензиране на софтуер с отворен код (Open Source Licensing)",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще сравните MIT, Apache 2.0 и GPLv3 чрез избрани условия за използване и разпространяване. После ще създадете местен LICENSE файл за примерен проект само със собствен код.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Отворен код и разрешения",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/topic-1.svg\" alt=\"Основни връзки: Отворен код и разрешения\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Отворен код и разрешения</figcaption></figure>\n<p>Публичният достъп до кода не замества лиценз. Open source лицензите предоставят разрешения за използване, промяна и разпространение при определени условия. Те могат да допускат търговска употреба; „отворен“ не означава „без автор“ или „без задължения“.</p>\n<p>Преди избор определете кои файлове са ваши, какви зависимости включвате и как ще предоставяте проекта на други хора. В тази практика няма чужди библиотеки, изображения или текстове в лицензирания пример.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Отворен код и разрешения",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Open source разрешенията се дават от лиценз."
+            },
+            {
+              "id": "answer-2",
+              "text": "Публичният достъп означава липса на автор и задължения."
+            },
+            {
+              "id": "answer-3",
+              "text": "Търговска употреба може да е допустима при условия."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всеки отворен код е забранен за продажба."
+            },
+            {
+              "id": "answer-5",
+              "text": "Зависимостите се проверяват отделно."
+            },
+            {
+              "id": "answer-6",
+              "text": "Лиценз за собствен код автоматично обхваща чуждите изображения."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Open source разрешенията се дават от лиценз. Търговска употреба може да е допустима при условия. Зависимостите се проверяват отделно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Подготвени обобщения за сравнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/topic-2.svg\" alt=\"Основни връзки: Подготвени обобщения за сравнение\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Подготвени обобщения за сравнение</figcaption></figure>\n<p>Това са преразкази на избрани условия, а не пълни лицензи. Следвайте връзките в раздел 6 до оригиналните текстове.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Критерий</th><th>MIT</th><th>Apache 2.0</th><th>GPLv3</th></tr></thead><tbody><tr><td>Използване, промяна, търговско разпространение</td><td>Допуска при условията на лиценза</td><td>Допуска при условията на лиценза</td><td>Допуска при условията на лиценза</td></tr><tr><td>Запазване на означения</td><td>Авторското означение и разрешението се включват в копия или съществени части.</td><td>Предава се лицензът, пазят се приложимите означения; променените файлове се обозначават. При наличен NOTICE се спазват условията за неговите означения.</td><td>Пазят се необходимите означения и лицензът; промените се обозначават.</td></tr><tr><td>Изискване за изходен код при разпространение</td><td>Няма общо изискване да публикувате промените като изходен код.</td><td>Няма общо изискване да публикувате промените като изходен код.</td><td>При предоставяне на покрит обектен код се осигурява съответният изходен код по разрешен в лиценза начин.</td></tr><tr><td>Лиценз на разпространявана преработка</td><td>Позволява други условия при запазване на изискваните означения.</td><td>Позволява други условия за промените при изпълнение на лиценза.</td><td>За произведение, основано на програмата, се прилагат условията на GPLv3 за цялото покрито произведение.</td></tr><tr><td>Патентна клауза</td><td>Няма отделна изрична патентна клауза като тази в Apache 2.0.</td><td>Има изрично ограничено патентно разрешение от приносителите и условия за прекратяването му.</td><td>Има изрични патентни разпоредби.</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Подготвени обобщения за сравнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Сравнителната таблица замества пълния лицензен текст."
+            },
+            {
+              "id": "answer-2",
+              "text": "Apache 2.0 има изрични патентни разпоредби и условия за NOTICE."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всички лицензи имат еднакви патентни клаузи."
+            },
+            {
+              "id": "answer-4",
+              "text": "GPLv3 поставя условия за съответния изходен код при предоставяне на покрит обектен код."
+            },
+            {
+              "id": "answer-5",
+              "text": "GPLv3 забранява всякакво заплащане за копия."
+            },
+            {
+              "id": "answer-6",
+              "text": "MIT изисква запазване на приложимото авторско означение и разрешение."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "MIT изисква запазване на приложимото авторско означение и разрешение. Apache 2.0 има изрични патентни разпоредби и условия за NOTICE. GPLv3 поставя условия за съответния изходен код при предоставяне на покрит обектен код."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Какво означава copyleft?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/topic-3.svg\" alt=\"Основни връзки: Какво означава copyleft?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво означава copyleft?</figcaption></figure>\n<p>GPLv3 пази определени свободи за получателите при разпространяване на покритото произведение. Това не означава, че всяка частна промяна трябва автоматично да се публикува в интернет. Също така отделни независими програми в общ носител не стават автоматично една GPL програма. Комбинирането на код и съвместимостта на лицензите изискват отделна проверка.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Изберете за примерния проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/topic-4.svg\" alt=\"Основни връзки: Изберете за примерния проект\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Изберете за примерния проект</figcaption></figure>\n<p><strong>Сценарий A:</strong> Екипът е написал сам малък калкулатор и иска широко повторно използване с малко условия, без изискване получателите да предоставят изходния код на промените. MIT е подходящ учебен избор. Apache 2.0 също е разрешителен вариант, с допълнителни конкретни условия.</p>\n<p><strong>Сценарий B:</strong> Екипът иска при разпространяване на производна версия получателите да запазят свободите по copyleft и да получат съответния изходен код. GPLv3 е подходящ за разглеждане. Преди действителен избор се проверяват всички зависимости и начинът на разпространяване.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Изберете за примерния проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всяка частна промяна автоматично се публикува в интернет."
+            },
+            {
+              "id": "answer-2",
+              "text": "Начинът на предоставяне и зависимостите влияят на избора."
+            },
+            {
+              "id": "answer-3",
+              "text": "Независими програми в един носител винаги стават едно GPL произведение."
+            },
+            {
+              "id": "answer-4",
+              "text": "MIT може да е подходящ за широко повторно използване с малко условия."
+            },
+            {
+              "id": "answer-5",
+              "text": "Надписът MIT премахва нуждата от запазване на означения."
+            },
+            {
+              "id": "answer-6",
+              "text": "GPLv3 е подходящ за разглеждане при желан copyleft за разпространявана производна версия."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "MIT може да е подходящ за широко повторно използване с малко условия. GPLv3 е подходящ за разглеждане при желан copyleft за разпространявана производна версия. Начинът на предоставяне и зависимостите влияят на избора."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Създайте местен LICENSE файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/topic-5.svg\" alt=\"Основни връзки: Създайте местен LICENSE файл\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Създайте местен LICENSE файл</figcaption></figure>\n<div class=\"task\"><ol><li>Създайте нова учебна папка <code>License_Practice</code>. Запишете вътре собствен кратък код или използвайте проект, за който всички автори са съгласни с избора.</li><li>За сценарий A отворете официалния MIT текст. Копирайте пълния лиценз в нов текстов файл, включително разрешението, условията и частта за гаранциите.</li><li>Заменете полетата за година и носител на правата с верни данни за примера. Не променяйте останалия лицензен текст и не заменяйте означения на чужди автори.</li><li>Запишете като <code>LICENSE</code> с UTF-8. При редактор, който добавя .txt, изберете тип „Всички файлове“ и проверете действителното име.</li><li>В README запишете: кои собствени файлове покрива лицензът, избрания лиценз и адреса на оригиналния текст.</li><li>Попълнете сравнителна таблица по четири критерия и обосновете изборите за A и B. Предайте местната папка и анализа; не е нужно публично публикуване.</li></ol></div>\n<p>LICENSE файл за собствения код не прелицензира чужди снимки, учебни текстове или зависимости. За тях се пазят отделните условия. При GPLv3 или Apache 2.0 не е достатъчно да се копира само краткото описание от тази таблица.</p>\n\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Създайте местен LICENSE файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "README уточнява кои собствени файлове покрива лицензът."
+            },
+            {
+              "id": "answer-2",
+              "text": "Смяната на името на файла прелицензира всички зависимости."
+            },
+            {
+              "id": "answer-3",
+              "text": "В LICENSE се включва пълният приложим текст."
+            },
+            {
+              "id": "answer-4",
+              "text": "Достатъчно е да се копира само един ред от сравнителното обобщение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Полетата за носител на права се попълват вярно."
+            },
+            {
+              "id": "answer-6",
+              "text": "Чуждите авторски означения се заменят с името на екипа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "В LICENSE се включва пълният приложим текст. Полетата за носител на права се попълват вярно. README уточнява кои собствени файлове покрива лицензът."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Определете обхвата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете кои файлове са собствени и кои зависимости трябва да се проверят.</strong></p><p>Използвайте примерен калкулатор без чужди библиотеки или ясно означен собствен проект. Посочете как ще предоставяте резултата и защо това е важно за лиценза.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: собствен код и README; отделна чужда снимка не се прелицензира с кода. Самопроверка: собствеността и съгласието на авторите не са предположени само от достъп до папката."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Сравнете условията",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете MIT, Apache 2.0 и GPLv3 по четири признака.</strong></p><p>Включете използване/промяна, означения, изходен код при разпространяване и патентни разпоредби. Посочете, че работите с обобщение и проверявате пълния текст.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "MIT е разрешителен с означения; Apache включва допълнителни конкретни условия и патентно разрешение; GPLv3 има copyleft и условия за съответния изходен код. Самопроверка: лицензите не се свеждат до „безплатно/платено“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Решете двата сценария",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обосновете вариант за широко използване и вариант за copyleft.</strong></p><p>За A посочете нуждата от малко условия без общо изискване за изходен код на промените; за B — свободи за получателите при производна разпространявана версия.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "A може да използва MIT; B — GPLv3 след проверка на зависимостите и начина на предоставяне. Самопроверка: изборът не се прави само по познатото име, а по действителната цел и условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете LICENSE и README",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Дайте точните стъпки за подготовка на лицензния файл на собствения пример.</strong></p><p>Посочете официалния MIT текст, пълно съдържание, верни година и носител на правата, UTF-8 и проверка за скрито .txt разширение. Дайте кратък README за обхвата, без да преписвате целия лиценз в отговора.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: LICENSE пази целия текст, а README посочва собствените файлове и официалния адрес. Самопроверка: не се заменят чужди означения и кратката таблица не се използва вместо лиценз."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете границите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обяснете частна промяна, продажба на GPLv3 копие и независими програми в общ носител.</strong></p><p>Разграничете условията за предоставяне на покрито произведение от автоматично публикуване на всяка частна промяна. Посочете кога е нужна допълнителна проверка.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Частната промяна не означава автоматично публично качване; продажбата е допустима при лицензионните условия; независимите програми не стават автоматично едно произведение. Самопроверка: конкретно комбиниране на код и съвместимост се проверяват отделно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Може ли GPLv3 програма да се продава?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Може ли GPLv3 програма да се продава?</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Да. Лицензът допуска заплащане за копия, но условията за предоставеното покрито произведение и съответния изходен код трябва да се изпълнят. Цена и предоставени свободи са различни въпроси. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/51-open-source-software-licensing/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Публичен код и open source лиценз са различни неща.</li><li>MIT, Apache 2.0 и GPLv3 допускат употреба при различни условия.</li><li>Copyleft се разглежда според покритото произведение и разпространяването.</li><li>Пълният LICENSE и README определят текста и обхвата за собствения пример.</li><li>Чуждите материали и зависимости запазват отделните си условия.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

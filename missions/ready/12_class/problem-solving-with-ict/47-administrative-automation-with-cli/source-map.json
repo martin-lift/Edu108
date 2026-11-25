@@ -1,0 +1,26 @@
+{
+  "lesson_url": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/47-Administrative-Automation-with-CLI.html",
+  "source_sha": "98ffe247a2ab63e44a689f83991095b53614e966",
+  "sections": [
+    {
+      "source_title": "CLI и скрипт",
+      "information_step": "topic-1",
+      "source_body": "\n<p><strong>CLI (Command-Line Interface)</strong> е интерфейс за въвеждане на текстови команди. <strong>Скриптът</strong> е последователност от команди за обща задача. Тук използваме PowerShell. Командите за PowerShell, Command Prompt и Linux не са взаимозаменяеми.</p>\n<p>Автоматизацията е полезна при повторяеми действия: еднакви проектни папки, списъци за предаване или проверки на файлове. Предварително уточнете работната папка, входните данни и очаквания резултат.</p>\n"
+    },
+    {
+      "source_title": "Учителска демонстрация",
+      "information_step": "topic-2",
+      "source_body": "\n<p>Учителят показва обикновен PowerShell прозорец и обяснява текущото местоположение. Изберете своя учебна папка в Documents и отворете PowerShell в нея по наличния в кабинета начин. Проверете местоположението с <code>Get-Location</code>. Не стартирайте прозорец като администратор.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Елемент</th><th>Роля</th></tr></thead><tbody><tr><td>Get-Location</td><td>Показва текущата папка</td></tr><tr><td>Join-Path</td><td>Съставя път от папка и име</td></tr><tr><td>Test-Path</td><td>Проверява дали даден път вече съществува</td></tr><tr><td>New-Item</td><td>Създава папка или друг обект според параметрите</td></tr><tr><td>Get-ChildItem</td><td>Изброява съдържание; -File избира файлове, -Recurse включва подпапки</td></tr><tr><td>Out-File</td><td>Записва текст; -NoClobber предотвратява презаписване</td></tr></tbody></table></div>\n"
+    },
+    {
+      "source_title": "Създайте учебния комплект",
+      "information_step": "topic-3",
+      "source_body": "\n<p>Прочетете целия блок преди изпълнение. Променливата <code>$projectRoot</code> сочи към нова подпапка в текущото местоположение. Ако тя съществува, примерът спира, вместо да смесва старо и ново съдържание.</p>\n<pre><code>&amp; {\nGet-Location\n$projectRoot = Join-Path (Get-Location) '47_RPIKT_Project'\nif (Test-Path -LiteralPath $projectRoot) {\n    throw 'Папката вече съществува. Изберете друго учебно местоположение.'\n}\nNew-Item -ItemType Directory -Path $projectRoot\nforeach ($folderName in @('Docs', 'Images', 'Reports')) {\n    New-Item -ItemType Directory -Path (Join-Path $projectRoot $folderName)\n}\n'Учебен проект по РПИКТ' | Out-File -LiteralPath (Join-Path $projectRoot 'README.txt') -Encoding utf8 -NoClobber\n$fileList = Get-ChildItem -LiteralPath $projectRoot -Recurse -File |\n    Select-Object Name, Length\n$fileList | Out-File -LiteralPath (Join-Path $projectRoot 'Reports/File_List.txt') -Encoding utf8 -NoClobber\n}</code></pre>\n<p>Знакът <code>|</code> подава резултата към следващата команда. <code>Name</code> е името, а <code>Length</code> — размерът в байтове. Описът е текстова таблица за четене, а не резервно копие на файловете.</p>\n<p>Преди последната команда съществува само един файл — README.txt. Описът показва него. В момента на създаването си File_List.txt още не е част от входния списък. Броят байтове на README.txt може да се различава според версията и UTF-8 означението.</p>\n"
+    },
+    {
+      "source_title": "Проверете резултата",
+      "information_step": "topic-4",
+      "source_body": "\n<pre>47_RPIKT_Project/\n  Docs/\n  Images/\n  Reports/\n    File_List.txt\n  README.txt</pre>\n<p>Отворете папката във File Explorer, прочетете двата файла и сравнете с дървото. Повторното изпълнение трябва да спре при проверката за съществуващ проект. Не променяйте политиката за изпълнение и не премахвайте проверката, за да заобиколите училищно ограничение.</p>\n"
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "mission_version": 4,
+  "mission_id": "7cd9e58f-c778-47c3-8794-c6173a12b322",
+  "mission_content": {
+    "title": "Мрежова диагностика и проектиране на офис мрежа",
+    "description": "Ще разчетете мрежови параметри, ще проведете кратки диагностични проверки и ще начертаете схема на малка офис мрежа. Използваме наблюдение и обичайни диагностични заявки.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Мрежова диагностика и проектиране на офис мрежа",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще разчетете мрежови параметри, ще проведете кратки диагностични проверки и ще начертаете схема на малка офис мрежа. Използваме наблюдение и обичайни диагностични заявки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Какво проверяваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/topic-1.svg\" alt=\"Основни връзки: Какво проверяваме?\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Какво проверяваме?</figcaption></figure>\n<p><strong>IP адресът</strong> идентифицира мрежов интерфейс, <strong>маската</strong> определя мрежовата част, а <strong>шлюзът по подразбиране</strong> служи за достигане на други мрежи. <strong>DNS</strong> свързва имена с адреси. Компютърът може да има няколко адаптера; разглеждайте използвания за задачата.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Команда</th><th>Какво установява?</th><th>Граница на извода</th></tr></thead><tbody><tr><td>ipconfig</td><td>Текущи IP параметри и шлюзове</td><td>Наличен адрес не доказва работещ интернет</td></tr><tr><td>ping</td><td>Отговор на ICMP echo и време за двупосочен обмен</td><td>Липсата на отговор може да е филтриране, а не повреда</td></tr><tr><td>tracert</td><td>Наблюдавани междинни стъпки по маршрут</td><td>Някои устройства не отговарят; звездички не доказват прекъсване</td></tr><tr><td>nslookup</td><td>DNS отговор за дадено име</td><td>Получен адрес не доказва работеща уеб услуга</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво проверяваме",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "IP адресът се отнася до мрежов интерфейс."
+            },
+            {
+              "id": "answer-2",
+              "text": "Успешният ping измерва скоростта за изтегляне на файл."
+            },
+            {
+              "id": "answer-3",
+              "text": "DNS отговорът не доказва работеща уеб услуга."
+            },
+            {
+              "id": "answer-4",
+              "text": "Звездичка в tracert винаги доказва прекъсната мрежа."
+            },
+            {
+              "id": "answer-5",
+              "text": "Липсващ ICMP отговор може да е филтриране."
+            },
+            {
+              "id": "answer-6",
+              "text": "Компютърът може да има само един мрежов адаптер."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "IP адресът се отнася до мрежов интерфейс. DNS отговорът не доказва работеща уеб услуга. Липсващ ICMP отговор може да е филтриране."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Кратка диагностика в Windows",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/topic-2.svg\" alt=\"Основни връзки: Кратка диагностика в Windows\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Кратка диагностика в Windows</figcaption></figure>\n<p>Учителят определя разрешения шлюз или друг адрес за проверка. В обикновен Command Prompt изпълнете по една команда. Първият ping е към собствения мрежов стек; следващият използва шлюза от учебния пример.</p>\n<pre><code>ipconfig\nping -n 4 127.0.0.1\nping -n 4 192.168.10.1\nnslookup example.com\ntracert -d -h 5 -w 500 example.com</code></pre>\n<p><strong>192.168.10.1 е само пример.</strong> Преди третата команда го заменете с потвърдения от учителя шлюз. Ако няма разрешена цел, анализирайте данните от раздел 3. Example.com е примерен публичен домейн; използвайте го само ако външните заявки са разрешени.</p>\n<p>При tracert <code>-d</code> пропуска търсенето на имена за междинните адреси, <code>-h 5</code> ограничава стъпките до пет, а <code>-w 500</code> задава изчакване 500 ms за отговор. Целта може да е по-далече от пет стъпки. При нужда спрете с Ctrl + C. Тук не се променят IP, DNS или други мрежови настройки.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Кратка диагностика в Windows",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Командите задължително променят IP и DNS настройките."
+            },
+            {
+              "id": "answer-2",
+              "text": "Примерният шлюз се заменя с потвърдена разрешена цел."
+            },
+            {
+              "id": "answer-3",
+              "text": "Примерният адрес е непременно действителният училищен шлюз."
+            },
+            {
+              "id": "answer-4",
+              "text": "-h 5 ограничава наблюдаваните стъпки."
+            },
+            {
+              "id": "answer-5",
+              "text": "Пет стъпки гарантират достигане на всяка отдалечена цел."
+            },
+            {
+              "id": "answer-6",
+              "text": "127.0.0.1 проверява локалния стек."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "127.0.0.1 проверява локалния стек. Примерният шлюз се заменя с потвърдена разрешена цел. -h 5 ограничава наблюдаваните стъпки."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Подготвени резултати за анализ",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/topic-3.svg\" alt=\"Основни връзки: Подготвени резултати за анализ\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Подготвени резултати за анализ</figcaption></figure>\n<p>Следните данни са измислени и обобщени; не са наблюдение на училищната мрежа.</p>\n<pre>IPv4: 192.168.10.21\nМаска: 255.255.255.0\nШлюз: 192.168.10.1\nping към шлюза: изпратени 4, получени 4; средно 2 ms\nDNS заявка за office.example: върнат адрес 192.0.2.20\ntracert: 1) 192.168.10.1   2) * * *   3) 192.0.2.20</pre>\n<p>Изводи: шлюзът отговаря в този тест; DNS е върнал запис в примерните данни; липсва отговор от втората стъпка, но има отговор от третата. Адресът 192.0.2.20 е документационен пример и не е цел за изпълнение. Успешен ping не измерва скоростта за изтегляне.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Подготвени резултати за анализ",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Отговор на третата стъпка ограничава извода от липсваща втора."
+            },
+            {
+              "id": "answer-2",
+              "text": "Средно 2 ms е измерена скорост за изтегляне."
+            },
+            {
+              "id": "answer-3",
+              "text": "192.0.2.20 е документационен пример."
+            },
+            {
+              "id": "answer-4",
+              "text": "DNS отговорът доказва съдържанието и качеството на сайта."
+            },
+            {
+              "id": "answer-5",
+              "text": "В подготвения тест шлюзът е върнал четири отговора."
+            },
+            {
+              "id": "answer-6",
+              "text": "Подготвените данни са реално наблюдение на училищната мрежа."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "В подготвения тест шлюзът е върнал четири отговора. Отговор на третата стъпка ограничава извода от липсваща втора. 192.0.2.20 е документационен пример."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Проектирайте малка офис мрежа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/topic-4.svg\" alt=\"Основни връзки: Проектирайте малка офис мрежа\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Проектирайте малка офис мрежа</figcaption></figure>\n<p>Задание: три работни компютъра, един мрежов принтер, комутатор, рутер към интернет и точка за безжичен достъп. Използвайте фигури в наличен редактор: правоъгълници за устройствата, линии за кабелите и прекъснати линии за Wi-Fi. Точката за достъп е свързана към комутатора.</p>\n<pre>Интернет → Рутер → Комутатор → PC1, PC2, PC3, Принтер\n                          └→ Точка за достъп ⇢ Wi-Fi устройства</pre>\n<p>За учебната схема използвайте 192.168.10.0/24: рутер .1, точка за достъп .2, принтер .10, компютри .21–.23. Рутерът условно предоставя DHCP само в .100–.150; така диапазонът не се застъпва с предварително описаните адреси. Това е план на хартия; не го прилагайте върху училищната мрежа.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-4",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Проектирайте малка офис мрежа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Хартиеният план трябва да се приложи веднага върху училищната мрежа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Статичните примерни адреси не се застъпват с DHCP .100–.150."
+            },
+            {
+              "id": "answer-3",
+              "text": "Принтер .10 е вътре в DHCP диапазон .100–.150."
+            },
+            {
+              "id": "answer-4",
+              "text": "Комутаторът свързва локалните устройства в схемата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Един и същ адрес се задава на всеки компютър."
+            },
+            {
+              "id": "answer-6",
+              "text": "Точката за достъп се свързва към комутатора."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Комутаторът свързва локалните устройства в схемата. Точката за достъп се свързва към комутатора. Статичните примерни адреси не се застъпват с DHCP .100–.150."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разчетете параметрите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обяснете IP 192.168.10.21, маска 255.255.255.0 и шлюз 192.168.10.1.</strong></p><p>Посочете ролите им и кой адаптер се разглежда. Означете данните като учебни и посочете какво само наличният адрес не доказва.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Адресът обозначава интерфейса, маската мрежовата част, шлюзът достъпа към други мрежи. Самопроверка: налична конфигурация не е сама доказателство за работещ интернет."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Анализирайте тестовете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Дайте обосновани изводи от четири ping отговора, DNS запис и звездички по маршрута.</strong></p><p>Използвайте само подготвените данни. За всеки резултат посочете наблюдение, извод и граница. Не представяйте примера като реална диагностика.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Шлюзът отговаря в теста; DNS връща запис; втората стъпка не отговаря, но третата отговаря. Самопроверка: това не е тест за скорост, нито доказателство за прекъсване във втората стъпка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте последователност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете предназначението на ipconfig, локален ping, проверка на шлюз, nslookup и tracert.</strong></p><p>Посочете нужда от разрешена цел, ограничаване на стъпките и какво означава -d. Ако няма разрешена цел, опишете анализ на пример вместо изпълнение.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: параметри → локален стек → шлюз → DNS → ограничен маршрут; -d пропуска имената на междинните адреси. Самопроверка: командите не променят настройки и документният пример не се използва като реална цел."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете офис схемата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подредете рутер, комутатор, три PC, принтер и точка за достъп.</strong></p><p>Използвайте текстово дърво с легенда за кабел и Wi-Fi. Обяснете ролята на всяка връзка и защо точката за достъп не замества автоматично всички други устройства.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Интернет → рутер → комутатор → PC1/PC2/PC3/принтер и точка за достъп → Wi-Fi устройства. Самопроверка: всички устройства от заданието са включени и видът на връзките е ясен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете адресния план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Задайте примерните адреси и проверете липса на дублиране и DHCP застъпване.</strong></p><p>Използвайте рутер .1, AP .2, принтер .10, PC .21–.23 в 192.168.10.0/24 и DHCP .100–.150. Посочете два теста за противоречие и границата на плана.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Всички описани адреси са различни и извън динамичния диапазон. Самопроверка: схемата е учебен план, не промяна на реалната мрежа; действителни параметри не се публикуват като пълен мрежов отчет."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/48-network-diagnostics-and-office-design/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Командите дават различни наблюдения с ограничени изводи.</li><li>Диагностиката използва потвърдени цели и не изисква промяна на мрежата.</li><li>Липса на отговор не е автоматично доказана повреда.</li><li>Мрежовата схема показва устройства, връзки и роли.</li><li>Адресният план пази уникалност и отделя DHCP диапазона.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

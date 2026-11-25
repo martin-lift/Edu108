@@ -1,0 +1,418 @@
+{
+  "mission_version": 4,
+  "mission_id": "6b371887-c16c-48b5-841c-14a4dc978fe6",
+  "mission_content": {
+    "title": "Управление на компютърни системи. Режими на работа",
+    "description": "Ще разграничите режимите на работа и ще наблюдавате как приложенията използват процесор и памет. Практиката е кратко измерване с потребителски права.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Компютърни системи и приложен софтуер",
+    "lesson": "Управление на компютърни системи. Режими на работа",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/overview.svg\" alt=\"От разбиране на задачата към проверим резултат.\" width=\"840\" height=\"430\"><figcaption>От разбиране на задачата към проверим резултат.</figcaption></figure><p>Ще разграничите режимите на работа и ще наблюдавате как приложенията използват процесор и памет. Практиката е кратко измерване с потребителски права.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Режими и състояния",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/topic-1.svg\" alt=\"Основни връзки: Режими и състояния\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Режими и състояния</figcaption></figure>\n<div class=\"table-wrap\"><table><thead><tr><th>Състояние</th><th>Какво означава?</th><th>Подходяща употреба</th></tr></thead><tbody><tr><td>Нормална работа</td><td>Стартирани са нужните системни услуги и приложения.</td><td>Ежедневните задачи</td></tr><tr><td>Заключване</td><td>Потребителската сесия остава активна; за връщане е нужно удостоверяване.</td><td>Кратко отсъствие от работното място</td></tr><tr><td>Заспиване (Sleep)</td><td>Състоянието се запазва за бързо връщане при ниско потребление; реализацията зависи от устройството.</td><td>Кратка пауза</td></tr><tr><td>Хибернация</td><td>Състоянието се записва в съхранението и се използва по-малко енергия от обичайния сън.</td><td>По-дълга пауза, когато режимът е наличен</td></tr><tr><td>Изключване / рестартиране</td><td>Работата на сесията приключва; при рестарт системата се стартира отново.</td><td>Приключване на работа или планирано обслужване след записване на файловете</td></tr><tr><td>Безопасен режим (Safe Mode)</td><td>Windows се стартира с ограничен набор драйвери и услуги за диагностика.</td><td>Отстраняване на проблем по указания на отговорен специалист</td></tr></tbody></table></div>\n<p>Изгаснал екран не доказва, че компютърът спи. Заключването също не спира приложенията и не гарантира ниско потребление. Записвайте работата преди смяна на състоянието. В практиката наблюдаваме нормална работа; останалите режими се обсъждат.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Режими и състояния",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Заключването запазва активната сесия."
+            },
+            {
+              "id": "answer-2",
+              "text": "Заключването задължително спира всички приложения."
+            },
+            {
+              "id": "answer-3",
+              "text": "Изгаснал екран сам не доказва заспиване."
+            },
+            {
+              "id": "answer-4",
+              "text": "Sleep и изключване имат еднакво поведение във всички устройства."
+            },
+            {
+              "id": "answer-5",
+              "text": "Безопасният режим е диагностично стартиране с ограничени компоненти."
+            },
+            {
+              "id": "answer-6",
+              "text": "Незапазената работа не е важна при рестартиране."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Заключването запазва активната сесия. Изгаснал екран сам не доказва заспиване. Безопасният режим е диагностично стартиране с ограничени компоненти."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Процес, приложение и ресурс",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/topic-2.svg\" alt=\"Основни връзки: Процес, приложение и ресурс\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Процес, приложение и ресурс</figcaption></figure>\n<p><strong>Процесът</strong> е изпълняваща се програма с нейни ресурси. Едно приложение може да използва няколко процеса. CPU показва текуща изчислителна активност, паметта — използвана RAM, а дисковата активност — работа с устройството за съхранение.</p>\n<p>Натоварване 20% не е мощност 20 W. Заетата RAM не е заето място на SSD. Стойностите са моментни и се влияят от фонови задачи. Едно наблюдение не е тест за максимална производителност или доказателство за повреда.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-2",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Процес, приложение и ресурс",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Заетата RAM е заето място на SSD."
+            },
+            {
+              "id": "answer-2",
+              "text": "CPU процент и мощност във W са различни показатели."
+            },
+            {
+              "id": "answer-3",
+              "text": "20% натоварване винаги означава 20 W."
+            },
+            {
+              "id": "answer-4",
+              "text": "Едно моментно наблюдение не доказва максимална производителност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Фоновите задачи не влияят на наблюдението."
+            },
+            {
+              "id": "answer-6",
+              "text": "Едно приложение може да използва няколко процеса."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Едно приложение може да използва няколко процеса. CPU процент и мощност във W са различни показатели. Едно моментно наблюдение не доказва максимална производителност."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Наблюдение с Task Manager",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/topic-3.svg\" alt=\"Основни връзки: Наблюдение с Task Manager\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Наблюдение с Task Manager</figcaption></figure>\n<p>В Windows натиснете <strong>Ctrl + Shift + Esc</strong>. В Task Manager (Диспечер на задачите) разгледайте <strong>Processes</strong> и <strong>Performance</strong>. При различен изглед потърсете същите имена в менюто. Използвайте само наблюдение: не са нужни „End task“, промяна на приоритет или настройки на стартирането.</p>\n<div class=\"task\"><ol><li>Запишете наличната RAM и подгответе таблица за три състояния: обичайна среда без допълнителна задача; отворен учебен текст; отворен текст и изображение.</li><li>Отворете текста в наличен редактор, а изображението — в налична програма. Използвайте местни учебни файлове.</li><li>За всяко състояние изчакайте 20 секунди след отваряне. От Performance запишете общ CPU % и използвана памет % три пъти през около 10 секунди.</li><li>Изчислете средната стойност от трите наблюдения. От Processes запишете име на едно използвано приложение и наблюдавана стойност за паметта му с единицата.</li><li>Затворете нормално само приложенията, които сте отворили за задачата. Напишете какво се е променило и какво не може да се заключи от измерването.</li></ol></div>\n<div class=\"table-wrap\"><table><thead><tr><th>Състояние</th><th>CPU %, 3 измервания</th><th>Средно CPU %</th><th>Памет %, 3 измервания</th><th>Средно памет %</th></tr></thead><tbody><tr><td>Обичайна среда</td><td>Попълнете</td><td>Изчислете</td><td>Попълнете</td><td>Изчислете</td></tr><tr><td>Текст</td><td>Попълнете</td><td>Изчислете</td><td>Попълнете</td><td>Изчислете</td></tr><tr><td>Текст + изображение</td><td>Попълнете</td><td>Изчислете</td><td>Попълнете</td><td>Изчислете</td></tr></tbody></table></div>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-3",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Наблюдение с Task Manager",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Правят се три измервания за всяко състояние."
+            },
+            {
+              "id": "answer-2",
+              "text": "Една висока стойност доказва повреда."
+            },
+            {
+              "id": "answer-3",
+              "text": "Средната стойност обобщава тези конкретни наблюдения."
+            },
+            {
+              "id": "answer-4",
+              "text": "Резултатите от различни условия се представят като напълно съпоставими без уточнение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Наблюденията се записват с единици и условия."
+            },
+            {
+              "id": "answer-6",
+              "text": "За наблюдение задължително се прекратяват системни процеси."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Наблюденията се записват с единици и условия. Правят се три измервания за всяко състояние. Средната стойност обобщава тези конкретни наблюдения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Ако системният инструмент не е достъпен",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/topic-4.svg\" alt=\"Основни връзки: Ако системният инструмент не е достъпен\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Ако системният инструмент не е достъпен</figcaption></figure>\n<p>Анализирайте тези измислени наблюдения вместо да отчитате реално измерване: базов CPU 3, 4, 5%; с текст 4, 5, 6%; с текст и изображение 8, 10, 12%. Памет съответно 40, 40, 41%; 44, 45, 45%; 50, 51, 52%. Отбележете „анализ на подготвени данни“.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Реакция на съобщение и енергоспестяване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/topic-5.svg\" alt=\"Основни връзки: Реакция на съобщение и енергоспестяване\" width=\"840\" height=\"430\"><figcaption>Основни връзки: Реакция на съобщение и енергоспестяване</figcaption></figure>\n<p>При „Приложението не отговаря“ запишете коя програма, какво сте правили и дали имате незапазени промени. При повторение уведомете учителя. Системното съобщение се разглежда преди действие; не се изтриват системни файлове по предположение.</p>\n<p>За енергоспестяване се съобразяват времето за изгасване на екрана и за заспиване с работата: твърде кратък срок може да прекъсва демонстрация. Изборът се съгласува с правилата на кабинета.</p>\n\n\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-topic-5",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Реакция на съобщение и енергоспестяване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения съответстват на разгледаното обяснение и пример?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Повторяем проблем се описва на отговорния човек."
+            },
+            {
+              "id": "answer-2",
+              "text": "Заключването гарантира минимално потребление независимо от програмите."
+            },
+            {
+              "id": "answer-3",
+              "text": "При съобщение се записват програма, действие и незапазени промени."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всяко съобщение се решава чрез изтриване на системни файлове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Енергоспестяването се съобразява с работата и правилата."
+            },
+            {
+              "id": "answer-6",
+              "text": "По-високият CPU процент сам измерва разход за електроенергия."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "При съобщение се записват програма, действие и незапазени промени. Енергоспестяването се съобразява с работата и правилата. Повторяем проблем се описва на отговорния човек."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изберете състояние",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете кратко отсъствие, по-дълга пауза и диагностичен проблем.</strong></p><p>За всеки случай дайте подходящо състояние, какво става със сесията и какво трябва да се запази. Разграничете заключване и енергоспестяване.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: заключване при отсъствие, подходящ поддържан режим за пауза, диагностика с отговорен специалист при проблем. Самопроверка: изгаснал екран не се представя като доказано заспиване, а работата се записва преди смяна."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Планирайте наблюдение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете три състояния за сравнение в Task Manager.</strong></p><p>Дайте обичайна среда, отворен учебен текст, текст и изображение. Посочете изчакване, три проби, единици и откъде ще четете общ CPU и памет. При недостъпност използвайте подготвените данни.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Изчакваме 20 секунди, после три наблюдения през около 10 секунди в Performance. Самопроверка: това е наблюдение, без промяна на приоритети или прекратяване на системни процеси, и източникът е означен."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изчислете средните стойности",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Анализирайте подготвените CPU и RAM наблюдения.</strong></p><p>CPU: 3/4/5, 4/5/6, 8/10/12 процента; RAM: 40/40/41, 44/45/45, 50/51/52. Дайте трите средни за всеки ресурс и формула.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Среден CPU 4%, 5%, 10%; RAM около 40,33%, 44,67%, 51%. Средно = сбор / 3. Самопроверка: данните са измислени за анализ, а не измерване на вашия компютър."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Формулирайте ограничен извод",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Обяснете какво показва сравнението и какво не доказва.</strong></p><p>Свържете наблюдаваната промяна с условията, но посочете фонови задачи и липсващо измерване за мощност. Разграничете приложение и процес.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Третото състояние има по-високи наблюдавани средни стойности. Това не доказва единствена причина, повреда или енергиен разход. Самопроверка: проценти, байтове и ватове не се смесват."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Опишете реакция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе съобщение за приложение, което не отговаря.</strong></p><p>Посочете програма, действие, незапазени промени, повторяемост и какво е наблюдавано. Дайте подходяща следваща стъпка и условие за планиране на пауза.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: при отваряне на учебно изображение редакторът замръзва; има незапазен надпис; описваме случая на учителя. Самопроверка: няма случайно изтриване или системна промяна по предположение, а времето за сън се съобразява с демонстрацията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Самопроверка на подготвените данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Самопроверка на подготвените данни</strong></p><p>Обяснете с 2–4 изречения, със свои думи и конкретно основание или пример.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Среден CPU: 4%, 5%, 10%. Средна памет: около 40,33%, 44,67%, 51%. Примерът показва по-високи наблюдавани стойности при третото състояние; не доказва сам по себе си причината или енергийния разход. Самопроверка: посочете съществената разлика и свържете извода с пример, вместо само да повторите определението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:920px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:8px 0}.example,.note,.task{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:580px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}pre{white-space:pre-wrap}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/44-operating-modes-and-resource-monitoring/images/overview.svg\" alt=\"Свържете понятията с вашите решения.\" width=\"840\" height=\"430\"><figcaption>Свържете понятията с вашите решения.</figcaption></figure><ol><li>Заключване, сън, хибернация и рестарт имат различна цел.</li><li>Приложение, процес, RAM и дискова активност се разграничават.</li><li>Наблюдението се записва с условия, единици и източник.</li><li>Средните стойности не доказват сами причинност или енергиен разход.</li><li>Съобщението се анализира преди конкретно действие.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

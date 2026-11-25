@@ -1,0 +1,229 @@
+{
+  "mission_version": 4,
+  "mission_id": "67f04bcc-2c60-4b51-95e9-76205cbd528d",
+  "next_mission_id": "567dd37c-a41a-4743-81f2-265ac5aada9f",
+  "mission_content": {
+    "title": "Видео: композиция и стабилност",
+    "description": "Ще заснемете общ, среден и близък план, статична камера с действие и едно плавно движение на камерата.",
+    "class_name": "12",
+    "subject": "Уеб дизайн",
+    "category": "Мултимедия за уеб",
+    "lesson": "Видео: композиция и стабилност",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Ще заснемете общ, среден и близък план, статична камера с действие и едно плавно движение на камерата.</p><p>Четете обясненията, изпробвайте действията и запазвайте работата си. Отворените въпроси показват примерен отговор след предаване. При собствена тема са възможни различни обосновани решения.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/purpose.svg\" width=\"760\" height=\"276\" alt=\"Заснемане според целта; Подбор и сравнение; Проверен материал за сайта\"><figcaption>За какво е този урок?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Предназначение, ориентация и планове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"purpose\">Първо решете къде ще се гледа видеото</h3><p class=\"note\">Поредицата свързва заснемане на снимки, светлина, подбор, подготовка за уеб, видеозаснемане, сценарий и монтаж. Използвайте достъпен предмет или клубна дейност. Пазете оригиналите и работните проекти в своя папка; в мисията предавайте точно посочения резултат. Ако започвате оттук, заснемете нужните кадри за избраната тема — не е необходим чужд готов проект.</p><p>Снимката показва един момент, а видеото представя действие във времето. За сайта на клуба можете да покажете подреждане на изложба, работа по предмет или подготовка за събитие.</p><p>Изберете ориентацията предварително. Хоризонталното видео е удобно за широк плейър на страница. Вертикалното може да е подходящо за съдържание, предназначено за вертикален телефонен екран. Не завъртайте телефона по средата на един запис.</p><p>За упражнението изберете една ориентация за цялата серия, съобразена с проекта ви. Използвайте еднакви настройки за размер и честота на кадрите, когато устройството позволява. Например 1080p при 30 кадъра в секунда е възможен учебен избор; само високата резолюция не поправя разтърсен или неясен запис.</p><h3 id=\"plans\">Общ, среден и близък план</h3><p>В задачата <strong>снимачен кадър</strong> означава непрекъснато заснет откъс. <strong>Едрината на плана</strong> показва каква част от обекта и средата се вижда.</p><ul><li><strong>Общ план:</strong> показва мястото, участника и връзката му с обкръжението.</li><li><strong>Среден план:</strong> насочва вниманието към участника и извършваното действие.</li><li><strong>Близък план:</strong> показва важен детайл — ръце, предмет, изражение или отделна част от действието.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/files/32-shot-sizes.svg\" alt=\"Схематично сравнение на общ, среден и близък план на човек, който работи на маса\" style=\"max-width:100%;height:auto;display:block\"><figcaption>Схема на различни кадрирания. В реалната сцена изберете подходяща позиция и разстояние, като запазите ясното действие.</figcaption></figure><p>Например общият план показва залата за изложбата, средният — участник, който подрежда снимки, а близкият — поставянето на надпис под една снимка.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Композиция и стабилна камера",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"composition\">Композиция през цялото действие</h3><p>Проверявайте не само началния изглед, а и къде ще се движи обектът. Оставете достатъчно пространство в посоката на действието и не отрязвайте важната част в края на движението.</p><ul><li>Използвайте ясен основен обект и подходящ фон.</li><li>Проверете хоризонта и разсейващите предмети.</li><li>Не закривайте обектива с пръсти.</li><li>Уверете се, че важната част остава на фокус.</li><li>При нужда променете позицията спрямо светлината, вместо да оставяте обекта неразличим.</li></ul><p>Приложете наблюденията от уроци 28–29. Сега трябва да ги проследите и по време на целия запис.</p><h3 id=\"stability\">Как да получите стабилен кадър</h3><p>Започнете със статична камера. Дръжте телефона с две ръце, с прибрани към тялото лакти, или използвайте подходяща стабилна опора. Ако разполагате със стойка, проверете подредбата, преди да започнете.</p><p>Не всяко действие изисква движение на камерата. Човекът или предметът може да се движи в стабилно подреден кадър. Това често е по-ясно от постоянно следене с резки корекции.</p><p>След стартиране оставете кратко спокойно начало. След края на действието задръжте още няколко секунди, преди да спрете. Така по-късно ще имате място за изрязване при монтаж.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/topic-2.svg\" width=\"760\" height=\"192\" alt=\"Композиция през цялото действие; Как да получите стабилен кадър\"><figcaption>Композиция и стабилна камера</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "check-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверете разбирането: Композиция и стабилна камера",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Кои решения са полезни?</p><p class=\"focus\">Отбележете всички верни отговори. Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проверка на кадъра през цялото действие."
+            },
+            {
+              "id": "answer-2",
+              "text": "Завъртане на телефона по средата на всеки запис."
+            },
+            {
+              "id": "answer-3",
+              "text": "Стабилна опора или държане с две ръце."
+            },
+            {
+              "id": "answer-4",
+              "text": "Постоянно цифрово приближаване независимо от целта."
+            },
+            {
+              "id": "answer-5",
+              "text": "Спокойни начало и край за бъдещо изрязване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Преглед само на първата неподвижна картинка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Видеото се развива във времето. Проверявайте движението на обекта, стабилността, фона и границите, не само началния изглед."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Плавно движение с причина",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"movement\">Плавно движение с ясна причина</h3><p>Панорамното движение завърта камерата наляво или надясно от сравнително постоянна позиция. Движението нагоре и надолу променя вертикалната посока. Използвайте ги, когато искате да разкриете информация или да проследите действие.</p><ol><li>Изберете началния и крайния кадър.</li><li>Пробвайте движението преди записа.</li><li>Започнете с кратко задържане.</li><li>Движете се бавно и равномерно, без случайно връщане назад.</li><li>Задръжте и крайния кадър, преди да спрете.</li></ol><p>За тази задача не използвайте постоянно приближаване с цифрово увеличение. Сравнете го с промяна на позицията между два отделни записа. Ако движението затруднява гледането, повторете по-просто или снимайте статично.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/topic-3.svg\" width=\"760\" height=\"108\" alt=\"Плавно движение с ясна причина\"><figcaption>Плавно движение с причина</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Пет кратки записа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"practice\">Практическа задача: пет кратки записа</h3><p>Изберете проста дейност, например подреждане на фотография, отваряне на книга или изработване на детайл. За хората в кадър съобразете заснемането и бъдещото споделяне с тяхното съгласие.</p><ol><li>Заснемете общ, среден и близък план на дейността — три отделни записа от приблизително 8–12 секунди.</li><li>Заснемете четвърти откъс със статична камера и движение на обекта.</li><li>Заснемете пети с едно бавно хоризонтално или вертикално движение на камерата.</li><li>Прегледайте всички записи на по-голям екран, ако е възможно. Потърсете разтърсване, неясен обект, неподходящ фон или загубен детайл.</li><li>Повторете един проблемен запис и посочете какво сте променили.</li></ol><p>За мисията ще предадете един представителен кратък клип; запазете цялата серия локално за планирането и монтажа. Запазете ясни имена, например <code>32-wide</code>, <code>32-medium</code> и <code>32-close</code>, като оставите действителното разширение на видеото. Не е необходимо да монтирате откъсите в този урок.</p><p><strong>Резултат:</strong> пет подбрани кратки записа и бележка за повторно заснетия. Ще ги използвате при следващите задачи по планиране и монтаж на видео.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/topic-4.svg\" width=\"760\" height=\"108\" alt=\"Практическа задача: пет кратки записа\"><figcaption>Пет кратки записа</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Прочетете още",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p><a href=\"https://imaging.nikon.com/imaging/support/digitutor/z_8/techniques/202308_50_02_ml.html\">Nikon — основи на видеозаснемането</a>; <a href=\"https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/camera-support-tips-for-shooting-steady-video\">Nikon — стабилно видео</a> (на английски). За композицията използвайте и <a href=\"https://martin-lift.github.io/108/Web-design-12/28-Photo-Composition.html\">урок 28</a>.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/topic-5.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Прочетете още</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-guide",
+        "step_content": {
+          "type": "information",
+          "title": "Заснемете серия и предайте представителен откъс",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Изберете проста дейност с предмет. Определете предназначение и една ориентация за серията. Използвайте съгласувани настройки, например 1080p/30 fps, ако устройството ги предлага.</li><li>Заснемете пет отделни откъса по около 8–12 секунди: общ, среден, близък план, статична камера с действие на обекта и едно плавно движение на камерата.</li><li>Оставете спокойни начало и край в рамките на откъса. Прегледайте на по-голям екран и повторете един проблемен запис.</li><li>Назовете петте подбрани файла 32-wide, 32-medium, 32-close, 32-static-action и 32-move с действителното разширение. Пазете всички за следващите уроци; не е нужно да ги монтирате сега.</li><li>За предаване изберете един представителен откъс от серията, по който се вижда стабилността или планираното движение. Запазете копие с име 32-selected и действителното разширение (.mp4, .mov или друго поддържано от вашия плейър).</li><li>Отворете го извън камерата, проверете цялото действие, ориентацията и размера. При нужда създайте MP4 копие по указанията по-долу. Оригиналите остават отделно.</li></ol><p>Ако избраният кратък клип надвишава 20 MB, направете копие за преглед в Shotcut: Open File → клипа; Export, като From сочи отворения клип (Source), а не празна времева линия; изберете H.264/MP4. В Advanced → Video задайте пропорционален 720p вариант, без разтягане; ако полетата са неактивни, включете Resample; в Codec използвайте среден битрейт около 1.5–2 Mb/s (1500–2000 kb/s), ако е наличен. Запазете с ново име, изчакайте Jobs да завърши и прегледайте изнесения файл. Имената на настройките зависят от версията; проверете избрания източник, пропорциите и действителния размер. Не преименувайте MOV на MP4.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/practice-guide.svg\" width=\"760\" height=\"276\" alt=\"Пазете оригиналите и работния проект; Подгответе посочения краен резултат; Отворете повторно и предайте\"><figcaption>Заснемете серия и предайте представителен откъс</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте представителния видеокадър",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Прикачете един клип около 8–12 секунди, който показва стабилна композиция или контролирано движение. Запазете действителното му разширение, ако оригиналът е MOV. Останалите четири записа пазете локално.</p><p class=\"focus\">Запазете и отворете файла повторно. Използвайте бутона за прикачване в тази стъпка и проверете показаното име: <strong>32-selected.mp4</strong> (или работното име с вашите инициали). Максимален размер: 20 MB.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "review-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Какво поправихте при повторния запис?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Назовете проблемния откъс и конкретната промяна между първия и повторния запис. Какво се вижда по-добре?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Пример: „В 32-move камерата се връщаше рязко назад. Избрах начален и краен кадър, пробвах движението и повторих с равномерна скорост. Сега предметът остава видим до края.“ Сравнете собствено наблюдение, действие и резултат, а не само обща оценка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Три плана, три роли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>За една дейност дайте пример какво показват общият, средният и близкият план.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "При подреждане на изложба общият показва залата, средният — участника, който подрежда, а близкият — ръцете и поставянето на надпис. Други сцени са подходящи, ако разграничите контекст, действие и детайл."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Нужно ли е движение на камерата?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Защо статичен кадър може да е по-подходящ от постоянно следене на обекта?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Движението на обекта вече представя действието. Стабилната камера пази ясна композиция и избягва случайни резки корекции. Използвайте движение на камерата, когато разкрива нужната информация, а не само за ефект."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомним?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>Ориентацията следва мястото за показване.</li><li>Общият, средният и близкият план имат различна роля.</li><li>Композицията трябва да остава ясна през цялото действие.</li><li>Статична камера може да показва движение на обекта.</li><li>Оставяме спокойно начало и край за монтаж.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/images/summary.svg\" width=\"760\" height=\"604\" alt=\"Ориентацията следва мястото за показване.; Общият, средният и близкият план имат различна роля.; Композицията трябва да остава ясна през цялото действие.; Статична камера може да показва движение на обекта.; Оставяме спокойно начало и край за монтаж.\"><figcaption>Какво да запомним?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

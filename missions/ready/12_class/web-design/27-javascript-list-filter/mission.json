@@ -1,7 +1,7 @@
 {
   "mission_version": 4,
   "mission_id": "e4d56bf8-4291-49a8-8470-5ea5111250c1",
-  "next_mission_id": null,
+  "next_mission_id": "2650bd6d-dc4e-4ab0-b4df-49bf3fce2c07",
   "mission_content": {
     "title": "JavaScript: филтриране на списък",
     "description": "Ще филтрирате налични записи при писане, ще скривате несъвпадащите елементи и ще показвате актуален брой резултати. Поредицата свързва HTML структура, CSS оформление и JavaScript поведение.",

@@ -1,0 +1,216 @@
+{
+  "mission_version": 4,
+  "mission_id": "567dd37c-a41a-4743-81f2-265ac5aada9f",
+  "next_mission_id": "93942baa-9429-4036-bc9f-506c00fe678b",
+  "mission_content": {
+    "title": "Планиране и заснемане на кратко видео",
+    "description": "Ще планирате видео от 30–60 секунди с 5–8 кадъра, ясна последователност и проверени светлина и звук.",
+    "class_name": "12",
+    "subject": "Уеб дизайн",
+    "category": "Мултимедия за уеб",
+    "lesson": "Планиране и заснемане на кратко видео",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Ще планирате видео от 30–60 секунди с 5–8 кадъра, ясна последователност и проверени светлина и звук.</p><p>Четете обясненията, изпробвайте действията и запазвайте работата си. Отворените въпроси показват примерен отговор след предаване. При собствена тема са възможни различни обосновани решения.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/purpose.svg\" width=\"760\" height=\"276\" alt=\"Заснемане според целта; Подбор и сравнение; Проверен материал за сайта\"><figcaption>За какво е този урок?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Послание, сценарий и списък на кадрите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"idea\">Една цел и кратък сценарий</h3><p class=\"note\">Поредицата свързва заснемане на снимки, светлина, подбор, подготовка за уеб, видеозаснемане, сценарий и монтаж. Използвайте достъпен предмет или клубна дейност. Пазете оригиналите и работните проекти в своя папка; в мисията предавайте точно посочения резултат. Ако започвате оттук, заснемете нужните кадри за избраната тема — не е необходим чужд готов проект.</p><p>Краткото видео трябва да има едно основно послание. Изберете какво искате зрителят да разбере: как се подготвя изложба, как работи клубът или как се изпълнява проста дейност.</p><p><strong>Сценарият</strong> описва какво ще видим и чуем в определен ред. Не започвайте с дълго представяне, ако целта е да покажете действие.</p><ol><li><strong>Начало:</strong> показваме мястото, обекта или въпроса.</li><li><strong>Основна част:</strong> проследяваме няколко ясни стъпки.</li><li><strong>Край:</strong> показваме резултата и оставяме кратко заключително послание.</li></ol><p>Напишете идеята в едно изречение и предложете обща продължителност от 30 до 60 секунди. Изберете ориентацията според мястото за показване и я запазете в цялата серия.</p><h3 id=\"shots\">Списък на кадрите и последователност</h3><div class=\"table-wrap\"><table><caption>Примерен план за 45 секунди: „Как подготвяме училищната изложба“</caption><thead><tr><th scope=\"col\">№</th><th scope=\"col\">Време в готовото видео</th><th scope=\"col\">План</th><th scope=\"col\">Какво се вижда</th><th scope=\"col\">Звук и текст</th></tr></thead><tbody><tr><td>1</td><td>0–5 сек.</td><td>Общ</td><td>Мястото и началото на подготовката.</td><td>Кратко заглавие „Нашата изложба“. Естествен звук.</td></tr><tr><td>2</td><td>5–12 сек.</td><td>Среден</td><td>Участник подбира фотографии.</td><td>Глас: „Избираме снимки, които разказват за нашия град.“</td></tr><tr><td>3</td><td>12–19 сек.</td><td>Близък</td><td>Ръце поставят надпис под снимка.</td><td>Кратък звук от действието; без излишен говор.</td></tr><tr><td>4</td><td>19–27 сек.</td><td>Среден</td><td>Подреждане на снимките върху таблото.</td><td>Глас: „Подреждаме ги и проверяваме всеки детайл.“</td></tr><tr><td>5</td><td>27–36 сек.</td><td>Близък</td><td>Завършен детайл от изложбата.</td><td>Време зрителят да разгледа снимката и надписа.</td></tr><tr><td>6</td><td>36–45 сек.</td><td>Общ</td><td>Завършеното подреждане.</td><td>Кратък финален надпис „Разгледайте изложбата“.</td></tr></tbody></table></div><p>Това е пример, а не задължителен сценарий. В собствения план запишете 5–8 кадъра и проверете сумата от времената. Общият план дава контекст, средният показва действието, а близкият — важните детайли.</p><p>Времето в таблицата е за <strong>готовото видео</strong>. Заснемайте малко повече в началото и края на всеки откъс, за да има място за изрязване. Можете да използвате подходящи записи от урок 32 и да доснимате липсващото.</p><p>Ако промените реда, проверете дали зрителят още разбира действието. Следете последователността на предметите и положението на ръцете: готовият надпис не трябва внезапно да изчезва в следващия кадър.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/topic-1.svg\" width=\"760\" height=\"192\" alt=\"Една цел и кратък сценарий; Списък на кадрите и последователност\"><figcaption>Послание, сценарий и списък на кадрите</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "check-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверете разбирането: Послание, сценарий и списък на кадрите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Кои твърдения са верни?</p><p class=\"focus\">Отбележете всички верни отговори. Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Времената в плана се отнасят за готовото видео."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всички кадри задължително са един и същ план."
+            },
+            {
+              "id": "answer-3",
+              "text": "Заснетите откъси могат да са по-дълги за монтаж."
+            },
+            {
+              "id": "answer-4",
+              "text": "Сценарият няма нужда от цел."
+            },
+            {
+              "id": "answer-5",
+              "text": "Следим логическата последователност на действието."
+            },
+            {
+              "id": "answer-6",
+              "text": "Готовият надпис може да изчезва произволно между съседни кадри."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Планът превежда посланието в конкретни кадри, време, действие и звук. Проверявайте сумата и последователността, а при заснемане оставяйте материал за изрязване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Светлина, фон и разбираема реч",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"light\">Светлина и фон преди записа</h3><p>Проверете всяка позиция на камерата. Когато смените плана, могат да се променят фонът, сенките и светлината върху обекта.</p><ul><li>Обектът и важните детайли трябва да са различими.</li><li>Не поставяйте говорещия пред много ярък фон, ако лицето остава тъмно.</li><li>Потърсете постоянна светлина; сравнете дали цветовете не се променят между кадрите.</li><li>Огледайте кабели, случайни предмети, отражения и чужди лични данни в кадъра.</li><li>Ако лампа предизвиква видимо трептене, сменете мястото или осветяването и направете нова проба.</li></ul><p>Прегледайте кратък запис, вместо да съдите само по картината преди натискането на бутона.</p><h3 id=\"sound\">Разбираем говор и подходящ фонов звук</h3><p>Звукът трябва да помага на посланието. За обяснение най-важна е ясната реч. Шум от коридор, вентилатор или движение на телефона може да я затрудни.</p><ol><li>Изберете спокойно място и намалете ненужния шум.</li><li>Поставете камерата или микрофона достатъчно близо, без да нарушавате кадрирането.</li><li>Не закривайте микрофона с ръка и не търкайте устройството по време на запис.</li><li>Запишете кратка проба с действителната сила на гласа.</li><li>Изслушайте със слушалки: разбират ли се всички думи?</li></ol><p>Ако едновременното заснемане и говорене е трудно, можете да планирате отделен гласов коментар. Записвайте го на тихо място и го свържете с подходящите действия при монтажа.</p><p>Музиката е по избор. Тя не трябва да заглушава речта. Ако използвате чужда музика, проверете разрешението за употребата ѝ. Подгответе точния текст на речта, за да можете да добавите субтитри в следващия урок.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/topic-2.svg\" width=\"760\" height=\"192\" alt=\"Светлина и фон преди записа; Разбираем говор и подходящ фонов звук\"><figcaption>Светлина, фон и разбираема реч</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "План, проба и заснемане",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"practice\">Практическа задача: план и заснемане</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/33-video-plan.txt\" download=\"33-video-plan.txt\">Изтеглете образеца за план</a> или запишете същите полета в свой документ.</p><ol><li>Изберете тема от проекта си и формулирайте едно послание.</li><li>Напишете кратко начало, основна част и край.</li><li>Съставете списък от 5–8 кадъра с времена за готово видео от 30–60 секунди.</li><li>За всеки кадър отбележете плана, действието, светлината, звука и текста на екрана.</li><li>Направете пробен запис с говор и прегледайте светлината и звука.</li><li>Коригирайте проблема и заснемете липсващите откъси. Прегледайте ги, преди да приключите.</li><li>Дайте на избраните файлове ясни имена по реда им в плана.</li></ol><p><strong>Резултат:</strong> сценарий, списък с кадри, подбрани записи и текст на речта. Запазете комплекта за монтажа в урок 34.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/topic-3.svg\" width=\"760\" height=\"108\" alt=\"Практическа задача: план и заснемане\"><figcaption>План, проба и заснемане</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Прочетете още",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Web-design-12/32-Video-Composition-and-Stability.html\">Урок 32 — композиция и стабилност</a>; <a href=\"https://martin-lift.github.io/108/Web-design-12/29-Photo-Light-and-Details.html\">урок 29 — светлина и фон</a>; <a href=\"https://imaging.nikon.com/imaging/support/digitutor/z_8/techniques/202308_50_02_ml.html\">Nikon — заснемане на подходящи за монтаж откъси</a>.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/topic-4.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Прочетете още</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-guide",
+        "step_content": {
+          "type": "information",
+          "title": "Попълнете плана и го проверете с пробен запис",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/33-video-plan.txt\" download>образеца за план</a>. Запишете тема, аудитория, едно послание, ориентация и целева продължителност.</li><li>Опишете начало, основна част и край. Повторете блока за кадър 5–8 пъти и попълнете: време в готовото видео, план, действие, светлина/фон, звук и точен текст на речта или надписа.</li><li>Съберете времената: общо 30–60 секунди, без неволни пропуски или застъпвания. Записите могат да са по-дълги от използваните части.</li><li>Прегледайте наличните откъси от урок 32 или заснемете нужните, ако започвате самостоятелно. Отбележете кои кадри използвате и какво трябва да доснимате.</li><li>Направете кратка проба с действителния говор. Изслушайте със слушалки и проверете светлината, фона и всяка дума. В плана запишете „проблем → поправка → резултат“, после заснемете липсващото.</li><li>Запазете плана като <code>33-video-plan.txt</code> с UTF-8. Предайте него; оригиналните записи и подбраният комплект пазете за монтажа.</li></ol><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/practice-guide.svg\" width=\"760\" height=\"276\" alt=\"Пазете оригиналите и работния проект; Подгответе посочения краен резултат; Отворете повторно и предайте\"><figcaption>Попълнете плана и го проверете с пробен запис</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте сценария и списъка с кадри",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Прикачете попълнения текстов план с 5–8 кадъра, общо 30–60 секунди, текст на речта и резултат от пробния запис. Клиповете остават локално за следващия урок.</p><p class=\"focus\">Запазете и отворете файла повторно. Използвайте бутона за прикачване в тази стъпка и проверете показаното име: <strong>33-video-plan.txt</strong> (или работното име с вашите инициали). Максимален размер: 20 MB.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "review-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверете времената в своя план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Запишете продължителността на всеки от своите 5–8 кадъра и общата сума. Посочете дали посланието се побира в 30–60 секунди.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Пример: 5+7+7+8+9+9=45 секунди. Това е време в готовото видео; заснетите откъси може да са по-дълги за изрязване. Проверете вашите сбор, последователност и време за прочитане на надписите. Примерните числа не са задължителни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Сценарий или списък на кадрите?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Каква различна информация дава сценарият и каква — списъкът с кадри?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Сценарият описва идеята, историята и какво зрителят вижда и чува. Списъкът я превръща в конкретни кадри с план, действие, време, светлина и звук, така че да знаем какво да заснемем."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Какво показа звуковата проба?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Опишете един резултат от пробата с говор и какво запазихте или променихте преди окончателното заснемане.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Пример: „Вентилаторът заглушаваше края на изреченията. Преместих се на тихо място и повторих пробата по-близо до микрофона; думите станаха разбираеми.“ Ако пробата е добра, обяснете по какво сте го установили. Не твърдете, че музика или по-силен звук автоматично поправя лош запис."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомним?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>Краткото видео има едно основно послание.</li><li>Сценарият описва историята, списъкът — конкретните кадри.</li><li>Времената за готовото видео трябва да се събират.</li><li>Пробният запис проверява светлината и разбираемия говор.</li><li>Пазим подбраните записи и точния текст на речта за монтажа.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/images/summary.svg\" width=\"760\" height=\"604\" alt=\"Краткото видео има едно основно послание.; Сценарият описва историята, списъкът — конкретните кадри.; Времената за готовото видео трябва да се събират.; Пробният запис проверява светлината и разбираемия говор.; Пазим подбраните записи и точния текст на речта за монтажа.\"><figcaption>Какво да запомним?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

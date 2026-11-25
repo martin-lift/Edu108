@@ -1,0 +1,242 @@
+{
+  "mission_version": 4,
+  "mission_id": "025d771f-9369-4c2f-bfc4-c997c5a0d2ba",
+  "next_mission_id": "925b57c2-8767-4a8e-8849-cf437f993673",
+  "mission_content": {
+    "title": "Подбор и обработка на фотографии",
+    "description": "Ще подберете три фотографии, ще приложите само нужните корекции и ще сравните резултата с оригинала.",
+    "class_name": "12",
+    "subject": "Уеб дизайн",
+    "category": "Мултимедия за уеб",
+    "lesson": "Подбор и обработка на фотографии",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Ще подберете три фотографии, ще приложите само нужните корекции и ще сравните резултата с оригинала.</p><p>Четете обясненията, изпробвайте действията и запазвайте работата си. Отворените въпроси показват примерен отговор след предаване. При собствена тема са възможни различни обосновани решения.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/purpose.svg\" width=\"760\" height=\"276\" alt=\"Заснемане според целта; Подбор и сравнение; Проверен материал за сайта\"><figcaption>За какво е този урок?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Подбор според целта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"selection\">Подбор преди обработката</h3><p class=\"note\">Поредицата свързва заснемане на снимки, светлина, подбор, подготовка за уеб, видеозаснемане, сценарий и монтаж. Използвайте достъпен предмет или клубна дейност. Пазете оригиналите и работните проекти в своя папка; в мисията предавайте точно посочения резултат. Ако започвате оттук, заснемете нужните кадри за избраната тема — не е необходим чужд готов проект.</p><p>Започнете със снимките от уроци 28–29. Ако ги нямате, заснемете три различни гледни точки към избран достъпен предмет; цифровите образци по-долу служат за упражнения с инструментите. Разгледайте ги като серия, а после увеличете най-подходящите. Снимката трябва да отговаря на целта на сайта, а не само да е ефектна.</p><ul><li><strong>Съдържание:</strong> показва ли ясно темата и основния обект?</li><li><strong>Композиция:</strong> има ли подходящ баланс, фон и място около обекта?</li><li><strong>Техническо качество:</strong> важните детайли на фокус ли са; има ли размазване?</li><li><strong>Светлина и цвят:</strong> виждат ли се нужните детайли и правдоподобни ли са цветовете?</li><li><strong>Предназначение:</strong> позволява ли кадърът нужния широк или вертикален вариант?</li></ul><p>Отхвърлете повторенията. Изберете три различни кадъра, които се допълват. За всеки запишете едно силно качество и една необходима поправка. Силно размазана важна част често е основание за повторно заснемане, а не за все по-силно изостряне.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/topic-1.svg\" width=\"760\" height=\"108\" alt=\"Подбор преди обработката\"><figcaption>Подбор според целта</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изрязване, изправяне и мащабиране",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"crop\">Изрязване, изправяне и размер</h3><ul><li>Кадрирането премахва части от изображението; мащабирането променя броя пиксели.</li><li>Интерполацията изчислява нови пиксели при преоразмеряване, но не възстановява липсващ реален детайл.</li><li>Снимка с неправилни пропорции изглежда разтеглена; заключвайте съотношението.</li></ul><ol><li>Използвайте Crop и задайте фиксирано съотношение 1:1.</li><li>За мащабиране използвайте Image → Scale Image със свързани ширина и височина.</li><li>При завъртане проверете краищата на платното; кадрирайте след изправянето.</li></ol><p>При работа със собствен кадър първо решете какво трябва да остане. Изправете случайния наклон, после проверете краищата. Изрязването не трябва да отнема важна част от обекта. Намаляването до размер за уеб ще направите според конкретното място в сайта.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/topic-2.svg\" width=\"760\" height=\"108\" alt=\"Изрязване, изправяне и размер\"><figcaption>Изрязване, изправяне и мащабиране</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Тонови и цветови корекции",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"light\">Яркост, контраст и детайли</h3><ul><li>Яркостта измества светлотата; контрастът променя разликата между светли и тъмни области.</li><li>Хистограмата показва разпределението на тоновете от черно до бяло; тя не е изображение на позициите им.</li><li>Levels/Нива настройва черна точка, бяла точка и средни тонове. Прекомерната корекция губи детайли в сенки и светлини.</li></ul><ol><li>Отворете dark-product.png и дублирайте оригинала.</li><li>Използвайте Colors → Brightness-Contrast за проба и Colors → Levels за отделна версия.</li><li>Включвайте и изключвайте слоя за сравнение при 100%.</li></ol><p>Не е необходимо всяка снимка да има еднаква яркост. Оценявайте дали обектът и важните детайли се виждат. Прекаленото изсветляване може да направи светлите области бездетайлни, а силният контраст — да скрие сенките.</p><h3 id=\"colour\">Умерени цветови корекции</h3><ul><li>Балансът на бялото цели неутралните области да нямат нежелан цветен оттенък.</li><li>Наситеността описва силата на цвета; повишаването ѝ не е универсално подобрение.</li><li>За каталог цветовете на продукта трябва да са правдоподобни и последователни между снимките.</li></ul><ol><li>Отворете warm-product.png и оригиналния product.png за сравнение.</li><li>На копие използвайте Colors → Color Balance, после Hue-Saturation при нужда.</li><li>Не променяйте цвета на продукта само за по-ефектна реклама.</li></ol><p>За собствените фотографии сравнявайте с действителния вид на сцената и с останалите кадри от серията. Не променяйте събития или премахвайте съществени обекти така, че изображението да създава подвеждаща представа.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/topic-3.svg\" width=\"760\" height=\"192\" alt=\"Яркост, контраст и детайли; Умерени цветови корекции\"><figcaption>Тонови и цветови корекции</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "check-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверете разбирането: Тонови и цветови корекции",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Кои твърдения са верни?</p><p class=\"focus\">Отбележете всички верни отговори. Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Прекалената корекция може да загуби детайли."
+            },
+            {
+              "id": "answer-2",
+              "text": "Повече наситеност винаги означава по-добра снимка."
+            },
+            {
+              "id": "answer-3",
+              "text": "Балансът на бялото е свързан с нежелания цветен оттенък."
+            },
+            {
+              "id": "answer-4",
+              "text": "Хистограмата е карта на местата на обектите."
+            },
+            {
+              "id": "answer-5",
+              "text": "Сравняването с оригинала помага да оценим промяната."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка снимка трябва да получи еднаква силна корекция."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Корекцията следва конкретния кадър. Хистограмата показва разпределение на тоновете, не позиции; запазвайте правдоподобни цветове и видими важни детайли."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Редактор и учебни образци",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"tools\">Редактор и учебни материали</h3><p>Стъпките по-горе са за GIMP. В Photopea можете да отворите файла с <strong>File → Open</strong>, да използвате инструмента <strong>Crop</strong> и менюто <strong>Image → Adjustments</strong>. Съответните настройки са Brightness/Contrast, Levels и Hue/Saturation. Имената и разположението зависят от езика и версията.</p><p>Разграничавайте работен документ и крайно изображение. В GIMP работният формат е XCF, а в Photopea можете да запазите PSD. За показване в сайта експортирайте подходящ формат. Запазете изходния кадър като източник за сравнение.</p><p>Основната работа е с ваши снимки. За допълнително упражняване можете да използвате наличните учебни изображения:</p><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1rem\"><figure style=\"margin:0\"><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Economic%20Informatics/files/graphics/dark-product.png\" alt=\"Затъмнен учебен образец с чаша върху фон\" style=\"width:100%;height:auto\"><figcaption><a href=\"https://martin-lift.github.io/108/Economic%20Informatics/files/graphics/dark-product.png\" download=\"\">Затъмнен образец</a></figcaption></figure><figure style=\"margin:0\"><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Economic%20Informatics/files/graphics/product.png\" alt=\"Основен учебен образец с чаша върху фон\" style=\"width:100%;height:auto\"><figcaption><a href=\"https://martin-lift.github.io/108/Economic%20Informatics/files/graphics/product.png\" download=\"\">Основен образец за сравнение</a></figcaption></figure></div><p>Това са цифрови учебни илюстрации, а не фотографии на реален продукт. Те са предоставени с <a href=\"https://martin-lift.github.io/108/Economic%20Informatics/files/graphics/README.txt\">описание и разрешение за използване</a>. За изправяне има <a href=\"https://martin-lift.github.io/108/Economic%20Informatics/files/graphics/tilted-product.png\" download=\"\">наклонен образец</a>, а за цветови корекции — <a href=\"https://martin-lift.github.io/108/Economic%20Informatics/files/graphics/warm-product.png\" download=\"\">образец с топъл оттенък</a>.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Три избрани фотографии",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"practice\">Практическа задача: три избрани фотографии</h3><ol><li>Подредете снимките си и изберете три по критериите за подбор.</li><li>Запишете къде бихте използвали всяка — банер, представяне или галерия.</li><li>За всяка направете само необходимите корекции: изправяне и изрязване, умерена яркост и контраст, цвят при нужда.</li><li>Сравнете изходния кадър и резултата при сходен изглед, а детайлите — при увеличение 100%.</li><li>Намалете корекцията, ако се губят детайли, цветовете стават неестествени или обектът изглежда изрязан неправилно.</li><li>Запазете работния документ и експортирайте вариант за преглед с ясно име.</li></ol><p>За всеки кадър добавете: „Защо го избрах → какво промених → какво се подобри“. Ако не е необходима определена корекция, посочете това, вместо да я прилагате задължително.</p><p><strong>Резултат:</strong> три обработени фотографии, работни документи и кратка обосновка. Използвайте същите фотографии при подготовката за уеб в следващия урок.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/topic-5.svg\" width=\"760\" height=\"140\" alt=\"Практическа задача: три избрани фотографии\"><figcaption>Три избрани фотографии</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "Прочетете още",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li><a href=\"https://martin-lift.github.io/108/Economic%20Informatics/74-Crop-Resize.html\">Изрязване и промяна на размер — наличен учебен материал</a></li><li><a href=\"https://martin-lift.github.io/108/Economic%20Informatics/79-Brightness-Levels.html\">Яркост, контраст и нива — наличен учебен материал</a></li><li><a href=\"https://martin-lift.github.io/108/Economic%20Informatics/80-Colour-Correction.html\">Цветови корекции — наличен учебен материал</a></li><li><a href=\"https://www.photopea.com/learn/image-size\">Photopea — размер и изрязване</a>; <a href=\"https://www.photopea.com/learn/adjustments-filters\">корекции</a>; <a href=\"https://www.photopea.com/learn/opening-saving\">отваряне и запазване</a>.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/topic-6.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Прочетете още</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-guide",
+        "step_content": {
+          "type": "information",
+          "title": "Подгответе три обработени копия за преглед",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Изберете три различни собствени фотографии. За всяка запишете предназначение, силно качество и необходима поправка. Използвайте цифровите образци само за упражняване на инструментите, не вместо собствените фотографии.</li><li>Отворете кадъра в GIMP или Photopea. Запазете работен документ XCF/PSD с различно име от източника. Пазете оригинала отделно.</li><li>Изправете случайния наклон и изрежете само ненужното. Приложете умерени тонови и цветови корекции само при нужда. Ако определена корекция не е нужна, обосновете защо.</li><li>Сравнете с оригинала при еднакво увеличение и проверете важните детайли при 100%. За предаване експортирайте три JPEG копия: 30-photo-1.jpg, 30-photo-2.jpg и 30-photo-3.jpg, с по-дълга страна до 1600 px и запазени пропорции. Не увеличавайте малък източник.</li><li>Попълнете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/30-photo-review.txt\" download>краткия отчет</a>. Съберете трите JPEG файла и отчета в <code>30-photo-review.zip</code>. Работните XCF/PSD и оригиналите запазете локално; не ги замествайте с прегледните копия.</li><li>Разархивирайте за проба и отворете трите изображения. Проверете имената, цветовете, краищата и четимите детайли.</li></ol><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/practice-guide.svg\" width=\"760\" height=\"276\" alt=\"Пазете оригиналите и работния проект; Подгответе посочения краен резултат; Отворете повторно и предайте\"><figcaption>Подгответе три обработени копия за преглед</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте трите обработени фотографии",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Прикачете ZIP с три JPEG копия за преглед и попълнения отчет. Оригиналите и работните документи остават запазени при вас.</p><p class=\"focus\">Запазете и отворете файла повторно. Използвайте бутона за прикачване в тази стъпка и проверете показаното име: <strong>30-photo-review.zip</strong> (или работното име с вашите инициали). Максимален размер: 20 MB.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "review-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Една обоснована корекция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Изберете една от трите фотографии. Опишете предназначението, проблема в оригинала, корекцията и наблюдавания резултат.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Пример: „За изображение към текст изправих случайно наклонения хоризонт и изрязах празния десен край. Запазих целия предмет и не променях наситеността, защото цветовете бяха правдоподобни.“ Сравнете конкретен проблем и ефект. Не е задължително да използвате всяка настройка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Изрязване или мащабиране?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Каква е разликата между изрязване до 1:1 и намаляване на ширината със запазени пропорции?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Изрязването избира видимата част и може да премахне съдържание. Мащабирането променя пикселните размери на избраното изображение, без да сменя пропорциите. То не възстановява реален детайл, липсващ в източника."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Защо пазим XCF или PSD?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Защо JPEG експортът не замества работния документ и оригиналната снимка?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Работният документ пази слоевете и възможностите за последваща редакция; оригиналът е изходен материал за сравнение. JPEG е крайно растерно изображение с компресия и не запазва работните слоеве. Повторните JPEG експорти могат да натрупват загуби."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомним?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>Подборът предхожда обработката.</li><li>Изрязване и мащабиране променят различни неща.</li><li>Корекцията трябва да пази важните детайли.</li><li>Сравняваме с оригинала при сходен изглед и 100%.</li><li>Работният документ и крайното изображение са различни файлове.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/images/summary.svg\" width=\"760\" height=\"572\" alt=\"Подборът предхожда обработката.; Изрязване и мащабиране променят различни неща.; Корекцията трябва да пази важните детайли.; Сравняваме с оригинала при сходен изглед и 100%.; Работният документ и крайното изображение са различни файлове.\"><figcaption>Какво да запомним?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

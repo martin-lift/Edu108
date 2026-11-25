@@ -1,0 +1,216 @@
+{
+  "mission_version": 4,
+  "mission_id": "2650bd6d-dc4e-4ab0-b4df-49bf3fce2c07",
+  "next_mission_id": "b40ee5fb-f12b-442d-aef4-b9728c10ed52",
+  "mission_content": {
+    "title": "Фотография: композиция и гледна точка",
+    "description": "Ще заснемете шест варианта на една тема и ще изберете кадър според посланието и мястото му в уеб сайт.",
+    "class_name": "12",
+    "subject": "Уеб дизайн",
+    "category": "Мултимедия за уеб",
+    "lesson": "Фотография: композиция и гледна точка",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Ще заснемете шест варианта на една тема и ще изберете кадър според посланието и мястото му в уеб сайт.</p><p>Четете обясненията, изпробвайте действията и запазвайте работата си. Отворените въпроси показват примерен отговор след предаване. При собствена тема са възможни различни обосновани решения.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/purpose.svg\" width=\"760\" height=\"276\" alt=\"Заснемане според целта; Подбор и сравнение; Проверен материал за сайта\"><figcaption>За какво е този урок?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Основен обект, баланс и свободно пространство",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"subject\">Какво показва снимката?</h3><p class=\"note\">Поредицата свързва заснемане на снимки, светлина, подбор, подготовка за уеб, видеозаснемане, сценарий и монтаж. Използвайте достъпен предмет или клубна дейност. Пазете оригиналите и работните проекти в своя папка; в мисията предавайте точно посочения резултат. Ако започвате оттук, заснемете нужните кадри за избраната тема — не е необходим чужд готов проект.</p><p><strong>Фотографската композиция</strong> е подредбата на видимите елементи в кадъра. Преди да снимате, отговорете: „Кое е най-важното тук?“. Това може да е човек, предмет, сграда или действие.</p><p><strong>Основният обект</strong> е причината да направите снимката. Той трябва да се различава от останалото. Можете да го откроите чрез разположение, размер в кадъра, светлина, цвят или по-спокоен фон.</p><p><strong>Пример:</strong> за страница на фотографски клуб снимка на ученик, който снима, показва дейност. Ако в кадъра преобладава празна стена, а човекът едва се забелязва, посланието може да остане неясно.</p><h3 id=\"balance\">Баланс и свободно пространство</h3><p>Балансът е усещане за съгласуваност между частите на изображението. Голям, ярък или силно контрастен елемент често привлича вниманието. Проверявайте дали второстепенен предмет не отвлича погледа от основния.</p><p>Не е задължително двете половини да са еднакви. Симетрична фасада може да изглежда убедително в центъра. Обект встрани може да остави пространство за средата или за посоката на движение.</p><p><strong>Свободното пространство</strong> не е загубено място. То може да успокоява кадъра и да е полезно за заглавие в банер. Ако човек гледа или се движи в определена посока, сравнете вариант с повече място пред него.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/topic-1.svg\" width=\"760\" height=\"192\" alt=\"Какво показва снимката?; Баланс и свободно пространство\"><figcaption>Основен обект, баланс и свободно пространство</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "check-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверете разбирането: Основен обект, баланс и свободно пространство",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Кои твърдения са верни?</p><p class=\"focus\">Отбележете всички верни отговори. Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Първо определяме посланието и основния обект."
+            },
+            {
+              "id": "answer-2",
+              "text": "Основният обект задължително е в центъра."
+            },
+            {
+              "id": "answer-3",
+              "text": "Несиметричен кадър може да е балансиран."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всеки празен участък е грешка."
+            },
+            {
+              "id": "answer-5",
+              "text": "Свободното пространство може да служи за заглавие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Най-яркият второстепенен предмет винаги помага."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Разположението и визуалната тежест трябва да подкрепят посланието. Централна композиция или свободно място могат да са подходящи според предназначението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Третини, гледна точка и граници",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"thirds\">Правило на третините</h3><p>Представете си две вертикални и две хоризонтални линии, които разделят кадъра на девет равни части. Можете да включите такава мрежа в настройките на камерата, ако тя я предлага.</p><p>Опитайте основният обект да е близо до пресечна точка, а хоризонтът — до една от хоризонталните линии. Това е ориентир за сравнение, а не задължение. Централната композиция също може да е подходяща, например при симетрия.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/files/28-composition.svg\" alt=\"Схема: дърво в центъра и същото дърво близо до дясната третина на кадъра\" style=\"max-width:100%;height:auto;display:block\"><figcaption>Схематичен пример, а не фотография. Кой вариант бихте избрали за банер със заглавие вляво? Обяснете защо.</figcaption></figure><h3 id=\"viewpoint\">Гледна точка и граници на кадъра</h3><p>Променете позицията си, преди да разчитате на обработка. Снимането от нивото на обекта, отгоре или от по-ниска точка може да даде различно усещане. Една крачка встрани често променя и фона.</p><ul><li>Проверете дали основният обект е достатъчно голям и ясно видим.</li><li>Прегледайте четирите края: има ли случайно отрязани части?</li><li>Сравнете хоризонтален и вертикален кадър според бъдещото използване.</li><li>Използвайте мрежата, за да проверите хоризонта, когато той трябва да е изправен.</li><li>Не увеличавайте цифрово без нужда: сравнете с приближаване или промяна на позицията.</li></ul></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Заснемете шест варианта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><h3 id=\"practice\">Практическа задача: шест варианта</h3><p>Изберете достъпен предмет, растение или място, свързано с проекта ви. Използвайте телефон или фотоапарат. Ако включвате хора, съобразете заснемането и бъдещото публикуване с тяхното съгласие. Можете да изпълните цялата задача с предмет, растение или място без хора в кадър.</p><ol><li>Напишете с едно изречение какво трябва да показва снимката.</li><li>Направете два кадъра: централен и с обект до третина.</li><li>Направете още два от различна гледна точка.</li><li>Направете хоризонтален и вертикален вариант, като запазите ясния основен обект.</li><li>Разгледайте шестте снимки една до друга. Посочете две с най-ясно послание.</li><li>За всяка избрана снимка обяснете разположението, баланса, фона и свободното пространство.</li></ol><p><strong>Резултат:</strong> шест кадъра и кратко обяснение на избраните два. Запазете ги за следващите упражнения по светлина, подбор и обработка.</p><h3 id=\"check\">Проверка и самопроверка</h3><p>Покажете двата избрани кадъра на съученик, без първо да обяснявате темата. Нека посочи какво забелязва най-напред. Сравнете отговора с вашето намерение.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/topic-3.svg\" width=\"760\" height=\"192\" alt=\"Практическа задача: шест варианта; Проверка и самопроверка\"><figcaption>Заснемете шест варианта</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Прочетете още",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p><a href=\"https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines\">Nikon — насоки за композиция (на английски)</a>. За връзката с дизайна прегледайте <a href=\"https://martin-lift.github.io/108/Web-design-12/08-Web-Page-Mockup.html\">урок 8 — графичен модел</a>.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/topic-4.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Прочетете още</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-guide",
+        "step_content": {
+          "type": "information",
+          "title": "Подгответе шест кадъра и изберете един за предаване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Изберете предмет, растение или място. Напишете целта на снимката с едно изречение.</li><li>Заснемете шест варианта: централен, до третина, две различни гледни точки, хоризонтален и вертикален. Дайте ясни имена 28-center, 28-thirds, 28-view-a, 28-view-b, 28-wide, 28-portrait, като запазите действителните разширения.</li><li>Разгледайте цялата серия, а важния детайл — увеличен. Изберете два кадъра и сравнете основен обект, баланс, фон и свободно пространство.</li><li>За мисията изберете един от двата за конкретно място в сайт — например банер с надпис вляво. Предайте го като <code>28-selected.jpg</code>; сравнението на двата ще опишете в следващия въпрос. Запазете всичките шест оригинала за следващите уроци.</li><li>Отворете крайния файл повторно. Ако е HEIC или твърде голям, създайте JPEG копие по указанията по-долу; не променяйте само разширението. Не добавяйте силни корекции, които пречат да оценим композицията.</li></ol><p>За малко копие за преглед: отворете снимката в GIMP с File → Open; Image → Scale Image със свързани ширина и височина; намалете по-дългата страна до 1600 px, ако е по-голяма. File → Export As → ново име с .jpg, качество около 85; отворете експорта и проверете детайлите. В Photopea: File → Open, Image → Image Size със запазени пропорции, File → Export As → JPG. Това е копие за предаване; оригиналът остава отделно. <a href=\"https://docs.gimp.org/3.0/en/gimp-image-scale.html\">GIMP: мащабиране</a> · <a href=\"https://docs.gimp.org/3.0/en/gimp-tutorial-quickie-jpeg.html\">JPEG експорт</a>.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/practice-guide.svg\" width=\"760\" height=\"276\" alt=\"Пазете оригиналите и работния проект; Подгответе посочения краен резултат; Отворете повторно и предайте\"><figcaption>Подгответе шест кадъра и изберете един за предаване</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте избраната композиция",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Прикачете един избран JPEG кадър. Шестте оригинални варианта остават във вашата папка; в отделния въпрос обяснете избора и сравнете двата най-подходящи.</p><p class=\"focus\">Запазете и отворете файла повторно. Използвайте бутона за прикачване в тази стъпка и проверете показаното име: <strong>28-selected.jpg</strong> (или работното име с вашите инициали). Максимален размер: 20 MB.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "review-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Защо избрахте този кадър?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>В 4–6 изречения сравнете двата избрани варианта и обосновете кой е подходящ за конкретно място в сайт. Назовете файловете, основния обект, фона и свободното пространство.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Пример: „28-thirds оставя свободно място вляво за заглавие и държи предмета ясно вдясно. В 28-center той е по-голям, но текстът би го закрил. Избирам първия за банер.“ Сравнете конкретни наблюдения от двата кадъра и връзката с предназначението. Друг избор е правилен, ако е обоснован."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Баланс или симетрия?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Може ли несиметричен кадър да е балансиран? Дайте пример с основен обект и второстепенен елемент.</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Да: по-голям предмет вдясно може да се съгласува с по-малък, но ярък елемент вляво. Важно е второстепенният елемент да не отвлича вниманието от посланието. Балансът е усещане за съгласуваност, а симетрията — сходство на двете страни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Проверка на границите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Каква конкретна поправка бихте направили при случайно отрязана част от основния предмет?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Променете позицията, разстоянието или кадрирането преди повторно снимане, така че важната част да се побира и фонът да остава подходящ. Не е достатъчно механично да поставите предмета на третина; проверете и четирите края."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомним?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>Първо определяме основния обект и посланието.</li><li>Балансът не изисква симетрия.</li><li>Третините са ориентир, а не задължение.</li><li>Гледната точка променя и фона, и усещането.</li><li>Избираме кадъра според мястото му в сайта.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/images/summary.svg\" width=\"760\" height=\"572\" alt=\"Първо определяме основния обект и посланието.; Балансът не изисква симетрия.; Третините са ориентир, а не задължение.; Гледната точка променя и фона, и усещането.; Избираме кадъра според мястото му в сайта.\"><figcaption>Какво да запомним?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-complex-large-data-problems-full-20261125",
+  "mission_content": {
+    "title": "Сравняване на обекти по няколко показателя — пълна мисия",
+    "description": "Сравняване на обекти по няколко показателя",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Сравняване на обекти по няколко показателя",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Ще изпълните седем задачи и ще запазите резултатите от всяка в една работна книга.</p><p>Работете в настолен Microsoft Excel или LibreOffice Calc. Данните са учебни.</p><p>При сравняване на обекти разглеждаме няколко показателя: печалба, марж, оценка, клиенти и риск. Печалбата е Приход − Разход. Маржът е Печалба / Приход и се показва като процент.</p><p>Използваме пет учебни магазина с положителни приходи. Условието за разширяване е марж над 15% и оценка поне 4,5. Високият риск винаги води до Преглед. Първото правило и крайното решение остават в отделни колони, за да се проверят и двете.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/28-complex-large-data-problems/28-complex-large-data-problems-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтегляне, отворете него.</li><li>Отворете 28-complex-large-data-problems-clean.xlsx с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Всички задачи и обяснения са тук, в мисията. Работният файл съдържа само необходимите данни, готови елементи и места за резултати.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Печалба на всеки обект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Обекти</strong> въведете в <strong>I2</strong> <code>=C2-D2</code>. Натиснете Enter, изберете клетката и издърпайте малкия квадрат в долния ѝ десен ъгъл до <strong>I6</strong>. Проверете формулата и в последния ред.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p><strong>Проверка:</strong> 27000; 13000; 17000; 4000; 33000 лв.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Марж на всеки обект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Обекти</strong> въведете в <strong>J2</strong> <code>=I2/C2</code>. Натиснете Enter, изберете клетката и издърпайте малкия квадрат в долния ѝ десен ъгъл до <strong>J6</strong>. Проверете формулата и в последния ред.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p>Маржът е делът на печалбата в прихода. Форматирайте J2:J6 като процент: Home → Percent Style в Excel или процентния бутон в Calc; покажете една цифра след десетичния знак чрез Ctrl+1.</p><p><strong>Проверка:</strong> 21,6%; 12,0%; 12,3%; 4,3%; 22,1%. Условията използват точните стойности на формулите.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Правило за разширяване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Обекти</strong> въведете в <strong>H2</strong> <code>=IF(AND(J2&gt;15%;F2&gt;=4.5);&quot;Разширяване&quot;;&quot;Без разширяване&quot;)</code>. Натиснете Enter, изберете клетката и издърпайте малкия квадрат в долния ѝ десен ъгъл до <strong>H6</strong>. Проверете формулата и в последния ред.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p>При десетична запетая напишете <code>4,5</code> вместо <code>4.5</code>. AND изисква едновременно марж строго над 15% и оценка поне 4,5. IF избира текста.</p><p><strong>Проверка:</strong> Магазин A и Магазин E получават Разширяване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Приоритет на високия риск",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Обекти</strong> въведете в <strong>K2</strong> <code>=IF(G2=&quot;Висок&quot;;&quot;Преглед&quot;;H2)</code>. Натиснете Enter, изберете клетката и издърпайте малкия квадрат в долния ѝ десен ъгъл до <strong>K6</strong>. Проверете формулата и в последния ред.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p>Колона H запазва първото правило. Колона K е крайното решение: високият риск има предимство пред него.</p><p><strong>Проверка:</strong> За Магазин D крайното решение е Преглед. A и E остават Разширяване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Обобщение на приход и печалба",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>От <strong>Обекти!A1:K6</strong> създайте отделна обобщаваща таблица в нов лист <strong>Обобщение</strong>.</p><ol><li>Маркирайте целия източник със заглавията.</li><li><strong>Excel:</strong> Insert → PivotTable → New Worksheet → OK. Преименувайте новия лист на Обобщение.</li><li><strong>Calc:</strong> Data → Pivot Table → Insert or Edit → Current selection. В Source and Destination изберете New sheet (Нов лист); след създаване го преименувайте на Обобщение.</li><li>Подредете полетата: Регион в Rows / Row Fields (Редове), Приход и Печалба във Values / Data Fields (Стойности), и двете с функция Sum (Сума). Филтрите остават празни.</li><li>За функцията Sum в Excel използвайте Value Field Settings. В Calc щракнете два пъти върху полето в Data Fields. Потвърдете диалозите.</li></ol><p><strong>Проверка:</strong> Запад: приход 217000, печалба 31000; Изток: 257000 и 46000; Юг: 138000 и 17000. Общо 612000 и 94000 лв.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сравнение на регионите с диаграма",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Щракнете в обобщаващата таблица. <strong>Excel:</strong> Insert → PivotChart → Column → Clustered Column. <strong>Calc:</strong> Insert → Chart → Column; програмата разпознава обобщаващата таблица. Завършете помощника. Поставете диаграмата вдясно от таблицата. Оставете общия сбор извън категориите.</p><p>Заглавие: <strong>Приход и печалба по региони</strong>. Двете серии са в лева. Оставете легендата видима.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Избор на два обекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Избор</strong> попълнете A2:A3 с два обекта от учебния пример. В B2:B3 обосновете всеки избор с печалба, марж, оценка и риск. Посочете дали крайното решение в K подкрепя избора.</p><p><strong>Проверка:</strong> A: печалба 27000, марж 21,6%, оценка 4,6, среден риск. E: 33000, 22,1%, 4,7, нисък риск. Това са двата обекта, които изпълняват даденото правило за разширяване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>File (Файл) → Save As (Запиши като). Изберете Documents (Документи).</li><li>Запишете като <strong>28-full-Ime-Familia.xlsx</strong> в Excel или <strong>28-full-Ime-Familia.ods</strong> в Calc, за да запазите обектите в собствения формат на програмата. Заменете Ime-Familia с вашето име и фамилия.</li><li>Затворете и отворете отново същия файл в същата програма. Проверете резултатите и запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане във файла:</strong> Три листа: Обекти, Обобщение и Избор. I съдържа печалбата, J — маржа, H — първото правило, K — крайното решение. Запазени са обобщението, свързаната диаграма и двата обосновани избора.</p><p>Сценариите или обобщаващите обекти трябва да останат запазени и редактируеми.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>От Documents (Документи) изберете завършената работна книга 28-full-Ime-Familia.xlsx или 28-full-Ime-Familia.ods според програмата с вашето име.</li><li>Проверете избрания файл и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

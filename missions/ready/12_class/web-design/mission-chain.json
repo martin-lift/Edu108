@@ -1,0 +1,223 @@
+{
+  "subject": "Уеб дизайн",
+  "class_name": "12",
+  "missions": [
+    {
+      "lesson_number": 2,
+      "title": "Уеб сайт и система клиент–сървър",
+      "mission_id": "web-design-client-server-lesson-text-20261115-e",
+      "next_mission_id": "243a4338-4ad6-4c3e-bb37-3a2b61836fb4",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/02-Website-and-Client-Server/lesson-text.mission.json"
+    },
+    {
+      "lesson_number": 3,
+      "title": "Планиране на уеб сайт",
+      "mission_id": "243a4338-4ad6-4c3e-bb37-3a2b61836fb4",
+      "next_mission_id": "51074bc3-951a-435d-9de6-512193d8c126",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/03-website-planning/mission.json"
+    },
+    {
+      "lesson_number": 4,
+      "title": "Планиране на уеб сайт — упражнение",
+      "mission_id": "51074bc3-951a-435d-9de6-512193d8c126",
+      "next_mission_id": "eec4529d-8e97-4313-af8c-8862fdba012f",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/04-website-planning-practice/mission.json"
+    },
+    {
+      "lesson_number": 5,
+      "title": "Избор на име и регистриране на уеб сайт",
+      "mission_id": "eec4529d-8e97-4313-af8c-8862fdba012f",
+      "next_mission_id": "eacb727c-7a5d-402e-a15b-5b3253624be6",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/05-domain-name-and-web-hosting/mission.json"
+    },
+    {
+      "lesson_number": 6,
+      "title": "Проектиране и графичен дизайн на уеб сайт",
+      "mission_id": "eacb727c-7a5d-402e-a15b-5b3253624be6",
+      "next_mission_id": "e6c15c2f-3916-4198-94d1-77c5f5e83a13",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/06-web-design-and-site-structure/mission.json"
+    },
+    {
+      "lesson_number": 7,
+      "title": "Проектиране на уеб страница",
+      "mission_id": "e6c15c2f-3916-4198-94d1-77c5f5e83a13",
+      "next_mission_id": "5e34b7da-e6e4-4327-a253-641b3b50d338",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/07-web-page-design/mission.json"
+    },
+    {
+      "lesson_number": 8,
+      "title": "Създаване на графичен модел на уеб страница (mockup)",
+      "mission_id": "5e34b7da-e6e4-4327-a253-641b3b50d338",
+      "next_mission_id": "0c293140-010a-40e1-a8ac-101b646e3774",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/08-web-page-mockup/mission.json"
+    },
+    {
+      "lesson_number": 9,
+      "title": "Софтуер за създаване и избор на цветови схеми",
+      "mission_id": "0c293140-010a-40e1-a8ac-101b646e3774",
+      "next_mission_id": "16a05bc5-942e-4948-b1b4-37547406537c",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/09-color-scheme-software/mission.json"
+    },
+    {
+      "lesson_number": 10,
+      "title": "Стандарти в уеб дизайна и основни уеб технологии",
+      "mission_id": "16a05bc5-942e-4948-b1b4-37547406537c",
+      "next_mission_id": "491bc2c2-6487-4917-b7f4-b1606da62b5d",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/10-web-standards-and-technologies/mission.json"
+    },
+    {
+      "lesson_number": 11,
+      "title": "Специализирани софтуерни средства за създаване на уеб сайтове",
+      "mission_id": "491bc2c2-6487-4917-b7f4-b1606da62b5d",
+      "next_mission_id": "c6ae674c-f824-4e8f-ae60-ee2cadd2f5c0",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/11-specialized-web-editors/mission.json"
+    },
+    {
+      "lesson_number": 12,
+      "title": "Създаване на графичен модел на уеб страница — упражнение",
+      "mission_id": "c6ae674c-f824-4e8f-ae60-ee2cadd2f5c0",
+      "next_mission_id": "cf9695a8-291c-453f-b594-d1c9f65941db",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/12-web-page-mockup-practice/mission.json"
+    },
+    {
+      "lesson_number": 14,
+      "title": "Основи на HTML",
+      "mission_id": "cf9695a8-291c-453f-b594-d1c9f65941db",
+      "next_mission_id": "3eb32227-7933-421d-b3ee-6243b54853d9",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/14-html-basics/mission.json"
+    },
+    {
+      "lesson_number": 15,
+      "title": "HTML: текст, връзки и изображения",
+      "mission_id": "3eb32227-7933-421d-b3ee-6243b54853d9",
+      "next_mission_id": "c9c2e358-bbf7-4fcf-b76a-15f0dc2f333b",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/15-html-text-links-images/mission.json"
+    },
+    {
+      "lesson_number": 16,
+      "title": "HTML: таблици, списъци, аудио и видео",
+      "mission_id": "c9c2e358-bbf7-4fcf-b76a-15f0dc2f333b",
+      "next_mission_id": "9ed3a138-5b45-4848-9431-285b322cf224",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/16-html-tables-lists-media/mission.json"
+    },
+    {
+      "lesson_number": 17,
+      "title": "Вграждане на съдържание с iframe",
+      "mission_id": "9ed3a138-5b45-4848-9431-285b322cf224",
+      "next_mission_id": "996786a4-fb89-48c2-bbc9-904a3f770cc1",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/17-embedding-iframe/mission.json"
+    },
+    {
+      "lesson_number": 18,
+      "title": "Създаване на HTML форми",
+      "mission_id": "996786a4-fb89-48c2-bbc9-904a3f770cc1",
+      "next_mission_id": "071519d2-125c-4147-a30f-24e632aa95c1",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/18-html-forms/mission.json"
+    },
+    {
+      "lesson_number": 19,
+      "title": "Визуално оформление с CSS",
+      "mission_id": "071519d2-125c-4147-a30f-24e632aa95c1",
+      "next_mission_id": "a4c9472e-d69b-4a42-9a26-c689bfed7697",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/19-css-visual-design/mission.json"
+    },
+    {
+      "lesson_number": 20,
+      "title": "Основни CSS свойства — практическа работа",
+      "mission_id": "a4c9472e-d69b-4a42-9a26-c689bfed7697",
+      "next_mission_id": "69dd8d68-b7f9-4376-b4f6-c29d0c0e754e",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/20-css-properties-practice/mission.json"
+    },
+    {
+      "lesson_number": 21,
+      "title": "Адаптивна уеб страница — практическа работа",
+      "mission_id": "69dd8d68-b7f9-4376-b4f6-c29d0c0e754e",
+      "next_mission_id": "bf29089f-1d24-40b1-ad0a-1bfae2041b6b",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/mission.json"
+    },
+    {
+      "lesson_number": 23,
+      "title": "JavaScript: показване и скриване на съдържание",
+      "mission_id": "bf29089f-1d24-40b1-ad0a-1bfae2041b6b",
+      "next_mission_id": "566e53dd-01a8-47c0-83b7-abc99d0e7e95",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/23-javascript-show-hide/mission.json"
+    },
+    {
+      "lesson_number": 24,
+      "title": "JavaScript: превключване на светла и тъмна тема",
+      "mission_id": "566e53dd-01a8-47c0-83b7-abc99d0e7e95",
+      "next_mission_id": "858219a9-a600-4d9b-9a33-b0df03796012",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/24-javascript-theme-switch/mission.json"
+    },
+    {
+      "lesson_number": 25,
+      "title": "JavaScript: калкулатор за отстъпка",
+      "mission_id": "858219a9-a600-4d9b-9a33-b0df03796012",
+      "next_mission_id": "4febeaeb-f864-4856-aebd-c859ece9f39e",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/25-javascript-discount-calculator/mission.json"
+    },
+    {
+      "lesson_number": 26,
+      "title": "JavaScript: проверка на данните във форма",
+      "mission_id": "4febeaeb-f864-4856-aebd-c859ece9f39e",
+      "next_mission_id": "e4d56bf8-4291-49a8-8470-5ea5111250c1",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/26-javascript-form-validation/mission.json"
+    },
+    {
+      "lesson_number": 27,
+      "title": "JavaScript: филтриране на списък",
+      "mission_id": "e4d56bf8-4291-49a8-8470-5ea5111250c1",
+      "next_mission_id": "2650bd6d-dc4e-4ab0-b4df-49bf3fce2c07",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/27-javascript-list-filter/mission.json"
+    },
+    {
+      "lesson_number": 28,
+      "title": "Фотография: композиция и гледна точка",
+      "mission_id": "2650bd6d-dc4e-4ab0-b4df-49bf3fce2c07",
+      "next_mission_id": "b40ee5fb-f12b-442d-aef4-b9728c10ed52",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/28-photo-composition/mission.json"
+    },
+    {
+      "lesson_number": 29,
+      "title": "Фотография: светлина, фон и детайли",
+      "mission_id": "b40ee5fb-f12b-442d-aef4-b9728c10ed52",
+      "next_mission_id": "025d771f-9369-4c2f-bfc4-c997c5a0d2ba",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/29-photo-light-details/mission.json"
+    },
+    {
+      "lesson_number": 30,
+      "title": "Подбор и обработка на фотографии",
+      "mission_id": "025d771f-9369-4c2f-bfc4-c997c5a0d2ba",
+      "next_mission_id": "925b57c2-8767-4a8e-8849-cf437f993673",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/30-photo-selection-editing/mission.json"
+    },
+    {
+      "lesson_number": 31,
+      "title": "Подготовка на изображения за уеб",
+      "mission_id": "925b57c2-8767-4a8e-8849-cf437f993673",
+      "next_mission_id": "67f04bcc-2c60-4b51-95e9-76205cbd528d",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/31-images-for-web/mission.json"
+    },
+    {
+      "lesson_number": 32,
+      "title": "Видео: композиция и стабилност",
+      "mission_id": "67f04bcc-2c60-4b51-95e9-76205cbd528d",
+      "next_mission_id": "567dd37c-a41a-4743-81f2-265ac5aada9f",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/32-video-composition-stability/mission.json"
+    },
+    {
+      "lesson_number": 33,
+      "title": "Планиране и заснемане на кратко видео",
+      "mission_id": "567dd37c-a41a-4743-81f2-265ac5aada9f",
+      "next_mission_id": "93942baa-9429-4036-bc9f-506c00fe678b",
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/33-short-video-planning/mission.json"
+    },
+    {
+      "lesson_number": 34,
+      "title": "Монтаж и подготовка на видео за уеб",
+      "mission_id": "93942baa-9429-4036-bc9f-506c00fe678b",
+      "next_mission_id": null,
+      "source_url": "https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/34-video-editing-web/mission.json"
+    }
+  ]
+}

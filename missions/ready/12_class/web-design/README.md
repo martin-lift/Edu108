@@ -26,6 +26,7 @@
 
 | Урок | Мисия |
 |---|---|
+| 2 | [Уеб сайт и система клиент–сървър](https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/02-Website-and-Client-Server/lesson-text.mission.json) |
 | 3 | [Планиране на уеб сайт](03-website-planning/mission.json) |
 | 4 | [Планиране на уеб сайт — упражнение](04-website-planning-practice/mission.json) |
 | 5 | [Избор на име и регистриране на уеб сайт](05-domain-name-and-web-hosting/mission.json) |
@@ -58,3 +59,5 @@
 | 34 | [Монтаж и подготовка на видео за уеб](34-video-editing-web/mission.json) |
 
 Мисиите са свързани в реда на уроците. Уроците без готова мисия и контролните се пропускат.
+
+[Пълна верига по Mission ID и Next Mission ID](mission-chain.json): 31 мисии, от предпочетената мисия за урок 2 до урок 34, с пропускане на контролните 13 и 22.

@@ -1,0 +1,1067 @@
+{
+  "mission_version": 4,
+  "mission_id": "project-planning-quality-12-20261125",
+  "mission_content": {
+    "title": "Планиране на проект и осигуряване на качество на софтуера",
+    "description": "План, работни пакети, зависимости, ресурси, график и показатели; осигуряване и контрол на качеството с конкретни проверки. Пет практически задачи и три самопроверки с готова обратна връзка.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "4. Планиране на проект и осигуряване на качество на софтуера",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/plan.svg\" alt=\"Планът свързва резултатите с работата и проверките.\" width=\"760\" height=\"300\"><figcaption>Планът свързва резултатите с работата и проверките.</figcaption></figure>\n    <p>За да създаде софтуерен продукт, екипът трябва да организира работата и да уточни как ще проверява резултатите. Не е достатъчно да посочи само крайна дата.</p>\n    <p>В този урок ще разберете как целта и обхватът се превръщат в задачи, отговорности, зависимости и график. Ще различавате извършената работа от получения резултат и ще избирате подходящи показатели за напредък.</p>\n    <p>Ще можете да подготвите малък проектен план и проверки за качество. Примерите с приложение, игра и онлайн магазин показват приложимостта на понятията към различни софтуерни продукти.</p>\n  </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "project-plan",
+        "step_content": {
+          "type": "information",
+          "title": "Какво включва планът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/plan.svg\" alt=\"Обхват, задачи, отговорности, ресурси и проверки се планират заедно.\" width=\"760\" height=\"300\"><figcaption>Обхват, задачи, отговорности, ресурси и проверки се планират заедно.</figcaption></figure><p><strong>Планът на проекта</strong> описва как ще се извърши и организира работата за постигане на договорения резултат. Подготовката започва при изследването и планирането, а оценката на осъществимостта може да наложи уточнения.</p>\n    <p>За малък софтуерен проект трябва да са ясни:</p>\n    <ul>\n      <li><strong>Обхватът и резултатите:</strong> какво включваме, какво изключваме и какво ще предадем.</li>\n      <li><strong>Разделянето на работата:</strong> какви управляеми части и конкретни задачи са необходими.</li>\n      <li><strong>Отговорностите:</strong> кой изпълнява всяка задача и кой проверява резултата.</li>\n      <li><strong>Зависимостите и графикът:</strong> кое трябва да е готово преди друго, кога започва работата и кога завършва.</li>\n      <li><strong>Ресурсите и разходите:</strong> нужните хора, умения, техника, софтуер, време и средства.</li>\n      <li><strong>Качеството и приемането:</strong> какви изисквания спазваме и как ще докажем изпълнението им.</li>\n    </ul>\n    <p>Таблицата на отговорностите свързва задачите с участниците. Схемата на зависимостите показва реда на работата. Графикът добавя периодите и сроковете. Тези описания се допълват; само списъкът с имена или крайни дати не е пълен план.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-plan",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Пълен ли е планът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои елементи са необходими за малък проектен план?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Само името на приложението и крайна дата."
+            },
+            {
+              "id": "answer-2",
+              "text": "Включени резултати и граници на обхвата."
+            },
+            {
+              "id": "answer-3",
+              "text": "Задачи, отговорности, ресурси и зависимости."
+            },
+            {
+              "id": "answer-4",
+              "text": "Условия и проверки за приемане."
+            },
+            {
+              "id": "answer-5",
+              "text": "Списък с имена без задачи и отговорности."
+            },
+            {
+              "id": "answer-6",
+              "text": "Правило никога да не се уточняват изискванията."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Планът организира достигането до договорен резултат. Обхватът, задачите, отговорностите, сроковете, ресурсите и качеството се разглеждат свързано."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "plan-updates",
+        "step_content": {
+          "type": "information",
+          "title": "Начален и актуализиран план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/updates.svg\" alt=\"Промяната се описва с причина и последствия за работата.\" width=\"760\" height=\"300\"><figcaption>Промяната се описва с причина и последствия за работата.</figcaption></figure>\n    <p><strong>Началният план</strong> отразява първоначалната договорка. <strong>Актуализираният план</strong> показва съгласуваните промени и текущото планиране. При промяна записваме причината, засегнатите задачи и отражението върху обхвата, срока, ресурсите и проверките.</p>\n    <p>Одобрената версия служи за сравнение с действителното изпълнение. При актуализация трябва да остава ясно какво е било договорено и какво е променено. Преместването на крайна дата само по себе си не доказва, че проблемът със закъснението е решен.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-updates",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Как актуализираме плана?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Записваме причината и засегнатите задачи."
+            },
+            {
+              "id": "answer-2",
+              "text": "Преместването на крайна дата доказва, че проблемът е решен."
+            },
+            {
+              "id": "answer-3",
+              "text": "Преценяваме влиянието върху ресурси, срок, обхват и проверки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Одобрената версия служи за сравнение с изпълнението."
+            },
+            {
+              "id": "answer-5",
+              "text": "Актуализацията трябва да скрива предишната договорка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Началният план винаги остава изпълним независимо от новите факти."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Актуализацията отразява съгласуваните промени и текущото планиране. Трябва да се виждат първоначалната договорка и последствията, а не само новата дата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "work-packages",
+        "step_content": {
+          "type": "information",
+          "title": "Резултати и работни пакети",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/packages.svg\" alt=\"Работният пакет организира работа; разработката е получен резултат.\" width=\"760\" height=\"300\"><figcaption>Работният пакет организира работа; разработката е получен резултат.</figcaption></figure><p>Големият обхват се разделя на по-малки управляеми части. <strong>Йерархичната структура на работата</strong> (WBS) подрежда работата около резултатите на проекта. Тя показва какво трябва да бъде произведено и как по-малките части изграждат общия резултат. Самата структура не определя календарния ред.</p>\n    <p><strong>Работен пакет</strong> е обособена част от работата на най-ниското планирано ниво на такава структура. За него могат да се оценят необходимите ресурси, усилия и продължителност и да се определи отговорност. Той не е просто архив с файлове.</p>\n    <p><strong>Междинна разработка</strong> е проверим резултат от част от работата: прототип, описание на данните, работещ модул или пробна версия. Резултатът може да включва и нужните указания и доказателства за проверката му.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-packages",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Работа или резултат?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "WBS подрежда работата около резултатите."
+            },
+            {
+              "id": "answer-2",
+              "text": "Работният пакет е просто ZIP архив."
+            },
+            {
+              "id": "answer-3",
+              "text": "За работен пакет се оценяват ресурси, усилия и продължителност."
+            },
+            {
+              "id": "answer-4",
+              "text": "Междинната разработка е проверим резултат."
+            },
+            {
+              "id": "answer-5",
+              "text": "WBS сама определя календарния ред."
+            },
+            {
+              "id": "answer-6",
+              "text": "Междинните резултати не могат да бъдат проверени."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Структурата разбива обхвата на управляеми части. Пакетът е част от работата, задачите са конкретни действия, а разработката е резултатът."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "package-example",
+        "step_content": {
+          "type": "information",
+          "title": "Пример: добавяне на задача",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/packages.svg\" alt=\"Проектиране, разработване и проверка водят до работеща функция.\" width=\"760\" height=\"300\"><figcaption>Проектиране, разработване и проверка водят до работеща функция.</figcaption></figure><div class=\"example\">\n      <p><strong>Пример:</strong> работен пакет „Добавяне на задача“ включва проектиране, разработване и проверка на тази функция в приложение. Междинният резултат е работещ екран, който записва задача и я показва в списъка, заедно с описание на извършените проверки.</p>\n      <p>Конкретни задачи в пакета са „Подготви скица на екрана“, „Разработи записването“ и „Провери добавянето“. Пакетът организира работата, задачите описват действията, а разработката е полученият резултат.</p>\n    </div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-package-example",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Разграничете действията и резултата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>За пакета „Добавяне на задача“ кои изводи са правилни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Подготви скица“ е конкретна задача."
+            },
+            {
+              "id": "answer-2",
+              "text": "Работещият екран е само името на отговорника."
+            },
+            {
+              "id": "answer-3",
+              "text": "Пакетът включва и проверка на функцията."
+            },
+            {
+              "id": "answer-4",
+              "text": "Полученият екран и описаните проверки са резултат от работата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Самото започване на разработването доказва готовност."
+            },
+            {
+              "id": "answer-6",
+              "text": "Задачите и полученият резултат са едно и също понятие."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Пакетът обединява необходимата работа за резултата. Включва се проверка, а готовността се подкрепя с работеща функция и доказателства."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "dependencies",
+        "step_content": {
+          "type": "information",
+          "title": "Зависимости, продължителност и усилие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/dependencies.svg\" alt=\"Зависимостите и наличните хора определят изпълнимото застъпване.\" width=\"760\" height=\"300\"><figcaption>Зависимостите и наличните хора определят изпълнимото застъпване.</figcaption></figure><p><strong>Графикът</strong> показва планираните начални и крайни моменти, продължителностите и зависимостите на задачите. При изготвянето му се съобразяваме и с наличността на участниците.</p>\n    <p><strong>Зависимост</strong> има, когато една задача се нуждае от резултат на друга. Например разработването на договорените екрани зависи от уточняването на изискванията и дизайна. Задачи могат да протичат едновременно, ако зависимостите и ресурсите го позволяват.</p>\n    <p><strong>Продължителността</strong> е периодът, през който се изпълнява задачата. <strong>Усилието</strong> е общото работно време на участниците. Двама души, които работят по два пълни дни, влагат четири човекодни, но задачата може да има продължителност два дни. Винаги уточняваме използваните единици и наличното работно време.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-dependencies",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Кога могат да се застъпят задачите?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проверяваме и зависимостите, и наличността на хората."
+            },
+            {
+              "id": "answer-2",
+              "text": "Две задачи за един напълно зает човек винаги могат да вървят едновременно."
+            },
+            {
+              "id": "answer-3",
+              "text": "Двама души по два пълни дни влагат четири човекодни."
+            },
+            {
+              "id": "answer-4",
+              "text": "Продължителността и общото усилие са различни величини."
+            },
+            {
+              "id": "answer-5",
+              "text": "Графикът не включва начални и крайни моменти."
+            },
+            {
+              "id": "answer-6",
+              "text": "Ресурсите нямат значение, ако крайната дата е записана."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Периодът на задачата е продължителност, а сумарното работно време на хората е усилие. Застъпването трябва да е изпълнимо спрямо зависимостите и ресурсите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "schedule-example",
+        "step_content": {
+          "type": "information",
+          "title": "Примерен график",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/schedule.svg\" alt=\"Лентите показват същите относителни дни като таблицата.\" width=\"760\" height=\"300\"><figcaption>Лентите показват същите относителни дни като таблицата.</figcaption></figure><h3>Условен пример: приложение за лични задачи</h3>\n    <p>Първата версия включва добавяне на задача, отбелязване като изпълнена и филтър за неизпълнените. Мария и Иван планират следните условни работни дни. Приемаме, че в посочените периоди разполагат с необходимото работно време.</p>\n    <div class=\"table-wrap\">\n      <table class=\"schedule-example\">\n        <caption>Примерен график — дните са относителни спрямо началото</caption>\n        <thead><tr><th scope=\"col\">ID</th><th scope=\"col\">Задача</th><th scope=\"col\">Отговорник</th><th scope=\"col\">Продължителност</th><th scope=\"col\">Предходна задача</th><th scope=\"col\">Период</th></tr></thead>\n        <tbody>\n          <tr><td>A</td><td>Уточняване на изискванията</td><td>Мария</td><td>1 ден</td><td>Няма</td><td>Ден 1</td></tr>\n          <tr><td>B</td><td>Прототип и съгласуване на екраните</td><td>Иван</td><td>2 дни</td><td>A</td><td>Дни 2–3</td></tr>\n          <tr><td>C</td><td>Подготовка на тестови случаи</td><td>Мария</td><td>1 ден</td><td>A</td><td>Ден 2</td></tr>\n          <tr><td>D</td><td>Разработване на трите функции</td><td>Иван</td><td>3 дни</td><td>B</td><td>Дни 4–6</td></tr>\n          <tr><td>E</td><td>Проверки и поправки</td><td>Мария и Иван</td><td>2 дни</td><td>C и D</td><td>Дни 7–8</td></tr>\n          <tr><td>F</td><td>Предаване с указания</td><td>Мария</td><td>1 ден</td><td>E</td><td>Ден 9</td></tr>\n        </tbody>\n      </table>\n    </div>\n    <p>B и C протичат едновременно, защото след A могат да се изпълнят от различни хора. Ако и двете изискваха цялото работно време на Иван, това застъпване нямаше да е изпълнимо без промяна. E започва след подготовката на тестовете и разработването.</p>\n    <p>Деветте дни са планова оценка за този пример. Ако проверките открият повече работа, екипът оценява нужните поправки и уточнява последствията за предаването, вместо да обявява непроверен резултат за готов.</p><p>На тесен екран можете да превъртите таблицата хоризонтално.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-schedule",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Прочетете графика",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои изводи следват от примерния график?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "B и C могат да вървят след A с различни отговорници."
+            },
+            {
+              "id": "answer-2",
+              "text": "E започва преди разработването на D."
+            },
+            {
+              "id": "answer-3",
+              "text": "Предаването F е планирано за ден 9."
+            },
+            {
+              "id": "answer-4",
+              "text": "E зависи от C и D."
+            },
+            {
+              "id": "answer-5",
+              "text": "B и C изискват едновременно цялото време на Иван."
+            },
+            {
+              "id": "answer-6",
+              "text": "Планираните девет дни гарантират, че няма да има допълнителни поправки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "B и C имат обща предходна задача, но различни отговорници. E следва подготовката на тестове и разработването. Периодите са оценки и се уточняват при нова работа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "planning-tools",
+        "step_content": {
+          "type": "information",
+          "title": "Инструменти за представяне",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/tools.svg\" alt=\"Списъкът, времевата ос, таблото и календарът отговарят на различни въпроси.\" width=\"760\" height=\"300\"><figcaption>Списъкът, времевата ос, таблото и календарът отговарят на различни въпроси.</figcaption></figure><ul>\n      <li><strong>Списък със задачи (To Do):</strong> показва какво предстои. Подходящ е за малък набор от дейности, но сам по себе си може да не показва зависимости и периоди.</li>\n      <li><strong>Диаграма на Гант:</strong> представя задачите като ленти по времева ос. Показва периодите и застъпването им; зависимостите могат да бъдат означени допълнително.</li>\n      <li><strong>Канбан табло:</strong> прави видимо състоянието на работата чрез колони като „Предстои“, „В работа“, „За проверка“ и „Готово“. Преместването в „Готово“ трябва да означава изпълнени условия, а не само започната работа.</li>\n      <li><strong>Календар:</strong> показва срещи, контролни точки и крайни срокове по дати.</li>\n    </ul>\n    <p>Избираме представянето според въпроса, на който отговаряме. За периода на B и D е полезна времева ос; за текущото състояние на задачите — табло; за срещата по приемане — календар. Инструментите могат да се комбинират, но трябва да показват съгласувана информация.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-tools",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Изберете подходящото представяне",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои съответствия са правилни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Периоди и застъпване — диаграма на Гант."
+            },
+            {
+              "id": "answer-2",
+              "text": "Текущо състояние на задачите — канбан табло."
+            },
+            {
+              "id": "answer-3",
+              "text": "Среща за приемане по дата — календар."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всяка задача в „Готово“ е проверена независимо от правилата на екипа."
+            },
+            {
+              "id": "answer-5",
+              "text": "Списъкът със задачи винаги показва всички зависимости."
+            },
+            {
+              "id": "answer-6",
+              "text": "Различните инструменти трябва да показват противоречива информация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Представянето се избира според нужната информация. Общите правила за готовност и съгласуваните данни правят инструментите полезни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "milestones-indicators",
+        "step_content": {
+          "type": "information",
+          "title": "Цел, ключово събитие и показател",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/milestones.svg\" alt=\"Контролната точка отбелязва състояние; показателят дава наблюдаеми данни.\" width=\"760\" height=\"300\"><figcaption>Контролната точка отбелязва състояние; показателят дава наблюдаеми данни.</figcaption></figure><p><strong>Целта</strong> посочва желаното постижение. <strong>Ключовото събитие</strong> (milestone) отбелязва важно постигнато състояние, например „Одобрен прототип“. В графика ключовото събитие се отбелязва като момент, а работата за достигането му има продължителност.</p>\n    <p><strong>Показателят</strong> (индикаторът) дава наблюдаеми данни за напредъка или резултата. Уточняваме какво броим или измерваме, за кой период, с каква начална стойност и от какъв източник получаваме данните.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-milestones",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво измерваме и отбелязваме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "„Одобрен прототип“ може да е ключово събитие."
+            },
+            {
+              "id": "answer-2",
+              "text": "Показателят трябва да има ясно измервано съдържание и източник."
+            },
+            {
+              "id": "answer-3",
+              "text": "В графика ключовото събитие се отбелязва като момент."
+            },
+            {
+              "id": "answer-4",
+              "text": "Целта е само датата на срещата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяка произволна бройка измерва всяка цел."
+            },
+            {
+              "id": "answer-6",
+              "text": "Периодът и началната стойност никога не са важни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Събитието отбелязва постигнато състояние. Показателят изисква яснота какво и за кой период се измерва, за да подкрепя оценката на целта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "project-progress",
+        "step_content": {
+          "type": "information",
+          "title": "Доказателства за напредък",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/progress.svg\" alt=\"Три успешни проверки от пет са 60% от този набор проверки.\" width=\"760\" height=\"300\"><figcaption>Три успешни проверки от пет са 60% от този набор проверки.</figcaption></figure>\n    <p>За примерното приложение контролни точки могат да бъдат „Одобрен прототип“ след B и „Приета проверена версия“ след E. Доказателствата са конкретният прототип с решение за одобрение и версията със записани резултати от проверките.</p>\n    <p class=\"example\"><strong>Условен пример:</strong> от пет предварително определени проверки за една функция три са успешни — 3 ÷ 5 × 100 = 60%. Това е дял на успешните проверки в този набор. Не доказва, че целият проект е завършен на 60%, защото задачите и проверките могат да имат различна сложност и значение.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-project-progress",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво доказват трите проверки?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои изводи са обосновани?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "3 от 5 проверки са 60% от този набор."
+            },
+            {
+              "id": "answer-2",
+              "text": "Целият проект задължително е готов на 60%."
+            },
+            {
+              "id": "answer-3",
+              "text": "При контролната точка търсим конкретен резултат и доказателство."
+            },
+            {
+              "id": "answer-4",
+              "text": "Различните задачи и проверки могат да имат различна сложност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Достатъчно е устно да кажем, че сме работили."
+            },
+            {
+              "id": "answer-6",
+              "text": "Процентът от един набор доказва автоматично всички ползи от продукта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Процентът описва точно определения набор. Той не е автоматично процент за целия проект. Напредъкът се свързва с приети резултати и конкретни доказателства."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "product-outcomes",
+        "step_content": {
+          "type": "information",
+          "title": "Резултат от използването",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/outcomes.svg\" alt=\"От 1000 към 1200 посещения означава увеличение с 20%.\" width=\"760\" height=\"300\"><figcaption>От 1000 към 1200 посещения означава увеличение с 20%.</figcaption></figure>\n    <p>Ако целта на онлайн магазин е месечните посещения да се увеличат с 20%, пряко сравняваме посещенията за определените периоди по една и съща методика. При условни стойности от 1000 към 1200 посещения увеличението е 20%. Броят споделяния може да даде допълнителна информация, но не замества измерването на посещенията.</p>\n    <p>При изпробване на прототип на игра показател може да бъде колко от десет участници завършват въвеждаща задача без помощ. Той дава информация за разбираемостта на тази задача, но сам не доказва пазарен успех или печалба.</p>\n    <p class=\"note\">Различаваме напредъка на проектната работа от ползите при използване на продукта. За всеки показател проверяваме дали действително измерва заявената цел. Полученият резултат може да зависи и от други фактори.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-outcomes",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Показателят измерва ли целта?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "За цел за посещения сравняваме посещенията по еднаква методика."
+            },
+            {
+              "id": "answer-2",
+              "text": "Броят споделяния автоматично замества броя посещения."
+            },
+            {
+              "id": "answer-3",
+              "text": "От 1000 към 1200 е увеличение с 20%."
+            },
+            {
+              "id": "answer-4",
+              "text": "Завършена въвеждаща задача без помощ дава данни за разбираемостта ѝ."
+            },
+            {
+              "id": "answer-5",
+              "text": "Десет участници в проба доказват пазарна печалба."
+            },
+            {
+              "id": "answer-6",
+              "text": "Напредъкът на проекта и ползите от употребата винаги са едно и също."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Показателят трябва да е пряко свързан с целта и да има известни условия на измерване. Допълнителните данни са полезни, но не доказват автоматично други резултати."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "software-quality",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е качество на софтуера?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/quality.svg\" alt=\"Качеството се свързва с изискванията и потребностите на потребителите.\" width=\"760\" height=\"300\"><figcaption>Качеството се свързва с изискванията и потребностите на потребителите.</figcaption></figure><p><strong>Качеството</strong> е свързано с това доколко продуктът удовлетворява изискванията и потребностите на хората, за които е предназначен. То включва повече от приятен външен вид или липса на очевидна грешка.</p>\n    <p>Според продукта са важни различни характеристики. Например: правилно изпълнение на функциите, надеждно запазване на данните, разбираем интерфейс, приемливо време за реакция и подходяща защита на информацията. Общите думи трябва да се превърнат в конкретни изисквания и проверки.</p>\n    <div class=\"example\"><p><strong>Пример:</strong> за приложение за задачи „работи правилно“ може да се уточни така: новата задача се появява веднъж в списъка; след повторно отваряне записът е запазен; филтърът за неизпълнени не показва изпълнени задачи.</p></div>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-quality",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво включва качеството?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са правилни?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Правилните функции и надеждното запазване на данни са важни."
+            },
+            {
+              "id": "answer-2",
+              "text": "Качеството е само приятен цвят на екрана."
+            },
+            {
+              "id": "answer-3",
+              "text": "Изискванията се превръщат в конкретни проверки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Разбираемият интерфейс и времето за реакция могат да са важни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Липсата на очевидна грешка доказва, че са удовлетворени всички потребности."
+            },
+            {
+              "id": "answer-6",
+              "text": "Защитата на информацията никога не е свързана с качеството."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-4"
+          ],
+          "feedback": "Качеството се оценява спрямо предназначението, потребностите и изискванията. Общите характеристики трябва да се уточнят чрез наблюдаеми условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "assurance-control",
+        "step_content": {
+          "type": "information",
+          "title": "Осигуряване и контрол на качеството",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/assurance.svg\" alt=\"Подходящият процес и проверката на конкретните резултати се допълват.\" width=\"760\" height=\"300\"><figcaption>Подходящият процес и проверката на конкретните резултати се допълват.</figcaption></figure>\n    <p><strong>Осигуряването на качество</strong> създава увереност, че изискванията ще бъдат изпълнени чрез подходящ начин на работа: ясни изисквания, прегледи, правила за разработване и планирани проверки. <strong>Софтуерният процес</strong> е начинът, по който екипът организира създаването, проверяването и промените на продукта.</p>\n    <p><strong>Контролът на качеството</strong> проверява конкретните резултати спрямо изискванията, например чрез преглед на прототип или изпълнение на тестове. Двете се допълват: добре организираният процес помага да се предотвратят пропуски, а проверките показват какво действително е получено.</p>\n    <p>За качеството се мисли от началото и през цялата работа. Успешните тестове дават доказателства за проверените случаи, но не гарантират липса на всякакви грешки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-assurance",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Процес и проверен резултат",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Изберете верните твърдения.</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ясни изисквания и планирани прегледи подпомагат осигуряването на качество."
+            },
+            {
+              "id": "answer-2",
+              "text": "Контролът проверява конкретните резултати спрямо изискванията."
+            },
+            {
+              "id": "answer-3",
+              "text": "Качеството се обмисля още от началото."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един успешен тест гарантира липса на всякакви грешки."
+            },
+            {
+              "id": "answer-5",
+              "text": "Подходящият процес премахва нуждата да проверим продукта."
+            },
+            {
+              "id": "answer-6",
+              "text": "Проверките могат да започнат едва след приключване на всичко."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Подходящият процес помага да се предотвратяват пропуски. Контролът показва какво действително е получено. Тестовете дават доказателства само за проверените случаи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "quality-plan",
+        "step_content": {
+          "type": "information",
+          "title": "Как планираме проверките?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/checks.svg\" alt=\"Условие, действие и очакван резултат правят проверката повторима.\" width=\"760\" height=\"300\"><figcaption>Условие, действие и очакван резултат правят проверката повторима.</figcaption></figure><p><strong>Планът за качество</strong> уточнява изискванията, дейностите за осигуряването им, отговорностите и доказателствата за приемане. Съобразява се с обхвата, сложността на продукта, опита на екипа, наличните ресурси, срока, бюджета и договорените условия.</p>\n    <ul>\n      <li><strong>Какво проверяваме?</strong> Посочваме конкретно изискване или резултат.</li>\n      <li><strong>Кога и кой?</strong> Отделяме време и отговорник за прегледа, теста и повторната проверка.</li>\n      <li><strong>При какви условия?</strong> Задаваме примерни данни, начално състояние и среда.</li>\n      <li><strong>Какво действие и очакван резултат?</strong> Описваме повторима проверка.</li>\n      <li><strong>Какво записваме?</strong> Действителния резултат, откритите проблеми, поправките и изхода от повторната проверка.</li>\n    </ul>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-quality-plan",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Какво трябва да е уточнено?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои елементи принадлежат към плана за качество?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Какво изискване и при какви условия проверяваме."
+            },
+            {
+              "id": "answer-2",
+              "text": "Кога и кой извършва проверката."
+            },
+            {
+              "id": "answer-3",
+              "text": "Очакван и действителен резултат и последващи корекции."
+            },
+            {
+              "id": "answer-4",
+              "text": "Само броят на цветовете в интерфейса."
+            },
+            {
+              "id": "answer-5",
+              "text": "Правило да не се записват открити проблеми."
+            },
+            {
+              "id": "answer-6",
+              "text": "Отмяна на всички проверки при промяна на обхвата."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Планът уточнява изисквания, условия, отговорности, действия и доказателства. Съобразява се с продукта, ресурсите и договорката."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "test-examples",
+        "step_content": {
+          "type": "information",
+          "title": "Три примерни проверки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/testing.svg\" alt=\"Проверяваме добавяне, филтриране и невалидни данни.\" width=\"760\" height=\"300\"><figcaption>Проверяваме добавяне, филтриране и невалидни данни.</figcaption></figure>\n    <ol>\n      <li><strong>Добавяне:</strong> при празен списък въвеждаме измислена задача „Прочети разказ“ и я записваме. Очакваме тя да се появи точно веднъж.</li>\n      <li><strong>Филтриране:</strong> при три задачи, една от които е отбелязана като изпълнена, включваме филтъра „Неизпълнени“. Очакваме само другите две.</li>\n      <li><strong>Невалидни данни:</strong> опитваме запис с празно заглавие. Очакваме разбираемо съобщение и да не се създава празна задача.</li>\n    </ol>\n    <p>Това са условни, предварително договорени очаквания за примерния продукт. За учебните проверки използваме измислени данни. След поправка повтаряме засегнатите тестове и проверяваме дали други работещи функции не са нарушени.</p>\n    <p>В графика включваме не само разработване, но и прегледи, проверки, поправки и предаване. При промяна на обхвата преценяваме и нужните нови проверки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-tests",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Как изглежда конкретната проверка?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои очаквания са договорени в примера?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Записаната в празен списък задача се появява точно веднъж."
+            },
+            {
+              "id": "answer-2",
+              "text": "При три задачи с една изпълнена филтърът показва само двете неизпълнени."
+            },
+            {
+              "id": "answer-3",
+              "text": "Празното заглавие води до съобщение без празна задача."
+            },
+            {
+              "id": "answer-4",
+              "text": "След поправка не са нужни повторни проверки."
+            },
+            {
+              "id": "answer-5",
+              "text": "В графика няма място за поправки и предаване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Промяната на обхвата не изисква нови проверки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-3"
+          ],
+          "feedback": "Проверките задават начално състояние, действие и наблюдаем резултат. Поправките се проверяват повторно и се оценява влиянието върху други функции."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-scope",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: резултат и основна работа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Определете резултата и основните задачи на малък софтуерен проект.</strong></p><p>Изберете своя идея или познат продукт. В 3–5 изречения назовете потребителите, целта и включените функции. След това дайте поне пет конкретни задачи, които водят до договорения резултат.</p><p>Формулирайте задачите с действие и резултат: например „Подготви прототип на екрана“. Включете и проверки, поправки и предаване. Тук описвате план; не е необходимо да разработвате софтуера. Отговорете направо в мисията.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nПродуктът е прототип на каталог за книги с добавяне на книга, списък и търсене по заглавие. Потребители са хората, които поддържат и разглеждат каталога. Целта е да намират записи на едно място.\nA. Уточни изискванията и примерните данни.\nB. Подготви и съгласувай прототип на екраните.\nC. Подготви тестовите случаи.\nD. Разработи добавяне, списък и търсене.\nE. Провери функциите и поправи откритите проблеми.\nF. Предай проверения прототип с указания.\n\nСамопроверка: водят ли задачите до продукта и включения обхват? Има ли повече от писане на код? Вашата идея може да е друга, ако резултатът, потребителите и работата са ясни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-schedule",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: съставете график",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Съставете изпълним график за задачите от предходната стъпка.</strong></p><p>За всяка запишете <strong>„ID — отговорник — продължителност — ресурси — предходна задача — период“</strong>. Уточнете използваните единици и наличното работно време на участниците.</p><p>Посочете кои задачи могат да протичат едновременно и защо. Проверете дали не сте възложили две задачи за един и същ период, които изискват цялото време на един човек. Продължителността не е непременно равна на общото усилие.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример с относителни пълни работни дни и двама участници:\nA — Анна — 1 ден — компютър и примерни данни — няма — ден 1.\nB — Борис — 1 ден — компютър и редактор — A — ден 2.\nC — Анна — 1 ден — изисквания и примерни данни — A — ден 2.\nD — Борис — 2 дни — компютър и среда за разработване — B — дни 3–4.\nE — Анна и Борис — 1 ден — разработен прототип и тестови случаи — C и D — ден 5.\nF — Анна — 1 ден — проверена версия и указания — E — ден 6.\n\nB и C могат да вървят едновременно, защото имат необходимия резултат от A и различни отговорници. E започва едва след C и D. В примера двамата разполагат с посоченото пълно работно време.\n\nСамопроверка: спазени ли са зависимостите и наличността? Ясни ли са единиците? Вашите срокове и участници може да са различни. При ограничени часове седмично не приемайте автоматично, че една задача е завършена за един календарен ден."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-progress",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: контролни точки и показател",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете как ще установявате напредъка по своя план.</strong></p><p>Дайте две контролни точки със структура <strong>„Постигнато състояние — кога — доказателство“</strong>. След това добавете един показател: какво измерва, от какъв източник и за кой период или набор.</p><p>Обяснете с едно изречение какво показателят не може да докаже самостоятелно. Не смесвайте броя успешни проверки с процента готовност на целия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nКонтролна точка 1: „Одобрен прототип“ — след B, ден 2 — показани екрани и записано решение за одобрение.\nКонтролна точка 2: „Приета проверена версия“ — след E, ден 5 — конкретна версия и резултати от проверките.\nПоказател: брой успешни проверки за търсене от пет предварително определени случая. Източникът е записът на тестовете за тази версия. При четири успешни случая делът е 4 ÷ 5 × 100 = 80%.\nОграничение: 80% от този набор не означава 80% готовност на целия проект или доказана полезност за всички потребители.\n\nСамопроверка: има ли конкретни резултати и доказателства? Измерването свързано ли е с целта? Допустим е друг показател, ако са ясни смисълът и границите му."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-quality",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: три проверки за качество",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе три повторими проверки за своя продукт.</strong></p><p>За всяка напишете <strong>„Условие и примерни данни — действие — очакван резултат — кога и кой“</strong>. Включете поне един случай с невалидни данни. Използвайте измислени записи.</p><p>Свържете проверките с функции от обхвата. „Да работи добре“ не определя проверка. Посочете в коя задача от графика ще се изпълнят и предвидете повторна проверка след поправка.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример за каталога, изпълняван от Анна в E:\n1. При празен каталог въвеждаме книга „Море“ с примерен автор и я записваме. Очакваме точно един запис с тези данни.\n2. При книги „Море“, „Път“ и „Гора“ търсим цялото заглавие „Път“. Очакваме да се покаже само съответният запис.\n3. При празно поле за заглавие опитваме запис. Очакваме разбираемо съобщение и да не се добавя празна книга.\nСлед поправка повтаряме засегнатия тест и проверяваме дали добавянето, списъкът и търсенето продължават да работят.\n\nСамопроверка: може ли друг човек да повтори всяка проверка и да сравни резултата? Има ли невалидни данни, отговорник и период? Различни проверки са подходящи, ако отговарят на договорения ви продукт."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "practice-review",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: прегледайте и уточнете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Открийте и поправете един пропуск в своя план.</strong></p><p>Обсъдете плана с друг екип или съученик; при самостоятелна работа го прегледайте от позицията на възложителя. Потърсете пропусната зависимост, ресурсен конфликт или неясна проверка.</p><p>Въведете <strong>„Преди — открит пропуск — корекция — отражение“</strong>. Посочете как се променят срокът, ресурсите или проверките. Накрая сверете дали задачите остават свързани с обхвата и контролните точки имат доказателства.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример:\nПреди: E е планирана за ден 5 само с Борис, но той е на разположение едва от ден 6.\nОткрит пропуск: графикът не отчита наличността за поправките.\nКорекция: преместваме E на ден 6, потвърждаваме наличността на Анна и Борис и оставяме F след E.\nОтражение: предаването F се измества на ден 7; уточняваме промяната с възложителя. Проверената версия остава условие за предаване.\n\nСамопроверка: корекцията решава ли причината и отчита ли зависимите задачи? Само преместване на дата без анализ не е достатъчно. Вашият пропуск може да е различен, ако описвате конкретно отражението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: едновременни задачи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Две задачи с обща предходна задача винаги ли могат да се изпълнят едновременно?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате конкретен пример от своя план.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Проверяваме и ресурсите: ако и двете изискват цялото работно време на един човек или едно недостъпно едновременно устройство, периодите трябва да бъдат променени.\n\nСамопроверка: свържете обяснението с конкретни условия и доказателства, вместо да отговаряте само с „да“ или „не“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: работещи връзки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Как да проверим условието „всички връзки работят“?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате конкретен пример от своя план.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Подготвяме списък на очакваните връзки, отваряме ги последователно и сравняваме действителната с очакваната цел. Записваме резултатите, поправяме пропуските и проверяваме отново.\n\nСамопроверка: свържете обяснението с конкретни условия и доказателства, вместо да отговаряте само с „да“ или „не“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "self-check-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: състояние „Готово“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Достатъчно ли е задачата да е преместена в „Готово“?</strong></p><p>Обяснете със свои думи в 2–4 изречения. Може да използвате конкретен пример от своя план.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Трябва да е получен договореният резултат и да са изпълнени проверките за готовност. Колоната показва състояние само ако екипът използва общи и спазвани правила.\n\nСамопроверка: свържете обяснението с конкретни условия и доказателства, вместо да отговаряте само с „да“ или „не“."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "automatic_feedback": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}.note{background:#fff7e7;border-left:4px solid #b87a19;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}.schedule-example{min-width:760px}.schedule-example th,.schedule-example td{overflow-wrap:normal}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/04-project-planning-and-quality/images/plan.svg\" alt=\"Готовността се подкрепя с договорени резултати и повторими проверки.\" width=\"760\" height=\"300\"><figcaption>Готовността се подкрепя с договорени резултати и повторими проверки.</figcaption></figure><ol>\n      <li><strong>Планът</strong> свързва обхвата и резултатите със задачи, отговорности, ресурси и проверки.</li>\n      <li><strong>Графикът</strong> отчита зависимостите, продължителностите и наличността на участниците.</li>\n      <li><strong>Контролните точки и показателите</strong> се опират на конкретни доказателства за напредък или резултат.</li>\n      <li><strong>Качеството се планира от началото;</strong> подходящият процес и проверката на резултатите се допълват.</li>\n      <li><strong>Готовността се доказва:</strong> условие, действие, очакван и действителен резултат, поправка и повторна проверка.</li>\n    </ol><p class=\"source\">Източници: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/04-Project-Planning-and-Quality.html\">Планиране на проект и осигуряване на качество на софтуера</a>; <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT%20-%20Textbook/02-Project-Planning-and-Software-Quality.html\">изходен учебен материал</a>; <a href=\"https://www.pmi.org/blog/work-breakdown-structure\">PMI: структура на работата</a>; <a href=\"https://glossary.istqb.org/en_US/term/quality-assurance\">ISTQB: осигуряване</a> и <a href=\"https://glossary.istqb.org/en_US/term/quality-control\">контрол на качеството</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

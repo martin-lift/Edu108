@@ -1,0 +1,98 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-nsi-processing-visualization-short-20261125",
+  "mission_content": {
+    "title": "НСИ: обработка и визуализация на реални данни — кратка мисия",
+    "description": "Изчислете една абсолютна промяна",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "НСИ: обработка и визуализация на реални данни",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Ще обработите реални данни на НСИ за населението на областите Бургас, Варна и Видин през 2023–2025 г.: сортиране, филтър, промени, обобщение и диаграма.</p><p>Кратката мисия има една задача за промяна на файл. Работете с Microsoft Excel или LibreOffice Calc.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Откъде са данните и как да ги намерим?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използваме <strong>официални публични данни на Националния статистически институт (НСИ)</strong>. Посочената страница и Excel файлът са достъпни без регистрация и без логване.</p><ul><li><a href=\"https://www.nsi.bg/\">Сайт на НСИ</a></li><li><a href=\"https://www.nsi.bg/statistical-data/206/651\">Население по области, общини, местоживеене и пол</a></li><li><a href=\"https://www.nsi.bg/sites/default/files/files/data/timeseries/Pop_6.1.1_Pop_DR.xlsx\">Официален Excel файл с динамични редове — Pop_6.1.1_Pop_DR.xlsx</a></li><li><a href=\"https://www.nsi.bg/sites/default/files/files/metadata/Pop_6_Metodology_population.pdf\">Методология и определения</a></li></ul><ol><li>От сайта на НСИ следвайте Статистическа информация → Демографска и социална статистика → Население — демография, миграция и прогнози. Потърсете таблицата „Население по области, общини, местоживеене и пол“. Можете да използвате и пряката връзка по-горе.</li><li>В страницата намерете <strong>Динамични редове</strong> и изтеглете <strong>Pop_6.1.1_Pop_DR.xlsx</strong>. Той съдържа отделни листове по години. Мерната единица е <strong>брой лица</strong>.</li><li>В листовете <strong>2023, 2024 и 2025</strong> колона <strong>B</strong> е Общо → всичко: двата пола и всички местоживеения. За страната използвайте B6. За областите използвайте B22 — Бургас, B36 — Варна, B60 — Видин, B168 — Пловдив, B228 — София (столица).</li><li>Избирайте <strong>областта</strong> — удебеления ред. По-надолу има общини със сходни имена, но това е друг териториален обхват. Данните са към <strong>31 декември</strong> на съответната година.</li></ol><p>Работните файлове за обработка съдържат проверено извлечение от тези клетки, изтеглено на <strong>25.11.2026 г.</strong> В лист „Източник“ са записани адресите и обхватът. При бъдещо обновяване на НСИ проверявайте годината и бележките отново.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/31-nsi-processing-visualization/short/31-nsi-processing-visualization-short-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтегляне, отворете него.</li><li>Отворете 31-nsi-processing-visualization-short-clean.xlsx с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Задачите и обясненията са в мисията. За да изберете клетка или диапазон, щракнете в полето за име вляво от лентата за формули, въведете адреса и натиснете Enter.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Изчислете една абсолютна промяна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Данни</strong> попълнете само <strong>D2</strong> с <code>=C2-B2</code> и натиснете Enter. Изваждате населението на област Бургас през 2023 г. от това през 2025 г.</p><p><strong>Проверка:</strong> Увеличение със 7054 лица.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>File (Файл) → Save As (Запиши като). Изберете Documents (Документи).</li><li>Запишете като <strong>31-short-Ime-Familia.xlsx</strong>. В Calc потвърдете запазването в избрания Excel формат, ако програмата попита. Заменете Ime-Familia с вашето име и фамилия.</li><li>Затворете и отворете отново същия файл в същата програма. Проверете резултатите и запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане във файла:</strong> В Данни!D2 има формула и резултат 7054 лица; източникът е запазен.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>От Documents (Документи) изберете завършената работна книга 31-short-Ime-Familia.xlsx с вашето име.</li><li>Проверете избрания файл и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

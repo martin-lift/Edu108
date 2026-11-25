@@ -1,0 +1,176 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-data-protection-20261125",
+  "mission_content": {
+    "title": "Защита на данните в електронни таблици",
+    "description": "Ще различавате заключване на клетки, защита на лист и защита на структурата и ще проверите поведението им върху бюджет.",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Защита на данните в електронни таблици",
+    "content_format": "html",
+    "persistent_text": "Запазете всички резултати в един файл. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Ще различавате заключване на клетки, защита на лист и защита на структурата и ще проверите поведението им върху бюджет.</p><p>Работете в Microsoft Excel или LibreOffice Calc. Всички резултати се запазват в една работна книга. Данните са учебни и не са актуална статистика или реални лични данни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Downloads (Изтегляния)</strong> е стандартната папка в Windows, в която браузърът обикновено записва изтеглените файлове.</p><ol><li><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/14-data-protection/14-data-protection-clean.xlsx\"><strong>Изтеглете работния файл (.xlsx)</strong></a>. При избор на място посочете Downloads (Изтегляния).</li><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и изберете Downloads (Изтегляния).</li><li>Отворете <strong>14-data-protection-clean.xlsx</strong> с двойно щракване. Изберете Excel или LibreOffice Calc, ако Windows попита с коя програма.</li><li>В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Преминавайте между листовете чрез имената им долу. Запазвайте завършените резултати; следваща задача не заменя предишна.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Как ще работите?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Заключването на клетка действа само когато е включена защитата на листа. Цветът сам по себе си не отключва клетка. В началния файл листът е защитен <strong>без парола</strong>; B2:C6, E2:E6 и G2:G6 са отключени, а формулите D2:D6 и F2:F6, имената и заглавията са заключени.</p><p><strong>Excel:</strong> Review → Unprotect Sheet сваля защитата; Ctrl+1 → Protection → Locked задава заключването на избрания диапазон; Review → Protect Sheet включва защитата. За учебната парола въведете <strong>10814</strong> и я повторете. Разрешете Select locked cells и Select unlocked cells, за да можете да избирате и проверявате клетките — изборът не позволява редактиране.</p><p><strong>Calc:</strong> Sheet → Protect Sheet (в някои версии Tools → Protect Sheet) включва/изключва защитата. Ctrl+1 → Cell Protection → Protected задава заключването. При защитаване въведете 10814 два пъти и разрешете избиране на защитени и незащитени клетки.</p><p><strong>WPS Spreadsheet:</strong> Review → Unprotect Sheet / Protect Sheet; десен бутон върху избраните клетки → Format Cells → Protection → Locked. Паролата и последователността са същите. Ако използвате друга програма, проверете дали поддържа тези функции, преди да продължите.</p><p>Последователността е <strong>сваляне на защитата → избор на заключени/отключени клетки → включване → проверка</strong>. Защитата на листа ограничава редактирането. Защитата на структурата ограничава операции с листовете. Тези защити не шифроват файла и не забраняват прочитането на данните.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете готовата защита",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>„Бюджет“</strong> променете B2 от 20 на <strong>25</strong>. Формулите D2=B2*C2 и F2=D2*(1+E2) използват цена 12,50 и ДДС 20%.</p><p><strong>Проверка:</strong> D2 става <strong>312,50</strong>, F2 — <strong>375,00</strong>. Опитайте да напишете число в D2: програмата трябва да откаже редактирането. Затворете съобщението; запазете формулата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Свалете защитата и проверете формулата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Използвайте командата Unprotect Sheet в Excel/WPS или изключете Protect Sheet в Calc. Първоначално не се изисква парола. Щракнете върху D2 и проверете в лентата за формули, че е записано <strong>=B2*C2</strong>. Не я заменяйте с число.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Настройте входните клетки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Маркирайте последователно <strong>B2:C6</strong>, <strong>E2:E6</strong> и <strong>G2:G6</strong>.</p><p>За да маркирате <strong>B2:C6</strong>, щракнете в полето за име вляво от лентата за формули, въведете <code>B2:C6</code> и натиснете <strong>Enter</strong>.</p><p>За всеки диапазон отворете Ctrl+1 → Protection (Excel/WPS) или Cell Protection (Calc), <strong>махнете Locked/Protected</strong> и потвърдете. Правете диапазоните един след друг, за да не пропуснете някой. Така количеството, цената, ДДС и бележката остават достъпни след защитаване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Заключете формулите и включете защита",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>За <strong>D2:D6</strong> и <strong>F2:F6</strong> поставете отметката Locked/Protected. Проверете по същия начин, че <strong>A1:G1</strong> и <strong>A2:A6</strong> са заключени.</p><p>Включете Protect Sheet с учебната парола <strong>10814</strong> и потвърдете. Разрешете избор на заключени и отключени клетки, но оставете защитата на съдържанието на заключените клетки включена.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете след промяна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Променете <strong>C3 на 100</strong>, а в <strong>G3</strong> напишете <strong>Проверено</strong>.</p><p><strong>Проверка:</strong> D3 = <strong>400,00</strong>, F3 = <strong>480,00</strong>. Опитайте да редактирате F3 и заглавието D1 — и двете промени трябва да са отказани. Не изтривайте и не заменяйте формулите.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Отключете още една клетка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Свалете защитата с парола 10814. Изберете <strong>A6</strong>, отворете настройките за защита на клетката и махнете Locked/Protected. Заменете „Ремонт“ с <strong>Поддръжка</strong>. Включете отново защитата с <strong>10814</strong>.</p><p><strong>Проверка:</strong> A6 може да се редактира, а A5 и формулите не могат. Оставете B2=25, C3=100, G3=Проверено и A6=Поддръжка — всички промени са в различни клетки и се запазват.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Защитете структурата на книгата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Excel:</strong> Review → Protect Workbook → Structure, парола <strong>10814</strong>, потвърдете. <strong>Calc:</strong> Tools → Protect Spreadsheet Structure (или Sheet → Protect Spreadsheet Structure според версията), същата парола. <strong>WPS:</strong> Review → Protect Workbook → Structure.</p><p>Опитайте да преименувате лист „Бюджет“ чрез двойно щракване върху раздела. Командата трябва да е недостъпна или промяната да бъде отказана. Оставете името <strong>„Бюджет“</strong>. След запазване и повторно отваряне проверете и защитата на листа, и на структурата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете и запишете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Проверете работата:</strong> Един лист Бюджет. B2=25, C3=100, G3=Проверено и A6=Поддръжка. Формулите са запазени; A6 и входните клетки са отключени; листът и структурата са защитени с учебната парола 10814. В G6 запишете името на използваната програма.</p><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове.</p><ol><li>Изберете File → Save As (Файл → Запиши като). В Excel при нужда изберете This PC → Browse.</li><li>Изберете Documents (Документи) и име <strong>14-data-protection-Име-Фамилия.xlsx</strong>, като замените Име-Фамилия със своите имена.</li><li>Запазете формата .xlsx. В Calc при предупреждение потвърдете Use Excel 2007–365 Format.</li><li>Затворете файла, отворете го отново от Documents и проверете, че формулите, оформлението и останалите резултати са запазени.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте готовия файл",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете бутона <strong>„Избери файл ...“</strong>.</li><li>В Documents (Документи) изберете <strong>14-data-protection-Име-Фамилия.xlsx</strong> със своите имена и натиснете Open (Отвори).</li><li>Проверете показаното име и приключете мисията с бутона за завършване.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

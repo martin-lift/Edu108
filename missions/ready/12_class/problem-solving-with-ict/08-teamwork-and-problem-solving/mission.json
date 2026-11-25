@@ -1,0 +1,1004 @@
+{
+  "mission_version": 4,
+  "mission_id": "08-teamwork-and-problem-solving-12-20261125",
+  "mission_content": {
+    "title": "Екипна работа и решаване на проблеми",
+    "description": "Софтуерният продукт се създава чрез съгласувана работа на хора с различни умения. В този урок ще разгледате общите правила, развитието на екипа и различните видове роли. Ще свържете сътрудничеството с изясняване на проблем, проверка на причини, избор на подход и план за действие. Познатите примери илюстрират принципи, приложими в различни проекти.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "8. Екипна работа и решаване на проблеми",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>Софтуерният продукт се създава чрез съгласувана работа на хора с различни умения. В този урок ще разгледате общите правила, развитието на екипа и различните видове роли. Ще свържете сътрудничеството с изясняване на проблем, проверка на причини, избор на подход и план за действие. Познатите примери илюстрират принципи, приложими в различни проекти.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "team",
+        "step_content": {
+          "type": "information",
+          "title": "Група и работещ екип",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/team.svg\" alt=\"Обща цел · Правила · Принос\" width=\"840\" height=\"340\"><figcaption>Обща цел · Правила · Принос</figcaption></figure><p>Екипът работи по-добре, когато участниците предварително са уточнили общата цел и начина си на работа. Примерни правила са:</p>\n    <ul>\n      <li><strong>Ясна цел:</strong> всеки знае какъв резултат се стреми да постигне екипът.</li>\n      <li><strong>Ясен краен срок:</strong> екипът знае кога резултатът трябва да е готов.</li>\n      <li><strong>Уточнен подход:</strong> всеки представя как възнамерява да допринесе и как ще се свърши работата.</li>\n      <li><strong>Използване на силните страни:</strong> участниците споделят уменията и интересите си и разпределят задачите според тях.</li>\n      <li><strong>Отговорност и уважение:</strong> всеки изпълнява своята част и зачита времето на останалите.</li>\n    </ul>\n    <p class=\"example\"><strong>Помислете:</strong> Групата специалисти винаги ли е работещ екип? Кои правила действително спазвате, когато работите заедно?</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-team",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Група и работещ екип",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Екипът има обща цел и договорен начин на работа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Присъствието в един чат автоматично прави екип."
+            },
+            {
+              "id": "answer-3",
+              "text": "Разпределението отчита уменията и натоварването."
+            },
+            {
+              "id": "answer-4",
+              "text": "Само един участник трябва да носи цялата работа."
+            },
+            {
+              "id": "answer-5",
+              "text": "Общите правила са ненужни при технически умения."
+            },
+            {
+              "id": "answer-6",
+              "text": "Уважението и отговорността подпомагат общия резултат."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Общата цел, договорките и взаимната отговорност превръщат съвместното присъствие в организирана работа."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "tuckman",
+        "step_content": {
+          "type": "information",
+          "title": "Развитие на екипа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/tuckman.svg\" alt=\"Формиране · Уточняване · Обща работа\" width=\"840\" height=\"340\"><figcaption>Формиране · Уточняване · Обща работа</figcaption></figure><p>Класическият модел на Брус Тъкман описва четири фази на развитие. Те са ориентир за разбиране на груповите процеси, а не задължителен график за всеки екип. Това е начин да разберем какво се случва между участниците и как могат да подобрят съвместната си работа.</p>\n    <div class=\"table-wrap\"><table>\n      <thead><tr><th>Фаза</th><th>Какво се случва?</th></tr></thead>\n      <tbody>\n        <tr><td><strong>1. Формиране</strong> (<span lang=\"en\">forming</span>)</td><td>Групата се събира. Участниците се опознават и уточняват правилата и начина на работа.</td></tr>\n        <tr><td><strong>2. Наместване</strong> (<span lang=\"en\">storming</span>)</td><td>Хората сравняват разбиранията и уменията си. Възможни са разногласия, докато се изяснят ролите и общият подход.</td></tr>\n        <tr><td><strong>3. Нормиране</strong> (<span lang=\"en\">norming</span>)</td><td>Екипът приема общи правила и начин на работа. Участниците вече знаят как да вземат решения заедно.</td></tr>\n        <tr><td><strong>4. Функциониране</strong> (<span lang=\"en\">performing</span>)</td><td>Екипът действа като едно цяло и може съсредоточено да изпълнява задачите си.</td></tr>\n      </tbody>\n    </table></div>\n    <p>Външна промяна, например нова цел или нов участник, може да върне екипа към по-ранна фаза. Това не е провал: правилата и ролите просто трябва да бъдат уточнени отново.</p>\n    <p class=\"example\"><strong>Пример:</strong> В игра тип „Escape Room“ участниците търсят изход от стая, като решават загадки с наличните средства. Комуникацията, сътрудничеството и разпределянето на задачите са решаващи за успеха.</p><p>Не заключаваме само по едно поведение, че целият екип е в определена фаза. Наблюдаваме работата и уточняваме нужните правила.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-tuckman",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Развитие на екипа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всички екипи преминават фазите по един и същ календар."
+            },
+            {
+              "id": "answer-2",
+              "text": "Разногласията могат да наложат уточняване на роли."
+            },
+            {
+              "id": "answer-3",
+              "text": "Едно несъгласие доказва окончателен провал."
+            },
+            {
+              "id": "answer-4",
+              "text": "Моделът отменя необходимостта от наблюдение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Промяна на целта или участниците може да промени начина на работа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Моделът помага да разбираме груповите процеси."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Моделът е ориентир. Търсим нужната подкрепа и договорки, вместо да поставяме постоянни етикети."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "formal-roles",
+        "step_content": {
+          "type": "information",
+          "title": "Формални и неформални роли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/formal-roles.svg\" alt=\"Възложена роля · Реално поведение · Принос\" width=\"840\" height=\"340\"><figcaption>Възложена роля · Реално поведение · Принос</figcaption></figure><p><strong>Групова динамика</strong> наричаме процесите, чрез които участниците си влияят, изграждат отношения, приемат правила и организират общата работа. Приносът на човека включва както изпълнението на възложени задачи, така и поведението му в общуването.</p>\n    <h3>Каква е разликата?</h3>\n    <div class=\"table-wrap\"><table>\n      <thead><tr><th>Вид роля</th><th>Как възниква?</th><th>Примери</th></tr></thead>\n      <tbody>\n        <tr><td><strong>Формална роля</strong></td><td>Определя се изрично чрез назначаване, избор или договорка. Има известни на екипа задачи, отговорности и правомощия.</td><td>Ръководител на проекта, програмист, дизайнер, тестер, отговорник за документацията.</td></tr>\n        <tr><td><strong>Неформална роля</strong></td><td>Възниква в общуването и реалното поведение, без непременно да е възложена. Останалите започват да очакват определен принос от този участник.</td><td>Човекът, който обединява групата, предлага нови идеи, успокоява споровете или свързва различни подгрупи.</td></tr>\n      </tbody>\n    </table></div>\n    <p class=\"example\"><strong>Пример:</strong> Мария е избрана за координатор на проекта — това е формалната ѝ роля. Иван е тестер, но при разногласие всички търсят неговото мнение, защото им помага да се разберат — така той изпълнява и неформална роля на посредник. Формалният ръководител и неформалният лидер могат да бъдат различни хора.</p>\n\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-formal-roles",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Формални и неформални роли",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Неформална роля може да възникне в общуването."
+            },
+            {
+              "id": "answer-2",
+              "text": "Длъжността описва цялото поведение на човека."
+            },
+            {
+              "id": "answer-3",
+              "text": "Неформалните отношения нямат влияние."
+            },
+            {
+              "id": "answer-4",
+              "text": "Ръководителят и неформалният лидер могат да са различни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Формалната роля е изрично определена."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всеки посредник задължително е назначен ръководител."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Различаваме възложената отговорност от възникналото влияние. Човек може да изпълнява и двата вида роли."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "functional-roles",
+        "step_content": {
+          "type": "information",
+          "title": "Принос към задачата и групата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/functional-roles.svg\" alt=\"Задача · Взаимоотношения · Пречки\" width=\"840\" height=\"340\"><figcaption>Задача · Взаимоотношения · Пречки</figcaption></figure><h3>Функционални роли според Бен и Шийтс</h3>\n    <p>Кенет Бен и Пол Шийтс разглеждат <strong>функционалните роли</strong>: какво прави участникът в конкретния момент. Различават принос към задачата, поддържане на групата и поведение, насочено към лични цели за сметка на общата работа.</p>\n    <p>Това е различно разграничение от „формална/неформална“: функцията може да бъде възложена или да възникне спонтанно.</p>\n    <h3>Роли, които помагат за задачата</h3>\n    <ul>\n      <li><strong>Инициатор:</strong> предлага идеи и действия.</li>\n      <li><strong>Търсещ информация:</strong> задава въпроси и уточнява факти.</li>\n      <li><strong>Даващ информация:</strong> споделя знания и данни.</li>\n      <li><strong>Координатор:</strong> свързва предложенията и усилията.</li>\n      <li><strong>Критичен оценител:</strong> проверява решенията по критерии.</li>\n    </ul>\n    <h3>Роли, които поддържат групата</h3>\n    <ul>\n      <li><strong>Насърчаващ:</strong> признава приноса на другите.</li>\n      <li><strong>Посредник:</strong> помага за преодоляване на спорове.</li>\n      <li><strong>Осигуряващ участие:</strong> дава възможност на всеки да се включи.</li>\n      <li><strong>Наблюдател:</strong> помага на групата да осмисли работата си.</li>\n    </ul>\n    <h3>Поведение, което затруднява екипа</h3>\n    <p>Доминирането, личните нападки, търсенето на внимание и блокирането без аргументи могат да пречат на общата работа.</p>\n    <p class=\"note\">Ролите описват поведение, а не постоянен характер. Един човек може да изпълнява различни роли според нуждите на групата.</p>\n\n    <h3>Как да приложим това в софтуерен проект?</h3>\n    <p>Разпределете формалните отговорности, после наблюдавайте как протичат обсъжданията. Ако всички предлагат идеи, но никой не ги сравнява, поемете проверката. Ако двама участници говорят през цялото време, поканете и останалите. Така всеки може да допринесе с повече от техническото си умение.</p>\n    <p class=\"example\"><strong>Пример:</strong> При създаване на сайт един ученик предлага ново меню, втори проверява дали то е удобно, трети записва решението, а четвърти кани по-тихия участник да покаже своята идея. Екипът получава едновременно технически резултат и по-добро сътрудничество.</p>\n    <p><strong>Допълнителни материали:</strong> <a href=\"https://spssi.onlinelibrary.wiley.com/doi/10.1111/j.1540-4560.1948.tb01783.x\" target=\"_blank\" rel=\"noopener noreferrer\">Бен и Шийтс: „Функционални роли на членовете на групата“ (1948, на английски)</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-functional-roles",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Принос към задачата и групата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Личните нападки са полезна критична оценка."
+            },
+            {
+              "id": "answer-2",
+              "text": "Само техническите действия имат значение."
+            },
+            {
+              "id": "answer-3",
+              "text": "Един човек може да изпълнява различни роли."
+            },
+            {
+              "id": "answer-4",
+              "text": "Функционалната роля описва принос в конкретен момент."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ролята е неизменна характеристика на личността."
+            },
+            {
+              "id": "answer-6",
+              "text": "Посредничеството може да подпомага групата."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Разглеждаме поведението и ефекта му. Полезни са както работата по задачата, така и подкрепата за общуването и участието."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "problem",
+        "step_content": {
+          "type": "information",
+          "title": "Какво означава да решим проблем?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/problem.svg\" alt=\"Ситуация · Цел · Решение\" width=\"840\" height=\"340\"><figcaption>Ситуация · Цел · Решение</figcaption></figure><p><strong>Решаването на проблем</strong> е процес, при който се търсят решения и се извършват действия за постигане на определена цел. Проблемите могат да бъдат както малки ежедневни затруднения, така и сложни задачи в проект.</p>\n    <p>Преди да предлагаме решение, трябва да разберем какво точно не работи, какъв резултат искаме и с какви ресурси разполагаме.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-problem",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво означава да решим проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Не е нужно да знаем какъв резултат търсим."
+            },
+            {
+              "id": "answer-2",
+              "text": "Резултатът се оценява спрямо целта."
+            },
+            {
+              "id": "answer-3",
+              "text": "Преди решение изясняваме затруднението."
+            },
+            {
+              "id": "answer-4",
+              "text": "Първата идея винаги е доказано най-добра."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ресурсите влияят върху възможното решение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Проблемът се решава само с назоваване на инструмент."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Разбирането на ситуацията и целта предхожда избора на технология или действие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "problem-stages",
+        "step_content": {
+          "type": "information",
+          "title": "От дефиниране до план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/problem-stages.svg\" alt=\"Изясняване · Алтернативи · Изпълнение\" width=\"840\" height=\"340\"><figcaption>Изясняване · Алтернативи · Изпълнение</figcaption></figure><ol>\n      <li><strong>Дефиниране:</strong> описваме началната ситуация, целта и наличните ресурси.</li>\n      <li><strong>Събиране на информация:</strong> уточняваме кои данни са нужни, проверяваме ги и анализираме причините за проблема.</li>\n      <li><strong>Генериране на идеи:</strong> предлагаме възможно най-много варианти. Можем да използваме мозъчна атака, без да отхвърляме идеите твърде рано.</li>\n      <li><strong>Оценяване и степенуване:</strong> определяме критерии, сравняваме предимствата и недостатъците и избираме подходящо решение.</li>\n      <li><strong>План за реализация:</strong> описваме действията, отговорниците и сроковете за изпълнение на избраната идея.</li>\n    </ol>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-problem-stages",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От дефиниране до план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Планът задава действия, отговорници и срокове."
+            },
+            {
+              "id": "answer-2",
+              "text": "Събираме и проверяваме информация."
+            },
+            {
+              "id": "answer-3",
+              "text": "Оценяването на идеи не изисква критерии."
+            },
+            {
+              "id": "answer-4",
+              "text": "Идеите се сравняват по определени критерии."
+            },
+            {
+              "id": "answer-5",
+              "text": "Планът е само списък с желания."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички предположения се приемат за факти."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Последователността свързва разбирането на проблема с обосновано решение и конкретна реализация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "symptom-cause",
+        "step_content": {
+          "type": "information",
+          "title": "Симптом и причина",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/symptom-cause.svg\" alt=\"Симптом · Причина · Действие\" width=\"840\" height=\"340\"><figcaption>Симптом · Причина · Действие</figcaption></figure><h3>Симптом и причина: каква е разликата?</h3>\n    <p><strong>Симптомът</strong> е видимата проява на проблема — това, което наблюдаваме. Например сайтът се зарежда бавно, програмата показва грешка или екипът пропуска сроковете. Симптомът ни показва, че има затруднение, но сам по себе си не обяснява защо то възниква.</p>\n    <p><strong>Причината</strong> е това, което поражда проблема. Един симптом може да има различни причини, а една причина може да води до няколко симптома. Например пропуснатият срок може да е свързан с неясни задачи, липсващи данни или нереалистично планиране. Затова първото предположение трябва да се провери.</p>\n    <p>За да открием причината, събираме факти: кога възниква проблемът, при какви условия, кого засяга и какво се е променило. Сравняваме възможните обяснения и ги проверяваме. Повтарянето на въпроса „Защо?“ може да ни насочи към по-дълбока причина, но отговорите трябва да се подкрепят с наблюдения или данни.</p>\n    <p>Ако отстраним само симптома, затруднението може да се появи отново. Ако установим и отстраним причината, имаме по-голям шанс за трайно решение. След промяната проверяваме дали проблемът действително е изчезнал.</p>\n    <p>Рамката <strong>SCCA</strong> подрежда тази работа: <span lang=\"en\">Symptom</span> (симптом) → <span lang=\"en\">Cause</span> (причина) → <span lang=\"en\">Cure</span> (решение) → <span lang=\"en\">Action</span> (действие). Първо описваме наблюдаваното затруднение, после проверяваме причината, избираме решение и определяме конкретни действия.</p>\n    <div class=\"example\"><strong>Пример: училищният сайт се зарежда бавно</strong>\n      <ul>\n        <li><strong>Симптом:</strong> началната страница се отваря за 12 секунди.</li>\n        <li><strong>Възможни причини:</strong> големи изображения, бавна връзка или претоварен сървър.</li>\n        <li><strong>Проверка:</strong> сравняваме зареждането през различни връзки и измерваме кои файлове се изтеглят най-бавно. Установяваме, че изображенията заемат по-голямата част от времето.</li>\n        <li><strong>Решение:</strong> намаляваме размерите и обема на изображенията, като запазваме нужното качество.</li>\n        <li><strong>Действие:</strong> определен участник обработва файловете, заменя ги в сайта и измерва отново времето за зареждане.</li>\n      </ul>\n    </div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-symptom-cause",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Симптом и причина",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Симптомът е наблюдаваната проява."
+            },
+            {
+              "id": "answer-2",
+              "text": "Първото защо доказва причината."
+            },
+            {
+              "id": "answer-3",
+              "text": "Различни причини могат да водят до сходен симптом."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един симптом винаги има само една причина."
+            },
+            {
+              "id": "answer-5",
+              "text": "Премахването на видимото затруднение гарантира трайно решение."
+            },
+            {
+              "id": "answer-6",
+              "text": "След промяна проверяваме дали проблемът е намален."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Причината е обяснение, което се проверява с данни. Наблюдението и повторният тест предпазват от прибързани изводи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "linear",
+        "step_content": {
+          "type": "information",
+          "title": "Линеен модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/linear.svg\" alt=\"Изясняване · Реализация · Проверка\" width=\"840\" height=\"340\"><figcaption>Изясняване · Реализация · Проверка</figcaption></figure>\n    <p>При линейния модел дейностите се подреждат в последователност. Подходът е удобен, когато задачата е ясна и очакваме да преминем от анализ към готово решение.</p>\n    <ol>\n      <li>Дефиниране на потребността.</li>\n      <li>Изследване.</li>\n      <li>Изясняване на проблема, който ще решава продуктът.</li>\n      <li>Изследване на идеи.</li>\n      <li>Планиране.</li>\n      <li>Изработване на готовото решение.</li>\n      <li>Тестване на идеите.</li>\n      <li>Ревизиране според резултатите.</li>\n    </ol>\n    <p class=\"note\">Редът представя основния ход на работа. Ако проверката покаже проблем, екипът може да се върне и да промени по-ранно решение.</p>\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-linear",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Линеен модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Линейният модел забранява всяка повторна проверка."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изясняването на потребността подпомага избора."
+            },
+            {
+              "id": "answer-3",
+              "text": "Не е нужна дефинирана цел."
+            },
+            {
+              "id": "answer-4",
+              "text": "Работата винаги е напълно независима."
+            },
+            {
+              "id": "answer-5",
+              "text": "Проверка може да наложи промяна на предходно решение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Линейният модел подрежда основните дейности."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Последователността е ориентир за организиране, а проверката може да наложи корекция."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "iterative",
+        "step_content": {
+          "type": "information",
+          "title": "Итеративен модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/iterative.svg\" alt=\"Малка версия · Обратна връзка · Подобрение\" width=\"840\" height=\"340\"><figcaption>Малка версия · Обратна връзка · Подобрение</figcaption></figure>\n    <p><strong>Итерация</strong> означава повторение на цикъл с подобрения. Екипът прави малка версия на решението, проверява я и използва наученото за следваща версия. Това е подходящо, когато в началото не знаем всички изисквания.</p>\n    <p>Възможен цикъл е: проучване на алтернативи → идеи → усъвършенстване на продукта или системата → прототип → проверка и обратна връзка → нови подобрения. Стъпките могат да се повтарят и не е задължително всеки път да следват точно един и същ ред.</p>\n    <p class=\"example\"><strong>Пример:</strong> Правите сайт за училищен клуб. Първо показвате проста страница, получавате мнение от учениците, променяте менюто и тествате новата версия.</p>\n\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-iterative",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Итеративен модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Обратната връзка насочва следващата версия."
+            },
+            {
+              "id": "answer-2",
+              "text": "Обратната връзка е ненужна."
+            },
+            {
+              "id": "answer-3",
+              "text": "Повтарянето никога не променя решението."
+            },
+            {
+              "id": "answer-4",
+              "text": "Не всички изисквания трябва да са напълно известни в началото."
+            },
+            {
+              "id": "answer-5",
+              "text": "Итерацията е повторение с подобрение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Итерация означава само добавяне на напълно нов модул."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Итеративното подобрение използва наученото от предходна версия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "incremental",
+        "step_content": {
+          "type": "information",
+          "title": "Инкрементален модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/incremental.svg\" alt=\"Основа · Нова част · Повече функции\" width=\"840\" height=\"340\"><figcaption>Основа · Нова част · Повече функции</figcaption></figure>\n    <p><strong>Инкремент</strong> е добавена част от решението. При инкременталния модел разделяме решението на части и ги изграждаме постепенно. Всяка нова част добавя възможности към вече създаденото.</p>\n    <p class=\"example\"><strong>Пример:</strong> Първо училищният сайт показва информация. После добавяме търсене, а след това регистрация на потребители. След всяка стъпка сайтът има повече функции.</p>\n\n    <p>След добавяне проверяваме дали новата част работи заедно с вече създаденото.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-incremental",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Инкрементален модел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Всички функции трябва да се добавят наведнъж."
+            },
+            {
+              "id": "answer-2",
+              "text": "Инкрементален и итеративен са напълно несъвместими."
+            },
+            {
+              "id": "answer-3",
+              "text": "Добавянето и подобряването могат да се съчетават."
+            },
+            {
+              "id": "answer-4",
+              "text": "Инкрементът добавя част или възможност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Инкрементът винаги означава изхвърляне на всичко предишно."
+            },
+            {
+              "id": "answer-6",
+              "text": "След нова част продуктът може да има повече функции."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Инкременталността описва добавянето на части; итерациите описват подобряването им."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "parallel",
+        "step_content": {
+          "type": "information",
+          "title": "Паралелен подход",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/parallel.svg\" alt=\"Разделена работа · Координация · Обединяване\" width=\"840\" height=\"340\"><figcaption>Разделена работа · Координация · Обединяване</figcaption></figure>\n    <p>Няколко участници или екипа работят едновременно по различни части на проблема или пробват различни решения. Нужно е да уточнят задачите, зависимостите и начина за обединяване или сравняване на резултатите.</p>\n    <p class=\"example\"><strong>Пример:</strong> Един участник подготвя съдържанието на сайта, втори разработва дизайна, а трети програмира търсенето. След това екипът обединява работата и проверява дали всичко функционира заедно.</p>\n\n    </main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-parallel",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Паралелен подход",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Един зает човек може да изпълни всякакви паралелни задачи."
+            },
+            {
+              "id": "answer-2",
+              "text": "Различни участници могат да разработват различни части."
+            },
+            {
+              "id": "answer-3",
+              "text": "Паралелната работа изисква координация."
+            },
+            {
+              "id": "answer-4",
+              "text": "Едновременността премахва всички зависимости."
+            },
+            {
+              "id": "answer-5",
+              "text": "Уточняват се зависимости и начин на обединяване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Не е нужно обединяване и проверка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Паралелната работа е едновременна, но изисква ясни зависимости и общ резултат."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "adaptive",
+        "step_content": {
+          "type": "information",
+          "title": "Адаптивен подход",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/adaptive.svg\" alt=\"Нова информация · Приоритети · Уточнен план\" width=\"840\" height=\"340\"><figcaption>Нова информация · Приоритети · Уточнен план</figcaption></figure>\n    <p>Екипът променя плана според новата информация и обратната връзка. Планира подробно близките задачи и уточнява следващите, когато научи повече за проблема. Това е полезно, когато изискванията или условията се променят.</p>\n    <p class=\"example\"><strong>Пример:</strong> Планираме сайт за училищен клуб. След разговор с учениците разбираме, че записването за събития е по-важно от галерията. Променяме приоритетите и първо разработваме записването.</p>\n\n    <p class=\"note\"><strong>Подходите могат да се комбинират.</strong> Инкременталният модел описва добавянето на части, итеративният — повторното им подобряване, паралелният — едновременната работа, а адаптивният — промяната на плана според наученото. Например екипът може да работи паралелно, да добавя функции на части и да ги подобрява чрез итерации.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-adaptive",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Адаптивен подход",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Близките задачи могат да се планират по-подробно."
+            },
+            {
+              "id": "answer-2",
+              "text": "Адаптивният подход използва нова информация."
+            },
+            {
+              "id": "answer-3",
+              "text": "Адаптацията означава работа без цел и договорки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Приоритетите могат да се променят според потребностите."
+            },
+            {
+              "id": "answer-5",
+              "text": "Първият план никога не се променя."
+            },
+            {
+              "id": "answer-6",
+              "text": "Нови данни нямат значение за избора."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Адаптивността означава обоснована промяна според наученото, а не липса на планиране."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "it",
+        "step_content": {
+          "type": "information",
+          "title": "Решаване с информационни технологии",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/it.svg\" alt=\"Дефиниране · Представяне · Технология\" width=\"840\" height=\"340\"><figcaption>Дефиниране · Представяне · Технология</figcaption></figure><p>Когато използваме компютър и софтуер за решаване на проблем, общият процес може да се раздели на четири стъпки:</p>\n    <ol>\n      <li><strong>Формална дефиниция:</strong> описваме началната ситуация, желаното крайно състояние (цел), наличните ресурси и ограниченията. Например ограничения могат да бъдат време, знания или умения.</li>\n      <li><strong>Представяне на проблема:</strong> избираме как да опишем задачата с помощта на компютър и информационни технологии: текст, таблица, схема, данни или модел.</li>\n      <li><strong>Анализ на опита:</strong> търсим и сравняваме предишни решения на сходни проблеми. Можем да използваме съществуващи програми, шаблони (<span lang=\"en\">templates</span>) и библиотеки.</li>\n      <li><strong>Използване на технологии:</strong> избираме софтуер или създаваме собствено решение и проверяваме дали то постига целта.</li>\n    </ol>\n    <p>Технологията помага, но правилното описание на проблема и оценката на резултата остават задача на хората.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-it",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Решаване с информационни технологии",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Проблемът може да се представи чрез текст, таблица или модел."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изборът на програма сам доказва решен проблем."
+            },
+            {
+              "id": "answer-3",
+              "text": "Предишни решения могат да бъдат анализирани и адаптирани."
+            },
+            {
+              "id": "answer-4",
+              "text": "Винаги трябва да програмираме всичко от нулата."
+            },
+            {
+              "id": "answer-5",
+              "text": "Не е нужно да оценяваме резултата."
+            },
+            {
+              "id": "answer-6",
+              "text": "Хората проверяват дали технологията постига целта."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Технологията е средство. Добрата дефиниция, подходящото представяне и оценката на резултата остават съществени."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Определете общата цел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете екип за малък софтуерен проект.</strong></p><p>Посочете продукта, общата цел и 3–5 участници или роли. Разпределете конкретна работа според уменията и наличното време. При самостоятелна работа опишете условен екип.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: каталог с търсене; координатор уточнява договорките, дизайнер подготвя екраните, разработчик реализира функциите, тестер проверява. Самопроверка: целта обща ли е и ясно ли е кой допринася за резултата? Ролите могат да се съчетават при изпълнимо натоварване."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Договорете правила",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте четири приложими правила за сътрудничество.</strong></p><p>Покрийте комуникация, срокове, обща информация и разрешаване на несъгласие. За всяко посочете конкретно поведение, което може да се наблюдава.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: решенията се записват на едно място; при риск за срок се уведомява екипът предварително; използва се означена актуална версия; спорът се обсъжда чрез факти и общи критерии. Самопроверка: правилата по-конкретни ли са от „да сме добри“?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Проверете причина",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Разграничете симптом и възможни причини за едно затруднение.</strong></p><p>Дайте наблюдаем симптом, две различни хипотези и данни, с които ще ги проверите. Не превръщайте предположението в доказан факт.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Симптом: пропуснат срок. Хипотези: неясна задача или технически проблем. Проверяваме договорката и конкретната работеща версия, разговаряме за оставащото. Самопроверка: данните могат ли да разграничат обясненията?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Сравнете решения",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете две решения и изберете подходящ подход за работа.</strong></p><p>Сравнете по полза, ресурс и изпълнимост. Обяснете дали е полезна последователна, итеративна, инкрементална, паралелна или адаптивна работа; подходите могат да се комбинират.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: пълна система наведнъж или малък прототип с обратна връзка. При неясни изисквания избираме проверен прототип и итерации; съдържание и дизайн може да се подготвят паралелно при ясни зависимости. Самопроверка: изборът свързан ли е с конкретните условия?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Планирайте общ резултат",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете следващата обща задача и приноса на участниците.</strong></p><p>Посочете отговорник, срок, нужни действия и проверка. Обяснете как ще осигурите участие и как ще разберете дали решението е помогнало.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: до ден 3 екипът показва прототип; дизайнерът подготвя екрани, разработчикът свързва навигацията, тестерът наблюдава проба от потребител, координаторът записва решенията. Самопроверка: има ли технически резултат и конкретен принос, вместо само общо обещание?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Силен програмист автоматично означава ли добър екип?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Силен програмист автоматично означава ли добър екип?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Нужни са обща цел, координация, уважение и ясни отговорности."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Един човек има ли само една неизменна роля?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Един човек има ли само една неизменна роля?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Може да има формална отговорност и различен функционален или неформален принос според ситуацията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Итеративният и инкременталният подход еднакви ли са?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Итеративният и инкременталният подход еднакви ли са?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Първият описва повторно подобряване, а вторият добавяне на части. Те могат да се комбинират."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/08-teamwork-and-problem-solving/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Екипът се изгражда чрез обща цел, договорки и отговорност.</li><li>Моделите за развитие помагат за разбиране, а не за постоянни етикети.</li><li>Различаваме формални, неформални и функционални роли.</li><li>Симптомът не доказва причината; хипотезите се проверяват.</li><li>Подходът за решаване се избира според проблема и може да съчетава различни модели.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/08-Teamwork-and-Problem-Solving.html\">урок 8 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

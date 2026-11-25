@@ -1,0 +1,65 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/10-Teamwork-Resources-and-Project-Brief.html",
+  "sections": [
+    {
+      "section": "resources",
+      "title": "Какви ресурси са нужни?",
+      "information_step": "resources",
+      "check_step": "check-resources"
+    },
+    {
+      "section": "communication",
+      "title": "Как преминава съобщението?",
+      "information_step": "communication",
+      "check_step": "check-communication"
+    },
+    {
+      "section": "clear-communication",
+      "title": "Принципи и канали за ясно общуване",
+      "information_step": "clear-communication",
+      "check_step": "check-clear-communication"
+    },
+    {
+      "section": "feedback-conflict",
+      "title": "Обратна връзка и разрешаване на конфликт",
+      "information_step": "feedback-conflict",
+      "check_step": "check-feedback-conflict"
+    },
+    {
+      "section": "effectiveness-efficiency",
+      "title": "Ефективност и ефикасност",
+      "information_step": "effectiveness-efficiency",
+      "check_step": "check-effectiveness-efficiency"
+    },
+    {
+      "section": "cost-benefit",
+      "title": "Оценка на ползи и разходи",
+      "information_step": "cost-benefit",
+      "check_step": "check-cost-benefit"
+    },
+    {
+      "section": "project-brief",
+      "title": "Какво включва проектното задание?",
+      "information_step": "project-brief",
+      "check_step": "check-project-brief"
+    },
+    {
+      "section": "specification",
+      "title": "Задание, спецификация и техническо решение",
+      "information_step": "specification",
+      "check_step": "check-specification"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

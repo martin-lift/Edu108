@@ -1,0 +1,626 @@
+{
+  "mission_version": 4,
+  "mission_id": "06-project-control-and-management-12-20261125",
+  "mission_content": {
+    "title": "Контрол и управление на проекта",
+    "description": "След планирането екипът трябва да установява какво действително е изпълнено и какви решения са нужни. В този урок ще различавате наблюдение, анализ и управленско действие. Ще сравнявате план с факти, ще подготвяте отчет и ще оценявате промени, без да смесвате изразходвано време с доказана готовност.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "6. Контрол и управление на проекта",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>След планирането екипът трябва да установява какво действително е изпълнено и какви решения са нужни. В този урок ще различавате наблюдение, анализ и управленско действие. Ще сравнявате план с факти, ще подготвяте отчет и ще оценявате промени, без да смесвате изразходвано време с доказана готовност.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "monitoring-control",
+        "step_content": {
+          "type": "information",
+          "title": "Наблюдение и контрол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/monitoring-control.svg\" alt=\"Данни · Сравнение · Действие\" width=\"840\" height=\"340\"><figcaption>Данни · Сравнение · Действие</figcaption></figure><p><strong>Мониторингът</strong> е системно събиране, измерване и представяне на данни за изпълнението. Той обхваща текущата работа, резултатите и тенденциите, а не само вече откритите отклонения.</p><p><strong>Контролът</strong> сравнява данните с договорения план и изискванията, анализира разликите и води до решения за коригиращи или превантивни действия. Управлението организира изпълнението и проверката на тези решения.</p><div class=\"example\"><p>„Изразходвани са 8 часа и две страници са проверени“ е информация от наблюдението. „Третата страница е нужна за приемане; определяме причина, действие и нова проверка“ е част от контрола и управлението.</p></div><p>Проверките се правят на уговорените интервали, дори когато няма оплаквания.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-monitoring-control",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Наблюдение и контрол",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Мониторингът събира данни и за нормално протичащата работа."
+            },
+            {
+              "id": "answer-2",
+              "text": "Наблюдаваме само след като клиентът се оплаче."
+            },
+            {
+              "id": "answer-3",
+              "text": "Контролът сравнява фактите с плана и изискванията."
+            },
+            {
+              "id": "answer-4",
+              "text": "Събирането на часове е достатъчно управленско решение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Контролът е само търсене на виновник."
+            },
+            {
+              "id": "answer-6",
+              "text": "Решението трябва да бъде изпълнено и проверено."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Работата се наблюдава системно. Анализът свързва фактите с договорката, а действията имат отговорник и последваща проверка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "evidence",
+        "step_content": {
+          "type": "information",
+          "title": "Какви доказателства събираме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/evidence.svg\" alt=\"Резултат · Проверка · Оставащо\" width=\"840\" height=\"340\"><figcaption>Резултат · Проверка · Оставащо</figcaption></figure><p>Преди изпълнението уточняваме кои данни са нужни: състояние на задачите, готови версии, приети резултати, изпълнени проверки, оставаща работа, изразходвано време и разходи. Посочваме източника и момента на наблюдение.</p><p>„Работихме по дизайна“ описва дейност, но не доказва готов резултат. По-полезно е „Прототипът съдържа трите договорени екрана, прегледан е и има записани две корекции“.</p><p>Часовете показват вложено усилие, а календарните дни — изминал период. Повече вложени часове не доказват повече завършена работа. Процентът готовност също се нуждае от ясна основа: приети резултати или проверими критерии, а не само лично усещане.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-evidence",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какви доказателства събираме",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Работихме много е достатъчно доказателство за готовност."
+            },
+            {
+              "id": "answer-2",
+              "text": "Източникът и моментът на данните са важни."
+            },
+            {
+              "id": "answer-3",
+              "text": "Календарните дни и човекочасовете са едно и също."
+            },
+            {
+              "id": "answer-4",
+              "text": "Процент без обяснение винаги е надежден."
+            },
+            {
+              "id": "answer-5",
+              "text": "Повече часове не означават непременно повече приета работа."
+            },
+            {
+              "id": "answer-6",
+              "text": "Готовността се подкрепя с конкретни резултати и проверки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Данните се тълкуват според значението им. Усилието, времето и получените резултати не са взаимозаменяеми показатели."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "plan-actual",
+        "step_content": {
+          "type": "information",
+          "title": "План и действително изпълнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/plan-actual.svg\" alt=\"План · Факт · Отклонение\" width=\"840\" height=\"340\"><figcaption>План · Факт · Отклонение</figcaption></figure><p>Сравняваме еднакви показатели в еднакви единици. За всеки записваме планирана стойност, действителна стойност и отклонение. Към числата добавяме състоянието на договорените резултати.</p><div class=\"example\"><p>Задачата „Прототип“ е планирана за 2 работни дни и 6 човекочаса и трябва да даде три свързани страници. След 2 дни са вложени 8 човекочаса, но една страница липсва. Усилието е с 2 човекочаса повече от плана, а резултатът още не е завършен.</p></div><p>Не знаем автоматично колко време остава. Уточняваме какво липсва, защо, кой може да го направи и кои последващи задачи зависят от него. Прогнозата за края се основава на оставащата работа и наличните ресурси.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-plan-actual",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: План и действително изпълнение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Липсващата страница означава незавършен договорен резултат."
+            },
+            {
+              "id": "answer-2",
+              "text": "Прототипът е готов, защото са минали два дни."
+            },
+            {
+              "id": "answer-3",
+              "text": "Оставащото време винаги е равно на разликата в часовете."
+            },
+            {
+              "id": "answer-4",
+              "text": "За прогнозата е нужна информация за оставащата работа."
+            },
+            {
+              "id": "answer-5",
+              "text": "Отклонението в усилието е +2 човекочаса."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изразходвани 8 часа доказват 100% готовност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Сравняваме единици и резултати. Отклонението не дава само по себе си прогноза; нужни са причина, оставаща работа и зависимости."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "corrective-actions",
+        "step_content": {
+          "type": "information",
+          "title": "Анализ и коригиращи действия",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/corrective-actions.svg\" alt=\"Причина · Алтернативи · Проверка\" width=\"840\" height=\"340\"><figcaption>Причина · Алтернативи · Проверка</figcaption></figure><p>При отклонение първо проверяваме причината. Липсващи изисквания, непозната технология и претоварен участник изискват различни решения. Не приемаме първото предположение за доказано.</p><p>Възможни действия са уточняване на условие, отстраняване на техническа пречка, преразпределяне към подходящ наличен човек или съгласуване на по-малък обхват. За всяка алтернатива оценяваме срок, разходи, зависимости и качество.</p><p>Добавянето на хора не намалява автоматично срока: може да изисква обучение и координация. Премахването на проверки може да скрие дефект, вместо да реши проблема. Действието получава отговорник, срок и критерий за успех, а след това се проверява дали е помогнало.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-corrective-actions",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Анализ и коригиращи действия",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Премахването на тестовете доказва решен проблем."
+            },
+            {
+              "id": "answer-2",
+              "text": "Първото предположение за причината е достатъчно."
+            },
+            {
+              "id": "answer-3",
+              "text": "След действие проверяваме резултата."
+            },
+            {
+              "id": "answer-4",
+              "text": "Различните причини могат да изискват различни мерки."
+            },
+            {
+              "id": "answer-5",
+              "text": "Още хора винаги намаляват срока наполовина."
+            },
+            {
+              "id": "answer-6",
+              "text": "Оценяваме влиянието върху качеството и зависимостите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Коригиращото действие трябва да адресира проверена причина и да има наблюдаем резултат. Решенията се сравняват по последствия, не само по привидна бързина."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "change-control",
+        "step_content": {
+          "type": "information",
+          "title": "Управление на промените и качеството",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/change-control.svg\" alt=\"Предложение · Решение · Актуализация\" width=\"840\" height=\"340\"><figcaption>Предложение · Решение · Актуализация</figcaption></figure><p>Ново изискване или необходима поправка може да засегне няколко части на проекта. <strong>Съгласуваният контрол на промените</strong> свързва решението за промяна с отражението върху обхвата, графика, ресурсите и проверките.</p><p>Описваме предложението, причината, алтернативите и последствията. Упълномощените участници решават дали да го приемат, отложат или отхвърлят. Записваме решението и уведомяваме засегнатите хора, след което актуализираме плана.</p><p>Контролът на качеството проверява конкретния резултат спрямо договорените условия. Нова дата не прави дефектна функция приемлива. При промяна определяме кои тестове да се повторят и как ще се приеме изменената версия.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-change-control",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Управление на промените и качеството",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Само местенето на срока прави дефектната функция готова."
+            },
+            {
+              "id": "answer-2",
+              "text": "Нова дата сама не доказва качество."
+            },
+            {
+              "id": "answer-3",
+              "text": "Промяната може да засегне и тестовете."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всяко ново желание влиза автоматично без оценка."
+            },
+            {
+              "id": "answer-5",
+              "text": "Решението се записва и съобщава на засегнатите."
+            },
+            {
+              "id": "answer-6",
+              "text": "След промяна старите проверки винаги са достатъчни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Управляваме промяната като обща договорка и последици. Качеството се проверява чрез резултата, а не чрез променени етикети или дати."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "manager-roles",
+        "step_content": {
+          "type": "information",
+          "title": "Ръководител и роли в проекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/manager-roles.svg\" alt=\"Координация · Изпълнение · Приемане\" width=\"840\" height=\"340\"><figcaption>Координация · Изпълнение · Приемане</figcaption></figure><p><strong>Ръководителят на проекта</strong> координира планирането, отговорностите, комуникацията, рисковете, качеството, отчетността и приемането. Той подпомага решенията и премахването на пречки. Не е задължително лично да програмира, проектира и тества всичко.</p><ul><li><strong>Бизнес анализатор:</strong> изяснява потребности и изисквания.</li><li><strong>Дизайнер и технически ръководител:</strong> уточняват интерфейса и устройството на решението.</li><li><strong>Разработчик:</strong> създава и променя програмните части.</li><li><strong>Тестер:</strong> подготвя и изпълнява проверки.</li><li><strong>Администратор и поддръжка:</strong> подпомагат внедряването и използването.</li><li><strong>Възложител и продуктова отговорност:</strong> уточняват стойността, приоритетите и приемането.</li></ul><p>В малък екип един човек може да изпълнява няколко роли. Важни са ясните отговорности и необходимите умения: организация, техническа грамотност, анализ, общуване, надеждност и етично поведение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-manager-roles",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Ръководител и роли в проекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ролите изискват технически и комуникационни умения."
+            },
+            {
+              "id": "answer-2",
+              "text": "Ръководителят координира работата и решенията."
+            },
+            {
+              "id": "answer-3",
+              "text": "Ръководителят трябва лично да изпълни всяка техническа задача."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един човек може да изпълнява няколко роли."
+            },
+            {
+              "id": "answer-5",
+              "text": "При малък екип не са нужни отговорности."
+            },
+            {
+              "id": "answer-6",
+              "text": "Само длъжността гарантира компетентност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Ролите разпределят нужната работа. Координацията не заменя специализираните дейности и личната отговорност."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "report",
+        "step_content": {
+          "type": "information",
+          "title": "Кратък отчет и следваща проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/report.svg\" alt=\"Състояние · Решение · Нов преглед\" width=\"840\" height=\"340\"><figcaption>Състояние · Решение · Нов преглед</figcaption></figure><p>Полезният отчет съдържа <strong>състояние, доказателства, отклонение, причина или неизвестно, предложено действие, отговорник и следваща проверка</strong>. Той е кратък, но достатъчно конкретен за решение.</p><div class=\"example\"><p>„Прототипът има две проверени страници от договорени три. Вложени са 8 вместо планирани 6 човекочаса. Липсва уточнение за съдържанието на третата. Мария го съгласува до ден 3; Иван довършва екрана; следва проверка на свързаните страници. Точният нов срок се потвърждава след уточнението.“</p></div><p>Отчетът разграничава факти, предположения и прогнози. Следващият преглед проверява изпълнените решения и оставащата работа. Така наблюдението и управлението образуват повтарящ се цикъл.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-report",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Кратък отчет и следваща проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Отчетът различава фактите от прогнозите."
+            },
+            {
+              "id": "answer-2",
+              "text": "Отчетът трябва да скрива неизвестното."
+            },
+            {
+              "id": "answer-3",
+              "text": "Предложеното действие има отговорник и срок."
+            },
+            {
+              "id": "answer-4",
+              "text": "Изразходваните часове са единственото съдържание."
+            },
+            {
+              "id": "answer-5",
+              "text": "След изпращане на отчета не е нужна проверка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Следващият преглед проверява решенията."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Отчетът подпомага действие и последващо проследяване. Той не трябва да представя непроверени предположения като сигурни резултати."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Сравнете план и факт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>За казуса с прототипа съставете кратко сравнение на план и действително изпълнение.</strong></p><p>Използвайте 2 дни, 6 планирани човекочаса, 8 действителни човекочаса и две готови страници от три. Отделете срок, усилие и резултат. Посочете кое отклонение може да се изчисли и какво остава неизвестно.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Период: планирани и изминали 2 дни. Усилие: 6 срещу 8 човекочаса, отклонение +2. Резултат: три договорени страници срещу две готови, следователно незавършен прототип. Не знаем времето за оставащата работа и причината. Самопроверка: не са приравнени часове, дни и готовност."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Проверете причината",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете каква допълнителна информация е нужна за отклонението.</strong></p><p>Дайте две възможни причини и конкретен начин за проверка на всяка. Посочете какво трябва да знаете за липсващата страница, зависимите задачи и наличните хора, преди да прогнозирате края.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Възможно е съдържанието да не е уточнено — проверяваме договорените изисквания и липсващите решения. Възможно е техническо затруднение — преглеждаме работещата версия и възпроизвеждаме проблема. Уточняваме оставащите действия и наличното време. Самопроверка: причините са хипотези до проверката им."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Сравнете коригиращи действия",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете две възможни действия за довършване на прототипа.</strong></p><p>За всяко посочете адресираната причина, нужния ресурс и влиянието върху срок, качество и зависими задачи. Изберете едно действие с аргумент. Не приемайте, че допълнителен човек автоматично спестява време.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "При неясно съдържание първо съгласуваме текста с възложителя. При липса на техническо умение може да помогне наличен специалист, но включваме време за запознаване. Изборът зависи от проверената причина. Не премахваме тестовете само за да обявим готовност. Самопроверка: решението адресира ли причината и има ли оценени последствия?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Опишете промяна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе предложение за промяна, ако възложителят поиска четвърта страница.</strong></p><p>Опишете новото изискване, засегнатите задачи, ресурсите, срока и проверките. Посочете кой трябва да съгласува решението и как ще уведомите екипа. Разгледайте вариант за отлагане.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Новата страница добавя дизайн, разработване и тестове. Екипът оценява усилието и зависимостите и предлага включване с уточнен срок или следваща версия. Възложителят и упълномощеният ръководител съгласуват избора; екипът получава записаното решение. Самопроверка: отчетени ли са всички засегнати части, а не само заглавието на страницата?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Подгответе отчет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Напишете кратък отчет за състоянието и следващото действие.</strong></p><p>Използвайте 6–8 изречения с факти, отклонение, неизвестно, действие, отговорник и следващ преглед. Посочете конкретно доказателство за успех на действието.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Две от три страници са проверени. Вложени са 8 вместо 6 човекочаса. Причината за липсващата страница се уточнява. Мария проверява съдържанието до ден 3; Иван оценява оставащото изпълнение. Следващият преглед сравнява версията и трите договорени проверки. Новият срок се потвърждава след оценката. Самопроверка: ясно ли е кое е факт и кое е прогноза?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Повече часове доказват ли повече готова работа?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Повече часове доказват ли повече готова работа?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Проверяваме приетите резултати и оставащата работа; часовете показват вложено усилие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Мониторингът само отклонения ли наблюдава?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Мониторингът само отклонения ли наблюдава?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Той системно събира данни за изпълнението, резултатите и тенденциите и позволява отклоненията да бъдат открити."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Промяна на крайната дата достатъчна ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Промяна на крайната дата достатъчна ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Анализираме причината, необходимите действия и влиянието и после проверяваме решението."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/06-project-control-and-management/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Мониторингът събира данни, а контролът ги сравнява с договорката и води до действия.</li><li>Сравняваме еднакви показатели и не смесваме усилие с готов резултат.</li><li>Причините се проверяват, а алтернативите се оценяват по последствия.</li><li>Промените се съгласуват и се отразяват в плана и проверките.</li><li>Отчетът свързва доказателства, решение, отговорник и следващ преглед.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/06-Project-Control-and-Management.html\">урок 6 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

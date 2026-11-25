@@ -1,0 +1,71 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/09-Teamwork-Analysis-and-Methods.html",
+  "sections": [
+    {
+      "section": "questions",
+      "title": "Изясняване чрез 5W+1H",
+      "information_step": "questions",
+      "check_step": "check-questions"
+    },
+    {
+      "section": "five-whys",
+      "title": "Търсене на причина с „Пет защо“",
+      "information_step": "five-whys",
+      "check_step": "check-five-whys"
+    },
+    {
+      "section": "fishbone",
+      "title": "Диаграма на Ишикава",
+      "information_step": "fishbone",
+      "check_step": "check-fishbone"
+    },
+    {
+      "section": "brainstorm",
+      "title": "Мозъчна атака",
+      "information_step": "brainstorm",
+      "check_step": "check-brainstorm"
+    },
+    {
+      "section": "hats",
+      "title": "Шестте мислещи шапки",
+      "information_step": "hats",
+      "check_step": "check-hats"
+    },
+    {
+      "section": "scamper",
+      "title": "Насочващи въпроси и SCAMPER",
+      "information_step": "scamper",
+      "check_step": "check-scamper"
+    },
+    {
+      "section": "pareto",
+      "title": "Приоритизиране с данни",
+      "information_step": "pareto",
+      "check_step": "check-pareto"
+    },
+    {
+      "section": "swot",
+      "title": "SWOT и обоснован избор",
+      "information_step": "swot",
+      "check_step": "check-swot"
+    },
+    {
+      "section": "action-plan",
+      "title": "От решение към действие",
+      "information_step": "action-plan",
+      "check_step": "check-action-plan"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

@@ -1,0 +1,752 @@
+{
+  "mission_version": 4,
+  "mission_id": "09-teamwork-analysis-and-methods-12-20261125",
+  "mission_content": {
+    "title": "Екипна и групова работа: техники и методи — Анализ и решаване на проблеми",
+    "description": "Екипът има нужда от различни методи според задачата: изясняване на проблема, търсене на причини, създаване на идеи или избор на решение. В този урок ще приложите въпроси, причинна диаграма и техники за обсъждане. Ще обосновете избора чрез факти и критерии и ще превърнете решението в конкретно действие.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "9. Екипна и групова работа: техники и методи — Анализ и решаване на проблеми",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>Екипът има нужда от различни методи според задачата: изясняване на проблема, търсене на причини, създаване на идеи или избор на решение. В този урок ще приложите въпроси, причинна диаграма и техники за обсъждане. Ще обосновете избора чрез факти и критерии и ще превърнете решението в конкретно действие.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "questions",
+        "step_content": {
+          "type": "information",
+          "title": "Изясняване чрез 5W+1H",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/questions.svg\" alt=\"Кой и какво? · Къде и кога? · Защо и как?\" width=\"840\" height=\"340\"><figcaption>Кой и какво? · Къде и кога? · Защо и как?</figcaption></figure><p>Един метод е полезен, когато отговаря на текущата ни задача: да разберем проблема, да предложим идеи или да изберем между тях. Не е нужно да използваме всички методи за всеки проблем.</p>\n<p>В началото можем да приложим <strong>5W+1H</strong> — шест въпроса, чиито английски названия започват с пет букви W и една H:</p>\n<ul><li><strong>Who — Кой?</strong> Кого засяга проблемът и кой може да помогне?</li><li><strong>What — Какво?</strong> Какво точно се случва и какъв резултат искаме?</li><li><strong>Where — Къде?</strong> Къде възниква затруднението?</li><li><strong>When — Кога?</strong> Кога се проявява и какъв е срокът?</li><li><strong>Why — Защо?</strong> Какви са възможните причини?</li><li><strong>How — Как?</strong> Как се проявява проблемът и как можем да го изследваме?</li></ul>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-questions",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Изясняване чрез 5W+1H",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "5W+1H помага да уточним ситуацията."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всички методи са задължителни за всеки проблем."
+            },
+            {
+              "id": "answer-3",
+              "text": "Липсващата информация се отбелязва за проверка."
+            },
+            {
+              "id": "answer-4",
+              "text": "Въпросите сами доказват причината."
+            },
+            {
+              "id": "answer-5",
+              "text": "Отговорите винаги са известни предварително."
+            },
+            {
+              "id": "answer-6",
+              "text": "Методът се избира според текущата задача."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Въпросите подреждат нужната информация. Разграничаваме известните данни от предположенията."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "five-whys",
+        "step_content": {
+          "type": "information",
+          "title": "Търсене на причина с „Пет защо“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/five-whys.svg\" alt=\"Симптом · Защо? · Проверка\" width=\"840\" height=\"340\"><figcaption>Симптом · Защо? · Проверка</figcaption></figure><p>Допълващ подход е <strong>„Пет защо“</strong>: след всеки отговор питаме отново „Защо?“, за да търсим по-дълбока причина. Броят пет е ориентир. Проверяваме отговорите с факти, вместо да приемаме първото обяснение за доказано.</p>\n<p class=\"example\"><strong>Пример:</strong> Не можем да публикуваме ученическия сайт. Защо? Липсва текст за една страница. Защо? Никой не е поел подготовката му. Така откриваме организационен проблем — неясна отговорност — и можем да го отстраним.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-five-whys",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Търсене на причина с „Пет защо“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Точно пет въпроса винаги доказват една причина."
+            },
+            {
+              "id": "answer-2",
+              "text": "Отговорите трябва да се проверяват с факти."
+            },
+            {
+              "id": "answer-3",
+              "text": "Първият отговор е достатъчен факт."
+            },
+            {
+              "id": "answer-4",
+              "text": "Методът трябва да търси виновен човек."
+            },
+            {
+              "id": "answer-5",
+              "text": "Видим проблем може да има организационна причина."
+            },
+            {
+              "id": "answer-6",
+              "text": "Броят пет е ориентир."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Повтарянето насочва изследването, но не заменя доказателствата и не бива да се превръща в обвинение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "fishbone",
+        "step_content": {
+          "type": "information",
+          "title": "Диаграма на Ишикава",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/fishbone.svg\" alt=\"Проблем · Групи причини · Проверка\" width=\"840\" height=\"340\"><figcaption>Проблем · Групи причини · Проверка</figcaption></figure><p><strong>Причинно-следствената диаграма на Ишикава</strong> подрежда възможните причини за проблем по групи. В „главата на рибата“ записваме наблюдавания проблем, а по „костите“ — групите причини и конкретните предположения.</p>\n<ol><li>Формулирайте проблема точно.</li><li>Изберете групи причини, например хора, организация, техника и информация.</li><li>Добавете предположенията на екипа във всяка група.</li><li>Проверете кои предположения се подкрепят от данни.</li></ol>\n<p class=\"example\"><strong>Пример: закъсняло предаване на проект.</strong> В група „Организация“ може да поставим неясни срокове, в „Информация“ — липсващи изисквания, в „Техника“ — недостъпни файлове, а в „Хора“ — липса на нужно умение. Диаграмата показва какво да проверим; тя сама не доказва причините.</p>\n<p>Може да създадете такава диаграма с текстов редактор, презентация или онлайн табло като <a href=\"https://miro.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Miro</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-fishbone",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Диаграма на Ишикава",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Причините могат да се групират по хора, организация и техника."
+            },
+            {
+              "id": "answer-2",
+              "text": "Диаграмата измерва сама вероятността."
+            },
+            {
+              "id": "answer-3",
+              "text": "Не е нужен ясно описан проблем."
+            },
+            {
+              "id": "answer-4",
+              "text": "Предположенията се проверяват с данни."
+            },
+            {
+              "id": "answer-5",
+              "text": "Диаграмата подрежда възможни причини."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяка записана причина е вече доказана."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Рибената кост показва какво да изследваме. Самото включване на предположение не го прави доказана причина."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "brainstorm",
+        "step_content": {
+          "type": "information",
+          "title": "Мозъчна атака",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/brainstorm.svg\" alt=\"Идеи · Надграждане · Оценка\" width=\"840\" height=\"340\"><figcaption>Идеи · Надграждане · Оценка</figcaption></figure><p><strong>Мозъчната атака</strong> (brainstorming) е начин за генериране на много идеи в екип. След като сме изяснили проблема, отделяме време само за предложения. Оценката идва след това.</p>\n<ul><li>Записваме предложенията, без веднага да ги критикуваме.</li><li>Насърчаваме различни, включително необичайни идеи.</li><li>Надграждаме предложенията на другите и съчетаваме идеи.</li><li>Даваме възможност на всеки да участва.</li><li>След края подреждаме идеите и ги оценяваме по общи критерии.</li></ul>\n<p class=\"example\"><strong>Пример:</strong> „Как да помогнем на новите ученици да се ориентират в училището?“ Възможни идеи са карта, кратко видео, страница с въпроси, ученик наставник или комбинация от тях.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-brainstorm",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Мозъчна атака",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Най-шумният участник трябва да определя всички решения."
+            },
+            {
+              "id": "answer-2",
+              "text": "Генерираните идеи не се оценяват никога."
+            },
+            {
+              "id": "answer-3",
+              "text": "Осигуряваме възможност за участие."
+            },
+            {
+              "id": "answer-4",
+              "text": "Генерирането и оценката се разграничават."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяка необичайна идея се отхвърля незабавно."
+            },
+            {
+              "id": "answer-6",
+              "text": "Надграждаме и съчетаваме предложения."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Първо разширяваме възможните решения, после ги сравняваме по общи критерии."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "hats",
+        "step_content": {
+          "type": "information",
+          "title": "Шестте мислещи шапки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/hats.svg\" alt=\"Факти и чувства · Ползи и рискове · Идеи и процес\" width=\"840\" height=\"340\"><figcaption>Факти и чувства · Ползи и рискове · Идеи и процес</figcaption></figure><p>Методът на <strong>Едуард де Боно</strong> насочва вниманието към различни аспекти на един въпрос. „Шапката“ обозначава начин на мислене, а не постоянен тип човек. Екипът може последователно да разглежда проблема през всяка шапка.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Шапка</th><th>Фокус</th><th>Примерен въпрос</th></tr></thead><tbody>\n<tr><td>Бяла — информационна</td><td>Факти, данни и липсваща информация.</td><td>Какво знаем и какво трябва да проверим?</td></tr>\n<tr><td>Червена — емоционална</td><td>Чувства, интуиция и първи реакции.</td><td>Как се чувстваме спрямо тази идея?</td></tr>\n<tr><td>Черна — предпазлива</td><td>Рискове, слабости и възможни затруднения.</td><td>Какво може да се обърка?</td></tr>\n<tr><td>Жълта — оптимистична</td><td>Ползи и основания идеята да успее.</td><td>Какво добро можем да постигнем?</td></tr>\n<tr><td>Зелена — творческа</td><td>Алтернативи и нови възможности.</td><td>Какъв друг подход можем да опитаме?</td></tr>\n<tr><td>Синя — управляваща</td><td>Организация на мисленето, ред и обобщаване.</td><td>Как ще работим и какво решихме?</td></tr>\n</tbody></table></div>\n<p class=\"note\">Приносът на предпазливото мислене е да открие конкретни рискове и условия за успех. То е полезно, когато е аргументирано и помага за подобряване на решението.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-hats",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Шестте мислещи шапки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Чувствата заместват всички факти."
+            },
+            {
+              "id": "answer-2",
+              "text": "Синята организира процеса на мислене."
+            },
+            {
+              "id": "answer-3",
+              "text": "Бялата шапка разглежда информацията."
+            },
+            {
+              "id": "answer-4",
+              "text": "Шапките са неизменни типове личности."
+            },
+            {
+              "id": "answer-5",
+              "text": "Зелената насочва към нови идеи."
+            },
+            {
+              "id": "answer-6",
+              "text": "Черната шапка означава лични нападки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Шапката е временен фокус на обсъждането. Различните гледни точки се използват последователно, без етикети за хората."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "scamper",
+        "step_content": {
+          "type": "information",
+          "title": "Насочващи въпроси и SCAMPER",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/scamper.svg\" alt=\"Замени и съчети · Приспособи · Премахни или обърни\" width=\"840\" height=\"340\"><figcaption>Замени и съчети · Приспособи · Премахни или обърни</figcaption></figure><p><strong>Списъкът на Осбърн</strong> използва насочващи въпроси за създаване на алтернативи: какво можем да заменим, премахнем, съчетаем или използваме по различен начин? По-систематизиран вариант е <strong>SCAMPER</strong>.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Буква и действие</th><th>Въпрос</th><th>Пример за училищен сайт</th></tr></thead><tbody>\n<tr><td>S — Substitute: заместване</td><td>Какво можем да заменим?</td><td>Дълга инструкция с кратък списък.</td></tr>\n<tr><td>C — Combine: съчетаване</td><td>Какво можем да обединим?</td><td>Календар и записване за събития.</td></tr>\n<tr><td>A — Adapt: приспособяване</td><td>Какво работещо решение можем да адаптираме?</td><td>Меню от познат образователен сайт.</td></tr>\n<tr><td>M — Modify: промяна</td><td>Какво да увеличим, намалим или променим?</td><td>По-големи бутони за работа през телефон.</td></tr>\n<tr><td>P — Put to another use: друга употреба</td><td>За какво друго може да послужи?</td><td>Галерията да представя и ученически проекти.</td></tr>\n<tr><td>E — Eliminate: премахване</td><td>Какво е излишно?</td><td>Дублиращи се страници.</td></tr>\n<tr><td>R — Reverse: обръщане</td><td>Какво ще стане, ако обърнем реда или подхода?</td><td>Първо показваме задачите, после обясненията към тях.</td></tr>\n</tbody></table></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-scamper",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Насочващи въпроси и SCAMPER",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Съчетаването на работещи идеи е възможен подход."
+            },
+            {
+              "id": "answer-2",
+              "text": "SCAMPER насочва към алтернативи."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всеки въпрос задължително дава годно решение."
+            },
+            {
+              "id": "answer-4",
+              "text": "Премахването на излишното може да подобри решение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Методът отменя оценката на изпълнимостта."
+            },
+            {
+              "id": "answer-6",
+              "text": "Можем само да добавяме функции."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Въпросите помагат да променяме и сравняваме идеи. Резултатите още трябва да се оценят спрямо целта и ресурсите."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "pareto",
+        "step_content": {
+          "type": "information",
+          "title": "Приоритизиране с данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/pareto.svg\" alt=\"Наблюдения · Подреждане · Приоритет\" width=\"840\" height=\"340\"><figcaption>Наблюдения · Подреждане · Приоритет</figcaption></figure>\n<p>Често малка част от причините води до голяма част от последствията. Това се представя условно като <strong>80/20</strong>. Съотношението е ориентир, а не задължителен природен закон.</p>\n<p>Подреждаме проблемите по честота, разход или въздействие и започваме с най-значимите. Например, ако повечето оплаквания за сайта са свързани с неработещото търсене, поправянето му може да донесе по-голяма полза от смяна на цветовете.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-pareto",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Приоритизиране с данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "80/20 е ориентир, а не задължителен закон."
+            },
+            {
+              "id": "answer-2",
+              "text": "Във всеки проект точно 20% причини дават точно 80% последствия."
+            },
+            {
+              "id": "answer-3",
+              "text": "Проблемите могат да се подредят по честота или въздействие."
+            },
+            {
+              "id": "answer-4",
+              "text": "Цветовете винаги са по-важни от неработещото търсене."
+            },
+            {
+              "id": "answer-5",
+              "text": "Предпочитанията сами доказват въздействие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Приоритетът трябва да се подкрепя с данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Търсим значимите причини в конкретните данни. Числовият ориентир не трябва да подменя измерването."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "swot",
+        "step_content": {
+          "type": "information",
+          "title": "SWOT и обоснован избор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/swot.svg\" alt=\"Вътрешни · Външни · Избор\" width=\"840\" height=\"340\"><figcaption>Вътрешни · Външни · Избор</figcaption></figure>\n<p><strong>SWOT</strong> е метод за разглеждане на четири групи фактори при оценка на идея, проект или организация. Първите две са вътрешни — свързани с екипа и решението. Другите две са външни — свързани със средата.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Група</th><th>Значение</th><th>Пример: сайт за училищен клуб</th></tr></thead><tbody>\n<tr><td>S — Strengths</td><td>Силни страни</td><td>Екипът има умения по HTML.</td></tr>\n<tr><td>W — Weaknesses</td><td>Слаби страни</td><td>Липсва опит с поддръжка.</td></tr>\n<tr><td>O — Opportunities</td><td>Възможности</td><td>Училището предлага пространство за публикуване.</td></tr>\n<tr><td>T — Threats</td><td>Заплахи</td><td>Външната платформа може да промени условията си.</td></tr>\n</tbody></table></div>\n<p>След анализа решаваме как да използваме силните страни и възможностите и как да ограничим слабостите и заплахите.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-swot",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: SWOT и обоснован избор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "SWOT сам избира единственото правилно решение."
+            },
+            {
+              "id": "answer-2",
+              "text": "Възможностите и заплахите са външни."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всички фактори са само вътрешни."
+            },
+            {
+              "id": "answer-4",
+              "text": "Името на фактор доказва вероятността му."
+            },
+            {
+              "id": "answer-5",
+              "text": "След анализа планираме как да използваме и ограничим факторите."
+            },
+            {
+              "id": "answer-6",
+              "text": "Силите и слабостите са вътрешни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "SWOT подрежда контекста. Изборът изисква аргументи и оценка на конкретните условия."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "action-plan",
+        "step_content": {
+          "type": "information",
+          "title": "От решение към действие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/action-plan.svg\" alt=\"Цел · Резултат · Действие\" width=\"840\" height=\"340\"><figcaption>Цел · Резултат · Действие</figcaption></figure><h3>План за действие</h3>\n<p>Планът превръща идеята в изпълними задачи. За всяка отговаряме: <strong>Какво? Защо? Как? Кой? Кога? Колко струва?</strong> Добавяме и критерий, по който ще разберем, че е готова.</p>\n<h3>Логическа рамка</h3>\n<p><strong>Логическата рамка</strong> свързва целите, очакваните резултати, дейностите, ресурсите и проверката на напредъка. Тя помага на екипа да следи не само извършената работа, но и постигнатите резултати.</p>\n<div class=\"table-wrap\"><div class=\"table-wrap\"><table><caption>Примерна структура на логическа рамка</caption><thead><tr><th>Какво планираме?</th><th>Какво измерваме?</th><th>Как го проверяваме?</th><th>Какви условия са нужни?</th></tr></thead><tbody>\n<tr><td>Общи цели</td><td>Ключови показатели</td><td>Източници на информация</td><td>Рискове</td></tr>\n<tr><td>Конкретни цели</td><td>Показатели за отчитане</td><td>Методи за набиране на информация</td><td>Външни условия</td></tr>\n<tr><td>Очаквани резултати</td><td>Показатели за измерване</td><td>Източници на информация</td><td>Предпоставки спрямо средата</td></tr>\n<tr><td>Дейности и последователност</td><td>Средства</td><td>Разходи</td><td>Условия извън контрола на екипа</td></tr>\n</tbody></table></div></div>\n<p><strong>Показател</strong> е проверим признак за напредък, например „пет публикувани страници“. Източникът за проверка може да е самият сайт или протокол от тестове.</p><p>Броят създадени страници показва произведен обем, но не доказва сам качеството или ползата. Избираме показатели според конкретната цел.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-action-plan",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От решение към действие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Логическата рамка свързва целите с резултати и проверки."
+            },
+            {
+              "id": "answer-2",
+              "text": "Брой страници сам доказва всички ползи."
+            },
+            {
+              "id": "answer-3",
+              "text": "Няма нужда да се разглеждат условия извън контрола на екипа."
+            },
+            {
+              "id": "answer-4",
+              "text": "Показателят трябва да има източник за проверка."
+            },
+            {
+              "id": "answer-5",
+              "text": "Планът посочва отговорник и срок."
+            },
+            {
+              "id": "answer-6",
+              "text": "Избраната идея се изпълнява автоматично без план."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Решението се превръща в изпълними задачи, а напредъкът се проверява чрез подходящи показатели и източници."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Изяснете ситуацията",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Приложете 5W+1H към един проблем в софтуерен проект.</strong></p><p>Може да изберете неработещо търсене, закъснение или неясна информация. Отговорете по шестте направления и отделете кое е факт, кое е предположение и какво трябва да проверите.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: потребители не намират заглавие в каталог при търсене по част от думата. Това е наблюдение; предположението за грешна обработка на буквите се проверява с конкретни заявки. Уточняваме засегнати потребители, условия, момент и желания резултат. Самопроверка: няма ли непроверени обяснения, представени като сигурни?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Подредете възможни причини",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте текстово описание на диаграма на Ишикава.</strong></p><p>Посочете проблема и поне три групи причини, например хора, организация, техника и информация. За всяко значимо предположение запишете какви данни ще го проверят. Не е нужно да рисувате или да качвате файл.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "За закъсняло търсене: информация — неясно условие; техника — неподходяща библиотека; организация — пропусната зависимост. Проверяваме договорката, техническа проба и графика. Самопроверка: диаграмата подрежда хипотези, не доказани обвинения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Създайте алтернативи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Предложете поне четири идеи и подобрете две чрез SCAMPER.</strong></p><p>Първо запишете предложенията без ранна критика. След това използвайте поне три различни насочващи действия, например заместване, съчетаване и премахване. Посочете как се променя всяка избрана идея.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: по-просто търсене, филтри, списък по категории, подсказки. Съчетаваме търсене и категории, заменяме сложната инструкция с пример, премахваме дублиращо поле. Самопроверка: има ли действителни алтернативи и ясно описана промяна, а не само имена на методи?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Обосновете избора",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете две решения по общи критерии и изберете едно.</strong></p><p>Използвайте полза за потребителя, ресурс, срок и риск. При условни оценки обяснете скалата. Може да използвате SWOT за контекста, но не приемайте гласуването за достатъчно доказателство.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: пълно ново търсене или поправка на обработката на заявките. Ако данните потвърждават локален дефект, поправката може да има по-малък обхват и по-кратък срок; проверяваме ефекта с тестови заявки. Самопроверка: изборът следва ли фактите и критериите?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Планирайте първото действие",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Превърнете решението в конкретна задача и проверка.</strong></p><p>Посочете действие, причина, отговорник, срок, ресурси и очакван резултат. Добавете показател и източник за проверка. Опишете едно външно условие, което може да повлияе.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: разработчикът поправя обработката до ден 4; тестерът изпълнява пет договорени заявки и записва резултатите. Показателят е броят успешни случаи от пет, а не общата полезност на каталога. Достъпът до тестовата среда е нужно условие. Самопроверка: задачата изпълнима ли е и има ли доказателство за успех?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Диаграмата на Ишикава доказва ли причините?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Диаграмата на Ишикава доказва ли причините?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Тя подрежда възможни причини за проверка чрез данни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Идеята с най-много гласове винаги ли е най-подходяща?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Идеята с най-много гласове винаги ли е най-подходяща?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Гласуването показва предпочитание; изборът се оценява и по цел, факти, ресурси и ограничения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Шапките постоянни типове хора ли са?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Шапките постоянни типове хора ли са?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Те са различни фокуси на мислене и обсъждане, които участниците могат да сменят."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/09-teamwork-analysis-and-methods/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Методът се избира според задачата: разбиране, идеи, оценка или действие.</li><li>Въпросите и причинните диаграми насочват проверки, а не доказват предположения.</li><li>Генерирането на идеи се отделя от оценката им.</li><li>Критериите и данните подкрепят обоснования избор.</li><li>Решението става полезно чрез задача, отговорник, срок и проверим резултат.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/09-Teamwork-Analysis-and-Methods.html\">урок 9 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

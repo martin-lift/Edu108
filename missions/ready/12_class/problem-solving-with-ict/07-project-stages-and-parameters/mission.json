@@ -1,0 +1,626 @@
+{
+  "mission_version": 4,
+  "mission_id": "07-project-stages-and-parameters-12-20261125",
+  "mission_content": {
+    "title": "Дефиниране и основни етапи в софтуерен проект",
+    "description": "Този урок обединява понятията за софтуерен проект, жизнен цикъл, планиране, качество, риск и контрол. Ще проследите връзката от потребността до приетия резултат и използването му. Ще подготвите свързано проектно описание, в което всяка задача има принос, отговорник, резултат и проверка.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "7. Дефиниране и основни етапи в софтуерен проект",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>Този урок обединява понятията за софтуерен проект, жизнен цикъл, планиране, качество, риск и контрол. Ще проследите връзката от потребността до приетия резултат и използването му. Ще подготвите свързано проектно описание, в което всяка задача има принос, отговорник, резултат и проверка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "definition",
+        "step_content": {
+          "type": "information",
+          "title": "От потребност към определен проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/definition.svg\" alt=\"Потребност · Проект · Продукт\" width=\"840\" height=\"340\"><figcaption>Потребност · Проект · Продукт</figcaption></figure><p>Започваме с потребност или възможност и уточняваме кои хора са засегнати. <strong>Дефинирането</strong> свързва целта, потребителите, продукта, обхвата, ограниченията и критериите за приемане.</p><p>Проектът е организираната работа с начало и край. Продуктът е полученият резултат и може да продължи да се използва след проекта. Задачата е конкретна работа, която допринася за резултата.</p><div class=\"example\"><p>Потребност: произведенията на местни автори са разпръснати и трудно се разглеждат. Цел: хората да ги намират на едно място. Продукт: прототип на дигитална галерия с изображения, заглавия и автори. „Подготви описание на произведенията“ е задача, а самият каталог е резултат.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-definition",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От потребност към определен проект",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Целта описва желаното постижение."
+            },
+            {
+              "id": "answer-2",
+              "text": "Списъкът с хора замества обхвата."
+            },
+            {
+              "id": "answer-3",
+              "text": "Продуктът и работата по създаването му се различават."
+            },
+            {
+              "id": "answer-4",
+              "text": "Проектът продължава задължително до последния ден на употреба."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяка случайна дейност е полезна за всяка цел."
+            },
+            {
+              "id": "answer-6",
+              "text": "Задачата трябва да допринася за договорен резултат."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Потребността, целта, продуктът и задачите са свързани, но различни. Проектното описание трябва да показва тази връзка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "parameters",
+        "step_content": {
+          "type": "information",
+          "title": "Основни параметри и обща договорка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/parameters.svg\" alt=\"Обхват · Ограничения · Приемане\" width=\"840\" height=\"340\"><figcaption>Обхват · Ограничения · Приемане</figcaption></figure><p>Краткото описание съдържа <strong>проблем или потребност, потребители, цел, краен продукт, включен и изключен обхват, срок, ресурси и приемане</strong>. Възложителят и изпълнителят уточняват очакванията, вместо да разчитат на общи думи като „хубаво“.</p><p>За галерията може да включим списък, детайлен изглед и търсене, а плащанията и личните профили да остават извън прототипа. Срокът и наличните умения ограничават изпълнимото.</p><p>Проверим критерий е „при търсене на въведено заглавие се показва правилният запис с автор“. Ако обхватът се промени, оценяваме и договаряме отражението върху задачите, ресурсите, срока и тестовете.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-parameters",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Основни параметри и обща договорка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Хубава галерия е достатъчно проверим критерий."
+            },
+            {
+              "id": "answer-2",
+              "text": "Критерият трябва да допуска конкретна проверка."
+            },
+            {
+              "id": "answer-3",
+              "text": "Всеки нов профил влиза автоматично без оценка."
+            },
+            {
+              "id": "answer-4",
+              "text": "Ресурсите не влияят на изпълнимото."
+            },
+            {
+              "id": "answer-5",
+              "text": "Промяната на обхвата може да засегне срока и тестовете."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изключените функции уточняват границите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Параметрите изграждат общата договорка. Те се съгласуват и при промяна, вместо да се добавят неявни очаквания."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "stages",
+        "step_content": {
+          "type": "information",
+          "title": "Етап, дейност, резултат и проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/stages.svg\" alt=\"Дейност · Резултат · Проверка\" width=\"840\" height=\"340\"><figcaption>Дейност · Резултат · Проверка</figcaption></figure><p>Шестфазният учебен модел помага да подредим необходимата работа. За всяка част търсим конкретен резултат и начин за проверка:</p><ul><li><strong>Изследване и планиране:</strong> изясняваме нуждата; резултат е проектно описание и план; проверяваме общото разбиране.</li><li><strong>Осъществимост:</strong> сравняваме нужното и наличното; резултат е обосновано решение; проверяваме данните и допусканията.</li><li><strong>Проектиране:</strong> уточняваме структура, данни и интерфейс; резултат е схема или прототип; потребител изпробва основните действия.</li><li><strong>Изпълнение:</strong> създаваме частите; резултат е работеща версия; проверяваме функциите и връзките.</li><li><strong>Оценка:</strong> сравняваме с изискванията; резултат са тестови записи и корекции; повтаряме засегнатите проверки.</li><li><strong>Внедряване и използване:</strong> предоставяме версията и указания; проверяваме реалната среда и организираме поддръжка.</li></ul><p>Това не е задължително еднократна права последователност. Нови данни могат да върнат екипа към по-ранно решение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-stages",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Етап, дейност, резултат и проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Потребителят може да изпробва прототип при проектирането."
+            },
+            {
+              "id": "answer-2",
+              "text": "Изпълнена дейност винаги доказва приет резултат."
+            },
+            {
+              "id": "answer-3",
+              "text": "Внедряването премахва нуждата от поддръжка."
+            },
+            {
+              "id": "answer-4",
+              "text": "Открита неточност може да наложи връщане към по-ранно решение."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяка фаза се свързва с резултат и проверка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Шестте фази забраняват повторения."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Етапът организира работата, а конкретният резултат и проверката дават доказателства. Моделът допуска уточнения и повторения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "roles",
+        "step_content": {
+          "type": "information",
+          "title": "Роли, задачи и лична отговорност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/roles.svg\" alt=\"Задача · Отговорник · Компетентност\" width=\"840\" height=\"340\"><figcaption>Задача · Отговорник · Компетентност</figcaption></figure><p>За всяка задача посочваме отговорник и нужните компетентности. Координаторът синхронизира сроковете и решенията; разработчикът създава функциите; дизайнерът подготвя представянето; редакторът уточнява съдържанието; тестерът проверява резултатите. При внедряване е нужна и отговорност за средата и поддръжката.</p><p>За галерията един участник проверява изображенията и описанията, втори създава екраните, трети изпълнява тестове и подготвя демонстрация. В малък екип ролите могат да се съчетават, но трябва да се отчете натоварването.</p><p>Обща отговорност без конкретен изпълнител може да остави задача незапочната. Полезни са ясни договорки кой подготвя, кой проверява и кой приема резултата.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-roles",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Роли, задачи и лична отговорност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "При малък екип не е нужно разпределение."
+            },
+            {
+              "id": "answer-2",
+              "text": "Обща цел автоматично определя кой започва всяка работа."
+            },
+            {
+              "id": "answer-3",
+              "text": "Приемане и техническо изпълнение могат да са различни отговорности."
+            },
+            {
+              "id": "answer-4",
+              "text": "Един участник може да съчетава роли при изпълнимо натоварване."
+            },
+            {
+              "id": "answer-5",
+              "text": "Координаторът трябва да носи всички задачи."
+            },
+            {
+              "id": "answer-6",
+              "text": "Задачите се свързват с конкретна отговорност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Ролите покриват необходимите дейности, а задачите имат конкретни отговорници. Съчетаването на роли не премахва ограниченията на времето."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "dependencies",
+        "step_content": {
+          "type": "information",
+          "title": "Зависимости, ресурси и график",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/dependencies.svg\" alt=\"Зависимости · Ресурси · График\" width=\"840\" height=\"340\"><figcaption>Зависимости · Ресурси · График</figcaption></figure><p>Подреждаме задачите според нужните предходни резултати и наличните хора. За галерията уточнените полета на описанието са нужни преди разработването на търсенето. Подготовката на примерни изображения може да протича едновременно с дизайн, ако участниците и изискванията го позволяват.</p><p>За всяка задача записваме срок или период, ресурси, резултат и условие за готовност. Изразходваните часове са усилие, а не автоматична мярка за готовност.</p><p>Ограничение като малко работно време може да наложи по-малък първи обхват. Проверяваме отражението върху следващите задачи, вместо да записваме невъзможни застъпвания. В плана включваме проверки, поправки и предаване, а не само разработване.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-dependencies",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Зависимости, ресурси и график",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ограниченията не влияят на обхвата."
+            },
+            {
+              "id": "answer-2",
+              "text": "Часовете и приетите резултати измерват различни неща."
+            },
+            {
+              "id": "answer-3",
+              "text": "Едновременната работа зависи от ресурси и зависимости."
+            },
+            {
+              "id": "answer-4",
+              "text": "Задачите винаги са независими."
+            },
+            {
+              "id": "answer-5",
+              "text": "Проверките и предаването са част от плана."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всяко застъпване в таблица е изпълнимо."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Графикът трябва да е изпълним спрямо наличните хора и предходните резултати. Планираме и работата по доказване на готовността."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "risk-quality-control",
+        "step_content": {
+          "type": "information",
+          "title": "Качество, риск и контрол в общия план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/risk-quality-control.svg\" alt=\"Риск · Качество · Контрол\" width=\"840\" height=\"340\"><figcaption>Риск · Качество · Контрол</figcaption></figure><p>Предварително уточняваме как ще приемем продукта и какво може да попречи. Рискът е несигурно събитие с влияние върху целта; възникналият проблем вече изисква действие.</p><div class=\"example\"><p>Риск: неподготвените изображения могат да забавят демонстрацията. Мярка: ранен преглед на примерните данни с отговорник и срок. Проверка за качество: при търсене по заглавие се отваря правилното произведение с четим автор и описание.</p></div><p>По време на работата сравняваме план и факт, проверяваме причините за отклоненията и оценяваме алтернативи. Ако добавим нова функция, уточняваме и новите рискове, ресурси и тестове. Докладът описва факти, действие и следваща проверка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-risk-quality-control",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Качество, риск и контрол в общия план",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Контролът използва факти и проверява действията."
+            },
+            {
+              "id": "answer-2",
+              "text": "Рисковите мерки имат отговорник и срок."
+            },
+            {
+              "id": "answer-3",
+              "text": "Риск и възникнал проблем са винаги едно и също."
+            },
+            {
+              "id": "answer-4",
+              "text": "Новата функция може да изисква нови тестове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Готово означава само изразходвани часове."
+            },
+            {
+              "id": "answer-6",
+              "text": "След промяна няма нови зависимости или рискове."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Качеството, рисковете и контролът са свързани с общия план, а не отделни списъци без действие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "delivery",
+        "step_content": {
+          "type": "information",
+          "title": "От приета версия към използване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/delivery.svg\" alt=\"Приемане · Използване · Поддръжка\" width=\"840\" height=\"340\"><figcaption>Приемане · Използване · Поддръжка</figcaption></figure><p>В края на проекта предаваме договорен резултат, указания и доказателства за проверките. Възложителят сравнява продукта с критериите за приемане. Прототипът не е автоматично завършена система за реални потребители.</p><p>Ако се внедрява работещ продукт, уточняваме средата, достъпа, прехвърлянето на нужни данни и отговорността за поддръжка. Използването, поправките и новите версии продължават жизнения цикъл след първоначалния проект.</p><p>За учебна галерия работим с измислени записи и изображения, които имаме право да използваме. При реални данни и чужди произведения необходимите условия и защита се обмислят още в изискванията. По-късната замяна на продукта също се организира.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-delivery",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: От приета версия към използване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Приемането се основава на договорени критерии."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всеки прототип е готов за реална употреба."
+            },
+            {
+              "id": "answer-3",
+              "text": "Жизненият цикъл може да продължи след проекта."
+            },
+            {
+              "id": "answer-4",
+              "text": "След първата версия няма поддръжка."
+            },
+            {
+              "id": "answer-5",
+              "text": "Данните се обмислят едва след публикуване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Реалната употреба изисква подготвена среда и отговорност."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Предаваме резултат с доказателства и ясни отговорности. Краят на проекта не е непременно край на продукта."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Определете проекта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе кратко описание на собствен софтуерен проект.</strong></p><p>Посочете потребност, потребители, цел, продукт, включен и изключен обхват, срок и ресурси. Изберете позната област; училищният пример е само една възможност. Уточнете дали създавате прототип или работеща версия.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: прототип на каталог за книги за хора, които искат да намират заглавия на едно място. Включени са списък, добавяне и търсене; извън обхвата са плащания и профили. Срокът е две седмици с двама участници и налични компютри. Самопроверка: различават ли се потребността, целта и продуктът и ясни ли са границите?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Проследете етапите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>За шестте фази запишете по една свързана проектна задача.</strong></p><p>За всяка дайте „Фаза — задача — отговорник — резултат — проверка“. Използвайте конкретни действия за своя продукт. Покрийте и оценката на осъществимостта и реалната среда при внедряване.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "За каталог: изясняване на полетата — описание; оценка на нужните умения — обоснован обхват; прототип — проверен екран; разработване — работеща версия; оценка — тестови записи; внедряване — достъп и указания. Във всеки ред добавяме човек и конкретна проверка, например търсене на предварително зададено заглавие. Самопроверка: има ли доказателство, а не само име на фаза?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Планирайте зависимости",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подредете задачите с изпълними срокове и зависимости.</strong></p><p>Посочете кои две задачи могат да вървят едновременно и защо. Опишете едно ограничение и как то променя плана. Уточнете времевите единици и наличността на хората.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: примерните записи и дизайнът могат да се подготвят паралелно от различни хора след уточняване на полетата. Разработването на търсенето следва договорения модел на данните. При само два часа седмично намаляваме първата версия и оценяваме календарния срок. Самопроверка: няма ли ресурсен конфликт или пропусната предходна работа?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Свържете приемане и риск",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете две проверки за приемане и един риск с мярка.</strong></p><p>За проверките дайте условие, действие и очакван резултат. За риска дайте несигурно събитие, последствие, отговорник и превантивно действие. Използвайте измислени данни.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Проверка: добавяме книга с примерни заглавие и автор и очакваме един запис. При търсене на същото заглавие очакваме правилния резултат. Риск: непозната библиотека може да забави търсенето; разработчик прави ранна проба и проверява три случая. Самопроверка: рискът не е вече настъпил факт и проверките са повторими."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Проверете общата логика",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Направете един обоснован преглед на своя план.</strong></p><p>Проверете дали всяка задача допринася за целта и има резултат и проверка. Опишете намерен пропуск, корекция и отражението ѝ. Може да обсъдите с друг екип или да прегледате като възложител.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: липсва задача за указания и предаване. Добавяме я след проверките с отговорник и оценен период; сверяваме крайната дата и условията за приемане. Самопроверка: корекцията подкрепя целта и не прикрива друга зависимост. Възможни са различни смислени пропуски и решения."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: „Работихме по дизайна“ достатъчно доказателство ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>„Работихме по дизайна“ достатъчно доказателство ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Нужни са конкретен резултат, например прототип, и записана проверка или обратна връзка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Всеки етап самостоятелен и окончателен ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Всеки етап самостоятелен и окончателен ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Резултатите се свързват, а нови данни могат да наложат връщане към по-ранно решение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Краят на проекта край на продукта ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Краят на проекта край на продукта ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не непременно. Продуктът може да продължи да се използва, поддържа и развива чрез следващи проекти."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/07-project-stages-and-parameters/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Дефинирането свързва потребност, цел, продукт, обхват и ограничения.</li><li>За всяка фаза търсим дейност, резултат и проверка.</li><li>Задачите имат отговорник, ресурси и изпълними зависимости.</li><li>Приемането, рисковете и контролът се планират заедно.</li><li>Продуктът може да продължи да се използва и развива след проекта.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/07-Project-Stages-and-Parameters.html\">урок 7 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

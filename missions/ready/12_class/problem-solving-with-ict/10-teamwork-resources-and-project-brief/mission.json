@@ -1,0 +1,689 @@
+{
+  "mission_version": 4,
+  "mission_id": "10-teamwork-resources-and-project-brief-12-20261125",
+  "mission_content": {
+    "title": "Екипна и групова работа: техники и методи — Ресурси, комуникация и проектно задание",
+    "description": "Изпълнимият софтуерен проект съчетава налични ресурси, ясно общуване и съгласувано задание. В този урок ще описвате необходимото и ограниченията, ще планирате комуникацията и ще различавате постигнат резултат от разумно използвани ресурси. Ще сравнявате условни разходи и ползи и ще подготвите проектно задание с проверими изисквания.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "10. Екипна и групова работа: техники и методи — Ресурси, комуникация и проектно задание",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>Изпълнимият софтуерен проект съчетава налични ресурси, ясно общуване и съгласувано задание. В този урок ще описвате необходимото и ограниченията, ще планирате комуникацията и ще различавате постигнат резултат от разумно използвани ресурси. Ще сравнявате условни разходи и ползи и ще подготвите проектно задание с проверими изисквания.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "resources",
+        "step_content": {
+          "type": "information",
+          "title": "Какви ресурси са нужни?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/resources.svg\" alt=\"Необходимо · Налично · Отговорност\" width=\"840\" height=\"340\"><figcaption>Необходимо · Налично · Отговорност</figcaption></figure><p><strong>Ресурсите</strong> са средствата, знанията, хората, времето и възможностите, с които можем да изпълним задачата. Описваме ги още при дефинирането на проблема и планирането.</p>\n<div class=\"table-wrap\"><table><thead><tr><th>Вид</th><th>Какво включва?</th><th>Пример</th></tr></thead><tbody>\n<tr><td>Човешки</td><td>Хората, техните умения, опит и отговорности.</td><td>Програмист, дизайнер, редактор и координатор.</td></tr>\n<tr><td>Финансови</td><td>Налични средства и възможно финансиране; разходите показват за какво са нужни.</td><td>Бюджет за домейн или печатни материали.</td></tr>\n<tr><td>Материални</td><td>Техника, помещения, транспорт и други физически средства.</td><td>Компютри, проектор, зала.</td></tr>\n<tr><td>Технологични</td><td>Процеси, процедури и начини на работа.</td><td>Процедура за публикуване и резервно копиране на сайта.</td></tr>\n<tr><td>Нематериални</td><td>Знания, идеи, лицензи, специализиран опит, репутация и организационна култура.</td><td>Право за използване на софтуер и опит от предишен проект.</td></tr>\n<tr><td>Времеви</td><td>Периодът и наличното работно време за постигане на целта.</td><td>Три седмици до представянето, по два часа седмично.</td></tr>\n</tbody></table></div>\n<p>Материалните ресурси могат да се изчерпват или да са заети в даден момент. Знанията могат да се използват многократно и да се споделят, но достъпът до лицензи и други нематериални ресурси може да има ограничения. Категориите понякога се припокриват — важно е да не пропуснем необходимото.</p>\n<p class=\"example\"><strong>Пример:</strong> за прототип на каталог са нужни хора с умения, компютри, редактор, примерни записи, време за проверка и право за използване на ресурсите. За всеки посочваме необходимото, наличността и кой го осигурява. При припокриващи се категории не броим един и същ разход два пъти.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-resources",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какви ресурси са нужни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ресурсите включват хора, време, средства и знания."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всеки ресурс е само физически предмет."
+            },
+            {
+              "id": "answer-3",
+              "text": "Наличността може да ограничи изпълнението."
+            },
+            {
+              "id": "answer-4",
+              "text": "Лицензите и достъпът никога нямат ограничения."
+            },
+            {
+              "id": "answer-5",
+              "text": "Един и същ разход трябва да се брои във всяка категория поотделно."
+            },
+            {
+              "id": "answer-6",
+              "text": "Категориите могат да се припокриват."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Учебните категории помагат да не пропускаме необходимото. Проверяваме наличността и избягваме двойното отчитане."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "communication",
+        "step_content": {
+          "type": "information",
+          "title": "Как преминава съобщението?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/communication.svg\" alt=\"Съобщение · Разбиране · Обратна връзка\" width=\"840\" height=\"340\"><figcaption>Съобщение · Разбиране · Обратна връзка</figcaption></figure><p><strong>Комуникацията</strong> е обмен на информация и смисъл. Тя има съдържателна страна — какво казваме, и страна на отношенията — как се отнасяме към събеседника. Може да бъде словесна, писмена и невербална: чрез интонация, изражение и жестове.</p>\n<h3>Как преминава едно съобщение?</h3>\n<ol><li><strong>Зараждане на идеята:</strong> решаваме какво искаме да съобщим.</li><li><strong>Кодиране:</strong> избираме думи, знаци или изображение.</li><li><strong>Предаване:</strong> изпращаме през избран канал.</li><li><strong>Приемане:</strong> съобщението достига до получателя.</li><li><strong>Разкодиране:</strong> получателят разчита думите или знаците.</li><li><strong>Възприемане:</strong> тълкува смисъла.</li><li><strong>Използване:</strong> действа според разбраното.</li><li><strong>Обратна връзка:</strong> потвърждава или задава уточняващ въпрос.</li></ol>\n<p class=\"example\"><strong>Пример:</strong> „Качи го до утре“ е неясно. „Качи окончателния HTML файл в общата папка до ден 3, 14:00, и потвърди в чата“ посочва резултат, място и срок. Получателят може да отговори: „Разбрах — качвам окончателния файл в общата папка до 14:00“.</p>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-communication",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Как преминава съобщението",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изпратено означава автоматично разбрано."
+            },
+            {
+              "id": "answer-2",
+              "text": "Обратната връзка може да уточни смисъла."
+            },
+            {
+              "id": "answer-3",
+              "text": "Качи го до утре винаги е напълно конкретно."
+            },
+            {
+              "id": "answer-4",
+              "text": "Интонацията и жестовете никога не носят смисъл."
+            },
+            {
+              "id": "answer-5",
+              "text": "Съобщението има съдържание и отношение."
+            },
+            {
+              "id": "answer-6",
+              "text": "Изпращането и разбирането са различни стъпки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Проверяваме дали получателят е разбрал резултата, отговорността и срока. Самото достигане на съобщението не е достатъчно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "clear-communication",
+        "step_content": {
+          "type": "information",
+          "title": "Принципи и канали за ясно общуване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/clear-communication.svg\" alt=\"Яснота · Канал · Запис\" width=\"840\" height=\"340\"><figcaption>Яснота · Канал · Запис</figcaption></figure>\n<ul><li><strong>Пълнота:</strong> включваме необходимото за изпълнение.</li><li><strong>Краткост:</strong> премахваме излишните подробности.</li><li><strong>Яснота:</strong> използваме разбираем език.</li><li><strong>Конкретност:</strong> посочваме действия, срокове и очакван резултат.</li><li><strong>Учтивост и уважение:</strong> обсъждаме въпроса, като зачитаме хората.</li></ul>\n<p>Изберете канал според задачата: среща за сложен спор, чат за кратко уточнение, общ документ за решенията и табло със задачи за сроковете. Уточнете къде се пази окончателната информация.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-clear-communication",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Принципи и канали за ясно общуване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Каналът се избира според сложността на въпроса."
+            },
+            {
+              "id": "answer-2",
+              "text": "Всеки спор се решава с още неясни съобщения."
+            },
+            {
+              "id": "answer-3",
+              "text": "Решенията трябва да са разпръснати в противоречиви версии."
+            },
+            {
+              "id": "answer-4",
+              "text": "Уточняваме къде е окончателната информация."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ясното съобщение включва нужния резултат и срок."
+            },
+            {
+              "id": "answer-6",
+              "text": "Краткост означава да пропуснем необходимото."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Пълнотата и краткостта се съчетават чрез нужните конкретни данни. Каналът и общият запис подпомагат разбирането."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "feedback-conflict",
+        "step_content": {
+          "type": "information",
+          "title": "Обратна връзка и разрешаване на конфликт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/feedback-conflict.svg\" alt=\"Факти · Изслушване · Договорка\" width=\"840\" height=\"340\"><figcaption>Факти · Изслушване · Договорка</figcaption></figure><p>Полезните междуличностни умения включват активно слушане, сътрудничество, представяне на идеи, обучаване на колеги и поемане на отговорност. Те често се наричат <strong>„меки умения“</strong>.</p>\n<p><strong>Активно слушане</strong> означава да дадем време на другия, да зададем уточняващи въпроси и да проверим дали сме го разбрали. Конструктивната обратна връзка описва конкретно поведение, неговото влияние и възможна промяна.</p>\n<p class=\"example\"><strong>Пример:</strong> „Последният файл не беше в общата папка и не успяхме да го тестваме. Можеш ли следващия път да го качиш до уговорения срок и да ни уведомиш?“</p>\n<h3>Когато възникне спор</h3>\n<ol><li>Признайте, че има проблем, и го опишете без обвинения.</li><li>Разграничете проблема от личността на участника.</li><li>Изслушайте всички страни и уточнете фактите.</li><li>Посочете общата цел и нуждите на участниците.</li><li>Потърсете приемливи решения и се договорете за действие.</li><li>Проверете по-късно дали договорката е помогнала.</li></ol>\n<p>Етикетът в писмена и устна комуникация, уважителната интонация, умението да приемаме критика и да защитаваме аргументирано позицията си подпомагат доверието. Участието в дискусията и поддържането на добри отношения са част от отговорността на всеки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-feedback-conflict",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Обратна връзка и разрешаване на конфликт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Спорът трябва да се решава без изслушване."
+            },
+            {
+              "id": "answer-2",
+              "text": "Общата цел няма значение за приемливо решение."
+            },
+            {
+              "id": "answer-3",
+              "text": "След договорка проверяваме дали тя е помогнала."
+            },
+            {
+              "id": "answer-4",
+              "text": "Активното слушане включва уточняващи въпроси."
+            },
+            {
+              "id": "answer-5",
+              "text": "Личните нападки са равни на аргументи."
+            },
+            {
+              "id": "answer-6",
+              "text": "Полезната обратна връзка описва поведение и влияние."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Обсъждаме проблема, а не атакуваме личността. Договорката включва конкретно действие и последващ преглед."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "effectiveness-efficiency",
+        "step_content": {
+          "type": "information",
+          "title": "Ефективност и ефикасност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/effectiveness-efficiency.svg\" alt=\"Цел · Резултат · Ресурси\" width=\"840\" height=\"340\"><figcaption>Цел · Резултат · Ресурси</figcaption></figure><p>Оценяваме два различни въпроса: <strong>„Постигнахме ли целта?“</strong> и <strong>„Как използвахме ресурсите?“</strong> За яснота използваме:</p><ul><li><strong>Ефективност (effectiveness):</strong> степента, в която се постигат планираните цели и резултати.</li><li><strong>Ефикасност (efficiency):</strong> съотношението между постигнатия резултат и използваните ресурси.</li></ul><p>Два екипа могат да създадат продукт, който покрива едни и същи изисквания. И двата постигат целта. Ако единият използва по-малко време и средства при съпоставимо качество, той работи по-ефикасно в този смисъл.</p><p>Бързото изпълнение на ненужно решение не доказва постигане на целта. Винаги уточняваме какво измерваме и сравняваме резултатите при съпоставими условия, вместо да оценяваме само скоростта или цената.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-effectiveness-efficiency",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Ефективност и ефикасност",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Ресурсите могат да се сравняват без оглед на получения резултат."
+            },
+            {
+              "id": "answer-2",
+              "text": "По-малко време е смислено сравнение при съпоставим резултат и качество."
+            },
+            {
+              "id": "answer-3",
+              "text": "Ефективността се свързва с постигането на целта."
+            },
+            {
+              "id": "answer-4",
+              "text": "Бързо ненужно решение доказва изпълнена потребност."
+            },
+            {
+              "id": "answer-5",
+              "text": "Ефикасността разглежда резултата спрямо ресурсите."
+            },
+            {
+              "id": "answer-6",
+              "text": "Ефикасност означава само наличие на много функции."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Различаваме постигнатата цел от начина на използване на ресурсите. Назоваваме измерваното, за да няма двусмислие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "cost-benefit",
+        "step_content": {
+          "type": "information",
+          "title": "Оценка на ползи и разходи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/cost-benefit.svg\" alt=\"Разходи · Ползи · Допускания\" width=\"840\" height=\"340\"><figcaption>Разходи · Ползи · Допускания</figcaption></figure><p><strong>Анализът „разходи–ползи“</strong> сравнява очакваните разходи и ползите от възможните решения. Той помага да преценим дали дадено решение е оправдано и кой вариант е по-подходящ.</p>\n<p>Освен цена можем да оценяваме качество, производителност, възвръщаемост, период на изплащане, удобство, надеждност, срокове и възможност за адаптиране. Не всички ползи се измерват лесно с пари — например по-достъпната информация или по-доброто обслужване.</p>\n<h3>Опростен индекс за учебен пример</h3>\n<p>Можем да изчислим <strong>отношение ползи/разходи = очаквани парични ползи ÷ очаквани разходи</strong>. Сравняваме стойности за един и същ период. Над 1 означава, че в тази опростена сметка ползите надхвърлят разходите; под 1 — че са по-малки.</p>\n<p class=\"example\"><strong>Пример с условни данни:</strong> Решение струва 800 евро и се очаква да спести 1000 евро за една година. Отношението е 1000 ÷ 800 = 1,25. Този резултат зависи от предположенията; сам по себе си не гарантира печалба.</p>\n<p>При реален инвестиционен анализ се отчитат и моментът на приходите и разходите, несигурността и други фактори. Затова всяка таблица трябва да посочва периода, допусканията и източниците на данните.</p>\n<p>За сравнение на два варианта използваме еднакъв период и ясни допускания. Ако очакваната полза от 1000 евро спадне на 700 евро при разход 800 евро, отношението става 700 ÷ 800 = 0,875. Така виждаме зависимостта на решението от прогнозата, вместо да приемаме една оценка за сигурна.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-cost-benefit",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Оценка на ползи и разходи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Промяна на прогнозните ползи може да промени оценката."
+            },
+            {
+              "id": "answer-2",
+              "text": "Ползи и разходи се сравняват за един и същ период."
+            },
+            {
+              "id": "answer-3",
+              "text": "Отношение над 1 гарантира печалба във всяка ситуация."
+            },
+            {
+              "id": "answer-4",
+              "text": "1000 ÷ 800 = 1,25 в условния пример."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всички ползи лесно се изразяват в пари."
+            },
+            {
+              "id": "answer-6",
+              "text": "Няма значение кога се получават ползите и разходите."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Опростеното отношение е учебен инструмент, зависещ от период и допускания. То не замества пълния анализ и непаричните критерии."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "project-brief",
+        "step_content": {
+          "type": "information",
+          "title": "Какво включва проектното задание?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/project-brief.svg\" alt=\"Нужда и цел · Продукт · Управление\" width=\"840\" height=\"340\"><figcaption>Нужда и цел · Продукт · Управление</figcaption></figure><p><strong>Възложителят</strong> е човекът или организацията, които заявяват нуждата и възлагат проекта. <strong>Проектното задание</strong> описва какво трябва да бъде постигнато, при какви условия и как ще бъде приет резултатът. То се съгласува между възложителя и изпълнителя.</p>\n<ol><li><strong>Бизнес анализ:</strong> какъв проблем решаваме, за кого и защо има стойност?</li><li><strong>Цели:</strong> какво точно искаме да постигнем?</li><li><strong>Очаквани технически резултати:</strong> какъв продукт или система ще получим?</li><li><strong>Изисквания:</strong> какви функции, качество и ограничения трябва да спазим?</li><li><strong>Бюджет и срокове:</strong> с какви средства и време разполагаме?</li><li><strong>Рискове:</strong> какво може да попречи и как ще реагираме?</li><li><strong>Управление:</strong> кой взема решения, как се отчитаме и как се одобряват промени?</li></ol>\n</main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-project-brief",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво включва проектното задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Заданието се съгласува между възложител и изпълнител."
+            },
+            {
+              "id": "answer-2",
+              "text": "Заданието е само списък с цветове."
+            },
+            {
+              "id": "answer-3",
+              "text": "То включва цели, изисквания, бюджет и срокове."
+            },
+            {
+              "id": "answer-4",
+              "text": "Не е необходимо да има очакван продукт."
+            },
+            {
+              "id": "answer-5",
+              "text": "Всяко ново желание се включва без договорка."
+            },
+            {
+              "id": "answer-6",
+              "text": "Уточнява се как се решават промени и се отчитат рискове."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Заданието задава общата рамка и очакванията, за да могат участниците да планират и приемат резултата."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "specification",
+        "step_content": {
+          "type": "information",
+          "title": "Задание, спецификация и техническо решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/specification.svg\" alt=\"Какво и защо? · Точни изисквания · Как?\" width=\"840\" height=\"340\"><figcaption>Какво и защо? · Точни изисквания · Как?</figcaption></figure>\n<p>Заданието дава общите цели и рамката — <strong>какво</strong> и <strong>защо</strong> се възлага. <strong>Спецификацията</strong> описва подробно изискванията и проверимите характеристики на продукта. Техническият проект уточнява <strong>как</strong> ще бъдат реализирани. На практика тези документи се допълват и обхватът им се уговаря предварително.</p>\n<p class=\"example\"><strong>Пример:</strong> Заданието изисква сайт, който помага на кандидат-студенти да намират специалности. Спецификацията уточнява полетата за търсене, съдържанието на всяка страница, изискванията за достъпност и критериите за приемане.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-specification",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Задание, спецификация и техническо решение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Документите никога не се допълват."
+            },
+            {
+              "id": "answer-2",
+              "text": "Спецификацията уточнява проверимите характеристики."
+            },
+            {
+              "id": "answer-3",
+              "text": "Само дума удобно определя всички проверки."
+            },
+            {
+              "id": "answer-4",
+              "text": "Заданието винаги съдържа всяка подробност от програмния код."
+            },
+            {
+              "id": "answer-5",
+              "text": "Техническото решение описва реализацията."
+            },
+            {
+              "id": "answer-6",
+              "text": "Заданието описва общата цел и рамката."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Документите се допълват и точният им обхват се договаря. Различаваме потребността, проверимото изискване и начина за реализация."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Подгответе задание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете малък софтуерен проект по основните части на заданието.</strong></p><p>Включете потребност и стойност, цел, продукт, изисквания, бюджет и срокове, рискове и начин за решения. Посочете възложител и потребители. Може да използвате своя идея; не е нужно да създавате самия продукт.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: прототип на каталог за книги с добавяне, списък и търсене; без профили и плащания. Целта е намиране на записи на едно място. Уточняваме две седмици, наличен екип и техника, условен бюджет, риск от непозната технология и правила за съгласуване на промени. Самопроверка: има ли конкретен продукт и рамка, а не само общо желание?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Опишете ресурсите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Създайте структуриран списък на необходимите ресурси.</strong></p><p>За всеки запишете „Ресурс — необходимост — наличност — ограничение — отговорник“. Покрийте хора, време, техника и нематериални условия. Обяснете поне едно припокриване на категории, без да броите разход два пъти.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: разработчик — нужни 8 часа, налични 4 на седмица; компютър — наличен в определени часове; редактор — разрешен за използване; примерни данни — подготвя редакторът. Лицензът е нематериално право, а платената му цена е финансов разход, който не се дублира. Самопроверка: описана ли е реалната наличност?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Планирайте комуникацията",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете как ще съобщите и потвърдите една проектна задача.</strong></p><p>Посочете кой съобщава, на кого, какво, по кой канал и до кога. Напишете конкретното съобщение и очакваното потвърждение. Добавете къде ще остане окончателното решение и как ще обсъдите неяснота.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: координаторът изпраща на разработчика описание на търсенето с пет примерни заявки, срок ден 4 и място за резултата. Получателят потвърждава разбрания резултат и задава липсващ въпрос за поведението при празна заявка. Решението се записва при изискванията. Самопроверка: изпращането не е приравнено на разбиране."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Оценете резултат и ресурси",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Сравнете два условни варианта чрез целта, ресурсите и допусканията.</strong></p><p>Посочете проверим критерий за постигане на целта и отделен показател за използваните ресурси. Ако използвате парични ползи/разходи, дайте период, стойности и чувствителност при промяна на ползата. Не приемайте числото за гаранция.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: и двата варианта покриват петте проверки за търсене. Единият изисква 8, другият 10 човекочаса при съпоставими условия. За отделен условен годишен разчет 1000/800=1,25, но при полза 700 отношението става 0,875. Самопроверка: ясно ли са разграничени постигната цел, вложено време и прогнозна парична оценка?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Уточнете изискване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Преработете едно неясно условие от заданието.</strong></p><p>Дайте „Преди — след — начин за проверка — отражение“. Проверете дали уточнението добавя функция или само изяснява договореното и посочете кой го съгласува.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Преди: търсенето да е удобно. След: при въвеждане на цялото примерно заглавие се показва съответният запис с автор. Проверка: изпълняваме предварително зададени заявки. Уточнението се съгласува с възложителя; при добавяне на нов тип търсене оценяваме обхвата и срока. Самопроверка: резултатът повторим ли е и ясна ли е промяната?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Изпратено съобщение означава ли разбрана задача?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Изпратено съобщение означава ли разбрана задача?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Нужни са потвърждение на смисъла и уточняване на резултата, отговорника и срока."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: По-малко разходи доказват ли постигната цел?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>По-малко разходи доказват ли постигната цел?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Първо проверяваме дали продуктът удовлетворява потребността и изискванията; после сравняваме ресурсите при съпоставими резултати."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Отношение ползи/разходи 1,25 гарантира ли печалба?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Отношение ползи/разходи 1,25 гарантира ли печалба?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. То е условен резултат за посочен период и допускания. Прогнозите, моментът на потоците и непаричните критерии имат значение."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/10-teamwork-resources-and-project-brief/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Ресурсите се описват чрез необходимост, наличност, ограничения и отговорност.</li><li>Ясната комуникация включва конкретен резултат и обратна връзка.</li><li>Ефективност е постигане на целта; ефикасност е резултат спрямо ресурсите.</li><li>Оценките на ползи и разходи зависят от период и допускания.</li><li>Заданието съгласува рамката, а спецификацията уточнява проверимите изисквания.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/10-Teamwork-Resources-and-Project-Brief.html\">урок 10 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/06-Project-Control-and-Management.html",
+  "sections": [
+    {
+      "section": "monitoring-control",
+      "title": "Наблюдение и контрол",
+      "information_step": "monitoring-control",
+      "check_step": "check-monitoring-control"
+    },
+    {
+      "section": "evidence",
+      "title": "Какви доказателства събираме?",
+      "information_step": "evidence",
+      "check_step": "check-evidence"
+    },
+    {
+      "section": "plan-actual",
+      "title": "План и действително изпълнение",
+      "information_step": "plan-actual",
+      "check_step": "check-plan-actual"
+    },
+    {
+      "section": "corrective-actions",
+      "title": "Анализ и коригиращи действия",
+      "information_step": "corrective-actions",
+      "check_step": "check-corrective-actions"
+    },
+    {
+      "section": "change-control",
+      "title": "Управление на промените и качеството",
+      "information_step": "change-control",
+      "check_step": "check-change-control"
+    },
+    {
+      "section": "manager-roles",
+      "title": "Ръководител и роли в проекта",
+      "information_step": "manager-roles",
+      "check_step": "check-manager-roles"
+    },
+    {
+      "section": "report",
+      "title": "Кратък отчет и следваща проверка",
+      "information_step": "report",
+      "check_step": "check-report"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

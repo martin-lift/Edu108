@@ -1,0 +1,65 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/05-Project-Risks-and-Risk-Management.html",
+  "sections": [
+    {
+      "section": "risk",
+      "title": "Какво е проектен риск?",
+      "information_step": "risk",
+      "check_step": "check-risk"
+    },
+    {
+      "section": "cause-event-effect",
+      "title": "Причина, риск, последствие и проблем",
+      "information_step": "cause-event-effect",
+      "check_step": "check-cause-event-effect"
+    },
+    {
+      "section": "risk-types",
+      "title": "Къде търсим рискове?",
+      "information_step": "risk-types",
+      "check_step": "check-risk-types"
+    },
+    {
+      "section": "process",
+      "title": "Процес и регистър на рисковете",
+      "information_step": "process",
+      "check_step": "check-process"
+    },
+    {
+      "section": "identify-swot",
+      "title": "Идентифициране и SWOT",
+      "information_step": "identify-swot",
+      "check_step": "check-identify-swot"
+    },
+    {
+      "section": "assessment",
+      "title": "Вероятност, въздействие и приоритет",
+      "information_step": "assessment",
+      "check_step": "check-assessment"
+    },
+    {
+      "section": "responses",
+      "title": "Реакции и мерки",
+      "information_step": "responses",
+      "check_step": "check-responses"
+    },
+    {
+      "section": "monitor",
+      "title": "Наблюдение и последваща проверка",
+      "information_step": "monitor",
+      "check_step": "check-monitor"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

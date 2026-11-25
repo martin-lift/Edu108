@@ -1,0 +1,59 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/07-Project-Stages-and-Parameters.html",
+  "sections": [
+    {
+      "section": "definition",
+      "title": "От потребност към определен проект",
+      "information_step": "definition",
+      "check_step": "check-definition"
+    },
+    {
+      "section": "parameters",
+      "title": "Основни параметри и обща договорка",
+      "information_step": "parameters",
+      "check_step": "check-parameters"
+    },
+    {
+      "section": "stages",
+      "title": "Етап, дейност, резултат и проверка",
+      "information_step": "stages",
+      "check_step": "check-stages"
+    },
+    {
+      "section": "roles",
+      "title": "Роли, задачи и лична отговорност",
+      "information_step": "roles",
+      "check_step": "check-roles"
+    },
+    {
+      "section": "dependencies",
+      "title": "Зависимости, ресурси и график",
+      "information_step": "dependencies",
+      "check_step": "check-dependencies"
+    },
+    {
+      "section": "risk-quality-control",
+      "title": "Качество, риск и контрол в общия план",
+      "information_step": "risk-quality-control",
+      "check_step": "check-risk-quality-control"
+    },
+    {
+      "section": "delivery",
+      "title": "От приета версия към използване",
+      "information_step": "delivery",
+      "check_step": "check-delivery"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

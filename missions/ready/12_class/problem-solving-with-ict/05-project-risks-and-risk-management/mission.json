@@ -1,0 +1,689 @@
+{
+  "mission_version": 4,
+  "mission_id": "05-project-risks-and-risk-management-12-20261125",
+  "mission_content": {
+    "title": "Проекти - Рискове и управление на риска",
+    "description": "Софтуерният проект се планира при непълна информация. Хора, технологии и външни условия могат да се променят и да повлияят на резултата. В този урок ще различавате риск, причина и възникнал проблем, ще оценявате вероятност и въздействие и ще планирате мерки с отговорник и последваща проверка.",
+    "class_name": "12. клас",
+    "subject": "Решаване на проблеми с информационно-комуникационна техника",
+    "category": "Софтуерни проекти",
+    "lesson": "5. Проекти - Рискове и управление на риска",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/overview.svg\" alt=\"Понятията помагат да организираме реален софтуерен проект.\" width=\"840\" height=\"340\"><figcaption>Понятията помагат да организираме реален софтуерен проект.</figcaption></figure><p>Софтуерният проект се планира при непълна информация. Хора, технологии и външни условия могат да се променят и да повлияят на резултата. В този урок ще различавате риск, причина и възникнал проблем, ще оценявате вероятност и въздействие и ще планирате мерки с отговорник и последваща проверка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "risk",
+        "step_content": {
+          "type": "information",
+          "title": "Какво е проектен риск?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/risk.svg\" alt=\"Несигурност · Събитие · Влияние\" width=\"840\" height=\"340\"><figcaption>Несигурност · Събитие · Влияние</figcaption></figure><p><strong>Риск</strong> е несигурно събитие или условие, което при настъпване влияе върху целите на проекта. Неблагоприятното влияние е заплаха, а благоприятното може да бъде възможност. Например недостъпна външна услуга може да забави внедряването; неочаквано предоставен подходящ инструмент може да съкрати работа.</p><p>В този урок ще упражняваме главно заплахите за обхвата, срока, разходите и качеството. Важни са две особености: не сме сигурни дали събитието ще настъпи и можем да обясним как ще засегне проекта. Не всяко общо притеснение е конкретен проектен риск.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-risk",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Какво е проектен риск",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Рискът е свързан с несигурност и влияние върху целите."
+            },
+            {
+              "id": "answer-2",
+              "text": "Риск означава само вече настъпил проблем."
+            },
+            {
+              "id": "answer-3",
+              "text": "Неблагоприятен риск може да засегне качеството или срока."
+            },
+            {
+              "id": "answer-4",
+              "text": "Всяко притеснение доказва конкретен риск."
+            },
+            {
+              "id": "answer-5",
+              "text": "Рисковете влияят само на бюджета."
+            },
+            {
+              "id": "answer-6",
+              "text": "В проектното управление се разглеждат и благоприятни възможности."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Разпознаваме несигурността и възможното влияние. При заплахите подготвяме защита, а възможностите също се оценяват, без да се приемат за сигурни."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "cause-event-effect",
+        "step_content": {
+          "type": "information",
+          "title": "Причина, риск, последствие и проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/cause-event-effect.svg\" alt=\"Причина · Събитие · Последствие\" width=\"840\" height=\"340\"><figcaption>Причина · Събитие · Последствие</figcaption></figure><p>Полезна формулировка е: <strong>„Поради причина … може да настъпи събитие …, което ще доведе до последствие …“</strong>. Причината е съществуващо обстоятелство, събитието е несигурно, а последствието описва ефекта върху целта.</p><div class=\"example\"><p>Екипът няма опит с избраната библиотека — причина. Възможно е свързването ѝ с приложението да отнеме повече време от планираното — риск. Проверената версия може да бъде предадена със закъснение — последствие.</p></div><p>Ако свързването вече е забавено, имаме <strong>възникнал проблем</strong>, по който трябва да действаме. „Файлът е изтрит“ е проблем; възможността важен файл да бъде загубен е риск. Нужни са и мерки за бъдещите рискове, и решения за текущите проблеми.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-cause-event-effect",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Причина, риск, последствие и проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Изтритият файл е само бъдеща възможност."
+            },
+            {
+              "id": "answer-2",
+              "text": "Вече настъпилото закъснение се управлява като проблем."
+            },
+            {
+              "id": "answer-3",
+              "text": "Причината и несигурното събитие винаги са едно и също."
+            },
+            {
+              "id": "answer-4",
+              "text": "Рискът трябва да се описва без връзка с целите."
+            },
+            {
+              "id": "answer-5",
+              "text": "Добрата формулировка свързва причина, несигурно събитие и последствие."
+            },
+            {
+              "id": "answer-6",
+              "text": "Липсата на опит може да е причина за риск."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Разделяме фактите от несигурността и последствията. Настъпилият проблем изисква действие сега; бъдещата възможност изисква подготовка."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "risk-types",
+        "step_content": {
+          "type": "information",
+          "title": "Къде търсим рискове?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/risk-types.svg\" alt=\"Хора · Технологии · Среда\" width=\"840\" height=\"340\"><figcaption>Хора · Технологии · Среда</figcaption></figure><p>Групирането помага да не пропускаме области, но един риск може да принадлежи към повече от една група.</p><ul><li><strong>Разходи:</strong> увеличена цена или неточна оценка.</li><li><strong>График:</strong> забавена зависима задача или доставка.</li><li><strong>Резултат и качество:</strong> функцията не покрива договореното изискване.</li><li><strong>Технологии:</strong> непозната библиотека, несъвместимост или остаряла среда.</li><li><strong>Управление и хора:</strong> неясни отговорности или недостъпен специалист.</li><li><strong>Стратегически решения:</strong> неподходящ избор на продукт или технология.</li><li><strong>Оперативна работа:</strong> прекъсната услуга или затруднена поддръжка.</li><li><strong>Пазарна среда:</strong> променено търсене, конкуренция или цени.</li><li><strong>Договорни и правни условия:</strong> неясен договор или промяна на приложими изисквания.</li></ul><p>За всеки случай уточняваме конкретното събитие и засегнатата цел. Името „технологичен риск“ само по себе си не е достатъчно описание.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-risk-types",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Къде търсим рискове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Името на категорията трябва да се допълни с конкретно събитие."
+            },
+            {
+              "id": "answer-2",
+              "text": "Категориите доказват вероятността на събитието."
+            },
+            {
+              "id": "answer-3",
+              "text": "Достатъчно е да запишем само „лошо управление“."
+            },
+            {
+              "id": "answer-4",
+              "text": "Неясните отговорности могат да породят рискове."
+            },
+            {
+              "id": "answer-5",
+              "text": "Един риск може да е свързан и със срок, и с технология."
+            },
+            {
+              "id": "answer-6",
+              "text": "Всички рискове са само технически."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-4",
+            "answer-5"
+          ],
+          "feedback": "Категориите са помощен списък за търсене. Управляваме конкретни несигурности, а не общи етикети."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "process",
+        "step_content": {
+          "type": "information",
+          "title": "Процес и регистър на рисковете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/process.svg\" alt=\"Откриване · Оценка · Реакция\" width=\"840\" height=\"340\"><figcaption>Откриване · Оценка · Реакция</figcaption></figure><p>Работата с рисковете включва <strong>идентифициране, анализ, планиране на реакция и наблюдение</strong>. Тя се повтаря по време на проекта, защото се появяват нови данни и се променят условията.</p><p>В регистър записваме: ID, формулировка, причина, засегната цел, вероятност, въздействие, приоритет, превантивна мярка, действие при настъпване, отговорник и дата за следващ преглед. Регистърът може да е кратък структуриран списък; размерът му зависи от проекта.</p><p>Отговорникът следи признаците и мерките, но не е обвиняем, ако събитието настъпи. Ясната отговорност помага информацията да достигне навреме до хората, които могат да вземат решение.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-process",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Процес и регистър на рисковете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Отговорник означава човек за обвиняване."
+            },
+            {
+              "id": "answer-2",
+              "text": "Самият списък премахва рисковете."
+            },
+            {
+              "id": "answer-3",
+              "text": "Отговорникът следи риска и изпълнението на мерките."
+            },
+            {
+              "id": "answer-4",
+              "text": "Регистърът свързва риска с мерки и отговорник."
+            },
+            {
+              "id": "answer-5",
+              "text": "Регистърът се попълва веднъж и никога не се променя."
+            },
+            {
+              "id": "answer-6",
+              "text": "Оценките се преглеждат при нова информация."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-3",
+            "answer-4",
+            "answer-6"
+          ],
+          "feedback": "Регистърът подпомага решенията и проследяването. Полезен е, когато се актуализира и мерките действително се изпълняват."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "identify-swot",
+        "step_content": {
+          "type": "information",
+          "title": "Идентифициране и SWOT",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/identify-swot.svg\" alt=\"Вътрешни · Външни · Рискове\" width=\"840\" height=\"340\"><figcaption>Вътрешни · Външни · Рискове</figcaption></figure><p>Питаме: кои задачи могат да се забавят, от кого зависим, кои технологии не познаваме, какво може да увеличи разходите и какво пречи на качеството? Използваме опит, обсъждане и проверени факти.</p><p><strong>SWOT</strong> подрежда силни страни и слабости на екипа или проекта и възможности и заплахи от средата. Първите две са вътрешни, а другите две — външни.</p><div class=\"example\"><p>Опитен програмист е силна страна; липсата на умения за тестване е слабост; външна програма за достъп до подходяща платформа е възможност; промяна на условията на външна услуга е заплаха.</p></div><p>SWOT насочва търсенето, но всеки значим фактор трябва да се превърне в конкретна проверима формулировка. Анализът не доказва автоматично кои събития ще настъпят.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-identify-swot",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Идентифициране и SWOT",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Не е нужно факторите да се свързват с проекта."
+            },
+            {
+              "id": "answer-2",
+              "text": "SWOT помага да формулираме какво да проверим."
+            },
+            {
+              "id": "answer-3",
+              "text": "Силните страни и слабостите са вътрешни фактори."
+            },
+            {
+              "id": "answer-4",
+              "text": "SWOT предсказва сигурно бъдещето."
+            },
+            {
+              "id": "answer-5",
+              "text": "Възможностите и заплахите се свързват със средата."
+            },
+            {
+              "id": "answer-6",
+              "text": "Заплахите винаги са лични качества на участниците."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "SWOT е помощ за анализ на контекста. Решенията се основават на конкретни факти, рискови събития и цели."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "assessment",
+        "step_content": {
+          "type": "information",
+          "title": "Вероятност, въздействие и приоритет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/assessment.svg\" alt=\"Вероятност · Въздействие · Приоритет\" width=\"840\" height=\"340\"><figcaption>Вероятност · Въздействие · Приоритет</figcaption></figure><p><strong>Вероятността</strong> показва колко е възможно събитието, а <strong>въздействието</strong> — колко сериозно ще е последствието за проекта. За учебно сравнение използваме оценки от 1 до 3: ниска, средна, висока.</p><p>Можем да изчислим приоритетен бал като произведение. При вероятност 2 и въздействие 3 балът е 6. Това е опростено подреждане по договорена скала, а не измерена вероятност или очаквана парична загуба. Обясняваме защо сме избрали оценките.</p><p>Рядко събитие с тежки последствия също може да изисква сериозна подготовка. Равните балове не означават еднакви рискове; обсъждаме последствията и спешността, вместо да разчитаме само на числото.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-assessment",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Вероятност, въздействие и приоритет",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Тежко последствие може да изисква мерки и при ниска вероятност."
+            },
+            {
+              "id": "answer-2",
+              "text": "Оценките трябва да бъдат обосновани."
+            },
+            {
+              "id": "answer-3",
+              "text": "Бал 6 означава вероятност 60%."
+            },
+            {
+              "id": "answer-4",
+              "text": "2 × 3 = 6 е приоритетен бал в учебната скала."
+            },
+            {
+              "id": "answer-5",
+              "text": "Равни балове доказват еднакви рискове."
+            },
+            {
+              "id": "answer-6",
+              "text": "Оценките никога не зависят от нови данни."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-2",
+            "answer-4"
+          ],
+          "feedback": "Балът подпомага сравнението, но не замества преценката. Вероятност, последствие и спешност се разглеждат в контекст."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "responses",
+        "step_content": {
+          "type": "information",
+          "title": "Реакции и мерки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/responses.svg\" alt=\"Преди събитието · При настъпване · Проверка\" width=\"840\" height=\"340\"><figcaption>Преди събитието · При настъпване · Проверка</figcaption></figure><p>При заплаха можем да <strong>избегнем</strong> рисковата дейност чрез промяна на подхода, да <strong>намалим</strong> вероятността или последствията, да договорим <strong>прехвърляне</strong> на част от отговорността към друга страна или съзнателно да <strong>приемем</strong> риска с наблюдение и резервен план.</p><p>Прехвърлянето не премахва автоматично всички последствия. Приемането не означава забравяне. Мярката има изпълнител, срок, необходим ресурс и критерий за проверка.</p><div class=\"example\"><p>За риска от загуба на работа превантивна мярка е редовно съхраняване на версии и проверена възможност за възстановяване. Ако загубата настъпи, действието е възстановяване от проверена версия и оценка на липсващата работа. Самото обещание „ще пазим файловете“ не е изпълнена мярка.</p></div></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-responses",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Реакции и мерки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Намаляването може да засяга вероятността или последствията."
+            },
+            {
+              "id": "answer-2",
+              "text": "Прехвърлянето гарантира липса на всякакви последствия."
+            },
+            {
+              "id": "answer-3",
+              "text": "Приемането може да включва наблюдение и резервен план."
+            },
+            {
+              "id": "answer-4",
+              "text": "Приемането означава да забравим риска."
+            },
+            {
+              "id": "answer-5",
+              "text": "Превенцията е възможна само след настъпване."
+            },
+            {
+              "id": "answer-6",
+              "text": "Мярката има отговорник, срок и проверка."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-6"
+          ],
+          "feedback": "Реакцията се избира според риска и ресурсите. Различаваме подготовка преди събитието от действие, ако то настъпи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "monitor",
+        "step_content": {
+          "type": "information",
+          "title": "Наблюдение и последваща проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/monitor.svg\" alt=\"Признак · Действие · Преглед\" width=\"840\" height=\"340\"><figcaption>Признак · Действие · Преглед</figcaption></figure><p>На уговорените прегледи проверяваме дали рискът още е актуален, как се променят вероятността и въздействието и изпълнени ли са мерките. Следим конкретни признаци, например липсващ достъп до услуга до определена дата.</p><div class=\"example\"><p>Риск: доставчикът може да не предостави тестов достъп навреме. Мярка: потвърждение на срока и ранна заявка. Отговорник: координаторът. Признак: няма потвърждение до ден 3. При настъпване: изпробване на договорена алтернатива с примерни данни и уточняване на графика.</p></div><p>Записваме какво е проверено и следващото действие. Ако събитието е настъпило, управляваме проблема и остатъчните рискове. След мярка оценяваме оставащата несигурност; не обявяваме риск за изчезнал без основание.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "check-monitor",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверка: Наблюдение и последваща проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p>Кои твърдения са верни според разгледаните понятия и примери?</p><p><strong>Изберете всички верни твърдения.</strong></p></main></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Мярката автоматично премахва цялата несигурност."
+            },
+            {
+              "id": "answer-2",
+              "text": "Настъпилото събитие може да изисква управление на проблем."
+            },
+            {
+              "id": "answer-3",
+              "text": "Рисковете се гледат само след края на проекта."
+            },
+            {
+              "id": "answer-4",
+              "text": "Липсващото потвърждение винаги доказва настъпила пълна загуба."
+            },
+            {
+              "id": "answer-5",
+              "text": "След мярка може да остане остатъчен риск."
+            },
+            {
+              "id": "answer-6",
+              "text": "Наблюдението проверява признаци и изпълнени мерки."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-2",
+            "answer-5",
+            "answer-6"
+          ],
+          "feedback": "Следим данни и предварително определени признаци. При промяна уточняваме оценката и действията, вместо да приемаме, че всичко е решено."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Формулирайте рискове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>За малък софтуерен проект опишете три различни риска.</strong></p><p>Посочете продукта и целта му. За всеки риск използвайте „Поради … може да …, което ще …“. Разграничете причина, несигурно събитие и последствие; включете поне две различни области, например хора и технологии.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример за каталог: поради липса на опит с търсенето може да не завършим функцията в срока и да забавим проверките; външна услуга може да стане недостъпна и да спре демонстрацията; неясни изисквания могат да доведат до преработка. Самопроверка: има ли несигурно събитие и засегната цел във всеки случай? Други конкретни рискове също са подходящи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Оценете приоритета",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Оценете трите риска по вероятност и въздействие.</strong></p><p>Използвайте учебната скала 1–3 и произведението за приоритет. За всяка стойност дайте основание от ситуацията. При равни балове обяснете кой риск изисква по-ранно действие и защо.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: непозната технология — вероятност 2, въздействие 3, бал 6, защото екипът има само ограничен опит и функцията е необходима за приемане. Недостъпна услуга — 1 и 3, бал 3, но подготвяме резервен вариант за демонстрацията. Оценките са условни и не са проценти. Самопроверка: обосновани ли са числата и разгледани ли са последствията, а не само произведението?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Планирайте мерки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Подгответе превантивна мярка и действие при настъпване за най-значимия риск.</strong></p><p>Назовете отговорник, срок, нужен ресурс и начин за проверка. Обяснете дали намалявате вероятността, последствията или променяте подхода. Не е достатъчно „ще внимаваме“.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: разработчикът прави малка техническа проба с примерни данни до ден 2; резултатът се проверява чрез успешно търсене по три предварително зададени случая. Ако библиотеката се окаже неподходяща, екипът преминава към предварително оценена по-проста реализация и съгласува срока. Самопроверка: различават ли се превенцията и реакцията и могат ли да се проверят?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-4",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Създайте запис за наблюдение",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Опишете как ще следите един от рисковете.</strong></p><p>Използвайте „Риск — признак — отговорник — следващ преглед — действие“. Определете конкретен признак и дата или относителен ден. Посочете каква информация ще промени оценката.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Пример: риск от забавен тестов достъп; признак — липса на потвърждение до ден 3; координаторът проверява състоянието; следващ преглед ден 3; при липса на достъп активира договорената алтернатива и обсъжда графика. Самопроверка: ясно ли е какво се наблюдава и кой решава следващото действие?"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "practice-5",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Практика: Разграничете риск и проблем",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Покажете как един риск преминава във възникнал проблем.</strong></p><p>Дайте формулировката преди събитието и опишете факта след настъпването му. Посочете нужното незабавно действие и каква бъдеща несигурност остава. Прегледайте дали мерките от предходните задачи са приложими.</p><p>Отговорете направо в мисията. При следващите задачи можете да продължите със същия проект.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Преди: външната услуга може да е недостъпна при теста. След: при уговорения тест достъпът действително липсва. Действие: екипът проверява причината, използва оценена алтернатива и уточнява следващия тест. Остава рискът алтернативата да не покрие всички случаи. Самопроверка: фактът не е представен като още ненастъпила възможност и има конкретно действие."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Високият приоритетен бал точна вероятност ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Високият приоритетен бал точна вероятност ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Балът е помощ за подреждане по договорена учебна скала. Вероятността и въздействието се обосновават отделно."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Файлът вече е изтрит — риск ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Файлът вече е изтрит — риск ли е?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Това е възникнал проблем. Риск е възможността такава загуба да настъпи в бъдеще. Нужни са възстановяване и подготовка за бъдещи случаи."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "self-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Самопроверка: Изпълнена мярка гарантира ли изчезнал риск?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><p><strong>Изпълнена мярка гарантира ли изчезнал риск?</strong></p><p>Обяснете с 2–4 изречения и свържете отговора с понятията от урока. Дайте кратък пример или основание за извода си.</p></main></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Не. Проверяваме действието на мярката и оставащата несигурност. Може да има остатъчен риск."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво научихме?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.65 Arial,sans-serif;color:#202936;margin:0;padding:12px;max-width:880px;overflow-wrap:anywhere}p{margin:12px 0}strong{color:#17385e}figure{margin:16px 0;padding:12px;background:#f2f6fb;border-radius:10px}img{display:block;max-width:100%;height:auto;margin:auto}figcaption,.source{font-size:14px;color:#53677b}li{margin:7px 0}.example,.note{background:#edf5fc;border-left:4px solid #3682ad;padding:12px}h3{font-size:20px}a{color:#155a95}.table-wrap{overflow-x:auto;max-width:100%}table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px}th,td{border:1px solid #cbd8e6;padding:8px;text-align:left;vertical-align:top}th{background:#edf4fb}caption{text-align:left;font-weight:bold}*{box-sizing:border-box}</style></head><body><main><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/problem-solving-with-ict/05-project-risks-and-risk-management/images/overview.svg\" alt=\"Използвайте понятията, за да обосновавате решенията си.\" width=\"840\" height=\"340\"><figcaption>Използвайте понятията, за да обосновавате решенията си.</figcaption></figure><ol><li>Рискът свързва несигурност с влияние върху целите; заплахите и възможностите се различават.</li><li>Причина, несигурно събитие, последствие и възникнал проблем са различни понятия.</li><li>Вероятността и въздействието подпомагат обоснованото подреждане.</li><li>Мерките имат отговорник, срок, ресурс и проверка.</li><li>Рисковете се наблюдават и оценяват отново през проекта.</li></ol><p class=\"source\">Основа: <a href=\"https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/05-Project-Risks-and-Risk-Management.html\">урок 5 от учебника</a>.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true,
+          "allow_ai_hint": false,
+          "ai_feedback": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

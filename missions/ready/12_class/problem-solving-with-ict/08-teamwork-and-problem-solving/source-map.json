@@ -1,0 +1,95 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Problem%20Solving%20with%20ICT/08-Teamwork-and-Problem-Solving.html",
+  "sections": [
+    {
+      "section": "team",
+      "title": "Група и работещ екип",
+      "information_step": "team",
+      "check_step": "check-team"
+    },
+    {
+      "section": "tuckman",
+      "title": "Развитие на екипа",
+      "information_step": "tuckman",
+      "check_step": "check-tuckman"
+    },
+    {
+      "section": "formal-roles",
+      "title": "Формални и неформални роли",
+      "information_step": "formal-roles",
+      "check_step": "check-formal-roles"
+    },
+    {
+      "section": "functional-roles",
+      "title": "Принос към задачата и групата",
+      "information_step": "functional-roles",
+      "check_step": "check-functional-roles"
+    },
+    {
+      "section": "problem",
+      "title": "Какво означава да решим проблем?",
+      "information_step": "problem",
+      "check_step": "check-problem"
+    },
+    {
+      "section": "problem-stages",
+      "title": "От дефиниране до план",
+      "information_step": "problem-stages",
+      "check_step": "check-problem-stages"
+    },
+    {
+      "section": "symptom-cause",
+      "title": "Симптом и причина",
+      "information_step": "symptom-cause",
+      "check_step": "check-symptom-cause"
+    },
+    {
+      "section": "linear",
+      "title": "Линеен модел",
+      "information_step": "linear",
+      "check_step": "check-linear"
+    },
+    {
+      "section": "iterative",
+      "title": "Итеративен модел",
+      "information_step": "iterative",
+      "check_step": "check-iterative"
+    },
+    {
+      "section": "incremental",
+      "title": "Инкрементален модел",
+      "information_step": "incremental",
+      "check_step": "check-incremental"
+    },
+    {
+      "section": "parallel",
+      "title": "Паралелен подход",
+      "information_step": "parallel",
+      "check_step": "check-parallel"
+    },
+    {
+      "section": "adaptive",
+      "title": "Адаптивен подход",
+      "information_step": "adaptive",
+      "check_step": "check-adaptive"
+    },
+    {
+      "section": "it",
+      "title": "Решаване с информационни технологии",
+      "information_step": "it",
+      "check_step": "check-it"
+    }
+  ],
+  "practice_steps": [
+    "practice-1",
+    "practice-2",
+    "practice-3",
+    "practice-4",
+    "practice-5"
+  ],
+  "self_check_steps": [
+    "self-1",
+    "self-2",
+    "self-3"
+  ]
+}

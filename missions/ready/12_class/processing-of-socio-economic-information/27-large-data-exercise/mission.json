@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "onsii12-large-data-exercise-full-20261125",
+  "mission_content": {
+    "title": "Филтриране, функции и обобщения — упражнение — пълна мисия",
+    "description": "Филтриране, функции и обобщения — упражнение",
+    "class_name": "12 клас",
+    "subject": "Обработка на социално-икономическа информация",
+    "category": "Електронни таблици",
+    "lesson": "Филтриране, функции и обобщения — упражнение",
+    "content_format": "html",
+    "persistent_text": "Запазете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Ще изпълните седем задачи и ще запазите резултатите от всяка в една работна книга.</p><p>Работете в настолен Microsoft Excel или LibreOffice Calc. Данните са учебни.</p><p>Ще съчетаете филтър, функции по критерии, обобщаваща таблица и диаграма върху шест учебни транзакции. В колона G има готови формули Стойност = Количество × Цена.</p><p>Филтърът показва избрани редове, но SUMIF, SUMIFS и COUNTIF върху даден диапазон обикновено включват и скритите от филтър записи. Затова изчисленията тук са върху целия лист „Транзакции“, а филтърът се запазва в отделно копие.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/processing-of-socio-economic-information/27-large-data-exercise/27-large-data-exercise-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено записва файла там.</p><ol><li>Натиснете Windows + E, отворете File Explorer (Файлов мениджър) и Downloads (Изтегляния). Ако сте избрали друго място при изтегляне, отворете него.</li><li>Отворете 27-large-data-exercise-clean.xlsx с Excel или Calc. В Excel натиснете Enable Editing (Разрешаване на редактирането), ако се появи такава лента.</li></ol><p>Всички задачи и обяснения са тук, в мисията. Работният файл съдържа само необходимите данни, готови елементи и места за резултати.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Филтрирайте Запад",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Филтър</strong> маркирайте <strong>A1:G7</strong>, включително заглавията. В Excel: <strong>Data → Filter</strong> (Данни → Филтър). В Calc: <strong>Data → AutoFilter</strong> (Данни → Автофилтър).</p><p>От стрелката на колона <strong>Регион</strong> оставете отметка само на <strong>Запад</strong> и потвърдете. Филтърът скрива останалите записи и запазва целите редове.</p><p><strong>Проверка:</strong> Видими са ID 1 и 4: 1140 и 1050 лв. Изходният лист „Транзакции“ остава без филтър.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Обща стойност за техника",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong>, клетка <strong>B2</strong>, въведете <code>=SUMIF(&#x27;Транзакции&#x27;!D2:D7;&quot;Техника&quot;;&#x27;Транзакции&#x27;!G2:G7)</code> и натиснете Enter.</p><p>Използвайте целия изходен лист, включително записите от Изток и Юг.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p><strong>Проверка:</strong> 5280 лв.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Юг и Канцелария",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong>, клетка <strong>B3</strong>, въведете <code>=SUMIFS(&#x27;Транзакции&#x27;!G2:G7;&#x27;Транзакции&#x27;!C2:C7;&quot;Юг&quot;;&#x27;Транзакции&#x27;!D2:D7;&quot;Канцелария&quot;)</code> и натиснете Enter.</p><p>SUMIFS изисква и двете условия едновременно.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p><strong>Проверка:</strong> 840 лв.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Брой транзакции над 3000",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В лист <strong>Показатели</strong>, клетка <strong>B4</strong>, въведете <code>=COUNTIF(&#x27;Транзакции&#x27;!G2:G7;&quot;&gt;3000&quot;)</code> и натиснете Enter.</p><p>Нито една от шестте транзакции не надвишава 3000 лв. Нулата тук е проверен резултат, а не липса на данни.</p><p>Пишете формулите с английски имена на функциите. Ако програмата изисква запетаи между аргументите, заменете точките и запетаите със запетаи. В Calc препратка към друг лист може да използва точка вместо <code>!</code>; изберете клетките с мишката, за да получите правилния запис.</p><p><strong>Проверка:</strong> 0.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Обобщение по региони и категории",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>От <strong>Транзакции!A1:G7</strong> създайте отделна обобщаваща таблица в нов лист <strong>Обобщение</strong>.</p><ol><li>Маркирайте целия източник със заглавията.</li><li><strong>Excel:</strong> Insert → PivotTable → New Worksheet → OK. Преименувайте новия лист на Обобщение.</li><li><strong>Calc:</strong> Data → Pivot Table → Insert or Edit → Current selection. В Source and Destination изберете New sheet (Нов лист); след създаване го преименувайте на Обобщение.</li><li>Подредете полетата: Регион в Rows / Row Fields (Редове), Категория в Columns / Column Fields (Колони), Стойност във Values / Data Fields (Стойности), с функция Sum (Сума). Филтрите остават празни.</li><li>За функцията Sum в Excel използвайте Value Field Settings. В Calc щракнете два пъти върху полето в Data Fields. Потвърдете диалозите.</li></ol><p><strong>Проверка:</strong> Запад 2190; Изток 3400; Юг 2280; общо 7870 лв. Техника 5280; Канцелария 2590.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Диаграма към обобщението",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Щракнете в обобщаващата таблица. <strong>Excel:</strong> Insert → PivotChart → Column → Clustered Column. <strong>Calc:</strong> Insert → Chart → Column; програмата разпознава обобщаващата таблица. Завършете помощника. Поставете диаграмата вдясно от таблицата. Оставете общия сбор извън категориите.</p><p>Заглавие: <strong>Стойност по региони и категории</strong>. Оставете легендата видима.</p><p><strong>Проверка:</strong> Три региона и две серии — Техника и Канцелария.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Три извода с числа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В Изводи!B2:B4 напишете три отделни извода: водещ регион, съотношение между категориите и резултат за транзакциите над 3000. Всеки извод трябва да съдържа число и да се отнася за всички шест записа.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за вашите документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>File (Файл) → Save As (Запиши като). Изберете Documents (Документи).</li><li>Запишете като <strong>27-full-Ime-Familia.xlsx</strong> в Excel или <strong>27-full-Ime-Familia.ods</strong> в Calc, за да запазите обектите в собствения формат на програмата. Заменете Ime-Familia с вашето име и фамилия.</li><li>Затворете и отворете отново същия файл в същата програма. Проверете резултатите и запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане във файла:</strong> Пет листа: Транзакции, Филтър, Показатели, Обобщение и Изводи. Във Филтър се вижда само Запад. Показателите са 5280, 840 и 0. Обобщението и свързаната диаграма показват всички региони, общо 7870 лв.</p><p>Сценариите или обобщаващите обекти трябва да останат запазени и редактируеми.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>От Documents (Документи) изберете завършената работна книга 27-full-Ime-Familia.xlsx или 27-full-Ime-Familia.ods според програмата с вашето име.</li><li>Проверете избрания файл и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

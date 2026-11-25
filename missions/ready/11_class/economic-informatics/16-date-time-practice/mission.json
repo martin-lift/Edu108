@@ -1,0 +1,163 @@
+{
+  "mission_version": 4,
+  "mission_id": "economic11-date-time-practice-full-20261125",
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "mission_content": {
+    "title": "Дати и времена — упражнение — пълна мисия",
+    "description": "Дати и времена — упражнение",
+    "class_name": "11 клас",
+    "subject": "Икономическа информатика",
+    "category": "Електронни таблици",
+    "lesson": "Дати и времена — упражнение",
+    "content_format": "html",
+    "persistent_text": "Запишете резултатите в една работна книга и предайте файла. Можете да се връщате назад.",
+    "steps": [
+      {
+        "id": "step-1",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Ще разграничите календарни от работни дни и продължителност от десетични часове. Работим без списък с празници и без приспадане на почивки. Наблюденията преди и след промяна остават в отделен лист.</p><p>Пълната мисия следва всички практически задачи на урока, подредени в 7 стъпки. Работете в Microsoft Excel или LibreOffice Calc. Данните са учебни и измислени.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-2",
+        "step_content": {
+          "type": "information",
+          "title": "Изтеглете и отворете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><a href=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/11_class/economic-informatics/16-date-time-practice/16-date-time-practice-clean.xlsx\"><strong>Изтеглете изчистения работен файл (.xlsx)</strong></a>.</p><p><strong>Downloads (Изтегляния)</strong> е стандартна папка в Windows за файловете, които изтегляте от интернет. Браузърът обикновено ги записва там.</p><ol><li>Натиснете Windows + E и отворете File Explorer (Файлов мениджър) → Downloads (Изтегляния), или избраното от вас място.</li><li>Отворете 16-date-time-practice-clean.xlsx в Excel или Calc. Ако Excel покаже Enable Editing (Разрешаване на редактирането), натиснете го.</li></ol><p>Файлът съдържа само данни, заглавия и места за резултатите. Жълтите клетки са за работа. Условията и обясненията са тук.</p><p>Формулата започва със знак =. Използваме английски имена на функциите и разделител ;. Ако програмата изисква запетая между аргументите, заменете ; с ,. Десетичният разделител зависи от настройките. За постоянен процент можете да въведете 10% вместо десетично число.</p><p>За избор на клетка или диапазон въведете адреса в полето за име вляво от лентата за формули и натиснете Enter. За копиране надолу използвайте малкия квадрат в долния десен ъгъл на избраната клетка. Excel и LibreOffice Calc поддържат тези действия. При препратка към друг лист изберете клетките с мишката — Excel обикновено показва !, а Calc може да показва точка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-3",
+        "step_content": {
+          "type": "information",
+          "title": "Изчислете календарните падежи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Срокът в C е календарен. Прибавете го към датата на издаване.</p><p>В лист <strong>Фактури</strong> въведете в <strong>D2</strong> <code>=B2+C2</code>. Натиснете Enter и копирайте формулата надолу до <strong>D7</strong>. Проверете формулата и в последната клетка.</p><p><strong>Проверка:</strong> F-003: 20.10.2026.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-4",
+        "step_content": {
+          "type": "information",
+          "title": "Пребройте работните дни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>NETWORKDAYS изключва събота и неделя, но брои включително началната и крайната дата, ако са работни. Тук не подаваме списък с празници; резултатът не е официален български календар.</p><p>В лист <strong>Фактури</strong> въведете в <strong>H2</strong> <code>=NETWORKDAYS(B2;D2)</code>. Натиснете Enter и копирайте формулата надолу до <strong>H7</strong>. Проверете формулата и в последната клетка.</p><p><strong>Проверка:</strong> F-003: 11 работни дни между 06.10 и 20.10.2026 включително.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-5",
+        "step_content": {
+          "type": "information",
+          "title": "Използвайте контролна дата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Във Фактури!J2 въведете <code>=DATE(2026;10;31)</code>.</p><p>Отрицателен резултат означава минал падеж спрямо контролната дата; това не доказва неплащане.</p><p>В лист <strong>Фактури</strong> въведете в <strong>I2</strong> <code>=D2-$J$2</code>. Натиснете Enter и копирайте формулата надолу до <strong>I7</strong>. Проверете формулата и в последната клетка.</p><p><strong>Проверка:</strong> F-003: −11 дни.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-6",
+        "step_content": {
+          "type": "information",
+          "title": "Изчислете смените през полунощ",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>Всички смени са под 24 часа; не приспадаме почивки.</p><p>В лист <strong>Смени</strong> въведете в <strong>D2</strong> <code>=MOD(C2-B2;1)</code>. Натиснете Enter и копирайте формулата надолу до <strong>D7</strong>. Проверете формулата и в последната клетка.</p><p>За форматиране: Excel — Ctrl+1 → Number (Число); Calc — Ctrl+1 → Numbers (Числа). Изберете категория и десетични знаци. За собствен код използвайте Custom (Потребителски) в Excel или Format Code (Код на формат) в Calc. Кодовете тук са с английски разделители; при местни настройки използвайте показания от програмата вариант. Форматът не променя записаното число.</p><p>Задайте [h]:mm на D2:D8.</p><p><strong>Проверка:</strong> Галина: 8:00.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-7",
+        "step_content": {
+          "type": "information",
+          "title": "Превърнете в десетични часове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>7:45 е 7,75 десетични часа.</p><p>В лист <strong>Смени</strong> въведете в <strong>E2</strong> <code>=D2*24</code>. Натиснете Enter и копирайте формулата надолу до <strong>E7</strong>. Проверете формулата и в последната клетка.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-8",
+        "step_content": {
+          "type": "information",
+          "title": "Сравнете двата сбора",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В Смени!D8 въведете <code>=SUM(D2:D7)</code>, в E8 — <code>=SUM(E2:E7)</code>.</p><p><strong>Проверка:</strong> 47:30 и 47,50 часа.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-9",
+        "step_content": {
+          "type": "information",
+          "title": "Променете, запазете наблюденията и възстановете",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p>В Проверки!B2:B5 запишете като постоянни стойности текущите Фактури!D4, H4, I4 и Смени!E8. Увеличете Фактури!C4 от 14 на 21 и променете Смени!C2 от 17:00 на 17:30. Запишете новите резултати в C2:C5. Върнете C4 на 14 и C2 на 17:00 и запишете резултатите в D2:D5. За датите въведете YYYY-MM-DD, а не текст с водещ апостроф.</p><p><strong>Проверка:</strong> След промяна: падеж 27.10.2026, 16 работни дни, −4 оставащи дни, 48,00 часа. След връщане: 20.10.2026, 11, −11, 47,50.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-10",
+        "step_content": {
+          "type": "information",
+          "title": "Запишете и проверете файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><p><strong>Documents (Документи)</strong> е стандартна папка в Windows за личните ви документи и работни файлове. Използвайте я, за да намирате лесно завършената работа.</p><ol><li>Изберете File (Файл) → Save As (Запиши като); в Excel при нужда Browse (Преглед).</li><li>Изберете Documents (Документи) и име <strong>16-full-Ime-Familia.xlsx</strong>, като замените Ime-Familia с вашето име и фамилия.</li><li>Запазете като Excel Workbook (.xlsx). В Calc потвърдете използването на Excel 2007–365 формат, ако програмата попита.</li><li>Затворете и отворете отново същия файл. Проверете резултата и запишете с Ctrl+S.</li></ol><p><strong>Какво трябва да остане:</strong> Фактури с D, H, I и контролна J2; Смени с D:E и сборовете; трите състояния в Проверки.</p></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      },
+      {
+        "id": "step-11",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте файла",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>body{font:18px/1.6 Arial,\"Segoe UI\",sans-serif;color:#242139;background:#f6f5fa;margin:0;padding:22px}main{max-width:960px;margin:auto;background:white;padding:28px;border-radius:14px}li{margin:9px 0}h1,h2,h3,strong{color:#40317d}code{font-family:Consolas,monospace;background:#eeebf7;padding:2px 5px;border-radius:4px;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;margin:16px 0}td,th{border:1px solid #ddd7eb;padding:9px;text-align:left}th{background:#eeebf7}.note{background:#f4f0ff;border-left:4px solid #7955c9;padding:14px}a{color:#49358e}</style></head><body><main><ol><li>Натиснете <strong>„Избери файл ...“</strong> в тази стъпка.</li><li>От Documents (Документи) изберете готовия 16-full-Ime-Familia.xlsx с вашето име.</li><li>Проверете избрания файл и завършете стъпката.</li></ol></main></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "send_progress": true
+        }
+      }
+    ]
+  }
+}

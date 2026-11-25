@@ -24,5 +24,13 @@
 | 10 | [Стандарти в уеб дизайна и основни уеб технологии](10-web-standards-and-technologies/mission.json) |
 | 11 | [Специализирани софтуерни средства за създаване на уеб сайтове](11-specialized-web-editors/mission.json) |
 | 12 | [Създаване на графичен модел на уеб страница — упражнение](12-web-page-mockup-practice/mission.json) |
+| 14 | [Основи на HTML](14-html-basics/mission.json) |
+| 15 | [HTML: текст, връзки и изображения](15-html-text-links-images/mission.json) |
+| 16 | [HTML: таблици, списъци, аудио и видео](16-html-tables-lists-media/mission.json) |
+| 17 | [Вграждане на съдържание с iframe](17-embedding-iframe/mission.json) |
+| 18 | [Създаване на HTML форми](18-html-forms/mission.json) |
+| 19 | [Визуално оформление с CSS](19-css-visual-design/mission.json) |
+| 20 | [Основни CSS свойства — практическа работа](20-css-properties-practice/mission.json) |
+| 21 | [Адаптивна уеб страница — практическа работа](21-responsive-web-page-practice/mission.json) |
 
 Мисиите са свързани в реда на уроците. Уроците без готова мисия и контролните се пропускат.

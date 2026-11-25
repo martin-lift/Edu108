@@ -1,0 +1,255 @@
+{
+  "mission_version": 4,
+  "mission_id": "69dd8d68-b7f9-4376-b4f6-c29d0c0e754e",
+  "next_mission_id": null,
+  "mission_content": {
+    "title": "Адаптивна уеб страница — практическа работа",
+    "description": "Ще поправите страница с фиксирани размери и ще проверите адаптивната подредба, изображението и навигацията при няколко ширини.",
+    "class_name": "12",
+    "subject": "Уеб дизайн",
+    "category": "HTML и CSS",
+    "lesson": "Адаптивна уеб страница — практическа работа",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Ще поправите страница с фиксирани размери и ще проверите адаптивната подредба, изображението и навигацията при няколко ширини.</p><p>Четете обясненията, изпробвайте действията и запазвайте работата си. Отворените въпроси показват примерен отговор след предаване. При собствена тема са възможни различни обосновани решения.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/purpose.svg\" width=\"760\" height=\"604\" alt=\"Viewport настройва мобилния изглед, но не поправя CSS.; Гъвкавата ширина се съчетава с max-width.; Height:auto запазва пропорциите на изображението.; Медийната заявка сменя подредбата според ширината.; Проверяваме и междинни размери, меню и дълъг текст.\"><figcaption>За какво е този урок?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-1",
+        "step_content": {
+          "type": "information",
+          "title": "Припомнете си адаптивния дизайн",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Уеб страниците се разглеждат на смартфони, таблети, лаптопи и настолни компютри. Добрият дизайн осигурява удобно четене и използване при различни размери на екрана.</p>\n<p><strong>Адаптивният дизайн (responsive design)</strong> позволява съдържанието и подредбата да се приспособяват към наличното пространство.</p>\n<p>При проектиране е важно:</p>\n<ul>\n<li><strong>Подредбата да е гъвкава.</strong> Няколко колони на широк екран могат да се подредят в една колона на телефон.</li>\n<li><strong>Текстът да е четим.</strong> Потребителят трябва да може да чете без увеличаване на страницата.</li>\n<li><strong>Изображенията да се побират в екрана.</strong> Те трябва да запазват пропорциите си и да не излизат извън съдържанието.</li>\n<li><strong>Навигацията да е удобна.</strong> Менютата и бутоните трябва да се използват лесно както с мишка, така и с докосване.</li>\n<li><strong>Да няма ненужно хоризонтално превъртане.</strong> Основното съдържание трябва да се побира в ширината на екрана.</li>\n</ul>\n<p>Често се започва с дизайн за малък екран – подходът <strong>mobile first</strong>. След това оформлението се разширява за по-големи екрани.</p>\n<div class=\"task\"><strong>Практическа задача:</strong> Скицирайте една и съща уеб страница за телефон и за компютър. Покажете как се променят менюто, колоните и изображенията, като запазите основното съдържание.</div><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-1.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Припомнете си адаптивния дизайн</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-2",
+        "step_content": {
+          "type": "information",
+          "title": "Начален файл и откриване на проблемите",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/21-responsive-practice.html\" download=\"21-responsive-practice.html\">Изтеглете страницата за упражнение</a>. Отворете я в редактор и в браузър. Изображението е вградено във файла, така че не са необходими допълнителни файлове.</p><p>Началният вариант нарочно има фиксирани размери. Първо го разгледайте в широк прозорец, после стеснете прозореца. Запишете: има ли хоризонтално превъртане, побира ли се изображението и колко място остава за текста?</p><pre><code class=\"language-css\">.site { width: 960px; margin: auto; }\n.layout { display: flex; gap: 24px; }\n.intro { width: 620px; }\n.card { width: 300px; }\n.intro img { width: 620px; height: 240px; }</code></pre><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-2.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Начален файл и откриване на проблемите</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-3",
+        "step_content": {
+          "type": "information",
+          "title": "Добавете viewport",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>В <code>head</code> добавете следния елемент. Той позволява на мобилния браузър да използва ширината на устройството за изгледа на страницата:</p><pre><code class=\"language-html\">&lt;meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"&gt;</code></pre><p>Самият viewport не поправя фиксираните размери в CSS. След него трябва да промените и правилата за подредба.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-3.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Добавете viewport</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-4",
+        "step_content": {
+          "type": "information",
+          "title": "Заменете фиксираните размери",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>В CSS намерете петте правила за <code>.site</code>, <code>.layout</code>, <code>.intro</code>, <code>.card</code> и <code>.intro img</code>. Заменете ги със следните правила, вместо да оставяте старите по-долу:</p><pre><code class=\"language-css\">* { box-sizing: border-box; }\n.site { width: calc(100% - 2rem); max-width: 960px; margin: auto; }\n.layout { display: grid; grid-template-columns: 2fr 1fr; gap: 24px; }\n.intro, .card { min-width: 0; }\n.intro img { max-width: 100%; height: auto; display: block; }\nnav { flex-wrap: wrap; }\n@media (max-width: 700px) {\n  .layout { grid-template-columns: 1fr; }\n  h1 { font-size: 1.8rem; }\n}</code></pre><ul><li><code>max-width</code> ограничава ширината на голям екран, без да принуждава тесния екран да я побере.</li><li><code>max-width: 100%</code> и <code>height: auto</code> запазват пропорциите на изображението.</li><li>При ширина до 700 пиксела медийната заявка подрежда колоните в една колона.</li><li><code>flex-wrap</code> позволява на връзките в менюто да преминат на нов ред.</li><li><code>box-sizing: border-box</code> включва рамката и вътрешните отстъпи в зададената ширина.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-4.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Заменете фиксираните размери</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "check-1",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Проверете разбирането: Заменете фиксираните размери",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Кои промени помагат?</p><p class=\"focus\">Отбележете всички верни отговори. Има повече от един верен отговор.</p></main></body></html>",
+          "options": [
+            {
+              "id": "answer-1",
+              "text": "Max-width ограничава ширината на голям екран."
+            },
+            {
+              "id": "answer-2",
+              "text": "Viewport сам поправя всички CSS ширини."
+            },
+            {
+              "id": "answer-3",
+              "text": "Height:auto запазва пропорциите."
+            },
+            {
+              "id": "answer-4",
+              "text": "Фиксирана ширина 960px винаги се побира на телефон."
+            },
+            {
+              "id": "answer-5",
+              "text": "Flex-wrap позволява пренасяне на менюто."
+            },
+            {
+              "id": "answer-6",
+              "text": "Overflow-x:hidden гарантира, че няма отрязано съдържание."
+            }
+          ],
+          "correct_option_ids": [
+            "answer-1",
+            "answer-3",
+            "answer-5"
+          ],
+          "feedback": "Гъвкави размери, подходящо пренасяне и медийни заявки работят заедно; резултатът се проверява при няколко ширини."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true,
+          "do_not_shuffle_answers": false
+        }
+      },
+      {
+        "id": "topic-5",
+        "step_content": {
+          "type": "information",
+          "title": "Проверете в няколко размера",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Запазете файла и презаредете браузъра.</li><li>Сравнете ширини около 390, 700 и 1100 пиксела чрез преоразмеряване или режима за устройства в браузъра.</li><li>Проверете текста, менюто, изображението и блока за срещата.</li><li>Уверете се, че няма ненужно хоризонтално превъртане.</li><li>Преминете с клавиша Tab през двете връзки в менюто и проверете накъде водят.</li><li>Променете заглавието с по-дълъг текст и проверете отново.</li></ol><p>За сравнение след собствената работа отворете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/21-responsive-example.html\">примерния адаптивен вариант</a>. Не прикривайте проблемите чрез <code>overflow-x: hidden</code>: първо поправете елемента, който излиза извън екрана.</p><p><strong>Резултат:</strong> работеща адаптивна страница и кратки бележки кои правила сте променили и какво сте проверили.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-5.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Проверете в няколко размера</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-6",
+        "step_content": {
+          "type": "information",
+          "title": "След урока ще можете да:",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>откривате фиксирани размери, които затрудняват тесния екран;</li><li>използвате viewport, гъвкава ширина и изображения;</li><li>прилагате проста медийна заявка и проверявате подредбата.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-6.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>След урока ще можете да:</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "topic-7",
+        "step_content": {
+          "type": "information",
+          "title": "Прочетете още",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p><a href=\"https://martin-lift.github.io/108/Web-design-Textbook/04-Web-Page-Design.html\">Проектиране на уеб страница — учебник</a>; <a href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design\">MDN — адаптивен дизайн</a>.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/topic-7.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Прочетете още</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "practice-guide",
+        "step_content": {
+          "type": "information",
+          "title": "Поправете и предайте адаптивната страница",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/21-responsive-practice.html\" download>началния файл</a> и запазете като <code>21-responsive.html</code>. Преди промяна сравнете 390 и 1100 пиксела и намерете излизащите елементи.</li><li>Добавете viewport. Заменете петте стари правила с дадените в урока; не оставяйте старите фиксирани размери по-долу да ги отменят.</li><li>Проверете при 390, 700, 701, 850 и 1100 CSS пиксела. При 700 включително трябва да има една колона, а при 701 — две. Уверете се, че никъде няма ненужно хоризонтално превъртане.</li><li>Променете заглавието с по-дълъг български текст, преминете с Tab през менюто и активирайте двете връзки. Изображението трябва да се побира без деформация.</li><li>Добавете в края видим кратък параграф „Проверих: …“ с проверените ширини и три конкретни поправки. Сравнете с <a href=\"https://martin-lift.github.io/108/Web-design-12/files/21-responsive-example.html\">примерния вариант</a> едва след собствената работа.</li></ol><p>Предавате един HTML файл: изображението вече е вградено в него. Не прикривайте проблема с overflow-x:hidden.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/practice-guide.svg\" width=\"760\" height=\"276\" alt=\"Прочетете примера; Редактирайте работния файл; Запазете и проверете в браузър\"><figcaption>Поправете и предайте адаптивната страница</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "submit-file",
+        "step_content": {
+          "type": "file",
+          "title": "Предайте адаптивната страница",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Прикачете поправения HTML файл с вграденото изображение и кратката бележка за проверените ширини и три промени.</p><p class=\"focus\">Запазете и отворете файла повторно. Използвайте бутона за прикачване в тази стъпка и проверете показаното име: <strong>21-responsive.html</strong> (или работното име с вашите инициали). Максимален размер: 20 MB.</p></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      },
+      {
+        "id": "review-1",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Viewport достатъчен ли е?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Защо страницата може да продължи да излиза извън телефон след добавяне на viewport?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "Viewport не премахва фиксираните 960px, ширини на колони и изображения. Те трябва да станат гъвкави, а подредбата да се приспособи чрез CSS."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-2",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Кога се сменя подредбата?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Какво очаквате при 700 и при 701 CSS пиксела за @media(max-width:700px)?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "При 700 заявката се прилага и задава една колона; при 701 не се прилага и остава широката подредба. Проверявайте границата и междинни размери, не само две крайни ширини."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "review-3",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Защо не скриваме превъртането?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><p>Защо overflow-x:hidden не е достатъчно решение за твърде широко съдържание?</p><p>Отговорете със свои думи. След предаване сравнете с примерния отговор и насоките за самопроверка.</p></main></body></html>",
+          "reference_answer": "То може да отреже съдържание, без да поправи размера или подредбата. Намерете излизащия елемент и коригирайте ширина, минимален размер, изображение или пренасяне. Проверете четимостта и достигането до връзките."
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false,
+          "automatic_feedback": true
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Какво да запомним?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>\nbody{padding:0;max-width:none}.lesson-demo{max-width:100%}*{box-sizing:border-box}body{margin:0;color:#25243a;background:#fff;font:20px/1.65 \"Segoe UI\",Arial,sans-serif}main{max-width:900px;margin:auto;padding:20px}h3{font-size:23px;line-height:1.3;color:#54316f;margin:24px 0 12px}p{margin:12px 0}li{margin:8px 0}a{color:#553176;overflow-wrap:anywhere}figure{margin:22px 0;padding:12px;background:#f8f5fb;border:1px solid #ded8e8;border-radius:12px}figure img{display:block;max-width:100%;height:auto;margin:auto;max-height:700px;object-fit:contain}figcaption{font-size:16px;color:#54515e;margin-top:10px}.focus,.task,.note{padding:14px 18px;border-left:5px solid #79509b;border-radius:8px;background:#f3edf8}.note{background:#edf6fa;border-color:#387b88}.table-wrap{overflow-x:auto}table{width:100%;border-collapse:collapse;table-layout:fixed;font-size:18px}td,th{padding:10px;border:1px solid #d8cfe1;text-align:left;vertical-align:top;overflow-wrap:anywhere}th{background:#f3edf8}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.6 Consolas,monospace;background:#f4f1f7;border-radius:8px;padding:14px}code{overflow-wrap:anywhere}img,svg{max-width:100%;height:auto}details{padding:12px 0;border-bottom:1px solid #ddd}summary{font-weight:600}.mobile-label{display:none}@media(max-width:500px){body{font-size:18px}main{padding:12px}h3{font-size:21px}table,tbody,tr,td,th{display:block;width:100%!important}thead{display:none}tbody tr{border:1px solid #d8cfe1;border-radius:8px;overflow:hidden;margin:12px 0}tbody td,tbody th{border:0;padding:10px 12px}tbody td:first-child{background:#f3edf8;font-weight:600}tbody td+td{border-top:1px solid #e6deed}.mobile-label{display:block;font-weight:600;color:#54316f;margin-bottom:4px}figure{padding:8px}}</style></head><body><main><ul><li>Viewport настройва мобилния изглед, но не поправя CSS.</li><li>Гъвкавата ширина се съчетава с max-width.</li><li>Height:auto запазва пропорциите на изображението.</li><li>Медийната заявка сменя подредбата според ширината.</li><li>Проверяваме и междинни размери, меню и дълъг текст.</li></ul><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/12_class/web-design/21-responsive-web-page-practice/images/summary.svg\" width=\"760\" height=\"604\" alt=\"Viewport настройва мобилния изглед, но не поправя CSS.; Гъвкавата ширина се съчетава с max-width.; Height:auto запазва пропорциите на изображението.; Медийната заявка сменя подредбата според ширината.; Проверяваме и междинни размери, меню и дълъг текст.\"><figcaption>Какво да запомним?</figcaption></figure></main></body></html>"
+        },
+        "step_rules": {
+          "time_limit_seconds": 0,
+          "ai_feedback": false,
+          "allow_ai_hint": false
+        }
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

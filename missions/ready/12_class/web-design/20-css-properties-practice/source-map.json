@@ -1,0 +1,99 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/20-CSS-Properties-Practice.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Кутията на елемента: размери и отстъпи",
+      "source_topics": [
+        "Основни свойства",
+        "width",
+        "height",
+        "opacity",
+        "padding",
+        "margin"
+      ],
+      "body": "<h3 id=\"topic-1\">Основни свойства</h3><p>Основните свойства, които се използват при работа с езика CSS, са сходни с част от атрибутите на таговете в езика HTML.</p><figure><img alt=\"Модел на CSS кутията\" decoding=\"async\" loading=\"lazy\" src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/web-basics/box-model.png\"><figcaption>Отвътре навън са content (съдържание), padding (вътрешен отстъп), border (рамка) и margin (външен отстъп). Padding е вътре в рамката, а margin отделя елемента от околните. <a href=\"https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model\" rel=\"noopener noreferrer\" target=\"_blank\">Източник: MDN</a>.</figcaption></figure>\n<p>Ето накратко някои основни, често използвани свойства:</p><h3 id=\"topic-2\">width</h3><p><strong>width</strong> – задава ширината на елемента;</p><h3 id=\"topic-3\">height</h3><p><strong>height</strong> – задава височината на елемента;</p><h3 id=\"topic-4\">opacity</h3><p><strong>opacity</strong> – задава прозрачност на елемента в интервала 0 – 1 или 0% – 100%;</p><h3 id=\"topic-5\">padding</h3><p><strong>padding</strong> – задава разстояние между съдържанието на елемента и неговата рамка. Приема до четири стойности, разделени с интервали, съответно за горната, дясната, долната и лявата страна. Вижте \"Задаване на списък от стойности\" по-долу;</p><h3 id=\"topic-6\">margin</h3><p><strong>margin</strong> – задава разстояние между рамката и околните елементи. Форматът на стойностите е като на padding;</p>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Подредба, обтичане и съкратен запис",
+      "source_topics": [
+        "display",
+        "position",
+        "left, right, top, bottom",
+        "float",
+        "clear",
+        "z-index",
+        "Задаване на списък от стойности",
+        "Отделни свойства за всяка страна",
+        "Задача 1."
+      ],
+      "body": "<h3 id=\"topic-7\">display</h3><p><strong>display</strong> – определя начина на оформление на елемента. Стойности са например flex, grid и: none (скрива елемента), inline (показва елементите един след друг и игнорира стойностите за размер), block (елементът се изобразява като блок, започва на нов ред и заема цялата ширина);</p><h3 id=\"topic-8\">position</h3><p><strong>position</strong> – задава начина на позициониране: static (елементите се показват по реда на срещане в HTML кода), absolute (абсолютно – спрямо най-близкия нестатичен родителски елемент), relative (относително – спрямо нормалното си разположение), fixed (фиксирано – спрямо прозореца на браузъра);</p><h3 id=\"topic-9\">left, right, top, bottom</h3><p><strong>left, right, top, bottom</strong> – задават отместване на елемента съответно отляво, отдясно, отгоре, отдолу при позициониране, различно от статично;</p><h3 id=\"topic-10\">float</h3><p><strong>float</strong> – \"плаване\". Позволява даден елемент да се обтича от текст и други inline обекти. Игнорира се за елементите с абсолютна позиция Възможните стойности са: none (не \"плава\", стойност по подразбиране), left (позиционира се най-вляво на родителския елемент, като позволява текстът и другите елементи да го обтекат отдясно), right (като left, но вдясно);</p><h3 id=\"topic-11\">clear</h3><p><strong>clear</strong> – определя от коя страна на елемента не може да има плаващи елементи. Стойности: left (отляво), right (отдясно), both (от двете страни);</p><h3 id=\"topic-12\">z-index</h3><p><strong>z-index</strong> – задава реда на елементите при позициониране – тези с по-малък индекс са под тези с по-голям индекс.</p><h3 id=\"topic-13\">Задаване на списък от стойности</h3><p>Някои свойства, напр. margin и padding, които се отнасят до четирите страни на елемента, могат да приемат списък от 1 до 4 стойности, разделени с интервал:</p>\n<ul>\n<li>4 стойности (напр. margin: 1px 2px 3px 4px;) – отнасят се съответно за горната (1px), дясната (2px), долната (3px) и лявата (4px) страна;</li>\n<li>3 стойности (напр. margin: 1px 2px 3px;) – отнасят се за горната (1px), дясната и лявата (2px) и долната (3px) страна;</li>\n<li>2 стойности (напр. margin: 1px 2px;) – отнасят се съответно за горната и долната (1px) и дясната и лявата (2px) страна;</li>\n<li>1 стойност (напр. margin: 1px;) – отнася се за четирите страни.</li>\n</ul><h3 id=\"topic-14\">Отделни свойства за всяка страна</h3><p>Тези параметри могат да се задават и като отделни свойства с по една стойност (напр. <strong>margin-left</strong>: 2px; или <strong>padding-top</strong>: 5px; ).</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">div {\n  margin-top: 5px;\n  margin-right: 10px;\n  margin-bottom: 20px;\n  margin-left: 50px;\n  padding-top: 3px;\n  padding-right: 7px;\n  padding-bottom: 3px;\n  padding-left: 7px;\n}\n</code></pre>\n<p>Това правило е аналогично на:</p>\n<pre><code class=\"language-css\">div {\n  margin: 5px 10px 20px 50px;\n  padding: 3px 7px;\n}\n</code></pre>\n<p>Съдържание на елемента</p>\n<pre><code class=\"language-css\">padding: 3px 7px;\nmargin: 5px 10px 20px 50px;\n</code></pre><h3 id=\"topic-15\">Задача 1.</h3><p class=\"task\"><strong>Задача 1. Стартирайте \"pois.html\" в браузъра. Отворете файла \"styles.css\", намерете правилото със селектор \".poiBlock img\" и променете стойността на \"float\" първо на \"left\", а след това на \"none\". Опреснете страницата в браузъра и опишете как се отразяват промените. Върнете я пак в начално състояние.</strong></p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "Оформление на текста",
+      "source_topics": [
+        "Форматиране на текст",
+        "color",
+        "text-align",
+        "font-size",
+        "font-family",
+        "font-weight",
+        "text-decoration",
+        "text-indent",
+        "letter-spacing",
+        "word-spacing",
+        "line-height",
+        "text-transform",
+        "Задача 2."
+      ],
+      "body": "<h3 id=\"topic-16\">Форматиране на текст</h3><p>Основни свойства за форматиране на текст:</p><h3 id=\"topic-17\">color</h3><p><strong>color</strong> – цвят на символите в CSS формат.</p><h3 id=\"topic-18\">text-align</h3><p><strong>text-align</strong> – подравняване на текст с възможни стойности: left (ляво), right (дясно), center (центрирано), justify (двустранно).</p><h3 id=\"topic-19\">font-size</h3><p><strong>font-size</strong> – размер на символите.</p><h3 id=\"topic-20\">font-family</h3><p><strong>font-family</strong> – шрифт на текст.</p><h3 id=\"topic-21\">font-weight</h3><p><strong>font-weight</strong> – задава \"тегло\" на текста. Може да приема стойности: <strong>normal</strong> (нормален текст), <strong>bold</strong> (удебелен текст), <strong>lighter</strong> (изтънен текст) и др.</p><h3 id=\"topic-22\">text-decoration</h3><p><strong>text-decoration</strong> – задава допълнителен ефект на текста. Възможните му стойности са: <strong>underline</strong> (подчертава текста с долна черта), <strong>none</strong> (без ефекти), <strong>overline</strong> (подчертава текста с горна черта), <strong>blink</strong> (текстът премигва), <strong>line-through</strong> (зачертава текста).</p><h3 id=\"topic-23\">text-indent</h3><p><strong>text-indent</strong> – задава отстъп на първия ред на абзац.</p><h3 id=\"topic-24\">letter-spacing</h3><p><strong>letter-spacing</strong> – променя разредката между символите. Може да бъде normal (без промяна на разредката) или число с мерна единица. Може да приема отрицателни стойности.</p><h3 id=\"topic-25\">word-spacing</h3><p><strong>word-spacing</strong> – променя разстоянието между думите аналогично на <strong>letter-spacing</strong>.</p><h3 id=\"topic-26\">line-height</h3><p><strong>line-height</strong> – задава височината на реда (междуредието).</p><h3 id=\"topic-27\">text-transform</h3><p><strong>text-transform</strong> – управлява главни и малки букви: <strong>none</strong> (без промяна, по подразбиране), <strong>uppercase</strong> (само с главни букви), <strong>lowercase</strong> (само с малки букви), <strong>capitalize</strong> (всяка дума започва с главна буква).</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">p {\n  text-align: justify;\n  font-family: 'Times New Roman';\n  font-size: 12px;\n  color: #00ffff;\n  font-weight: bold;\n  line-height: 1;\n}\n</code></pre><h3 id=\"topic-28\">Задача 2.</h3><p class=\"task\"><strong>Задача 2. Отворете файла \"styles.css\", намерете правилото със селектор \".poiText p\" и го копирайте два пъти, като промените селекторите на \"p.p1\" и \"p.p2\". В първото от новите правила добавете цвят на текста и го направете удебелен. Във второто задайте друг цвят с функцията rgb() и променете \"margin\" така, че отляво да е 10 пиксела. Запишете. Отворете файла \"pois.html\", намерете <code>&lt;div&gt;</code> с id=\"1\" и задайте на първия и втория <code>&lt;p&gt;</code> елементи в него класове \"p1\" и \"p2\". Запишете и вижте в браузъра как се промени страницата.</strong></p>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Цвят и изображение за фон",
+      "source_topics": [
+        "Форматиране на фон",
+        "Изображение като фон",
+        "Повторение на фоновото изображение",
+        "Фиксиран и превъртащ се фон",
+        "Позиция на фоновото изображение",
+        "Задача 3."
+      ],
+      "body": "<h3 id=\"topic-29\">Форматиране на фон</h3><p>Външният вид на уеб сайта зависи от използването на подходящи фонове както на целите страници, така и на отделните елементи.</p>\n<p>Цветът на фона се задава, като на свойството <strong>background-color</strong> се присвоява стойност в някой от приложимите формати.</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">h1 {background-color: red;}\n</code></pre><h3 id=\"topic-30\">Изображение като фон</h3><p>За фон на уеб елемент може да се използва и изображение. То се задава с <strong>background-image</strong>. За посочване на пътя до избраното изображение се използва функцията <strong>url('URL')</strong>.</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">body {\n  background-image: url('proba.gif');\n}\n</code></pre><h3 id=\"topic-31\">Повторение на фоновото изображение</h3><p>По подразбиране изображението се повтаря вертикално и хоризонтално до запълване на целия елемент. Свойството <strong>background-repeat</strong> служи за управление на запълването.</p>\n<p>Приема стойности: <strong>repeat</strong> – изображението се повтаря както хоризонтално, така и вертикално, <strong>repeat-x (repeat-y)</strong> – изображението се повтаря само хоризонтално (вертикално), <strong>no-repeat</strong> – изображението не се повтаря.</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">body {\n  background-image: url('proba.gif');\n  background-repeat: repeat-y;\n}\n</code></pre>\n<p>В примера изображението ще се повтаря по вертикала.</p><h3 id=\"topic-32\">Фиксиран и превъртащ се фон</h3><p>Свойството <strong>background-attachment</strong> определя дали фоновото изображение ще е фиксирано спрямо видимата област от страницата (fixed), или ще се движи при превъртане с елемента (scroll).</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">body {\n  background-image: url('proba.gif');\n  background-repeat: repeat-y;\n  background-attachment: fixed;\n}\n</code></pre>\n<p>В примера изображението е фиксирано.</p><h3 id=\"topic-33\">Позиция на фоновото изображение</h3><p>Свойството <strong>background-position</strong> определя началната позиция на изображението. Задават се хоризонтална и вертикална стойност в проценти или мерни единици, или комбинация от служебните думи left, center, right (за хоризонтално позициониране) и top, center, bottom (за вертикално). Ако е посочена само една стойност, другата се приема за center.</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">body {\n  background-image: url('banner.jpeg');\n  background-repeat: no-repeat;\n}\nbody { background-position: right top; }\n/* аналогично на background-position:\n  100% 0% */\nbody { background-position: top center; }\n/* 50% 0% */\nbody { background-position: center; }\n/* 50% 50% */\nbody { background-position: bottom; }\n/* 50% 100% */\n</code></pre><h3 id=\"topic-34\">Задача 3.</h3><p class=\"task\"><strong>Задача 3. Отворете файла \"styles.css\" и намерете правилото със селектор \"#pois\". Обяснете какво е действието на всяка дефиниция в него. Редактирайте ги по ваш избор и вижте в браузъра какъв ще е ефектът върху страницата \"pois.html\".</strong></p>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Рамки и заобляне",
+      "source_topics": [
+        "Използване на рамки",
+        "Рамка по отделни страни",
+        "Задача 4."
+      ],
+      "body": "<h3 id=\"topic-35\">Използване на рамки</h3><p>Основни свойства за рамки:</p>\n<ul>\n<li><strong>border-color</strong> – цвят на рамката.</li>\n<li><strong>border-style</strong> – стил на рамката, който има няколко варианта (none, dotted, dashed, solid, double, groove, ridge, inset, outset).</li>\n<li><strong>border-width</strong> – дебелина на рамката, която се определя в пиксели или друга мерна единица.</li>\n</ul><h3 id=\"topic-36\">Рамка по отделни страни</h3><p>Изброените свойства могат да се задават като списък от до 4 стойности (както описахме по-горе) или отделно, напр. border-top-color, border-right-width, border-bottom-style и т.н. Много често рамката се задава в съкратен формат:</p>\n<p><strong>border: border-width border-style border-color;</strong></p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">div { border: 1px solid red; }\n</code></pre>\n<ul>\n<li><strong>border-radius</strong> – определя радиуса на закръгляне на върховете на елемента. Както и при останалите свойства на рамката, могат да се задават до 4 стойности, като тук ще се отнасят съответно за горен ляв, горен десен, долен десен и долен ляв ъгъл.</li>\n</ul>\n<p>Пример:</p>\n<pre><code class=\"language-css\">div {\n  width: 100px;\n  height: 70px;\n  border-color: black red;\n  border-style: dashed solid;\n  border-width: 5px 10px;\n  border-radius: 10px 20px 15px;\n}\n</code></pre>\n<p>Правилото ще направи горната и долната рамка черни, пунктирани, дебели 5 пиксела, а дясната и лявата – червени линии с дебелина 10 пиксела. Ъглите ще са закръглени съответно горен ляв – 10, горен десен – 20, долен десен – 15, и долен ляв – 20 пиксела.</p><h3 id=\"topic-37\">Задача 4.</h3><p class=\"task\"><strong>Задача 4. Отворете файла \"styles.css\" и намерете правилото със селектор \".poiBlock\". Направете рамката червена с дебелина 5 пиксела. Задайте закръгляне на горния ляв ъгъл с радиус, 3 пъти по-голям от размера на шрифта. Използвайте свойството border-top-left-radius и мерната единица \"em\".</strong></p>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Шрифтове и практически уточнения",
+      "source_topics": [
+        "Добавяне и използване на шрифтове",
+        "Зареждане на шрифт с font-face",
+        "Уеб услуги за шрифтове",
+        "Къде се поставя правилото import",
+        "Практически уточнения за оформлението",
+        "Онлайн инструменти и полезни връзки"
+      ],
+      "body": "<h3 id=\"topic-38\">Добавяне и използване на шрифтове</h3><p>Както споменахме по-рано, на текстовите елементи се задават шрифтове със свойството <strong>font-family</strong>. По подразбиране браузърът използва само шрифтовете, налични в системата. За да има алтернатива, задаваме списък с разделител запетая (,). Имена, които съдържат интервал, се поставят в кавички, напр. 'Times New Roman'.</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">p {\n  font-family: Tahoma, Verdana, sans-serif;\n}\n</code></pre>\n<p>Браузърът ще потърси Tahoma, ако не е достъпен – Verdana. Ако и той липсва, ще се използва sans-serif, който е от набора универсални шрифтове, налични във всички браузъри: sans-serif, serif, monospace, cursive, fantasy.</p><h3 id=\"topic-39\">Зареждане на шрифт с font-face</h3><p>Можем да заявим собствен шрифт, наличен на сървъра; зареждането му все пак може да се провали. Използвайте разрешен файл и резервно семейство, чрез CSS правилото <strong>@font-face</strong>:</p>\n<pre><code class=\"language-css\">@font-face {\n  font-family: myFont;\n  src: url(myfont_file.woff);\n}\n</code></pre>\n<p>След това използваме във <strong>font-family</strong> както обикновено:</p>\n<p>Пример:</p>\n<pre><code class=\"language-css\">p {\n  font-family: myFont, 'Times New Roman', serif;\n}\n</code></pre><h3 id=\"topic-40\">Уеб услуги за шрифтове</h3><p>Удобен начин да разнообразим визията на сайта с различни шрифтове са уеб услугите. Една от най-използваните е Google Fonts, предлагаща над 1000 шрифтови семейства. На адрес <a href=\"https://fonts.google.com/\" rel=\"noopener noreferrer\" target=\"_blank\">https://fonts.google.com/</a> можем да търсим и разглеждаме, като настройваме различни параметри – категории, езици, размер, стил и др. След като изберем нужните ни начертания, услугата предлага готов код, който да вмъкнем в нашата страница:</p>\n<pre><code class=\"language-html\">&lt;style&gt;\n  @import\n  url('https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap');\n&lt;/style&gt;\n</code></pre><h3 id=\"topic-41\">Къде се поставя правилото import</h3><p>Показания код с правилото @import вмъкваме в секцията <code>&lt;head&gt;</code> на HTML документа или, без тага <code>&lt;style&gt;</code>, в началото на нашия външен CSS файл. След това можем да използваме шрифта по стандартния начин:</p>\n<pre><code class=\"language-css\">font-family: 'Open Sans', sans-serif;\n</code></pre><h3 id=\"topic-42\">Практически уточнения за оформлението</h3><p>Width задава ширина, а display определя начина на оформление, включително block, inline, inline-block, flex и grid. Blink е историческа стойност и не бива да се използва за премигващ текст. При z-index редът се сравнява в рамките на съответния контекст на наслагване. Имената serif, sans-serif, monospace, cursive и fantasy са общи семейства, за които браузърът избира наличен шрифт.</p><p>Когато размерът на font-size е даден в em, той се отнася към размера на родителя; при други свойства em обикновено се отнася към размера на шрифта на самия елемент. Rem се отнася към коренния елемент. При външен шрифт проверявайте поддръжката на кирилица и условията за използването му.</p><h3 id=\"topic-43\">Онлайн инструменти и полезни връзки</h3><ul><li><a href=\"https://fonts.google.com/\" rel=\"noopener noreferrer\" target=\"_blank\">Google Fonts</a></li><li><a href=\"https://jigsaw.w3.org/css-validator/\" rel=\"noopener noreferrer\" target=\"_blank\">W3C CSS Validator</a></li></ul>"
+    }
+  ],
+  "reviews": [
+    "Padding или margin?",
+    "Какво се промени при float?",
+    "Еднакво ли е 3em навсякъде?"
+  ],
+  "preserved_original_image_urls": [
+    "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Box_model/box-model.png"
+  ]
+}

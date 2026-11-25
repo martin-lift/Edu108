@@ -1,0 +1,66 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/16-HTML-Tables-Lists-Audio-and-Video.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Таблица за данни",
+      "source_topics": [
+        "Тагове за таблица",
+        "Обединяване на клетки",
+        "Оформление на таблицата с CSS",
+        "Задача 1."
+      ],
+      "body": "<h3 id=\"topic-1\">Тагове за таблица</h3><p>Тагове за таблица:</p>\n<p><strong><code>&lt;table&gt;</code></strong> – създава таблица<br><strong><code>&lt;tr&gt;</code></strong> – създава ред в таблица<br><strong><code>&lt;td&gt;</code></strong> – създава клетка в ред от таблица<br><strong><code>&lt;caption&gt;</code></strong> – заглавие на таблица<br><strong><code>&lt;th&gt;</code></strong> – заглавие на колона в таблица</p><h3 id=\"topic-2\">Обединяване на клетки</h3><p>Клетките в таблицата имат атрибути:</p>\n<p><em>colspan</em> – определя броя на колоните, които клетката трябва да обхване<br><em>rowspan</em> – определя броя на редовете, които клетката трябва да обхване</p><h3 id=\"topic-3\">Оформление на таблицата с CSS</h3><p>Вместо следващите атрибути в HTML5 се използва CSS:</p>\n<ul><li><em>border</em> – определя рамката на таблицата</li><li><em>cellspacing</em> – определя разстоянието между клетките</li><li><em>cellpadding</em> – определя отстъпа на текста в клетката</li><li><em>height</em> – определя височината на таблицата, реда или колоната</li><li><em>width</em> – определя дължината на таблицата или колоната</li><li><em>align</em> – подравнява таблица, ред или клетка</li><li><em>bgcolor</em> – задава фонов цвят на таблица, ред или клетка</li></ul>\n<p>Пример:</p>\n<pre><code class=\"language-html\">&lt;table class=\"events-table\"&gt;\n&lt;tr&gt;\n&lt;th&gt;Колона 1&lt;/th&gt;\n&lt;th&gt;Колона 2&lt;/th&gt;\n&lt;th&gt;Колона 3&lt;/th&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;ред 1, колона 1&lt;/td&gt;\n&lt;td&gt;ред 1, колона 2&lt;/td&gt;\n&lt;td&gt;ред 1, колона 3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;tr&gt;\n&lt;td&gt;ред 2, колона 1&lt;/td&gt;\n&lt;td&gt;ред 2, колона 2&lt;/td&gt;\n&lt;td&gt;ред 2, колона 3&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/table&gt;\n</code></pre>\n<table>\n<thead>\n<tr>\n<th>Колона 1</th>\n<th>Колона 2</th>\n<th>Колона 3</th>\n</tr>\n</thead>\n<tbody><tr>\n<td>ред 1, колона 1</td>\n<td>ред 1, колона 2</td>\n<td>ред 1, колона 3</td>\n</tr>\n<tr>\n<td>ред 2, колона 1</td>\n<td>ред 2, колона 2</td>\n<td>ред 2, колона 3</td>\n</tr>\n</tbody></table><h3 id=\"topic-4\">Задача 1.</h3><p class=\"task\"><strong>Задача 1. Отворете <code>12-practice-karlovo.html</code>. В блока <code>id=\"events\"</code> има учебни данни за три събития. Превърнете ги в таблица с две колони „Събитие“ и „Час“. Използвайте <code>&lt;caption&gt;</code>, заглавен ред с <code>&lt;th&gt;</code> и три реда с <code>&lt;td&gt;</code>. Данните са примерни, а не действителна програма. Добавете последен ред с една клетка, обхващаща двете колони чрез <code>colspan=\"2\"</code>, и текст „Вход свободен“. В секцията <code>&lt;style&gt;</code> вече има оформление за таблицата. Запазете файла и проверете резултата.</strong></p>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Списъци и номерация",
+      "source_topics": [
+        "Тагове за списъци",
+        "Начало на номерацията",
+        "Обратна номерация",
+        "Вид на номерацията",
+        "Неподреден списък",
+        "Задача 2."
+      ],
+      "body": "<h3 id=\"topic-5\">Тагове за списъци</h3><p>Списъците могат да бъдат с номерация (подредени) и със символи (неподредени). Подредените списъци започват с тага <code>&lt;ol&gt;</code>, а всеки елемент на списъка – с тага <code>&lt;li&gt;</code>:</p>\n<p>Пример:</p>\n<pre><code class=\"language-html\">&lt;ol&gt;\n&lt;li&gt;Едно&lt;/li&gt;\n&lt;li&gt;Две&lt;/li&gt;\n&lt;/ol&gt;\n</code></pre>\n<ol>\n<li>Едно</li>\n<li>Две</li>\n</ol><h3 id=\"topic-6\">Начало на номерацията</h3><p>Атрибутът <em>start</em> задава началото на номерацията, а присвоената му стойност показва началото на номерацията.</p>\n<pre><code class=\"language-html\">&lt;ol start=\"3\"&gt;\n&lt;li&gt;Едно&lt;/li&gt;\n&lt;li&gt;Две&lt;/li&gt;\n&lt;li&gt;Три&lt;/li&gt;\n&lt;/ol&gt;\n</code></pre>\n<ol start=\"3\">\n<li>Едно</li>\n<li>Две</li>\n<li>Три</li>\n</ol><h3 id=\"topic-7\">Обратна номерация</h3><p>Булевият атрибут <em>reversed</em> обръща посоката на номерацията; <code>start</code> задава началната стойност. Присъствието на reversed го включва дори при запис reversed=\"false\":</p>\n<pre><code class=\"language-html\">&lt;ol reversed start=\"4\"&gt;\n&lt;li&gt;Едно&lt;/li&gt;\n&lt;li&gt;Две&lt;/li&gt;\n&lt;li&gt;Три&lt;/li&gt;\n&lt;/ol&gt;\n</code></pre>\n<ol reversed=\"\" start=\"4\"><li>Едно</li><li>Две</li><li>Три</li></ol><h3 id=\"topic-8\">Вид на номерацията</h3><p>Атрибутът <em>type</em> задава вида на номерацията (букви или цифри), например 1, a, A, i, I:</p>\n<pre><code class=\"language-html\">&lt;ol type=\"I\"&gt;\n&lt;li&gt;Едно&lt;/li&gt;\n&lt;li&gt;Две&lt;/li&gt;\n&lt;li&gt;Три&lt;/li&gt;\n&lt;/ol&gt;\n</code></pre>\n<p>I. Едно<br>II. Две<br>III. Три</p><h3 id=\"topic-9\">Неподреден списък</h3><p>Неподредените списъци започват с тага <code>&lt;ul&gt;</code>, а всеки елемент на списъка – с тага <code>&lt;li&gt;</code>:</p>\n<pre><code class=\"language-html\">&lt;ul&gt;\n&lt;li&gt; Едно &lt;/li&gt;\n&lt;li&gt; Две &lt;/li&gt;\n&lt;/ul&gt;\n</code></pre>\n<ul>\n<li>Едно</li>\n<li>Две</li>\n</ul><h3 id=\"topic-10\">Задача 2.</h3><p class=\"task\"><strong>Задача 2. В същия файл намерете <code>&lt;div id=\"1\"&gt;</code>. Преобразувайте последните два параграфа в неподреден списък с два елемента. В блока <code>id=\"route\"</code> превърнете трите забележителности в подреден списък. Изпробвайте последователно <code>start=\"3\"</code>, <code>reversed</code> и <code>type=\"I\"</code> и наблюдавайте номерацията.</strong></p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "Аудио и източници",
+      "source_topics": [
+        "Таг за аудио",
+        "Атрибути за аудио",
+        "Няколко аудиоизточника"
+      ],
+      "body": "<h3 id=\"topic-11\">Таг за аудио</h3><p>Таг за аудио – <strong><code>&lt;audio&gt;</code></strong>. Използва се за вграждане на звукови файлове. Елементът audio възпроизвежда звук; записът, синтезът и разпознаването на реч изискват други уеб API и програмна логика. Той осигурява контроли (възпроизвеждане, пауза, сила на звука), които може да изглеждат различно в различните браузъри и операционни системи.</p><h3 id=\"topic-12\">Атрибути за аудио</h3><p>Основните атрибути, използвани с тага <strong>audio</strong>:</p>\n<p><em>src</em> – път (URL) към файла<br><em>preload</em> – предварително зареждане на файл<br><em>autoplay</em> – автоматично възпроизвеждане на файл<br><em>loop</em> – циклично възпроизвеждане<br><em>muted</em> – без звук по подразбиране при стартирането<br><em>controls</em> – контроли за управление на звук</p><h3 id=\"topic-13\">Няколко аудиоизточника</h3><p>Тагът <strong>audio</strong> може да съдържа един или повече аудиоизточници, представени с помощта на атрибута <em>src</em> или тага <code>&lt;source&gt;</code>, като браузърът избира подходящия.</p>\n<p>Пример:</p>\n<pre><code class=\"language-html\">&lt;audio controls&gt;\n&lt;source src= \"music.mp3\"/&gt;\n&lt;source src= \"music.ogg\"/&gt;\n&lt;source src= \"music.flac\"/&gt;\n&lt;/audio&gt;\n</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Видео и проверка на възпроизвеждането",
+      "source_topics": [
+        "Таг за видео",
+        "Видео в няколко формата",
+        "Атрибути за видео",
+        "Задача 3."
+      ],
+      "body": "<h3 id=\"topic-14\">Таг за видео</h3><p>Таг за видео – <strong><code>&lt;video&gt;</code></strong>. Използва се за вграждане на видеофайлове.</p>\n<p>Източникът на видеофайла може да бъде зададен по два начина. По-краткият е даден в пример 1.</p><h3 id=\"topic-15\">Видео в няколко формата</h3><p>Различните браузъри поддържат много на брой видеоформати. Чрез използване на тага <strong><code>&lt;source&gt;</code></strong> (пример 2) има възможност за изброяване на файлове с различни медийни формати, като браузърът автоматично пробва подред да зареди всеки файл. Както е съставен пример 2 – ако браузърът не успее да възпроизведе никой от трите видеофайла, ще изпише съобщението под тях.</p><h3 id=\"topic-16\">Атрибути за видео</h3><p>Основните атрибути, използвани с тага video:</p>\n<ul><li><em>src</em> – път (URL) към файла</li><li><em>preload</em> – предварително зареждане на файл</li><li><em>autoplay</em> – автоматично възпроизвеждане на файл</li><li><em>controls</em> – контроли за управление на възпроизвеждането</li><li><em>poster</em> – показва изображение на мястото на видеоклипа, преди да започне възпроизвеждането</li><li><em>type върху вложения source</em> – указва типа на медийния източник (MIME). Може да включва и списък с кодеци, които помагат на браузъра да определи дали може да декодира файла.</li><li><em>loop</em> – циклично възпроизвеждане</li><li><em>muted</em> – без звук по подразбиране при стартирането</li><li><em>height, width</em> – размери на видеоелемента (видеоплейъра)</li></ul>\n<p>Пример 1:</p>\n<pre><code class=\"language-html\">&lt;video controls width=\"640\" src=\"https://martin-lift.github.io/108/Web-design-12/movie.mp4\"&gt;\n&lt;/video&gt;\n</code></pre>\n<p>Пример 2:</p>\n<pre><code class=\"language-html\">&lt;video poster=\"movie.jpg\" controls\n  height=\"640\" width=\"480\"&gt;\n&lt;source src=\"https://martin-lift.github.io/108/Web-design-12/movie.mp4\"\n  type=\"video/mp4\"/&gt;\n&lt;source src=\"https://martin-lift.github.io/108/Web-design-12/movie.webm\"\n  type=\"video/webm\"/&gt;\n&lt;source src=\"https://martin-lift.github.io/108/Web-design-12/movie.ogv\"\n  type=\"video/ogg\"/&gt;\nYour browser does not support this\n  video type!\n&lt;/video&gt;\n</code></pre><h3 id=\"topic-17\">Задача 3.</h3><p class=\"task\"><strong>Задача 3. В същия файл намерете блока <code>id=\"audio\"</code>. Добавете <code>&lt;audio controls preload=\"none\"&gt;</code> и <code>&lt;source&gt;</code> с предоставения в блока абсолютен URL и <code>type=\"audio/mpeg\"</code>. В блока <code>id=\"video\"</code> добавете <code>&lt;video controls width=\"400\" preload=\"none\"&gt;</code> и <code>&lt;source&gt;</code> с предоставения URL и <code>type=\"video/mp4\"</code>. Запазете файла и проверете двата плейъра.</strong></p>\n<ul><li>Изпробвайте ширина на видеото 600 пиксела и сравнете резултата.</li><li>Медийните примери са демонстрационни и изискват интернет. Не са нужни отделни файлове или папки. За <code>poster</code> може по желание да използвате абсолютен URL към собствено разрешено изображение.</li><li>Проверете: таблицата има три събития и обединена последна клетка; списъците имат правилните маркери; аудиото и видеото се стартират чрез контролите.</li></ul>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Съвременни примери и справочници",
+      "source_topics": [
+        "Съвременен код за таблица и мултимедия",
+        "Онлайн инструменти и полезни връзки"
+      ],
+      "body": "<h3 id=\"topic-18\">Съвременен код за таблица и мултимедия</h3><p>Старото border=\"1\" в примерната таблица показва идеята за рамка. За нов код използвайте CSS: table { border-collapse: collapse; } и td, th { border: 1px solid #444; padding: 8px; }. Атрибутът type за видеоформат се поставя в source. Автоматичното възпроизвеждане със звук често е блокирано от браузъра; осигурявайте controls. За видео с реч добавяйте субтитри чрез track, а за аудио — текстов препис.</p><h3 id=\"topic-19\">Онлайн инструменти и полезни връзки</h3><ul><li><a href=\"https://validator.w3.org/nu/\" rel=\"noopener noreferrer\" target=\"_blank\">Nu HTML Checker</a></li></ul>"
+    }
+  ],
+  "reviews": [
+    "Кога е нужен подреден списък?",
+    "Две клетки, един надпис",
+    "Плейърът е видим, но няма звук"
+  ],
+  "preserved_original_image_urls": []
+}

@@ -1,0 +1,63 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/25-JavaScript-Discount-Calculator.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Събитие, състояние и видим резултат",
+      "source_topics": [
+        "Как работи задачата"
+      ],
+      "body": "<h3 id=\"idea\">Как работи задачата</h3><p>За начална цена 100 и отстъпка 20% спестената сума е 20, а крайната цена — 80. Използваме формулите:</p><pre>спестена сума = цена × (процент / 100)\nкрайна цена = цена × (1 − процент / 100)</pre><p><code>valueAsNumber</code> връща числото от поле с type=\"number\". При празна или неприемлива стойност може да получим <code>NaN</code> — „не е число“. <code>Number.isFinite</code> проверява дали имаме крайно число. След това проверяваме диапазона: цена поне 0 и процент от 0 до 100.</p><p>Събитието <code>submit</code> се получава и при бутона, и при обичайното изпращане с Enter. <code>preventDefault()</code> спира изпращането на формата, защото тук изчисляваме в браузъра. <code>novalidate</code> позволява да покажем собствените JavaScript съобщения. Това не отменя проверките в нашата функция.</p><p><code>return</code> прекратява функцията при грешка. <code>toFixed(2)</code> представя резултата с два знака след десетичната точка; то не проверява входа. Единиците в примера са условни.</p><p class=\"note\">Този урок е част от поредицата „Интерактивна уеб страница с JavaScript“: показване на подробности → смяна на тема → изчисления → проверка на форма → филтриране на списък. Общата ситуация е страница за училищни клубове: посетителят разглежда подробности, избира тема, изчислява учебна такса, проверява данни за участие и намира клуб. Всяка задача има собствен работещ пример и може да се изпълни самостоятелно. Общият подход е: избираме елементи, обработваме събитие, проверяваме състоянието и обновяваме видимия резултат.</p><h3>Прочитане → проверка → изчисление → съобщение</h3><p>Свойството <code>value</code> връща текст: например \"100\". <code>valueAsNumber</code> връща число и е подходящо за number полетата в задачата. Сравненията с &lt; и &gt; проверяват граници, а <code>||</code> означава „или“: достатъчно е една от грешките да е налице.</p><p>Функцията получава <code>event</code> от събитието submit. Първо спира стандартното изпращане, после прочита актуалните стойности. При грешка показва съобщение, премества фокуса и приключва чрез return; до формулите се стига само при валиден вход.</p><p>За цена 150 и отстъпка 12% получаваме 18 спестени единици и 132 крайна цена. Присвояваме готовия текст на <code>textContent</code>, вместо да го изпълняваме като HTML. <code>toFixed(2)</code> връща текст; при много големи числа може да използва експоненциален запис. В упражнението използвайте обичайни малки учебни стойности, а не реални плащания.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/25-initial.png\" alt=\"Успешно изчисление с валидни числови стойности.\" loading=\"lazy\"><figcaption>Успешно изчисление с валидни числови стойности.</figcaption></figure><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/25-changed.png\" alt=\"Недопустим процент: съобщението заменя стария резултат.\" loading=\"lazy\"><figcaption>Недопустим процент: съобщението заменя стария резултат.</figcaption></figure>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Работещ пример и подготовка",
+      "source_topics": [
+        "Работещ пример",
+        "Подгответе работния файл"
+      ],
+      "body": "<h3 id=\"demo\">Работещ пример</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/25-javascript-example.html\" target=\"_blank\" rel=\"noopener\">Отворете работещия пример</a> или <a href=\"https://martin-lift.github.io/108/Web-design-12/files/25-javascript-example.html\" download=\"25-javascript-example.html\">изтеглете HTML файла</a>.</p><h3 id=\"setup\">Подгответе работния файл</h3><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/25-javascript-example.html\" download=\"\">пълния работещ HTML пример</a>. Запазете го като <code>25-javascript.html</code> в своя папка.</li><li>Отворете един и същ файл в текстов редактор и в браузър. Записвайте с UTF-8 и разширение .html; след промяна запазвайте и презареждайте.</li><li>В готовия файл CSS е между style таговете в head, HTML съдържанието е в body, а JavaScript е след елементите, преди затварящия body. Така те вече съществуват, когато ги избираме.</li><li>За работа в CodePen отворете нов Pen и поставете отделните откъси от урока в HTML, CSS и JS. В JS не поставяйте script тагове. При предаване запазете резултата като пълен самостоятелен HTML файл; най-прекият начин е да пренесете промените в изтегления пример.</li></ol><p class=\"note\">Ако действието не работи, отворете инструментите за разработчици с F12 или менюто на браузъра и изберете Console. Започнете от първата грешка: проверете точните id, имената на променливите, кавичките, скобите и мястото на script. След поправка запазете, презаредете и повторете действието. Неправилен id може да даде null, а повторно обявено const със същото име — грешка.</p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "HTML елементи и CSS оформление",
+      "source_topics": [
+        "HTML — елементите",
+        "CSS — оформлението"
+      ],
+      "body": "<h3 id=\"html\">HTML — елементите</h3><pre><code class=\"language-html\">&lt;h1&gt;Калкулатор за отстъпка&lt;/h1&gt;\n&lt;form id=\"calculator\" novalidate&gt;\n  &lt;label for=\"price\"&gt;Начална цена&lt;/label&gt;\n  &lt;input id=\"price\" name=\"price\" type=\"number\" min=\"0\" step=\"any\" value=\"100\" required&gt;\n  &lt;label for=\"discount\"&gt;Отстъпка в проценти&lt;/label&gt;\n  &lt;input id=\"discount\" name=\"discount\" type=\"number\" min=\"0\" max=\"100\" step=\"any\" value=\"20\" required&gt;\n  &lt;button type=\"submit\"&gt;Изчисли&lt;/button&gt;\n&lt;/form&gt;\n&lt;p id=\"result\" class=\"card\" role=\"status\"&gt;Въведете стойности и изберете „Изчисли“.&lt;/p&gt;</code></pre><h3 id=\"css\">CSS — оформлението</h3><pre><code class=\"language-css\">* { box-sizing: border-box; }\nbody { margin: 0; padding: 20px; font: 18px/1.6 Arial, sans-serif; color: #203244; background: #f5f8fa; }\n.demo { max-width: 680px; margin: auto; }\nh1 { font-size: 1.6rem; line-height: 1.25; }\nbutton { font: inherit; padding: .6rem 1rem; color: white; background: #254e70; border: 0; border-radius: 6px; cursor: pointer; }\nbutton:focus-visible, input:focus-visible { outline: 3px solid #a06000; outline-offset: 3px; }\ninput { display: block; width: 100%; max-width: 24rem; font: inherit; padding: .4rem; margin: .2rem 0 1rem; }\n.card { background: white; border: 1px solid #b5c9d4; border-radius: 8px; padding: 1rem; margin: 1rem 0; }\n[hidden] { display: none !important; }\n</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Проследете JavaScript кода",
+      "source_topics": [
+        "JavaScript — поведението"
+      ],
+      "body": "<h3 id=\"javascript\">JavaScript — поведението</h3><pre><code class=\"language-javascript\">const form = document.querySelector(\"#calculator\");\nconst priceInput = document.querySelector(\"#price\");\nconst discountInput = document.querySelector(\"#discount\");\nconst result = document.querySelector(\"#result\");\n\nfunction calculate(event) {\n  event.preventDefault();\n  const price = priceInput.valueAsNumber;\n  const discount = discountInput.valueAsNumber;\n\n  if (!Number.isFinite(price) || price &lt; 0) {\n    result.textContent = \"Въведете валидна цена, която е поне 0.\";\n    priceInput.focus();\n    return;\n  }\n  if (!Number.isFinite(discount) || discount &lt; 0 || discount &gt; 100) {\n    result.textContent = \"Въведете отстъпка между 0 и 100.\";\n    discountInput.focus();\n    return;\n  }\n\n  const saved = price * (discount / 100);\n  const finalPrice = price * (1 - discount / 100);\n  result.textContent = \"Отстъпка: \" + saved.toFixed(2) +\n    \" ед. Крайна цена: \" + finalPrice.toFixed(2) + \" ед.\";\n}\n\nform.addEventListener(\"submit\", calculate);\nform.addEventListener(\"input\", function () {\n  result.textContent = \"Стойностите са променени. Изберете отново „Изчисли“.\";\n});</code></pre>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Самостоятелна работа и проверки",
+      "source_topics": [
+        "Самостоятелна работа",
+        "Проверете резултата"
+      ],
+      "body": "<h3 id=\"practice\">Самостоятелна работа</h3><ol><li>Запазете работещия калкулатор в локален HTML файл или в CodePen.</li><li>Проверете всички редове от таблицата по-долу.</li><li>Променете началните стойности и текста на съобщенията.</li><li>Добавете отделен ред за началната цена, без да променяте формулите.</li><li>Променете стойност след успешно изчисление и проверете дали старият резултат е заменен с указание за ново изчисление.</li></ol><p><strong>Резултат:</strong> ваш работещ вариант и кратка бележка какво сте променили и проверили.</p><h3 id=\"test\">Проверете резултата</h3><div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Проверка</th><th scope=\"col\">Очакван резултат</th></tr></thead><tbody><tr><td>Цена 100, отстъпка 20</td><td>Отстъпка 20.00; крайна цена 80.00.</td></tr><tr><td>Цена 120, отстъпка 0</td><td>Крайна цена 120.00.</td></tr><tr><td>Цена 120, отстъпка 100</td><td>Крайна цена 0.00.</td></tr><tr><td>Цена 0, отстъпка 50</td><td>Крайна цена 0.00.</td></tr><tr><td>Празно поле или отрицателна цена</td><td>Ясно съобщение за грешка, без стар резултат.</td></tr><tr><td>Отстъпка −1 или 101</td><td>Съобщение за допустимия диапазон.</td></tr><tr><td>Редакция след изчисление</td><td>Указание да изчислите отново.</td></tr></tbody></table></div>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Прочетете още",
+      "source_topics": [
+        "Прочетете още"
+      ],
+      "body": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/valueAsNumber\">MDN — valueAsNumber</a>. Повторете и <a href=\"https://martin-lift.github.io/108/Web-design-12/18-HTML-Forms.html\">урок 18 за формите</a>.</p>"
+    }
+  ],
+  "reviews": [
+    "Проверете формулата",
+    "Защо празното поле не е нула?",
+    "Стар резултат след редакция"
+  ],
+  "preserved_original_image_urls": []
+}

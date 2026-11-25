@@ -15,6 +15,6 @@
 
 `mission_id`: `69dd8d68-b7f9-4376-b4f6-c29d0c0e754e`.
 
-`next_mission_id`: `null`.
+`next_mission_id`: `bf29089f-1d24-40b1-ad0a-1bfae2041b6b`.
 
 Публикуването в GitHub не импортира и не възлага автоматично мисията в Teacher108.

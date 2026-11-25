@@ -1,0 +1,63 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/26-JavaScript-Form-Validation.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Събитие, състояние и видим резултат",
+      "source_topics": [
+        "Как работи задачата"
+      ],
+      "body": "<h3 id=\"idea\">Как работи задачата</h3><p>HTML полетата описват какви стойности очакваме. JavaScript прочита въведеното и прилага условията. В примера името трябва да има поне два знака след премахване на крайните интервали; пощата трябва да отговаря на проверката за type=\"email\"; потвърждението трябва да е отметнато.</p><ul><li><code>trim()</code> премахва интервалите в началото и края на текста.</li><li><code>length</code> дава дължината на получения текст.</li><li><code>validity.valid</code> отчита дали полето отговаря на HTML ограниченията си.</li><li><code>checked</code> показва състоянието на отметката.</li><li><code>showError(field, text)</code> използва два параметъра: кое поле е проблемно и какво съобщение да покаже.</li></ul><p>След грешка <code>focus()</code> насочва към съответното поле. Добавяме <code>aria-invalid</code> и текстово съобщение, така че смисълът да не зависи само от червената рамка. При редакция старото потвърждение за успех се премахва.</p><aside class=\"note\"><strong>Проверка в браузъра и на сървъра.</strong> Успешната клиентска проверка не доказва, че адресът съществува или че данните са достоверни. При реална услуга сървърът също проверява входа. В този пример няма изпращане или записване на данни.</aside><p class=\"note\">Този урок е част от поредицата „Интерактивна уеб страница с JavaScript“: показване на подробности → смяна на тема → изчисления → проверка на форма → филтриране на списък. Общата ситуация е страница за училищни клубове: посетителят разглежда подробности, избира тема, изчислява учебна такса, проверява данни за участие и намира клуб. Всяка задача има собствен работещ пример и може да се изпълни самостоятелно. Общият подход е: избираме елементи, обработваме събитие, проверяваме състоянието и обновяваме видимия резултат.</p><h3>Проверете първата грешка и я обяснете</h3><p><code>novalidate</code> изключва автоматичното спиране на submit от браузъра, за да покажем собствените съобщения. Ограниченията required и type=\"email\" продължават да участват в <code>validity.valid</code>. Използваме го във функцията; novalidate не прави въведените данни правилни.</p><p><code>showError(field, text)</code> има два параметъра. При извикване <code>showError(emailInput, \"Поправете адреса.\")</code> първият посочва полето, а вторият — съобщението. След return следващите проверки не се изпълняват. Така потребителят поправя проблемите един по един.</p><p>При нов submit изчистваме старите aria-invalid, а при редакция премахваме старото съобщение за успех. <code>trim()</code> не променя автоматично стойността в полето: връща нов текст за проверката. Валиден формат на имейл не доказва съществуваща пощенска кутия.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/26-initial.png\" alt=\"Невалидно име: конкретно съобщение и обозначено поле.\" loading=\"lazy\"><figcaption>Невалидно име: конкретно съобщение и обозначено поле.</figcaption></figure><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/26-changed.png\" alt=\"Успешна локална проверка: няма изпратени данни.\" loading=\"lazy\"><figcaption>Успешна локална проверка: няма изпратени данни.</figcaption></figure>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Работещ пример и подготовка",
+      "source_topics": [
+        "Работещ пример",
+        "Подгответе работния файл"
+      ],
+      "body": "<h3 id=\"demo\">Работещ пример</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/26-javascript-example.html\" target=\"_blank\" rel=\"noopener\">Отворете работещия пример</a> или <a href=\"https://martin-lift.github.io/108/Web-design-12/files/26-javascript-example.html\" download=\"26-javascript-example.html\">изтеглете HTML файла</a>.</p><h3 id=\"setup\">Подгответе работния файл</h3><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/26-javascript-example.html\" download=\"\">пълния работещ HTML пример</a>. Запазете го като <code>26-javascript.html</code> в своя папка.</li><li>Отворете един и същ файл в текстов редактор и в браузър. Записвайте с UTF-8 и разширение .html; след промяна запазвайте и презареждайте.</li><li>В готовия файл CSS е между style таговете в head, HTML съдържанието е в body, а JavaScript е след елементите, преди затварящия body. Така те вече съществуват, когато ги избираме.</li><li>За работа в CodePen отворете нов Pen и поставете отделните откъси от урока в HTML, CSS и JS. В JS не поставяйте script тагове. При предаване запазете резултата като пълен самостоятелен HTML файл; най-прекият начин е да пренесете промените в изтегления пример.</li></ol><p class=\"note\">Ако действието не работи, отворете инструментите за разработчици с F12 или менюто на браузъра и изберете Console. Започнете от първата грешка: проверете точните id, имената на променливите, кавичките, скобите и мястото на script. След поправка запазете, презаредете и повторете действието. Неправилен id може да даде null, а повторно обявено const със същото име — грешка.</p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "HTML елементи и CSS оформление",
+      "source_topics": [
+        "HTML — елементите",
+        "CSS — оформлението"
+      ],
+      "body": "<h3 id=\"html\">HTML — елементите</h3><pre><code class=\"language-html\">&lt;h1&gt;Учебна форма за участие&lt;/h1&gt;\n&lt;p&gt;Използвайте измислени данни. Формата не изпраща информация.&lt;/p&gt;\n&lt;form id=\"signup\" novalidate&gt;\n  &lt;label for=\"student-name\"&gt;Име за примера&lt;/label&gt;\n  &lt;input id=\"student-name\" name=\"studentName\" type=\"text\" required aria-describedby=\"message\"&gt;\n  &lt;label for=\"email\"&gt;Примерна електронна поща&lt;/label&gt;\n  &lt;input id=\"email\" name=\"email\" type=\"email\" required aria-describedby=\"message\"&gt;\n  &lt;label for=\"agree\"&gt;&lt;input id=\"agree\" name=\"agree\" type=\"checkbox\" required aria-describedby=\"message\"&gt; Потвърждавам участието си в учебния пример&lt;/label&gt;\n  &lt;p&gt;&lt;button type=\"submit\"&gt;Провери данните&lt;/button&gt;&lt;/p&gt;\n&lt;/form&gt;\n&lt;p id=\"message\" class=\"card\" role=\"status\"&gt;Попълнете трите полета.&lt;/p&gt;</code></pre><h3 id=\"css\">CSS — оформлението</h3><pre><code class=\"language-css\">* { box-sizing: border-box; }\nbody { margin: 0; padding: 20px; font: 18px/1.6 Arial, sans-serif; color: #203244; background: #f5f8fa; }\n.demo { max-width: 680px; margin: auto; }\nh1 { font-size: 1.6rem; line-height: 1.25; }\nbutton { font: inherit; padding: .6rem 1rem; color: white; background: #254e70; border: 0; border-radius: 6px; cursor: pointer; }\nbutton:focus-visible, input:focus-visible { outline: 3px solid #a06000; outline-offset: 3px; }\ninput { display: block; width: 100%; max-width: 24rem; font: inherit; padding: .4rem; margin: .2rem 0 1rem; }\n.card { background: white; border: 1px solid #b5c9d4; border-radius: 8px; padding: 1rem; margin: 1rem 0; }\n[hidden] { display: none !important; }\ninput[type=\"checkbox\"] { display: inline-block; width: auto; margin: 0 .5rem 0 0; }\n[aria-invalid=\"true\"] { outline: 2px solid #9b2525; }\n.error { border-color: #9b2525; }\n.success { border-color: #287247; }</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Проследете JavaScript кода",
+      "source_topics": [
+        "JavaScript — поведението"
+      ],
+      "body": "<h3 id=\"javascript\">JavaScript — поведението</h3><pre><code class=\"language-javascript\">const form = document.querySelector(\"#signup\");\nconst nameInput = document.querySelector(\"#student-name\");\nconst emailInput = document.querySelector(\"#email\");\nconst agreeInput = document.querySelector(\"#agree\");\nconst message = document.querySelector(\"#message\");\n\nfunction showError(field, text) {\n  message.textContent = text;\n  message.classList.add(\"error\");\n  message.classList.remove(\"success\");\n  field.setAttribute(\"aria-invalid\", \"true\");\n  field.focus();\n}\n\nfunction validateForm(event) {\n  event.preventDefault();\n  nameInput.removeAttribute(\"aria-invalid\");\n  emailInput.removeAttribute(\"aria-invalid\");\n  agreeInput.removeAttribute(\"aria-invalid\");\n\n  if (nameInput.value.trim().length &lt; 2) {\n    showError(nameInput, \"Въведете име с поне 2 знака, различни от крайни интервали.\");\n    return;\n  }\n  if (emailInput.value.trim() === \"\" || !emailInput.validity.valid) {\n    showError(emailInput, \"Въведете примерен адрес във формат име@домейн.\");\n    return;\n  }\n  if (!agreeInput.checked) {\n    showError(agreeInput, \"Отбележете потвърждението за учебния пример.\");\n    return;\n  }\n\n  message.classList.remove(\"error\");\n  message.classList.add(\"success\");\n  message.textContent = \"Проверката е успешна. Това е демонстрация; данни не са изпратени.\";\n}\n\nform.addEventListener(\"submit\", validateForm);\nform.addEventListener(\"input\", function (event) {\n  event.target.removeAttribute(\"aria-invalid\");\n  message.classList.remove(\"error\", \"success\");\n  message.textContent = \"Данните са променени. Проверете ги отново.\";\n});</code></pre>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Самостоятелна работа и проверки",
+      "source_topics": [
+        "Самостоятелна работа",
+        "Проверете резултата"
+      ],
+      "body": "<h3 id=\"practice\">Самостоятелна работа</h3><ol><li>Изпълнете примера в работния HTML файл или в CodePen, като използвате измислени данни.</li><li>Проверете полетата в реда от таблицата и проследете преместването на фокуса.</li><li>Променете минималната дължина на името на 3 и актуализирайте съобщението.</li><li>Добавете кратко пояснение под поле, без да заменяте неговия label с placeholder.</li><li>Проверете с клавиатура и след промяна на вече валидни данни.</li></ol><p><strong>Резултат:</strong> ваш работещ вариант и кратка бележка какво сте променили и проверили.</p><h3 id=\"test\">Проверете резултата</h3><div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Проверка</th><th scope=\"col\">Очакван резултат</th></tr></thead><tbody><tr><td>Всички полета са празни</td><td>Съобщение за името и фокус в него.</td></tr><tr><td>Само интервали в името</td><td>Проверката на името не минава.</td></tr><tr><td>Име „Тест“, поща „грешка“</td><td>Съобщение за адреса и фокус в полето за поща.</td></tr><tr><td>Тест, student@example.com, без отметка</td><td>Съобщение за потвърждението.</td></tr><tr><td>Валидни примерни данни и отметка</td><td>Успешна проверка с ясно указание, че няма изпратени данни.</td></tr><tr><td>Редакция след успех</td><td>Успехът се заменя с указание за повторна проверка.</td></tr></tbody></table></div>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Прочетете още",
+      "source_topics": [
+        "Прочетете още"
+      ],
+      "body": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/checkValidity\">MDN — проверка на ограниченията във форма</a>; <a href=\"https://martin-lift.github.io/108/Web-design-12/18-HTML-Forms.html\">урок 18 — HTML форми</a>.</p>"
+    }
+  ],
+  "reviews": [
+    "Достатъчни ли са интервалите?",
+    "Коя грешка се показва първа?",
+    "Успех означава ли регистрация?"
+  ],
+  "preserved_original_image_urls": []
+}

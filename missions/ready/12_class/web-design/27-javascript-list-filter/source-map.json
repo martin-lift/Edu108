@@ -1,0 +1,63 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/27-JavaScript-List-Filter.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Събитие, състояние и видим резултат",
+      "source_topics": [
+        "Как работи задачата"
+      ],
+      "body": "<h3 id=\"idea\">Как работи задачата</h3><p>Посетителят въвежда дума или част от име. След всяка промяна JavaScript обхожда записите и проверява дали текстът им съдържа търсеното. Подходящите остават видими, останалите се скриват.</p><ul><li><code>querySelectorAll(\"#clubs li\")</code> избира всички елементи li в списъка с id=\"clubs\".</li><li><code>for...of</code> изпълнява един и същ блок за всеки избран елемент.</li><li><code>textContent</code> прочита текста на конкретния запис.</li><li><code>trim()</code> премахва крайните интервали в заявката.</li><li><code>toLocaleLowerCase(\"bg-BG\")</code> преобразува текста до малки букви, така че регистърът да не пречи на сравнението.</li><li><code>includes(query)</code> проверява дали текстът съдържа заявката като последователност от знаци.</li></ul><p>Броячът <code>visibleCount</code> започва от 0 при всяка проверка. Използваме <code>let</code>, защото променяме стойността му. При съвпадение добавяме 1. След обхождането показваме броя или съобщение за липса на резултат.</p><p>Празният текст се съдържа във всеки запис, затова изчистването на полето показва целия списък. Това е филтър върху наличните записи в страницата; не търси в целия интернет.</p><p class=\"note\">Този урок е част от поредицата „Интерактивна уеб страница с JavaScript“: показване на подробности → смяна на тема → изчисления → проверка на форма → филтриране на списък. Общата ситуация е страница за училищни клубове: посетителят разглежда подробности, избира тема, изчислява учебна такса, проверява данни за участие и намира клуб. Всяка задача има собствен работещ пример и може да се изпълни самостоятелно. Общият подход е: избираме елементи, обработваме събитие, проверяваме състоянието и обновяваме видимия резултат.</p><h3>Една и съща проверка за всеки запис</h3><p><code>querySelectorAll</code> връща статичен списък: това са елементите, намерени в момента на извикване. Добавяйте новите клубове в HTML преди зареждането и презаредете файла. Записи, добавени по-късно чрез друга програма, не се включват автоматично в вече запазения списък.</p><p><code>const</code> използваме за имена, на които не присвояваме нова стойност; <code>let visibleCount</code> е брояч, който променяме. За всяко input събитие започваме от нула. В цикъла for...of <code>item</code> последователно е всеки запис; matches е true или false за него.</p><p>Търсенето е по непрекъсната последователност от знаци, без разграничаване на главни и малки букви. То не поправя правописни грешки и не премахва всички разлики между знаците. Например „фото“ съвпада с „Фотографски клуб“, а „фтоо“ — не. Изчистването връща всички записи, защото <code>\"текст\".includes(\"\")</code> е true.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/27-initial.png\" alt=\"Празно поле: виждат се всички пет начални клуба.\" loading=\"lazy\"><figcaption>Празно поле: виждат се всички пет начални клуба.</figcaption></figure><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/27-changed.png\" alt=\"Заявка без съвпадение: нула видими записи и ясно съобщение.\" loading=\"lazy\"><figcaption>Заявка без съвпадение: нула видими записи и ясно съобщение.</figcaption></figure>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Работещ пример и подготовка",
+      "source_topics": [
+        "Работещ пример",
+        "Подгответе работния файл"
+      ],
+      "body": "<h3 id=\"demo\">Работещ пример</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/27-javascript-example.html\" target=\"_blank\" rel=\"noopener\">Отворете работещия пример</a> или <a href=\"https://martin-lift.github.io/108/Web-design-12/files/27-javascript-example.html\" download=\"27-javascript-example.html\">изтеглете HTML файла</a>.</p><h3 id=\"setup\">Подгответе работния файл</h3><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/27-javascript-example.html\" download=\"\">пълния работещ HTML пример</a>. Запазете го като <code>27-javascript.html</code> в своя папка.</li><li>Отворете един и същ файл в текстов редактор и в браузър. Записвайте с UTF-8 и разширение .html; след промяна запазвайте и презареждайте.</li><li>В готовия файл CSS е между style таговете в head, HTML съдържанието е в body, а JavaScript е след елементите, преди затварящия body. Така те вече съществуват, когато ги избираме.</li><li>За работа в CodePen отворете нов Pen и поставете отделните откъси от урока в HTML, CSS и JS. В JS не поставяйте script тагове. При предаване запазете резултата като пълен самостоятелен HTML файл; най-прекият начин е да пренесете промените в изтегления пример.</li></ol><p class=\"note\">Ако действието не работи, отворете инструментите за разработчици с F12 или менюто на браузъра и изберете Console. Започнете от първата грешка: проверете точните id, имената на променливите, кавичките, скобите и мястото на script. След поправка запазете, презаредете и повторете действието. Неправилен id може да даде null, а повторно обявено const със същото име — грешка.</p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "HTML елементи и CSS оформление",
+      "source_topics": [
+        "HTML — елементите",
+        "CSS — оформлението"
+      ],
+      "body": "<h3 id=\"html\">HTML — елементите</h3><pre><code class=\"language-html\">&lt;h1&gt;Намери училищен клуб&lt;/h1&gt;\n&lt;label for=\"search\"&gt;Търси по дума или част от име&lt;/label&gt;\n&lt;input id=\"search\" type=\"search\" aria-controls=\"clubs\" aria-describedby=\"results\" placeholder=\"Например: фотограф\"&gt;\n&lt;p id=\"results\" role=\"status\"&gt;&lt;/p&gt;\n&lt;ul id=\"clubs\" class=\"card\"&gt;\n  &lt;li&gt;Фотографски клуб&lt;/li&gt;\n  &lt;li&gt;Клуб по уеб дизайн&lt;/li&gt;\n  &lt;li&gt;Театрален клуб&lt;/li&gt;\n  &lt;li&gt;Спортен клуб&lt;/li&gt;\n  &lt;li&gt;Клуб по роботика&lt;/li&gt;\n&lt;/ul&gt;</code></pre><h3 id=\"css\">CSS — оформлението</h3><pre><code class=\"language-css\">* { box-sizing: border-box; }\nbody { margin: 0; padding: 20px; font: 18px/1.6 Arial, sans-serif; color: #203244; background: #f5f8fa; }\n.demo { max-width: 680px; margin: auto; }\nh1 { font-size: 1.6rem; line-height: 1.25; }\nbutton { font: inherit; padding: .6rem 1rem; color: white; background: #254e70; border: 0; border-radius: 6px; cursor: pointer; }\nbutton:focus-visible, input:focus-visible { outline: 3px solid #a06000; outline-offset: 3px; }\ninput { display: block; width: 100%; max-width: 24rem; font: inherit; padding: .4rem; margin: .2rem 0 1rem; }\n.card { background: white; border: 1px solid #b5c9d4; border-radius: 8px; padding: 1rem; margin: 1rem 0; }\n[hidden] { display: none !important; }\n#clubs { list-style-position: inside; }\n#clubs li { padding: .4rem 0; }\n#results { font-weight: bold; }</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Проследете JavaScript кода",
+      "source_topics": [
+        "JavaScript — поведението"
+      ],
+      "body": "<h3 id=\"javascript\">JavaScript — поведението</h3><pre><code class=\"language-javascript\">const searchInput = document.querySelector(\"#search\");\nconst items = document.querySelectorAll(\"#clubs li\");\nconst results = document.querySelector(\"#results\");\n\nfunction filterList() {\n  const query = searchInput.value.trim().toLocaleLowerCase(\"bg-BG\");\n  let visibleCount = 0;\n\n  for (const item of items) {\n    const text = item.textContent.toLocaleLowerCase(\"bg-BG\");\n    const matches = text.includes(query);\n    item.hidden = !matches;\n\n    if (matches) {\n      visibleCount = visibleCount + 1;\n    }\n  }\n\n  if (visibleCount === 0) {\n    results.textContent = \"Няма съвпадения. Опитайте друга дума.\";\n  } else {\n    results.textContent = \"Намерени записи: \" + visibleCount;\n  }\n}\n\nsearchInput.addEventListener(\"input\", filterList);\nfilterList();</code></pre>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Самостоятелна работа и проверки",
+      "source_topics": [
+        "Самостоятелна работа",
+        "Проверете резултата"
+      ],
+      "body": "<h3 id=\"practice\">Самостоятелна работа</h3><ol><li>Използвайте работния HTML файл или CodePen и проверете първоначалните пет записа.</li><li>Потърсете „фотограф“, „КЛУБ“ и несъществуваща дума.</li><li>Добавете още два клуба в HTML и проверете новия общ брой след обновяване.</li><li>Заменете клубовете с подходящ списък от вашия сайт: събития, теми или категории.</li><li>Проверете изчистване, поставяне на текст и работа с клавиатура. Уверете се, че списъкът се възстановява.</li></ol><p><strong>Резултат:</strong> ваш работещ вариант и кратка бележка какво сте променили и проверили.</p><h3 id=\"test\">Проверете резултата</h3><div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Проверка</th><th scope=\"col\">Очакван резултат</th></tr></thead><tbody><tr><td>Празно поле</td><td>Всички 5 записа са видими.</td></tr><tr><td>фотограф</td><td>Вижда се само „Фотографски клуб“.</td></tr><tr><td>КЛУБ</td><td>Виждат се всичките 5 записа независимо от големите букви.</td></tr><tr><td>  роботика  </td><td>Вижда се само клубът по роботика; крайните интервали не пречат.</td></tr><tr><td>несъществуваща</td><td>Списъкът няма видими записи и има ясно съобщение.</td></tr><tr><td>Изчистване след липса на резултат</td><td>Всички записи отново се показват.</td></tr></tbody></table></div>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Прочетете още",
+      "source_topics": [
+        "Прочетете още"
+      ],
+      "body": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes\">MDN — includes</a>; за показване и скриване използвайте и <a href=\"https://martin-lift.github.io/108/Web-design-12/23-JavaScript-Show-Hide.html\">урок 23</a>.</p>"
+    }
+  ],
+  "reviews": [
+    "Главни букви и крайни интервали",
+    "Броят расте при всяко писане",
+    "Скриване или изтриване?"
+  ],
+  "preserved_original_image_urls": []
+}

@@ -1,0 +1,63 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/23-JavaScript-Show-Hide.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Събитие, състояние и видим резултат",
+      "source_topics": [
+        "Как работи задачата"
+      ],
+      "body": "<h3 id=\"idea\">Как работи задачата</h3><p>HTML създава бутона и блока с подробности. В началото блокът има атрибут <code>hidden</code> и не се показва. JavaScript реагира на избиране на бутона и сменя това състояние.</p><ul><li><code>document.querySelector(\"#info\")</code> намира елемента с id=\"info\".</li><li><code>const</code> задава име, чрез което използваме намерения елемент.</li><li><code>function toggleInfo()</code> описва действията, които искаме да се изпълняват заедно.</li><li><code>!</code> обръща логическата стойност: истина става неистина и обратно.</li><li><code>addEventListener(\"click\", toggleInfo)</code> свързва функцията със събитието.</li></ul><p><code>aria-controls</code> посочва управлявания блок, а <code>aria-expanded</code> описва дали той е разгънат. Променяме и надписа на бутона, за да е ясно какво ще стане при следващото натискане.</p><p class=\"note\">Този урок е част от поредицата „Интерактивна уеб страница с JavaScript“: показване на подробности → смяна на тема → изчисления → проверка на форма → филтриране на списък. Общата ситуация е страница за училищни клубове: посетителят разглежда подробности, избира тема, изчислява учебна такса, проверява данни за участие и намира клуб. Всяка задача има собствен работещ пример и може да се изпълни самостоятелно. Общият подход е: избираме елементи, обработваме събитие, проверяваме състоянието и обновяваме видимия резултат.</p><h3>Проследете действието</h3><p>DOM е представянето на HTML документа като обекти, с които програмата може да работи. <code>querySelector</code> връща първия съвпадащ елемент или <code>null</code>, ако такъв липсва. Знакът # в селектора означава id: <code>#info</code> търси <code>id=\"info\"</code>. Имената трябва да съвпадат точно.</p><p><code>const info</code> пази връзката към намерения обект. Const не позволява да присвоим друг обект на това име, но можем да променяме свойства на обекта, например <code>info.hidden</code>. Функцията събира действията; условието <code>if...else</code> избира кой надпис да покажем.</p><p>Първо hidden е true. След едно натискане <code>!true</code> става false: блокът се вижда, aria-expanded става \"true\", а надписът предлага скриване. При следващо натискане се връщаме назад. В <code>addEventListener(\"click\", toggleInfo)</code> предаваме функцията без скоби; <code>toggleInfo()</code> би я извикало веднага.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/23-initial.png\" alt=\"Начално състояние: подробностите са скрити.\" loading=\"lazy\"><figcaption>Начално състояние: подробностите са скрити.</figcaption></figure><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/23-changed.png\" alt=\"След натискане: подробностите са видими, а бутонът предлага скриване.\" loading=\"lazy\"><figcaption>След натискане: подробностите са видими, а бутонът предлага скриване.</figcaption></figure>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Работещ пример и подготовка",
+      "source_topics": [
+        "Работещ пример",
+        "Подгответе работния файл"
+      ],
+      "body": "<h3 id=\"demo\">Работещ пример</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/23-javascript-example.html\" target=\"_blank\" rel=\"noopener\">Отворете работещия пример</a> или <a href=\"https://martin-lift.github.io/108/Web-design-12/files/23-javascript-example.html\" download=\"23-javascript-example.html\">изтеглете HTML файла</a>.</p><h3 id=\"setup\">Подгответе работния файл</h3><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/23-javascript-example.html\" download=\"\">пълния работещ HTML пример</a>. Запазете го като <code>23-javascript.html</code> в своя папка.</li><li>Отворете един и същ файл в текстов редактор и в браузър. Записвайте с UTF-8 и разширение .html; след промяна запазвайте и презареждайте.</li><li>В готовия файл CSS е между style таговете в head, HTML съдържанието е в body, а JavaScript е след елементите, преди затварящия body. Така те вече съществуват, когато ги избираме.</li><li>За работа в CodePen отворете нов Pen и поставете отделните откъси от урока в HTML, CSS и JS. В JS не поставяйте script тагове. При предаване запазете резултата като пълен самостоятелен HTML файл; най-прекият начин е да пренесете промените в изтегления пример.</li></ol><p class=\"note\">Ако действието не работи, отворете инструментите за разработчици с F12 или менюто на браузъра и изберете Console. Започнете от първата грешка: проверете точните id, имената на променливите, кавичките, скобите и мястото на script. След поправка запазете, презаредете и повторете действието. Неправилен id може да даде null, а повторно обявено const със същото име — грешка.</p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "HTML елементи и CSS оформление",
+      "source_topics": [
+        "HTML — елементите",
+        "CSS — оформлението"
+      ],
+      "body": "<h3 id=\"html\">HTML — елементите</h3><pre><code class=\"language-html\">&lt;h1&gt;Среща на фотографския клуб&lt;/h1&gt;\n&lt;p&gt;Следващата среща е в сряда.&lt;/p&gt;\n&lt;button id=\"toggle-info\" type=\"button\" aria-controls=\"info\" aria-expanded=\"false\"&gt;Покажи подробности&lt;/button&gt;\n&lt;div id=\"info\" class=\"card\" hidden&gt;\n  &lt;h2&gt;Какво да подготвите?&lt;/h2&gt;\n  &lt;p&gt;Донесете три собствени снимки и кратко описание на всяка.&lt;/p&gt;\n&lt;/div&gt;</code></pre><h3 id=\"css\">CSS — оформлението</h3><pre><code class=\"language-css\">* { box-sizing: border-box; }\nbody { margin: 0; padding: 20px; font: 18px/1.6 Arial, sans-serif; color: #203244; background: #f5f8fa; }\n.demo { max-width: 680px; margin: auto; }\nh1 { font-size: 1.6rem; line-height: 1.25; }\nbutton { font: inherit; padding: .6rem 1rem; color: white; background: #254e70; border: 0; border-radius: 6px; cursor: pointer; }\nbutton:focus-visible, input:focus-visible { outline: 3px solid #a06000; outline-offset: 3px; }\ninput { display: block; width: 100%; max-width: 24rem; font: inherit; padding: .4rem; margin: .2rem 0 1rem; }\n.card { background: white; border: 1px solid #b5c9d4; border-radius: 8px; padding: 1rem; margin: 1rem 0; }\n[hidden] { display: none !important; }\n</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Проследете JavaScript кода",
+      "source_topics": [
+        "JavaScript — поведението"
+      ],
+      "body": "<h3 id=\"javascript\">JavaScript — поведението</h3><pre><code class=\"language-javascript\">const button = document.querySelector(\"#toggle-info\");\nconst info = document.querySelector(\"#info\");\n\nfunction toggleInfo() {\n  info.hidden = !info.hidden;\n  button.setAttribute(\"aria-expanded\", String(!info.hidden));\n\n  if (info.hidden) {\n    button.textContent = \"Покажи подробности\";\n  } else {\n    button.textContent = \"Скрий подробности\";\n  }\n}\n\nbutton.addEventListener(\"click\", toggleInfo);</code></pre>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Самостоятелна работа и проверки",
+      "source_topics": [
+        "Самостоятелна работа",
+        "Проверете резултата"
+      ],
+      "body": "<h3 id=\"practice\">Самостоятелна работа</h3><ol><li>Използвайте работния HTML файл или CodePen и проверете първоначалното състояние.</li><li>Заменете текста с пояснение към вашия проект.</li><li>Променете надписите на бутона, като запазите ясното им значение.</li><li>Добавете втори независим бутон и блок с различни id. За него използвайте отделни имена в JavaScript.</li><li>Проверете бутоните и с клавиатура: Tab до бутона, после Enter или Space.</li></ol><p><strong>Резултат:</strong> ваш работещ вариант и кратка бележка какво сте променили и проверили.</p><h3 id=\"test\">Проверете резултата</h3><div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Проверка</th><th scope=\"col\">Очакван резултат</th></tr></thead><tbody><tr><td>След зареждане</td><td>Подробностите са скрити; бутонът предлага показване.</td></tr><tr><td>Първо натискане</td><td>Подробностите се виждат и надписът става „Скрий подробности“.</td></tr><tr><td>Второ натискане</td><td>Подробностите отново са скрити.</td></tr><tr><td>Управление с клавиатура</td><td>Същото действие е достъпно през бутона.</td></tr></tbody></table></div>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Прочетете още",
+      "source_topics": [
+        "Прочетете още"
+      ],
+      "body": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener\">MDN — addEventListener</a>; <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden\">MDN — hidden</a>.</p>"
+    }
+  ],
+  "reviews": [
+    "Проследете две натискания",
+    "Защо двата бутона управляват един блок?",
+    "Кога се изпълнява функцията?"
+  ],
+  "preserved_original_image_urls": []
+}

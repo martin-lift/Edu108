@@ -1,7 +1,7 @@
 {
   "mission_version": 4,
   "mission_id": "69dd8d68-b7f9-4376-b4f6-c29d0c0e754e",
-  "next_mission_id": null,
+  "next_mission_id": "bf29089f-1d24-40b1-ad0a-1bfae2041b6b",
   "mission_content": {
     "title": "Адаптивна уеб страница — практическа работа",
     "description": "Ще поправите страница с фиксирани размери и ще проверите адаптивната подредба, изображението и навигацията при няколко ширини.",

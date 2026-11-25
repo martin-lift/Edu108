@@ -1,0 +1,63 @@
+{
+  "lesson": "https://martin-lift.github.io/108/Web-design-12/24-JavaScript-Theme-Switch.html",
+  "source_commit": "7bcbdfe",
+  "information": [
+    {
+      "step_id": "topic-1",
+      "heading": "Събитие, състояние и видим резултат",
+      "source_topics": [
+        "Как работи задачата"
+      ],
+      "body": "<h3 id=\"idea\">Как работи задачата</h3><p>JavaScript може да променя видимостта чрез hidden. В тази задача съдържанието остава видимо, а променяте неговото оформление. Добавянето на клас <code>dark</code> към <code>body</code> включва група CSS правила за тъмната тема.</p><ul><li><code>classList</code> представлява списъка с класове на елемента.</li><li><code>toggle(\"dark\")</code> добавя класа, ако липсва, или го премахва, ако присъства.</li><li>Върнатата стойност показва дали класът присъства след операцията.</li><li><code>body.dark .card</code> избира картата, когато body има клас dark.</li></ul><p>JavaScript управлява състоянието, а CSS задава външния вид. Промяната само на фона не е достатъчна: проверявайте и текста, връзките и бутоните. Състоянието на превключвателя се предава и чрез <code>aria-pressed</code>.</p><p class=\"note\">Този урок е част от поредицата „Интерактивна уеб страница с JavaScript“: показване на подробности → смяна на тема → изчисления → проверка на форма → филтриране на списък. Общата ситуация е страница за училищни клубове: посетителят разглежда подробности, избира тема, изчислява учебна такса, проверява данни за участие и намира клуб. Всяка задача има собствен работещ пример и може да се изпълни самостоятелно. Общият подход е: избираме елементи, обработваме събитие, проверяваме състоянието и обновяваме видимия резултат.</p><h3>Едно състояние — няколко CSS правила</h3><p><code>document.body</code> е елементът body. <code>classList.toggle(\"dark\")</code> променя само класа dark и запазва останалите класове. Връща true, ако dark вече присъства, и false, ако е премахнат. Променливата <code>darkIsActive</code> пази този резултат за текущото натискане.</p><p>При тъмна тема aria-pressed е \"true\", а надписът „Включи светла тема“ описва следващото действие. CSS селекторът <code>body.dark .card</code> означава карта, вложена в body с клас dark; <code>body .dark</code> би означавал друг избор.</p><p>Добавянето на втора карта преди зареждането не изисква втори обработчик: същите CSS правила важат за всички карти. Темата тук не се пази в хранилище — след презареждане започваме от светлия HTML вариант.</p><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/24-initial.png\" alt=\"Светла тема: текст, карта, връзка и бутон.\" loading=\"lazy\"><figcaption>Светла тема: текст, карта, връзка и бутон.</figcaption></figure><figure><img src=\"https://raw.githubusercontent.com/martin-lift/108/main/Web-design-12/images/javascript/24-changed.png\" alt=\"Тъмна тема: същото съдържание с общ набор от CSS правила.\" loading=\"lazy\"><figcaption>Тъмна тема: същото съдържание с общ набор от CSS правила.</figcaption></figure>"
+    },
+    {
+      "step_id": "topic-2",
+      "heading": "Работещ пример и подготовка",
+      "source_topics": [
+        "Работещ пример",
+        "Подгответе работния файл"
+      ],
+      "body": "<h3 id=\"demo\">Работещ пример</h3><p><a href=\"https://martin-lift.github.io/108/Web-design-12/files/24-javascript-example.html\" target=\"_blank\" rel=\"noopener\">Отворете работещия пример</a> или <a href=\"https://martin-lift.github.io/108/Web-design-12/files/24-javascript-example.html\" download=\"24-javascript-example.html\">изтеглете HTML файла</a>.</p><h3 id=\"setup\">Подгответе работния файл</h3><ol><li>Изтеглете <a href=\"https://martin-lift.github.io/108/Web-design-12/files/24-javascript-example.html\" download=\"\">пълния работещ HTML пример</a>. Запазете го като <code>24-javascript.html</code> в своя папка.</li><li>Отворете един и същ файл в текстов редактор и в браузър. Записвайте с UTF-8 и разширение .html; след промяна запазвайте и презареждайте.</li><li>В готовия файл CSS е между style таговете в head, HTML съдържанието е в body, а JavaScript е след елементите, преди затварящия body. Така те вече съществуват, когато ги избираме.</li><li>За работа в CodePen отворете нов Pen и поставете отделните откъси от урока в HTML, CSS и JS. В JS не поставяйте script тагове. При предаване запазете резултата като пълен самостоятелен HTML файл; най-прекият начин е да пренесете промените в изтегления пример.</li></ol><p class=\"note\">Ако действието не работи, отворете инструментите за разработчици с F12 или менюто на браузъра и изберете Console. Започнете от първата грешка: проверете точните id, имената на променливите, кавичките, скобите и мястото на script. След поправка запазете, презаредете и повторете действието. Неправилен id може да даде null, а повторно обявено const със същото име — грешка.</p>"
+    },
+    {
+      "step_id": "topic-3",
+      "heading": "HTML елементи и CSS оформление",
+      "source_topics": [
+        "HTML — елементите",
+        "CSS — оформлението"
+      ],
+      "body": "<h3 id=\"html\">HTML — елементите</h3><pre><code class=\"language-html\">&lt;h1&gt;Избери удобна тема&lt;/h1&gt;\n&lt;button id=\"theme-button\" type=\"button\" aria-pressed=\"false\"&gt;Включи тъмна тема&lt;/button&gt;\n&lt;article class=\"card\" id=\"reading\"&gt;\n  &lt;h2&gt;Фотографски клуб&lt;/h2&gt;\n  &lt;p&gt;Светлата и тъмната тема представят едно и също съдържание с различни цветове.&lt;/p&gt;\n  &lt;a href=\"https://martin-lift.github.io/108/Web-design-12/24-JavaScript-Theme-Switch.html#reading\"&gt;Към текста за клуба&lt;/a&gt;\n&lt;/article&gt;</code></pre><h3 id=\"css\">CSS — оформлението</h3><pre><code class=\"language-css\">* { box-sizing: border-box; }\nbody { margin: 0; padding: 20px; font: 18px/1.6 Arial, sans-serif; color: #203244; background: #f5f8fa; }\n.demo { max-width: 680px; margin: auto; }\nh1 { font-size: 1.6rem; line-height: 1.25; }\nbutton { font: inherit; padding: .6rem 1rem; color: white; background: #254e70; border: 0; border-radius: 6px; cursor: pointer; }\nbutton:focus-visible, input:focus-visible { outline: 3px solid #a06000; outline-offset: 3px; }\ninput { display: block; width: 100%; max-width: 24rem; font: inherit; padding: .4rem; margin: .2rem 0 1rem; }\n.card { background: white; border: 1px solid #b5c9d4; border-radius: 8px; padding: 1rem; margin: 1rem 0; }\n[hidden] { display: none !important; }\na { color: #254e70; }\nbody.dark { background: #172334; color: #f2f6fb; }\nbody.dark .card { background: #26384d; border-color: #9fb7cc; }\nbody.dark a { color: #b8dcff; }\nbody.dark button { background: #d6e9fa; color: #172334; }</code></pre>"
+    },
+    {
+      "step_id": "topic-4",
+      "heading": "Проследете JavaScript кода",
+      "source_topics": [
+        "JavaScript — поведението"
+      ],
+      "body": "<h3 id=\"javascript\">JavaScript — поведението</h3><pre><code class=\"language-javascript\">const themeButton = document.querySelector(\"#theme-button\");\n\nfunction switchTheme() {\n  const darkIsActive = document.body.classList.toggle(\"dark\");\n  themeButton.setAttribute(\"aria-pressed\", String(darkIsActive));\n\n  if (darkIsActive) {\n    themeButton.textContent = \"Включи светла тема\";\n  } else {\n    themeButton.textContent = \"Включи тъмна тема\";\n  }\n}\n\nthemeButton.addEventListener(\"click\", switchTheme);</code></pre>"
+    },
+    {
+      "step_id": "topic-5",
+      "heading": "Самостоятелна работа и проверки",
+      "source_topics": [
+        "Самостоятелна работа",
+        "Проверете резултата"
+      ],
+      "body": "<h3 id=\"practice\">Самостоятелна работа</h3><ol><li>Използвайте работния HTML файл или пресъздайте примера в CodePen. Натиснете бутона няколко пъти.</li><li>Заменете текста на картата със съдържание от вашия проект.</li><li>Подберете свои съгласувани цветове за двете теми. Проверете контраста на текста, връзките и бутона.</li><li>Добавете втори блок с class=\"card\". Уверете се, че и той се оформя от правилата.</li><li>Проверете бутона с клавиатура и след презареждане. В този пример темата не се запазва между зарежданията.</li></ol><p><strong>Резултат:</strong> ваш работещ вариант и кратка бележка какво сте променили и проверили.</p><h3 id=\"test\">Проверете резултата</h3><div class=\"table-wrap\"><table><thead><tr><th scope=\"col\">Проверка</th><th scope=\"col\">Очакван резултат</th></tr></thead><tbody><tr><td>Начален изглед</td><td>Светъл фон и надпис „Включи тъмна тема“.</td></tr><tr><td>Първо натискане</td><td>Тъмен фон, светъл текст и надпис „Включи светла тема“.</td></tr><tr><td>Второ натискане</td><td>Светлата тема се възстановява.</td></tr><tr><td>Връзки и карти</td><td>Четими са и в двете теми.</td></tr><tr><td>Презареждане</td><td>Примерът започва отново със светлата тема.</td></tr></tbody></table></div>"
+    },
+    {
+      "step_id": "topic-6",
+      "heading": "Прочетете още",
+      "source_topics": [
+        "Прочетете още"
+      ],
+      "body": "<p><a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/classList\">MDN — classList</a>. За избор на цветове използвайте и <a href=\"https://martin-lift.github.io/108/Web-design-12/09-Color-Scheme-Software.html\">урок 9</a>.</p>"
+    }
+  ],
+  "reviews": [
+    "Какво връща toggle?",
+    "Един бутон, две карти",
+    "Защо темата се връща?"
+  ],
+  "preserved_original_image_urls": []
+}

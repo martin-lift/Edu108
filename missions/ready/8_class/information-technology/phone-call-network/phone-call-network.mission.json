@@ -1,0 +1,577 @@
+{
+  "mission_version": 4,
+  "mission_id": "3b98570b-604d-41b9-91b0-ff920572d80c",
+  "mission_content": {
+    "title": "Как пътува телефонният разговор?",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Допълнителна учебна мисия",
+    "lesson": "Как пътува телефонният разговор?",
+    "description": "Допълнение към темата за клетъчната мрежа: глас и цифрови данни, базови станции, клетки, транспортни връзки, оператори, движение, покритие и сателити. Всички примери са готови; не е необходим телефон.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети: зад малкия екран стои голяма комуникационна мрежа.\"><figcaption>Смартфони и таблети: зад малкия екран стои голяма комуникационна мрежа. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Мая пътува с автобус и се обажда на приятеля си Иван, който е в друг град. Двамата се чуват почти веднага. Между тях обаче има много повече от два телефона: антени, кабели, радиовръзки и компютри на мобилните оператори.</p><p>Ще проследим <strong>пътуването на един телефонен разговор</strong> — от гласа на Мая до високоговорителя на Иван. После ще видим как разговорът може да продължи, докато автобусът се движи, и кога в тази мрежа помагат сателитите.</p><ul><li>Ще разпознаваш <strong>базова станция, клетка и връзка между станции</strong>.</li><li>Ще обясняваш как операторът свързва двата телефона.</li><li>Ще различаваш липса на покритие и претоварена мрежа.</li><li>Ще разбираш кога разговорът минава през <strong>сателит</strong>.</li></ul><div class=\"key\">Всички ситуации и данни са дадени тук. За мисията ти е достатъчен компютър — не е необходимо да имаш телефон.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "voice",
+        "step_content": {
+          "type": "information",
+          "title": "Как гласът става информация?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Responsive_design_-_Commons_Android_app.jpg/960px-Responsive_design_-_Commons_Android_app.jpg\" alt=\"Смартфони и таблети: зад малкия екран стои голяма комуникационна мрежа.\"><figcaption>Смартфони и таблети: зад малкия екран стои голяма комуникационна мрежа. · User:tfinc · <a href=\"https://commons.wikimedia.org/wiki/File:Responsive_design_-_Commons_Android_app.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Мая казва: „Пристигам след десет минути.“ Гласът ѝ създава трептения във въздуха. <strong>Микрофонът</strong> на телефона ги превръща в електрически сигнал. Телефонът обработва този сигнал и го представя като цифрови данни — информация, описана с нули и единици.</p><p>За да изпрати данните, телефонът използва <strong>радиосигнал</strong>. Неговата антена обменя сигнали с антената на базова станция в района. През въздуха не лети самият глас като звук; пренася се информацията, от която другият телефон ще възстанови звука.</p><p>При Иван процесът завършва в обратен ред: телефонът получава данните, обработва ги и високоговорителят създава звук. Когато Иван отговори, неговият микрофон започва същото пътуване в обратната посока.</p><div class=\"example\"><strong>Проследи промяната:</strong> глас → микрофон → цифрови данни → радиосигнал. При получателя: данни → обработка → високоговорител → чут глас. По време на разговора обменът продължава и в двете посоки.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "voice-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения описват правилно разговора на Мая и Иван?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Микрофонът преобразува гласа в електрически сигнал."
+            },
+            {
+              "id": "2",
+              "text": "Телефонът представя гласа като цифрови данни."
+            },
+            {
+              "id": "3",
+              "text": "Гласът достига до другия град като звук, който се носи през въздуха."
+            },
+            {
+              "id": "4",
+              "text": "Телефонът обменя радиосигнали с базова станция."
+            },
+            {
+              "id": "5",
+              "text": "Високоговорителят превръща получения сигнал в чуваем звук."
+            },
+            {
+              "id": "6",
+              "text": "Само телефонът на човека, който първи се обажда, може да изпраща информация."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Микрофонът приема гласа, телефонът обработва информацията и я предава чрез радиосигнал. Получателят възстановява звука с високоговорителя. И двата телефона изпращат и получават информация, когато хората разговарят."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "station",
+        "step_content": {
+          "type": "information",
+          "title": "Какво има в една базова станция?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Cell-Tower.jpg/960px-Cell-Tower.jpg\" alt=\"Панелните антени високо на кулата обменят радиосигнали с телефоните.\"><figcaption>Панелните антени високо на кулата обменят радиосигнали с телефоните. · The original uploader was J.smith at English Wikipedia. · <a href=\"https://commons.wikimedia.org/wiki/File:Cell-Tower.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.5\">CC BY-SA 2.5</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Cell_cabinets_CHT_9560_Taichung.jpg/960px-Cell_cabinets_CHT_9560_Taichung.jpg\" alt=\"Шкафове с оборудване на телекомуникационен обект.\"><figcaption>Шкафове с оборудване на телекомуникационен обект. · Jidanni · <a href=\"https://commons.wikimedia.org/wiki/File:Cell_cabinets_CHT_9560_Taichung.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure></div><p>До пътя Мая забелязва висока кула с продълговати панели. Това са <strong>антени</strong>, които изпращат и приемат радиосигнали. Те са важна част от базовата станция, но не са цялата станция.</p><p><strong>Базовата станция</strong> е оборудването, чрез което телефоните в определен район се свързват с мобилната мрежа. Освен антени са нужни електронни устройства за обработка на сигналите, електрическо захранване и връзка към останалата мрежа. Част от оборудването може да е близо до антените, а друга — в шкафове или помещения.</p><p>Височината помага сигналът да достига района с по-малко препятствия. Затова антените могат да са върху кула, покрив или друга подходяща конструкция. Самата метална кула е опора; тя не „мисли“ на кого да предаде разговора.</p><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg/960px-Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\" alt=\"Базова станция върху покрив: за антените невинаги е нужна отделна кула.\"><figcaption>Базова станция върху покрив: за антените невинаги е нужна отделна кула. · Acabashi · <a href=\"https://commons.wikimedia.org/wiki/File:Cellular_network_mobile_phone_antenna_mount_Haringey_London.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><div class=\"example\"><strong>Как да разчиташ снимките:</strong> панелите обслужват телефоните чрез радиовръзка; шкафовете показват част от останалото оборудване. На покрива виждаш как базова станция може да работи и без отделна висока кула.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "station-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои неща са нужни за работата на базовата станция?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Антени за обмен на радиосигнали с телефоните."
+            },
+            {
+              "id": "2",
+              "text": "Електронно оборудване за обработка на сигналите."
+            },
+            {
+              "id": "3",
+              "text": "Само метална кула, без други устройства."
+            },
+            {
+              "id": "4",
+              "text": "Електрическо захранване."
+            },
+            {
+              "id": "5",
+              "text": "Връзка към останалата мобилна мрежа."
+            },
+            {
+              "id": "6",
+              "text": "Задължително отделна висока кула за всяка станция."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Базовата станция се нуждае от антени, електронно оборудване, захранване и връзка към мрежата. Кулата е възможна опора, но антените могат да се монтират и върху покрив."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "cells",
+        "step_content": {
+          "type": "information",
+          "title": "Защо мрежата се нарича клетъчна?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/phone-call-network/assets/cells.svg\" alt=\"Опростена схема: зони на покритие се застъпват; автобусът преминава от една зона към друга.\"><figcaption>Опростена схема: зони на покритие се застъпват; автобусът преминава от една зона към друга.</figcaption></figure><p>Една станция не може да осигури добра връзка навсякъде в страната. Затова районът се обслужва от много станции. <strong>Клетка</strong> наричаме зона на радиопокритие, осигурявана от базова станция или от част от нея. Една станция може да обслужва няколко клетки в различни посоки.</p><p>В учебните схеми клетките често са нарисувани като шестоъгълници или кръгове. В действителност няма такива видими граници. Покритието зависи от релефа, сградите, антените и други условия. Зоните могат да се застъпват.</p><p>Когато Мая е в града, около нея има много хора и много телефони. Повече клетки с по-малък обхват позволяват мрежата да обслужва повече потребители. Извън града една клетка може да покрива по-голяма територия.</p><div class=\"key\">Телефонът и мрежата избират подходяща клетка според сигнала и условията. Географски най-близката кула невинаги е тази, която обслужва телефона.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "cells-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за клетките са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Клетката е зона на радиопокритие."
+            },
+            {
+              "id": "2",
+              "text": "Границите на реалните клетки са точни шестоъгълници."
+            },
+            {
+              "id": "3",
+              "text": "Покритието зависи от сгради и релеф."
+            },
+            {
+              "id": "4",
+              "text": "Една станция може да обслужва клетки в различни посоки."
+            },
+            {
+              "id": "5",
+              "text": "Зоните на покритие могат да се застъпват."
+            },
+            {
+              "id": "6",
+              "text": "Телефонът винаги използва географски най-близката кула."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Клетката описва радиопокритие, а не оградена територия. Реалните зони се влияят от условията и могат да се застъпват. Станцията може да обслужва няколко посоки; изборът на клетка не се определя само от разстоянието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "transport",
+        "step_content": {
+          "type": "information",
+          "title": "Как станциите са свързани помежду си?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Optical_cable.jpg/960px-Optical_cable.jpg\" alt=\"Оптичен кабел: информацията се пренася чрез светлинни сигнали във влакната.\"><figcaption>Оптичен кабел: информацията се пренася чрез светлинни сигнали във влакната. · Stewe007 · <a href=\"https://commons.wikimedia.org/wiki/File:Optical_cable.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Microwave_Antenna_%282679399250%29.jpg/960px-Microwave_Antenna_%282679399250%29.jpg\" alt=\"Кръгла насочена антена за микровълнова радиовръзка.\"><figcaption>Кръгла насочена антена за микровълнова радиовръзка. · Faisal Akram from Dhaka, Bangladesh · <a href=\"https://commons.wikimedia.org/wiki/File:Microwave_Antenna_(2679399250).jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure></div><p>Радиосигналът от Мая вече е стигнал до базовата станция. Но Иван е в друг град. За да продължи пътят на разговора, станцията трябва да е свързана с останалата мрежа. Тази част от пътя често се нарича <strong>транспортна връзка</strong>.</p><p>Един начин е <strong>оптичен кабел</strong>. В много тънки влакна информацията се пренася чрез светлинни сигнали. Кабелите свързват съоръженията по земята и могат да пренасят информация за много разговори и други услуги едновременно.</p><p>Друг начин е <strong>насочена микровълнова радиовръзка</strong>. Две антени, насочени една към друга, обменят информация между наземни обекти. Кръглата антена на снимката е пример за такова съоръжение. За добра работа обикновено е нужен свободен път на сигнала между антените.</p><div class=\"example\">Станция край пътя предава информацията по радиовръзка до друг наземен обект, откъдето тя продължава по оптичен кабел. Така един разговор може да използва различни видове връзки по отделните участъци.</div><div class=\"key\">Кръгла антена върху мобилна кула не означава непременно връзка със сателит. Тя може да е насочена към друга наземна станция.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "transport-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои обяснения за връзките между съоръженията са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Оптичният кабел пренася информация чрез светлинни сигнали."
+            },
+            {
+              "id": "2",
+              "text": "Всяка кръгла антена непременно комуникира със сателит."
+            },
+            {
+              "id": "3",
+              "text": "Насочена радиовръзка може да свързва два наземни обекта."
+            },
+            {
+              "id": "4",
+              "text": "Един разговор може да премине през радиоучастък и оптичен кабел."
+            },
+            {
+              "id": "5",
+              "text": "За връзката от базовата станция нататък не е нужно никакво оборудване."
+            },
+            {
+              "id": "6",
+              "text": "Една транспортна връзка може да пренася информация за много разговори."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Станцията се нуждае от връзка към мрежата. Оптичните влакна използват светлинни сигнали, а насочените антени могат да свързват наземни обекти. Пътят може да съчетава различни технологии и да обслужва много разговори."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "operator",
+        "step_content": {
+          "type": "information",
+          "title": "Как мрежата намира другия телефон?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Formats_de_cartes_SIM.jpg/960px-Formats_de_cartes_SIM.jpg\" alt=\"SIM карти в различни размери; те помагат на мрежата да разпознае абонамента.\"><figcaption>SIM карти в различни размери; те помагат на мрежата да разпознае абонамента. · Bidouille82 · <a href=\"https://commons.wikimedia.org/wiki/File:Formats_de_cartes_SIM.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Мая избира номера на Иван. За мрежата това е указание <strong>кого иска да потърси</strong>. Компютърните системи на оператора управляват свързването. Съвкупността от тези основни системи ще наричаме <strong>ядро на мобилната мрежа</strong>.</p><p>Когато телефонът се включи и се свърже с мрежата, той се регистрира. <strong>SIM картата</strong> съдържа данни, чрез които мрежата разпознава абонамента и проверява правото за достъп. При <strong>eSIM</strong> тази роля се изпълнява от вграден модул с активиран профил.</p><p>Мрежата поддържа информация в кой район е регистриран телефонът на Иван. При входящо обаждане го търси чрез станции в съответния район и организира връзката. Не е необходимо първо да открива GPS координатите му.</p><p>Ако Мая и Иван използват различни оператори, системите на операторите обменят необходимата информация през връзките между своите мрежи. Телефонният номер помага обаждането да бъде насочено към правилния получател.</p><div class=\"example\">В нашата ситуация Иван е включил телефона си и има покритие. Мрежата го открива в обслужвания район; телефонът му звъни и той приема разговора.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "operator-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за свързването с Иван са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Номерът показва кого Мая иска да потърси."
+            },
+            {
+              "id": "2",
+              "text": "SIM или eSIM помага да се разпознае абонаментът."
+            },
+            {
+              "id": "3",
+              "text": "Ядрото на мрежата участва в организирането на връзката."
+            },
+            {
+              "id": "4",
+              "text": "За всяко обаждане първо задължително се включва GPS на Иван."
+            },
+            {
+              "id": "5",
+              "text": "Разговор между различни оператори е невъзможен."
+            },
+            {
+              "id": "6",
+              "text": "Мрежата използва информация за района, в който телефонът е регистриран."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Номерът насочва обаждането, SIM/eSIM участва в разпознаването на абонамента, а системите на оператора организират връзката. Регистрацията в мрежата позволява търсене в съответния район; GPS не е задължителна стъпка. Операторите могат да свързват мрежите си."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "route",
+        "step_content": {
+          "type": "information",
+          "title": "Един разговор от край до край",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/phone-call-network/assets/route.svg\" alt=\"Пътят на разговора в нашия пример. Двупосочните стрелки показват обмен и в двете посоки.\"><figcaption>Пътят на разговора в нашия пример. Двупосочните стрелки показват обмен и в двете посоки.</figcaption></figure><p>Нека съберем частите в една история. Мая казва изречението си и телефонът го превръща в данни. По радиовръзка те достигат до обслужващата базова станция. Оттам информацията продължава по транспортната мрежа до системите на оператора.</p><p>Системите насочват разговора към мрежата и станцията, които обслужват Иван. Последният участък до неговия телефон отново е радиовръзка. Телефонът възстановява звука и Иван чува: „Пристигам след десет минути.“</p><p>Когато той отговори „Чакам те на спирката“, информацията пътува в обратната посока. Разговорът е постоянен двупосочен обмен. Схемата показва основните роли; между тях в реалната мрежа може да има още съоръжения.</p><div class=\"key\">Двата телефона не трябва да се „надвикват“ през цялото разстояние между градовете. Всеки използва радиовръзка със станция в своя район, а мрежата свързва тези участъци.</div><div class=\"example\"><strong>В този пример няма сателитен участък.</strong> Голямото разстояние между Мая и Иван само по себе си не означава, че разговорът трябва да мине през Космоса.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "route-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Разкажи пътуването на разговора",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Как изречението на Мая стига до Иван в другия град?</p><p>Обясни със свои думи в 4–6 изречения. Използвай примера „Пристигам след десет минути“ и проследи телефоните, двете базови станции и мрежата на оператора.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Мая казва „Пристигам след десет минути“ и телефонът ѝ превръща гласа в цифрови данни. Те се предават чрез радиосигнал до базовата станция в нейния район. По транспортните връзки данните стигат до мрежата на оператора, която насочва разговора към станцията, обслужваща Иван. Тази станция изпраща информацията по радиовръзка до неговия телефон. Телефонът възстановява звука и Иван чува изречението. Когато той отговаря, информацията се пренася в обратната посока. За самопроверка: проследи двата телефона, двете станции и свързващата ги мрежа; сателит не е необходим в този пример."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "handover",
+        "step_content": {
+          "type": "information",
+          "title": "Как разговорът продължава в движение?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/VTA_bus_9901_interior_looking_forward.jpg/960px-VTA_bus_9901_interior_looking_forward.jpg\" alt=\"Пътниците се движат заедно с автобуса, а мрежата може да предава връзката между клетки.\"><figcaption>Пътниците се движат заедно с автобуса, а мрежата може да предава връзката между клетки. · Grendelkhan · <a href=\"https://commons.wikimedia.org/wiki/File:VTA_bus_9901_interior_looking_forward.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>Автобусът на Мая се отдалечава от първата станция. Сигналът от нейната клетка отслабва, а сигналът от следващата става по-подходящ. Ако връзката остане само с първата клетка, разговорът скоро би се затруднил.</p><p>Телефонът измерва сигналите, а мрежата организира <strong>предаване на връзката към друга клетка</strong>. То е известно и като <strong>handover</strong>. При успешно предаване Мая продължава да говори, без да набира Иван отново и без сама да избира антена.</p><table><tr><th>Момент в учебния пример</th><th>Обслужваща клетка</th><th>Какво чува Мая?</th></tr><tr><td>10:00 — край града</td><td>А</td><td>Разговорът започва.</td></tr><tr><td>10:03 — по пътя</td><td>Б</td><td>Разговорът продължава.</td></tr><tr><td>10:07 — следващото селище</td><td>В</td><td>Разговорът продължава.</td></tr></table><div class=\"example\">Това са готови примерни наблюдения. Между моментите мрежата е предала връзката А → Б → В. Ако по маршрута има участък без достатъчно покритие или предаването не успее, разговорът може да прекъсне.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "handover-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи следват от пътуването на Мая през клетки А, Б и В?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Телефонът може да смени обслужващата клетка по време на разговор."
+            },
+            {
+              "id": "2",
+              "text": "Мая трябва ръчно да избере всяка следваща кула."
+            },
+            {
+              "id": "3",
+              "text": "Мрежата организира предаването на връзката."
+            },
+            {
+              "id": "4",
+              "text": "При успешно предаване разговорът може да продължи без ново набиране."
+            },
+            {
+              "id": "5",
+              "text": "Щом има три клетки по пътя, прекъсване е невъзможно при всякакви условия."
+            },
+            {
+              "id": "6",
+              "text": "Липсата на достатъчно покритие може да прекъсне разговора."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Handover е предаване на връзката към друга клетка. Телефонът и мрежата участват в процеса, без човек да избира кула ръчно. Успешното предаване запазва разговора, но празнина в покритието или неуспешно предаване може да го прекъсне."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "problems",
+        "step_content": {
+          "type": "information",
+          "title": "Защо понякога връзката се затруднява?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Allegheny-Mountain-Tunnel-East_%28crop%29.jpg/960px-Allegheny-Mountain-Tunnel-East_%28crop%29.jpg\" alt=\"Тунелът е пример за място, където без допълнително оборудване радиосигналът може да е затруднен.\"><figcaption>Тунелът е пример за място, където без допълнително оборудване радиосигналът може да е затруднен.</figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/1/11/The_Paralympic_crowd%2C_Olympic_Stadium_-_geograph.org.uk_-_3117226.jpg\" alt=\"На голямо събитие много телефони могат да поискат връзка едновременно.\"><figcaption>На голямо събитие много телефони могат да поискат връзка едновременно. · Robin Sones · <a href=\"https://commons.wikimedia.org/wiki/File:The_Paralympic_crowd,_Olympic_Stadium_-_geograph.org.uk_-_3117226.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure></div><p>Снимките показват две различни ситуации. При тунел скалите и конструкцията могат да затруднят достигането на радиосигнала. На пълен стадион сигнал може да има, но много хора искат да използват мрежата едновременно.</p><table><tr><th>Причина</th><th>Какво означава?</th><th>Примерно решение на оператора</th></tr><tr><td><strong>Недостатъчно покритие</strong></td><td>До телефона не достига достатъчно добър радиосигнал.</td><td>Допълнително оборудване в тунел или станция за района.</td></tr><tr><td><strong>Претоварване</strong></td><td>Търсенето надвишава наличния капацитет на мрежата.</td><td>Повече капацитет или допълнителни клетки за събитието.</td></tr><tr><td><strong>Повреда или липса на захранване</strong></td><td>Нужно съоръжение или връзка не работи.</td><td>Ремонт, резервна връзка или резервно захранване.</td></tr></table><p>Планини, дебели стени и разстояние също влияят на покритието. Допълнително оборудване може да осигури връзка и в тунел — затова тунелът не означава автоматично липса на мрежа.</p><div class=\"key\">Силният радиосигнал не гарантира свободен капацитет или изправност на целия път. Затруднена връзка може да има по различни причини.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "problems-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои обяснения за затруднена връзка са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Скалите и стените могат да затруднят радиосигнала."
+            },
+            {
+              "id": "2",
+              "text": "Много едновременни потребители могат да претоварят мрежата."
+            },
+            {
+              "id": "3",
+              "text": "При силен сигнал целият път на разговора задължително работи без проблем."
+            },
+            {
+              "id": "4",
+              "text": "Повредена транспортна връзка може да попречи на разговора."
+            },
+            {
+              "id": "5",
+              "text": "В нито един тунел не може да има мобилна връзка."
+            },
+            {
+              "id": "6",
+              "text": "Допълнително оборудване може да осигури покритие в тунел."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Покритие, капацитет и изправност са различни условия за добра връзка. Препятствията могат да отслабят сигнала, много потребители — да изчерпят капацитета, а повреда — да прекъсне пътя. С подходящо оборудване мобилната мрежа може да работи и в тунели."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "satellite-link",
+        "step_content": {
+          "type": "information",
+          "title": "Кога сателитът помага на базовата станция?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Intelsat_IV_in_an_anechoic_chamber_-_GPN-2003-00014.jpg/960px-Intelsat_IV_in_an_anechoic_chamber_-_GPN-2003-00014.jpg\" alt=\"Комуникационен сателит Intelsat IV по време на наземни изпитвания — исторически пример.\"><figcaption>Комуникационен сателит Intelsat IV по време на наземни изпитвания — исторически пример.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Salzburg_ground_satellite_antenna.jpg/960px-Salzburg_ground_satellite_antenna.jpg\" alt=\"Голяма наземна антена за връзка със сателити.\"><figcaption>Голяма наземна антена за връзка със сателити. · Geertivp · <a href=\"https://commons.wikimedia.org/wiki/File:Salzburg_ground_satellite_antenna.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure></div><p>Представи си отдалечено селище на остров. В него има базова станция и захранване, но прокарването на оптичен кабел е трудно, а удобна наземна радиовръзка липсва. Станцията все пак трябва да стига до мрежата на оператора.</p><p>Една възможност е <strong>сателитна транспортна връзка</strong>. Наземен сателитен терминал при станцията обменя сигнали с комуникационен сателит. Сателитът предава информацията до друга наземна станция, свързана с мрежата на оператора. Тази наземна станция служи като вход и изход между сателитната връзка и наземната мрежа.</p><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/phone-call-network/assets/satellite.svg\" alt=\"Пример: телефон ↔ местна базова станция и сателитен терминал ↔ сателит ↔ наземна станция ↔ мрежа на оператора.\"><figcaption>Пример: телефон ↔ местна базова станция и сателитен терминал ↔ сателит ↔ наземна станция ↔ мрежа на оператора.</figcaption></figure><p>Човекът в селището използва обичайния си телефон за връзка с местната базова станция. Сателитът е в следващ участък от пътя; телефонът не е длъжен да предава директно към него.</p><div class=\"example\"><strong>Сателитът е мост през трудния участък.</strong> Той допълва наземната инфраструктура. В град с добре изградени наземни връзки разговорът обикновено няма нужда от такъв мост.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "satellite-link-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения описват сателитната транспортна връзка в островния пример?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Телефонът първо се свързва с местната базова станция."
+            },
+            {
+              "id": "2",
+              "text": "Сателитният участък свързва отдалечения обект с останалата мрежа."
+            },
+            {
+              "id": "3",
+              "text": "Всеки телефон в селището задължително предава директно към сателита."
+            },
+            {
+              "id": "4",
+              "text": "Наземна станция свързва сателитния участък с наземната мрежа."
+            },
+            {
+              "id": "5",
+              "text": "Всеки разговор между два града задължително използва сателит."
+            },
+            {
+              "id": "6",
+              "text": "Сателитът може да помогне, когато удобна наземна транспортна връзка липсва."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "В този пример телефонът използва базова станция, а сателитът осигурява следващ участък от пътя. Наземната станция свързва този участък с мрежата на оператора. Сателит не е задължителен за всеки разговор или за голямо разстояние."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "direct-satellite",
+        "step_content": {
+          "type": "information",
+          "title": "Може ли телефон да говори направо със сателит?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Iridium_Satellite_Phone.jpg/960px-Iridium_Satellite_Phone.jpg\" alt=\"Сателитен телефон Iridium — специализирано устройство за съответната сателитна услуга.\"><figcaption>Сателитен телефон Iridium — специализирано устройство за съответната сателитна услуга. · Sanjay Acharya · <a href=\"https://commons.wikimedia.org/wiki/File:Iridium_Satellite_Phone.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Satellite_phone.jpg/960px-Satellite_phone.jpg\" alt=\"Преносим сателитен терминал при работа на открито.\"><figcaption>Преносим сателитен терминал при работа на открито.</figcaption></figure></div><p>Има и друг начин за сателитна връзка: устройството на човека общува <strong>директно със сателит</strong>. Специализираните сателитни телефони използват такъв подход. На снимките виждаш примери за устройства за сателитна комуникация.</p><p>Развиват се и услуги за пряка връзка между сателити и съвместими мобилни телефони. За тях са нужни подходящо устройство и поддържана услуга в съответния район. Възможностите са различни: една услуга може да предлага съобщения, друга — и разговори или данни. Наличието на смартфон само по себе си не гарантира всички тези услуги.</p><p>За директната сателитна връзка обикновено е важен достатъчно открит изглед към небето. В нашия пример планинар използва сателитен телефон на открито, където няма клетъчно покритие. Неговият сигнал отива към сателит, след това през наземната инфраструктура към другия участник.</p><table><tr><th>Клетъчна връзка</th><th>Пряка сателитна връзка</th></tr><tr><td>Телефонът обменя сигнали с базова станция наблизо.</td><td>Съвместимото устройство обменя сигнали със сателит.</td></tr><tr><td>Нужни са покритие и достъп до мобилната мрежа.</td><td>Нужни са поддържани устройство, услуга и условия за приемане.</td></tr></table><div class=\"key\"><strong>GPS е различна задача.</strong> GPS приемникът приема сигнали от навигационни спътници, за да определи местоположение. Това само по себе си не осигурява телефонен разговор.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "direct-satellite-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за пряката сателитна връзка са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Сателитен телефон може да обменя сигнали директно със сателит."
+            },
+            {
+              "id": "2",
+              "text": "Всеки смартфон автоматично предлага сателитни разговори навсякъде."
+            },
+            {
+              "id": "3",
+              "text": "Възможностите зависят от устройството и услугата."
+            },
+            {
+              "id": "4",
+              "text": "Откритият изглед към небето може да е важен за връзката."
+            },
+            {
+              "id": "5",
+              "text": "Щом GPS показва местоположение, телефонният разговор през сателит е гарантиран."
+            },
+            {
+              "id": "6",
+              "text": "Някои услуги могат да предлагат съобщения, без да предлагат всички други видове комуникация."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Пряката връзка използва съвместимо устройство и поддържана сателитна услуга. Условията и наличните функции имат значение. GPS определя местоположение чрез приемане на навигационни сигнали; той не гарантира услуга за телефонен разговор."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/phone-call-network/assets/route.svg\" alt=\"Проследи отново пътя на разговора на Мая и Иван.\"><figcaption>Проследи отново пътя на разговора на Мая и Иван.</figcaption></figure><ul><li><strong>Гласът става цифрови данни.</strong> Телефоните изпращат и получават информация, от която възстановяват звука.</li><li><strong>Базовите станции осигуряват радиопокритие в клетки.</strong> Антените са част от оборудването им.</li><li><strong>Транспортните връзки и ядрото на мрежата свързват двата края.</strong> Могат да участват оптични кабели, наземни радиовръзки и връзки между оператори.</li><li><strong>При движение мрежата може да предаде разговора към друга клетка.</strong> Лошо покритие, претоварване или повреда могат да затруднят връзката.</li><li><strong>Сателитите допълват мрежата.</strong> Те могат да свързват отдалечени станции или да общуват с подходящи устройства; GPS е за местоположение.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

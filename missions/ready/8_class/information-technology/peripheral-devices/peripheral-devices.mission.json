@@ -1,0 +1,805 @@
+{
+  "mission_version": 4,
+  "mission_id": "6f8c38b8-e1ab-4513-be9f-d3388d30d6ac",
+  "mission_content": {
+    "title": "Правила за използване и инсталиране на периферни устройства",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Правила за използване и инсталиране на периферни устройства",
+    "description": "По урок 10, стр. 30–31, Домино. Целият урок с обяснени примери и снимки: периферни устройства, интерфейси, контролери, портове, драйвери, Plug-and-Play и Device Manager. Без реално инсталиране или промяна на устройства.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Black_Computer_keyboard.jpg/960px-Black_Computer_keyboard.jpg\" alt=\"Клавиатура: въвеждаме текст и команди.\"><figcaption>Клавиатура: въвеждаме текст и команди.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg\" alt=\"Лазерен принтер: извежда текст и изображения върху хартия.\"><figcaption>Лазерен принтер: извежда текст и изображения върху хартия. · Joydeep · <a href=\"https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure></div><p>Пишеш съчинение с клавиатурата, виждаш го на монитора и го отпечатваш с принтера. Компютърът обработва текста, но за всяка от тези задачи използва и други устройства. Те му помагат да получава информация, да показва резултати и да запазва файлове.</p><p>В този урок ще разбереш <strong>как периферните устройства работят заедно с компютъра</strong>. Ще научиш какво са порт, интерфейс, контролер и драйвер, като ги свържем с познати примери.</p><ul><li>Ще различаваш устройствата според това какво правят.</li><li>Ще разпознаваш някои често срещани портове и кабели.</li><li>Ще обясняваш как Windows открива ново устройство.</li><li>Ще разчиташ готов пример от Диспечера на устройства.</li></ul><div class=\"key\">Всички примери са показани в мисията. Не е необходимо да включваш, инсталираш или променяш устройства на компютъра.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "input",
+        "step_content": {
+          "type": "information",
+          "title": "Как подаваме информация на компютъра?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Black_Computer_keyboard.jpg/960px-Black_Computer_keyboard.jpg\" alt=\"Клавиатура: въвеждаме текст и команди.\"><figcaption>Клавиатура: въвеждаме текст и команди.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Computer_mouse_1.jpg/960px-Computer_mouse_1.jpg\" alt=\"Мишка: задаваме посока, избор и команди.\"><figcaption>Мишка: задаваме посока, избор и команди. · Clonewayx · <a href=\"https://commons.wikimedia.org/wiki/File:Computer_mouse_1.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure></div><p><strong>Периферни устройства</strong> наричаме устройствата, чрез които компютърът получава и извежда информация, съхранява я или я обменя с други устройства. Най-лесно ги разпознаваме по задачата, която изпълняват.</p><p>Когато напишеш името си, клавиатурата подава данни към компютъра. Когато посочиш бутон с мишката, тя изпраща информация за движението и натискането. Затова клавиатурата и мишката са <strong>входни устройства</strong>: посоката е от теб към компютъра.</p><div class=\"gallery\"><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/e/e3/Scanner.view.750pix.jpg\" alt=\"Скенер: хартиеното изображение се превръща в данни за компютъра.\"><figcaption>Скенер: хартиеното изображение се превръща в данни за компютъра.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Webcam_%28Logitech_c922%29.jpg/960px-Webcam_%28Logitech_c922%29.jpg\" alt=\"Уебкамера: въвежда картина и видео.\"><figcaption>Уебкамера: въвежда картина и видео.</figcaption></figure></div><p>Скенерът превръща изображението от хартиен лист в данни. Камерата подава картина, а микрофонът — звук. В лаптопа движим показалеца чрез <strong>тъчпад</strong> — чувствителната на допир площадка. При <strong>трекбол</strong> въртим топче, а при <strong>джойстик</strong> движим лостче, например за управление на игра.</p><div class=\"example\"><strong>Пример:</strong> правиш поздравителна картичка. Въвеждаш пожеланието с клавиатура, избираш цвят с мишка и сканираш рисунка. И трите устройства подават информация за обработка към процесора и паметта.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "input-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои устройства подават информация към компютъра?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Клавиатурата, с която пишем текст."
+            },
+            {
+              "id": "2",
+              "text": "Скенерът, с който въвеждаме изображение от лист."
+            },
+            {
+              "id": "3",
+              "text": "Мониторът, на който четем резултата."
+            },
+            {
+              "id": "4",
+              "text": "Микрофонът, с който записваме глас."
+            },
+            {
+              "id": "5",
+              "text": "Тъчпадът, с който движим показалеца."
+            },
+            {
+              "id": "6",
+              "text": "Принтерът, който отпечатва картичката."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Входните устройства подават данни: клавиатурата — текст и команди, скенерът — изображение, микрофонът — звук, тъчпадът — действия за управление. Мониторът и принтерът извеждат резултати."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "output",
+        "step_content": {
+          "type": "information",
+          "title": "Как получаваме резултата?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Computer_monitor.jpg/960px-Computer_monitor.jpg\" alt=\"Монитор: показва резултата от работата на компютъра.\"><figcaption>Монитор: показва резултата от работата на компютъра.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg\" alt=\"Лазерен принтер: извежда текст и изображения върху хартия.\"><figcaption>Лазерен принтер: извежда текст и изображения върху хартия. · Joydeep · <a href=\"https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure></div><p>Компютърът вече е обработил картичката. За да я видиш, е нужен <strong>монитор</strong>. За да я подариш на хартия, е нужен <strong>принтер</strong>. Те са <strong>изходни устройства</strong>: информацията се предава от компютъра към нас.</p><p>Резултатът може да бъде и звук. <strong>Тонколоните</strong> го възпроизвеждат в помещението, а <strong>слушалките</strong> го насочват към човека, който ги носи. Микрофонът прави обратното — подава звук към компютъра.</p><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/InFocus_IN34.jpg/960px-InFocus_IN34.jpg\" alt=\"Мултимедиен проектор: прожектира изображение върху голяма повърхност.\"><figcaption>Мултимедиен проектор: прожектира изображение върху голяма повърхност.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Colour_plotter_OST.jpg/960px-Colour_plotter_OST.jpg\" alt=\"Плотер: устройство за извеждане на чертежи и графики.\"><figcaption>Плотер: устройство за извеждане на чертежи и графики.</figcaption></figure></div><p><strong>Проекторът</strong>, наричан и прожектор в учебника, показва изображението върху голям екран или стена. Така целият клас може да разгледа презентацията. <strong>Плотерът</strong> се използва за извеждане на чертежи и графики, например голям архитектурен план.</p><div class=\"example\"><strong>Един файл, различни резултати:</strong> виждаш презентацията на монитора, класът я вижда чрез проектора, а музиката към нея се чува през тонколоните. Всички тези устройства извеждат информация.</div><p>Някои изделия съчетават функции: устройство с принтер и скенер извежда при печат и въвежда при сканиране.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "output-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои примери показват извеждане на информация?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Слушалките възпроизвеждат музика."
+            },
+            {
+              "id": "2",
+              "text": "Проекторът показва презентация на стената."
+            },
+            {
+              "id": "3",
+              "text": "Скенерът въвежда изображение от лист."
+            },
+            {
+              "id": "4",
+              "text": "Плотерът извежда голям чертеж."
+            },
+            {
+              "id": "5",
+              "text": "Клавиатурата подава написаното име."
+            },
+            {
+              "id": "6",
+              "text": "Мониторът показва готовата картичка."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Извеждане има, когато получаваме резултата: звук в слушалките, картина от проектора, чертеж от плотера или изображение на монитора. Скенерът и клавиатурата подават информация към компютъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "storage",
+        "step_content": {
+          "type": "information",
+          "title": "Къде остават записаните файлове?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Seagate_ST33232A_hard_disk_inner_view.jpg/960px-Seagate_ST33232A_hard_disk_inner_view.jpg\" alt=\"Твърд диск с отворен корпус: виждат се магнитните плочи и механизмът.\"><figcaption>Твърд диск с отворен корпус: виждат се магнитните плочи и механизмът. · Eric Gaba (Sting - fr:Sting)\n\n This  image was created with CombineZP by 11  ( It was created out of 11 single images.). · <a href=\"https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_inner_view.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg/960px-Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg\" alt=\"USB флашпамет: преносимо устройство за съхраняване на файлове.\"><figcaption>USB флашпамет: преносимо устройство за съхраняване на файлове. · Dmitry Makeev · <a href=\"https://commons.wikimedia.org/wiki/File:Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/c/ca/CD-ROM.png\" alt=\"Оптичен диск CD: носител, който се използва с подходящо четящо устройство.\"><figcaption>Оптичен диск CD: носител, който се използва с подходящо четящо устройство. · User Black and White on en.wikipedia · <a href=\"https://commons.wikimedia.org/wiki/File:CD-ROM.png\">източник</a> · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a></figcaption></figure></div><p>Затваряш програмата и изключваш компютъра. За да намериш картичката и утре, трябва да си я записал. <strong>Запомнящите устройства</strong> пазят програми и файлове и след изключване на захранването.</p><p>Твърдият диск и SSD са примери за постоянно съхранение. Флашпаметта е удобна за пренасяне на файлове. Когато компютърът <strong>чете</strong> от нея, получава данни; когато <strong>записва</strong> върху нея, изпраща данни. Затова устройствата за съхранение могат да имат и входна, и изходна роля.</p><p>В учебника се срещат и <strong>CD, DVD и Blu-ray</strong>. Това са оптични носители — дисковете, върху които има записана информация. За използването им е необходимо подходящо устройство. Някои дискове са само за четене; записването изисква записваем носител и устройство, което може да записва.</p><div class=\"example\"><strong>Пример:</strong> файлът „Картичка“ е записан на SSD. Копие е запазено на флашпамет. Утре можем да прочетем и двете копия. Външна памет означава постоянно съхранение спрямо оперативната памет; устройството може да е и вътре в корпуса.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "storage-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за съхраняването са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Записаният на флашпамет файл може да остане след изключване на компютъра."
+            },
+            {
+              "id": "2",
+              "text": "При четене от флашпамет компютърът получава данни."
+            },
+            {
+              "id": "3",
+              "text": "Всеки CD позволява многократно записване."
+            },
+            {
+              "id": "4",
+              "text": "При записване върху устройство компютърът изпраща данни към него."
+            },
+            {
+              "id": "5",
+              "text": "DVD е оптичен носител, за който е нужно подходящо устройство."
+            },
+            {
+              "id": "6",
+              "text": "Външната памет задължително се намира извън корпуса."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Постоянното съхранение пази записаното и без захранване. Четенето и записването имат различни посоки. Оптичният носител се използва с устройство, а възможността за запис зависи и от двете. Думата „външна“ тук не определя мястото спрямо корпуса."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "communication",
+        "step_content": {
+          "type": "information",
+          "title": "Кои устройства ни свързват с други компютри?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg\" alt=\"Wi-Fi рутер — свързва устройствата в безжична мрежа.\"><figcaption>Wi-Fi рутер — свързва устройствата в безжична мрежа. · TaurusEmerald · <a href=\"https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/EthernetSwitch.jpg/960px-EthernetSwitch.jpg\" alt=\"Мрежов комутатор (суич): свързва устройства в локална мрежа.\"><figcaption>Мрежов комутатор (суич): свързва устройства в локална мрежа.</figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/a/af/ADSL_modem_Huawei_MT882.jpg\" alt=\"ADSL модем: пример за устройство за връзка през определен вид линия.\"><figcaption>ADSL модем: пример за устройство за връзка през определен вид линия.</figcaption></figure></div><p>Съученик е подготвил снимка за общия ви проект. За да я получиш по мрежата, компютрите трябва да обменят данни. За това служат <strong>комуникационните устройства</strong>.</p><p><strong>Суичът</strong>, наричан и комутатор, свързва устройства в локална мрежа, например компютрите в една зала. <strong>Рутерът</strong> насочва данните между мрежи. Домашният Wi-Fi рутер обикновено съчетава няколко роли, включително безжична точка за достъп.</p><p><strong>Модемът</strong> осигурява връзка по съответния вид комуникационна линия. На снимката виждаш ADSL модем — конкретен пример. <strong>Хъбът</strong> е по-старо устройство за свързване на компютри в локална мрежа. Той изпраща получените данни и към останалите си портове, докато суичът може да ги насочва към нужната връзка.</p><div class=\"example\"><strong>Пример:</strong> компютрите в залата са свързани към суич. Връзка към рутер им позволява да обменят данни с друга мрежа. Така снимката достига до проекта ти. Тези устройства пренасят информация; принтерът я отпечатва.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "communication-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои примери са свързани с комуникационни устройства?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Суич свързва компютрите в локална мрежа."
+            },
+            {
+              "id": "2",
+              "text": "Рутер насочва данните между мрежи."
+            },
+            {
+              "id": "3",
+              "text": "Плотер отпечатва голям чертеж."
+            },
+            {
+              "id": "4",
+              "text": "Модем осигурява връзка по съответен вид линия."
+            },
+            {
+              "id": "5",
+              "text": "По-стар хъб свързва компютри в мрежа."
+            },
+            {
+              "id": "6",
+              "text": "Монитор показва снимката."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Суичът, рутерът, модемът и хъбът участват в обмена на данни между устройства и мрежи. Плотерът и мониторът извеждат резултат, а не изпълняват тази комуникационна роля."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "interface",
+        "step_content": {
+          "type": "information",
+          "title": "Какво означават интерфейс и контролер?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/peripheral-devices/assets/interaction.svg\" alt=\"Опростен пример за печат: заявката минава през програмите и управляващата електроника до принтера.\"><figcaption>Опростен пример за печат: заявката минава през програмите и управляващата електроника до принтера.</figcaption></figure><p>Представи си, че две устройства трябва да работят заедно. Не е достатъчно кабелът да изглежда подходящ: трябва да има и общ начин за предаване и разбиране на сигналите. Този начин на взаимодействие наричаме <strong>интерфейс</strong>.</p><p><strong>Стандартен интерфейс</strong> означава общи правила, по които съвместими устройства обменят информация. USB е познат пример: много устройства използват този стандарт, въпреки че изпълняват различни задачи.</p><p>В компютъра е нужна и електроника, която управлява обмена между процесора, паметта и устройството. Тази роля изпълнява <strong>контролерът</strong>. Той е хардуер — електронна част, а не инструкция, написана от човека.</p><div class=\"gallery\"><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/8/82/NIC-FA312.jpg\" alt=\"Мрежова карта: хардуер за обмен на данни с мрежата.\"><figcaption>Мрежова карта: хардуер за обмен на данни с мрежата. · Echoray at German Wikipedia\nLater versions were uploaded by Benedikt.Seidl at de.wikipedia.\n\n(Original text: Alwin Meschede (de:Benutzer:Echoray)) · <a href=\"https://commons.wikimedia.org/wiki/File:NIC-FA312.jpg\">източник</a> · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Soundblaster_Audigy2_ZS.jpg/960px-Soundblaster_Audigy2_ZS.jpg\" alt=\"Звукова карта: обработва входни и изходни звукови сигнали.\"><figcaption>Звукова карта: обработва входни и изходни звукови сигнали. · afrank99 · <a href=\"https://commons.wikimedia.org/wiki/File:Soundblaster_Audigy2_ZS.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure></div><p>Мрежовата карта управлява обмена с мрежата. Звуковата карта обработва звуковите сигнали, а видеокартата — графиката и подаването на изображение към дисплея. В тях има управляваща електроника. Тя може да бъде и вградена в компютъра, без отделна видима карта.</p><div class=\"key\"><strong>Запомни чрез пример:</strong> интерфейсът задава „как да общуваме“, а контролерът е електронната част, която управлява обмена.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "interface-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои обяснения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Стандартният интерфейс задава общ начин за обмен на информация."
+            },
+            {
+              "id": "2",
+              "text": "Контролерът е електронна част, която управлява обмена с устройство."
+            },
+            {
+              "id": "3",
+              "text": "Интерфейс означава единствено цвета на кабела."
+            },
+            {
+              "id": "4",
+              "text": "Мрежовата карта участва в обмена с мрежата."
+            },
+            {
+              "id": "5",
+              "text": "Звуковата карта работи със звукови сигнали."
+            },
+            {
+              "id": "6",
+              "text": "Контролер може да има само ако виждаме отделна карта извън корпуса."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Интерфейсът определя начина на взаимодействие, а контролерът е хардуерът, който управлява обмена. Мрежовата и звуковата карта са примери за такава електроника. Част от нея може да е вградена."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "ports",
+        "step_content": {
+          "type": "information",
+          "title": "Портът: къде включваме кабела?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Computer_ports.JPG/960px-Computer_ports.JPG\" alt=\"Панел с различни компютърни портове: формата и означението помагат да ги различим.\"><figcaption>Панел с различни компютърни портове: формата и означението помагат да ги различим. · The High Fin Sperm Whale · <a href=\"https://commons.wikimedia.org/wiki/File:Computer_ports.JPG\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p><strong>Порт</strong> е мястото за свързване на устройство към компютъра. Например кабелът на мишката завършва с накрайник, който влиза в подходящ USB порт. Портът е част от начина, по който устройствата се свързват.</p><p>Разглеждай формата и означението. Кабелът за монитор и мрежовият кабел имат различни накрайници, защото служат за различни връзки. В един компютър може да има няколко еднакви порта.</p><table><tr><th>Означение</th><th>За каква връзка се среща?</th></tr><tr><td>USB</td><td>Мишка, клавиатура, флашпамет, принтер и други устройства.</td></tr><tr><td>LAN / Ethernet</td><td>Кабелна локална мрежа.</td></tr><tr><td>HDMI, DisplayPort</td><td>Цифрова картина и звук към съвместим дисплей.</td></tr><tr><td>VGA, DVI</td><td>Връзки за изображение, срещани и при по-стари монитори.</td></tr><tr><td>LPT, COM, PS/2</td><td>По-стари връзки: LPT за принтери; COM за различни устройства; PS/2 за клавиатура или мишка.</td></tr><tr><td>FireWire, eSATA, SCSI</td><td>Срещат се при определени по-стари или специализирани устройства; eSATA и SCSI — и при съхранение.</td></tr></table><div class=\"example\"><strong>Обяснен пример:</strong> до един отвор пише LAN, а до друг — HDMI. За кабелната мрежа е подходящ LAN; за изображение към съвместим монитор — HDMI. Различаваме ги по предназначението, формата и надписа.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "ports-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания между порт и предназначение са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "LAN / Ethernet — кабелна мрежова връзка."
+            },
+            {
+              "id": "2",
+              "text": "HDMI — връзка за картина и звук."
+            },
+            {
+              "id": "3",
+              "text": "PS/2 — по-стара връзка за клавиатура или мишка."
+            },
+            {
+              "id": "4",
+              "text": "USB — единствено за монитори, без други устройства."
+            },
+            {
+              "id": "5",
+              "text": "LPT — по-стара връзка за принтер."
+            },
+            {
+              "id": "6",
+              "text": "Всеки кабел може да се включи във всеки порт, защото всички имат еднакво предназначение."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "LAN е за кабелна мрежа, HDMI — за картина и звук, PS/2 се среща при клавиатури и мишки, а LPT — при по-стари принтери. USB има много приложения. Портът и накрайникът трябва да са подходящи за конкретната връзка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "usb-firewire",
+        "step_content": {
+          "type": "information",
+          "title": "USB и FireWire: два начина за обмен на данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/USB_TypeA_Plug.JPG/960px-USB_TypeA_Plug.JPG\" alt=\"USB-A: познатият правоъгълен накрайник.\"><figcaption>USB-A: познатият правоъгълен накрайник. · Andreas Frank · <a href=\"https://commons.wikimedia.org/wiki/File:USB_TypeA_Plug.JPG\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/USB_Type-C_plug_20170626.jpg/960px-USB_Type-C_plug_20170626.jpg\" alt=\"USB-C: малък симетричен накрайник, който може да се постави и обърнат.\"><figcaption>USB-C: малък симетричен накрайник, който може да се постави и обърнат. · Santeri Viinamäki · <a href=\"https://commons.wikimedia.org/wiki/File:USB_Type-C_plug_20170626.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/FireWire_cables.jpg/960px-FireWire_cables.jpg\" alt=\"FireWire: накрайници с 4 контакта (вляво) и 6 контакта (вдясно).\"><figcaption>FireWire: накрайници с 4 контакта (вляво) и 6 контакта (вдясно). · Mikkel Paulson · <a href=\"https://commons.wikimedia.org/wiki/File:FireWire_cables.jpg\">източник</a> · <a href=\"https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/\">Public Domain</a></figcaption></figure></div><p>Когато видиш USB мишка, USB клавиатура и USB флашпамет, това не означава, че устройствата правят едно и също. Те използват <strong>общ стандарт за връзка</strong>, но изпълняват различни задачи.</p><p><strong>USB</strong> е широко използван за обмен на данни, а при много устройства — и за захранване. На снимките сравни правоъгълния <strong>USB-A</strong> със симетричния <strong>USB-C</strong>. Това са различни форми на свързващите части. Формата сама не показва всички възможности и скоростта на конкретната връзка.</p><div class=\"example\"><strong>Пример:</strong> с мишката изпращаме движения и команди. С флашпаметта четем и записваме файлове. И двете могат да използват USB порт, но ролите им са различни.</div><p><strong>FireWire</strong> е друг стандарт за последователен обмен на цифрови данни. В миналото е използван например при цифрови видеокамери и външни дискове. „Последователен“ означава, че данните се предават в поредица. Устройствата могат да изпращат и получават информация. Днес FireWire се среща по-рядко, но е полезно да го разпознаваме при по-стара техника.</p><p>USB и FireWire не са взаимозаменяеми накрайници. За връзка са нужни съвместими устройства и подходящ кабел.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "usb-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи за USB и FireWire са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "USB може да се използва от мишка и от флашпамет."
+            },
+            {
+              "id": "2",
+              "text": "Всички устройства с USB изпълняват една и съща задача."
+            },
+            {
+              "id": "3",
+              "text": "USB-C и USB-A са различни форми на свързващите части."
+            },
+            {
+              "id": "4",
+              "text": "FireWire се среща при някои по-стари цифрови видеокамери и външни дискове."
+            },
+            {
+              "id": "5",
+              "text": "Само формата USB-C гарантира всички възможни скорости и функции."
+            },
+            {
+              "id": "6",
+              "text": "За връзка са нужни съвместими устройства и подходящ кабел."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "USB е общ стандарт за устройства с различни задачи. USB-A и USB-C описват форми, а възможностите зависят от конкретната техника. FireWire е различен стандарт, използван и при по-стари камери и дискове."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "display-ports",
+        "step_content": {
+          "type": "information",
+          "title": "HDMI и DisplayPort: картина към големия екран",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/HDMI-Connector.jpg/960px-HDMI-Connector.jpg\" alt=\"HDMI накрайник: цифрова връзка за картина и звук.\"><figcaption>HDMI накрайник: цифрова връзка за картина и звук.</figcaption></figure><figure><img src=\"https://upload.wikimedia.org/wikipedia/commons/b/b4/DisplayPort_connector-male-front_20070410.jpg\" alt=\"DisplayPort накрайник: връзка за дисплей; забележи скосения ъгъл.\"><figcaption>DisplayPort накрайник: връзка за дисплей; забележи скосения ъгъл.</figcaption></figure></div><p>Подготвил си презентация и искаш всички да я виждат. Компютърът трябва да изпрати изображението към монитор, телевизор или проектор. Два често използвани цифрови интерфейса за това са <strong>HDMI</strong> и <strong>DisplayPort</strong>.</p><p>И двата могат да пренасят <strong>картина и звук</strong>. При подходящи устройства един кабел е достатъчен за тези сигнали. За да чуем звука, получателят трябва да има и възможност да го възпроизведе — например вградени говорители.</p><p>В учебника се споменава и <strong>DVI</strong> — връзка за изображение, срещана при по-стари монитори. Не приемаме, че HDMI винаги прави картината по-красива от DVI. Резултатът зависи от възможностите на компютъра, кабела и дисплея, както и от настройките.</p><div class=\"example\"><strong>Готов пример:</strong> лаптопът и проекторът имат HDMI. Подходящ HDMI кабел пренася презентацията към проектора. Ако се използва DisplayPort, и двете страни трябва да поддържат съответната връзка или да има подходящо средство за свързване.</div><p>На снимките сравни накрайниците: HDMI има различна форма от DisplayPort, при който се вижда скосен ъгъл.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "display-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни за свързване на дисплей?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "HDMI може да пренася картина и звук."
+            },
+            {
+              "id": "2",
+              "text": "DisplayPort се използва за връзка с дисплей."
+            },
+            {
+              "id": "3",
+              "text": "DVI е връзка, срещана при по-стари монитори."
+            },
+            {
+              "id": "4",
+              "text": "HDMI винаги прави изображението по-качествено от DVI при всякакви устройства."
+            },
+            {
+              "id": "5",
+              "text": "За връзката има значение какво поддържат компютърът, кабелът и дисплеят."
+            },
+            {
+              "id": "6",
+              "text": "Всеки монитор възпроизвежда звук, дори да няма говорители или аудиоизход."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "HDMI и DisplayPort могат да пренасят цифрова картина и звук; DVI се използва за изображение. Качеството и функциите зависят от цялата съвместима връзка. За чуваем звук е нужно и устройство, което го възпроизвежда."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "drivers",
+        "step_content": {
+          "type": "information",
+          "title": "Драйверът: как Windows работи с устройството?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/peripheral-devices/assets/driver.svg\" alt=\"Драйверът е програма. Контролерът и принтерът са хардуер.\"><figcaption>Драйверът е програма. Контролерът и принтерът са хардуер.</figcaption></figure><p>Принтерът е включен с подходящ кабел. Това още не е достатъчно, за да отпечата правилно съчинението ти. Windows трябва да знае как да подава командите към него и как да използва възможностите му.</p><p><strong>Драйвер</strong> наричаме програма, чрез която операционната система работи с даден вид хардуер. Можеш да го сравниш с посредник: програмата за текст иска печат, Windows използва подходящия драйвер и заявката достига до устройството по разбираем за него начин.</p><p>Драйверът трябва да е <strong>съвместим и с устройството, и с операционната система</strong>. Не избираме произволна програма само защото в името ѝ пише „драйвер“. За много мишки, клавиатури и дискови устройства Windows вече има подходящи вградени драйвери. За други е нужен драйвер от производителя.</p><div class=\"example\"><strong>Пример:</strong> свързан принтер се показва като устройство, но печатът не работи правилно. Една възможна причина е липсващ или неподходящ драйвер. Кабелът е физическата връзка, а драйверът е необходимият софтуер.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "drivers-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои обяснения за драйвера са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Драйверът е програма за работа на операционната система с хардуера."
+            },
+            {
+              "id": "2",
+              "text": "Подходящият кабел винаги премахва нуждата от драйвер."
+            },
+            {
+              "id": "3",
+              "text": "Драйверът трябва да е съвместим с устройството и системата."
+            },
+            {
+              "id": "4",
+              "text": "Windows има вградени драйвери за много често използвани устройства."
+            },
+            {
+              "id": "5",
+              "text": "Контролер и драйвер са едно и също: и двете думи означават кабел."
+            },
+            {
+              "id": "6",
+              "text": "Неподходящ драйвер може да попречи на правилната работа."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Драйверът е софтуер, а контролерът е електроника. Физическата връзка не заменя драйвера. Windows има много вградени драйвери, но съвместимостта с конкретното устройство и система остава важна."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "plug-and-play",
+        "step_content": {
+          "type": "information",
+          "title": "Обяснен пример: как компютърът открива принтер?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg\" alt=\"Лазерен принтер: извежда текст и изображения върху хартия.\"><figcaption>Лазерен принтер: извежда текст и изображения върху хартия. · Joydeep · <a href=\"https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/USB_TypeA_Plug.JPG/960px-USB_TypeA_Plug.JPG\" alt=\"USB-A: познатият правоъгълен накрайник.\"><figcaption>USB-A: познатият правоъгълен накрайник. · Andreas Frank · <a href=\"https://commons.wikimedia.org/wiki/File:USB_TypeA_Plug.JPG\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure></div><p>В готовия пример техник свързва съвместим принтер към компютър с Windows чрез подходящ USB кабел. На компютъра има наличен съвместим драйвер. Проследи какво се случва, без да изпълняваш тези действия.</p><table><tr><th>Етап</th><th>Какво става?</th></tr><tr><td>1. Свързване</td><td>Принтерът е включен и е свързан с подходящия кабел.</td></tr><tr><td>2. Разпознаване</td><td>Windows установява, че има добавено устройство, и получава информация за него.</td></tr><tr><td>3. Драйвер и настройка</td><td>Използва се съвместимият драйвер и устройството се подготвя за работа.</td></tr><tr><td>4. Проверка</td><td>Отпечатаната пробна страница потвърждава, че печатът в този пример работи.</td></tr></table><p>Технологията <strong>Plug-and-Play</strong> означава „постави и работи“. Тя помага системата да разпознава и настройва устройства с малка намеса от човека. Автоматичната настройка пак използва драйвер — просто не се налага той да се избира ръчно във всеки случай.</p><div class=\"key\">Това е завършен пример за успешно свързване. При друг модел или липсващ драйвер може да са необходими допълнителни указания от производителя.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "pnp-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи са верни за показания пример с принтера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Windows разпознава добавеното устройство."
+            },
+            {
+              "id": "2",
+              "text": "Plug-and-Play означава, че драйвер изобщо не се използва."
+            },
+            {
+              "id": "3",
+              "text": "В примера се използва наличен съвместим драйвер."
+            },
+            {
+              "id": "4",
+              "text": "Пробната страница проверява дали печатът работи."
+            },
+            {
+              "id": "5",
+              "text": "Plug-and-Play може да намали нуждата от ръчна настройка."
+            },
+            {
+              "id": "6",
+              "text": "Всеки принтер във всяка ситуация е готов веднага след поставяне на произволен кабел."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "В примера устройството се разпознава, използва се съвместим драйвер и резултатът се проверява с печат. Plug-and-Play автоматизира част от настройката; не премахва нуждата от драйвер и съвместима връзка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "wireless",
+        "step_content": {
+          "type": "information",
+          "title": "Периферно устройство без кабел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg/960px-Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\" alt=\"Безжични слушалки: пример за използване на Bluetooth.\"><figcaption>Безжични слушалки: пример за използване на Bluetooth. · www.digitalpush.net · <a href=\"https://commons.wikimedia.org/wiki/File:Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg\" alt=\"Wi-Fi рутер — свързва устройствата в безжична мрежа.\"><figcaption>Wi-Fi рутер — свързва устройствата в безжична мрежа. · TaurusEmerald · <a href=\"https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure></div><p>Не всички периферни устройства имат кабел до компютъра. В учебника се споменават <strong>инфрачервена връзка (IR)</strong> и <strong>Wi-Fi</strong>. Те пренасят информация без кабел, но използват различни сигнали.</p><p>Инфрачервената връзка използва невидима за очите светлина. При по-стари устройства с такава връзка предавателят и приемникът обикновено трябва да са насочени един към друг и между тях да няма пречка. Познат пример за използване на инфрачервен сигнал е дистанционното за телевизор.</p><p>Wi-Fi използва радиовълни. Съвместим мрежов принтер може да получи документ чрез безжична локална мрежа, без USB кабел до компютъра. За правилната работа са нужни подходяща връзка и настройка.</p><p>Често срещаме и <strong>Bluetooth</strong>, например при слушалки. На снимките виждаш безжични слушалки и Wi-Fi рутер — различни устройства с различни роли.</p><div class=\"example\"><strong>Пример:</strong> компютърът и принтерът са свързани с една и съща подходящо настроена локална мрежа. Документът достига до принтера по мрежата. Липсата на USB кабел не означава липса на връзка или на необходим софтуер.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "wireless-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за безжичните връзки са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Wi-Fi използва радиовълни."
+            },
+            {
+              "id": "2",
+              "text": "IR означава инфрачервена връзка."
+            },
+            {
+              "id": "3",
+              "text": "Съвместим принтер може да получава документи по безжична мрежа."
+            },
+            {
+              "id": "4",
+              "text": "Безжично означава, че изобщо не е нужна настройка."
+            },
+            {
+              "id": "5",
+              "text": "Bluetooth се използва например при безжични слушалки."
+            },
+            {
+              "id": "6",
+              "text": "Инфрачервената връзка винаги преминава през стени без пречка."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Wi-Fi работи с радиовълни, IR — с инфрачервен сигнал, а Bluetooth е познат при слушалки. Безжичните устройства също изискват съвместимост и настройка. Препятствията са важни за инфрачервената връзка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "manufacturer",
+        "step_content": {
+          "type": "information",
+          "title": "Ако Windows няма подходящ драйвер",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg\" alt=\"Лазерен принтер: извежда текст и изображения върху хартия.\"><figcaption>Лазерен принтер: извежда текст и изображения върху хартия. · Joydeep · <a href=\"https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><p>Във втори готов пример Windows разпознава, че е свързан принтер, но няма подходящ драйвер за него. Техникът не избира случаен драйвер за друг модел. Първо установява <strong>точния модел на принтера и използваната версия на Windows</strong>.</p><p>След това проверява официалните указания на производителя. Драйверът може да е предоставен на диск с устройството или да се предлага в страницата за поддръжка на производителя. Windows Update също може да предоставя съвместими драйвери.</p><table><tr><th>Дадено в примера</th><th>Как се използва?</th></tr><tr><td>Модел: „Учебен принтер А“</td><td>Търси се поддръжка за точно този модел.</td></tr><tr><td>Система: Windows 11</td><td>Проверява се дали предлаганият драйвер поддържа тази система.</td></tr><tr><td>Указания на производителя</td><td>Те определят реда на инсталирането и свързването.</td></tr></table><p>Някои производители изискват първо да се стартира тяхната инсталация, а кабелът да се включи по-късно. Затова един ред на действията не важи за всички устройства.</p><div class=\"example\"><strong>Очакван резултат:</strong> използван е съвместимият драйвер, следвани са конкретните указания и пробната страница се отпечатва правилно. „Учебен принтер А“ е условно име в примера.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "manufacturer-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Какво е правилно в примера с липсващ драйвер?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Проверява се точният модел на устройството."
+            },
+            {
+              "id": "2",
+              "text": "Проверява се съвместимостта с версията на Windows."
+            },
+            {
+              "id": "3",
+              "text": "Всеки драйвер за принтер е подходящ за всеки друг принтер."
+            },
+            {
+              "id": "4",
+              "text": "Следват се указанията на производителя."
+            },
+            {
+              "id": "5",
+              "text": "Драйвер може да бъде предоставен на диск или в официалната поддръжка."
+            },
+            {
+              "id": "6",
+              "text": "Редът на инсталиране винаги е еднакъв за всички модели."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Моделът и операционната система определят съвместимостта. Производителят дава подходящия софтуер и указанията за конкретния модел. Произволен драйвер и универсален ред на действията не са надеждно решение."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "device-manager",
+        "step_content": {
+          "type": "information",
+          "title": "Къде Windows показва устройствата?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/peripheral-devices/assets/manager.svg\" alt=\"Опростен учебен изглед: списък с групи устройства и избрана USB памет.\"><figcaption>Опростен учебен изглед: списък с групи устройства и избрана USB памет.</figcaption></figure><p>Windows предлага <strong>Диспечер на устройства (Device Manager)</strong> — прозорец със списък на хардуера. В него могат да се видят групи като клавиатури, мрежови карти, монитори и дискови устройства.</p><p>Учебникът нарича този списък „регистър на периферните устройства“. Тук говорим за Диспечера на устройства. Той включва и други части на компютъра, а не само външно включените устройства.</p><p><strong>Проследи готовия пример:</strong> в търсенето на лентата на задачите е въведено „Device Manager“ или „Диспечер на устройства“. Отворен е едноименният резултат. В списъка е разгъната групата <strong>Disk drives — Дискови устройства</strong> и е избрана „Учебна USB памет“.</p><p>С десния бутон върху нейното име е отворено менюто <strong>Properties — Свойства</strong>. Така се показват данните за конкретното устройство. Разделът <strong>Driver — Драйвер</strong> съдържа информация за използвания драйвер.</p><div class=\"key\">Схемата показва пътя до информацията. Не е необходимо да отваряш прозорци или да променяш настройки на своя компютър.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "manager-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения описват Диспечера на устройства?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "В него Windows показва групи хардуерни устройства."
+            },
+            {
+              "id": "2",
+              "text": "Disk drives означава „Дискови устройства“."
+            },
+            {
+              "id": "3",
+              "text": "Properties отваря свойствата на избраното устройство."
+            },
+            {
+              "id": "4",
+              "text": "Driver е раздел с информация за драйвера."
+            },
+            {
+              "id": "5",
+              "text": "За да прочетем свойствата, задължително трябва първо да изтрием устройството."
+            },
+            {
+              "id": "6",
+              "text": "Списъкът съдържа само принтери, без други видове хардуер."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "feedback": "Диспечерът показва различни групи хардуер. В примера Disk drives съдържа избраната USB памет, Properties отваря свойствата ѝ, а Driver — информацията за драйвера. Четенето на тази информация не изисква изтриване на устройство."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "driver-details",
+        "step_content": {
+          "type": "information",
+          "title": "Как разчитаме данните за драйвера?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure class=\"diagram\"><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/peripheral-devices/assets/details.svg\" alt=\"Опростен учебен пример за раздела Driver и прозореца Driver Details; стойностите са примерни.\"><figcaption>Опростен учебен пример за раздела Driver и прозореца Driver Details; стойностите са примерни.</figcaption></figure><p>Вече сме отворили свойствата на „Учебна USB памет“. В раздела <strong>Driver</strong> могат да се видят доставчикът на драйвера, неговата дата и версия. Това описва <strong>програмата за работа с устройството</strong>, а не размера на паметта.</p><p>В готовия пример доставчикът е Microsoft, а версията е <strong>10.0.26100.1</strong>. Версията е означение на софтуера. Тя не означава, че флашпаметта има такъв обем в гигабайти.</p><p>Бутонът <strong>Driver Details — Подробни данни за драйвера</strong> отваря допълнителен прозорец с използваните файлове. В нашия пример са показани <strong>disk.sys</strong> и <strong>partmgr.sys</strong>. Това са системни файлове, а не запазените от ученика снимки и документи.</p><div class=\"example\"><strong>Примерен извод:</strong> USB паметта е физическото устройство. Windows работи с нея чрез драйвер. Разделът Driver описва този софтуер, а Driver Details показва файловете му. Така различаваме устройството от програмата, която осигурява работата с него.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "driver-answer",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни примера със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Каква е ролята на драйвера в примера с „Учебна USB памет“?</p><p>Отговори в 3–4 изречения със свои думи. Използвай показания пример, за да разграничиш устройството от програмата, чрез която Windows работи с него.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Учебната USB памет е физическото устройство, върху което могат да се пазят файлове. Драйверът е програма, чрез която Windows работи с тази памет. В показания пример разделът Driver дава информация за драйвера, а Driver Details показва използваните системни файлове. Например disk.sys е файл на драйвера, а не моя снимка, записана на флашпаметта. За самопроверка: различи хардуера от софтуера и обясни тяхната връзка; версията на драйвера не е обемът на паметта."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:#fff;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#126a80;margin:24px 0 10px}strong{color:#145b72}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;max-width:100%;width:auto;height:auto;max-height:360px;margin:auto;object-fit:contain}figcaption{font-size:13px;line-height:1.5;color:#52687d;margin-top:10px}.gallery{display:flex;flex-wrap:wrap;gap:14px}.gallery figure{flex:1 1 260px;min-width:0;margin:0}.gallery img{max-height:280px}.diagram img{width:100%;max-height:none}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:11px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><div class=\"gallery\"><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Black_Computer_keyboard.jpg/960px-Black_Computer_keyboard.jpg\" alt=\"Клавиатура: въвеждаме текст и команди.\"><figcaption>Клавиатура: въвеждаме текст и команди.</figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg/960px-Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg\" alt=\"USB флашпамет: преносимо устройство за съхраняване на файлове.\"><figcaption>USB флашпамет: преносимо устройство за съхраняване на файлове. · Dmitry Makeev · <a href=\"https://commons.wikimedia.org/wiki/File:Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><figure><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg\" alt=\"Лазерен принтер: извежда текст и изображения върху хартия.\"><figcaption>Лазерен принтер: извежда текст и изображения върху хартия. · Joydeep · <a href=\"https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure></div><ul><li><strong>Периферните устройства имат различни роли:</strong> въвеждат, извеждат, съхраняват или обменят информация.</li><li><strong>Портът е мястото за свързване.</strong> Интерфейсът определя начина на обмен, а контролерът е управляващата електроника.</li><li><strong>Драйверът е програма</strong>, чрез която операционната система работи с хардуера. Той трябва да е съвместим с устройството и системата.</li><li><strong>Plug-and-Play помага за автоматично разпознаване и настройка.</strong> Използва се подходящ драйвер; при нужда се следват указанията на производителя.</li><li><strong>Диспечерът на устройства показва хардуера.</strong> Properties → Driver води до данните за драйвера, а Driver Details — до неговите файлове.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  }
+}

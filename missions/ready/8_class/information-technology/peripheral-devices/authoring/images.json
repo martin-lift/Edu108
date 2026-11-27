@@ -1,0 +1,251 @@
+{
+  "keyboard": {
+    "title": "File:Black Computer keyboard.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Black_Computer_keyboard.jpg/960px-Black_Computer_keyboard.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Black_Computer_keyboard.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Black_Computer_keyboard.jpg",
+    "author": "Samiknoov",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Клавиатура: въвеждаме текст и команди.",
+    "description": "black computer Keyboard by GXT"
+  },
+  "mouse": {
+    "title": "File:Computer mouse.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Computer_mouse_1.jpg/960px-Computer_mouse_1.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Computer_mouse_1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_mouse_1.jpg",
+    "author": "Clonewayx",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Мишка: задаваме посока, избор и команди.",
+    "description": ""
+  },
+  "scanner": {
+    "title": "File:Scanner.view.750pix.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Scanner.view.750pix.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Scanner.view.750pix.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Scanner.view.750pix.jpg",
+    "author": "Users Boffy b, Arpingstone on en.wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "Скенер: хартиеното изображение се превръща в данни за компютъра.",
+    "description": "Flat-bed Scanner."
+  },
+  "webcam": {
+    "title": "File:Webcam (Logitech c922).jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Webcam_%28Logitech_c922%29.jpg/960px-Webcam_%28Logitech_c922%29.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Webcam_%28Logitech_c922%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Webcam_(Logitech_c922).jpg",
+    "author": "Zsinytwiki",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Уебкамера: въвежда картина и видео.",
+    "description": "Modern expensive webcam mainly made for streaming and professional video conferencing"
+  },
+  "monitor": {
+    "title": "File:Computer monitor.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Computer_monitor.jpg/960px-Computer_monitor.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Computer_monitor.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_monitor.jpg",
+    "author": "Zzubnik",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "Монитор: показва резултата от работата на компютъра.",
+    "description": "A flat panel LCD computer monitor"
+  },
+  "printer": {
+    "title": "File:HP LaserJet 1020 printer.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/HP_LaserJet_1020_printer.jpg/960px-HP_LaserJet_1020_printer.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8d/HP_LaserJet_1020_printer.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:HP_LaserJet_1020_printer.jpg",
+    "author": "Joydeep",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Лазерен принтер: извежда текст и изображения върху хартия.",
+    "description": "HP LaserJet 1020 plus printer"
+  },
+  "projector": {
+    "title": "File:InFocus IN34.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/InFocus_IN34.jpg/960px-InFocus_IN34.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/14/InFocus_IN34.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:InFocus_IN34.jpg",
+    "author": "Dave Pape",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "Мултимедиен проектор: прожектира изображение върху голяма повърхност.",
+    "description": "InFocus IN34 DLP video projector"
+  },
+  "plotter": {
+    "title": "File:Colour plotter OST.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Colour_plotter_OST.jpg/960px-Colour_plotter_OST.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Colour_plotter_OST.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Colour_plotter_OST.jpg",
+    "author": "UnderwhelmingToaster",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Плотер: устройство за извеждане на чертежи и графики.",
+    "description": "Ein Plotter an der Ostschweizerische Fachhochschule (OST) in Rapperswil."
+  },
+  "disk": {
+    "title": "File:Seagate ST33232A hard disk inner view.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Seagate_ST33232A_hard_disk_inner_view.jpg/960px-Seagate_ST33232A_hard_disk_inner_view.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Seagate_ST33232A_hard_disk_inner_view.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Seagate_ST33232A_hard_disk_inner_view.jpg",
+    "author": "Eric Gaba (Sting - fr:Sting)\n\n This  image was created with CombineZP by 11  ( It was created out of 11 single images.).",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Твърд диск с отворен корпус: виждат се магнитните плочи и механизмът.",
+    "description": "Inner view of a Seagate 3.5 inch hard disk drive Medalist ST33232A model manufactured in Malaysia in 1998. Parallel ATA interface, ultra DMA mode 2, I/O data-transfer rate 33.3 MB/s max, 3,227 MB, 3 platters, 6 physical read/write heads, spindle speed 4,500 RPM, cache buffer 128 kB, MTBF 300,000 hours, dimensions 146.8 x 102.4 x 26.2 mm, weight 540 grams."
+  },
+  "flash": {
+    "title": "File:Kingston Technology DataTraveler G4 USB flash drive USB 3.0 32 Gb.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg/960px-Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Kingston_Technology_DataTraveler_G4_USB_flash_drive_USB_3.0_32_Gb.jpg",
+    "author": "Dmitry Makeev",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "USB флашпамет: преносимо устройство за съхраняване на файлове.",
+    "description": "Kingston Technology DataTraveler G4 USB flash drives USB 3.0 32Gb"
+  },
+  "cd": {
+    "title": "File:CD-ROM.png",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CD-ROM.png",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/CD-ROM.png",
+    "source": "https://commons.wikimedia.org/wiki/File:CD-ROM.png",
+    "author": "User Black and White on en.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Оптичен диск CD: носител, който се използва с подходящо четящо устройство.",
+    "description": "This image depicts a flat view of a CD-R with interference colours. It was scanned with an HP ScanJet 4400c, and ran through ACDSee's auto-level filter. One fallback of the image are the dust fibres. It was initially saved as .JPG with IrfanView at 90% quality, and then converted to .PNG to add transparency."
+  },
+  "switch": {
+    "title": "File:EthernetSwitch.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/EthernetSwitch.jpg/960px-EthernetSwitch.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/43/EthernetSwitch.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:EthernetSwitch.jpg",
+    "author": "Raysonho @ Open Grid Scheduler / Grid Engine",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "caption": "Мрежов комутатор (суич): свързва устройства в локална мрежа.",
+    "description": "Ethernet switch & colorful ethernet cables."
+  },
+  "modem": {
+    "title": "File:ADSL modem.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/af/ADSL_modem_Huawei_MT882.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/ADSL_modem_Huawei_MT882.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:ADSL_modem_Huawei_MT882.jpg",
+    "author": "Bogdan1997 at Serbian Wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "ADSL модем: пример за устройство за връзка през определен вид линия.",
+    "description": "ADSL modem slikan mobilnim telefonom."
+  },
+  "nic": {
+    "title": "File:NIC-FA312.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/82/NIC-FA312.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/NIC-FA312.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:NIC-FA312.jpg",
+    "author": "Echoray at German Wikipedia\nLater versions were uploaded by Benedikt.Seidl at de.wikipedia.\n\n(Original text: Alwin Meschede (de:Benutzer:Echoray))",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "caption": "Мрежова карта: хардуер за обмен на данни с мрежата.",
+    "description": "Netzwerkkarte FA312 von Netgear, aus einem meiner de:Server."
+  },
+  "sound": {
+    "title": "File:Soundblaster Audigy2 ZS.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Soundblaster_Audigy2_ZS.jpg/960px-Soundblaster_Audigy2_ZS.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Soundblaster_Audigy2_ZS.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Soundblaster_Audigy2_ZS.jpg",
+    "author": "afrank99",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "Звукова карта: обработва входни и изходни звукови сигнали.",
+    "description": "Soundblaster Audigy2 ZS PCI Soundcard"
+  },
+  "ports": {
+    "title": "File:Computer ports.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Computer_ports.JPG/960px-Computer_ports.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Computer_ports.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Computer_ports.JPG",
+    "author": "The High Fin Sperm Whale",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "caption": "Панел с различни компютърни портове: формата и означението помагат да ги различим.",
+    "description": "Various ports on the back of a desktop computer. See image notes."
+  },
+  "usba": {
+    "title": "File:USB TypeA Plug.JPG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/USB_TypeA_Plug.JPG/960px-USB_TypeA_Plug.JPG",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/USB_TypeA_Plug.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:USB_TypeA_Plug.JPG",
+    "author": "Andreas Frank",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "caption": "USB-A: познатият правоъгълен накрайник.",
+    "description": "USB plug type A."
+  },
+  "usbc": {
+    "title": "File:USB Type-C plug 20170626.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/USB_Type-C_plug_20170626.jpg/960px-USB_Type-C_plug_20170626.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/USB_Type-C_plug_20170626.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:USB_Type-C_plug_20170626.jpg",
+    "author": "Santeri Viinamäki",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "caption": "USB-C: малък симетричен накрайник, който може да се постави и обърнат.",
+    "description": "USB Type-C plug."
+  },
+  "firewire": {
+    "title": "File:FireWire cables.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/FireWire_cables.jpg/960px-FireWire_cables.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/FireWire_cables.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:FireWire_cables.jpg",
+    "author": "Mikkel Paulson",
+    "license": "Public Domain",
+    "license_url": "https://web.archive.org/web/20230926203737/https://creativecommons.org/licenses/publicdomain/",
+    "caption": "FireWire: накрайници с 4 контакта (вляво) и 6 контакта (вдясно).",
+    "description": "4-pin (left) and 6-pin (right) FireWire connectors."
+  },
+  "hdmi": {
+    "title": "File:HDMI-Connector.jpg",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/HDMI-Connector.jpg/960px-HDMI-Connector.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/HDMI-Connector.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg",
+    "author": "Evan-Amos",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "HDMI накрайник: цифрова връзка за картина и звук.",
+    "description": "A standard HDMI connector for hooking up audio/visual equipment."
+  },
+  "dp": {
+    "title": "File:DisplayPort connector-male-front 20070410.jpg",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/DisplayPort_connector-male-front_20070410.jpg",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/DisplayPort_connector-male-front_20070410.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:DisplayPort_connector-male-front_20070410.jpg",
+    "author": "Rpt2000 at English Wikipedia",
+    "license": "Public domain",
+    "license_url": "",
+    "caption": "DisplayPort накрайник: връзка за дисплей; забележи скосения ъгъл.",
+    "description": "Pic of adapter"
+  },
+  "router": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg/960px-Orbi_770_Series_Wi-Fi_Router.jpg",
+    "caption": "Wi-Fi рутер — свързва устройствата в безжична мрежа.",
+    "source": "https://commons.wikimedia.org/wiki/File:Orbi_770_Series_Wi-Fi_Router.jpg",
+    "author": "TaurusEmerald",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Orbi_770_Series_Wi-Fi_Router.jpg"
+  },
+  "headphones": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg/960px-Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg",
+    "caption": "Безжични слушалки: пример за използване на Bluetooth.",
+    "source": "https://commons.wikimedia.org/wiki/File:Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg",
+    "author": "www.digitalpush.net",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sony-WH-1000XM3-kabellose-Bluetooth-Noise-Cancelling-Kopfhoerer.5.jpg"
+  }
+}

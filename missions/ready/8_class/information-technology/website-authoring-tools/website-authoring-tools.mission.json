@@ -1,0 +1,521 @@
+{
+  "mission_version": 4,
+  "mission_id": "c6efce67-1ec8-4452-8a57-d77acc8e3417",
+  "mission_content": {
+    "title": "Специализирани софтуерни средства за създаване на уеб сайтове",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Специализирани софтуерни средства за създаване на уеб сайтове",
+    "description": "По урок 16, стр. 46–47, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/intro.svg\" alt=\"Тема: Специализирани софтуерни средства за създаване на уеб сайтове Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Когато натиснеш връзка в училищен сайт, браузърът показва друга страница. Някой предварително е описал и подредил нейното съдържание.</p><p>Ще разбереш какво са страница, сайт и хипервръзка, как се различават видовете сайтове и с какви редактори се създават. Ще видиш конкретни примери за HTML и CSS, без да е необходимо да регистрираш профил или да публикуваш сайт.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "web",
+        "step_content": {
+          "type": "information",
+          "title": "От страница към страница в световната мрежа",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/web.svg\" alt=\"Начална страница: Виждаме „Нашето училище“ Връзка Галерия: Натискаме текста Браузър: Показва свързаната страница със снимки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Когато отвориш сайт на училище и натиснеш „Новини“, преминаваш към друга информация чрез връзка. Тази система от свързани страници е <strong>World Wide Web — WWW</strong>, световната уеб мрежа. Интернет е по-широката инфраструктура, чрез която използваме и други услуги.</p><p><strong>Хипертекст</strong> е текст, който съдържа връзки към друга информация. Връзката може да води до друга страница, файл или място в същата страница. Тя може да е поставена и върху изображение.</p><p>Страниците се разглеждат с <strong>браузър</strong>, например Edge, Chrome, Firefox или Safari. Браузърът прочита описанието на страницата и показва текста, изображенията и останалите елементи.</p><div class=\"example\">Пример: в страницата „Нашето училище“ натискаш „Галерия“. Отваря се колекция от снимки. Текстът „Галерия“ е бил хипервръзка, а браузърът е показал нейния адресат.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "web-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Хипервръзката може да води към друга страница."
+            },
+            {
+              "id": "2",
+              "text": "Браузърът показва уеб страници."
+            },
+            {
+              "id": "3",
+              "text": "Връзка може да има и върху изображение."
+            },
+            {
+              "id": "4",
+              "text": "Връзка може да води към част от същата страница."
+            },
+            {
+              "id": "5",
+              "text": "Надписът Галерия задължително е снимков файл, а не връзка."
+            },
+            {
+              "id": "6",
+              "text": "WWW означава всички възможни услуги в интернет без разлика."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "feedback": "Браузърът показва свързани документи. WWW е уеб услугата, а връзките могат да са текстови или графични и да имат различни цели."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "html",
+        "step_content": {
+          "type": "information",
+          "title": "HTML: описание, което браузърът разбира",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/html.svg\" alt=\"HTML файл: Описание на съдържанието &lt;p&gt; / &lt;strong&gt;: Абзац / важен текст На екрана: Здравейте, приятели!\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>HTML</strong> е език за описание и подреждане на съдържанието на уеб страница. Името идва от HyperText Markup Language. Не е нужно да помниш дългото английско име, за да разбереш идеята: отбелязваме кое е абзац, заглавие, изображение или връзка.</p><p>Отбелязванията се наричат <strong>тагове</strong> и се записват в ъглови скоби. Например <code>&lt;p&gt;</code> започва абзац, а <code>&lt;/p&gt;</code> го завършва. Самите скоби и тагове обикновено не се виждат като текст в готовата страница.</p><p>HTML документът е текстов файл, често с разширение <strong>.html</strong> или <strong>.htm</strong>. Той може да посочва и други ресурси: изображения, звук или видео. Браузърът ги използва, за да покаже страницата.</p><pre>&lt;p&gt;Здравейте, &lt;strong&gt;приятели&lt;/strong&gt;!&lt;/p&gt;</pre><div class=\"example\">Резултатът е абзац „Здравейте, приятели!“, в който думата <strong>приятели</strong> е подчертана чрез по-плътно изписване. Браузърът използва описанието, вместо да показва всички тагове.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "html-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за HTML са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "HTML файлът непременно е единствено фотография."
+            },
+            {
+              "id": "2",
+              "text": "Описва елементи на уеб страница."
+            },
+            {
+              "id": "3",
+              "text": "Браузърът винаги показва всички тагове като обикновен текст в страницата."
+            },
+            {
+              "id": "4",
+              "text": "Файлът може да има разширение .html."
+            },
+            {
+              "id": "5",
+              "text": "Таговете се записват в ъглови скоби."
+            },
+            {
+              "id": "6",
+              "text": "HTML може да посочва адрес на изображение."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "HTML описва съдържание и връзки към ресурси. Браузърът тълкува това описание, за да покаже страницата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "site",
+        "step_content": {
+          "type": "information",
+          "title": "Страница и сайт: една част и цялото",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/site.svg\" alt=\"Училищен сайт: Начало + Новини + Галерия + Контакти Страница Галерия: Една част от сайта CERN / Тим Бърнърс-Лий: Началото на Web; публично представяне през 1991 г.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Уеб страница</strong> е отделен документ с неговите ресурси, който браузърът показва. <strong>Уеб сайт</strong> е организирана съвкупност от тематично свързани страници под общ адрес. Една страница е част от сайта, както един раздел е част от книга.</p><p>В училищния пример сайтът има Начало, Новини, Галерия и Контакти. Менюто съдържа връзки към тези страници. Наличието на общо име и подредена навигация помага на посетителя да разбере къде се намира.</p><p>Първият уеб сайт е свързан с работата на Тим Бърнърс-Лий в CERN, Швейцария. Началните сървър и страници са от 1990 г.; на <strong>6 август 1991 г.</strong> проектът е представен по-широко извън CERN. Така разграничаваме създаването от публичното разпространяване.</p><div class=\"example\">Ако от Галерия отвориш Контакти, си сменил страницата, но може да останеш в същия училищен сайт. Ако натиснеш външна връзка, можеш да напуснеш този сайт.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "site-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Навигацията помага да намерим страниците."
+            },
+            {
+              "id": "2",
+              "text": "Една страница и цял многолистов сайт винаги са напълно едно и също понятие."
+            },
+            {
+              "id": "3",
+              "text": "Галерия и Контакти могат да са в един сайт."
+            },
+            {
+              "id": "4",
+              "text": "Смяната на страница винаги означава смяна на сайта."
+            },
+            {
+              "id": "5",
+              "text": "Тим Бърнърс-Лий и CERN са свързани с началото на Web."
+            },
+            {
+              "id": "6",
+              "text": "Сайтът може да съдържа няколко свързани страници."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Страницата е част, сайтът е организираното цяло. Връзките може да са вътрешни или външни; навигацията свързва частите."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "purposes",
+        "step_content": {
+          "type": "information",
+          "title": "Каква работа върши сайтът?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/purposes.svg\" alt=\"Цел: Какво трябва да намери или направи посетителят? Магазин: Разглеждане и покупка на стоки Блог: Последователни публикации\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>За да определим вида на сайт, първо гледаме <strong>за какво служи</strong>. Едно и също оформление може да се използва с различна цел, затова само цветът на фона не е достатъчен за класификация.</p><p><strong>Личен сайт</strong> представя човек или малка група. <strong>Блогът</strong> публикува последователни записи, често с възможност за коментари; не е задължително да има форум. <strong>Корпоративен сайт</strong> представя организация. <strong>Електронен магазин</strong> предлага стоки за покупка, а <strong>новинарски сайт</strong> публикува новини и репортажи.</p><p>В готовия училищен пример има сведения за училището, новини и контакти. Той има представителна и информационна цел. Един сайт може да съчетава функции, например представяне на клуб и раздел с неговите новини.</p><table><tr><th>Нужда</th><th>Подходящ пример</th></tr><tr><td>Представяне на фотограф</td><td>Личен сайт.</td></tr><tr><td>Покупка на спортни обувки</td><td>Електронен магазин.</td></tr><tr><td>Информация за училище</td><td>Сайт на организация.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "purposes-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Личен сайт — представяне на човек."
+            },
+            {
+              "id": "2",
+              "text": "Видът на сайта се определя единствено от цвета на фона."
+            },
+            {
+              "id": "3",
+              "text": "Блогът задължително трябва да съдържа отделен дискусионен форум."
+            },
+            {
+              "id": "4",
+              "text": "Корпоративен сайт — информация за организация."
+            },
+            {
+              "id": "5",
+              "text": "Електронен магазин — продажба на стоки."
+            },
+            {
+              "id": "6",
+              "text": "Новинарски сайт — новини и репортажи."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Класифицираме по предназначение. Сайтът може да съчетава роли; блог не означава непременно отделен форум."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "static",
+        "step_content": {
+          "type": "information",
+          "title": "Статичен сайт: подготвената страница се изпраща",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/static.svg\" alt=\"Файлове: index.html, gallery.html, contacts.html Посетител иска Контакти: Сървърът изпраща готовата страница Обновяване: Промяна и публикуване на новия файл\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Представи си папка с готови страници: index.html, gallery.html и contacts.html. Когато посетителят поиска Контакти, компютърът, който обслужва сайта, изпраща готовия файл. Този компютър наричаме <strong>сървър</strong>.</p><p>Това е основната идея на <strong>статичния сайт</strong>: съдържанието на страниците е подготвено предварително. Ако телефонният номер в contacts.html трябва да се промени, обновяваме съответния източник и публикуваните файлове.</p><p>Статичният сайт е удобен за малко представяне, чието съдържание не се променя непрекъснато. Това не означава, че всяка статична страница е без изображения, движение или бутони. Думата описва начина на подготвяне и изпращане, а не обещава конкретен външен вид или скорост.</p><div class=\"example\">Пример: туристически клуб има три готови страници с маршрути. Посетителите получават подготвеното съдържание; при нов маршрут авторът обновява сайта.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "static-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения описват показания статичен сайт?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Не може да има никакви изображения."
+            },
+            {
+              "id": "2",
+              "text": "Страниците са подготвени предварително."
+            },
+            {
+              "id": "3",
+              "text": "При промяна се обновяват съответните файлове."
+            },
+            {
+              "id": "4",
+              "text": "Подходящ е например за малък рядко променян сайт."
+            },
+            {
+              "id": "5",
+              "text": "Статичен означава гарантирано по-бърз от всеки друг сайт при всякакви условия."
+            },
+            {
+              "id": "6",
+              "text": "Сървърът може да изпрати готов HTML файл."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Статичността описва подготовката на съдържанието. Външният вид и реалната скорост зависят и от изображения, код, сървър и връзка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "dynamic",
+        "step_content": {
+          "type": "information",
+          "title": "Динамичен сайт: страницата се сглобява при заявка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/dynamic.svg\" alt=\"Избор на посетителя: Маратонки, номер 38 Данни + код + шаблон: Съставят подходящ списък CMS: Редактиране на съдържание през интерфейс\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В магазин искаш да видиш само обувките с номер 38. Сайтът може да използва заявката ти, наличните данни и готово оформление, за да състави подходящия списък. Това е пример за <strong>динамично създаване на страница</strong>.</p><p>В описания в учебника модел сървърът използва програмен код, данни и шаблон. <strong>База данни</strong> е организирано място за записи — например продукти, цени и наличности. <strong>Шаблонът</strong> определя общото подреждане.</p><p><strong>CMS</strong> е система за управление на съдържание. Чрез нея редактор може да добави новина или да поправи текст, без за всяка промяна да пише целия HTML на ръка. Статични и динамични подходи могат да се съчетават; по самия външен вид не винаги можем да докажем кой е използван.</p><div class=\"example\">В готовия пример са избрани размер 38 и категория „Маратонки“. Показват се два съответстващи продукта. Друг избор може да даде друг списък.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "dynamic-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Външният вид винаги доказва как е изграден сайтът."
+            },
+            {
+              "id": "2",
+              "text": "Базата данни може да съдържа продукти и цени."
+            },
+            {
+              "id": "3",
+              "text": "Всеки сайт с красива снимка задължително е динамичен."
+            },
+            {
+              "id": "4",
+              "text": "Динамичният модел може да съставя страница според заявката."
+            },
+            {
+              "id": "5",
+              "text": "CMS улеснява редактирането на съдържание."
+            },
+            {
+              "id": "6",
+              "text": "Шаблонът задава общо оформление."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Моделът свързва заявка, данни и оформление. CMS е средство за управление; самата картина на екрана не доказва вътрешната технология."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "editors",
+        "step_content": {
+          "type": "information",
+          "title": "С какви инструменти се създават страниците?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/editors.svg\" alt=\"Текстов редактор: Пишем HTML Визуален редактор: Подреждаме чрез интерфейс Настолен / онлайн: Програма на компютъра / работа през браузър\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Текстов редактор</strong> позволява да напишем HTML кода. Например във Visual Studio Code или Notepad++ можем да въведем таговете и да запазим .html файл. Браузърът показва резултата, а редакторът е мястото за промяна на описанието.</p><p><strong>Визуалният редактор</strong> предлага бутони и работно поле: добавяме текст, изображение или връзка, като виждаме оформлението. Настолният редактор е програма на компютъра. В учебника са посочени SeaMonkey Composer, Google Web Designer, Expression Web, BlueGriffon и WebSite X5; част от тези примери са по-стари или са предназначени за определени задачи.</p><p><strong>Онлайн редакторът</strong> се използва през браузър. Примери са Wix и Google Sites; WordPress предлага и управление на съдържание. Често започваме с шаблон, който после променяме. WebSite X5 е предимно настолно средство, затова не го приемаме автоматично за онлайн редактор.</p><div class=\"example\">За първа училищна страница визуалното добавяне на заглавие може да е по-лесно. Текстовият редактор дава пряк достъп до кода. Изборът зависи от задачата и уменията.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "editors-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "SeaMonkey Composer — визуално средство за страници."
+            },
+            {
+              "id": "2",
+              "text": "Браузърът и текстовият редактор винаги изпълняват една и съща роля."
+            },
+            {
+              "id": "3",
+              "text": "Notepad++ — текстов редактор."
+            },
+            {
+              "id": "4",
+              "text": "Google Sites — онлайн средство."
+            },
+            {
+              "id": "5",
+              "text": "Шаблонът може да бъде начало на визуален проект."
+            },
+            {
+              "id": "6",
+              "text": "Всеки инструмент за уеб дизайн има напълно еднакви функции."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Инструментите имат различни роли и обхват. Визуалната работа и писането на HTML са различни подходи към описване и подреждане на съдържанието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "online",
+        "step_content": {
+          "type": "information",
+          "title": "Разглеждаме онлайн редактор чрез готов пример",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/online.svg\" alt=\"Вмъкване: Текст, изображение и други елементи Страници: Начало и Дейности Теми / Преглед: Общ стил / проверка на резултата\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В задачите се предлага да се разгледат Google Sites и Wix. Тук използваме готов пример с ученически сайт „Нашият клуб“, без да изискваме регистрация. В работното поле има заглавна част, текст и изображение.</p><p>В типичен Google Sites изглед разделът <strong>Вмъкване</strong> предлага елементи за съдържание, <strong>Страници</strong> управлява страниците, а <strong>Теми</strong> променя общия стил. Точният интерфейс може да се изменя, но разграничението между съдържание, страници и оформление остава полезно.</p><p>В готовия пример е добавена страница „Дейности“, а в нея — текст и снимка. Прегледът показва как проектът изглежда в различни размери на прозореца. Запазването на чернова и публикуването са различни действия; разглеждането на редактора само по себе си не публикува сайт.</p><div class=\"example\">При анализ на училищен или образователен сайт проверяваме дали менюто води към желаната информация и дали страницата остава четима в тесен прозорец. Не заключаваме „статичен“ само защото виждаме текст и снимка.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "online-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са разграничени правилно?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Преглед помага да проверим изгледа."
+            },
+            {
+              "id": "2",
+              "text": "Темата влияе на общото оформление."
+            },
+            {
+              "id": "3",
+              "text": "Страници управлява страниците в примера."
+            },
+            {
+              "id": "4",
+              "text": "Вмъкване добавя съдържание."
+            },
+            {
+              "id": "5",
+              "text": "Самото отваряне на редактора винаги публикува сайта."
+            },
+            {
+              "id": "6",
+              "text": "Само по цвета на страницата доказваме статичен или динамичен модел."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "feedback": "Съдържание, структура, оформление, преглед и публикация са различни действия. Външният вид не доказва вътрешния модел."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "css",
+        "step_content": {
+          "type": "information",
+          "title": "CSS: дрехите на съдържанието",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/css.svg\" alt=\"HTML: Текстът е заглавие CSS преди: Син цвят CSS след: Зелен цвят; съдържанието е същото\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>HTML описва кое е заглавието и кое е абзацът. <strong>CSS</strong> задава как тези елементи да изглеждат — например размер, цвят, разстояния и разположение. Можем да сравним HTML с подреденото съдържание, а CSS с начина, по който го представяме.</p><p>В готовия пример заглавието „Нашият клуб“ е синьо и по-едро. Променяме стила му на зелен, без да сменяме самия текст. Ако няколко страници използват общ стил, една промяна може да им даде еднакво ново оформление.</p><p>Това разделяне улеснява поддръжката. Не е нужно във всеки абзац да повтаряме едни и същи инструкции за вид. CSS може да задава и движения и ефекти, но те трябва да помагат, а не да пречат на четенето.</p><div class=\"example\">Примерно правило: <code>h1 { color: green; }</code> задава зелен цвят за заглавията от този вид. Текстът „Нашият клуб“ остава същият.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "css-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Каква е разликата между HTML и CSS в примера „Нашият клуб“?</p><p>Обясни в 3–4 изречения със свои думи и използвай промяната на цвета като пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "HTML описва съдържанието и показва, че „Нашият клуб“ е заглавие. CSS определя вида му, например размер и цвят. Ако чрез CSS сменим синия цвят със зелен, текстът на заглавието остава същият. Общите стилове помагат страниците да изглеждат последователно. За самопроверка: различи съдържание и представяне; не описвай CSS като програма за купуване на домейн."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-authoring-tools/illustrations/summary.svg\" alt=\"1: Страниците са свързани чрез хипервръзки и се показват от браузър. 2: Сайтът е организирано цяло от тематично свързани страници. 3: Статичният модел изпраща подготвени страници; динамичният може да ги съставя според заявката. 4: Редакторите могат да са текстови или визуални, настолни или онлайн. 5: HTML описва съдържанието, CSS — неговото представяне.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Страниците са свързани чрез хипервръзки и се показват от браузър.</strong></li><li><strong>Сайтът е организирано цяло от тематично свързани страници.</strong></li><li><strong>Статичният модел изпраща подготвени страници; динамичният може да ги съставя според заявката.</strong></li><li><strong>Редакторите могат да са текстови или визуални, настолни или онлайн.</strong></li><li><strong>HTML описва съдържанието, CSS — неговото представяне.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "155f0c4e-9df5-4b67-9a1d-474f6728b104"
+}

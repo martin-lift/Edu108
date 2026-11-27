@@ -1,0 +1,521 @@
+{
+  "mission_version": 4,
+  "mission_id": "becb3f4b-129e-4ce4-a82d-42dfdf5c10ef",
+  "mission_content": {
+    "title": "Инсталиране и деинсталиране на програми",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Инсталиране и деинсталиране на програми",
+    "description": "По урок 11, стр. 33–36, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/intro.svg\" alt=\"Тема: Инсталиране и деинсталиране на програми Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>За снимка, текст и архив използваме различни програми. В този урок ще разбереш как ги избираме, какво означават условията им за използване и как се добавят или премахват от компютъра.</p><p>Ще проследим готови примери с Bandizip и OpenOffice. После ще разграничим Диспечера на устройства от Диспечера на задачите. Не е необходимо да инсталираш, премахваш или спираш програми на този компютър.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "software",
+        "step_content": {
+          "type": "information",
+          "title": "Защо добавяме програми?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/software.svg\" alt=\"Задача: Обработка на снимка за картичка Избор: Програма за изображения Проверка: Условия за използване и съвместимост\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Операционната система управлява компютъра и обикновено предлага няколко основни приложения. Когато искаш да обработиш снимка или да направиш по-сложна презентация, може да е нужна друга програма. <strong>Инсталиране</strong> означава да я добавим и подготвим за работа в системата.</p><p>Представи си кутия с инструменти. Един инструмент е удобен за текст, друг — за рисунка, трети — за звук. Не избираме програма само защото е известна, а според задачата, която трябва да изпълним.</p><p>Програмите имат автори и условия за използване, наричани <strong>лиценз</strong>. Правото да използваме една програма не означава автоматично право да я променяме или да раздаваме копия от нея. Някои програми се купуват, други са предоставени без заплащане при определени условия.</p><div class=\"example\">Ива иска да направи картичка. Първо определя нуждата: редактиране на изображение. След това избира подходяща програма и проверява условията за използването ѝ.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "software-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са разумни при избор на програма?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Съобразяваме избора с възможностите на компютъра."
+            },
+            {
+              "id": "2",
+              "text": "Различаваме използване на програма от право да я променяме."
+            },
+            {
+              "id": "3",
+              "text": "Избираме винаги само по най-красивата икона."
+            },
+            {
+              "id": "4",
+              "text": "Първо определяме за каква задача ни трябва."
+            },
+            {
+              "id": "5",
+              "text": "Приемаме, че всяка намерена програма може да се раздава без ограничения."
+            },
+            {
+              "id": "6",
+              "text": "Проверяваме условията за използване."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Задачата, съвместимостта и лицензът насочват избора. Иконата не показва пригодността, а намирането на копие не дава всички права върху него."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "free",
+        "step_content": {
+          "type": "information",
+          "title": "Свободна и безплатна програма: има разлика",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/free.svg\" alt=\"Програма А: Използване + изучаване + промяна + споделяне Програма Б: Безплатно използване с ограничения в лиценза Извод: Цена и предоставени права са различни неща\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Свободен софтуер — free software</strong> дава права за използване, изучаване, промяна и разпространение според лиценза. За изучаване и промяна е необходим и достъп до програмния код — описанието, по което е създадена програмата. Думата „свободен“ говори за права, а не непременно за нулева цена.</p><p><strong>Freeware</strong> обикновено наричаме програма, която може да се използва без заплащане, но не дава всички тези свободи. Точните права се проверяват в лиценза. Безплатното използване не означава, че можем да преправяме програмата.</p><p>За ученически проект може да са подходящи и двата вида, ако позволяват нужната работа. Важното е да разбираме условията, вместо да смесваме „не плащам“ с „мога да правя всичко“.</p><div class=\"example\">Програма А позволява използване, промяна на кода и споделяне при описани условия. Програма Б позволява безплатно използване, но не и промяна. А е пример за свободен софтуер; само цената на Б не я прави свободна.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "free-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения разграничават правилно свободния и безплатния софтуер?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "За freeware проверяваме точните условия в лиценза."
+            },
+            {
+              "id": "2",
+              "text": "Нулевата цена винаги означава право да преправяме програмата."
+            },
+            {
+              "id": "3",
+              "text": "Всяка безплатна програма е свободен софтуер."
+            },
+            {
+              "id": "4",
+              "text": "Свободният софтуер предоставя права за изучаване и промяна."
+            },
+            {
+              "id": "5",
+              "text": "Достъпът до програмния код е важен за изучаване и промяна."
+            },
+            {
+              "id": "6",
+              "text": "Думата „свободен“ се отнася до предоставени права."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Свободата описва права, а безплатността — цена. Freeware не гарантира достъп до код или право на промяна; точният лиценз има значение."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "limited",
+        "step_content": {
+          "type": "information",
+          "title": "Пробни версии и ограничени възможности",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/limited.svg\" alt=\"Trialware: Пробен период Demo: Показване с конкретни ограничения Freemium / Adware: Платени допълнения / показване на реклами\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Понякога програмата може да се опита, преди да се закупи. <strong>Shareware</strong> е модел на разпространение за изпробване, при който продължителното използване или допълнителните възможности може да изискват плащане. Не го приемаме като обещание за неограничено безплатно използване.</p><p>Учебникът представя и няколко други означения. <strong>Trialware</strong> работи пробно за определен период. <strong>Demo</strong> показва възможностите с ограничения — например без запазване в конкретната демонстрационна версия. <strong>Freemium</strong> предлага основни функции без заплащане и допълнителни платени. При <strong>adware</strong> се показват реклами.</p><p>Тези названия описват различни ограничения и модели; не всяка програма попада точно в една кутия. Четем какво важи за конкретната версия, а не предполагаме само по названието.</p><table><tr><th>Готов пример</th><th>Какво означава?</th></tr><tr><td>Пробен редактор за 14 дни</td><td>След срока важат условията за продължаване.</td></tr><tr><td>Безплатно рисуване, платен допълнителен ефект</td><td>Пример за freemium.</td></tr><tr><td>Демонстрация без запис на резултата</td><td>Тази версия има функционално ограничение.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "limited-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Freemium — безплатни основни и платени допълнителни функции."
+            },
+            {
+              "id": "2",
+              "text": "Adware — възможно показване на реклами."
+            },
+            {
+              "id": "3",
+              "text": "Проверяваме условията на конкретната версия."
+            },
+            {
+              "id": "4",
+              "text": "Shareware гарантира неограничено безплатно използване за всякакви цели."
+            },
+            {
+              "id": "5",
+              "text": "Trialware — използване за определен пробен период."
+            },
+            {
+              "id": "6",
+              "text": "Demo винаги означава пълна версия без никакви ограничения."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Означенията помагат да разпознаем моделите, но условията на версията определят действителните възможности. Пробното и демонстрационното издание може да имат ограничения."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "before-install",
+        "step_content": {
+          "type": "information",
+          "title": "Какво проверяваме преди инсталиране?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/before-install.svg\" alt=\"Setup.exe: Файл, който стартира инсталацията Проверяваме: ОС, памет, свободно място и указания Преносима версия: Използване без обичайната инсталация\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Инсталационният файл стартира подготовката на програмата. В Windows често срещаме име като <strong>Setup.exe</strong>, но се използват и други имена и формати. Това не е документът, който ще създадем с програмата.</p><p>Преди инсталиране сравняваме изискванията с компютъра: поддържана операционна система, необходима памет и свободно място. Прочитаме указанията. За <strong>преносима програма</strong> обикновено не се изпълнява обичайната инсталационна процедура — подготвените файлове се стартират от папка.</p><p>Инсталацията може да създаде папки, да копира файлове и да добави нужните настройки и връзки към системата. В училищна среда това може да изисква администратор. В тази мисия проследяваме готов пример, без да инсталираме.</p><table><tr><th>Условна програма</th><th>Учебен компютър</th><th>Извод</th></tr><tr><td>Изисква 4 GB RAM</td><td>Има 8 GB RAM</td><td>Това изискване е изпълнено.</td></tr><tr><td>Нужни 500 MB свободни</td><td>Има 2 GB свободни</td><td>Свободното място е достатъчно.</td></tr><tr><td>Поддържа Windows 11</td><td>Използва Windows 11</td><td>Системата съвпада.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "before-install-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Setup.exe е задължителното име на всеки създаден от нас документ."
+            },
+            {
+              "id": "2",
+              "text": "За някои компютри са нужни администраторски права."
+            },
+            {
+              "id": "3",
+              "text": "Достатъчно е да има свободно място, без да ни интересува поддържаната операционна система."
+            },
+            {
+              "id": "4",
+              "text": "Преди инсталация проверяваме системните изисквания."
+            },
+            {
+              "id": "5",
+              "text": "Преносимата версия обикновено не изисква обичайната инсталация."
+            },
+            {
+              "id": "6",
+              "text": "Инсталацията може да създаде папки и настройки."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Съвместимостта има няколко условия, а инсталацията подготвя файлове и настройки. Setup.exe е често срещан инсталационен файл, не име на потребителски документ."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "bandizip",
+        "step_content": {
+          "type": "information",
+          "title": "Обяснен пример: инсталиране на Bandizip",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/bandizip.svg\" alt=\"Език: Български в показания пример Папка: C:\\Program Files\\Bandizip Agree and Install: Приемане на условията и начало на инсталацията Резултат: Програмата е подготвена за работа\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В примера от учебника е използван файл <strong>BANDIZIP-SETUP.EXE</strong>. След отварянето му се показва прозорец с избор на език, място за инсталиране и условия за използване. Това са части на инсталационната процедура, а не готов архив.</p><p>Примерният избор на език е български. Предложената папка е <strong>C:\\Program Files\\Bandizip</strong>. Program Files е обичайно място за много настолни програми, но не единственото възможно място за всяко приложение.</p><p>След прочитане и приемане на условията бутонът <strong>Agree and Install</strong> започва инсталацията. При приключване може да има настройки за програмата и за това кои потребители да я използват. Точните прозорци зависят от версията.</p><div class=\"example\">Готов резултат: на учебния компютър Bandizip вече е подготвен за работа и се отваря неговият прозорец. Името на инсталационния файл, папката на програмата и създаденият по-късно ZIP архив са три различни неща.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "bandizip-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи следват от примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "BANDIZIP-SETUP.EXE е името на всеки бъдещ архив."
+            },
+            {
+              "id": "2",
+              "text": "Program Files е обичайна папка за много настолни програми."
+            },
+            {
+              "id": "3",
+              "text": "Инсталационният прозорец може да предлага избор на език."
+            },
+            {
+              "id": "4",
+              "text": "След инсталацията може да има допълнителни настройки."
+            },
+            {
+              "id": "5",
+              "text": "Agree and Install се използва за извличане на снимки от ZIP архив."
+            },
+            {
+              "id": "6",
+              "text": "Точният изглед на прозорците може да зависи от версията."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Примерът показва подготовката на програмата. Езикът, папката и настройките са част от нея. Инсталационният файл не е ZIP архив и не определя имената на бъдещите архиви."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "uninstall",
+        "step_content": {
+          "type": "information",
+          "title": "Деинсталиране: правилно премахване на програма",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/uninstall.svg\" alt=\"Изтриване на икона: Обикновено премахва само прекия път Programs and Features: Списък на инсталирани програми Uninstall: Премахване на избраното приложение\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Деинсталиране</strong> означава премахване на инсталирана програма чрез предназначения за това механизъм. Самото изтриване на нейната икона от работния плот обикновено премахва само прекия път, а не цялата програма.</p><p>В учебния пример е отворен <strong>Control Panel — Контролен панел</strong>, след това <strong>Programs and Features — Програми и компоненти</strong>. В списъка е избран Bandizip и командата <strong>Uninstall — Деинсталирай</strong>. Потвърждава се точно избраната програма.</p><p>В по-нов Windows същата цел може да се постигне и през Настройки → Приложения → Инсталирани приложения. Изгледите се различават, но смисълът е един: избира се конкретното приложение и се използва командата за премахването му. Може да са нужни администраторски права.</p><div class=\"example\">Преди действието всички нужни документи са записани. След премахването се проверява дали е отстранена правилната програма. Не се изтриват наслуки системни файлове или общи компоненти.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "uninstall-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия описват деинсталиране?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Използва се Uninstall или съответната команда за премахване."
+            },
+            {
+              "id": "2",
+              "text": "Изтриват се произволни системни файлове, за да освободим повече място."
+            },
+            {
+              "id": "3",
+              "text": "Изтриването на икона винаги премахва цялата програма."
+            },
+            {
+              "id": "4",
+              "text": "Избира се точното приложение от списъка."
+            },
+            {
+              "id": "5",
+              "text": "На някои компютри са нужни администраторски права."
+            },
+            {
+              "id": "6",
+              "text": "Преди това се запазва нужната работа."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Деинсталирането използва предназначена команда за конкретната програма. Изтриването на пряк път не е същото действие, а произволното премахване на системни файлове не е правилна процедура."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "office",
+        "step_content": {
+          "type": "information",
+          "title": "Пакет от приложения и още един архиватор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/office.svg\" alt=\"OpenOffice: Текст, таблици, презентации IZArc / Bandizip: Работа с архиви Избор на инструмент: Според задачата и условията за използване\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Софтуерен пакет</strong> събира няколко приложения за свързани задачи. В учебника е даден Apache OpenOffice. В него има средства за текст, електронни таблици и презентации. Това са сходни видове задачи с тези в Microsoft Office, макар интерфейсите и възможностите да не са еднакви.</p><p>Примерният инсталационен файл от учебника подготвя приложенията и може да предложи език и компоненти. Не е необходимо да инсталираме този стар файл, за да разберем процедурата. За истинска инсталация се проверяват актуалното официално издание и изискванията му.</p><p>В заключителните задачи се споменава и <strong>IZArc</strong> — друга програма за работа с архиви. Общият начин на мислене остава: проверяваме източника, условията и съвместимостта, проследяваме инсталацията и при нужда използваме правилно деинсталиране.</p><div class=\"example\">В готово сравнение OpenOffice е избран за създаване на таблица, а IZArc — за отваряне на архив. Различните задачи изискват различни инструменти, въпреки че и двата са приложен софтуер.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "office-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Преди реална инсталация се проверяват актуалното издание и изискванията."
+            },
+            {
+              "id": "2",
+              "text": "Пакетът може да съдържа приложения за различни свързани задачи."
+            },
+            {
+              "id": "3",
+              "text": "IZArc е споменат като архивираща програма."
+            },
+            {
+              "id": "4",
+              "text": "OpenOffice предлага средства за текст и таблици."
+            },
+            {
+              "id": "5",
+              "text": "Името на програма заменя необходимостта да знаем за каква задача я използваме."
+            },
+            {
+              "id": "6",
+              "text": "Всички приложни програми имат еднакво предназначение."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "feedback": "Пакетът събира приложения, а отделните инструменти имат различни предназначения. При избор и инсталиране задачата и съвместимостта остават важни."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "problems",
+        "step_content": {
+          "type": "information",
+          "title": "Хардуерен или софтуерен проблем?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/problems.svg\" alt=\"Device Manager: Списък на хардуерните устройства Properties: Данни за избраното устройство „Компютърът е бавен“: Недостатъчно за сигурна диагноза\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Когато нещо не работи, първо описваме какво наблюдаваме. <strong>Хардуерът</strong> са физическите части — памет, процесор, видеокарта, кабели и периферни устройства. <strong>Софтуерът</strong> са операционната система и програмите.</p><p>Слабата работа на компютъра може да има различни причини. Разкачен мрежов кабел е физическа причина. Грешка в приложение е софтуерна. Само по едно наблюдение като „бавен е“ не можем сигурно да посочим виновната част.</p><p>В <strong>Device Manager — Диспечер на устройства</strong> могат да се видят групите хардуер и свойствата на конкретно устройство. Пътят в готовия пример е търсене на Device Manager → избрана група → устройство → Properties. Това дава информация, но не означава автоматична диагноза.</p><table><tr><th>Наблюдение</th><th>Извод в дадения пример</th></tr><tr><td>Мрежовият кабел е разкачен</td><td>Първо се проверява физическата връзка.</td></tr><tr><td>Само една програма не отговаря</td><td>Разглежда се работата на приложението.</td></tr><tr><td>Всичко е бавно</td><td>Нужни са допълнителни наблюдения.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "problems-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са обосновани?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Диспечерът на устройства показва хардуера."
+            },
+            {
+              "id": "2",
+              "text": "„Бавно работи“ може да има различни причини."
+            },
+            {
+              "id": "3",
+              "text": "Properties отваря данни за избраното устройство."
+            },
+            {
+              "id": "4",
+              "text": "Една неотговаряща програма непременно доказва повреден процесор."
+            },
+            {
+              "id": "5",
+              "text": "Всяко затруднение се решава с изтриване на драйвера."
+            },
+            {
+              "id": "6",
+              "text": "Разкаченият кабел е физически проблем с връзката."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Наблюденията насочват проверката, но не всяко затруднение доказва конкретна хардуерна повреда. Device Manager дава информация за устройства; произволното изтриване не е диагноза."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "task-manager",
+        "step_content": {
+          "type": "information",
+          "title": "Когато едно приложение не отговаря",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/task-manager.svg\" alt=\"Processes: Приложения + фонови и системни процеси Учебен редактор: Не отговаря; примерна употреба на CPU 40% End Task: Прекратява работата, без да деинсталира\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Task Manager — Диспечер на задачите</strong> показва изпълняваните приложения и процеси. Процесът е работеща задача на системата. В списъка има и фонови процеси, които работят без отделен видим прозорец.</p><p>В готовия пример прозорецът е отворен от контекстното меню на Start. В раздела <strong>Processes — Процеси</strong> са разгледани приложенията. Неотговарящият „Учебен редактор“ използва 40% от процесора в момента на наблюдението; това е примерна стойност, а не измерване на твоя компютър.</p><p>След като е избрано точно това приложение, <strong>End Task — Край на задачата</strong> прекратява работата му. Незапазената работа може да се изгуби. Затова първо се опитва нормално записване и затваряне; не се прекратяват произволно системни и фонови процеси.</p><div class=\"example\">След прекратяването неотговарящият прозорец изчезва. Това показва край на работата му, но не деинсталира програмата. При следващо стартиране тя все още може да се отвори.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "task-manager-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Каква е разликата между End Task и деинсталиране в показания пример?</p><p>Обясни в 3–4 изречения със свои думи, като използваш „Учебен редактор“ за пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "End Task прекратява текущата работа на Учебния редактор и неговият прозорец се затваря. Програмата остава инсталирана и може да бъде стартирана отново. Деинсталирането премахва инсталираното приложение чрез предназначената команда. Преди прекратяване опитваме да запазим работата, защото незаписаното може да се изгуби. За самопроверка: различи спиране на работеща задача от премахване на програмата; не ги смесвай с изтриване на икона."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/program-installation/illustrations/summary.svg\" alt=\"1: Избираме софтуер според задачата, лиценза и съвместимостта. 2: Свободен и безплатен не означават едно и също. Пробните версии могат да имат ограничения. 3: Инсталацията подготвя файлове и настройки. Деинсталацията премахва програмата. 4: Диспечерът на устройства показва хардуера. Наблюдението само по себе си не е диагноза. 5: End Task спира работеща задача. То не деинсталира приложението и може да загуби незапазената работа.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Избираме софтуер според задачата, лиценза и съвместимостта.</strong></li><li><strong>Свободен и безплатен не означават едно и също.</strong> Пробните версии могат да имат ограничения.</li><li><strong>Инсталацията подготвя файлове и настройки.</strong> Деинсталацията премахва програмата.</li><li><strong>Диспечерът на устройства показва хардуера.</strong> Наблюдението само по себе си не е диагноза.</li><li><strong>End Task спира работеща задача.</strong> То не деинсталира приложението и може да загуби незапазената работа.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "568f2a33-a6c3-4dab-b824-27afee6d2275"
+}

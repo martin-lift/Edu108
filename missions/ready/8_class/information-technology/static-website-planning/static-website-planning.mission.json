@@ -1,0 +1,635 @@
+{
+  "mission_version": 4,
+  "mission_id": "155f0c4e-9df5-4b67-9a1d-474f6728b104",
+  "mission_content": {
+    "title": "Проектиране на статичен уеб сайт",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Проектиране на статичен уеб сайт",
+    "description": "По урок 17, стр. 48–49, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/intro.svg\" alt=\"Тема: Проектиране на статичен уеб сайт Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Полезният сайт започва с план, а не с произволно подреждане на картинки. Ще проследиш как тема, цел и аудитория насочват съдържанието и вида му.</p><p>Ще разгледаш всички етапи от проектирането до поддръжката, включително структура, текст, изображения, навигация, проверки и откриване в търсачките. Примерите за спортен клуб и магазин показват защо различните цели водят до различни решения.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "purpose",
+        "step_content": {
+          "type": "information",
+          "title": "Първо: тема, цел и посетители",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/purpose.svg\" alt=\"Тема: Училищен спортен клуб Цел: Лесно намиране на графика Аудитория: Ученици и родители\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Преди да изберем красив фон, трябва да знаем <strong>за какво ще бъде сайтът</strong>. Темата определя предмета: например училищен спортен клуб. Целта показва какво искаме да постигнем: да информираме за тренировките и да привлечем участници.</p><p><strong>Аудитория</strong> наричаме хората, към които е насочен сайтът. Ако са ученици, информацията за мястото и часа на тренировките трябва да е лесна за намиране. За родителите може да са важни и контактите с отговорното лице.</p><p>Темата, целта и аудиторията си влияят. Сайт за продажба на спортни обувки има друга задача от сайт за историята на спорта. Не копираме едно оформление, без да преценим нуждите.</p><div class=\"example\">Готов план: тема „Нашият спортен клуб“; цел „учениците да намират графика“; аудитория „ученици и родители“. Затова още на началната страница има ясна връзка „Тренировки“.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "purpose-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения са свързани с доброто начално планиране?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Уточняваме какво трябва да постигне сайтът."
+            },
+            {
+              "id": "2",
+              "text": "Приемаме, че всеки сайт има една и съща цел."
+            },
+            {
+              "id": "3",
+              "text": "Определяме темата."
+            },
+            {
+              "id": "4",
+              "text": "Поставяме важното за аудиторията на достъпно място."
+            },
+            {
+              "id": "5",
+              "text": "Избираме всичко само по любимия си цвят."
+            },
+            {
+              "id": "6",
+              "text": "Мислим кои хора ще го използват."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Темата, целта и посетителите насочват съдържанието и оформлението. Любимият цвят сам по себе си не решава потребностите на аудиторията."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "stages",
+        "step_content": {
+          "type": "information",
+          "title": "Пътят от идея до поддържан сайт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/stages.svg\" alt=\"План → разработване: Решенията стават страници Публикуване → популяризиране: Достъп и достигане до аудиторията Поддържане: Актуален график и работещи връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Създаването на сайт не завършва с първата страница. В учебника са описани пет свързани етапа: <strong>проектиране, разработване, публикуване, популяризиране и поддържане</strong>.</p><p>При проектирането решаваме какво и за кого ще има. При разработването създаваме страниците и връзките. Публикуването прави готовото съдържание достъпно на уеб адрес. Популяризирането помага хората да научат за сайта. Поддържането пази информацията вярна и работеща.</p><p>Тези етапи може да се повтарят. След нова идея или открита грешка се връщаме към плана, променяме и проверяваме. Това не е неуспех, а нормална работа по сайт.</p><div class=\"example\">Пример: клубът публикува график. След промяна на часа на тренировките редакторът обновява страницата и проверява връзката към нея. Публикуването на стария график не е последната работа.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "stages-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "След първата публикация всички етапи са забранени за повторение."
+            },
+            {
+              "id": "2",
+              "text": "Разработване — създаваме страниците."
+            },
+            {
+              "id": "3",
+              "text": "Популяризиране — помагаме на хората да научат за сайта."
+            },
+            {
+              "id": "4",
+              "text": "Публикуване — правим сайта достъпен на адрес."
+            },
+            {
+              "id": "5",
+              "text": "Поддържане — никога не променяме остарялата информация."
+            },
+            {
+              "id": "6",
+              "text": "Проектиране — планираме съдържанието."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Петте етапа са свързани и могат да се повтарят. Поддръжката включва обновяване и поправки."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "content",
+        "step_content": {
+          "type": "information",
+          "title": "Какво съдържание и какви функции са нужни?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/content.svg\" alt=\"Съдържание: Текст, график, снимки Функции: Меню, търсене, контакт Проверка: Помагат ли на целта и аудиторията?\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Съдържанието е онова, което посетителят прочита, вижда или чува. Функцията е онова, което може да направи — например да отвори график, да потърси информация или да изпрати съобщение чрез форма.</p><p>За спортния клуб избираме кратко представяне, график, снимки и контакти. Ако целта е само да се намери час за тренировка, не е необходим електронен магазин. Всяка допълнителна функция трябва да има причина.</p><p>При планирането описваме и материалите: текст, изображения, анимация, звук или видео. Връзки към социални страници и форми за обратна връзка може да са полезни, ако отговарят на целта и има кой да ги поддържа.</p><table><tr><th>Нужда</th><th>Съдържание или функция</th></tr><tr><td>Кога е тренировката?</td><td>Актуален график.</td></tr><tr><td>Къде е залата?</td><td>Описание, адрес и карта при нужда.</td></tr><tr><td>Искам да попитам нещо</td><td>Контакт или подходяща форма.</td></tr></table><div class=\"example\">Добър избор е не най-дългият списък с ефекти, а малък набор, който действително помага на посетителя.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "content-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения са подходящи за сайта на клуба?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Снимки, които представят дейността."
+            },
+            {
+              "id": "2",
+              "text": "Контакт за въпроси."
+            },
+            {
+              "id": "3",
+              "text": "Функции, съобразени с целта."
+            },
+            {
+              "id": "4",
+              "text": "Задължително добавяне на всеки възможен ефект, дори да пречи."
+            },
+            {
+              "id": "5",
+              "text": "Актуален график за тренировките."
+            },
+            {
+              "id": "6",
+              "text": "Липса на информация за часа, защото фонът е красив."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Съдържанието и функциите трябва да решават реални нужди. Ефектите не заменят полезната информация."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "structure",
+        "step_content": {
+          "type": "information",
+          "title": "Подреждаме страниците като карта",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/structure.svg\" alt=\"Начало: За клуба / Тренировки / Галерия / Контакти Вътрешни страници: Общо меню и връзка към Начало Карта на сайта: Подреден списък с връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Структурата</strong> показва какви страници има и как са свързани. Ако ги нарисуваме предварително, по-лесно виждаме дали нещо липсва и дали посетителят ще стигне до него.</p><p>В готовия пример Начало води към За клуба, Тренировки, Галерия и Контакти. Всяка вътрешна страница има връзка обратно към Начало. При по-голям сайт може да има и подстраници, например отделни спортове.</p><p><strong>Карта на сайта</strong> може да е страница със списък от връзки към разделите. Тя помага на хората да видят цялото подреждане. Не заменя ясно меню; двете могат да работят заедно.</p><div class=\"example\">Проверка на плана: ученик отваря Галерия, после чрез менюто намира Тренировки, без да използва бутона Назад много пъти. Значи основните раздели са достъпни един от друг.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "structure-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения улесняват структурата?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Различно случайно меню във всяка страница."
+            },
+            {
+              "id": "2",
+              "text": "Връзка към Начало от вътрешните страници."
+            },
+            {
+              "id": "3",
+              "text": "Връзки между основните раздели."
+            },
+            {
+              "id": "4",
+              "text": "Предварителен списък на страниците."
+            },
+            {
+              "id": "5",
+              "text": "Карта на сайта при подходяща нужда."
+            },
+            {
+              "id": "6",
+              "text": "Скрита страница без никаква връзка към нея за най-важния график."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Структурата и постоянната навигация помагат на посетителя да се ориентира. Важното съдържание трябва да е достижимо."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "text-design",
+        "step_content": {
+          "type": "information",
+          "title": "Четим текст и спокойни цветове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/text-design.svg\" alt=\"Текст: Кратки абзаци и ясни заглавия Цветове: Бял фон; тъмносин текст; зелен акцент Шрифтове: Малък последователен набор\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Човек обикновено търси отговор, а не иска да разгадава страницата. Затова текстът трябва да е ясен, разделен на кратки абзаци и с точни заглавия. Прекалено дългите редове и дребните букви затрудняват четенето.</p><p>В примера използваме един основен шрифт за текста и при нужда втори за заглавията. Препоръката от учебника за малко шрифтове помага на начинаещите, но не е техническа забрана за повече.</p><p>Цветовете също имат роля. Светъл фон и тъмен текст дават добър контраст. Един акцент може да подчертава важния бутон. Палитра от няколко съгласувани цвята е по-лесна за поддържане от множество случайни цветове.</p><div class=\"example\">Готов избор: бял фон, тъмносин текст и зелен акцент за „График“. Заглавието е по-едро от основния текст. Посетителят вижда кое е важно, без всички думи да са ярки и мигащи.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "text-design-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои избори помагат за четимостта?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Мигащ акцент върху всяка дума."
+            },
+            {
+              "id": "2",
+              "text": "Кратки подредени абзаци."
+            },
+            {
+              "id": "3",
+              "text": "Контрастен текст спрямо фона."
+            },
+            {
+              "id": "4",
+              "text": "Точни заглавия."
+            },
+            {
+              "id": "5",
+              "text": "Последователни шрифтове и цветове."
+            },
+            {
+              "id": "6",
+              "text": "Много дребен светлосив текст върху бяло."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Четимостта зависи от подредба, размер, контраст и последователност. Случайните ефекти и слабият контраст затрудняват посетителя."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "images-navigation",
+        "step_content": {
+          "type": "information",
+          "title": "Снимки и меню, които помагат",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/images-navigation.svg\" alt=\"Полезна снимка: Залата, за която се отнася графикът Ясна връзка: „Тренировки“ Постоянно меню: Едни и същи основни раздели\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Изображението трябва да допълва информацията. Снимка на залата помага да разпознаем мястото за тренировки; случайна снимка без връзка с темата заема място, без да отговаря на въпрос.</p><p>Учебникът посочва PNG, GIF и JPG. Избираме подходящ размер и количество, така че страницата да не се зарежда излишно бавно. За важните изображения има кратко текстово описание. Използват се материали, за които имаме нужните права.</p><p><strong>Навигацията</strong> е системата от менюта и връзки. Тя се различава ясно от основния текст. Надпис „График“ е по-разбираем от „Кликни тук“, ако посетителят търси тренировките.</p><div class=\"example\">В готовия пример на всички страници има едни и същи четири основни връзки. Посетителят не е принуден да учи ново меню всеки път. Снимките са намалени до необходимия за показване размер.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "images-navigation-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения са полезни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Ново случайно меню на всяка страница."
+            },
+            {
+              "id": "2",
+              "text": "Все повече огромни снимки независимо от скоростта и целта."
+            },
+            {
+              "id": "3",
+              "text": "Снимка, която обяснява съдържанието."
+            },
+            {
+              "id": "4",
+              "text": "Постоянна навигация между основните раздели."
+            },
+            {
+              "id": "5",
+              "text": "Ясни надписи на връзките."
+            },
+            {
+              "id": "6",
+              "text": "Подходящ размер на изображенията."
+            }
+          ],
+          "correct_option_ids": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Съдържанието, размерите и навигацията служат на потребителя. Излишният обем и непоследователността пречат."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "testing",
+        "step_content": {
+          "type": "information",
+          "title": "Проверяваме преди публикуване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/testing.svg\" alt=\"Връзки: Водят ли до правилната страница? Изглед: Четимо ли е в различни размери? Зареждане: Няма ли излишно тежки файлове?\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Красивата начална страница не доказва, че целият сайт работи. Връзката към Контакти може да е грешна, една снимка да липсва, а менюто да излиза извън тесен екран. Затова проверяваме реалните действия.</p><p>В готовия пример са отворени всички страници. Натиснати са вътрешните и външните връзки. Изгледът е проверен в различни браузъри и при широк и тесен прозорец. Разгледано е и зареждането при по-бавна връзка.</p><p>При намерена грешка се поправя източникът и проверката се повтаря. Ако страницата има формуляр, трябва да се провери и очакваният резултат, а не само видът на полетата.</p><table><tr><th>Проверка</th><th>Наблюдение</th><th>Решение</th></tr><tr><td>Контакти</td><td>Отваря се грешна страница</td><td>Поправена връзка.</td></tr><tr><td>Тесен прозорец</td><td>Менюто не се събира</td><td>Променено подреждане.</td></tr><tr><td>Снимки</td><td>Зареждат се бавно</td><td>Подходящи по-малки файлове.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "testing-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои проверки са необходими?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Само дали любимият ни цвят е използван."
+            },
+            {
+              "id": "2",
+              "text": "Работят ли връзките."
+            },
+            {
+              "id": "3",
+              "text": "Само началната страница, без останалите."
+            },
+            {
+              "id": "4",
+              "text": "Показват ли се изображенията."
+            },
+            {
+              "id": "5",
+              "text": "Как се зарежда съдържанието."
+            },
+            {
+              "id": "6",
+              "text": "Четима ли е страницата в тесен прозорец."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Тестването проверява функционалност, съдържание и показване. Началната страница и цветът не са достатъчни за извод за целия сайт."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "publish",
+        "step_content": {
+          "type": "information",
+          "title": "Публикуване: сайтът става достъпен",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/publish.svg\" alt=\"Работна папка: Файлове на автора Публикуване: Сървър или услуга за уеб достъп След това: Проверка на действителния адрес\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Докато файловете са само в работната папка на автора, съучениците не могат автоматично да ги отворят през интернет. <strong>Публикуване</strong> означава да подготвим достъпна уеб версия на сървър или подходяща услуга.</p><p>Сайтът получава адрес. Възможно е да има собствен домейн или адрес, предоставен от платформата. Не е нужно всеки малък учебен сайт да купува отделно име, за да бъде достъпен.</p><p>След публикацията се отваря действителният адрес и отново се проверява. Локален път като C:\\Site\\index.html не е същото като публичен адрес. Запазване в редактора и публикуване също не са едно и също.</p><div class=\"example\">В готовия пример черновата е проверена, публикувана е и адресът е отворен от друг браузър. Начало, График и Контакти се зареждат; значи публикуваната версия е проверена, а не само местното копие.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "publish-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Локалният файл не е автоматично достъпен през интернет."
+            },
+            {
+              "id": "2",
+              "text": "Проверява се и публикуваната версия."
+            },
+            {
+              "id": "3",
+              "text": "Публикуването прави уеб версията достъпна на адрес."
+            },
+            {
+              "id": "4",
+              "text": "Всеки ученически сайт непременно изисква купен отделен домейн."
+            },
+            {
+              "id": "5",
+              "text": "Запазване на чернова винаги е същото като публична публикация."
+            },
+            {
+              "id": "6",
+              "text": "Адресът може да е предоставен от платформата."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Местното копие, черновата и уеб версията имат различна достъпност. Платформата може да предоставя адрес; проверката на публикацията остава необходима."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "discover",
+        "step_content": {
+          "type": "information",
+          "title": "Как хората откриват полезния сайт?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/discover.svg\" alt=\"Ясно заглавие: График на тренировките по волейбол Полезно съдържание: Точен час, място и контакт Откриване: Добра структура и подходящи връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Популяризиране</strong> означава да помогнем на хората да научат за сайта — например чрез училищна страница или подходяща връзка. Търсачките също могат да откриват и показват страниците.</p><p><strong>Оптимизация за търсене</strong> означава да направим съдържанието ясно, полезно и достъпно за хора и търсачки. Помагат точни заглавия, оригинална информация, описателни връзки и добра структура. Карта на сайта и връзки от подходящи източници могат да улеснят откриването.</p><p>Не съществува гарантирано първо място само защото сайтът има много посещения или много връзки. Няма задължителен минимум от десет страници. Заглавието трябва да описва добре съдържанието; примерната дължина 40–50 знака не е универсален технически закон.</p><p>Използваме думите, с които аудиторията търси информация, естествено в текста. Не добавяме ненужни страници и случайни връзки само за бройка.</p><div class=\"example\">За клуба „График на тренировките по волейбол“ е по-полезно заглавие от „Страница 2“. Най-важният час и място са видими, без посетителят да претърсва целия сайт.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "discover-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои подходи са полезни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Естествени думи, които посетителите използват."
+            },
+            {
+              "id": "2",
+              "text": "Произволно добавяне на страници само за да станат десет."
+            },
+            {
+              "id": "3",
+              "text": "Гаранция за първо място само от много посещения."
+            },
+            {
+              "id": "4",
+              "text": "Ясни връзки и структура."
+            },
+            {
+              "id": "5",
+              "text": "Актуална оригинална информация."
+            },
+            {
+              "id": "6",
+              "text": "Описателни заглавия."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Полезното съдържание и достъпната структура помагат. Фиксиран брой страници, произволни връзки и обещания за класиране не са надежден подход."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "maintain",
+        "step_content": {
+          "type": "information",
+          "title": "Поддръжка: вярно ли е съдържанието и днес?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/maintain.svg\" alt=\"Промяна: Тренировка: 16:00 → 16:30 Обновени места: Начало и График Проверка: Един и същ актуален час навсякъде\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Посетителят не се интересува, че графикът е бил верен преди три месеца. Той иска да знае кога е следващата тренировка. Затова сайтът се нуждае от <strong>поддръжка</strong>: обновяване, поправки и проверка на работата.</p><p>В готовия план е определено кой следи за промените. При нов час се обновява графикът; при неработеща връзка се поправя адресът. Изображения, контакти и описания също могат да остареят.</p><p>Система за управление на съдържание може да улесни редакцията. И при статичен сайт обаче може да има поддръжка чрез обновяване на файловете. Важно е отговорният човек да разбира структурата и да проверява последствията от промяната.</p><div class=\"example\">Променен е часът от 16:00 на 16:30. Поправени са Начало и График, защото и на двете места се показва часът. След това е отворен публикуваният сайт, за да се провери последователността.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "maintain-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са поддръжка?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Поправяне на остарял график."
+            },
+            {
+              "id": "2",
+              "text": "Промяна само на едно място, въпреки че часът се вижда различно и на друго."
+            },
+            {
+              "id": "3",
+              "text": "Забрана за промяна след първата публикация."
+            },
+            {
+              "id": "4",
+              "text": "Обновяване на контактите."
+            },
+            {
+              "id": "5",
+              "text": "Проверка на публикувания резултат след обновяване."
+            },
+            {
+              "id": "6",
+              "text": "Проверка и поправка на връзки."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Поддръжката пази съдържанието вярно и последователно. Поправят се всички засегнати места и се проверява публикуваната версия."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "shoe-plan",
+        "step_content": {
+          "type": "information",
+          "title": "Готов план за сайт за спортни обувки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/shoe-plan.svg\" alt=\"Посетител: Търси подходящ размер и спорт Продукт: Снимки, цена, материал, размери Структура: Бягане / Футбол / Зала\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В заключителната задача от учебника се планира магазин за спортни обувки. Ето завършен пример, в който решенията са свързани с посетителите. Аудиторията са ученици и родители, които търсят удобни обувки за спорт.</p><p>Представянето на продукт включва снимки, цена, материал, налични размери и описание за какъв спорт е подходящ. Увеличаване на снимката помага да се видят детайлите. Филтър по размер и категория улеснява избора; списък с избрани продукти или количка има различна роля.</p><p>Примерните категории са „Бягане“, „Футбол“ и „Зала“. Планът използва светъл фон, тъмен текст и един зелен акцент. Тези решения се записват преди изграждането, за да няма противоречия между страниците.</p><table><tr><th>Решение</th><th>Причина</th></tr><tr><td>Филтър по размер</td><td>Посетителят търси обувки, които му стават.</td></tr><tr><td>Ясна цена и наличност</td><td>Позволяват информиран избор.</td></tr><tr><td>Светъл фон и тъмен текст</td><td>Улесняват четенето.</td></tr></table><div class=\"example\">За личен сайт планът би бил друг, но въпросите остават: тема, цел, аудитория, съдържание, структура, вид и проверка.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "shoe-plan-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Как би обосновал показания план за магазина за спортни обувки?</p><p>Напиши един кратък свързан отговор от 4–6 изречения със свои думи и използвай филтъра по размер като пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Планът е насочен към ученици и родители, които търсят подходящи спортни обувки. Категориите Бягане, Футбол и Зала помагат да намерят вида, а филтърът по размер — наличните обувки, които им стават. Снимките, цената, материалът и описанието дават информация за избора. Увеличаването показва детайлите. Светлият фон и тъмният текст улесняват четенето. За самопроверка: свържи решенията с нуждите на аудиторията; не изброявай ефекти без обяснение. Възможни са и други добре обосновани решения."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/static-website-planning/illustrations/summary.svg\" alt=\"1: Тема, цел и аудитория определят решенията. 2: Планираме съдържание, функции и структура преди разработването. 3: Четим текст, подходящи изображения и ясна навигация помагат на посетителя. 4: Проверяваме местната и публикуваната версия. 5: Популяризирането и поддръжката продължават след публикацията.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Тема, цел и аудитория определят решенията.</strong></li><li><strong>Планираме съдържание, функции и структура преди разработването.</strong></li><li><strong>Четим текст, подходящи изображения и ясна навигация помагат на посетителя.</strong></li><li><strong>Проверяваме местната и публикуваната версия.</strong></li><li><strong>Популяризирането и поддръжката продължават след публикацията.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "bcfc3bb1-9475-402c-9965-835e99bf2378"
+}

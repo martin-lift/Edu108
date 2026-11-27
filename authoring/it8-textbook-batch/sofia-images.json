@@ -1,0 +1,23 @@
+{
+  "statue": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Bulgaria-02871_-_Saint_Sofia.jpg/960px-Bulgaria-02871_-_Saint_Sofia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Bulgaria-02871_-_Saint_Sofia.jpg",
+    "author": "Dennis G. Jarvis",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "arms": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Sofia_COA.svg/960px-Sofia_COA.svg.png",
+    "source": "https://commons.wikimedia.org/wiki/File:Sofia_COA.svg",
+    "author": "Ssolbergj",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "cathedral": {
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg/960px-St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:St._Alexander_Nevsky_Cathedral,_Sofia.jpg",
+    "author": "Ignessa Mladenova",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "11": {
+    "slug": "program-installation",
+    "title": "Инсталиране и деинсталиране на програми",
+    "mission_id": "becb3f4b-129e-4ce4-a82d-42dfdf5c10ef"
+  },
+  "12": {
+    "slug": "help-and-tutorials",
+    "title": "Използване на помощни системи и самоучители при работа с приложни програми",
+    "mission_id": "568f2a33-a6c3-4dab-b824-27afee6d2275"
+  },
+  "13": {
+    "slug": "archiving-data",
+    "title": "Архивиране на данни",
+    "mission_id": "e8d7e75b-39ac-4c3e-bcf4-47aa675890b1"
+  },
+  "14": {
+    "slug": "archived-data-practice",
+    "title": "Работа с архивирани данни — упражнение",
+    "mission_id": "5ba2c3e0-e096-4e04-925a-bda9bb9b9c28"
+  },
+  "15": {
+    "slug": "application-programs-practice",
+    "title": "Приложни програми — упражнение",
+    "mission_id": "41e89a4c-d639-401e-9606-930458dbd991"
+  },
+  "16": {
+    "slug": "website-authoring-tools",
+    "title": "Специализирани софтуерни средства за създаване на уеб сайтове",
+    "mission_id": "c6efce67-1ec8-4452-8a57-d77acc8e3417"
+  },
+  "17": {
+    "slug": "static-website-planning",
+    "title": "Проектиране на статичен уеб сайт",
+    "mission_id": "155f0c4e-9df5-4b67-9a1d-474f6728b104"
+  },
+  "18": {
+    "slug": "website-structure-design-navigation",
+    "title": "Създаване на структура, визуален дизайн и навигационна система на сайт",
+    "mission_id": "bcfc3bb1-9475-402c-9965-835e99bf2378"
+  },
+  "19": {
+    "slug": "website-components",
+    "title": "Създаване и интегриране на компонентите на сайт",
+    "mission_id": "7f37abdc-acbe-43a0-9a0d-a0115a1f158b"
+  },
+  "20": {
+    "slug": "website-components-practice",
+    "title": "Създаване и интегриране на компонентите на сайт — упражнение",
+    "mission_id": "1bbd0a82-0a4a-4319-8afd-2cdd10b7d973"
+  }
+}

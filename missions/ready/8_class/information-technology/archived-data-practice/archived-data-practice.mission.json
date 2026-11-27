@@ -1,0 +1,350 @@
+{
+  "mission_version": 4,
+  "mission_id": "5ba2c3e0-e096-4e04-925a-bda9bb9b9c28",
+  "mission_content": {
+    "title": "Работа с архивирани данни — упражнение",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Работа с архивирани данни — упражнение",
+    "description": "По урок 14, стр. 42–43, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/intro.svg\" alt=\"Тема: Работа с архивирани данни — упражнение Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Архивът може да бъде разделен на части, да съдържа помощник за собственото си извличане или да бъде допълнен с нови файлове. В този урок ще проследиш тези ситуации чрез завършени примери.</p><p>Ще сравниш съдържанието преди и след всяка промяна и ще разбереш защо липсващата част пречи на извличането. Всички списъци са дадени; не е необходимо да стартираш EXE файл или да инсталираш програма.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "split",
+        "step_content": {
+          "type": "information",
+          "title": "Когато един архив е твърде голям",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/split.svg\" alt=\"Общ архив: 10 MB Зададен размер на част: 3 MB Получени части: 3 + 3 + 3 + 1 = 10 MB\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Искаш да пренесеш голям архив, но избраният носител или услугата за изпращане има ограничение за размера на един файл. Архиваторът може да <strong>раздели архива на части</strong>, наричани и томове. Частите заедно описват един архив, а не няколко независими проекта.</p><p>В примера от учебника се използва primer_1.tif и настройка <strong>3 MB</strong>. В готовите данни тук целият получен архив е 10 MB. Разделянето дава три части по 3 MB и последна част от 1 MB. Сборът е 10 MB; самото разделяне не премахва информация.</p><p>Ако услугата ограничава общия размер на всички прикачени файлове в едно писмо, разделянето не отменя това общо ограничение. Трябва да знаем какво точно е ограничено.</p><div class=\"example\">Мисли за четири кутии от една доставка. Получателят има нужда от всички кутии, за да възстанови пълното съдържание.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "split-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни за разделения архив?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "За възстановяване обикновено са нужни всички части."
+            },
+            {
+              "id": "2",
+              "text": "Всяка част непременно съдържа пълно независимо копие на всички файлове."
+            },
+            {
+              "id": "3",
+              "text": "В примера 3 + 3 + 3 + 1 е 10 MB."
+            },
+            {
+              "id": "4",
+              "text": "Разделянето гарантира заобикаляне на всяко общо ограничение за прикачени файлове."
+            },
+            {
+              "id": "5",
+              "text": "Частите принадлежат на един общ архив."
+            },
+            {
+              "id": "6",
+              "text": "Последната част може да е по-малка от зададения размер."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Томовете заедно съставят архива. Последната част съдържа остатъка; разделянето не намалява непременно общото количество данни и не отменя правилата на услугата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "create-parts",
+        "step_content": {
+          "type": "information",
+          "title": "Обяснен пример: настройката „Разделяне“",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/create-parts.svg\" alt=\"Нов архив: Добавен primer_1.tif Разделяне: 3 MB Проверка: Четири части с общо име и общ размер 10 MB\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Проследи действията в Bandizip, показани в учебника. В прозореца <strong>Нов архив</strong> е добавен primer_1.tif. Зададено е име <strong>primer_chasti</strong> и място за резултата. В настройката <strong>Разделяне</strong> е избрано 3 MB.</p><p>След старта архиваторът създава последователно частите. В нашия пример за разделен ZIP те са primer_chasti.z01, primer_chasti.z02, primer_chasti.z03 и primer_chasti.zip. Имената на частите зависят от формата и програмата; други формати може да използват .001, .002 и т.н.</p><p>След края не проверяваме само първия файл. Разглеждаме целия списък, общото име и поредността. Запазеният оригинален primer_1.tif остава отделно от папката с частите.</p><table><tr><th>Част в примера</th><th>Размер</th></tr><tr><td>primer_chasti.z01</td><td>3 MB</td></tr><tr><td>primer_chasti.z02</td><td>3 MB</td></tr><tr><td>primer_chasti.z03</td><td>3 MB</td></tr><tr><td>primer_chasti.zip</td><td>1 MB</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "create-parts-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са част от създаването на разделен архив?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Добавяме нужния файл към нов архив."
+            },
+            {
+              "id": "2",
+              "text": "След края проверяваме всички получени части."
+            },
+            {
+              "id": "3",
+              "text": "Пазим оригиналния файл отделно."
+            },
+            {
+              "id": "4",
+              "text": "Преименуваме всяка част с несвързано име, за да е по-интересно."
+            },
+            {
+              "id": "5",
+              "text": "Задаваме размера в настройката за разделяне."
+            },
+            {
+              "id": "6",
+              "text": "Предполагаме, че всички формати използват напълно еднакви имена на части."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Общото име и последователността помагат на програмата да свърже частите. Форматите се различават; оригиналът и резултатът се пазят подредено."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "missing",
+        "step_content": {
+          "type": "information",
+          "title": "Защо копирането само на .zip не е достатъчно?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/missing.svg\" alt=\"Documents: преди: Само primer_2.zip → липсват части Documents: след: primer_2.z01, .z02, .z03 и .zip Резултат: Пълният комплект позволява извличане\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В учебника primer_2.zip се отваря успешно в първоначалната папка. След копиране само на този файл в Documents извличането не успява. Причината в този пример не е непременно повреда на компютъра: архивът е <strong>разделен</strong>, а другите части са останали в старата папка.</p><p>Когато primer_2.z01, primer_2.z02 и primer_2.z03 се добавят до primer_2.zip, програмата вече разполага с целия комплект. Частите трябва да са в обща папка, с правилните имена и без липси.</p><p>За показания ZIP пример се отваря primer_2.zip. При друг тип разделен архив началният файл може да е различен — проверяват се указанията на програмата. Не се „поправя“ липсваща част чрез произволна смяна на разширението.</p><div class=\"example\">Готов резултат: преди копирането има един от четири файла и извличането не завършва. След събирането на всичките четири файла се получават данните в избраната папка.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "missing-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи са правилни за primer_2?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Само .zip файлът не е достатъчен в показания пример."
+            },
+            {
+              "id": "2",
+              "text": "Всички части се събират в обща папка."
+            },
+            {
+              "id": "3",
+              "text": "Правилните имена на частите имат значение."
+            },
+            {
+              "id": "4",
+              "text": "Неуспешното извличане непременно доказва повреден процесор."
+            },
+            {
+              "id": "5",
+              "text": "Липсващата част се възстановява винаги чрез преименуване на друг файл."
+            },
+            {
+              "id": "6",
+              "text": "Указанията определят кой файл се отваря за съответния формат."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Показаната причина е непълен комплект части. Нужни са всички части с правилните имена, а не нов етикет върху друг файл или предположение за хардуерна повреда."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "sfx",
+        "step_content": {
+          "type": "information",
+          "title": "Саморазархивиращ се архив: пакет с помощник",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/sfx.svg\" alt=\"Обикновен архив: Данни; използваме съвместим архиватор Саморазархивиращ се файл: Данни + програма за извличане Пример за Windows: arhiv.exe; избор на папка\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Получателят може да няма отделен архиватор или неговата програма да не поддържа формата. Един от разглежданите в учебника подходи е <strong>саморазархивиращ се архив</strong>. Той съдържа данните и малка програма, която ги извлича. Често се използва означението <strong>SFX</strong>.</p><p>В показания Windows пример резултатът има разширение <strong>.exe</strong>. Той е изпълнима програма, а не обикновена снимка. При стартиране може да покаже прозорец за папката, в която да се поставят файловете. Това не означава, че работи във всяка операционна система.</p><p>В разглежданото в учебника издание на Bandizip при създаване е избран тип EXE вместо обикновен архив. Точната наличност на функцията зависи от програмата и версията. Тук разглеждаме примера, без да стартираме или създаваме изпълним файл.</p><div class=\"key\">Тъй като EXE изпълнява програма, използваме само доверени файлове. Самото име „архив“ не е доказателство, че файлът е безопасен.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "sfx-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за SFX са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Думата архив гарантира безопасност на произволен изпълним файл."
+            },
+            {
+              "id": "2",
+              "text": "Може да се използва, когато получателят няма отделен подходящ архиватор."
+            },
+            {
+              "id": "3",
+              "text": "Поддръжката и наличността зависят от програмата и системата."
+            },
+            {
+              "id": "4",
+              "text": "В Windows примерът може да има разширение .exe."
+            },
+            {
+              "id": "5",
+              "text": "Всяко EXE е обикновена снимка."
+            },
+            {
+              "id": "6",
+              "text": "Съдържа данни и средство за извличането им."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "SFX е саморазархивиращ се пакет, който изпълнява код. Системата, програмата и източникът имат значение; няма универсална гаранция за съвместимост или безопасност."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "sfx-result",
+        "step_content": {
+          "type": "information",
+          "title": "Проследяваме извличането от SFX",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/sfx-result.svg\" alt=\"Даден пакет: Доверен учебен arhiv.exe Папка: Documents/SFX_резултат Проверени файлове: primer_1.tif и opis.txt\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В следващия готов пример е получен доверен учебен файл <strong>arhiv.exe</strong>. Показаният прозорец Bandizip SFX предлага място за извличане. Избрана е отделна папка <strong>Documents/SFX_резултат</strong>.</p><p>След натискане на бутона за стартиране на извличането данните се поставят в тази папка. Резултатът се проверява чрез списъка на очакваните файлове. Това е същата цел като при обикновено разархивиране: отделни файлове на известно място.</p><p>В нашия готов комплект трябва да има primer_1.tif и opis.txt. След извличането и двата са в SFX_резултат, а първоначалният пакет е отделно. Името на папката помага да не смесим този резултат с файловете от разделения архив.</p><div class=\"example\">Не е достатъчно да видим съобщение „Готово“. Проверяваме папката, двата файла и възможността да се отвори очакваният документ. Тук наблюдаваме описания завършен резултат, без да изпълняваме EXE.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "sfx-result-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои проверки са подходящи за готовия пример?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Само съобщението „Готово“ заменя всяка проверка на съдържанието."
+            },
+            {
+              "id": "2",
+              "text": "Резултатът задължително трябва да се смеси с всички други упражнения."
+            },
+            {
+              "id": "3",
+              "text": "Налице са очакваните два файла."
+            },
+            {
+              "id": "4",
+              "text": "Избрана е ясна отделна папка."
+            },
+            {
+              "id": "5",
+              "text": "Вижда се дали документът може да се отвори."
+            },
+            {
+              "id": "6",
+              "text": "Първоначалният пакет може да се запази отделно."
+            }
+          ],
+          "correct_option_ids": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Проверяваме мястото и съдържанието, а не само края на процеса. Отделните папки и запазеният пакет помагат резултатите да останат проверими."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "edit",
+        "step_content": {
+          "type": "information",
+          "title": "Добавяме и премахваме файлове от копие на архив",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/edit.svg\" alt=\"Първи резултат: 3 файла След добавяне: 5 файла в отделно копие След премахване на TIF: 3 файла в трето копие\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В proba.zip има a.tif, b.jpg и notes.txt. За да запазим първия резултат, е направено копие <strong>proba_dobaveni.zip</strong>. В него чрез <strong>Добавяне</strong> са включени c.png и d.tif от папка Images_new.</p><p>После е направено друго копие <strong>proba_bez_tif.zip</strong>. В неговия списък са избрани a.tif и d.tif и е натиснато <strong>Изтриване</strong>. След потвърждението в това копие остават b.jpg, notes.txt и c.png.</p><p>Премахването от архива не е същото като изтриване на оригиналите от друга папка. Важен е обектът, който е избран: тук действието се отнася до съдържанието на конкретното архивно копие.</p><table><tr><th>Запазен резултат</th><th>Съдържание</th></tr><tr><td>proba.zip</td><td>a.tif, b.jpg, notes.txt</td></tr><tr><td>proba_dobaveni.zip</td><td>a.tif, b.jpg, notes.txt, c.png, d.tif</td></tr><tr><td>proba_bez_tif.zip</td><td>b.jpg, notes.txt, c.png</td></tr></table><div class=\"example\">Така могат да се проверят и добавянето, и изтриването. Следващата операция не е унищожила доказателството за предходната.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "edit-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Как се променя съдържанието на proba.zip в показаните две операции?</p><p>Обясни със свои думи в 3–5 изречения и посочи конкретните добавени и премахнати файлове.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Първоначално proba.zip съдържа a.tif, b.jpg и notes.txt. В копието proba_dobaveni.zip са добавени c.png и d.tif и така файловете стават пет. В друго копие са премахнати двата TIF файла a.tif и d.tif. В proba_bez_tif.zip остават b.jpg, notes.txt и c.png. За самопроверка: различи добавянето от изтриването и запази резултатите като отделни копия; действието в архива не означава автоматично изтриване на оригиналите от друга папка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archived-data-practice/illustrations/summary.svg\" alt=\"1: Разделеният архив има части от един общ комплект. 2: За извличане са нужни правилните части с правилните имена в обща папка. 3: SFX съдържа данни и програма за извличане. EXE е изпълним файл. 4: Избираме отделна папка и проверяваме очакваните файлове. 5: Добавянето и изтриването променят избрания архив. Пазим отделни резултати.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Разделеният архив има части от един общ комплект.</strong></li><li><strong>За извличане са нужни правилните части с правилните имена в обща папка.</strong></li><li><strong>SFX съдържа данни и програма за извличане.</strong> EXE е изпълним файл.</li><li><strong>Избираме отделна папка и проверяваме очакваните файлове.</strong></li><li><strong>Добавянето и изтриването променят избрания архив.</strong> Пазим отделни резултати.</li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "41e89a4c-d639-401e-9606-930458dbd991"
+}

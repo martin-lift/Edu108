@@ -1,0 +1,692 @@
+{
+  "mission_version": 4,
+  "mission_id": "bcfc3bb1-9475-402c-9965-835e99bf2378",
+  "mission_content": {
+    "title": "Създаване на структура, визуален дизайн и навигационна система на сайт",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Създаване на структура, визуален дизайн и навигационна система на сайт",
+    "description": "По урок 18, стр. 50–53, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/intro.svg\" alt=\"Тема: Създаване на структура, визуален дизайн и навигационна система на сайт Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Една страница съчетава текст, изображения, подредба и връзки. Ще проследиш как тези части се настройват във визуален редактор и как се проверява резултатът.</p><p>Примерът използва SeaMonkey Composer и малък сайт за София. Всички действия са обяснени с готови данни; не е необходимо да инсталираш редактор или да публикуваш сайт. Новите думи са свързани с конкретна видима промяна.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "structure",
+        "step_content": {
+          "type": "information",
+          "title": "Четирите опори на един сайт",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/structure.svg\" alt=\"Начало: Общо представяне на София Вътрешни страници: История / География / Храмове Меню: Връзки към четирите страници\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В учебния ни пример сайтът представя София. Посетителят започва от <strong>началната страница</strong>, а после отваря вътрешни страници за история, география и храмове. Това са различни части на общото представяне.</p><p><strong>Хипервръзката</strong> е текст или изображение, което води към друго място. <strong>Навигацията</strong> е подредената система от такива връзки, често събрана в меню. Начало, вътрешни страници, меню и връзки заедно изграждат структурата.</p><p>Представи си училищна сграда: началната страница е входът, вътрешните страници са помещенията, а менюто е табелата, която показва накъде да тръгнеш. Добрата структура помага да стигнеш до информацията, без да се губиш.</p><div class=\"example\">Готово меню: Начало | История | География | Храмове. Всяка връзка има ясна цел и присъства и във вътрешните страници.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "structure-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои елементи изграждат структурата на примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Хипервръзки към определена информация."
+            },
+            {
+              "id": "2",
+              "text": "Само един фонов цвят без никакви страници."
+            },
+            {
+              "id": "3",
+              "text": "Меню с навигационни връзки."
+            },
+            {
+              "id": "4",
+              "text": "Начална страница."
+            },
+            {
+              "id": "5",
+              "text": "Връзки, които водят само на случайни места."
+            },
+            {
+              "id": "6",
+              "text": "Вътрешни страници."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Структурата включва страници и организирани връзки между тях. Цветът е част от вида, а не заместител на структурата."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "composer",
+        "step_content": {
+          "type": "information",
+          "title": "Къде се създава страницата в SeaMonkey?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/composer.svg\" alt=\"SeaMonkey: Пакет с браузър и Composer File → New: Composer Page — нова страница за редактиране Preferences → Appearance: Избор кое приложение да се отваря в началото\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>SeaMonkey</strong> е пакет с няколко приложения, включително браузър и редактор <strong>Composer</strong>. Браузърът разглежда страници, а Composer ни позволява да ги създаваме и променяме визуално.</p><p>В примера от учебника пакетът е подготвен чрез SeaMonkey Setup.exe. След стартирането първо може да се отвори браузър. Командата <strong>File → New → Composer Page</strong> отваря нова страница за редактиране. Това е различна задача от отваряне на чужд сайт.</p><p>В настройките <strong>Edit → Preferences → Appearance</strong> може да се зададе Composer да се отваря при начално стартиране на пакета. В показания пример е избрана съответната отметка в „When SeaMonkey starts up, open“. Точните надписи зависят от изданието.</p><div class=\"example\">Готов резултат: виждаме празно работно поле на Composer. Не е необходимо да инсталираш пакета тук — проследяваме какво означават действията и резултатът им.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "composer-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Браузърът служи за разглеждане на страници."
+            },
+            {
+              "id": "2",
+              "text": "Настройките могат да определят кое приложение се отваря в началото."
+            },
+            {
+              "id": "3",
+              "text": "SeaMonkey е единствено снимка на начална страница."
+            },
+            {
+              "id": "4",
+              "text": "File → New → Composer Page отваря нова редакторска страница в примера."
+            },
+            {
+              "id": "5",
+              "text": "Composer се използва за редактиране на страници."
+            },
+            {
+              "id": "6",
+              "text": "Отварянето на Composer веднага публикува сайт в интернет."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Пакетът съдържа различни приложения. Създаването на страница и началната настройка не са публикация."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "views",
+        "step_content": {
+          "type": "information",
+          "title": "Четири изгледа и първо записване",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/views.svg\" alt=\"Normal: Визуално редактиране HTML Tags / Source: Елементи / изходен код Preview / Save As: Преглед / запис като Site/index.html\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В <strong>Normal</strong> работим визуално: добавяме текст и елементи. <strong>HTML Tags</strong> помага да се видят означенията на елементите, а <strong>HTML Source</strong> показва самия код. <strong>Preview</strong> представя изгледа за посетителя. Това са различни начини да разгледаме една и съща страница.</p><p>В готовия пример е въведено заглавие „София“ в Normal. След това страницата е записана чрез <strong>File → Save As</strong> в папката Site под име <strong>index.html</strong>. Това е често използвано име за начална страница.</p><p>Файлът още е местно копие. При промени го записваме отново, преди да проверяваме външния браузър. В противен случай браузърът може да показва по-старото запазено съдържание.</p><div class=\"example\">Редакторът показва как променяме страницата, Preview — как ще изглежда, а Browse я отваря в браузър за проверка. Едно и също заглавие има различни представяния, но файлът е един.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "views-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "index.html — често име на начална страница."
+            },
+            {
+              "id": "2",
+              "text": "Различните изгледи непременно създават четири отделни сайта."
+            },
+            {
+              "id": "3",
+              "text": "Normal — визуална работа."
+            },
+            {
+              "id": "4",
+              "text": "HTML Source — кодът на страницата."
+            },
+            {
+              "id": "5",
+              "text": "Preview — преглед на резултата."
+            },
+            {
+              "id": "6",
+              "text": "Save As — автоматично купуване на уеб адрес."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Изгледите представят една страница по различен начин. Записването създава местен файл, а не автоматична интернет публикация."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "page-properties",
+        "step_content": {
+          "type": "information",
+          "title": "Заглавие, автор, описание и фон",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/page-properties.svg\" alt=\"Title: София — нашият град Description: Кратко представяне на история, география и храмове Фон и цветове: Светъл фон; четим тъмен текст\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В <strong>Format → Page Title and Properties</strong> се задават общи данни. <strong>Title</strong> е заглавието, което може да се вижда в раздела на браузъра. <strong>Author</strong> посочва автора. <strong>Description</strong> е кратко смислено описание на страницата, а не просто дълъг списък с повторени думи.</p><p>В готовия пример Title е „София — нашият град“, а описанието е „Кратко представяне на историята, географията и храмовете на София.“ Това казва на човека какво да очаква.</p><p>Цветовете и фонът се настройват от <strong>Page Colors and Background</strong>. Reader’s default colors оставя предпочитаните цветове на читателя, а Use custom colors позволява собствени. Background image задава фоново изображение чрез път или Choose File.</p><div class=\"example\">Избран е светъл фон и тъмен текст. Снимка може да е красив фон, но не трябва да скрива буквите. Настройките за обикновена, посетена и активна връзка помагат да разпознаваме навигацията.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "page-properties-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Description е кратко описание на съдържанието."
+            },
+            {
+              "id": "2",
+              "text": "Page Colors and Background настройва цветове и фон."
+            },
+            {
+              "id": "3",
+              "text": "Фонът трябва да позволява четене на текста."
+            },
+            {
+              "id": "4",
+              "text": "Фоновата снимка автоматично заменя всички връзки в сайта."
+            },
+            {
+              "id": "5",
+              "text": "Title задава заглавието на страницата."
+            },
+            {
+              "id": "6",
+              "text": "Описание винаги означава само безкрайно повторение на ключова дума."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Общите свойства описват страницата, а цветовете и фонът определят част от вида. Четимостта остава важна."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "text-format",
+        "step_content": {
+          "type": "information",
+          "title": "Форматираме текст с ясна цел",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/text-format.svg\" alt=\"Заглавие: По-едро и ясно отделено Абзац: Четим размер и подравняване Fixed Width: Еднаква ширина на знаците\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В Composer текстът се избира и се форматира от меню <strong>Format</strong> или лентата с инструменти. <strong>Font</strong> е шрифт, <strong>Size</strong> — размер, <strong>Text Style</strong> — стил, <strong>Text Color</strong> — цвят, а <strong>Align</strong> — подравняване.</p><p>В примера заглавието „София“ е по-едро и центрирано, а абзаците са по-дребни и подравнени за удобно четене. Може да се използват Arial, Helvetica, Times или Courier при налична подходяща замяна. Не всеки посетител има един и същ набор шрифтове.</p><p><strong>Variable Width</strong> означава пропорционален шрифт: буквите имат различна ширина. <strong>Fixed Width</strong> е равноширинен шрифт: например „i“ и „W“ заемат еднаква ширина. Това не принуждава браузъра магически да притежава липсващ шрифт.</p><div class=\"example\">За код равноширинният вид е полезен; за дълъг ученически текст обичайният пропорционален шрифт често е по-удобен. Форматирането трябва да показва кое е заглавие и кое — обяснение.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "text-format-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Font — шрифт."
+            },
+            {
+              "id": "2",
+              "text": "Text Color — цвят на текста."
+            },
+            {
+              "id": "3",
+              "text": "Fixed Width гарантира, че всеки компютър има избрания шрифт."
+            },
+            {
+              "id": "4",
+              "text": "Форматирането е предназначено да направи всеки текст възможно най-дребен."
+            },
+            {
+              "id": "5",
+              "text": "Size — размер."
+            },
+            {
+              "id": "6",
+              "text": "Align — подравняване."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "feedback": "Настройките имат конкретни роли. Fixed Width описва равноширинен вид, а не гарантирана наличност на шрифт."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "insert-image",
+        "step_content": {
+          "type": "information",
+          "title": "Снимка и нейното текстово описание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/insert-image.svg\" alt=\"Image Location: images/sofia.jpg Alternate Text: Изглед към центъра на София Проверка: Снимката се зарежда и описанието има смисъл\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Изображение се добавя чрез <strong>Insert → Image</strong> или бутона Image. В Image Properties полето <strong>Image Location</strong> посочва файла; Choose File помага той да бъде избран. В учебника се използват GIF, JPG и PNG.</p><p>В готовата папка има images/sofia.jpg. Изборът на този файл добавя снимката в страницата, но самият HTML не заменя нуждата от нейния файл. При преместване или публикуване връзката към изображението трябва да остане правилна.</p><p><strong>Alternate Text</strong> е кратко описание, например „Изглед към центъра на София“. То помага, когато изображението не е достъпно или се използва екранен четец. Не е просто скрито име за автора и не замества непременно видимия надпис под снимката.</p><div class=\"example\">Ако снимката не се зареди, смисленото описание все още обяснява какво е трябвало да показва. За декоративни елементи описанието може да има друга роля, но за важната снимка то е полезно.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "insert-image-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Посочваме правилния файл за изображението."
+            },
+            {
+              "id": "2",
+              "text": "Проверяваме дали снимката се зарежда."
+            },
+            {
+              "id": "3",
+              "text": "Пазим необходимия графичен файл заедно с проекта."
+            },
+            {
+              "id": "4",
+              "text": "Alternate Text означава задължително реклама."
+            },
+            {
+              "id": "5",
+              "text": "Пишем смислен текст за важното изображение."
+            },
+            {
+              "id": "6",
+              "text": "След вмъкване HTML винаги съдържа пълно копие на всеки графичен файл без друга зависимост."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "feedback": "Връзката и ресурсът трябва да са достъпни. Описанието предава смисъл и не е равнозначно на реклама или гарантирано вградено копие."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "image-layout",
+        "step_content": {
+          "type": "information",
+          "title": "Размер, разстояние и банер",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/image-layout.svg\" alt=\"1200 × 800: Пропорционално намаляване → 600 × 400 Appearance: Разстояние, рамка, разположение Банер: Графичен акцент, често с връзка\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В <strong>Image Properties → Dimensions</strong> се задават размерите. Ако снимка 1200 × 800 се намали пропорционално на ширина 600, височината е 400. Така не разтегляме хората и сградите.</p><p>В <strong>Appearance</strong> се задават разстояние от текста, рамка и разположение спрямо текста. Например 5 пиксела свободно място не позволяват буквите да се залепят за снимката. Разделът <strong>Link</strong> може да направи изображението връзка.</p><p><strong>Банер</strong> е графичен елемент с рекламна или представителна цел, често водещ към друга страница. Може да е неподвижен или анимиран. Учебникът споменава Flash; тази технология е остаряла и вече не е подходяща за съвременна уеб работа. Днес движение и интерактивност могат да се реализират с поддържани уеб средства като CSS и JavaScript — код за поведение на страницата.</p><div class=\"example\">Банерът „Посети нашия клуб“ е изображение с връзка. Само снимката на градска улица без такава цел не е непременно рекламен банер.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "image-layout-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Запазените пропорции предотвратяват разтягане."
+            },
+            {
+              "id": "2",
+              "text": "Изображение може да бъде хипервръзка."
+            },
+            {
+              "id": "3",
+              "text": "Appearance може да задава разстояние от текста."
+            },
+            {
+              "id": "4",
+              "text": "За всеки нов банер задължително трябва да се инсталира Flash."
+            },
+            {
+              "id": "5",
+              "text": "Всеки графичен файл задължително е реклама."
+            },
+            {
+              "id": "6",
+              "text": "Dimensions задава размерите."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Размерите, разстоянието и връзката са различни свойства. Банерът има определена цел; Flash е остарял, а не изискван за съвременен сайт."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "table-insert",
+        "step_content": {
+          "type": "information",
+          "title": "Таблица: редове, колони и ширина",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/table-insert.svg\" alt=\"2 реда × 3 колони: 6 клетки Ширина 1000 px: Фиксирана стойност Ширина 80% при 1200 px: 960 px в този прозорец\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Таблицата организира съдържание в <strong>редове и колони</strong>. Една клетка е мястото на пресичането им. В примера таблица с 2 реда и 3 колони има общо 6 клетки.</p><p>В Composer се използва командата за вмъкване на таблица или бутонът Table. В прозореца се задават <strong>Rows</strong>, <strong>Columns</strong>, <strong>Width</strong> и <strong>Border</strong>. Width е ширина, а Border е дебелина на рамката.</p><p>Ширината може да е в пиксели или проценти. Фиксирани 1000 пиксела запазват определена ширина. 80% от прозорец с ширина 1200 пиксела са 960 пиксела. Процентната ширина може да се приспособява към прозореца; фиксираната не е автоматично по-добра за всички екрани.</p><div class=\"example\">В следващия учебен сайт ще използваме зададена в условието таблица. За съвременни сайтове общото оформление обикновено се прави с CSS; тук таблицата ни помага да разберем примера от учебника.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "table-insert-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "2 реда и 3 колони дават 6 клетки."
+            },
+            {
+              "id": "2",
+              "text": "Пикселна ширина автоматично гарантира удобство на всички телефони."
+            },
+            {
+              "id": "3",
+              "text": "Процентна ширина винаги означава една и съща ширина при всеки прозорец."
+            },
+            {
+              "id": "4",
+              "text": "Rows означава редове."
+            },
+            {
+              "id": "5",
+              "text": "Border задава рамката."
+            },
+            {
+              "id": "6",
+              "text": "Columns означава колони."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Редове, колони, ширина и рамка имат различни роли. Процентът зависи от наличното пространство; фиксираната ширина трябва да бъде проверена на различни екрани."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "table-properties",
+        "step_content": {
+          "type": "information",
+          "title": "Настройки на цялата таблица",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/table-properties.svg\" alt=\"Spacing: Между клетките Padding: Между текста и ръба на клетката Border = 0: Няма видима рамка за посетителя\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В <strong>Table Properties</strong> разделът <strong>Table</strong> настройва цялата таблица. Могат да се променят редове, колони, ширина, рамка, подравняване, фон и заглавие на таблицата.</p><p>Две близки думи описват различни разстояния. <strong>Spacing</strong> е разстоянието между клетките. <strong>Padding</strong> е мястото между текста и границата на неговата клетка. Ако текстът се залепва за ръба, има значение Padding, а не само разстоянието между съседните клетки.</p><p>При <strong>Border = 0</strong> рамката не се показва на посетителя. В редактора може да има помощна пунктирана линия, за да се виждат клетките при работа. Тази линия не е непременно реална рамка в браузъра.</p><table><tr><th>Настройка в примера</th><th>Резултат</th></tr><tr><td>Spacing = 10</td><td>Между клетките има 10 пиксела.</td></tr><tr><td>Padding = 5</td><td>Текстът е на 5 пиксела от ръба.</td></tr><tr><td>Table Alignment = Center</td><td>Таблицата е центрирана.</td></tr><tr><td>Caption / Background Color</td><td>Заглавие / цвят на фона.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "table-properties-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои обяснения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Border = 0 може да скрие рамката в браузъра."
+            },
+            {
+              "id": "2",
+              "text": "Помощната пунктирана линия винаги задължително е част от публикуваната страница."
+            },
+            {
+              "id": "3",
+              "text": "Padding задава вътрешно разстояние до съдържанието."
+            },
+            {
+              "id": "4",
+              "text": "Caption означава изтриване на всички клетки."
+            },
+            {
+              "id": "5",
+              "text": "Spacing задава разстояние между клетките."
+            },
+            {
+              "id": "6",
+              "text": "Table Alignment определя подравняването на таблицата."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Разстоянията и рамката са различни настройки. Caption е заглавие, а помощните линии на редактора не са непременно видими в браузъра."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "cells",
+        "step_content": {
+          "type": "information",
+          "title": "Настройки на отделна клетка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/cells.svg\" alt=\"Избрана клетка: Определя къде се прилага промяната Content Alignment: Място по хоризонтала и вертикала Text Wrap: Дългият текст се пренася\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Разделът <strong>Cells</strong> се отнася до избраната клетка или група клетки. Можем да изберем конкретна клетка, ред или колона и да преминаваме между тях с <strong>Previous</strong> и <strong>Next</strong>. Важно е да знаем върху какво ще се приложи промяната.</p><p><strong>Width</strong> и <strong>Height</strong> са ширина и височина; може да се задават в подходящи единици. <strong>Text Wrap</strong> позволява пренасяне на текста. <strong>Content Alignment</strong> определя хоризонталното и вертикалното му място. Има и цвят на фона за клетката.</p><p>Например заглавие в първия ред може да е центрирано и по хоризонтала, и по вертикала. Дълъг абзац в следващ ред е по-удобен с пренасяне. Не задаваме еднакъв вид на всички клетки без причина.</p><div class=\"example\">Готов пример: първият ред е висок 150 пиксела. Заглавието „София“ стои в средата на своята клетка, а текстът в основната част се пренася на нов ред.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "cells-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Изборът на клетка има значение за промяната."
+            },
+            {
+              "id": "2",
+              "text": "Клетката може да има собствен фон."
+            },
+            {
+              "id": "3",
+              "text": "Всички клетки винаги трябва да изглеждат еднакво независимо от съдържанието."
+            },
+            {
+              "id": "4",
+              "text": "Height задава височина."
+            },
+            {
+              "id": "5",
+              "text": "Content Alignment задава само името на HTML файла."
+            },
+            {
+              "id": "6",
+              "text": "Text Wrap е свързано с пренасяне на текста."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Настройките се прилагат към избраните обекти. Височина, пренасяне, подравняване и фон се използват според съдържанието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "table-edit",
+        "step_content": {
+          "type": "information",
+          "title": "Променяме подредбата на клетките",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/table-edit.svg\" alt=\"Insert / Delete: Добавяне / премахване Join Selected Cells: Обединяване на избраните клетки Split Cell / Select: Разделяне / избор на обект\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>След създаването таблицата може да се промени. <strong>Table → Insert</strong> добавя редове, колони или клетки, а <strong>Table → Delete</strong> премахва избраните елементи. Първо проверяваме избора, защото изтриването може да премахне и съдържание.</p><p><strong>Join Selected Cells</strong> обединява избрани клетки, а <strong>Split Cell</strong> разделя клетка. Например можем да съберем три клетки от първия ред в общо заглавно поле. След това вече няма три отделни места в същия ред.</p><p><strong>Table → Select</strong> помага да се избере таблица, ред, колона или клетки. Това е различно от маркиране само на няколко букви вътре. В готовия пример всяка промяна е прегледана в браузъра.</p><div class=\"example\">При таблица 2 × 3 първият ред първоначално има три клетки. След обединяване на трите избрани клетки той има едно общо поле, а вторият ред остава с три отделни клетки.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "table-edit-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои съчетания са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Delete — премахване на избрани елементи."
+            },
+            {
+              "id": "2",
+              "text": "Split Cell — задължително публикуване на сайта."
+            },
+            {
+              "id": "3",
+              "text": "Select — избор на таблица, ред, колона или клетки."
+            },
+            {
+              "id": "4",
+              "text": "Insert — добавяне."
+            },
+            {
+              "id": "5",
+              "text": "Join Selected Cells — обединяване."
+            },
+            {
+              "id": "6",
+              "text": "Изборът няма значение, защото всички команди винаги действат само върху целия компютър."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Тези команди променят или избират елементи на таблицата. Правилният избор определя обхвата на действието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "links",
+        "step_content": {
+          "type": "information",
+          "title": "Създаваме и проверяваме връзка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/links.svg\" alt=\"Видим текст: История Link Location: history.html Save → Browse → натискане: Проверка дали се отваря правилната страница\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Връзката има два основни елемента: <strong>видим обект</strong> и <strong>цел</strong>. Видимият обект може да е текстът „История“ или изображение. Целта може да е местният файл history.html или пълен уеб адрес.</p><p>В примера текстът „История“ е маркиран и е избрано <strong>Insert → Link</strong>. В <strong>Link Properties → Link Location</strong> е посочен history.html, намерен и чрез Choose File. За външен сайт се използва неговият правилен адрес, например копиран от адресната лента.</p><p>След записване е натиснат <strong>Browse</strong>, за да се отвори страницата в браузър. Там е проверено къде води „История“. Видът на връзката в редактора не е достатъчен: възможно е да е изписан грешен файл.</p><p>В готовия пример за училищна навигация същата проверка се прави за Начало, Новини и Контакти. Посетителят трябва да стига до обещаното съдържание.</p><div class=\"example\">Разлика: видимият текст е „История“, а адресатът е history.html. Можем да променим надписа, без автоматично да променим адресата, затова проверяваме и двете.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "links-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Как проверяваш дали връзката „История“ е правилна в показания пример?</p><p>Опиши в 3–4 изречения със свои думи и използвай history.html като конкретен пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Връзката има видим текст „История“ и цел history.html. Проверявам дали е избран правилният файл в Link Location. След записване отварям страницата с Browse и натискам връзката в браузъра. Очаквам да се покаже страницата за историята, а не друг файл. За самопроверка: различи надписа от целта и включи проверка на действителното отваряне."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-structure-design-navigation/illustrations/summary.svg\" alt=\"1: Началната и вътрешните страници се свързват чрез навигация. 2: Редактиране, код, преглед и запис са различни действия. 3: Текстът и изображенията трябва да са четими, описани и правилно свързани с файловете. 4: Таблицата има настройки за цялото и за отделните клетки. 5: Връзката има надпис и цел; след запис я проверяваме в браузър.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Началната и вътрешните страници се свързват чрез навигация.</strong></li><li><strong>Редактиране, код, преглед и запис са различни действия.</strong></li><li><strong>Текстът и изображенията трябва да са четими, описани и правилно свързани с файловете.</strong></li><li><strong>Таблицата има настройки за цялото и за отделните клетки.</strong></li><li><strong>Връзката има надпис и цел; след запис я проверяваме в браузър.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "7f37abdc-acbe-43a0-9a0d-a0115a1f158b"
+}

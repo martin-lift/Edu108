@@ -1,0 +1,521 @@
+{
+  "mission_version": 4,
+  "mission_id": "e8d7e75b-39ac-4c3e-bcf4-47aa675890b1",
+  "mission_content": {
+    "title": "Архивиране на данни",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Архивиране на данни",
+    "description": "По урок 13, стр. 39–41, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/intro.svg\" alt=\"Тема: Архивиране на данни Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Когато проектът съдържа много файлове, архивът ни помага да ги съберем и пренесем. Компресията може да намали размера им, а извличането ни връща отделните файлове.</p><p>Ще разграничиш тези действия, ще проследиш създаване и извличане в Bandizip и ще сравниш готови размери. Материалите и резултатите са описани тук; не е необходимо да инсталираш архиватор или да имаш файловете от приложението към учебника.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "archive",
+        "step_content": {
+          "type": "information",
+          "title": "Защо събираме файлове в архив?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/archive.svg\" alt=\"Папка Проект: Текст + рисунка + снимки proekt.zip: Един пакет с файловете Резервно копие: Отделно запазено копие за възстановяване\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>За общ проект имаш текст, рисунка и няколко снимки. Ако ги изпращаш поотделно, лесно може да забравиш един от тях. <strong>Архив</strong> е файл, в който можем да съберем други файлове и папки, подобно на добре подреден пакет.</p><p><strong>Архивиране</strong> тук означава създаването на такъв пакет. Обикновено оригиналните файлове остават на мястото си. Архивът може да е удобен за пренасяне, изпращане и запазване на копие. Не е задължително пакетът да стане много по-малък.</p><p>Учебникът свързва архивирането и с резервно копие. <strong>Backup</strong> означава резервно копие за възстановяване при загуба. То може да се прави с архив, но може да е и друго копие. Ако единственият архив е на същия повреден диск, той не ни спасява от повредата на този диск.</p><div class=\"example\">Пример: папката „Проект“ съдържа text.txt и снимки. Създаден е proekt.zip. Копие на архива е запазено на друг носител. Оригиналът и отделното копие имат различни роли.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "archive-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за архив и резервно копие са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Архивът не е задължително значително по-малък от оригиналите."
+            },
+            {
+              "id": "2",
+              "text": "Създаването на архив задължително изтрива оригиналите."
+            },
+            {
+              "id": "3",
+              "text": "Архивът може да събере много файлове в един файл."
+            },
+            {
+              "id": "4",
+              "text": "Единствен архив на повредения диск винаги е достатъчна защита срещу повредата му."
+            },
+            {
+              "id": "5",
+              "text": "Backup е резервно копие за възстановяване."
+            },
+            {
+              "id": "6",
+              "text": "Архивът може да е удобен за изпращане на проект."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Архивът събира файлове, а резервното копие служи за възстановяване. Обикновеното създаване на архив не изтрива оригиналите; защитата зависи и от мястото на копието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "extract",
+        "step_content": {
+          "type": "information",
+          "title": "Разархивиране: изваждаме файловете от пакета",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/extract.svg\" alt=\"Отваряне на proekt.zip: Преглед на съдържанието Извличане в Проект_извлечен: Самостоятелни файлове в папка Архиватор: Програма за тези операции\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Получил си proekt.zip. Когато го отвориш в архиватор, можеш да видиш какво съдържа. За обичайна работа с отделните файлове ги <strong>извличаме</strong> в папка. Това действие се нарича <strong>разархивиране</strong>.</p><p>Извличането на копия от файловете не премахва непременно самия архив. Можем да запазим пакета и да използваме извлечените документи. Някои програми могат да преглеждат съдържание направо в архива, но за редактиране и подредена работа отделна папка е по-ясният подход.</p><p><strong>Архиватор</strong> е програма за работа с архиви. В учебника са посочени WinRAR, WinZip, WinAce, PowerArchiver, Bandizip, IZArc и 7-Zip. Различните издания поддържат различни формати и функции; не избираме само по името.</p><div class=\"example\">Готов пример: от proekt.zip са извлечени text.txt и снимките в папка „Проект_извлечен“. Архивът е останал отделно. Отварянето на папката показва вече самостоятелните файлове.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "extract-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Самият архив може да остане след извличането."
+            },
+            {
+              "id": "2",
+              "text": "Архиваторът е програма за работа с архиви."
+            },
+            {
+              "id": "3",
+              "text": "Всички архиватори имат еднакви функции за всеки формат."
+            },
+            {
+              "id": "4",
+              "text": "За обичайна редакция е удобно файловете да са извлечени отделно."
+            },
+            {
+              "id": "5",
+              "text": "Отварянето на списъка и извличането винаги са едно и също действие."
+            },
+            {
+              "id": "6",
+              "text": "Извличането поставя файлове от архива в избрана папка."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Разархивирането извлича данните, а отварянето може само да покаже списъка. Поддръжката на формати зависи от програмата и изданието."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "operations",
+        "step_content": {
+          "type": "information",
+          "title": "Какво още може един архиватор?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/operations.svg\" alt=\"Добавяне: Включва нов файл Подмяна / изтриване: Обновява или премахва съдържание Тестване: Проверява четимостта според формата\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Архиваторът не служи само за първоначално опаковане. Можем да <strong>добавим</strong> пропусната снимка, да <strong>заменим</strong> остарял текст с нова версия или да <strong>премахнем</strong> ненужен файл от пакета. Тези действия променят съдържанието на архива.</p><p>Други полезни операции са преглед на списъка, извличане и тестване на архива. <strong>Тестване</strong> проверява дали архивните данни могат да бъдат прочетени според формата. То не доказва, че текстът е верен или че файловете са безопасни.</p><p>В някои операции може да има и преместване: вместо да се запази копие на същото място, данните се пренасят. Преди такава операция трябва да е ясно кои оригинали ще останат. В нашите готови примери пазим отделни оригинали и отделен резултат от всяка промяна.</p><table><tr><th>Архив преди</th><th>Действие</th><th>Архив след</th></tr><tr><td>text.txt, a.jpg</td><td>Добавяне на b.jpg</td><td>text.txt, a.jpg, b.jpg</td></tr><tr><td>text.txt, a.jpg, b.jpg</td><td>Изтриване на a.jpg от копие на архива</td><td>text.txt, b.jpg</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "operations-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои операции са възможни при подходящ архиватор и формат?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Извличане, което задължително унищожава оригиналния архив."
+            },
+            {
+              "id": "2",
+              "text": "Подмяна с нова версия."
+            },
+            {
+              "id": "3",
+              "text": "Тестване на архивните данни."
+            },
+            {
+              "id": "4",
+              "text": "Тестване, което гарантира истинността на всеки текст."
+            },
+            {
+              "id": "5",
+              "text": "Добавяне на файл."
+            },
+            {
+              "id": "6",
+              "text": "Преглед на съдържанието."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Архиваторите предлагат операции за съдържанието и проверка на четимостта. Тестването на архив не проверява смисъла на документите и не е обещание за безопасност."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "lossy",
+        "step_content": {
+          "type": "information",
+          "title": "Компресиране: по-малък размер, понякога с промяна",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/lossy.svg\" alt=\"Оригинална снимка: 8 MB Компресиран JPEG: 2 MB; част от детайлите е премахната Спестено място: 6 MB в дадения пример\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Компресиране</strong> означава представяне на информацията с по-малко данни. Резултатът може да се пренася и съхранява по-удобно. Това не е просто изтриване на произволни файлове от проекта.</p><p>При <strong>компресия със загуба</strong> част от информацията се премахва. Така често се намалява размерът на снимки, звук и видео. JPEG е познат пример при снимките. При силна компресия промените могат да се забележат; премахнатите детайли не се връщат точно чрез обикновено отваряне.</p><p>Представи си снимка на училищния двор. Малко изображение за уеб страница може да е достатъчно ясно, дори да съдържа по-малко детайли от оригинала. За печат в голям размер може да е нужно по-високо качество. Изборът зависи от целта.</p><div class=\"example\">Условен пример: снимка от 8 MB е запазена като JPEG с размер 2 MB. Спестени са 6 MB, но част от подробностите е загубена. Пазим оригинала, ако по-късно потрябва.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "lossy-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за компресията със загуба са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Подходящото качество зависи от употребата."
+            },
+            {
+              "id": "2",
+              "text": "При силна компресия може да има видими промени."
+            },
+            {
+              "id": "3",
+              "text": "Компресирането означава непременно изтриване на цяла папка."
+            },
+            {
+              "id": "4",
+              "text": "Полезно е да се запази оригиналът."
+            },
+            {
+              "id": "5",
+              "text": "Може да намали размера на снимка."
+            },
+            {
+              "id": "6",
+              "text": "Премахнатите детайли винаги се възстановяват напълно."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Компресията със загуба спестява данни чрез премахване на част от информацията. Целта определя допустимото качество, а запазеният оригинал позволява нова обработка."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "lossless",
+        "step_content": {
+          "type": "information",
+          "title": "Без загуба: възстановяваме същите данни",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/lossless.svg\" alt=\"AAAAAA: Учебен модел: „6 пъти A“ Без загуба: При възстановяване: AAAAAA Вече компресирана снимка: Може да се свие съвсем малко\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>При <strong>компресия без загуба</strong> информацията се описва по-сбито, така че да може да се възстанови точно. Това е важно за текстове, програми и таблици: една изгубена буква или цифра може да промени смисъла.</p><p>Можем да си представим поредица „АААААА“. Вместо да пазим шест отделни знака, в учебен модел записваме „шест пъти А“. При възстановяването знаем точно оригиналната поредица. Истинските методи са по-сложни, но идеята е същата: по-сбито описание без изгубено съдържание.</p><p><strong>Декомпресиране</strong> е възстановяване от компресираното представяне. При метода без загуба получаваме първоначалните данни. Много архивни формати използват такава компресия, но не всеки файл се свива еднакво добре.</p><table><tr><th>Файл в условен тест</th><th>Преди</th><th>В ZIP</th></tr><tr><td>Повтарящ се текст</td><td>1000 KB</td><td>200 KB</td></tr><tr><td>Вече компресирана снимка</td><td>1000 KB</td><td>990 KB</td></tr></table><div class=\"example\">Текстът е станал много по-малък, а снимката — съвсем малко. Това е примерен резултат, не правило за всички файлове.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "lossless-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Това е подходящо за документи и програми."
+            },
+            {
+              "id": "2",
+              "text": "Всеки файл задължително намалява наполовина."
+            },
+            {
+              "id": "3",
+              "text": "Без загуба означава да премахнем няколко произволни цифри от таблицата."
+            },
+            {
+              "id": "4",
+              "text": "Вече компресирана снимка може почти да не се свие."
+            },
+            {
+              "id": "5",
+              "text": "Декомпресирането възстановява компресираните данни."
+            },
+            {
+              "id": "6",
+              "text": "Без загуба означава точно възстановяване на данните."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Без загуба пази цялата информация. Степента на намаляване зависи от данните; не е обещан еднакъв процент за всеки файл."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "formats",
+        "step_content": {
+          "type": "information",
+          "title": "Разширението подсказва вида на пакета",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/formats.svg\" alt=\"ZIP / 7z / RAR: Различни архивни формати TAR / ISO: Пакет / образ на диск; не непременно компресия Смяна на разширение: Не преобразува съдържанието\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Имената <strong>proekt.zip</strong>, <strong>proekt.7z</strong> и <strong>proekt.rar</strong> могат да означават архиви в различни формати. Разширението е частта след последната точка. То помага да изберем програма, която разбира съответния формат.</p><p>В учебника се срещат още TAR, ACE, ARC и ISO. Те не са напълно еднакви. <strong>TAR</strong> обединява файлове и сам по себе си не означава компресия. <strong>ISO</strong> обикновено е образ на оптичен диск — описание на неговото съдържание и организация, а не обещание за по-малък размер.</p><p>Не променяме формата просто като преименуваме .zip на .rar. Това е като да сменим етикета на кутията, без да променим онова, което има вътре. За нов формат се използва програма, която действително създава такъв архив.</p><div class=\"example\">Пример: получаваме album.rar и проверяваме дали архиваторът поддържа извличане от RAR. Наличието на такава възможност не доказва, че той създава RAR архиви.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "formats-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои изводи са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "ISO обикновено е образ на диск."
+            },
+            {
+              "id": "2",
+              "text": "Преименуване от .zip на .rar винаги преобразува архива."
+            },
+            {
+              "id": "3",
+              "text": "Разширението помага да разпознаем формата."
+            },
+            {
+              "id": "4",
+              "text": "Всички архивни формати означават точно един и същ начин за запис."
+            },
+            {
+              "id": "5",
+              "text": "Проверяваме кои формати поддържа програмата."
+            },
+            {
+              "id": "6",
+              "text": "TAR сам по себе си не гарантира компресия."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Различните формати имат различна организация. Етикетът не преобразува данните, а поддръжката на формата трябва да се провери."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "create",
+        "step_content": {
+          "type": "information",
+          "title": "Обяснен пример: създаваме arhiv.zip",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/create.svg\" alt=\"Нов архив: arhiv.zip; ZIP; избрана папка Добави: more.tif + plan.txt + more.jpg Старт → проверка: 3 файла; сравняваме размерите\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Проследи създаването на архив с Bandizip, без да разчиташ на непредоставената папка от материалите към учебника. В готовия пример папката Images съдържа <strong>more.tif, plan.txt и more.jpg</strong>. Оригиналите се запазват.</p><p>Избрано е <strong>Файл → Нов архив</strong>. Зададени са име <strong>arhiv.zip</strong>, формат ZIP и папка за резултата. Чрез <strong>Добави</strong> са избрани трите файла и изборът е потвърден с <strong>Отвори</strong>.</p><p>В прозореца за нов архив бутонът <strong>Старт</strong> започва създаването. Допълнителните настройки могат да определят нивото и метода на компресия и разделянето на части. След края се проверява списъкът на файловете. Друг начин за начало е контекстна команда за добавяне към архив, когато е налична.</p><table><tr><th>Файл</th><th>Оригинален размер</th><th>Размер в готовия пример</th></tr><tr><td>plan.txt</td><td>1 MB</td><td>0,2 MB</td></tr><tr><td>more.tif</td><td>12 MB</td><td>3 MB</td></tr><tr><td>more.jpg</td><td>4 MB</td><td>3,95 MB</td></tr></table><div class=\"example\">В списъка са и трите файла. Таблицата показва, че различните данни са се свили различно; снимката JPEG почти не е намаляла.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "create-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са част от показаното създаване?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Задължително изтриване на оригиналите преди архивирането."
+            },
+            {
+              "id": "2",
+              "text": "Сравняване на оригиналния и компресирания размер."
+            },
+            {
+              "id": "3",
+              "text": "Извод, че всички файлове винаги се свиват еднакво."
+            },
+            {
+              "id": "4",
+              "text": "Добавяне на нужните файлове."
+            },
+            {
+              "id": "5",
+              "text": "Задаване на име, формат и място на архива."
+            },
+            {
+              "id": "6",
+              "text": "Стартиране и проверка на съдържанието."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Архивът се създава от избраните файлове с конкретни настройки. След края се проверяват съдържанието и размерите; оригиналите не е нужно да се изтриват."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "selected-extract",
+        "step_content": {
+          "type": "information",
+          "title": "Извличаме само нужните файлове",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/selected-extract.svg\" alt=\"proba.zip: a.tif, b.tif, notes.txt, view.jpg Избрани: a.tif и b.tif TIF_извлечени: Само двата избрани файла\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Втората задача в учебника е да се извлекат само TIF изображенията от <strong>proba.zip</strong>. В готовия ни пример архивът съдържа a.tif, b.tif, notes.txt и view.jpg. Не е нужно да извличаме всичко, ако ни трябват само двата TIF файла.</p><p>В Bandizip е отворен proba.zip. Маркирани са <strong>a.tif и b.tif</strong>, след това е избрано <strong>Извличане</strong>. В прозореца за път е посочена нова папка <strong>Documents/TIF_извлечени</strong> и действието е потвърдено.</p><p>Резултатът е отделна папка с двата избрани файла. notes.txt и view.jpg остават в архива, без да са извлечени в тази папка. Команда „Разархивирай тук“ обикновено използва текущата папка, затова избраното място има значение.</p><div class=\"example\">В допълнителните примери arhiv_kartichki.rar се извлича в нова папка kartichki, а presentation.zip — в отделна папка Presentation. Различните папки запазват резултата от всяка задача и не смесват файловете.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "selected-extract-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои резултати са правилни за примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Избирането на път определя къде да се появят файловете."
+            },
+            {
+              "id": "2",
+              "text": "Може да се извлече само част от съдържанието."
+            },
+            {
+              "id": "3",
+              "text": "notes.txt задължително е изтрит от архива."
+            },
+            {
+              "id": "4",
+              "text": "Разархивирай тук винаги създава желаната нова папка с избрано от нас име."
+            },
+            {
+              "id": "5",
+              "text": "В TIF_извлечени има a.tif и b.tif."
+            },
+            {
+              "id": "6",
+              "text": "Отделните папки помагат да пазим резултатите."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "feedback": "Извличаме избраните файлове на посоченото място, без непременно да променяме архива. За точно име и отделна папка задаваме съответния път."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "compare",
+        "step_content": {
+          "type": "information",
+          "title": "Сравняваме настройки и програми",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/compare.svg\" alt=\"Един оригинал: more.tif — 12 MB Три отделни архива: 4 MB / 3 MB / 2,8 MB Сравнение: Най-малък е more_max.zip в този тест\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Последните задачи предлагат един и същ файл да се архивира с различни степени на компресия и работата да се повтори с IZArc. В готовия пример използваме more.tif с размер <strong>12 MB</strong>. Всяка настройка има отделен резултат, за да могат да се сравнят.</p><p>Получени са more_fast.zip — 4 MB, more_normal.zip — 3 MB и more_max.zip — 2,8 MB. Най-малък е третият архив, но това е резултат за дадения файл и настройки, а не обещание за всички данни. По-силната компресия може да изисква повече време.</p><p>При друга програма имената на командите може да са различни. Общите действия остават: нов архив, избор на файлове и формат, стартиране, проверка; при извличане — избор на файлове и папка. Няма нужда да инсталираме IZArc тук, за да разпознаем тези общи действия.</p><table><tr><th>Готов архив</th><th>Размер</th></tr><tr><td>more_fast.zip</td><td>4 MB</td></tr><tr><td>more_normal.zip</td><td>3 MB</td></tr><tr><td>more_max.zip</td><td>2,8 MB</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "compare-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Какъв извод за трите настройки можеш да направиш от готовите резултати за more.tif?</p><p>Обясни в 3–4 изречения със свои думи и включи конкретните размери като пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "В дадения пример more_fast.zip е 4 MB, more_normal.zip е 3 MB, а more_max.zip е 2,8 MB. Най-малък е more_max.zip, затова при този файл и тези настройки той спестява най-много място. По-силната компресия може да изисква повече време. Това не доказва, че всеки друг файл ще се свие по същия начин. За самопроверка: сравни правилно числата и ограничи извода до дадения тест."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/archiving-data/illustrations/summary.svg\" alt=\"1: Архивът събира файлове, а резервното копие служи за възстановяване. 2: Извличането поставя съдържанието в избрана папка. 3: Компресията без загуба възстановява точно данните; със загуба премахва част от информацията. 4: Форматът и настройките имат значение. Различните файлове не се свиват еднакво. 5: Проверяваме съдържанието и пазим отделни оригинали и резултати.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Архивът събира файлове, а резервното копие служи за възстановяване.</strong></li><li><strong>Извличането поставя съдържанието в избрана папка.</strong></li><li><strong>Компресията без загуба възстановява точно данните; със загуба премахва част от информацията.</strong></li><li><strong>Форматът и настройките имат значение.</strong> Различните файлове не се свиват еднакво.</li><li><strong>Проверяваме съдържанието и пазим отделни оригинали и резултати.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "5ba2c3e0-e096-4e04-925a-bda9bb9b9c28"
+}

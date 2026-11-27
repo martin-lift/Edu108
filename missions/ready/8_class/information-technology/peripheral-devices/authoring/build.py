@@ -15,7 +15,7 @@ def wrap(body):
 def picture(key):
     im=IMAGES[key]
     credit=''
-    if im['license'] not in ('Public domain','CC0'):
+    if im['license'].lower() not in ('public domain','cc0'):
         credit=' · '+html.escape(im['author'])+' · <a href="'+html.escape(im['source'],quote=True)+'">източник</a> · <a href="'+html.escape(im['license_url'],quote=True)+'">'+html.escape(im['license'])+'</a>'
     return '<figure><img src="'+html.escape(im['url'],quote=True)+'" alt="'+html.escape(im['caption'],quote=True)+'"><figcaption>'+html.escape(im['caption'])+credit+'</figcaption></figure>'
 

@@ -1,0 +1,464 @@
+{
+  "mission_version": 4,
+  "mission_id": "1bbd0a82-0a4a-4319-8afd-2cdd10b7d973",
+  "mission_content": {
+    "title": "Създаване и интегриране на компонентите на сайт — упражнение",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Създаване и интегриране на компонентите на сайт — упражнение",
+    "description": "По урок 20, стр. 57, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/intro.svg\" alt=\"Тема: Създаване и интегриране на компонентите на сайт — упражнение Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Ще проследиш създаването на четиристраничен сайт „София“ с Wix: от началния профил и шаблон до собствено съдържание, страници и проверена публикация.</p><p>Готовите примери показват какво се променя след всяко действие. Не е необходимо да се регистрираш, да качваш лични снимки или да публикуваш сайт. Целта е да разбираш процеса, а не да помниш наизуст всички английски надписи.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "project",
+        "step_content": {
+          "type": "information",
+          "title": "Същият сайт, този път в онлайн редактор",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/project.svg\" alt=\"Проект: София: Начало, История, География, Храмове Инструмент: Wix — онлайн редактор Проверка: Последователен вид и работещи връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Задачата от учебника отново е сайт <strong>„София“</strong> с Начало, История, География и Храмове. Разликата е инструментът: използва се <strong>Wix</strong> през браузър, а не настолният Composer.</p><p>Онлайн редакторът предлага работно поле, страници и готови оформления. Ние подреждаме съдържанието, а платформата управлява много от техническите части. Това не премахва нуждата да мислим за текста, снимките и връзките.</p><p>В този урок проследяваме завършен учебен пример. Не е необходимо да създаваш профил или да публикуваш личен сайт. Показаните схеми обясняват действията, а действителният интерфейс може да се различава според версията на редактора.</p><div class=\"example\">Целта остава същата: посетителят да намира четири свързани теми с последователен вид. Красивият шаблон е начало, а не готово съдържание за София.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "project-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения отговарят на примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Онлайн редакторът работи през браузър."
+            },
+            {
+              "id": "2",
+              "text": "Съдържанието и навигацията пак трябва да се планират."
+            },
+            {
+              "id": "3",
+              "text": "Нужни са начална и три вътрешни страници."
+            },
+            {
+              "id": "4",
+              "text": "Отварянето на редактора непременно означава публикуван личен сайт."
+            },
+            {
+              "id": "5",
+              "text": "Готовият шаблон автоматично знае всички наши текстове и снимки."
+            },
+            {
+              "id": "6",
+              "text": "Темата е София."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Платформата е инструмент; целта, структурата и съдържанието остават наша задача. Шаблонът и отвореният редактор не са готова публикация."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "account",
+        "step_content": {
+          "type": "information",
+          "title": "Регистрация и вход: различни действия",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/account.svg\" alt=\"Sign Up: Създаване на профил Log In: Вход в съществуващ профил Посетител: Разглежда публикувания адрес\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Учебникът започва с отваряне на <strong>wix.com</strong>. <strong>Get Started</strong> насочва към начало на работа, <strong>Sign Up</strong> — към създаване на профил, а <strong>Log In</strong> — към вход в съществуващ профил.</p><p>Профилът е нужен, за да се съхранява проектът в платформата и да се управлява от своя автор. В готовата ситуация вече има подготвен учебен профил и се отваря неговият проект. Не е необходимо всеки читател на публичния сайт да има редакторски профил.</p><p>След вход платформата може да попита какъв сайт се създава, за име и допълнителни възможности. В примера от учебника част от въпросите могат да се пропуснат. Не бива само по въпросника да заключаваме, че проектът вече е завършен.</p><div class=\"example\">Входът отваря достъп до проекта на автора. Посетителят по-късно отваря публикувания адрес, за да разгледа сайта. Това са различни роли.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "account-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои разграничения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Попълнен въпросник гарантира готово проверено съдържание."
+            },
+            {
+              "id": "2",
+              "text": "Всеки посетител задължително трябва да редактира сайта."
+            },
+            {
+              "id": "3",
+              "text": "Sign Up е регистрация."
+            },
+            {
+              "id": "4",
+              "text": "Посетител и автор имат различни роли."
+            },
+            {
+              "id": "5",
+              "text": "Редакторският профил управлява проекта."
+            },
+            {
+              "id": "6",
+              "text": "Log In е вход."
+            }
+          ],
+          "correct_option_ids": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Регистрацията, входът и посещаването имат различни цели. Авторът подготвя проекта; посетителят вижда публикуваното съдържание."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "template",
+        "step_content": {
+          "type": "information",
+          "title": "Шаблонът е начална подредба",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/template.svg\" alt=\"Избор: Празен или подходящ начален шаблон Edit: Отваря редактора Промяна: Собствени заглавия, текстове и изображения\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p><strong>Шаблон</strong> е готова начална структура и оформление, което можем да променим. Учебникът показва избор на <strong>blank template</strong> — празен шаблон — и вариант <strong>Strip Header Layout</strong>. Важна е идеята за подредба с обща заглавна част, а не заучаването на един етикет.</p><p>В готовия пример е избран подходящ вариант и е натиснат <strong>Edit</strong>. Отваря се редакторът. В него вече може да има примерни текстове или празни места; те трябва да се заменят със съдържание за София.</p><p>Шаблонът не е същото като тема на урок. Той е техническо начало на страницата. Избираме го според нуждите на сайта: място за заглавие, меню, текст и изображения. Точните налични шаблони могат да се променят.</p><div class=\"example\">Ако началният вариант е за ресторант, не оставяме меню за храна в сайта за историята на София. Общият вид се приспособява към нашата цел.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "template-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения за шаблона са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Името на един шаблон гарантира вечна наличност във всички версии."
+            },
+            {
+              "id": "2",
+              "text": "Дава начална подредба."
+            },
+            {
+              "id": "3",
+              "text": "Edit отваря възможност за редакция в примера."
+            },
+            {
+              "id": "4",
+              "text": "Трябва да отговаря на нуждите на сайта."
+            },
+            {
+              "id": "5",
+              "text": "Може да бъде променян."
+            },
+            {
+              "id": "6",
+              "text": "Никога не изисква замяна на примерните надписи."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "feedback": "Шаблонът е начало, което се приспособява. Наличностите и интерфейсът могат да се изменят."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "customize",
+        "step_content": {
+          "type": "information",
+          "title": "Заменяме примерното съдържание",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/customize.svg\" alt=\"Преди: Примерен надпис и изображение След: София + подходящ собствен текст Стил: Четими цветове и обща подредба\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В редактора заглавието е сменено на <strong>София</strong>, а под него е поставено кратко представяне на града. Променени са фонът и цветовете така, че текстът да се чете ясно.</p><p>В описания в учебника класически редактор много елементи могат да се изберат и редактират чрез щракване или двукратно щракване. Но първо трябва да е избран правилният елемент — например заглавието, а не фонът зад него.</p><p>Персонализиране означава приспособяване към проекта. То не е само смяна на цвета: включва правилни текстове, изображения и подредба. Общият стил трябва да се запази и във вътрешните страници.</p><div class=\"example\">Преди: „Your Title Here“ и произволна снимка. След: „София“, собствено кратко описание и изображение, което представя града. Посетителят вече разбира каква е темата.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "customize-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои промени са подходящи?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Замяна на примерното заглавие."
+            },
+            {
+              "id": "2",
+              "text": "Оставяне на несвързани примерни реклами във всяка страница."
+            },
+            {
+              "id": "3",
+              "text": "Персонализиране означава само случайно сменяне на един цвят."
+            },
+            {
+              "id": "4",
+              "text": "Избор на правилния елемент преди редакция."
+            },
+            {
+              "id": "5",
+              "text": "Запазване на четим контраст."
+            },
+            {
+              "id": "6",
+              "text": "Добавяне на собствено тематично описание."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Приспособяването включва съдържание, вид и подредба. Точният избор на елемент предотвратява промени на грешно място."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "images",
+        "step_content": {
+          "type": "information",
+          "title": "Добавяме изображение и го проверяваме",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/images.svg\" alt=\"Качване: Файлът влиза в медийната библиотека Поставяне: Избраното изображение е в страницата Преглед: Размер, описание и зареждане\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><figure><img style=\"max-height:340px;object-fit:contain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg/960px-St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg\" alt=\"Снимка на храм „Свети Александър Невски“ за тематична страница.\"><figcaption>Снимка на храм „Свети Александър Невски“ за тематична страница. · Ignessa Mladenova · <a href=\"https://commons.wikimedia.org/wiki/File:St._Alexander_Nevsky_Cathedral,_Sofia.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>В стъпката за съдържание учебникът показва <strong>Add Elements → Image</strong>. За собствен графичен файл се използва <strong>Upload & Import → Upload Images</strong> или съответната команда за качване. Файлът може да се избере или да се постави в прозореца чрез влачене, когато това е поддържано.</p><p>В готовия пример е добавена подходяща снимка на храм към страницата Храмове. След качването тя трябва да бъде избрана и поставена в страницата — наличието ѝ в библиотеката не означава непременно, че вече се вижда в проекта.</p><p>Размерът е съобразен с полето, пропорциите са запазени и има смислено описание. Изображението трябва да се зарежда и в прегледа. За използваните материали се спазват нужните права и признания за авторство.</p><div class=\"example\">Пример: снимката е в медийната библиотека, но не е в страницата. Решението е да се постави на избраното място и да се провери изгледът, а не да се качва безкрайно още веднъж.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "images-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са разграничени правилно?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Поставянето добавя избраното изображение в страницата."
+            },
+            {
+              "id": "2",
+              "text": "Правото за използване няма значение за чужди изображения."
+            },
+            {
+              "id": "3",
+              "text": "Прегледът проверява видимия резултат."
+            },
+            {
+              "id": "4",
+              "text": "Качването добавя файла към библиотеката."
+            },
+            {
+              "id": "5",
+              "text": "Наличието в библиотеката винаги означава автоматично правилно място на всяка страница."
+            },
+            {
+              "id": "6",
+              "text": "Пазим пропорциите и смисленото описание."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Качване, поставяне и проверка са отделни действия. Изображението трябва да е подходящо и да се използва при съответните условия."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "pages",
+        "step_content": {
+          "type": "information",
+          "title": "Дублираме страница и сменяме темата",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/pages.svg\" alt=\"Дублиране: Запазва общата подредба Преименуване: История / География / Храмове Подмяна: Собствен текст и изображение във всяко копие\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Сайтът трябва да има четири страници. В примера е отворено менюто за страници и от контекстното меню на <strong>Home</strong> е избрано дублиране. Така новата страница наследява общата подредба.</p><p>Копието е преименувано на <strong>История</strong>. В него са сменени заглавието, основният текст и изображението. Следващите копия стават География и Храмове. Начало остава отделна страница с общо представяне.</p><p>Не е достатъчно да сменим само името в списъка. Ако текстът вътре продължава да е за друга тема, посетителят ще бъде объркан. Менюто трябва да показва точните страници и да води до тях.</p><table><tr><th>Страница</th><th>Собствено съдържание</th></tr><tr><td>Начало</td><td>Кратко представяне.</td></tr><tr><td>История</td><td>Историческа информация.</td></tr><tr><td>География</td><td>Място и околности.</td></tr><tr><td>Храмове</td><td>Тематични текстове и снимки.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "pages-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са необходими?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Оставяне на еднакъв случаен текст навсякъде."
+            },
+            {
+              "id": "2",
+              "text": "Проверка на менюто."
+            },
+            {
+              "id": "3",
+              "text": "Дублиране на подходящата подредба."
+            },
+            {
+              "id": "4",
+              "text": "Преименуване на новата страница."
+            },
+            {
+              "id": "5",
+              "text": "Изтриване на началната страница, защото вече има копие."
+            },
+            {
+              "id": "6",
+              "text": "Смяна на тематичния текст и изображение."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "feedback": "Копието пази вида, но съдържанието и навигацията трябва да отразяват новата тема. Начало има собствена роля."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "publish",
+        "step_content": {
+          "type": "information",
+          "title": "Преглед и публикуване са различни стъпки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/publish.svg\" alt=\"Preview: Проверка на проекта Publish: Достъпна уеб версия След промяна: Проверка и при нужда повторна публикация\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Преди публикация се отваря <strong>Preview — Преглед</strong>. Проверяват се страниците и връзките, текстът, снимките и подредбата. Грешките се поправят в редактора, а след това прегледът се повтаря.</p><p>В показания процес <strong>Publish — Публикувай</strong> прави сайта достъпен на уеб адрес. Самото записване на промяна в редактора не означава непременно, че посетителите вече виждат новата версия. След промени може да е нужно ново публикуване.</p><p>В готовия пример авторът е публикувал, после е отворил действителния адрес в браузъра. Там е проверено дали е достъпна правилната версия. Не публикуваме реален личен проект в тази мисия; сравняваме резултатите от двете действия.</p><div class=\"example\">Преди Publish виждаме проверена чернова. След успешна публикация посетител отваря уеб адреса. Това е разликата между изглед за работа и достъпна версия.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "publish-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои твърдения са верни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Preview помага за проверка."
+            },
+            {
+              "id": "2",
+              "text": "След промени може да е нужна нова публикация."
+            },
+            {
+              "id": "3",
+              "text": "Проверяваме и действителния адрес след публикацията."
+            },
+            {
+              "id": "4",
+              "text": "Щом началната страница е красива, останалите връзки не се проверяват."
+            },
+            {
+              "id": "5",
+              "text": "Всяка записана чернова автоматично е видима на всички посетители."
+            },
+            {
+              "id": "6",
+              "text": "Publish публикува достъпна версия."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "3",
+            "6"
+          ],
+          "feedback": "Редакторът, прегледът и публикуваната версия имат различни роли. Проверяват се всички страници и актуалността на публикацията."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "final-test",
+        "step_content": {
+          "type": "information",
+          "title": "Последна проверка: широк и тесен изглед",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/final-test.svg\" alt=\"Широк изглед: Четим Тесен изглед: Менюто е коригирано и се събира Връзки: Проверени между четирите страници\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Учебникът завършва с два важни съвета: сайтът да се разгледа и в мобилен изглед и да се изпробват функциите. За тази проверка не е задължително да притежаваш телефон — редакторският преглед и тесният прозорец могат да покажат част от проблемите.</p><p>В готовите наблюдения широкият изглед е четим. В тесния менюто първоначално закрива заглавието. След корекция менюто се събира, а текстът и снимките остават в рамките на екрана.</p><p>От Начало са отворени История, География и Храмове, а после е проверено връщането. Ако има форма за контакт, не е достатъчно да изглежда красиво: трябва да се провери очакваният резултат от изпращането в подходящата тестова среда. Проверка, която не е извършена, не се отбелязва като успешна.</p><div class=\"example\">В готовия сайт четирите страници и изображенията се отварят. Тесният изглед е поправен. Формуляр не е включен в този проект, затова не твърдим, че е тестван.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "final-test-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Какъв извод за готовността на сайта следва от показаните проверки?</p><p>Напиши 3–5 изречения със свои думи и използвай поправеното меню като конкретен пример.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Показаните проверки потвърждават, че четирите страници и изображенията се отварят. В тесния изглед менюто първоначално е закривало заглавието, но е поправено и проверено отново. Това е важна част от подготовката за публикация. Не твърдим, че е тествана форма за контакт, защото такава няма в проекта. За самопроверка: свържи извода с наблюденията, а не само с общо „сайтът е хубав“."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components-practice/illustrations/summary.svg\" alt=\"1: Онлайн редакторът е инструмент, а планът и съдържанието са наши решения. 2: Шаблонът се приспособява чрез собствени текстове, изображения и стил. 3: Дублираните страници пазят общия вид, но получават собствена тема. 4: Преглед, запис и публикация са различни действия. 5: Проверяваме връзки, изображения, тесен изглед и наличните функции.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Онлайн редакторът е инструмент, а планът и съдържанието са наши решения.</strong></li><li><strong>Шаблонът се приспособява чрез собствени текстове, изображения и стил.</strong></li><li><strong>Дублираните страници пазят общия вид, но получават собствена тема.</strong></li><li><strong>Преглед, запис и публикация са различни действия.</strong></li><li><strong>Проверяваме връзки, изображения, тесен изглед и наличните функции.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": null
+}

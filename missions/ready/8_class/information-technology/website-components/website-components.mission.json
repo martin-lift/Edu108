@@ -1,0 +1,578 @@
+{
+  "mission_version": 4,
+  "mission_id": "7f37abdc-acbe-43a0-9a0d-a0115a1f158b",
+  "mission_content": {
+    "title": "Създаване и интегриране на компонентите на сайт",
+    "class_name": "8. клас",
+    "subject": "Информационни технологии",
+    "category": "Мисия за стандартен урок",
+    "lesson": "Създаване и интегриране на компонентите на сайт",
+    "description": "По урок 19, стр. 54–56, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.",
+    "content_format": "html",
+    "steps": [
+      {
+        "id": "intro",
+        "step_content": {
+          "type": "information",
+          "title": "За какво е този урок?",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/intro.svg\" alt=\"Тема: Създаване и интегриране на компонентите на сайт Как ще учим: Разглеждаме обяснения, ситуации и готови примери. Резултат: Обясняваме решенията със свои думи и проверяваме разбирането.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Ще проследиш цялостен сайт „София“ от четири страници. Общите части ще се запазят, а основният текст и снимките ще се сменят според темата.</p><p>Ще видиш конкретните настройки от учебника, готовите имена на файлове и начина за свързването им. Не е необходимо да разполагаш с файловете от учебното приложение или да инсталираш Composer, за да преминеш мисията.</p></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "project",
+        "step_content": {
+          "type": "information",
+          "title": "Сайт „София“: четири страници с обща подредба",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/project.svg\" alt=\"Четири страници: Начало / История / География / Храмове Общи части: Заглавна част, меню, съдържание, автор Работна папка: HTML файлове + pictures\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В този урок събираме отделните елементи в цял сайт. Темата е <strong>София</strong>. Нужни са начална страница и три вътрешни: <strong>История, География и Храмове</strong>. Всяка има собствен HTML файл.</p><p>Страниците имат четири общи части: заглавна част, навигация, основно съдържание и информация за автора и годината. Общото подреждане помага на посетителя да се ориентира, когато премине към друга страница.</p><p>Учебникът предлага готови текстове и картинки в папка website. В нашия пример необходимите имена, настройки и кратки текстове са дадени в мисията. Използваните тук изображения са отделни лицензирани илюстрации, а не файлове, които трябва вече да притежаваш.</p><div class=\"example\">Работната папка съдържа index.html, history.html, geography.html и cathedrals.html, както и подпапка pictures за изображения. Подредбата е важна за правилните връзки.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "project-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения отговарят на проекта?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Единствено една снимка без никакво съдържание или структура."
+            },
+            {
+              "id": "2",
+              "text": "Изтриване на всички връзки във вътрешните страници."
+            },
+            {
+              "id": "3",
+              "text": "Начална страница и три вътрешни."
+            },
+            {
+              "id": "4",
+              "text": "Обща навигация."
+            },
+            {
+              "id": "5",
+              "text": "Подредена папка за изображенията."
+            },
+            {
+              "id": "6",
+              "text": "Отделен HTML файл за всяка страница."
+            }
+          ],
+          "correct_option_ids": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Проектът съчетава четири свързани страници, обща структура и подредени ресурси. Самата снимка не изгражда целия сайт."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "home",
+        "step_content": {
+          "type": "information",
+          "title": "Подготвяме началната страница",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/home.svg\" alt=\"Файл: index.html Title / Author: София / Учебен екип Save → Preview / Browse: Преглед на актуалните промени\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В готовия пример в Composer е отворена празна страница и е записана като <strong>index.html</strong>. Името позволява началната страница да бъде разпознавана лесно, а записването в общата работна папка пази относителните пътища подредени.</p><p>В <strong>Format → Page Title and Properties</strong> са зададени Title „София“, Author „Учебен екип“ и кратко Description „История, география и храмове на София“. Полето за описание е смислен текст за съдържанието, а не произволни повторения.</p><p>В <strong>Format → Page Colors and Background</strong> са избрани четим фон и цветове на връзките. В задачата цветовете на обикновена, активна и посетена връзка са еднакви; в нашия пример връзките остават разпознаваеми чрез ясния надпис и подчертаване.</p><p>При преглед с Preview или Browse първо се записват промените, за да се гледа актуалната версия.</p><div class=\"example\">Резултатът е подготвен местен файл с общите свойства. Той още не е автоматично публикуван в интернет.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "home-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са част от примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Приемане, че Save автоматично публикува в интернет."
+            },
+            {
+              "id": "2",
+              "text": "Използване на Description само като място за произволни несвързани думи."
+            },
+            {
+              "id": "3",
+              "text": "Записване като index.html."
+            },
+            {
+              "id": "4",
+              "text": "Избор на четим фон и разпознаваеми връзки."
+            },
+            {
+              "id": "5",
+              "text": "Записване преди преглед в браузъра."
+            },
+            {
+              "id": "6",
+              "text": "Задаване на Title и описание."
+            }
+          ],
+          "correct_option_ids": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Записването и общите свойства подготвят страницата. Прегледът трябва да използва актуалното копие; публикацията е отделно действие."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "layout",
+        "step_content": {
+          "type": "information",
+          "title": "Таблицата подрежда общия изглед",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/layout.svg\" alt=\"Размер: 2 реда × 3 колони; ширина 1000 px Разстояния: Spacing 10; Padding 5; Border 0 Горна част: Височина 150 px; крайни колони по 200 px\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Условието използва таблица с <strong>2 реда и 3 колони</strong>, общо 6 клетки. Ширината е <strong>1000 пиксела</strong>, без видима рамка. Това е зададената учебна подредба, а не универсално решение за всички съвременни екрани.</p><p>В Table Properties са избрани центриране, сив фон, <strong>Spacing 10</strong> и <strong>Padding 5</strong>. Първото е разстояние между клетките, второто — място между текста и ръба на клетката.</p><p>Първият ред е висок <strong>150 пиксела</strong>. Първата и третата колона са широки по <strong>200 пиксела</strong>. Средната част е за основното заглавие и текст; действителното ѝ пространство зависи и от разстоянията. Вторият ред трябва да побира своето съдържание.</p><div class=\"example\">Фиксираната ширина е прегледана и в тесен прозорец. Ако не се събира, това е ограничение на примера. Съвременен адаптивен сайт обикновено използва CSS за подредбата и приспособяването.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "layout-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои настройки са разтълкувани правилно?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "2 × 3 означава шест клетки."
+            },
+            {
+              "id": "2",
+              "text": "Border 0 означава без видима рамка."
+            },
+            {
+              "id": "3",
+              "text": "1000 пиксела гарантира удобно събиране на всеки телефон."
+            },
+            {
+              "id": "4",
+              "text": "200 пиксела означава двеста отделни вътрешни страници."
+            },
+            {
+              "id": "5",
+              "text": "Padding 5 е място между текста и ръба."
+            },
+            {
+              "id": "6",
+              "text": "Spacing 10 е място между клетките."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "5",
+            "6"
+          ],
+          "feedback": "Числата описват конкретната таблица и разстоянията. Фиксираната ширина не гарантира удобство при всеки екран."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "header",
+        "step_content": {
+          "type": "information",
+          "title": "Заглавната част остава еднаква",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/header.svg\" alt=\"Лява клетка: Герб Средна клетка: СОФИЯ; „Расте, но не старее“ Дясна клетка: Изображение на статуята\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><figure><img style=\"max-height:340px;object-fit:contain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Sofia_COA.svg/960px-Sofia_COA.svg.png\" alt=\"Гербът на София — пример за изображение в заглавната част.\"><figcaption>Гербът на София — пример за изображение в заглавната част. · Ssolbergj · <a href=\"https://commons.wikimedia.org/wiki/File:Sofia_COA.svg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a></figcaption></figure><figure><img style=\"max-height:340px;object-fit:contain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Bulgaria-02871_-_Saint_Sofia.jpg/960px-Bulgaria-02871_-_Saint_Sofia.jpg\" alt=\"Статуята на София — изображение за представяне на града.\"><figcaption>Статуята на София — изображение за представяне на града. · Dennis G. Jarvis · <a href=\"https://commons.wikimedia.org/wiki/File:Bulgaria-02871_-_Saint_Sofia.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a></figcaption></figure><p>Първият ред служи като обща заглавна част на четирите страници. В първата клетка в примера се поставя изображение на герба, в средната — <strong>СОФИЯ</strong> и девизът <strong>„Расте, но не старее“</strong>, а в третата — изображение на статуята на София.</p><p>В материалите от учебника тези файлове са наречени gerb.png и sv_sofia.png. Важна е връзката между избрания графичен файл и мястото му в страницата, а не самото име. Чрез Insert → Image се посочва съответният файл и се дава смислен алтернативен текст.</p><p>В Cells текстът и изображенията са центрирани по хоризонтала и вертикала. Размерите са съобразени с клетките, а пропорциите на изображенията са запазени. Заглавната част не се измисля наново на всяка страница.</p><div class=\"example\">Когато посетителят отиде от Начало към История, същата горна част му показва, че още е в сайта „София“.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "header-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Смяната на страница изисква непременно нов несвързан герб."
+            },
+            {
+              "id": "2",
+              "text": "Общата заглавна част е еднаква на страниците."
+            },
+            {
+              "id": "3",
+              "text": "Изображенията задължително се разтягат непропорционално, за да запълнят всяко пространство."
+            },
+            {
+              "id": "4",
+              "text": "Даваме смислен алтернативен текст."
+            },
+            {
+              "id": "5",
+              "text": "Центрирането може да бъде и хоризонтално, и вертикално."
+            },
+            {
+              "id": "6",
+              "text": "Изображенията се вмъкват като файлове с правилен път."
+            }
+          ],
+          "correct_option_ids": [
+            "2",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Последователният изглед, правилните пътища и пропорционалните изображения правят заглавната част разпознаваема."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "home-content",
+        "step_content": {
+          "type": "information",
+          "title": "Меню, основен текст и допълнителни връзки",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/home-content.svg\" alt=\"Лява клетка: Основно меню Средна клетка: Представяне, текст и изображение Дясна / долна част: Допълнителни връзки / автор и година\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Във втория ред на таблицата лявата клетка съдържа меню: <strong>Начало, История, География, Храмове</strong>. Средната клетка е за основния текст и изображение. В дясната се поставят допълнителни външни връзки, например към Столична община и страница за София в енциклопедия.</p><p>В готовия пример основният текст започва: „София е столицата на България. Сайтът представя накратко историята, географското положение и някои храмове на града.“ Това е собствен кратък учебен текст, който заменя зависимостта от липсващия index.doc.</p><p>Под основното съдържание е поставена информация за учебния автор и годината. Менюто се отделя визуално от текста, за да не се търсят връзките между абзаците.</p><div class=\"example\">Ако посетителят иска история, избира История в лявото меню. Ако иска официална общинска информация, използва външната връзка. Двете посоки имат различна цел.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "home-content-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои елементи са поставени според плана?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Основният текст в централната част."
+            },
+            {
+              "id": "2",
+              "text": "Всички връзки скрити без надписи."
+            },
+            {
+              "id": "3",
+              "text": "Основният текст е заменен единствено с името на инсталационния файл."
+            },
+            {
+              "id": "4",
+              "text": "Допълнителни външни връзки отделно от менюто."
+            },
+            {
+              "id": "5",
+              "text": "Основното меню в лявата част."
+            },
+            {
+              "id": "6",
+              "text": "Автор и година в допълнителната долна част."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "4",
+            "5",
+            "6"
+          ],
+          "feedback": "Подредбата разделя навигация, съдържание и допълнителна информация. Ясните надписи помагат да се избере правилната посока."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "inner-pages",
+        "step_content": {
+          "type": "information",
+          "title": "Създаваме вътрешните страници",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/inner-pages.svg\" alt=\"Копираме: Общата структура Сменяме: Title, основен текст и изображение Пазим: Три отделни вътрешни HTML файла\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>След началната страница са подготвени <strong>history.html</strong>, <strong>geography.html</strong> и <strong>cathedrals.html</strong>. В примера имената са на латиница и са точно еднакви навсякъде, където се използват.</p><p>За общата подредба е отворен index.html. Чрез <strong>Table → Select → Table</strong> таблицата е избрана и копирана в новата страница. Общата заглавна част и менюто остават; основният текст и снимката се сменят според темата.</p><p>Title също се променя: „София — история“, „София — география“ или „София — храмове“. Копирането не бива да остави навсякъде едно и също заглавие и съдържание. След редакцията всеки файл се записва отделно.</p><table><tr><th>Файл</th><th>Собствено съдържание</th></tr><tr><td>history.html</td><td>Историческо представяне; например антична Сердика.</td></tr><tr><td>geography.html</td><td>Софийското поле и близостта до Витоша.</td></tr><tr><td>cathedrals.html</td><td>Кратко представяне на храмове.</td></tr></table></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "inner-pages-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои действия са правилни?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Запазваме отделен файл за всяка тема."
+            },
+            {
+              "id": "2",
+              "text": "Използваме еднакви точни имена в файловете и връзките."
+            },
+            {
+              "id": "3",
+              "text": "Изтриваме менюто само от вътрешните страници."
+            },
+            {
+              "id": "4",
+              "text": "Променяме основния текст и Title."
+            },
+            {
+              "id": "5",
+              "text": "Оставяме всички страници с еднакъв случаен текст независимо от темата."
+            },
+            {
+              "id": "6",
+              "text": "Копираме общото оформление."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "6"
+          ],
+          "feedback": "Копирането пази общата структура, но тематичното съдържание и заглавието трябва да се обновят. Имената трябва да съвпадат с връзките."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "text-image",
+        "step_content": {
+          "type": "information",
+          "title": "Текстът и снимката работят заедно",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/text-image.svg\" alt=\"История: Свързан текст и изображение за Сердика Wrap to the left: Текст отляво на изображението Appearance: Разстояние 5 px; без рамка\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><figure><img style=\"max-height:340px;object-fit:contain\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg/960px-St._Alexander_Nevsky_Cathedral%2C_Sofia.jpg\" alt=\"Храм „Свети Александър Невски“ — пример за съдържание на страницата „Храмове“.\"><figcaption>Храм „Свети Александър Невски“ — пример за съдържание на страницата „Храмове“. · Ignessa Mladenova · <a href=\"https://commons.wikimedia.org/wiki/File:St._Alexander_Nevsky_Cathedral,_Sofia.jpg\">източник</a> · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a></figcaption></figure><p>В страницата за историята учебникът използва текст от history.doc и изображение serdica.png. В готовия пример описваме антична Сердика и показваме къде би стояла подходяща снимка. Двете трябва да се отнасят за една и съща тема.</p><p>В <strong>Image Properties → Appearance</strong> е избрано <strong>Wrap to the left</strong>: текстът се разполага отляво на изображението. Около снимката са оставени <strong>5 пиксела</strong>, без рамка. Това разстояние пази буквите от залепване за ръба.</p><p>По същия начин се оформят географията и храмовете с подходящи собствени текстове и изображения. Шрифтът, цветовете и основните размери остават последователни. Допълнителен материал се включва след проверка на точността и правото за използване.</p><div class=\"example\">За Храмове е подходяща снимка на храм, а не произволна графика от друга тема. Връзката между текст и изображение е по-важна от броя снимки.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "text-image-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои решения отговарят на примера?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Изображението е свързано с темата на текста."
+            },
+            {
+              "id": "2",
+              "text": "Оставя се разстояние до буквите."
+            },
+            {
+              "id": "3",
+              "text": "Произволна несвързана снимка винаги е по-полезна от подходяща."
+            },
+            {
+              "id": "4",
+              "text": "Общият стил се пази между страниците."
+            },
+            {
+              "id": "5",
+              "text": "Проверяват се допълнителните материали."
+            },
+            {
+              "id": "6",
+              "text": "Wrap to the left означава деинсталиране на редактора."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Видът и съдържанието трябва да се подкрепят. Разстоянието и стилът улесняват четенето; командата определя разположението, а не инсталирането."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "internal-links",
+        "step_content": {
+          "type": "information",
+          "title": "Свързваме вътрешните страници",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/internal-links.svg\" alt=\"История: history.html География / Храмове: geography.html / cathedrals.html Проверка: Всички връзки от всяка страница\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>В страницата index.html текстът <strong>История</strong> е маркиран и чрез <strong>Insert → Link</strong> е отворен Link Properties. С Choose File е избран <strong>history.html</strong>, след което изборът е потвърден.</p><p>Същото е направено за География → geography.html и Храмове → cathedrals.html. Начало води към index.html. Това са връзки между файловете в общата работна папка. Те не трябва да сочат към чужда случайна папка само на компютъра на автора.</p><p>Менюто е поставено и проверено във всяка от четирите страници. Когато от История изберем Храмове, трябва да се отвори правилният тематичен файл; връщането към Начало също трябва да работи.</p><table><tr><th>Видим надпис</th><th>Цел</th></tr><tr><td>Начало</td><td>index.html</td></tr><tr><td>История</td><td>history.html</td></tr><tr><td>География</td><td>geography.html</td></tr><tr><td>Храмове</td><td>cathedrals.html</td></tr></table><div class=\"example\">Надписът и целта са различни неща. Красивият надпис не поправя грешен адрес, затова проверяваме с реално отваряне след запис.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "internal-links-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои връзки са правилни за проекта?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "История → history.html."
+            },
+            {
+              "id": "2",
+              "text": "Храмове → случайния инсталационен файл."
+            },
+            {
+              "id": "3",
+              "text": "География → geography.html."
+            },
+            {
+              "id": "4",
+              "text": "Менюто трябва да работи само на началната страница."
+            },
+            {
+              "id": "5",
+              "text": "Начало → index.html."
+            },
+            {
+              "id": "6",
+              "text": "Храмове → cathedrals.html."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "3",
+            "5",
+            "6"
+          ],
+          "feedback": "Всяка връзка трябва да води към конкретния тематичен файл. Менюто е необходимо и във вътрешните страници."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "external-links",
+        "step_content": {
+          "type": "information",
+          "title": "Външни връзки и цялостна проверка",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/external-links.svg\" alt=\"Вътрешна връзка: history.html — наш файл Външна връзка: https://www.sofia.bg/ — друг сайт Проверка: Четири страници, изображения и всички връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>За <strong>Столична община</strong> в готовия пример е използван официалният адрес <strong>https://www.sofia.bg/</strong>. При външна връзка в Link Location се задава пълният уеб адрес. Връзката към енциклопедична страница за София има друг адрес и друга цел.</p><p>Адресът се взема от действителната страница, а не се измисля по надписа. Външният сайт може да се променя, затова връзките се проверяват и при поддръжката. За вътрешните връзки се проверяват нашите четири файла.</p><p>В края е прегледан целият проект: заглавия, меню, изображения, автор, година, фон и четимост. Отворени са всички връзки, а изображение с липсващ път е поправено. Само началната страница не е достатъчна проверка.</p><div class=\"example\">Готов резултат: четири подредени и свързани местни страници. Това е учебният сайт за преглед; публикуването в интернет е отделна следваща дейност.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "external-links-check",
+        "step_content": {
+          "type": "multiple_choice",
+          "title": "Провери разбирането си",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Кои проверки са подходящи?</p><p><strong>Избери всички верни отговори.</strong></p></body></html>",
+          "instruction_format": "html",
+          "options": [
+            {
+              "id": "1",
+              "text": "Пълният адрес на външната връзка."
+            },
+            {
+              "id": "2",
+              "text": "Зареждането на изображенията."
+            },
+            {
+              "id": "3",
+              "text": "Приемане, че всеки местен файл вече е публикуван."
+            },
+            {
+              "id": "4",
+              "text": "Отварянето на всички вътрешни страници."
+            },
+            {
+              "id": "5",
+              "text": "Съответствието между надпис и цел."
+            },
+            {
+              "id": "6",
+              "text": "Само цветът на началната страница."
+            }
+          ],
+          "correct_option_ids": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "feedback": "Проверяваме адреси, съдържание и ресурси в целия проект. Местният работещ сайт още не е непременно публичен."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "personal",
+        "step_content": {
+          "type": "information",
+          "title": "Прилагаме общия план към друга тема",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/personal.svg\" alt=\"Нова тема: Клуб по рисуване Страници: Начало, Дейности, Галерия, Контакти Пазим подхода: Общ вид + собствено съдържание + проверени връзки\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><p>Заключителната задача предлага личен сайт или тема по избор. Подходът не се променя само защото вместо София представяме училищен клуб. Първо избираме целта и нужните страници, после обща подредба и свързано съдържание.</p><p>В готовия нов план темата е „Клуб по рисуване“. Началната страница представя клуба. Вътрешните страници са Дейности, Галерия и Контакти. Общата заглавна част и менюто остават на всички страници, а текстът и снимките са за конкретната тема.</p><p>Шаблонът може да даде начало, но не замества проверката. Нужни са собствени заглавия, подходящи изображения, правилни връзки и четимост. Празните примерни надписи от шаблона се заменят със смислено съдържание.</p><div class=\"example\">Така от готовата схема за четири страници се получава нов последователен план, без да се копират несвързани сведения за София.</div></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      },
+      {
+        "id": "personal-check",
+        "step_content": {
+          "type": "open_answer",
+          "title": "Обясни със свои думи",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><p>Как би приспособил общата структура за сайта „Клуб по рисуване“?</p><p>Опиши един свързан план в 4–6 изречения със свои думи и дай пример за вътрешна връзка.</p></body></html>",
+          "instruction_format": "html",
+          "reference_answer": "Началната страница представя клуба по рисуване. Добавям вътрешни страници Дейности, Галерия и Контакти. Всички използват една заглавна част и едно меню, но имат собствен текст и подходящи снимки. Например връзката „Галерия“ води към gallery.html. Накрая проверявам връзките и изображенията във всяка страница. За самопроверка: включи общ вид, собствено съдържание и пример за правилна връзка; възможни са и други обосновани планове."
+        },
+        "step_rules": {
+          "automatic_feedback": true,
+          "send_progress": true,
+          "ai_feedback": false
+        }
+      },
+      {
+        "id": "summary",
+        "step_content": {
+          "type": "information",
+          "title": "Най-важното от урока",
+          "instruction": "<!doctype html><html lang=\"bg\"><head><meta charset=\"utf-8\"><style>body{font:19px/1.65 Arial,\"Segoe UI\",sans-serif;color:#20354c;background:white;margin:0;padding:24px;max-width:960px;box-sizing:border-box}p{margin:16px 0}h3{font-size:24px;color:#146b80}strong{color:#155e75}li{margin:9px 0}figure{margin:20px 0;padding:14px;background:#f1f7fa;border:1px solid #dce7ee;border-radius:14px;text-align:center}figure img{display:block;width:100%;height:auto;margin:auto}figcaption{font-size:13px;line-height:1.45;color:#52687d;margin-top:9px}.key,.example{padding:16px 20px;border-radius:9px;margin:20px 0}.key{background:#e7f5ef;border-left:5px solid #269378}.example{background:#fff3db;border-left:5px solid #e4ad3b}table{width:100%;border-collapse:collapse;font-size:17px}td,th{border:1px solid #c9dce5;padding:10px;text-align:left;vertical-align:top}th{background:#e6f0f6}a{color:#126797;overflow-wrap:anywhere}code{font:17px Consolas,monospace;overflow-wrap:anywhere;background:#edf3f8;padding:2px 4px}pre{white-space:pre-wrap;background:#edf3f8;padding:14px;border-radius:8px;overflow-wrap:anywhere}@media(max-width:550px){body{padding:14px}td,th{font-size:15px;padding:7px}}</style></head><body><figure><img src=\"https://raw.githubusercontent.com/martin-lift/Edu108/main/missions/ready/8_class/information-technology/website-components/illustrations/summary.svg\" alt=\"1: Четирите страници имат обща заглавна част и меню. 2: Всяка тема има собствен файл, заглавие, текст и изображения. 3: Таблицата от примера подрежда елементите чрез конкретни размери и разстояния. 4: Вътрешната връзка води към наш файл, външната — към друг уеб адрес. 5: Проверяваме всички страници и ресурси, преди да смятаме проекта за готов.\"><figcaption>Учебна схема с готови данни за разглеждане.</figcaption></figure><ul><li><strong>Четирите страници имат обща заглавна част и меню.</strong></li><li><strong>Всяка тема има собствен файл, заглавие, текст и изображения.</strong></li><li><strong>Таблицата от примера подрежда елементите чрез конкретни размери и разстояния.</strong></li><li><strong>Вътрешната връзка води към наш файл, външната — към друг уеб адрес.</strong></li><li><strong>Проверяваме всички страници и ресурси, преди да смятаме проекта за готов.</strong></li></ul></body></html>",
+          "instruction_format": "html"
+        },
+        "step_rules": {}
+      }
+    ]
+  },
+  "mission_rules": {
+    "allow_back_navigation": true,
+    "show_progress_panel": true
+  },
+  "next_mission_id": "1bbd0a82-0a4a-4319-8afd-2cdd10b7d973"
+}

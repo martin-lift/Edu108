@@ -52,7 +52,8 @@ def build(number,slug,title,pages,intro,topics,summary,coverage,sources,notes=''
  def information(sid,heading,body,rows):
   make_svg('Проследи примера',rows,dest/'illustrations'/f'{sid}.svg')
   caption='Учебна схема с готови данни за разглеждане.'
-  image='<figure><img src="'+URL+slug+'/illustrations/'+sid+'.svg" alt="'+html.escape(' '.join(a+': '+b for a,b in rows),quote=True)+'"><figcaption>'+caption+'</figcaption></figure>'
+  suffix='?v=2' if sid=='summary' else ''
+  image='<figure><img src="'+URL+slug+'/illustrations/'+sid+'.svg'+suffix+'" alt="'+html.escape(' '.join(a+': '+b for a,b in rows),quote=True)+'"><figcaption>'+caption+'</figcaption></figure>'
   steps.append({'id':sid,'step_content':{'type':'information','title':heading,'instruction':wrap(image+body),'instruction_format':'html'},'step_rules':{}})
  information('intro','За какво е този урок?',intro,[('Тема',title),('Как ще учим','Разглеждаме обяснения, ситуации и готови примери.'),('Резултат','Обясняваме решенията със свои думи и проверяваме разбирането.')])
  for topic in topics:
@@ -66,7 +67,19 @@ def build(number,slug,title,pages,intro,topics,summary,coverage,sources,notes=''
    sc={'type':'open_answer','title':'Обясни със свои думи','instruction':wrap(P(c['question'],c['guide'])),'instruction_format':'html','reference_answer':c['answer']}
   steps.append({'id':topic['id']+'-check','step_content':sc,'step_rules':{'automatic_feedback':True,'send_progress':True,'ai_feedback':False}})
  assert 1<=len(summary)<=5
- information('summary','Най-важното от урока','<ul>'+''.join('<li>'+s+'</li>' for s in summary)+'</ul>',[(str(i+1),s.replace('<strong>','').replace('</strong>','')) for i,s in enumerate(summary)])
+ summary_cases={
+ 11:[('Инсталиране','Добавяме програмата.'),('End Task','Спираме текущата работа.'),('Деинсталиране','Премахваме програмата.')],
+ 12:[('За цялата задача','Самоучител с последователни действия.'),('За отделна команда','Справка в помощната система.')],
+ 13:[('Три файла','Събираме ги в arhiv.zip.'),('Извличане','Получаваме ги в избраната папка.')],
+ 14:[('Само една част','Липсващите части пречат на извличането.'),('Пълен комплект','Събираме частите и извличаме.')],
+ 15:[('Pirin + Rila','Шест файла в planini.zip.'),('Добавени задачи','Осем файла в arhiv.zip.')],
+ 16:[('HTML','Кое е заглавието и кое е абзацът?'),('CSS','Какъв е цветът и размерът?'),('Браузър','Показва резултата.')],
+ 17:[('Аудитория','Ученици търсят график.'),('Решение','Ясна връзка към тренировките.'),('Поддръжка','Поправяме променения час.')],
+ 18:[('Редактиране','Текст, изображения, подредба и връзки.'),('Запис и Browse','Проверяваме действителния резултат.')],
+ 19:[('Четири страници','Една обща заглавна част и меню.'),('Собствена тема','Различни текстове и изображения.')],
+ 20:[('Шаблон → редакция','Приспособяваме за София.'),('Преглед → публикация','Проверяваме и после даваме уеб достъп.')]
+ }
+ information('summary','Най-важното от урока','<ul>'+''.join('<li>'+s+'</li>' for s in summary)+'</ul>',summary_cases[number])
  mission={'mission_version':4,'mission_id':ids[str(number)]['mission_id'],'mission_content':{'title':title,'class_name':'8. клас','subject':'Информационни технологии','category':'Мисия за стандартен урок','lesson':title,'description':f'По урок {number}, стр. {pages}, Домино, ИТ за 8. клас. Самостоятелни обяснения и завършени примери в реда на учебника.','content_format':'html','steps':steps},'mission_rules':{'allow_back_navigation':True,'show_progress_panel':True}}
  mission['next_mission_id']=ids.get(str(number+1),{}).get('mission_id')
  (dest/(slug+'.mission.json')).write_text(json.dumps(mission,ensure_ascii=False,indent=2)+'\n','utf-8')
